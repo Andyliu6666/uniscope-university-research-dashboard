@@ -31,7 +31,11 @@ export function Layout() {
               {label}
             </NavLink>
           ))}
-          <a href="https://github.com/Andyliu6666/uniscope-university-research-dashboard" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Andyliu6666/uniscope-university-research-dashboard"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Github size={16} /> GitHub
           </a>
         </nav>
