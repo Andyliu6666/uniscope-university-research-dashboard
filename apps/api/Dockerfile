@@ -10,9 +10,13 @@ COPY packages/shared packages/shared
 RUN pnpm --filter @urd/api build
 
 FROM node:24-alpine
-RUN corepack enable
+RUN corepack enable \
+  && addgroup -S app \
+  && adduser -S app -G app
 WORKDIR /app
 COPY --from=build /app /app
+RUN chown -R app:app /app
+USER app
 ENV NODE_ENV=production
 EXPOSE 3001
 CMD ["sh", "-c", "pnpm --filter @urd/api db:migrate && pnpm --filter @urd/api start"]

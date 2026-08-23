@@ -15,6 +15,12 @@ services:
       interval: 5s
       timeout: 5s
       retries: 10
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '3'
 
   api:
     build:
@@ -24,24 +30,46 @@ services:
       DATABASE_URL: postgresql://${POSTGRES_USER:-urd}:${POSTGRES_PASSWORD:-change-me-in-production}@db:5432/${POSTGRES_DB:-university_dashboard}
       PORT: 3001
       HOST: 0.0.0.0
-      WEB_ORIGIN: http://localhost:5173
+      WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:5173}
       ADMIN_KEY: ${ADMIN_KEY:-local-development-only}
     ports:
       - '3001:3001'
     depends_on:
       db:
         condition: service_healthy
+    healthcheck:
+      test: ['CMD', 'wget', '-qO-', 'http://127.0.0.1:3001/health']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '3'
 
   web:
     build:
       context: .
       dockerfile: apps/web/Dockerfile
-      args:
-        VITE_API_URL: http://localhost:3001
     ports:
       - '5173:80'
     depends_on:
-      - api
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -qO- http://localhost/healthz || exit 1']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '3'
 
 volumes:
   postgres_data:

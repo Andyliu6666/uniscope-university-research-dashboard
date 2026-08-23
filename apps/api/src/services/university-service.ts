@@ -9,6 +9,9 @@ import type { Database } from '../db/client.js';
 import { deadlines, programs, sources, universities } from '../db/schema.js';
 
 type UniversityRow = typeof universities.$inferSelect;
+type Tx = Parameters<Parameters<Database['transaction']>[0]>[0];
+
+const escapeLike = (value: string) => value.replace(/[\\%_]/g, (char) => `\\${char}`);
 
 const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[]> => {
   if (rows.length === 0) return [];
@@ -46,9 +49,9 @@ export const listUniversities = async (
   const filters = [
     query.q
       ? or(
-          ilike(universities.name, `%${query.q}%`),
-          ilike(universities.city, `%${query.q}%`),
-          ilike(universities.country, `%${query.q}%`),
+          ilike(universities.name, `%${escapeLike(query.q)}%`),
+          ilike(universities.city, `%${escapeLike(query.q)}%`),
+          ilike(universities.country, `%${escapeLike(query.q)}%`),
         )
       : undefined,
     query.country ? eq(universities.country, query.country) : undefined,
@@ -89,44 +92,45 @@ export const getUniversity = async (db: Database, slug: string) => {
   return (await hydrate(db, rows))[0] ?? null;
 };
 
-export const createUniversity = async (db: Database, input: UniversityInput) =>
-  db.transaction(async (tx) => {
-    const [row] = await tx
-      .insert(universities)
-      .values({
-        ...input,
-        acceptanceRate: input.acceptanceRate?.toString(),
-        programs: undefined,
-        deadlines: undefined,
-        sources: undefined,
-      } as never)
-      .returning();
-    if (!row) throw new Error('University insert failed');
-    await Promise.all([
-      input.programs.length
-        ? tx
-            .insert(programs)
-            .values(input.programs.map((item) => ({ ...item, universityId: row.id })))
-        : Promise.resolve(),
-      input.deadlines.length
-        ? tx
-            .insert(deadlines)
-            .values(input.deadlines.map((item) => ({ ...item, universityId: row.id })))
-        : Promise.resolve(),
-      tx.insert(sources).values(
-        input.sources.map((item) => ({
-          ...item,
-          universityId: row.id,
-          verifiedAt: new Date(item.verifiedAt),
-        })),
-      ),
-    ]);
-    return row.slug;
-  });
-
-export const upsertUniversity = async (db: Database, input: UniversityInput) => {
-  await db.delete(universities).where(eq(universities.slug, input.slug));
-  return createUniversity(db, input);
+const insertUniversity = async (tx: Tx, input: UniversityInput) => {
+  const {
+    programs: programInputs,
+    deadlines: deadlineInputs,
+    sources: sourceInputs,
+    ...core
+  } = input;
+  const [row] = await tx
+    .insert(universities)
+    .values({ ...core, acceptanceRate: input.acceptanceRate?.toString() })
+    .returning();
+  if (!row) throw new Error('University insert failed');
+  await Promise.all([
+    programInputs.length
+      ? tx.insert(programs).values(programInputs.map((item) => ({ ...item, universityId: row.id })))
+      : Promise.resolve(),
+    deadlineInputs.length
+      ? tx
+          .insert(deadlines)
+          .values(deadlineInputs.map((item) => ({ ...item, universityId: row.id })))
+      : Promise.resolve(),
+    tx.insert(sources).values(
+      sourceInputs.map((item) => ({
+        ...item,
+        universityId: row.id,
+        verifiedAt: new Date(item.verifiedAt),
+      })),
+    ),
+  ]);
+  return row.slug;
 };
+
+export const createUniversity = async (db: Database, input: UniversityInput) =>
+  db.transaction((tx) => insertUniversity(tx, input));
+
+export const upsertUniversity = async (db: Database, input: UniversityInput) =>
+  db.transaction(async (tx) => {
+    await tx.delete(universities).where(eq(universities.slug, input.slug));
+    return insertUniversity(tx, input);
+  });
 
 export const healthcheck = async (db: Database) => db.execute(sql`select 1`);

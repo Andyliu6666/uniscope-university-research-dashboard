@@ -38,6 +38,8 @@ If PostgreSQL already uses port 5432 on your computer, set `POSTGRES_PORT=55432`
 
 The API container automatically runs the checked-in migration from `apps/api/drizzle` before starting. Seeding is explicit so restarting the site never replaces contributor data.
 
+Create a database backup at any time with `./scripts/backup-db.sh`. Backups are written to the ignored `backups/` directory, and the latest 14 are retained by default.
+
 ## Start locally
 
 Requirements: Node.js 24 LTS, pnpm 11.22+, and PostgreSQL 15+.

@@ -6,7 +6,7 @@ import type {
 } from '@urd/shared';
 
 const configuredApiUrl = import.meta.env.VITE_API_URL as unknown;
-const API_URL = typeof configuredApiUrl === 'string' ? configuredApiUrl : 'http://localhost:3001';
+const API_URL = typeof configuredApiUrl === 'string' && configuredApiUrl ? configuredApiUrl : '';
 const request = async <T>(path: string, options?: RequestInit): Promise<T> => {
   const response = await fetch(`${API_URL}${path}`, options);
   if (!response.ok) {
