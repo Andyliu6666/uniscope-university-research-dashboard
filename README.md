@@ -42,7 +42,7 @@ Create a database backup at any time with `./scripts/backup-db.sh`. Backups are 
 
 ## Start locally
 
-Requirements: Node.js 24 LTS, pnpm 11.22+, and PostgreSQL 15+.
+Requirements: Node.js 24 LTS, pnpm 11.23+, and PostgreSQL 15+.
 
 ```bash
 cp .env.example .env
