@@ -40,7 +40,7 @@ The API container automatically runs the checked-in migration from `apps/api/dri
 
 ## Start locally
 
-Requirements: Node.js 22+, pnpm 10+, and PostgreSQL 15+.
+Requirements: Node.js 24 LTS, pnpm 11.22+, and PostgreSQL 15+.
 
 ```bash
 cp .env.example .env

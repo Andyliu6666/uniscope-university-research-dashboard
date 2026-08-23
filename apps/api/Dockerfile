@@ -1,4 +1,4 @@
-FROM node:22-alpine AS build
+FROM node:24-alpine AS build
 RUN corepack enable
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
@@ -9,7 +9,7 @@ COPY apps/api apps/api
 COPY packages/shared packages/shared
 RUN pnpm --filter @urd/api build
 
-FROM node:22-alpine
+FROM node:24-alpine
 RUN corepack enable
 WORKDIR /app
 COPY --from=build /app /app

@@ -1,4 +1,4 @@
-import { BookOpen, Github, Menu, X } from 'lucide-react';
+import { BookOpen, GitBranch, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ export function Layout() {
             target="_blank"
             rel="noreferrer"
           >
-            <Github size={16} /> GitHub
+            <GitBranch size={16} /> GitHub
           </a>
         </nav>
       </header>
