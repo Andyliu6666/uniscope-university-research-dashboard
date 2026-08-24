@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:17-alpine
+    image: postgres:18-alpine
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-university_dashboard}
       POSTGRES_USER: ${POSTGRES_USER:-urd}
@@ -8,7 +8,7 @@ services:
     ports:
       - '${POSTGRES_PORT:-5432}:5432'
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data_v18:/var/lib/postgresql
     healthcheck:
       test:
         ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-urd} -d ${POSTGRES_DB:-university_dashboard}']
@@ -72,4 +72,4 @@ services:
         max-file: '3'
 
 volumes:
-  postgres_data:
+  postgres_data_v18:

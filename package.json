@@ -5,14 +5,14 @@
   "private": true,
   "packageManager": "pnpm@11.23.0",
   "engines": {
-    "node": ">=24 <25",
+    "node": ">=26 <27",
     "pnpm": ">=11.23 <12"
   },
   "scripts": {
     "dev": "pnpm --parallel --filter @urd/api --filter @urd/web dev",
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
-    "lint": "eslint .",
+    "lint": "biome lint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "pnpm -r test",
@@ -23,13 +23,8 @@
     "db:studio": "pnpm --filter @urd/api db:studio"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.9.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.4",
-    "globals": "^17.11.0",
+    "@biomejs/biome": "^2.5.10",
     "prettier": "^3.9.6",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0"
+    "typescript": "^7.0.2"
   }
 }

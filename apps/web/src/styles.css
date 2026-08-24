@@ -172,7 +172,9 @@ a {
 }
 .hero-aside strong {
   color: var(--orange);
-  font: italic 20px 'Instrument Serif';
+  font:
+    italic 20px 'Instrument Serif',
+    serif;
   margin-right: 18px;
 }
 .explore,
@@ -193,7 +195,9 @@ a {
 .section-heading h2,
 .panel h2,
 .sources h2 {
-  font: 400 38px 'Instrument Serif';
+  font:
+    400 38px 'Instrument Serif',
+    serif;
   margin: 7px 0;
 }
 .section-heading > p {
@@ -274,7 +278,9 @@ a {
   letter-spacing: 0.08em;
 }
 .uni-card h2 {
-  font: 400 29px/1.08 'Instrument Serif';
+  font:
+    400 29px/1.08 'Instrument Serif',
+    serif;
   margin: 10px 0;
 }
 .summary {
@@ -521,7 +527,9 @@ thead th {
   background: #e5eadf;
 }
 thead th:not(:first-child) {
-  font: 400 25px 'Instrument Serif';
+  font:
+    400 25px 'Instrument Serif',
+    serif;
   min-width: 220px;
 }
 thead button {
@@ -529,7 +537,9 @@ thead button {
   border: 0;
   background: none;
   color: #a04a28;
-  font: 12px 'DM Sans';
+  font:
+    12px 'DM Sans',
+    sans-serif;
   padding: 10px 0;
 }
 tbody th {

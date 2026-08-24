@@ -110,7 +110,7 @@ export function ContributePage() {
             Admin key
             <input type="password" value={key} onChange={(e) => setKey(e.target.value)} required />
           </label>
-          <button className="primary-link" disabled={busy}>
+          <button type="submit" className="primary-link" disabled={busy}>
             {busy ? 'Validating…' : 'Validate & save'}
           </button>
           {status ? (

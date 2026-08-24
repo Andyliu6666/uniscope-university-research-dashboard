@@ -19,6 +19,7 @@ export function Layout() {
           UniScope
         </Link>
         <button
+          type="button"
           className="menu-button"
           onClick={() => setOpen(!open)}
           aria-label="Toggle navigation"

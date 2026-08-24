@@ -47,7 +47,9 @@ export function ComparePage() {
             Use this as a starting point, then confirm every application decision at the source.
           </p>
         </div>
-        <button onClick={comparison.clear}>Clear all</button>
+        <button type="button" onClick={comparison.clear}>
+          Clear all
+        </button>
       </div>
       <div className="table-wrap">
         <table>
@@ -57,7 +59,9 @@ export function ComparePage() {
               {items.map((item) => (
                 <th key={item.id}>
                   <Link to={`/universities/${item.slug}`}>{item.name}</Link>
-                  <button onClick={() => comparison.toggle(item.slug)}>Remove</button>
+                  <button type="button" onClick={() => comparison.toggle(item.slug)}>
+                    Remove
+                  </button>
                 </th>
               ))}
             </tr>

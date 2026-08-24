@@ -108,6 +108,7 @@ export function ExplorePage() {
             <option value="private">Private</option>
           </select>
           <button
+            type="button"
             onClick={() => {
               setQ('');
               setCountry('');
@@ -148,13 +149,14 @@ export function ExplorePage() {
         )}
         {data && data.pagination.totalPages > 1 ? (
           <div className="pagination">
-            <button disabled={page === 1} onClick={() => setPage(page - 1)}>
+            <button type="button" disabled={page === 1} onClick={() => setPage(page - 1)}>
               Previous
             </button>
             <span>
               Page {page} of {data.pagination.totalPages}
             </span>
             <button
+              type="button"
               disabled={page === data.pagination.totalPages}
               onClick={() => setPage(page + 1)}
             >

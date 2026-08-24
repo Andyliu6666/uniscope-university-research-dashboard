@@ -1,5 +1,5 @@
-FROM node:24-alpine AS build
-RUN corepack enable
+FROM node:26-alpine AS build
+RUN npm install --global npm@12.0.2 pnpm@11.23.0
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
 COPY apps/web/package.json apps/web/package.json

@@ -1,5 +1,5 @@
-FROM node:24-alpine AS build
-RUN corepack enable
+FROM node:26-alpine AS build
+RUN npm install --global npm@12.0.2 pnpm@11.23.0
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
 COPY apps/api/package.json apps/api/package.json
@@ -9,8 +9,8 @@ COPY apps/api apps/api
 COPY packages/shared packages/shared
 RUN pnpm --filter @urd/api build
 
-FROM node:24-alpine
-RUN corepack enable \
+FROM node:26-alpine
+RUN npm install --global npm@12.0.2 pnpm@11.23.0 \
   && addgroup -S app \
   && adduser -S app -G app
 WORKDIR /app

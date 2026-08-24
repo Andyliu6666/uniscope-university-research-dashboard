@@ -21,6 +21,7 @@ export function UniversityCard({
       <div className="card-top">
         <span className="country-pill">{university.country}</span>
         <button
+          type="button"
           className={compared ? 'compare-button selected' : 'compare-button'}
           onClick={onCompare}
           aria-pressed={compared}
