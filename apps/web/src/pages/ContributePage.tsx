@@ -59,7 +59,7 @@ export function ContributePage() {
         <div>
           <FileJson />
           <strong>1. Add the facts</strong>
-          <span>Copy the example data file and fill one university record.</span>
+          <span>Create a JSON data file and fill one university record.</span>
         </div>
         <div>
           <CheckCircle2 />
@@ -78,8 +78,8 @@ export function ContributePage() {
           <p className="kicker">Recommended workflow</p>
           <h2>Contribute through GitHub</h2>
           <p>
-            Edit <code>data/universities.example.json</code>, run the documented validation and
-            import step, then open a pull request. No React or API changes are needed.
+            Add a clearly named JSON file under <code>data/</code>, run the documented validation
+            and import step, then open a pull request. No React or API changes are needed.
           </p>
           <ul>
             <li>Use official admissions and tuition pages.</li>

@@ -19,8 +19,8 @@
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build",
     "db:generate": "pnpm --filter @urd/api db:generate",
     "db:migrate": "pnpm --filter @urd/api db:migrate",
-    "db:seed": "pnpm --filter @urd/api db:seed",
-    "db:studio": "pnpm --filter @urd/api db:studio"
+    "db:studio": "pnpm --filter @urd/api db:studio",
+    "data:check": "./scripts/check-data-quality.sh"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.10",

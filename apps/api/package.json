@@ -11,7 +11,6 @@
     "test": "vitest run src",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx src/db/migrate.ts",
-    "db:seed": "tsx src/db/seed.ts",
     "db:studio": "drizzle-kit studio",
     "import": "tsx src/scripts/import-universities.ts",
     "import:ror": "tsx src/scripts/import-ror.ts"
@@ -21,6 +20,7 @@
     "@fastify/helmet": "^13.1.1",
     "@fastify/rate-limit": "^11.2.0",
     "@urd/shared": "workspace:*",
+    "csv-parse": "7.0.2",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "fastify": "^5.12.1",

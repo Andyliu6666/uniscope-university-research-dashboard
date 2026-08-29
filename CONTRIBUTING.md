@@ -4,7 +4,7 @@ Contributions can be as small as fixing one deadline. You do not need to commit 
 
 ## Data contributions
 
-1. Copy `data/universities.example.json`.
+1. Create a clearly named JSON file under `data/`, using `data/myuniversity.json` as the structural reference.
 2. Keep the slug lowercase and hyphenated.
 3. Prefer official university admissions, tuition, and program pages.
 4. Set unknown numerical facts to `null`; never estimate them.

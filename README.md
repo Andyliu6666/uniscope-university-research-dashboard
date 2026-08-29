@@ -6,10 +6,10 @@ An open-source, non-profit university research website built by students. UniSco
 
 - Search by university, city, or country; filter by country and institution type
 - Paginated research cards, source-backed detail pages, and a three-university comparison
-- Programs, deadlines, tuition, IB guidance, student counts, and verification dates
+- Programs, deadlines, tuition, IB guidance, student counts, and source dates
 - JSON import workflow and a development-only, key-protected data entry form
 - Strict TypeScript, shared Zod validation, tests, linting, formatting, and CI
-- PostgreSQL schema, checked-in migration, seed data, and Docker Compose
+- PostgreSQL schema, checked-in migrations, resumable source imports, and Docker Compose
 
 ## Architecture
 
@@ -17,7 +17,7 @@ An open-source, non-profit university research website built by students. UniSco
 apps/web       React 19 + Vite + React Query
 apps/api       Fastify + Drizzle + PostgreSQL
 packages/shared  Shared Zod schemas and TypeScript types
-data           Contributor-friendly import example
+data           Contributor-owned university records
 ```
 
 The project deliberately uses one web app, one API, and one database. Adding a university changes data only; it does not require a component, route, or schema change.
@@ -29,14 +29,15 @@ Requirements: Docker Desktop with Docker Compose.
 ```bash
 cp .env.example .env
 docker compose up --build -d
-docker compose exec api pnpm --filter @urd/api db:seed
+docker compose cp data/myuniversity.json api:/tmp/myuniversity.json
+docker compose exec api pnpm --filter @urd/api run import /tmp/myuniversity.json
 ```
 
 Open `http://localhost:5173`. The API health endpoint is `http://localhost:3001/health`.
 
 If PostgreSQL already uses port 5432 on your computer, set `POSTGRES_PORT=55432` in `.env`. When running database commands directly on the Mac, also use port `55432` in `DATABASE_URL`; Docker services continue to use `db:5432` internally.
 
-The API container automatically runs the checked-in migration from `apps/api/drizzle` before starting. Seeding is explicit so restarting the site never replaces contributor data.
+The API container automatically runs the checked-in migrations from `apps/api/drizzle` before starting. Importing the same reviewed JSON again preserves the university UUID and merges new child records instead of deleting contributor data.
 
 Create a database backup at any time with `./scripts/backup-db.sh`. Backups are written to the ignored `backups/` directory, and the latest 14 are retained by default.
 
@@ -48,7 +49,7 @@ Requirements: Node.js 26, pnpm 11.24+, and PostgreSQL 18+.
 cp .env.example .env
 pnpm install
 pnpm db:migrate
-pnpm db:seed
+pnpm --filter @urd/api run import ../../data/myuniversity.json
 pnpm dev
 ```
 
@@ -56,23 +57,44 @@ The root `.env` is read when commands are started from the repository root. If y
 
 ## Add a university without changing code
 
-1. Copy `data/universities.example.json` and replace its sample values.
+1. In VS Code, copy the structure of `data/myuniversity.json` into a clearly named file such as `data/your-university.json`, then replace the values.
 2. Use official HTTPS sources. Use `null` instead of guessing unavailable numbers.
 3. Import and validate the file:
 
 ```bash
-pnpm --filter @urd/api import -- ../../data/your-universities.json
+pnpm --filter @urd/api run import ../../data/your-university.json
 ```
 
-The import is an upsert by `slug`, so a reviewed record can be corrected safely. It validates exactly the same schema used by the API and front end.
-
-Maintainers can import active global education institutions from the CC0 Research Organization Registry in reviewed batches:
+When using Docker, copy the file into the API container first:
 
 ```bash
-docker compose exec api pnpm --filter @urd/api import:ror 3000
+docker compose cp data/your-university.json api:/tmp/your-university.json
+docker compose exec api pnpm --filter @urd/api run import /tmp/your-university.json
 ```
 
-The importer keeps a ROR source on every record, skips matching name/country duplicates, marks unknown ownership honestly, and leaves admissions fields empty rather than inventing values. The public ROR API supports the first 10,000 records; larger synchronization should use the official ROR data dump.
+The import is an upsert by `slug`, so a reviewed record can be corrected safely. It keeps the same database UUID, preserves existing programs, deadlines, and sources, and validates the same schema used by the API and front end.
+
+Maintainers import active global education institutions from the versioned CC0 Research Organization Registry data dump, never from unstable deep API pagination. The currently reviewed artifact is ROR v2.12 (2026-08-25):
+
+```bash
+curl -fL -o /tmp/v2.12-2026-08-25-ror-data.zip \
+  'https://zenodo.org/records/22099990/files/v2.12-2026-08-25-ror-data.zip?download=1'
+echo '5779c7baf71771fd8ea829201e7bd4343a3c68ff36c595f480b3a00292f78931  /tmp/v2.12-2026-08-25-ror-data.zip' | shasum -a 256 -c -
+unzip -o /tmp/v2.12-2026-08-25-ror-data.zip -d /tmp/ror
+docker compose cp /tmp/ror/v2.12-2026-08-25-ror-data.csv \
+  api:/tmp/v2.12-2026-08-25-ror-data.csv
+docker compose exec api pnpm --filter @urd/api import:ror \
+  /tmp/v2.12-2026-08-25-ror-data.csv 3000
+```
+
+Run the last command again for the next reviewed batch. The import ledger resumes from its committed checkpoint, uses the ROR ID rather than a name guess for deduplication, records rejected rows, and makes a completed dataset a no-op on rerun. Unknown admissions fields remain empty rather than being invented.
+
+Create a backup before and after every batch, then run the automated data gate:
+
+```bash
+./scripts/backup-db.sh
+pnpm data:check
+```
 
 For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
 
@@ -82,7 +104,6 @@ For local maintainer testing, `/contribute` includes a form that sends the same 
 | ------------------ | ------------------------------------------------ | --------------------------- |
 | `pnpm db:generate` | Generate migration files from the Drizzle schema | `apps/api/drizzle`          |
 | `pnpm db:migrate`  | Apply checked-in migrations                      | `apps/api/drizzle`          |
-| `pnpm db:seed`     | Load representative university data              | `apps/api/src/db/seed.ts`   |
 | `pnpm db:studio`   | Open Drizzle Studio                              | `apps/api/src/db/schema.ts` |
 
 All database operations require `DATABASE_URL`; `.env.example` includes a working local value.
@@ -91,12 +112,13 @@ All database operations require `DATABASE_URL`; `.env.example` includes a workin
 
 ```bash
 pnpm check
+pnpm data:check
 ```
 
-This checks formatting, lint rules, strict types, tests, and production builds. GitHub Actions runs the same command for pull requests and pushes to `main`.
+The first command checks formatting, lint rules, strict types, tests, and production builds. GitHub Actions runs it for pull requests and pushes to `main`. The second checks database provenance invariants plus the live API and website.
 
 ## Data responsibility
 
-University information changes frequently. UniScope presents research leads, not admissions advice. Every record must cite at least one official, government, or reputable independent source and include a verification timestamp. Contributors should never invent acceptance rates, IB requirements, or costs.
+University information changes frequently. UniScope presents research leads, not admissions advice. Every record must cite at least one official, government, or reputable independent source and include a source or review date. A registry import is source-backed, not a claim that a person manually verified every admissions fact. Contributors should never invent acceptance rates, IB requirements, or costs.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution process. Released under the [MIT License](LICENSE).

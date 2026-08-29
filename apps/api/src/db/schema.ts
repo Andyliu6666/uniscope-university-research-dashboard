@@ -3,11 +3,13 @@ import {
   date,
   index,
   integer,
+  jsonb,
   numeric,
   pgEnum,
   pgTable,
   text,
   timestamp,
+  uniqueIndex,
   uuid,
   varchar,
 } from 'drizzle-orm/pg-core';
@@ -16,6 +18,13 @@ export const institutionType = pgEnum('institution_type', ['public', 'private', 
 export const programLevel = pgEnum('program_level', ['undergraduate', 'graduate']);
 export const applicantType = pgEnum('applicant_type', ['domestic', 'international', 'all']);
 export const sourceCategory = pgEnum('source_category', ['official', 'government', 'independent']);
+export const importRunStatus = pgEnum('import_run_status', [
+  'running',
+  'paused',
+  'completed',
+  'failed',
+  'cancelled',
+]);
 
 export const universities = pgTable(
   'universities',
@@ -44,33 +53,115 @@ export const universities = pgTable(
   ],
 );
 
-export const programs = pgTable('programs', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  universityId: uuid('university_id')
-    .notNull()
-    .references(() => universities.id, { onDelete: 'cascade' }),
-  name: varchar('name', { length: 160 }).notNull(),
-  level: programLevel('level').notNull(),
-  field: varchar('field', { length: 100 }).notNull(),
-});
+export const institutionIdentifiers = pgTable(
+  'institution_identifiers',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    provider: varchar('provider', { length: 40 }).notNull(),
+    externalId: varchar('external_id', { length: 255 }).notNull(),
+    sourceModifiedAt: timestamp('source_modified_at', { withTimezone: true }),
+    firstSeenAt: timestamp('first_seen_at', { withTimezone: true }).notNull().defaultNow(),
+    lastSeenAt: timestamp('last_seen_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [
+    uniqueIndex('institution_identifiers_provider_external_id_unique').on(
+      table.provider,
+      table.externalId,
+    ),
+    index('institution_identifiers_university_id_idx').on(table.universityId),
+  ],
+);
 
-export const deadlines = pgTable('deadlines', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  universityId: uuid('university_id')
-    .notNull()
-    .references(() => universities.id, { onDelete: 'cascade' }),
-  label: varchar('label', { length: 100 }).notNull(),
-  date: date('date').notNull(),
-  applicantType: applicantType('applicant_type').notNull(),
-});
+export const importRuns = pgTable(
+  'import_runs',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    provider: varchar('provider', { length: 40 }).notNull(),
+    datasetVersion: varchar('dataset_version', { length: 120 }).notNull(),
+    artifactHash: varchar('artifact_hash', { length: 64 }).notNull(),
+    status: importRunStatus('status').notNull().default('running'),
+    checkpoint: jsonb('checkpoint').$type<Record<string, unknown>>().notNull().default({}),
+    processedCount: integer('processed_count').notNull().default(0),
+    insertedCount: integer('inserted_count').notNull().default(0),
+    updatedCount: integer('updated_count').notNull().default(0),
+    skippedCount: integer('skipped_count').notNull().default(0),
+    rejectedCount: integer('rejected_count').notNull().default(0),
+    startedAt: timestamp('started_at', { withTimezone: true }).notNull().defaultNow(),
+    finishedAt: timestamp('finished_at', { withTimezone: true }),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [
+    uniqueIndex('import_runs_provider_dataset_artifact_unique').on(
+      table.provider,
+      table.datasetVersion,
+      table.artifactHash,
+    ),
+    index('import_runs_provider_started_at_idx').on(table.provider, table.startedAt),
+    index('import_runs_status_idx').on(table.status),
+  ],
+);
 
-export const sources = pgTable('sources', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  universityId: uuid('university_id')
-    .notNull()
-    .references(() => universities.id, { onDelete: 'cascade' }),
-  title: varchar('title', { length: 200 }).notNull(),
-  url: text('url').notNull(),
-  category: sourceCategory('category').notNull(),
-  verifiedAt: timestamp('verified_at', { withTimezone: true }).notNull(),
-});
+export const importRejections = pgTable(
+  'import_rejections',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    runId: uuid('run_id')
+      .notNull()
+      .references(() => importRuns.id, { onDelete: 'cascade' }),
+    externalId: varchar('external_id', { length: 255 }),
+    reason: text('reason').notNull(),
+    payloadHash: varchar('payload_hash', { length: 64 }).notNull(),
+    payload: jsonb('payload').$type<unknown>(),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [index('import_rejections_run_id_idx').on(table.runId)],
+);
+
+export const programs = pgTable(
+  'programs',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    name: varchar('name', { length: 160 }).notNull(),
+    level: programLevel('level').notNull(),
+    field: varchar('field', { length: 100 }).notNull(),
+  },
+  (table) => [index('programs_university_id_idx').on(table.universityId)],
+);
+
+export const deadlines = pgTable(
+  'deadlines',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    label: varchar('label', { length: 100 }).notNull(),
+    date: date('date').notNull(),
+    applicantType: applicantType('applicant_type').notNull(),
+  },
+  (table) => [index('deadlines_university_id_idx').on(table.universityId)],
+);
+
+export const sources = pgTable(
+  'sources',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    title: varchar('title', { length: 200 }).notNull(),
+    url: text('url').notNull(),
+    category: sourceCategory('category').notNull(),
+    verifiedAt: timestamp('verified_at', { withTimezone: true }).notNull(),
+  },
+  (table) => [
+    index('sources_university_id_idx').on(table.universityId),
+    uniqueIndex('sources_university_id_url_unique').on(table.universityId, table.url),
+  ],
+);

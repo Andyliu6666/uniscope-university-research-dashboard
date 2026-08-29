@@ -35,7 +35,7 @@ export function ExplorePage() {
           </h1>
           <p>
             Research admissions, costs, programs, and deadlines in one calm workspace. Every profile
-            shows when and where its facts were checked.
+            shows its source links and data dates.
           </p>
           <div className="hero-search">
             <Search size={20} />
@@ -78,7 +78,7 @@ export function ExplorePage() {
             <p className="kicker">Explore the database</p>
             <h2>Universities, clearly compared</h2>
           </div>
-          <p>{data?.pagination.total ?? '—'} verified profiles</p>
+          <p>{data?.pagination.total ?? '—'} source-backed profiles</p>
         </div>
         <div className="filters">
           <SlidersHorizontal size={18} />

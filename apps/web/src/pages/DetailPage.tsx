@@ -44,12 +44,15 @@ export function DetailPage() {
           <h1>{university.name}</h1>
           <p>{university.summary}</p>
           <a className="primary-link" href={university.website} target="_blank" rel="noreferrer">
-            Official website <ArrowUpRight size={17} />
+            {university.website.startsWith('https://ror.org/')
+              ? 'Open registry profile'
+              : 'Official website'}{' '}
+            <ArrowUpRight size={17} />
           </a>
         </div>
         <div className="verified-stamp">
           <CheckCircle2 />
-          <strong>Source checked</strong>
+          <strong>Source-backed profile</strong>
           <span>
             {new Date(university.updatedAt).toLocaleDateString('en-US', {
               month: 'short',
@@ -117,7 +120,7 @@ export function DetailPage() {
       </div>
       <section className="sources panel">
         <p className="kicker">Evidence</p>
-        <h2>Sources & verification</h2>
+        <h2>Sources & data dates</h2>
         <p>
           These links are the basis for this profile. Details can change, so confirm before
           applying.
@@ -135,7 +138,8 @@ export function DetailPage() {
               <span>
                 <strong>{source.title}</strong>
                 <small>
-                  {source.category} · checked {new Date(source.verifiedAt).toLocaleDateString()}
+                  {source.category} · source dated{' '}
+                  {new Date(source.verifiedAt).toLocaleDateString()}
                 </small>
               </span>
             </div>
