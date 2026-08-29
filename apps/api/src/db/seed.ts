@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import '../load-env.js';
 import { universityInputSchema } from '@urd/shared';
 import { getConfig } from '../config.js';
 import { upsertUniversity } from '../services/university-service.js';

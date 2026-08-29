@@ -1,5 +1,5 @@
 FROM node:26-alpine AS build
-RUN npm install --global npm@12.0.2 pnpm@11.23.0
+RUN npm install --global npm@12.0.2 pnpm@11.24.0
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
 COPY apps/api/package.json apps/api/package.json
@@ -10,7 +10,7 @@ COPY packages/shared packages/shared
 RUN pnpm --filter @urd/api build
 
 FROM node:26-alpine
-RUN npm install --global npm@12.0.2 pnpm@11.23.0 \
+RUN npm install --global npm@12.0.2 pnpm@11.24.0 \
   && addgroup -S app \
   && adduser -S app -G app
 WORKDIR /app

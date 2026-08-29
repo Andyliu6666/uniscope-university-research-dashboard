@@ -1,6 +1,7 @@
 import {
   boolean,
   date,
+  index,
   integer,
   numeric,
   pgEnum,
@@ -11,27 +12,37 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core';
 
-export const institutionType = pgEnum('institution_type', ['public', 'private']);
+export const institutionType = pgEnum('institution_type', ['public', 'private', 'unknown']);
 export const programLevel = pgEnum('program_level', ['undergraduate', 'graduate']);
 export const applicantType = pgEnum('applicant_type', ['domestic', 'international', 'all']);
 export const sourceCategory = pgEnum('source_category', ['official', 'government', 'independent']);
 
-export const universities = pgTable('universities', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  name: varchar('name', { length: 160 }).notNull(),
-  slug: varchar('slug', { length: 180 }).notNull().unique(),
-  country: varchar('country', { length: 80 }).notNull(),
-  city: varchar('city', { length: 80 }).notNull(),
-  website: text('website').notNull(),
-  summary: text('summary').notNull(),
-  institutionType: institutionType('institution_type').notNull(),
-  studentCount: integer('student_count'),
-  acceptanceRate: numeric('acceptance_rate', { precision: 5, scale: 2 }),
-  annualTuitionUsd: integer('annual_tuition_usd'),
-  ibTypicalMin: integer('ib_typical_min'),
-  featured: boolean('featured').notNull().default(false),
-  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
-});
+export const universities = pgTable(
+  'universities',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    name: varchar('name', { length: 160 }).notNull(),
+    slug: varchar('slug', { length: 180 }).notNull().unique(),
+    country: varchar('country', { length: 80 }).notNull(),
+    city: varchar('city', { length: 80 }).notNull(),
+    website: text('website').notNull(),
+    summary: text('summary').notNull(),
+    institutionType: institutionType('institution_type').notNull(),
+    studentCount: integer('student_count'),
+    acceptanceRate: numeric('acceptance_rate', { precision: 5, scale: 2 }),
+    annualTuitionUsd: integer('annual_tuition_usd'),
+    ibTypicalMin: integer('ib_typical_min'),
+    featured: boolean('featured').notNull().default(false),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [
+    index('universities_country_idx').on(table.country),
+    index('universities_type_idx').on(table.institutionType),
+    index('universities_name_trgm_idx').using('gin', table.name.op('gin_trgm_ops')),
+    index('universities_city_trgm_idx').using('gin', table.city.op('gin_trgm_ops')),
+    index('universities_country_trgm_idx').using('gin', table.country.op('gin_trgm_ops')),
+  ],
+);
 
 export const programs = pgTable('programs', {
   id: uuid('id').primaryKey().defaultRandom(),

@@ -34,7 +34,7 @@ docker compose exec api pnpm --filter @urd/api db:seed
 
 Open `http://localhost:5173`. The API health endpoint is `http://localhost:3001/health`.
 
-If PostgreSQL already uses port 5432 on your computer, set `POSTGRES_PORT=55432` in `.env`. Docker services communicate internally, so the site configuration does not otherwise change.
+If PostgreSQL already uses port 5432 on your computer, set `POSTGRES_PORT=55432` in `.env`. When running database commands directly on the Mac, also use port `55432` in `DATABASE_URL`; Docker services continue to use `db:5432` internally.
 
 The API container automatically runs the checked-in migration from `apps/api/drizzle` before starting. Seeding is explicit so restarting the site never replaces contributor data.
 
@@ -42,7 +42,7 @@ Create a database backup at any time with `./scripts/backup-db.sh`. Backups are 
 
 ## Start locally
 
-Requirements: Node.js 26, pnpm 11.23+, and PostgreSQL 18+.
+Requirements: Node.js 26, pnpm 11.24+, and PostgreSQL 18+.
 
 ```bash
 cp .env.example .env
@@ -65,6 +65,14 @@ pnpm --filter @urd/api import -- ../../data/your-universities.json
 ```
 
 The import is an upsert by `slug`, so a reviewed record can be corrected safely. It validates exactly the same schema used by the API and front end.
+
+Maintainers can import active global education institutions from the CC0 Research Organization Registry in reviewed batches:
+
+```bash
+docker compose exec api pnpm --filter @urd/api import:ror 3000
+```
+
+The importer keeps a ROR source on every record, skips matching name/country duplicates, marks unknown ownership honestly, and leaves admissions fields empty rather than inventing values. The public ROR API supports the first 10,000 records; larger synchronization should use the official ROR data dump.
 
 For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
 

@@ -15,7 +15,7 @@ export function ExplorePage() {
   const query = {
     q,
     country: country || undefined,
-    type: (type as 'public' | 'private') || undefined,
+    type: (type as 'public' | 'private' | 'unknown') || undefined,
     page,
     pageSize: 6,
   };
@@ -103,9 +103,10 @@ export function ExplorePage() {
             }}
             aria-label="Institution type"
           >
-            <option value="">Public & private</option>
+            <option value="">All institution types</option>
             <option value="public">Public</option>
             <option value="private">Private</option>
+            <option value="unknown">Not classified</option>
           </select>
           <button
             type="button"

@@ -26,7 +26,7 @@ export const universityInputSchema = z.object({
   city: z.string().min(2).max(80),
   website: z.url().startsWith('https://'),
   summary: z.string().min(40).max(1000),
-  institutionType: z.enum(['public', 'private']),
+  institutionType: z.enum(['public', 'private', 'unknown']),
   studentCount: z.number().int().positive().nullable(),
   acceptanceRate: z.number().min(0).max(100).nullable(),
   annualTuitionUsd: z.number().int().nonnegative().nullable(),
@@ -45,7 +45,7 @@ export const universitySchema = universityInputSchema.extend({
 export const universityQuerySchema = z.object({
   q: z.string().trim().max(100).default(''),
   country: z.string().trim().max(80).optional(),
-  type: z.enum(['public', 'private']).optional(),
+  type: z.enum(['public', 'private', 'unknown']).optional(),
   maxTuition: z.coerce.number().int().positive().optional(),
   page: z.coerce.number().int().min(1).default(1),
   pageSize: z.coerce.number().int().min(1).max(50).default(9),
