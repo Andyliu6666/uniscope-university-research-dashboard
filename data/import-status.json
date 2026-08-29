@@ -1,0 +1,28 @@
+{
+  "database": {
+    "countries": 197,
+    "rejectedRows": 0,
+    "universities": 12001,
+    "rorIdentifiers": 12001,
+    "sourcedProfiles": 12001
+  },
+  "generatedAt": "2026-08-29T09:53:18Z",
+  "latestImport": {
+    "status": "paused",
+    "skipped": 6000,
+    "updated": 0,
+    "inserted": 6000,
+    "provider": "ror",
+    "rejected": 0,
+    "processed": 12000,
+    "startedAt": "2026-08-29T09:31:34.437977+00:00",
+    "updatedAt": "2026-08-29T09:51:43.263+00:00",
+    "checkpoint": {
+      "sourceRow": 84682
+    },
+    "finishedAt": null,
+    "artifactSha256": "f9b672279852803c547140f7655221ce00dd1d6590ee84bd6342237d850dff79",
+    "datasetVersion": "v2.12-2026-08-25"
+  },
+  "schemaVersion": 1
+}

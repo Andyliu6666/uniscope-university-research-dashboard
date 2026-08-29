@@ -94,7 +94,10 @@ Create a backup before and after every batch, then run the automated data gate:
 ```bash
 ./scripts/backup-db.sh
 pnpm data:check
+pnpm data:status
 ```
+
+`data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, and quality counters. Do not edit it by hand.
 
 For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
 
