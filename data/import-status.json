@@ -1,32 +1,41 @@
 {
   "database": {
-    "countries": 224,
-    "rejectedRows": 0,
-    "universities": 27055,
-    "rorIdentifiers": 27055,
-    "sourcedProfiles": 27055,
+    "countries": 225,
+    "rejectedRows": 4,
+    "universities": 27555,
+    "rorIdentifiers": 27102,
+    "sourcedProfiles": 27555,
     "identifierCounts": {
-      "ror": 27055,
-      "wikidata": 4641
+      "ror": 27102,
+      "ipeds": 3185,
+      "wikidata": 7520
     }
   },
-  "generatedAt": "2026-08-30T23:17:34Z",
+  "generatedAt": "2026-08-30T23:20:56Z",
   "latestImport": {
-    "status": "completed",
-    "skipped": 6001,
+    "status": "paused",
+    "skipped": 2685,
     "updated": 0,
-    "inserted": 21054,
-    "provider": "ror",
-    "rejected": 0,
-    "processed": 27055,
-    "startedAt": "2026-08-29T09:31:34.437977+00:00",
-    "updatedAt": "2026-08-30T00:16:31.975+00:00",
+    "inserted": 500,
+    "provider": "ipeds",
+    "rejected": 4,
+    "processed": 3189,
+    "startedAt": "2026-08-30T23:20:13.477829+00:00",
+    "updatedAt": "2026-08-30T23:20:14.245+00:00",
     "checkpoint": {
-      "sourceRow": 137398
+      "sourceRow": 4160,
+      "sourceRows": 6072,
+      "eligibleRows": 3953,
+      "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
+      "crosswalkRows": 3857,
+      "crosswalkSha256": "c494e8e49ec17423a7b7393f7b509d5a92bf52596266b15fbf67ce092a14969a",
+      "sourceModifiedAt": "2025-09-21T14:17:10.000Z",
+      "sourceDownloadUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+      "crosswalkRetrievedAt": "2026-08-30T19:44:51.000Z"
     },
-    "finishedAt": "2026-08-30T00:16:31.975+00:00",
-    "artifactSha256": "f9b672279852803c547140f7655221ce00dd1d6590ee84bd6342237d850dff79",
-    "datasetVersion": "v2.12-2026-08-25"
+    "finishedAt": null,
+    "artifactSha256": "4d8ebc8dffd3b1cebf126b306ca210870c8935418f01701b924fea28cfcb2a93",
+    "datasetVersion": "HD2024+wikidata-ipeds-ror-20260830"
   },
   "schemaVersion": 1
 }
