@@ -14,7 +14,7 @@ docker compose exec -T db sh -lc 'psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d
 WITH latest_run AS (
   SELECT *
   FROM import_runs
-  ORDER BY started_at DESC
+  ORDER BY updated_at DESC, started_at DESC
   LIMIT 1
 )
 SELECT jsonb_pretty(
@@ -27,6 +27,17 @@ SELECT jsonb_pretty(
       'sourcedProfiles', (SELECT count(DISTINCT university_id) FROM sources),
       'rorIdentifiers', (
         SELECT count(*) FROM institution_identifiers WHERE provider = 'ror'
+      ),
+      'identifierCounts', COALESCE(
+        (
+          SELECT jsonb_object_agg(provider, identifier_count ORDER BY provider)
+          FROM (
+            SELECT provider, count(*) AS identifier_count
+            FROM institution_identifiers
+            GROUP BY provider
+          ) counts
+        ),
+        '{}'::jsonb
       ),
       'rejectedRows', (SELECT count(*) FROM import_rejections)
     ),

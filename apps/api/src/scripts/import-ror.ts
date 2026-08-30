@@ -16,11 +16,17 @@ import {
 } from '../db/schema.js';
 
 const csvPathArgument = process.argv[2];
-const requestedLimit = Number.parseInt(process.argv[3] ?? '3000', 10);
-if (!csvPathArgument || !Number.isInteger(requestedLimit) || requestedLimit < 1) {
+const requestedLimitArgument = process.argv[3] ?? '3000';
+const requestedLimit = /^\d+$/u.test(requestedLimitArgument)
+  ? Number(requestedLimitArgument)
+  : Number.NaN;
+if (!csvPathArgument) {
   throw new Error(
     'Usage: pnpm --filter @urd/api import:ror path/to/versioned-ror-data.csv [new-record-limit]',
   );
+}
+if (!Number.isSafeInteger(requestedLimit) || requestedLimit < 1) {
+  throw new Error('new-record-limit must be a positive base-10 safe integer.');
 }
 
 const provider = 'ror';
@@ -294,6 +300,7 @@ const flushChunk = async (
     await tx.insert(importRejections).values(
       rejections.map((item) => ({
         runId,
+        sourceRow: item.sourceRow,
         externalId: item.externalId,
         reason: item.reason,
         payloadHash: item.payloadHash,
@@ -321,10 +328,19 @@ const flushChunk = async (
 };
 
 const artifactHash = await sha256File(csvPath);
-const connection = createDb(getConfig());
+const connection = createDb(getConfig(), { max: 1 });
+const importLockName = 'uniscope:institution-import:v1';
 let runId: string | undefined;
+let lockHeld = false;
 
 try {
+  const lockResult = await connection.db.execute(sql`
+    select pg_try_advisory_lock(hashtextextended(${importLockName}, 0)) as acquired
+  `);
+  const lockRow = lockResult[0] as { acquired?: unknown } | undefined;
+  if (lockRow?.acquired !== true) throw new Error('Another institution import is already running.');
+  lockHeld = true;
+
   await backfillRorIdentifiers(connection.db);
   const existingRun = await existingRunFor(connection.db, artifactHash);
   if (existingRun?.status === 'completed') {
@@ -419,12 +435,26 @@ try {
   }
 } catch (error) {
   if (runId) {
-    await connection.db
-      .update(importRuns)
-      .set({ status: 'failed', finishedAt: new Date(), updatedAt: new Date() })
-      .where(eq(importRuns.id, runId));
+    try {
+      await connection.db
+        .update(importRuns)
+        .set({ status: 'failed', finishedAt: new Date(), updatedAt: new Date() })
+        .where(eq(importRuns.id, runId));
+    } catch (statusError) {
+      console.error('Failed to record the ROR import error state:', statusError);
+    }
   }
   throw error;
 } finally {
-  await connection.close();
+  try {
+    if (lockHeld) {
+      await connection.db.execute(sql`
+        select pg_advisory_unlock(hashtextextended(${importLockName}, 0))
+      `);
+    }
+  } catch (unlockError) {
+    console.error('Failed to release the institution import lock:', unlockError);
+  } finally {
+    await connection.close();
+  }
 }

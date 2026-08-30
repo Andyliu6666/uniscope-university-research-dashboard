@@ -1,0 +1,1 @@
+ALTER TABLE "import_rejections" ADD COLUMN "source_row" integer;

@@ -13,7 +13,8 @@
     "db:migrate": "tsx src/db/migrate.ts",
     "db:studio": "drizzle-kit studio",
     "import": "tsx src/scripts/import-universities.ts",
-    "import:ror": "tsx src/scripts/import-ror.ts"
+    "import:ror": "tsx src/scripts/import-ror.ts",
+    "import:ipeds": "tsx src/scripts/import-ipeds.ts"
   },
   "dependencies": {
     "@fastify/cors": "^11.3.0",

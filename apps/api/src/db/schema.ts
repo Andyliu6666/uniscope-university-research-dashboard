@@ -111,6 +111,7 @@ export const importRejections = pgTable(
     runId: uuid('run_id')
       .notNull()
       .references(() => importRuns.id, { onDelete: 'cascade' }),
+    sourceRow: integer('source_row'),
     externalId: varchar('external_id', { length: 255 }),
     reason: text('reason').notNull(),
     payloadHash: varchar('payload_hash', { length: 64 }).notNull(),

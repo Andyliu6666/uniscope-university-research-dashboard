@@ -2,8 +2,8 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
 import type { Config } from '../config.js';
 
-export const createDb = (config: Config) => {
-  const client = postgres(config.DATABASE_URL, { max: 10 });
+export const createDb = (config: Config, options: { max?: number } = {}) => {
+  const client = postgres(config.DATABASE_URL, { max: options.max ?? 10 });
   return { db: drizzle(client), close: () => client.end() };
 };
 

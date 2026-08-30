@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "artifacts": [
+    {
+      "datasetFile": "HD2024.csv",
+      "datasetSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
+      "datasetRows": 6072,
+      "eligibleRows": 3953,
+      "datasetModifiedAt": "2025-09-21T14:17:10.000Z",
+      "crosswalkFile": "wikidata-ipeds-ror-20260830.csv",
+      "crosswalkSha256": "c494e8e49ec17423a7b7393f7b509d5a92bf52596266b15fbf67ce092a14969a",
+      "crosswalkRawSha256": "cd6da8f3117259d610871b38f6cc81dc1c7234c062b84a72ff06e3e6005fa397",
+      "crosswalkNormalization": "The WDQS response was normalized from CRLF to LF without changing CSV values.",
+      "crosswalkRows": 3857,
+      "crosswalkRetrievedAt": "2026-08-30T19:44:51.000Z"
+    }
+  ]
+}

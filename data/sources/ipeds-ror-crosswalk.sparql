@@ -1,0 +1,6 @@
+SELECT DISTINCT ?ipeds ?wikidata ?ror WHERE {
+  ?item wdt:P1771 ?ipeds.
+  BIND(REPLACE(STR(?item), '^.*/', '') AS ?wikidata)
+  OPTIONAL { ?item wdt:P6782 ?ror. }
+}
+ORDER BY ?ipeds ?wikidata ?ror

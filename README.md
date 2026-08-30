@@ -89,6 +89,31 @@ docker compose exec api pnpm --filter @urd/api import:ror \
 
 Run the last command again for the next reviewed batch. The import ledger resumes from its committed checkpoint, uses the ROR ID rather than a name guess for deduplication, records rejected rows, and makes a completed dataset a no-op on rerun. Unknown admissions fields remain empty rather than being invented.
 
+After the global ROR baseline, maintainers can add U.S. degree-granting institutions from the official NCES IPEDS directory. The importer accepts only rows marked active (`ACT=A`), degree-granting (`DEGGRANT=1`), non-administrative (`SECTOR!=0`), and in institution categories 1–4. Certificate-only schools and system offices are deliberately excluded from the university count.
+
+```bash
+curl -fL -o /tmp/HD2024.zip \
+  'https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip'
+echo 'd98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345  /tmp/HD2024.zip' \
+  | shasum -a 256 -c -
+unzip -o /tmp/HD2024.zip -d /tmp/ipeds
+
+docker compose cp /tmp/ipeds/HD2024.csv api:/tmp/HD2024.csv
+docker compose exec api pnpm --filter @urd/api import:ipeds \
+  /tmp/HD2024.csv \
+  /app/data/sources/wikidata-ipeds-ror-20260830.csv 500
+```
+
+Run the last command again to resume the next reviewed batch. The IPEDS `UNITID` is the permanent import key. Exact IPEDS↔Wikidata↔ROR identifiers attach a government record to an existing ROR profile; name similarity is never used for automatic merging. A record with no crosswalk becomes a new IPEDS-backed profile with a unique `-ipeds-UNITID` slug. A forward ambiguity, identifier reused by multiple UnitIDs, or disagreement between strong identifiers is instead quarantined in `import_rejections` for manual review and is not published.
+
+The checked-in crosswalk CSV is the reviewed, reproducible snapshot. Its query, source hashes, exact row counts, retrieval time, and line-ending normalization are recorded in `data/sources/`. The importer rejects an unknown filename, checksum, row count, schema, duplicate UnitID, truncated file, or concurrent institution import before publishing data. Each committed checkpoint retains the complete source metadata, and a completed artifact is a no-op on rerun.
+
+To propose a newer crosswalk, run the checked-in SPARQL query into a separate candidate file, review all forward and reverse ambiguities, normalize and archive the approved response, and then add its checksum and counts to `ipeds-artifacts.json`. Never replace the reviewed snapshot with a live query during a production import.
+
+IPEDS is published by the U.S. National Center for Education Statistics through its [official data center](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx); the federal catalog describes IPEDS public-use data as [CC0](https://catalog.data.gov/dataset/integrated-postsecondary-education-data-system-2012-13). The Wikidata crosswalk is CC0 and is used only for identity resolution—not as evidence that an institution is currently active or degree-granting.
+
+Institution coverage is only the first layer. The next data layer uses official IPEDS admissions, institutional-characteristics, enrollment, and student-financial-aid files to add application totals, admissions totals, enrolled students, test policies and score ranges, tuition, fees, and student counts. Requirements that IPEDS does not publish—such as IB course expectations, essays, portfolios, recommendation letters, and program-specific prerequisites—must come from the university's own admissions pages. Missing values remain `null`; UniScope never turns an estimate into a requirement.
+
 Create a backup before and after every batch, then run the automated data gate:
 
 ```bash
@@ -97,7 +122,7 @@ pnpm data:check
 pnpm data:status
 ```
 
-`data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, and quality counters. Do not edit it by hand.
+`data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, identifier counts by provider, and quality counters. Do not edit it by hand.
 
 For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
 
