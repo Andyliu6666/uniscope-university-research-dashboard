@@ -2,28 +2,28 @@
   "database": {
     "countries": 225,
     "rejectedRows": 7,
-    "universities": 28055,
+    "universities": 28144,
     "rorIdentifiers": 27107,
-    "sourcedProfiles": 28055,
+    "sourcedProfiles": 28144,
     "identifierCounts": {
       "ror": 27107,
-      "ipeds": 3855,
-      "wikidata": 7775
+      "ipeds": 3946,
+      "wikidata": 7778
     }
   },
-  "generatedAt": "2026-08-30T23:22:47Z",
+  "generatedAt": "2026-08-30T23:24:28Z",
   "latestImport": {
-    "status": "paused",
-    "skipped": 2855,
+    "status": "completed",
+    "skipped": 2857,
     "updated": 0,
-    "inserted": 1000,
+    "inserted": 1089,
     "provider": "ipeds",
     "rejected": 7,
-    "processed": 3862,
+    "processed": 3953,
     "startedAt": "2026-08-30T23:20:13.477829+00:00",
-    "updatedAt": "2026-08-30T23:22:09.883+00:00",
+    "updatedAt": "2026-08-30T23:23:42.489+00:00",
     "checkpoint": {
-      "sourceRow": 5779,
+      "sourceRow": 6072,
       "sourceRows": 6072,
       "eligibleRows": 3953,
       "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
@@ -33,7 +33,7 @@
       "sourceDownloadUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
       "crosswalkRetrievedAt": "2026-08-30T19:44:51.000Z"
     },
-    "finishedAt": null,
+    "finishedAt": "2026-08-30T23:23:42.489+00:00",
     "artifactSha256": "4d8ebc8dffd3b1cebf126b306ca210870c8935418f01701b924fea28cfcb2a93",
     "datasetVersion": "HD2024+wikidata-ipeds-ror-20260830"
   },
