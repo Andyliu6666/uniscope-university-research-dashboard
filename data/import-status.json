@@ -1,29 +1,29 @@
 {
   "database": {
     "countries": 225,
-    "rejectedRows": 4,
-    "universities": 27555,
-    "rorIdentifiers": 27102,
-    "sourcedProfiles": 27555,
+    "rejectedRows": 7,
+    "universities": 28055,
+    "rorIdentifiers": 27107,
+    "sourcedProfiles": 28055,
     "identifierCounts": {
-      "ror": 27102,
-      "ipeds": 3185,
-      "wikidata": 7520
+      "ror": 27107,
+      "ipeds": 3855,
+      "wikidata": 7775
     }
   },
-  "generatedAt": "2026-08-30T23:20:56Z",
+  "generatedAt": "2026-08-30T23:22:47Z",
   "latestImport": {
     "status": "paused",
-    "skipped": 2685,
+    "skipped": 2855,
     "updated": 0,
-    "inserted": 500,
+    "inserted": 1000,
     "provider": "ipeds",
-    "rejected": 4,
-    "processed": 3189,
+    "rejected": 7,
+    "processed": 3862,
     "startedAt": "2026-08-30T23:20:13.477829+00:00",
-    "updatedAt": "2026-08-30T23:20:14.245+00:00",
+    "updatedAt": "2026-08-30T23:22:09.883+00:00",
     "checkpoint": {
-      "sourceRow": 4160,
+      "sourceRow": 5779,
       "sourceRows": 6072,
       "eligibleRows": 3953,
       "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
