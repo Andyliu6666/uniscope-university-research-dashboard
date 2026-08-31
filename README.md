@@ -124,6 +124,24 @@ pnpm --filter @urd/api import:ipeds-cost \
 
 The importer records official source metadata, calendar and award-level characteristics, application fees, tuition, required fees, per-credit-hour charges, housing/food, and cost-of-attendance components. It does not infer a total cost or import doctoral-professional-practice charges into a general graduate row; those distinctions remain explicit in the source flags and scenarios.
 
+The reviewed EF2024A snapshot adds official fall enrollment for the 2024–25 academic year. It keeps every IPEDS `EFALEVEL` as a separate fact (all students, undergraduate, graduate, full-time, and part-time views) so overlapping totals are never added together. Rows without a matching IPEDS `UNITID` are skipped and counted in the import ledger; suppressed values remain absent rather than being converted to zero.
+
+```bash
+# Docker: use the checked-in, reviewed snapshot inside the API image
+docker compose exec api pnpm --filter @urd/api import:ipeds-enrollment \
+  /app/data/sources/EF2024A.csv
+
+# Optional: pause after a fixed number of source rows, then rerun to resume
+docker compose exec api pnpm --filter @urd/api import:ipeds-enrollment \
+  /app/data/sources/EF2024A.csv 3000
+
+# Optional, safe artifact validation without touching the database
+docker compose exec api pnpm --filter @urd/api import:ipeds-enrollment \
+  /app/data/sources/EF2024A.csv --dry-run
+```
+
+The enrollment importer verifies the checked-in SHA-256, row count, column order, EFALEVEL meanings, imputation flags, and duplicate `UNITID`/`EFALEVEL` keys before writing. It stores each value with its source row, attendance status, population, and IPEDS flags. A committed source-row checkpoint makes interruption safe, and a completed artifact is a no-op when rerun.
+
 The reviewed ADM2024 snapshot adds first-time undergraduate admissions data. It records application, admission, and enrollment counts; the institution's admission considerations (such as GPA, recommendations, English proficiency, essays, and test policies); and reported SAT/ACT submission rates and score percentiles. IPEDS does not publish IB, A-Level, IELTS/TOEFL minimums, essay prompts, or program-specific requirements, so those fields must be added from the university's own official admissions pages.
 
 ```bash

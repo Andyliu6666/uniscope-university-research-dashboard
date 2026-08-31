@@ -6,7 +6,7 @@
       "admissionCounts": 32941,
       "admissionProfiles": 1835,
       "admissionTestScores": 4552,
-      "enrollmentSnapshots": 0,
+      "enrollmentSnapshots": 85579,
       "admissionRequirements": 22020,
       "financialAidSnapshots": 0
     },
@@ -20,30 +20,31 @@
       "wikidata": 7778
     }
   },
-  "generatedAt": "2026-08-31T01:37:55Z",
+  "generatedAt": "2026-08-31T01:49:16Z",
   "latestImport": {
     "status": "completed",
-    "skipped": 3945,
-    "updated": 7885,
-    "inserted": 0,
-    "provider": "ipeds-enrichment",
+    "skipped": 28254,
+    "updated": 0,
+    "inserted": 85579,
+    "provider": "ipeds-enrollment",
     "rejected": 0,
-    "processed": 11830,
-    "startedAt": "2026-08-31T01:31:09.61664+00:00",
-    "updatedAt": "2026-08-31T01:32:12.82+00:00",
+    "processed": 113833,
+    "startedAt": "2026-08-31T01:48:20.369932+00:00",
+    "updatedAt": "2026-08-31T01:48:43.626+00:00",
     "checkpoint": {
-      "phase": "completed",
-      "costsSha256": "3e52a774bb851b9b914ba64020a5075925b6d8533b9d95542e64d0825274da66",
+      "sourceRow": 113833,
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/EF2024A.zip",
+      "sourceFile": "EF2024A.csv",
+      "sourceRows": 113833,
+      "academicYear": "2024-25",
+      "sourceSha256": "d17ce536cecd5bfa0e8bbf34d24af74095c1e2853abfed9e9db5aa14351a7aac",
       "schemaVersion": 1,
-      "costsSourceRow": 5867,
-      "costsSourceRows": 5867,
-      "characteristicsSha256": "d80a5732f033230ab929c0436c519f814aa8449c0b3e2e947ec5d1e2241d3801",
-      "characteristicsSourceRow": 5963,
-      "characteristicsSourceRows": 5963
+      "sourceRetrievedAt": "2026-08-31T00:00:00.000Z",
+      "reportedAcademicYear": "2024"
     },
-    "finishedAt": "2026-08-31T01:32:12.82+00:00",
-    "artifactSha256": "cc8158c69ff374c3cc63a04af9e7b32553a65bc84262dd09d9c7094dad2ef9fc",
-    "datasetVersion": "IC2024+COST1_2024"
+    "finishedAt": "2026-08-31T01:48:43.626+00:00",
+    "artifactSha256": "a15b6e6cc69d9cd7451c06227bf30e950c235d3527555a415223c900f96b2bbe",
+    "datasetVersion": "EF2024A"
   },
   "schemaVersion": 1
 }
