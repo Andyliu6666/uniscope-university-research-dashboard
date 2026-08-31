@@ -102,6 +102,7 @@ export const testScoreContext = pgEnum('test_score_context', [
 export const attendanceStatus = pgEnum('attendance_status', ['all', 'full_time', 'part_time']);
 export const residencyCategory = pgEnum('residency_category', [
   'all',
+  'in_district',
   'in_state',
   'out_of_state',
   'domestic',
@@ -112,8 +113,10 @@ export const costCategory = pgEnum('cost_category', [
   'tuition',
   'fees',
   'tuition_and_fees',
+  'application_fee',
   'housing',
   'meals',
+  'housing_and_meals',
   'books_and_supplies',
   'transportation',
   'personal',
@@ -122,6 +125,7 @@ export const costCategory = pgEnum('cost_category', [
 ]);
 export const costPeriod = pgEnum('cost_period', [
   'academic_year',
+  'per_credit_hour',
   'semester',
   'term',
   'month',
@@ -637,6 +641,7 @@ export const costSnapshots = pgTable(
     residency: residencyCategory('residency').notNull().default('all'),
     category: costCategory('category').notNull(),
     period: costPeriod('period').notNull(),
+    scenario: varchar('scenario', { length: 80 }).notNull().default('standard'),
     amount: numeric('amount', { precision: 14, scale: 2 }).notNull(),
     currency: varchar('currency', { length: 3 }).notNull(),
     sourceId: uuid('source_id')
@@ -654,6 +659,7 @@ export const costSnapshots = pgTable(
         table.residency,
         table.category,
         table.period,
+        table.scenario,
         table.sourceId,
       )
       .where(sql`${table.programId} is null`),
@@ -667,6 +673,7 @@ export const costSnapshots = pgTable(
         table.residency,
         table.category,
         table.period,
+        table.scenario,
         table.sourceId,
       )
       .where(sql`${table.programId} is not null`),
