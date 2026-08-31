@@ -1,0 +1,5 @@
+ALTER TYPE "public"."requirement_status" ADD VALUE 'considered' BEFORE 'recommended';--> statement-breakpoint
+ALTER TABLE "admission_test_scores" DROP CONSTRAINT "admission_test_scores_values_nonnegative_check";--> statement-breakpoint
+ALTER TABLE "admission_test_scores" ADD COLUMN "submitters_count" integer;--> statement-breakpoint
+ALTER TABLE "admission_test_scores" ADD COLUMN "submitters_percent" numeric(5, 2);--> statement-breakpoint
+ALTER TABLE "admission_test_scores" ADD CONSTRAINT "admission_test_scores_values_nonnegative_check" CHECK (coalesce("admission_test_scores"."submitters_count", 0) >= 0 and coalesce("admission_test_scores"."submitters_percent", 0) >= 0 and coalesce("admission_test_scores"."submitters_percent", 0) <= 100 and coalesce("admission_test_scores"."minimum_score", 0) >= 0 and coalesce("admission_test_scores"."maximum_score", 0) >= 0 and coalesce("admission_test_scores"."average_score", 0) >= 0 and coalesce("admission_test_scores"."percentile_25", 0) >= 0 and coalesce("admission_test_scores"."percentile_50", 0) >= 0 and coalesce("admission_test_scores"."percentile_75", 0) >= 0);

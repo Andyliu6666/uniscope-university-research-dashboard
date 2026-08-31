@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "artifacts": [
+    {
+      "datasetFile": "ADM2024.csv",
+      "datasetSha256": "9f4f86bd355cbf692db9c2310276973f66da7eaa620f1eee51106dec0fc60ae8",
+      "datasetRows": 1956,
+      "academicYear": "2024",
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/ADM2024.zip",
+      "publisher": "U.S. National Center for Education Statistics (NCES), IPEDS",
+      "retrievedAt": "2026-08-31T00:00:00.000Z",
+      "notes": "Provisional 2024-25 admissions file. Covers first-time degree/certificate-seeking undergraduate admissions at institutions without open admission for entering first-time students."
+    },
+    {
+      "datasetFile": "IC2024.csv",
+      "datasetSha256": "d80a5732f033230ab929c0436c519f814aa8449c0b3e2e947ec5d1e2241d3801",
+      "datasetRows": 5963,
+      "academicYear": "2024",
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/IC2024.zip",
+      "publisher": "U.S. National Center for Education Statistics (NCES), IPEDS",
+      "retrievedAt": "2026-08-31T00:00:00.000Z",
+      "notes": "Institutional characteristics file for the 2024-25 academic year."
+    },
+    {
+      "datasetFile": "COST1_2024.csv",
+      "datasetSha256": "3e52a774bb851b9b914ba64020a5075925b6d8533b9d95542e64d0825274da66",
+      "datasetRows": 5867,
+      "academicYear": "2024",
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/COST1_2024.zip",
+      "publisher": "U.S. National Center for Education Statistics (NCES), IPEDS",
+      "retrievedAt": "2026-08-31T00:00:00.000Z",
+      "notes": "Institutional costs file for the 2024-25 academic year."
+    },
+    {
+      "datasetFile": "EF2024A.csv",
+      "datasetSha256": "d17ce536cecd5bfa0e8bbf34d24af74095c1e2853abfed9e9db5aa14351a7aac",
+      "datasetRows": 113833,
+      "academicYear": "2024",
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/EF2024A.zip",
+      "publisher": "U.S. National Center for Education Statistics (NCES), IPEDS",
+      "retrievedAt": "2026-08-31T00:00:00.000Z",
+      "notes": "Fall enrollment by level and student characteristics for the 2024-25 academic year."
+    }
+  ]
+}

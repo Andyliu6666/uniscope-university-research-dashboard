@@ -1,0 +1,3186 @@
+{
+  "id": "f80a466a-c5cf-49e4-949f-b476c51ac4d1",
+  "prevId": "73915f4f-da9b-4f25-a6ac-dbde96e808dd",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.admission_counts": {
+      "name": "admission_counts",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "admission_profile_id": {
+          "name": "admission_profile_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "metric": {
+          "name": "metric",
+          "type": "admission_count_metric",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "population": {
+          "name": "population",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "value": {
+          "name": "value",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "admission_counts_profile_metric_population_source_unique": {
+          "name": "admission_counts_profile_metric_population_source_unique",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "metric",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "population",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_counts_profile_id_idx": {
+          "name": "admission_counts_profile_id_idx",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_counts_source_id_idx": {
+          "name": "admission_counts_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "admission_counts_admission_profile_id_admission_profiles_id_fk": {
+          "name": "admission_counts_admission_profile_id_admission_profiles_id_fk",
+          "tableFrom": "admission_counts",
+          "tableTo": "admission_profiles",
+          "columnsFrom": ["admission_profile_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "admission_counts_source_id_sources_id_fk": {
+          "name": "admission_counts_source_id_sources_id_fk",
+          "tableFrom": "admission_counts",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "admission_counts_value_nonnegative_check": {
+          "name": "admission_counts_value_nonnegative_check",
+          "value": "\"admission_counts\".\"value\" >= 0"
+        },
+        "admission_counts_source_flags_object_check": {
+          "name": "admission_counts_source_flags_object_check",
+          "value": "jsonb_typeof(\"admission_counts\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.admission_profiles": {
+      "name": "admission_profiles",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "program_id": {
+          "name": "program_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_year": {
+          "name": "academic_year",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "intake_term": {
+          "name": "intake_term",
+          "type": "varchar(80)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'unspecified'"
+        },
+        "entry_type": {
+          "name": "entry_type",
+          "type": "admission_entry_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'first_year'"
+        },
+        "level": {
+          "name": "level",
+          "type": "study_level",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "applicant_type": {
+          "name": "applicant_type",
+          "type": "applicant_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "open_admission": {
+          "name": "open_admission",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "application_url": {
+          "name": "application_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "admission_profiles_institution_scope_unique": {
+          "name": "admission_profiles_institution_scope_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "intake_term",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "entry_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"admission_profiles\".\"program_id\" is null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_profiles_program_scope_unique": {
+          "name": "admission_profiles_program_scope_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "intake_term",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "entry_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"admission_profiles\".\"program_id\" is not null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_profiles_university_id_idx": {
+          "name": "admission_profiles_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_profiles_program_id_idx": {
+          "name": "admission_profiles_program_id_idx",
+          "columns": [
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_profiles_source_id_idx": {
+          "name": "admission_profiles_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "admission_profiles_university_id_universities_id_fk": {
+          "name": "admission_profiles_university_id_universities_id_fk",
+          "tableFrom": "admission_profiles",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "admission_profiles_program_id_programs_id_fk": {
+          "name": "admission_profiles_program_id_programs_id_fk",
+          "tableFrom": "admission_profiles",
+          "tableTo": "programs",
+          "columnsFrom": ["program_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "admission_profiles_source_id_sources_id_fk": {
+          "name": "admission_profiles_source_id_sources_id_fk",
+          "tableFrom": "admission_profiles",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "admission_profiles_source_flags_object_check": {
+          "name": "admission_profiles_source_flags_object_check",
+          "value": "jsonb_typeof(\"admission_profiles\".\"source_flags\") = 'object'"
+        },
+        "admission_profiles_academic_year_format_check": {
+          "name": "admission_profiles_academic_year_format_check",
+          "value": "\"admission_profiles\".\"academic_year\" ~ '^[0-9]{4}([/-][0-9]{2,4})?$' or \"admission_profiles\".\"academic_year\" = 'unspecified'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.admission_requirements": {
+      "name": "admission_requirements",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "admission_profile_id": {
+          "name": "admission_profile_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "requirement_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "requirement_key": {
+          "name": "requirement_key",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "label": {
+          "name": "label",
+          "type": "varchar(200)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "status": {
+          "name": "status",
+          "type": "requirement_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'unknown'"
+        },
+        "details": {
+          "name": "details",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        },
+        "verified_at": {
+          "name": "verified_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "admission_requirements_profile_key_source_unique": {
+          "name": "admission_requirements_profile_key_source_unique",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "category",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "requirement_key",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_requirements_profile_id_idx": {
+          "name": "admission_requirements_profile_id_idx",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_requirements_source_id_idx": {
+          "name": "admission_requirements_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "admission_requirements_admission_profile_id_admission_profiles_id_fk": {
+          "name": "admission_requirements_admission_profile_id_admission_profiles_id_fk",
+          "tableFrom": "admission_requirements",
+          "tableTo": "admission_profiles",
+          "columnsFrom": ["admission_profile_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "admission_requirements_source_id_sources_id_fk": {
+          "name": "admission_requirements_source_id_sources_id_fk",
+          "tableFrom": "admission_requirements",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "admission_requirements_source_flags_object_check": {
+          "name": "admission_requirements_source_flags_object_check",
+          "value": "jsonb_typeof(\"admission_requirements\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.admission_test_scores": {
+      "name": "admission_test_scores",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "admission_profile_id": {
+          "name": "admission_profile_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "test_name": {
+          "name": "test_name",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "section": {
+          "name": "section",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'overall'"
+        },
+        "context": {
+          "name": "context",
+          "type": "test_score_context",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "submitters_count": {
+          "name": "submitters_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "submitters_percent": {
+          "name": "submitters_percent",
+          "type": "numeric(5, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "minimum_score": {
+          "name": "minimum_score",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "maximum_score": {
+          "name": "maximum_score",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "average_score": {
+          "name": "average_score",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "percentile_25": {
+          "name": "percentile_25",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "percentile_50": {
+          "name": "percentile_50",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "percentile_75": {
+          "name": "percentile_75",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "score_scale": {
+          "name": "score_scale",
+          "type": "varchar(80)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "admission_test_scores_profile_test_section_context_source_unique": {
+          "name": "admission_test_scores_profile_test_section_context_source_unique",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "test_name",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "section",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "context",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_test_scores_profile_id_idx": {
+          "name": "admission_test_scores_profile_id_idx",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "admission_test_scores_source_id_idx": {
+          "name": "admission_test_scores_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "admission_test_scores_admission_profile_id_admission_profiles_id_fk": {
+          "name": "admission_test_scores_admission_profile_id_admission_profiles_id_fk",
+          "tableFrom": "admission_test_scores",
+          "tableTo": "admission_profiles",
+          "columnsFrom": ["admission_profile_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "admission_test_scores_source_id_sources_id_fk": {
+          "name": "admission_test_scores_source_id_sources_id_fk",
+          "tableFrom": "admission_test_scores",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "admission_test_scores_value_present_check": {
+          "name": "admission_test_scores_value_present_check",
+          "value": "\"admission_test_scores\".\"minimum_score\" is not null or \"admission_test_scores\".\"maximum_score\" is not null or \"admission_test_scores\".\"average_score\" is not null or \"admission_test_scores\".\"percentile_25\" is not null or \"admission_test_scores\".\"percentile_50\" is not null or \"admission_test_scores\".\"percentile_75\" is not null"
+        },
+        "admission_test_scores_range_order_check": {
+          "name": "admission_test_scores_range_order_check",
+          "value": "\"admission_test_scores\".\"minimum_score\" is null or \"admission_test_scores\".\"maximum_score\" is null or \"admission_test_scores\".\"minimum_score\" <= \"admission_test_scores\".\"maximum_score\""
+        },
+        "admission_test_scores_percentile_order_check": {
+          "name": "admission_test_scores_percentile_order_check",
+          "value": "\"admission_test_scores\".\"percentile_25\" is null or \"admission_test_scores\".\"percentile_75\" is null or \"admission_test_scores\".\"percentile_25\" <= \"admission_test_scores\".\"percentile_75\""
+        },
+        "admission_test_scores_percentile_median_order_check": {
+          "name": "admission_test_scores_percentile_median_order_check",
+          "value": "\"admission_test_scores\".\"percentile_25\" is null or \"admission_test_scores\".\"percentile_50\" is null or \"admission_test_scores\".\"percentile_25\" <= \"admission_test_scores\".\"percentile_50\""
+        },
+        "admission_test_scores_median_percentile_order_check": {
+          "name": "admission_test_scores_median_percentile_order_check",
+          "value": "\"admission_test_scores\".\"percentile_50\" is null or \"admission_test_scores\".\"percentile_75\" is null or \"admission_test_scores\".\"percentile_50\" <= \"admission_test_scores\".\"percentile_75\""
+        },
+        "admission_test_scores_values_nonnegative_check": {
+          "name": "admission_test_scores_values_nonnegative_check",
+          "value": "coalesce(\"admission_test_scores\".\"submitters_count\", 0) >= 0 and coalesce(\"admission_test_scores\".\"submitters_percent\", 0) >= 0 and coalesce(\"admission_test_scores\".\"submitters_percent\", 0) <= 100 and coalesce(\"admission_test_scores\".\"minimum_score\", 0) >= 0 and coalesce(\"admission_test_scores\".\"maximum_score\", 0) >= 0 and coalesce(\"admission_test_scores\".\"average_score\", 0) >= 0 and coalesce(\"admission_test_scores\".\"percentile_25\", 0) >= 0 and coalesce(\"admission_test_scores\".\"percentile_50\", 0) >= 0 and coalesce(\"admission_test_scores\".\"percentile_75\", 0) >= 0"
+        },
+        "admission_test_scores_source_flags_object_check": {
+          "name": "admission_test_scores_source_flags_object_check",
+          "value": "jsonb_typeof(\"admission_test_scores\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.cost_snapshots": {
+      "name": "cost_snapshots",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "program_id": {
+          "name": "program_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_year": {
+          "name": "academic_year",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "level": {
+          "name": "level",
+          "type": "study_level",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "applicant_type": {
+          "name": "applicant_type",
+          "type": "applicant_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "residency": {
+          "name": "residency",
+          "type": "residency_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "category": {
+          "name": "category",
+          "type": "cost_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "period": {
+          "name": "period",
+          "type": "cost_period",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "numeric(14, 2)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "currency": {
+          "name": "currency",
+          "type": "varchar(3)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "cost_snapshots_institution_scope_source_unique": {
+          "name": "cost_snapshots_institution_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "residency",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "category",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "period",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"cost_snapshots\".\"program_id\" is null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "cost_snapshots_program_scope_source_unique": {
+          "name": "cost_snapshots_program_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "residency",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "category",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "period",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"cost_snapshots\".\"program_id\" is not null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "cost_snapshots_university_id_idx": {
+          "name": "cost_snapshots_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "cost_snapshots_program_id_idx": {
+          "name": "cost_snapshots_program_id_idx",
+          "columns": [
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "cost_snapshots_source_id_idx": {
+          "name": "cost_snapshots_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "cost_snapshots_university_id_universities_id_fk": {
+          "name": "cost_snapshots_university_id_universities_id_fk",
+          "tableFrom": "cost_snapshots",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cost_snapshots_program_id_programs_id_fk": {
+          "name": "cost_snapshots_program_id_programs_id_fk",
+          "tableFrom": "cost_snapshots",
+          "tableTo": "programs",
+          "columnsFrom": ["program_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cost_snapshots_source_id_sources_id_fk": {
+          "name": "cost_snapshots_source_id_sources_id_fk",
+          "tableFrom": "cost_snapshots",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "cost_snapshots_amount_nonnegative_check": {
+          "name": "cost_snapshots_amount_nonnegative_check",
+          "value": "\"cost_snapshots\".\"amount\" >= 0"
+        },
+        "cost_snapshots_currency_iso_check": {
+          "name": "cost_snapshots_currency_iso_check",
+          "value": "\"cost_snapshots\".\"currency\" ~ '^[A-Z]{3}$'"
+        },
+        "cost_snapshots_source_flags_object_check": {
+          "name": "cost_snapshots_source_flags_object_check",
+          "value": "jsonb_typeof(\"cost_snapshots\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.deadlines": {
+      "name": "deadlines",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "label": {
+          "name": "label",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "date": {
+          "name": "date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "applicant_type": {
+          "name": "applicant_type",
+          "type": "applicant_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "entry_type": {
+          "name": "entry_type",
+          "type": "admission_entry_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'first_year'"
+        },
+        "academic_year": {
+          "name": "academic_year",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'unspecified'"
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "deadlines_university_id_idx": {
+          "name": "deadlines_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "deadlines_source_id_idx": {
+          "name": "deadlines_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "deadlines_university_id_universities_id_fk": {
+          "name": "deadlines_university_id_universities_id_fk",
+          "tableFrom": "deadlines",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "deadlines_source_id_sources_id_fk": {
+          "name": "deadlines_source_id_sources_id_fk",
+          "tableFrom": "deadlines",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "set null",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "deadlines_source_flags_object_check": {
+          "name": "deadlines_source_flags_object_check",
+          "value": "jsonb_typeof(\"deadlines\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.enrollment_snapshots": {
+      "name": "enrollment_snapshots",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "program_id": {
+          "name": "program_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_year": {
+          "name": "academic_year",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "level": {
+          "name": "level",
+          "type": "study_level",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "attendance_status": {
+          "name": "attendance_status",
+          "type": "attendance_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "applicant_type": {
+          "name": "applicant_type",
+          "type": "applicant_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "population": {
+          "name": "population",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "student_count": {
+          "name": "student_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "enrollment_snapshots_institution_scope_source_unique": {
+          "name": "enrollment_snapshots_institution_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "attendance_status",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "population",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"enrollment_snapshots\".\"program_id\" is null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "enrollment_snapshots_program_scope_source_unique": {
+          "name": "enrollment_snapshots_program_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "attendance_status",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "population",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"enrollment_snapshots\".\"program_id\" is not null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "enrollment_snapshots_university_id_idx": {
+          "name": "enrollment_snapshots_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "enrollment_snapshots_program_id_idx": {
+          "name": "enrollment_snapshots_program_id_idx",
+          "columns": [
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "enrollment_snapshots_source_id_idx": {
+          "name": "enrollment_snapshots_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "enrollment_snapshots_university_id_universities_id_fk": {
+          "name": "enrollment_snapshots_university_id_universities_id_fk",
+          "tableFrom": "enrollment_snapshots",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "enrollment_snapshots_program_id_programs_id_fk": {
+          "name": "enrollment_snapshots_program_id_programs_id_fk",
+          "tableFrom": "enrollment_snapshots",
+          "tableTo": "programs",
+          "columnsFrom": ["program_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "enrollment_snapshots_source_id_sources_id_fk": {
+          "name": "enrollment_snapshots_source_id_sources_id_fk",
+          "tableFrom": "enrollment_snapshots",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "enrollment_snapshots_count_nonnegative_check": {
+          "name": "enrollment_snapshots_count_nonnegative_check",
+          "value": "\"enrollment_snapshots\".\"student_count\" >= 0"
+        },
+        "enrollment_snapshots_source_flags_object_check": {
+          "name": "enrollment_snapshots_source_flags_object_check",
+          "value": "jsonb_typeof(\"enrollment_snapshots\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.financial_aid_snapshots": {
+      "name": "financial_aid_snapshots",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "program_id": {
+          "name": "program_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_year": {
+          "name": "academic_year",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "level": {
+          "name": "level",
+          "type": "study_level",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "applicant_type": {
+          "name": "applicant_type",
+          "type": "applicant_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "population": {
+          "name": "population",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'all'"
+        },
+        "category": {
+          "name": "category",
+          "type": "financial_aid_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "recipient_count": {
+          "name": "recipient_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "recipient_percent": {
+          "name": "recipient_percent",
+          "type": "numeric(5, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "average_amount": {
+          "name": "average_amount",
+          "type": "numeric(14, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "total_amount": {
+          "name": "total_amount",
+          "type": "numeric(16, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "currency": {
+          "name": "currency",
+          "type": "varchar(3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "financial_aid_snapshots_institution_scope_source_unique": {
+          "name": "financial_aid_snapshots_institution_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "population",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "category",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"financial_aid_snapshots\".\"program_id\" is null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "financial_aid_snapshots_program_scope_source_unique": {
+          "name": "financial_aid_snapshots_program_scope_source_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "academic_year",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "level",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "applicant_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "population",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "category",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "where": "\"financial_aid_snapshots\".\"program_id\" is not null",
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "financial_aid_snapshots_university_id_idx": {
+          "name": "financial_aid_snapshots_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "financial_aid_snapshots_program_id_idx": {
+          "name": "financial_aid_snapshots_program_id_idx",
+          "columns": [
+            {
+              "expression": "program_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "financial_aid_snapshots_source_id_idx": {
+          "name": "financial_aid_snapshots_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "financial_aid_snapshots_university_id_universities_id_fk": {
+          "name": "financial_aid_snapshots_university_id_universities_id_fk",
+          "tableFrom": "financial_aid_snapshots",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "financial_aid_snapshots_program_id_programs_id_fk": {
+          "name": "financial_aid_snapshots_program_id_programs_id_fk",
+          "tableFrom": "financial_aid_snapshots",
+          "tableTo": "programs",
+          "columnsFrom": ["program_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "financial_aid_snapshots_source_id_sources_id_fk": {
+          "name": "financial_aid_snapshots_source_id_sources_id_fk",
+          "tableFrom": "financial_aid_snapshots",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "financial_aid_snapshots_value_present_check": {
+          "name": "financial_aid_snapshots_value_present_check",
+          "value": "\"financial_aid_snapshots\".\"recipient_count\" is not null or \"financial_aid_snapshots\".\"recipient_percent\" is not null or \"financial_aid_snapshots\".\"average_amount\" is not null or \"financial_aid_snapshots\".\"total_amount\" is not null"
+        },
+        "financial_aid_snapshots_values_nonnegative_check": {
+          "name": "financial_aid_snapshots_values_nonnegative_check",
+          "value": "coalesce(\"financial_aid_snapshots\".\"recipient_count\", 0) >= 0 and coalesce(\"financial_aid_snapshots\".\"recipient_percent\", 0) >= 0 and coalesce(\"financial_aid_snapshots\".\"average_amount\", 0) >= 0 and coalesce(\"financial_aid_snapshots\".\"total_amount\", 0) >= 0"
+        },
+        "financial_aid_snapshots_percent_range_check": {
+          "name": "financial_aid_snapshots_percent_range_check",
+          "value": "\"financial_aid_snapshots\".\"recipient_percent\" is null or \"financial_aid_snapshots\".\"recipient_percent\" <= 100"
+        },
+        "financial_aid_snapshots_currency_dependency_check": {
+          "name": "financial_aid_snapshots_currency_dependency_check",
+          "value": "(\"financial_aid_snapshots\".\"average_amount\" is null and \"financial_aid_snapshots\".\"total_amount\" is null) or \"financial_aid_snapshots\".\"currency\" is not null"
+        },
+        "financial_aid_snapshots_currency_iso_check": {
+          "name": "financial_aid_snapshots_currency_iso_check",
+          "value": "\"financial_aid_snapshots\".\"currency\" is null or \"financial_aid_snapshots\".\"currency\" ~ '^[A-Z]{3}$'"
+        },
+        "financial_aid_snapshots_source_flags_object_check": {
+          "name": "financial_aid_snapshots_source_flags_object_check",
+          "value": "jsonb_typeof(\"financial_aid_snapshots\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.import_rejections": {
+      "name": "import_rejections",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "run_id": {
+          "name": "run_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_row": {
+          "name": "source_row",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "external_id": {
+          "name": "external_id",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "reason": {
+          "name": "reason",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "payload_hash": {
+          "name": "payload_hash",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "payload": {
+          "name": "payload",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "import_rejections_run_id_idx": {
+          "name": "import_rejections_run_id_idx",
+          "columns": [
+            {
+              "expression": "run_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "import_rejections_run_id_import_runs_id_fk": {
+          "name": "import_rejections_run_id_import_runs_id_fk",
+          "tableFrom": "import_rejections",
+          "tableTo": "import_runs",
+          "columnsFrom": ["run_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.import_runs": {
+      "name": "import_runs",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "provider": {
+          "name": "provider",
+          "type": "varchar(40)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "dataset_version": {
+          "name": "dataset_version",
+          "type": "varchar(120)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "artifact_hash": {
+          "name": "artifact_hash",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "status": {
+          "name": "status",
+          "type": "import_run_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'running'"
+        },
+        "checkpoint": {
+          "name": "checkpoint",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        },
+        "processed_count": {
+          "name": "processed_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "inserted_count": {
+          "name": "inserted_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "updated_count": {
+          "name": "updated_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "skipped_count": {
+          "name": "skipped_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "rejected_count": {
+          "name": "rejected_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "started_at": {
+          "name": "started_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "finished_at": {
+          "name": "finished_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "import_runs_provider_dataset_artifact_unique": {
+          "name": "import_runs_provider_dataset_artifact_unique",
+          "columns": [
+            {
+              "expression": "provider",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "dataset_version",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "artifact_hash",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "import_runs_provider_started_at_idx": {
+          "name": "import_runs_provider_started_at_idx",
+          "columns": [
+            {
+              "expression": "provider",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "started_at",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "import_runs_status_idx": {
+          "name": "import_runs_status_idx",
+          "columns": [
+            {
+              "expression": "status",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.institution_identifiers": {
+      "name": "institution_identifiers",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "provider": {
+          "name": "provider",
+          "type": "varchar(40)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "external_id": {
+          "name": "external_id",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_modified_at": {
+          "name": "source_modified_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "first_seen_at": {
+          "name": "first_seen_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "last_seen_at": {
+          "name": "last_seen_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "institution_identifiers_provider_external_id_unique": {
+          "name": "institution_identifiers_provider_external_id_unique",
+          "columns": [
+            {
+              "expression": "provider",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "external_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "institution_identifiers_university_id_idx": {
+          "name": "institution_identifiers_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "institution_identifiers_university_id_universities_id_fk": {
+          "name": "institution_identifiers_university_id_universities_id_fk",
+          "tableFrom": "institution_identifiers",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.programs": {
+      "name": "programs",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(160)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "level": {
+          "name": "level",
+          "type": "program_level",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "field": {
+          "name": "field",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "programs_university_id_idx": {
+          "name": "programs_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "programs_university_id_universities_id_fk": {
+          "name": "programs_university_id_universities_id_fk",
+          "tableFrom": "programs",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.qualification_requirements": {
+      "name": "qualification_requirements",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "admission_profile_id": {
+          "name": "admission_profile_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "qualification_system": {
+          "name": "qualification_system",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "qualification_name": {
+          "name": "qualification_name",
+          "type": "varchar(160)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "kind": {
+          "name": "kind",
+          "type": "qualification_requirement_kind",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "subject": {
+          "name": "subject",
+          "type": "varchar(160)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'overall'"
+        },
+        "operator": {
+          "name": "operator",
+          "type": "requirement_operator",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "minimum_value": {
+          "name": "minimum_value",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "maximum_value": {
+          "name": "maximum_value",
+          "type": "numeric(10, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "value_text": {
+          "name": "value_text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scale": {
+          "name": "scale",
+          "type": "varchar(80)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_id": {
+          "name": "source_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source_flags": {
+          "name": "source_flags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {
+        "qualification_requirements_scope_source_unique": {
+          "name": "qualification_requirements_scope_source_unique",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "qualification_system",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "qualification_name",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "kind",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "subject",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "qualification_requirements_profile_id_idx": {
+          "name": "qualification_requirements_profile_id_idx",
+          "columns": [
+            {
+              "expression": "admission_profile_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "qualification_requirements_source_id_idx": {
+          "name": "qualification_requirements_source_id_idx",
+          "columns": [
+            {
+              "expression": "source_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "qualification_requirements_admission_profile_id_admission_profiles_id_fk": {
+          "name": "qualification_requirements_admission_profile_id_admission_profiles_id_fk",
+          "tableFrom": "qualification_requirements",
+          "tableTo": "admission_profiles",
+          "columnsFrom": ["admission_profile_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "qualification_requirements_source_id_sources_id_fk": {
+          "name": "qualification_requirements_source_id_sources_id_fk",
+          "tableFrom": "qualification_requirements",
+          "tableTo": "sources",
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "qualification_requirements_value_present_check": {
+          "name": "qualification_requirements_value_present_check",
+          "value": "\"qualification_requirements\".\"minimum_value\" is not null or \"qualification_requirements\".\"maximum_value\" is not null or \"qualification_requirements\".\"value_text\" is not null"
+        },
+        "qualification_requirements_range_order_check": {
+          "name": "qualification_requirements_range_order_check",
+          "value": "\"qualification_requirements\".\"minimum_value\" is null or \"qualification_requirements\".\"maximum_value\" is null or \"qualification_requirements\".\"minimum_value\" <= \"qualification_requirements\".\"maximum_value\""
+        },
+        "qualification_requirements_source_flags_object_check": {
+          "name": "qualification_requirements_source_flags_object_check",
+          "value": "jsonb_typeof(\"qualification_requirements\".\"source_flags\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.sources": {
+      "name": "sources",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "university_id": {
+          "name": "university_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(200)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "url": {
+          "name": "url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "source_category",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "publisher": {
+          "name": "publisher",
+          "type": "varchar(200)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dataset_version": {
+          "name": "dataset_version",
+          "type": "varchar(120)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "published_at": {
+          "name": "published_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "import_run_id": {
+          "name": "import_run_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "verified_at": {
+          "name": "verified_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "sources_university_id_idx": {
+          "name": "sources_university_id_idx",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "sources_import_run_id_idx": {
+          "name": "sources_import_run_id_idx",
+          "columns": [
+            {
+              "expression": "import_run_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "sources_university_id_url_unique": {
+          "name": "sources_university_id_url_unique",
+          "columns": [
+            {
+              "expression": "university_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "url",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "sources_university_id_universities_id_fk": {
+          "name": "sources_university_id_universities_id_fk",
+          "tableFrom": "sources",
+          "tableTo": "universities",
+          "columnsFrom": ["university_id"],
+          "columnsTo": ["id"],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "sources_import_run_id_import_runs_id_fk": {
+          "name": "sources_import_run_id_import_runs_id_fk",
+          "tableFrom": "sources",
+          "tableTo": "import_runs",
+          "columnsFrom": ["import_run_id"],
+          "columnsTo": ["id"],
+          "onDelete": "set null",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.universities": {
+      "name": "universities",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(160)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "country": {
+          "name": "country",
+          "type": "varchar(80)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "country_code": {
+          "name": "country_code",
+          "type": "varchar(2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "region": {
+          "name": "region",
+          "type": "varchar(120)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "city": {
+          "name": "city",
+          "type": "varchar(80)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "address_line": {
+          "name": "address_line",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "postal_code": {
+          "name": "postal_code",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "phone": {
+          "name": "phone",
+          "type": "varchar(40)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "latitude": {
+          "name": "latitude",
+          "type": "numeric(9, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "longitude": {
+          "name": "longitude",
+          "type": "numeric(9, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "website": {
+          "name": "website",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "official_website": {
+          "name": "official_website",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "admissions_url": {
+          "name": "admissions_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "financial_aid_url": {
+          "name": "financial_aid_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "net_price_url": {
+          "name": "net_price_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "institution_type": {
+          "name": "institution_type",
+          "type": "institution_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ownership": {
+          "name": "ownership",
+          "type": "university_ownership",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "operating_status": {
+          "name": "operating_status",
+          "type": "operating_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "highest_award_level": {
+          "name": "highest_award_level",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "offers_undergraduate": {
+          "name": "offers_undergraduate",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "offers_graduate": {
+          "name": "offers_graduate",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_calendar": {
+          "name": "academic_calendar",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "established_year": {
+          "name": "established_year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "student_count": {
+          "name": "student_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "acceptance_rate": {
+          "name": "acceptance_rate",
+          "type": "numeric(5, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "annual_tuition_usd": {
+          "name": "annual_tuition_usd",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ib_typical_min": {
+          "name": "ib_typical_min",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "featured": {
+          "name": "featured",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "universities_country_idx": {
+          "name": "universities_country_idx",
+          "columns": [
+            {
+              "expression": "country",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "universities_country_code_idx": {
+          "name": "universities_country_code_idx",
+          "columns": [
+            {
+              "expression": "country_code",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "universities_type_idx": {
+          "name": "universities_type_idx",
+          "columns": [
+            {
+              "expression": "institution_type",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "universities_ownership_idx": {
+          "name": "universities_ownership_idx",
+          "columns": [
+            {
+              "expression": "ownership",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "universities_operating_status_idx": {
+          "name": "universities_operating_status_idx",
+          "columns": [
+            {
+              "expression": "operating_status",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "universities_name_trgm_idx": {
+          "name": "universities_name_trgm_idx",
+          "columns": [
+            {
+              "expression": "name",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last",
+              "opclass": "gin_trgm_ops"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        },
+        "universities_city_trgm_idx": {
+          "name": "universities_city_trgm_idx",
+          "columns": [
+            {
+              "expression": "city",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last",
+              "opclass": "gin_trgm_ops"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        },
+        "universities_country_trgm_idx": {
+          "name": "universities_country_trgm_idx",
+          "columns": [
+            {
+              "expression": "country",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last",
+              "opclass": "gin_trgm_ops"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "universities_slug_unique": {
+          "name": "universities_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": ["slug"]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "universities_country_code_iso_check": {
+          "name": "universities_country_code_iso_check",
+          "value": "\"universities\".\"country_code\" is null or \"universities\".\"country_code\" ~ '^[A-Z]{2}$'"
+        },
+        "universities_latitude_range_check": {
+          "name": "universities_latitude_range_check",
+          "value": "\"universities\".\"latitude\" is null or \"universities\".\"latitude\" between -90 and 90"
+        },
+        "universities_longitude_range_check": {
+          "name": "universities_longitude_range_check",
+          "value": "\"universities\".\"longitude\" is null or \"universities\".\"longitude\" between -180 and 180"
+        },
+        "universities_established_year_range_check": {
+          "name": "universities_established_year_range_check",
+          "value": "\"universities\".\"established_year\" is null or \"universities\".\"established_year\" between 1000 and 2100"
+        }
+      },
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.admission_count_metric": {
+      "name": "admission_count_metric",
+      "schema": "public",
+      "values": ["applicants", "admitted", "enrolled", "waitlisted", "waitlist_admitted", "other"]
+    },
+    "public.admission_entry_type": {
+      "name": "admission_entry_type",
+      "schema": "public",
+      "values": ["first_year", "transfer", "readmission", "other"]
+    },
+    "public.applicant_type": {
+      "name": "applicant_type",
+      "schema": "public",
+      "values": ["domestic", "international", "all"]
+    },
+    "public.attendance_status": {
+      "name": "attendance_status",
+      "schema": "public",
+      "values": ["all", "full_time", "part_time"]
+    },
+    "public.cost_category": {
+      "name": "cost_category",
+      "schema": "public",
+      "values": [
+        "tuition",
+        "fees",
+        "tuition_and_fees",
+        "housing",
+        "meals",
+        "books_and_supplies",
+        "transportation",
+        "personal",
+        "total_cost_of_attendance",
+        "other"
+      ]
+    },
+    "public.cost_period": {
+      "name": "cost_period",
+      "schema": "public",
+      "values": ["academic_year", "semester", "term", "month", "one_time", "other"]
+    },
+    "public.financial_aid_category": {
+      "name": "financial_aid_category",
+      "schema": "public",
+      "values": [
+        "any_aid",
+        "grant_or_scholarship",
+        "institutional_grant",
+        "government_grant",
+        "loan",
+        "work_study",
+        "other"
+      ]
+    },
+    "public.import_run_status": {
+      "name": "import_run_status",
+      "schema": "public",
+      "values": ["running", "paused", "completed", "failed", "cancelled"]
+    },
+    "public.institution_type": {
+      "name": "institution_type",
+      "schema": "public",
+      "values": ["public", "private", "unknown"]
+    },
+    "public.operating_status": {
+      "name": "operating_status",
+      "schema": "public",
+      "values": ["active", "inactive", "unknown"]
+    },
+    "public.program_level": {
+      "name": "program_level",
+      "schema": "public",
+      "values": ["undergraduate", "graduate"]
+    },
+    "public.qualification_requirement_kind": {
+      "name": "qualification_requirement_kind",
+      "schema": "public",
+      "values": ["credential", "overall_score", "subject_score", "grade", "coursework", "other"]
+    },
+    "public.requirement_category": {
+      "name": "requirement_category",
+      "schema": "public",
+      "values": [
+        "academic",
+        "application",
+        "language",
+        "standardized_test",
+        "document",
+        "experience",
+        "portfolio",
+        "interview",
+        "financial",
+        "other"
+      ]
+    },
+    "public.requirement_operator": {
+      "name": "requirement_operator",
+      "schema": "public",
+      "values": ["minimum", "maximum", "exact", "range", "equivalent", "descriptive"]
+    },
+    "public.requirement_status": {
+      "name": "requirement_status",
+      "schema": "public",
+      "values": [
+        "required",
+        "conditional",
+        "considered",
+        "recommended",
+        "optional",
+        "not_required",
+        "not_considered",
+        "unknown"
+      ]
+    },
+    "public.residency_category": {
+      "name": "residency_category",
+      "schema": "public",
+      "values": ["all", "in_state", "out_of_state", "domestic", "international", "other"]
+    },
+    "public.source_category": {
+      "name": "source_category",
+      "schema": "public",
+      "values": ["official", "government", "independent"]
+    },
+    "public.study_level": {
+      "name": "study_level",
+      "schema": "public",
+      "values": ["all", "undergraduate", "graduate", "doctoral", "non_degree", "other"]
+    },
+    "public.test_score_context": {
+      "name": "test_score_context",
+      "schema": "public",
+      "values": ["requirement", "admitted_students", "enrolled_students"]
+    },
+    "public.university_ownership": {
+      "name": "university_ownership",
+      "schema": "public",
+      "values": ["public", "private_nonprofit", "private_forprofit", "unknown"]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

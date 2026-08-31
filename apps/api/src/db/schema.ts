@@ -71,6 +71,7 @@ export const requirementCategory = pgEnum('requirement_category', [
 export const requirementStatus = pgEnum('requirement_status', [
   'required',
   'conditional',
+  'considered',
   'recommended',
   'optional',
   'not_required',
@@ -513,6 +514,8 @@ export const admissionTestScores = pgTable(
     testName: varchar('test_name', { length: 100 }).notNull(),
     section: varchar('section', { length: 100 }).notNull().default('overall'),
     context: testScoreContext('context').notNull(),
+    submittersCount: integer('submitters_count'),
+    submittersPercent: numeric('submitters_percent', { precision: 5, scale: 2 }),
     minimumScore: numeric('minimum_score', { precision: 10, scale: 3 }),
     maximumScore: numeric('maximum_score', { precision: 10, scale: 3 }),
     averageScore: numeric('average_score', { precision: 10, scale: 3 }),
@@ -557,7 +560,7 @@ export const admissionTestScores = pgTable(
     ),
     check(
       'admission_test_scores_values_nonnegative_check',
-      sql`coalesce(${table.minimumScore}, 0) >= 0 and coalesce(${table.maximumScore}, 0) >= 0 and coalesce(${table.averageScore}, 0) >= 0 and coalesce(${table.percentile25}, 0) >= 0 and coalesce(${table.percentile50}, 0) >= 0 and coalesce(${table.percentile75}, 0) >= 0`,
+      sql`coalesce(${table.submittersCount}, 0) >= 0 and coalesce(${table.submittersPercent}, 0) >= 0 and coalesce(${table.submittersPercent}, 0) <= 100 and coalesce(${table.minimumScore}, 0) >= 0 and coalesce(${table.maximumScore}, 0) >= 0 and coalesce(${table.averageScore}, 0) >= 0 and coalesce(${table.percentile25}, 0) >= 0 and coalesce(${table.percentile50}, 0) >= 0 and coalesce(${table.percentile75}, 0) >= 0`,
     ),
     check(
       'admission_test_scores_source_flags_object_check',
