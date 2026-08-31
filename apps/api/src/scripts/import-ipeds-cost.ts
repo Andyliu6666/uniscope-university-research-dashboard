@@ -884,7 +884,14 @@ const flushCosts = async (
       sourceFlags: fact.sourceFlags,
     }));
   });
-  if (facts.length) await tx.insert(costSnapshots).values(facts);
+  // PostgreSQL limits a single prepared statement to 65,535 parameters. A
+  // COST1 row can produce many facts, so split the insert even though the
+  // enclosing transaction still makes the whole source-row batch atomic.
+  const costInsertChunkSize = 1000;
+  for (let offset = 0; offset < facts.length; offset += costInsertChunkSize) {
+    const chunk = facts.slice(offset, offset + costInsertChunkSize);
+    await tx.insert(costSnapshots).values(chunk);
+  }
   for (const candidate of candidates) {
     if (candidate.financialAidUrl) {
       await tx

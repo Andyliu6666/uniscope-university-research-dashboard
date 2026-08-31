@@ -108,6 +108,22 @@ Run the last command again to resume the next reviewed batch. The IPEDS `UNITID`
 
 The checked-in crosswalk CSV is the reviewed, reproducible snapshot. Its query, source hashes, exact row counts, retrieval time, and line-ending normalization are recorded in `data/sources/`. The importer rejects an unknown filename, checksum, row count, schema, duplicate UnitID, truncated file, or concurrent institution import before publishing data. Each committed checkpoint retains the complete source metadata, and a completed artifact is a no-op on rerun.
 
+The reviewed IPEDS enrichment snapshots add institutional characteristics and 2024–25 costs without creating new identities. They update only institutions that already have an IPEDS `UNITID`, preserve imputation flags, and resume from committed checkpoints:
+
+```bash
+# From the repository root, with Docker services running
+docker compose exec api pnpm --filter @urd/api import:ipeds-cost \
+  /app/data/sources/IC2024.csv \
+  /app/data/sources/COST1_2024.csv
+
+# Local Node.js run instead
+pnpm --filter @urd/api import:ipeds-cost \
+  ../../data/sources/IC2024.csv \
+  ../../data/sources/COST1_2024.csv
+```
+
+The importer records official source metadata, calendar and award-level characteristics, application fees, tuition, required fees, per-credit-hour charges, housing/food, and cost-of-attendance components. It does not infer a total cost or import doctoral-professional-practice charges into a general graduate row; those distinctions remain explicit in the source flags and scenarios.
+
 To propose a newer crosswalk, run the checked-in SPARQL query into a separate candidate file, review all forward and reverse ambiguities, normalize and archive the approved response, and then add its checksum and counts to `ipeds-artifacts.json`. Never replace the reviewed snapshot with a live query during a production import.
 
 IPEDS is published by the U.S. National Center for Education Statistics through its [official data center](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx); the federal catalog describes IPEDS public-use data as [CC0](https://catalog.data.gov/dataset/integrated-postsecondary-education-data-system-2012-13). The Wikidata crosswalk is CC0 and is used only for identity resolution—not as evidence that an institution is currently active or degree-granting.
