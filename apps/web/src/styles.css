@@ -451,6 +451,56 @@ a {
   margin-top: 7px;
   text-transform: capitalize;
 }
+.admissions-panel {
+  margin-bottom: 20px;
+}
+.admissions-panel > h2 {
+  margin-bottom: 8px;
+}
+.muted {
+  color: #65736b;
+  line-height: 1.6;
+}
+.admissions-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0 12px;
+}
+.admission-metric {
+  border-top: 1px solid var(--line);
+  padding: 13px 0;
+}
+.admission-metric span {
+  display: block;
+  font-size: 10px;
+  color: #6d7a73;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.admission-metric strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 18px;
+}
+.admissions-subsection {
+  margin-top: 24px;
+}
+.admissions-subsection h3 {
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.source-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 18px;
+  color: #34705a;
+  font-size: 12px;
+  font-weight: 600;
+}
 .detail-grid,
 .contribute-grid {
   display: grid;
@@ -645,6 +695,9 @@ footer p {
   .metric-strip {
     grid-template-columns: repeat(2, 1fr);
   }
+  .admissions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .detail-grid,
   .contribute-grid {
     grid-template-columns: 1fr;
@@ -706,6 +759,9 @@ footer p {
   }
   .metric-strip {
     grid-template-columns: 1fr;
+  }
+  .admissions-grid {
+    grid-template-columns: 1fr 1fr;
   }
   .metric-strip div {
     border-right: 0;

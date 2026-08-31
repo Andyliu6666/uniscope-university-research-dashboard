@@ -1,12 +1,13 @@
 import cors from '@fastify/cors';
 import helmet from '@fastify/helmet';
 import rateLimit from '@fastify/rate-limit';
-import { universityInputSchema, universityQuerySchema } from '@urd/shared';
+import { admissionsQuerySchema, universityInputSchema, universityQuerySchema } from '@urd/shared';
 import Fastify from 'fastify';
 import type { Config } from './config.js';
 import type { Database } from './db/client.js';
 import {
   getUniversity,
+  getUniversityAdmissions,
   healthcheck,
   listUniversities,
   upsertUniversity,
@@ -38,6 +39,19 @@ export const buildApp = async (config: Config, db: Database) => {
     const item = await getUniversity(db, request.params.slug);
     return item ?? reply.status(404).send({ error: 'University not found' });
   });
+
+  app.get<{ Params: { slug: string } }>(
+    '/api/universities/:slug/admissions',
+    async (request, reply) => {
+      const parsed = admissionsQuerySchema.safeParse(request.query);
+      if (!parsed.success)
+        return reply
+          .status(400)
+          .send({ error: 'Invalid admissions query', details: parsed.error.flatten() });
+      const item = await getUniversityAdmissions(db, request.params.slug, parsed.data);
+      return item ?? reply.status(404).send({ error: 'University not found' });
+    },
+  );
 
   app.put(
     '/api/admin/universities',

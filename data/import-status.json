@@ -1,7 +1,7 @@
 {
   "database": {
     "countries": 225,
-    "rejectedRows": 7,
+    "rejectedRows": 128,
     "universities": 28144,
     "rorIdentifiers": 27107,
     "sourcedProfiles": 28144,
@@ -11,31 +11,30 @@
       "wikidata": 7778
     }
   },
-  "generatedAt": "2026-08-30T23:24:28Z",
+  "generatedAt": "2026-08-31T01:32:44Z",
   "latestImport": {
     "status": "completed",
-    "skipped": 2857,
-    "updated": 0,
-    "inserted": 1089,
-    "provider": "ipeds",
-    "rejected": 7,
-    "processed": 3953,
-    "startedAt": "2026-08-30T23:20:13.477829+00:00",
-    "updatedAt": "2026-08-30T23:23:42.489+00:00",
+    "skipped": 3945,
+    "updated": 7885,
+    "inserted": 0,
+    "provider": "ipeds-enrichment",
+    "rejected": 0,
+    "processed": 11830,
+    "startedAt": "2026-08-31T01:31:09.61664+00:00",
+    "updatedAt": "2026-08-31T01:32:12.82+00:00",
     "checkpoint": {
-      "sourceRow": 6072,
-      "sourceRows": 6072,
-      "eligibleRows": 3953,
-      "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
-      "crosswalkRows": 3857,
-      "crosswalkSha256": "c494e8e49ec17423a7b7393f7b509d5a92bf52596266b15fbf67ce092a14969a",
-      "sourceModifiedAt": "2025-09-21T14:17:10.000Z",
-      "sourceDownloadUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
-      "crosswalkRetrievedAt": "2026-08-30T19:44:51.000Z"
+      "phase": "completed",
+      "costsSha256": "3e52a774bb851b9b914ba64020a5075925b6d8533b9d95542e64d0825274da66",
+      "schemaVersion": 1,
+      "costsSourceRow": 5867,
+      "costsSourceRows": 5867,
+      "characteristicsSha256": "d80a5732f033230ab929c0436c519f814aa8449c0b3e2e947ec5d1e2241d3801",
+      "characteristicsSourceRow": 5963,
+      "characteristicsSourceRows": 5963
     },
-    "finishedAt": "2026-08-30T23:23:42.489+00:00",
-    "artifactSha256": "4d8ebc8dffd3b1cebf126b306ca210870c8935418f01701b924fea28cfcb2a93",
-    "datasetVersion": "HD2024+wikidata-ipeds-ror-20260830"
+    "finishedAt": "2026-08-31T01:32:12.82+00:00",
+    "artifactSha256": "cc8158c69ff374c3cc63a04af9e7b32553a65bc84262dd09d9c7094dad2ef9fc",
+    "datasetVersion": "IC2024+COST1_2024"
   },
   "schemaVersion": 1
 }

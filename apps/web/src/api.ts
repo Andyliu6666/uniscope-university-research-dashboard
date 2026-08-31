@@ -1,4 +1,6 @@
 import type {
+  AdmissionsQuery,
+  UniversityAdmissionsResponse,
   University,
   UniversityInput,
   UniversityListResponse,
@@ -28,6 +30,15 @@ export const fetchUniversities = (query: UniversityQuery) => {
   return request<UniversityListResponse>(`/api/universities?${params.toString()}`);
 };
 export const fetchUniversity = (slug: string) => request<University>(`/api/universities/${slug}`);
+export const fetchUniversityAdmissions = (slug: string, query: AdmissionsQuery = {}) => {
+  const params = new URLSearchParams();
+  Object.entries(query).forEach(([key, value]) => {
+    if (value !== undefined && value !== '') params.set(key, String(value));
+  });
+  return request<UniversityAdmissionsResponse>(
+    `/api/universities/${slug}/admissions?${params.toString()}`,
+  );
+};
 export const saveUniversity = (input: UniversityInput, adminKey: string) =>
   request<{ slug: string }>('/api/admin/universities', {
     method: 'PUT',

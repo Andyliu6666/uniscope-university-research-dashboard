@@ -1,5 +1,7 @@
-import { and, asc, count, eq, ilike, inArray, lte, or, sql } from 'drizzle-orm';
+import { and, asc, count, desc, eq, ilike, inArray, lte, or, sql } from 'drizzle-orm';
 import type {
+  AdmissionsQuery,
+  UniversityAdmissionsResponse,
   University,
   UniversityInput,
   UniversityListResponse,
@@ -7,9 +9,17 @@ import type {
 } from '@urd/shared';
 import type { Database } from '../db/client.js';
 import {
+  admissionCounts,
+  admissionProfiles,
+  admissionRequirements,
+  admissionTestScores,
+  costSnapshots,
   deadlines,
+  enrollmentSnapshots,
+  financialAidSnapshots,
   institutionIdentifiers,
   programs,
+  qualificationRequirements,
   sources,
   universities,
 } from '../db/schema.js';
@@ -18,6 +28,17 @@ type UniversityRow = typeof universities.$inferSelect;
 type Tx = Parameters<Parameters<Database['transaction']>[0]>[0];
 
 const escapeLike = (value: string) => value.replace(/[\\%_]/g, (char) => `\\${char}`);
+const numberOrNull = (value: string | number | null) => (value === null ? null : Number(value));
+
+const sourceForApi = (source: typeof sources.$inferSelect) => ({
+  title: source.title,
+  url: source.url,
+  category: source.category,
+  publisher: source.publisher,
+  datasetVersion: source.datasetVersion,
+  publishedAt: source.publishedAt?.toISOString() ?? null,
+  verifiedAt: source.verifiedAt.toISOString(),
+});
 
 const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[]> => {
   if (rows.length === 0) return [];
@@ -30,19 +51,30 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
   return rows.map((row) => ({
     ...row,
     acceptanceRate: row.acceptanceRate === null ? null : Number(row.acceptanceRate),
+    latitude: row.latitude === null ? null : Number(row.latitude),
+    longitude: row.longitude === null ? null : Number(row.longitude),
     updatedAt: row.updatedAt.toISOString(),
     programs: programRows
       .filter((item) => item.universityId === row.id)
       .map(({ name, level, field }) => ({ name, level, field })),
     deadlines: deadlineRows
       .filter((item) => item.universityId === row.id)
-      .map(({ label, date, applicantType }) => ({ label, date, applicantType })),
+      .map(({ label, date, applicantType, entryType, academicYear }) => ({
+        label,
+        date,
+        applicantType,
+        entryType,
+        academicYear,
+      })),
     sources: sourceRows
       .filter((item) => item.universityId === row.id)
-      .map(({ title, url, category, verifiedAt }) => ({
+      .map(({ title, url, category, publisher, datasetVersion, publishedAt, verifiedAt }) => ({
         title,
         url,
         category,
+        publisher,
+        datasetVersion,
+        publishedAt: publishedAt?.toISOString() ?? null,
         verifiedAt: verifiedAt.toISOString(),
       })),
   }));
@@ -98,6 +130,201 @@ export const getUniversity = async (db: Database, slug: string) => {
   return (await hydrate(db, rows))[0] ?? null;
 };
 
+export const getUniversityAdmissions = async (
+  db: Database,
+  slug: string,
+  query: AdmissionsQuery,
+): Promise<UniversityAdmissionsResponse | null> => {
+  const [university] = await db
+    .select({ id: universities.id, name: universities.name, slug: universities.slug })
+    .from(universities)
+    .where(eq(universities.slug, slug))
+    .limit(1);
+  if (!university) return null;
+
+  const profileFilters = [
+    eq(admissionProfiles.universityId, university.id),
+    query.year ? eq(admissionProfiles.academicYear, query.year) : undefined,
+    query.level ? eq(admissionProfiles.level, query.level) : undefined,
+    query.applicantType ? eq(admissionProfiles.applicantType, query.applicantType) : undefined,
+    query.entryType ? eq(admissionProfiles.entryType, query.entryType) : undefined,
+  ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
+  const profiles = await db
+    .select()
+    .from(admissionProfiles)
+    .where(and(...profileFilters))
+    .orderBy(desc(admissionProfiles.academicYear), asc(admissionProfiles.intakeTerm))
+    .limit(50);
+  const profileIds = profiles.map((profile) => profile.id);
+  const [countRows, requirementRows, qualificationRows, testRows] = profileIds.length
+    ? await Promise.all([
+        db
+          .select()
+          .from(admissionCounts)
+          .where(inArray(admissionCounts.admissionProfileId, profileIds)),
+        db
+          .select()
+          .from(admissionRequirements)
+          .where(inArray(admissionRequirements.admissionProfileId, profileIds)),
+        db
+          .select()
+          .from(qualificationRequirements)
+          .where(inArray(qualificationRequirements.admissionProfileId, profileIds)),
+        db
+          .select()
+          .from(admissionTestScores)
+          .where(inArray(admissionTestScores.admissionProfileId, profileIds)),
+      ])
+    : [[], [], [], []];
+
+  const yearFilter = query.year ? eq(costSnapshots.academicYear, query.year) : undefined;
+  const enrollmentYearFilter = query.year
+    ? eq(enrollmentSnapshots.academicYear, query.year)
+    : undefined;
+  const aidYearFilter = query.year ? eq(financialAidSnapshots.academicYear, query.year) : undefined;
+  const [costRows, enrollmentRows, aidRows] = await Promise.all([
+    db
+      .select()
+      .from(costSnapshots)
+      .where(and(eq(costSnapshots.universityId, university.id), yearFilter)),
+    db
+      .select()
+      .from(enrollmentSnapshots)
+      .where(and(eq(enrollmentSnapshots.universityId, university.id), enrollmentYearFilter)),
+    db
+      .select()
+      .from(financialAidSnapshots)
+      .where(and(eq(financialAidSnapshots.universityId, university.id), aidYearFilter)),
+  ]);
+
+  const sourceIds = [
+    ...profiles.map((profile) => profile.sourceId),
+    ...countRows.map((row) => row.sourceId),
+    ...requirementRows.map((row) => row.sourceId),
+    ...qualificationRows.map((row) => row.sourceId),
+    ...testRows.map((row) => row.sourceId),
+    ...costRows.map((row) => row.sourceId),
+    ...enrollmentRows.map((row) => row.sourceId),
+    ...aidRows.map((row) => row.sourceId),
+  ];
+  const sourceRows = sourceIds.length
+    ? await db
+        .select()
+        .from(sources)
+        .where(inArray(sources.id, [...new Set(sourceIds)]))
+    : [];
+  const sourceById = new Map(sourceRows.map((source) => [source.id, source]));
+  const sourceFor = (sourceId: string) => {
+    const source = sourceById.get(sourceId);
+    if (!source) throw new Error(`Missing source ${sourceId} for university ${university.slug}`);
+    return sourceForApi(source);
+  };
+
+  const profileResponses = profiles.map((profile) => ({
+    id: profile.id,
+    academicYear: profile.academicYear,
+    intakeTerm: profile.intakeTerm,
+    entryType: profile.entryType,
+    level: profile.level,
+    applicantType: profile.applicantType,
+    openAdmission: profile.openAdmission,
+    applicationUrl: profile.applicationUrl,
+    notes: profile.notes,
+    counts: countRows
+      .filter((row) => row.admissionProfileId === profile.id)
+      .map((row) => ({
+        metric: row.metric,
+        population: row.population,
+        value: row.value,
+        sourceFlags: row.sourceFlags,
+      })),
+    requirements: requirementRows
+      .filter((row) => row.admissionProfileId === profile.id)
+      .map((row) => ({
+        category: row.category,
+        requirementKey: row.requirementKey,
+        label: row.label,
+        status: row.status,
+        details: row.details,
+        sourceFlags: row.sourceFlags,
+        verifiedAt: row.verifiedAt.toISOString(),
+      })),
+    qualifications: qualificationRows
+      .filter((row) => row.admissionProfileId === profile.id)
+      .map((row) => ({
+        qualificationSystem: row.qualificationSystem,
+        qualificationName: row.qualificationName,
+        kind: row.kind,
+        subject: row.subject,
+        operator: row.operator,
+        minimumValue: numberOrNull(row.minimumValue),
+        maximumValue: numberOrNull(row.maximumValue),
+        valueText: row.valueText,
+        scale: row.scale,
+        notes: row.notes,
+        sourceFlags: row.sourceFlags,
+      })),
+    testScores: testRows
+      .filter((row) => row.admissionProfileId === profile.id)
+      .map((row) => ({
+        testName: row.testName,
+        section: row.section,
+        context: row.context,
+        submittersCount: row.submittersCount,
+        submittersPercent: numberOrNull(row.submittersPercent),
+        minimumScore: numberOrNull(row.minimumScore),
+        maximumScore: numberOrNull(row.maximumScore),
+        averageScore: numberOrNull(row.averageScore),
+        percentile25: numberOrNull(row.percentile25),
+        percentile50: numberOrNull(row.percentile50),
+        percentile75: numberOrNull(row.percentile75),
+        scoreScale: row.scoreScale,
+        sourceFlags: row.sourceFlags,
+      })),
+    source: sourceFor(profile.sourceId),
+  }));
+
+  return {
+    university,
+    profiles: profileResponses,
+    costs: costRows.map((row) => ({
+      academicYear: row.academicYear,
+      level: row.level,
+      applicantType: row.applicantType,
+      residency: row.residency,
+      category: row.category,
+      period: row.period,
+      scenario: row.scenario,
+      amount: Number(row.amount),
+      currency: row.currency,
+      sourceFlags: row.sourceFlags,
+    })),
+    enrollment: enrollmentRows.map((row) => ({
+      academicYear: row.academicYear,
+      level: row.level,
+      attendanceStatus: row.attendanceStatus,
+      applicantType: row.applicantType,
+      population: row.population,
+      studentCount: row.studentCount,
+      sourceFlags: row.sourceFlags,
+    })),
+    financialAid: aidRows.map((row) => ({
+      academicYear: row.academicYear,
+      level: row.level,
+      applicantType: row.applicantType,
+      population: row.population,
+      category: row.category,
+      recipientCount: row.recipientCount,
+      recipientPercent: numberOrNull(row.recipientPercent),
+      averageAmount: numberOrNull(row.averageAmount),
+      totalAmount: numberOrNull(row.totalAmount),
+      currency: row.currency,
+      sourceFlags: row.sourceFlags,
+    })),
+    sources: sourceRows.map(sourceForApi),
+  };
+};
+
 const insertChildren = async (tx: Tx, universityId: string, input: UniversityInput) => {
   const [existingPrograms, existingDeadlines, existingSources] = await Promise.all([
     tx.select().from(programs).where(eq(programs.universityId, universityId)),
@@ -137,6 +364,7 @@ const insertChildren = async (tx: Tx, universityId: string, input: UniversityInp
           newSources.map((item) => ({
             ...item,
             universityId,
+            publishedAt: item.publishedAt ? new Date(item.publishedAt) : undefined,
             verifiedAt: new Date(item.verifiedAt),
           })),
         )
@@ -147,6 +375,22 @@ const insertChildren = async (tx: Tx, universityId: string, input: UniversityInp
   ]);
 };
 
+const toDbUniversityCore = (core: Omit<UniversityInput, 'programs' | 'deadlines' | 'sources'>) => ({
+  ...core,
+  acceptanceRate:
+    core.acceptanceRate === null || core.acceptanceRate === undefined
+      ? core.acceptanceRate
+      : core.acceptanceRate.toString(),
+  latitude:
+    core.latitude === null || core.latitude === undefined
+      ? core.latitude
+      : core.latitude.toString(),
+  longitude:
+    core.longitude === null || core.longitude === undefined
+      ? core.longitude
+      : core.longitude.toString(),
+});
+
 const insertUniversity = async (tx: Tx, input: UniversityInput) => {
   const {
     programs: programInputs,
@@ -154,10 +398,7 @@ const insertUniversity = async (tx: Tx, input: UniversityInput) => {
     sources: sourceInputs,
     ...core
   } = input;
-  const [row] = await tx
-    .insert(universities)
-    .values({ ...core, acceptanceRate: input.acceptanceRate?.toString() })
-    .returning();
+  const [row] = await tx.insert(universities).values(toDbUniversityCore(core)).returning();
   if (!row) throw new Error('University insert failed');
   await insertChildren(tx, row.id, {
     ...input,
@@ -186,15 +427,18 @@ export const upsertUniversity = async (db: Database, input: UniversityInput) =>
       sources: _sourceInputs,
       ...core
     } = input;
+    const dbCore = toDbUniversityCore(core);
     await tx
       .update(universities)
       .set({
-        ...core,
+        ...dbCore,
         institutionType:
           input.institutionType === 'unknown' ? existing.institutionType : input.institutionType,
         studentCount: input.studentCount ?? existing.studentCount,
         acceptanceRate:
-          input.acceptanceRate === null ? existing.acceptanceRate : input.acceptanceRate.toString(),
+          input.acceptanceRate === null
+            ? existing.acceptanceRate
+            : (dbCore.acceptanceRate ?? existing.acceptanceRate),
         annualTuitionUsd: input.annualTuitionUsd ?? existing.annualTuitionUsd,
         ibTypicalMin: input.ibTypicalMin ?? existing.ibTypicalMin,
         featured: input.featured || existing.featured,

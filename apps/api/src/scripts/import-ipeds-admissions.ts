@@ -281,7 +281,7 @@ type RequirementFact = {
   category: 'academic' | 'application' | 'language' | 'standardized_test' | 'experience';
   requirementKey: string;
   label: string;
-  status: 'required' | 'optional' | 'not_considered';
+  status: 'required' | 'considered' | 'not_considered';
   details: string;
   sourceFlags: Record<string, unknown>;
 };
@@ -468,7 +468,7 @@ const toAdmissionRow = (raw: Record<string, string>, sourceRow: number): Admissi
         code === '1'
           ? 'required'
           : code === '5'
-            ? 'optional'
+            ? 'considered'
             : code === '3'
               ? 'not_considered'
               : null;
@@ -479,7 +479,7 @@ const toAdmissionRow = (raw: Record<string, string>, sourceRow: number): Admissi
       const details =
         status === 'required'
           ? 'Required to be considered for admission.'
-          : status === 'optional'
+          : status === 'considered'
             ? 'Not required for admission, but considered if submitted.'
             : 'Not considered for admission, even if submitted.';
       return {
