@@ -492,6 +492,65 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+.subsection-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.subsection-heading .muted {
+  font-size: 12px;
+  margin: 7px 0 0;
+}
+.subsection-heading .source-inline {
+  margin-top: 0;
+  white-space: nowrap;
+}
+.enrollment-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  margin-top: 14px;
+}
+.enrollment-table {
+  min-width: 510px;
+  font-size: 13px;
+}
+.enrollment-table th,
+.enrollment-table td {
+  padding: 12px 14px;
+}
+.enrollment-table thead th {
+  background: #e5eadf;
+  font:
+    600 10px 'DM Sans',
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.enrollment-table thead th:not(:first-child) {
+  font:
+    600 10px 'DM Sans',
+    sans-serif;
+  min-width: 0;
+}
+.enrollment-table tbody th {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.enrollment-table tbody td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.enrollment-note {
+  color: #65736b;
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 12px 0 0;
+}
 .source-inline {
   display: inline-flex;
   align-items: center;
@@ -762,6 +821,13 @@ footer p {
   }
   .admissions-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .subsection-heading {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .subsection-heading .source-inline {
+    margin-top: 0;
   }
   .metric-strip div {
     border-right: 0;

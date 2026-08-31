@@ -171,13 +171,26 @@ function AdmissionsSection({
         <h2>Loading official admissions data…</h2>
       </section>
     );
-  const profile = data?.profiles[0];
-  if (!data || !profile)
+  if (!data)
     return (
       <section className="panel admissions-panel">
         <p className="kicker">Admissions</p>
         <h2>Admissions data</h2>
         <p className="muted">Not yet researched or not reported by the selected official source.</p>
+      </section>
+    );
+
+  const profile = data.profiles[0];
+  if (!profile)
+    return (
+      <section className="panel admissions-panel">
+        <p className="kicker">Research data</p>
+        <h2>Admissions data</h2>
+        <p className="muted">
+          A first-year admissions profile is not reported for this institution. Enrollment details
+          are shown below when available.
+        </p>
+        <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
       </section>
     );
 
@@ -216,6 +229,7 @@ function AdmissionsSection({
         <AdmissionMetric label="Acceptance rate" value={acceptanceRate} />
         <AdmissionMetric label="Yield rate" value={yieldRate} />
       </div>
+      <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
       {profile.testScores.length > 0 && (
         <div className="admissions-subsection">
           <h3>Standardized test profile</h3>
@@ -287,6 +301,132 @@ function AdmissionsSection({
     </section>
   );
 }
+
+type EnrollmentRow = Awaited<ReturnType<typeof fetchUniversityAdmissions>>['enrollment'][number];
+type EnrollmentSource = Awaited<ReturnType<typeof fetchUniversityAdmissions>>['sources'][number];
+
+const findEnrollmentSource = (sources: EnrollmentSource[]) =>
+  sources.find((source) => source.datasetVersion?.toUpperCase() === 'EF2024A');
+
+const enrollmentSummaryRows: Array<{
+  key: string;
+  label: string;
+  match: (row: EnrollmentRow) => boolean;
+}> = [
+  {
+    key: 'all-students',
+    label: 'All students',
+    match: (row) => row.population === 'total',
+  },
+  {
+    key: 'undergraduate',
+    label: 'Undergraduate',
+    match: (row) => row.population === 'undergraduate',
+  },
+  {
+    key: 'graduate',
+    label: 'Graduate',
+    match: (row) => row.population === 'graduate',
+  },
+  {
+    key: 'full-time',
+    label: 'Full-time students',
+    match: (row) => row.population === 'full_time_total',
+  },
+  {
+    key: 'part-time',
+    label: 'Part-time students',
+    match: (row) => row.population === 'part_time_total',
+  },
+  {
+    key: 'full-time-undergraduate',
+    label: 'Full-time undergraduate',
+    match: (row) => row.population === 'full_time_undergraduate',
+  },
+  {
+    key: 'part-time-undergraduate',
+    label: 'Part-time undergraduate',
+    match: (row) => row.population === 'part_time_undergraduate',
+  },
+  {
+    key: 'full-time-graduate',
+    label: 'Full-time graduate',
+    match: (row) => row.population === 'full_time_graduate',
+  },
+  {
+    key: 'part-time-graduate',
+    label: 'Part-time graduate',
+    match: (row) => row.population === 'part_time_graduate',
+  },
+];
+
+function EnrollmentSection({
+  rows,
+  source,
+}: {
+  rows: EnrollmentRow[];
+  source: EnrollmentSource | undefined;
+}) {
+  const academicYears = [...new Set(rows.map((row) => row.academicYear))].sort((a, b) =>
+    b.localeCompare(a),
+  );
+  const academicYear = academicYears[0];
+  const yearRows = academicYear ? rows.filter((row) => row.academicYear === academicYear) : [];
+  const summaries = enrollmentSummaryRows.flatMap(({ key, label, match }) => {
+    const row = yearRows.find(match);
+    return row ? [{ key, label, row }] : [];
+  });
+  if (summaries.length === 0) return null;
+
+  return (
+    <div className="admissions-subsection enrollment-section">
+      <div className="subsection-heading">
+        <div>
+          <h3>Fall enrollment snapshot</h3>
+          <p className="muted">
+            {academicYear ? `Academic year ${academicYear}. ` : ''}
+            Counts are shown exactly as reported by the official source.
+          </p>
+        </div>
+        {source && (
+          <a href={source.url} target="_blank" rel="noreferrer" className="source-inline">
+            Verify source <ArrowUpRight size={15} />
+          </a>
+        )}
+      </div>
+      <div className="enrollment-table-wrap">
+        <table className="enrollment-table">
+          <thead>
+            <tr>
+              <th scope="col">Population</th>
+              <th scope="col">Attendance</th>
+              <th scope="col">Students</th>
+            </tr>
+          </thead>
+          <tbody>
+            {summaries.map(({ key, label, row }) => (
+              <tr key={key}>
+                <th scope="row">{label}</th>
+                <td>{formatAttendance(row.attendanceStatus)}</td>
+                <td>{row.studentCount.toLocaleString()}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="enrollment-note">
+        Note: these official categories overlap. Undergraduate, graduate, full-time, and part-time
+        figures are separate reported views—not values to add together.
+      </p>
+    </div>
+  );
+}
+
+const formatAttendance = (status: EnrollmentRow['attendanceStatus']) => {
+  if (status === 'full_time') return 'Full-time';
+  if (status === 'part_time') return 'Part-time';
+  return 'All attendance statuses';
+};
 
 function AdmissionMetric({ label, value }: { label: string; value: string }) {
   return (
