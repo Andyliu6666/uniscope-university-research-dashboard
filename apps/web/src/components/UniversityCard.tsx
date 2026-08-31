@@ -48,12 +48,20 @@ export function UniversityCard({
           </dd>
         </div>
         <div>
+          <dt>Fall enrollment</dt>
+          <dd>{university.studentCount?.toLocaleString() ?? 'Not published'}</dd>
+        </div>
+        <div>
           <dt>Typical IB</dt>
           <dd>{university.ibTypicalMin ?? 'Varies'}</dd>
         </div>
         <div>
           <dt>Programs</dt>
           <dd>{university.programs.length}</dd>
+        </div>
+        <div>
+          <dt>Sources</dt>
+          <dd>{university.sources.length}</dd>
         </div>
       </dl>
       <Link className="card-link" to={`/universities/${university.slug}`}>

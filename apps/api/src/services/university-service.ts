@@ -43,13 +43,34 @@ const sourceForApi = (source: typeof sources.$inferSelect) => ({
 const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[]> => {
   if (rows.length === 0) return [];
   const ids = rows.map((row) => row.id);
-  const [programRows, deadlineRows, sourceRows] = await Promise.all([
+  const [programRows, deadlineRows, sourceRows, enrollmentRows] = await Promise.all([
     db.select().from(programs).where(inArray(programs.universityId, ids)),
     db.select().from(deadlines).where(inArray(deadlines.universityId, ids)),
     db.select().from(sources).where(inArray(sources.universityId, ids)),
+    db
+      .select({
+        universityId: enrollmentSnapshots.universityId,
+        academicYear: enrollmentSnapshots.academicYear,
+        attendanceStatus: enrollmentSnapshots.attendanceStatus,
+        population: enrollmentSnapshots.population,
+        studentCount: enrollmentSnapshots.studentCount,
+      })
+      .from(enrollmentSnapshots)
+      .where(inArray(enrollmentSnapshots.universityId, ids)),
   ]);
+  const officialEnrollment = new Map(
+    enrollmentRows
+      .filter((item) => item.population === 'total' && item.attendanceStatus === 'all')
+      .sort((left, right) => right.academicYear.localeCompare(left.academicYear))
+      .filter(
+        (item, index, all) =>
+          all.findIndex((candidate) => candidate.universityId === item.universityId) === index,
+      )
+      .map((item) => [item.universityId, item.studentCount]),
+  );
   return rows.map((row) => ({
     ...row,
+    studentCount: row.studentCount ?? officialEnrollment.get(row.id) ?? null,
     acceptanceRate: row.acceptanceRate === null ? null : Number(row.acceptanceRate),
     latitude: row.latitude === null ? null : Number(row.latitude),
     longitude: row.longitude === null ? null : Number(row.longitude),
@@ -177,24 +198,37 @@ export const getUniversityAdmissions = async (
       ])
     : [[], [], [], []];
 
-  const yearFilter = query.year ? eq(costSnapshots.academicYear, query.year) : undefined;
-  const enrollmentYearFilter = query.year
-    ? eq(enrollmentSnapshots.academicYear, query.year)
-    : undefined;
-  const aidYearFilter = query.year ? eq(financialAidSnapshots.academicYear, query.year) : undefined;
+  const costFilters = [
+    eq(costSnapshots.universityId, university.id),
+    query.year ? eq(costSnapshots.academicYear, query.year) : undefined,
+    query.level ? eq(costSnapshots.level, query.level) : undefined,
+    query.applicantType ? eq(costSnapshots.applicantType, query.applicantType) : undefined,
+  ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
+  const enrollmentFilters = [
+    eq(enrollmentSnapshots.universityId, university.id),
+    query.year ? eq(enrollmentSnapshots.academicYear, query.year) : undefined,
+    query.level ? eq(enrollmentSnapshots.level, query.level) : undefined,
+    query.applicantType ? eq(enrollmentSnapshots.applicantType, query.applicantType) : undefined,
+  ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
+  const aidFilters = [
+    eq(financialAidSnapshots.universityId, university.id),
+    query.year ? eq(financialAidSnapshots.academicYear, query.year) : undefined,
+    query.level ? eq(financialAidSnapshots.level, query.level) : undefined,
+    query.applicantType ? eq(financialAidSnapshots.applicantType, query.applicantType) : undefined,
+  ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
   const [costRows, enrollmentRows, aidRows] = await Promise.all([
     db
       .select()
       .from(costSnapshots)
-      .where(and(eq(costSnapshots.universityId, university.id), yearFilter)),
+      .where(and(...costFilters)),
     db
       .select()
       .from(enrollmentSnapshots)
-      .where(and(eq(enrollmentSnapshots.universityId, university.id), enrollmentYearFilter)),
+      .where(and(...enrollmentFilters)),
     db
       .select()
       .from(financialAidSnapshots)
-      .where(and(eq(financialAidSnapshots.universityId, university.id), aidYearFilter)),
+      .where(and(...aidFilters)),
   ]);
 
   const sourceIds = [

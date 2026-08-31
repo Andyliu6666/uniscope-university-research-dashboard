@@ -992,6 +992,7 @@ const run = async () => {
     let skipped = 0;
     let exhausted = true;
     const resumeAfterRow = checkpoint.sourceRow;
+    let lastLoggedSourceRow = resumeAfterRow;
 
     const flush = async () => {
       if (!runId || (!candidates.length && !skipped)) return;
@@ -1014,9 +1015,16 @@ const run = async () => {
       checkpoint = { ...checkpointMetadata, sourceRow };
       candidates = [];
       skipped = 0;
-      console.log(
-        `IPEDS enrollment progress: ${checkpoint.sourceRow}/${inspection.rowCount} source rows; ${insertedThisRun} facts inserted, ${updatedThisRun} already present, ${skippedThisRun} identities skipped.`,
-      );
+      if (
+        checkpoint.sourceRow === inspection.rowCount ||
+        checkpoint.sourceRow - lastLoggedSourceRow >= 5000 ||
+        processedThisRun >= requestedLimit
+      ) {
+        lastLoggedSourceRow = checkpoint.sourceRow;
+        console.log(
+          `IPEDS enrollment progress: ${checkpoint.sourceRow}/${inspection.rowCount} source rows; ${insertedThisRun} facts inserted, ${updatedThisRun} already present, ${skippedThisRun} identities skipped.`,
+        );
+      }
     };
 
     for await (const value of parser) {

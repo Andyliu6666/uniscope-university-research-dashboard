@@ -294,7 +294,7 @@ a {
 }
 .quick-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 8px;
   margin: 20px 0;
 }
@@ -757,6 +757,9 @@ footer p {
   .admissions-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .quick-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .detail-grid,
   .contribute-grid {
     grid-template-columns: 1fr;
@@ -821,6 +824,9 @@ footer p {
   }
   .admissions-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .quick-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .subsection-heading {
     flex-direction: column;

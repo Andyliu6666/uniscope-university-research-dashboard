@@ -1,6 +1,6 @@
 import { useQueries } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
-import { fetchUniversity } from '../api.js';
+import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
 import { useComparison } from '../store.js';
 
 export function ComparePage() {
@@ -11,7 +11,16 @@ export function ComparePage() {
       queryFn: () => fetchUniversity(slug),
     })),
   });
+  const admissionsQueries = useQueries({
+    queries: comparison.slugs.map((slug) => ({
+      queryKey: ['university-admissions', slug],
+      queryFn: () => fetchUniversityAdmissions(slug),
+    })),
+  });
   const items = queries.flatMap((query) => (query.data ? [query.data] : []));
+  const admissionsBySlug = new Map(
+    comparison.slugs.map((slug, index) => [slug, admissionsQueries[index]?.data]),
+  );
   if (!comparison.slugs.length)
     return (
       <div className="empty page">
@@ -23,20 +32,55 @@ export function ComparePage() {
         </Link>
       </div>
     );
-  const rows = [
-    ['Location', (i: (typeof items)[number]) => `${i.city}, ${i.country}`],
-    ['Institution', (i: (typeof items)[number]) => i.institutionType],
-    [
-      'Annual tuition (USD)',
-      (i: (typeof items)[number]) => i.annualTuitionUsd?.toLocaleString() ?? 'Not published',
-    ],
-    ['Typical IB minimum', (i: (typeof items)[number]) => String(i.ibTypicalMin ?? 'Varies')],
-    [
-      'Student body',
-      (i: (typeof items)[number]) => i.studentCount?.toLocaleString() ?? 'Not published',
-    ],
-    ['Programs listed', (i: (typeof items)[number]) => String(i.programs.length)],
-  ] as const;
+  type ComparisonItem = (typeof items)[number];
+  type AdmissionsData = Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
+  const rows: Array<{
+    label: string;
+    read: (item: ComparisonItem, admissions: AdmissionsData) => string;
+  }> = [
+    { label: 'Location', read: (i) => `${i.city}, ${i.country}` },
+    { label: 'Institution', read: (i) => i.institutionType },
+    {
+      label: 'Annual tuition (USD)',
+      read: (i) => i.annualTuitionUsd?.toLocaleString() ?? 'Not published',
+    },
+    { label: 'Typical IB minimum', read: (i) => String(i.ibTypicalMin ?? 'Varies') },
+    {
+      label: 'Student body (profile)',
+      read: (i) => i.studentCount?.toLocaleString() ?? 'Not published',
+    },
+    {
+      label: 'Official fall enrollment',
+      read: (_, admissions) => {
+        const row = admissions?.enrollment.find(
+          (item) => item.population === 'total' && item.attendanceStatus === 'all',
+        );
+        return row ? `${row.studentCount.toLocaleString()} (${row.academicYear})` : 'Not reported';
+      },
+    },
+    {
+      label: 'Official applicants',
+      read: (_, admissions) => {
+        const profile = admissions?.profiles[0];
+        const row = profile?.counts.find(
+          (item) => item.population === 'all' && item.metric === 'applicants',
+        );
+        return row?.value.toLocaleString() ?? 'Not reported';
+      },
+    },
+    {
+      label: 'Official acceptance rate',
+      read: (_, admissions) => {
+        const counts = admissions?.profiles[0]?.counts.filter((item) => item.population === 'all');
+        const applicants = counts?.find((item) => item.metric === 'applicants')?.value;
+        const admitted = counts?.find((item) => item.metric === 'admitted')?.value;
+        return applicants && admitted !== undefined
+          ? `${((admitted / applicants) * 100).toFixed(1)}%`
+          : 'Not reported';
+      },
+    },
+    { label: 'Programs listed', read: (i) => String(i.programs.length) },
+  ];
   return (
     <div className="compare-page">
       <div className="section-heading">
@@ -67,11 +111,11 @@ export function ComparePage() {
             </tr>
           </thead>
           <tbody>
-            {rows.map(([label, read]) => (
+            {rows.map(({ label, read }) => (
               <tr key={label}>
                 <th>{label}</th>
                 {items.map((item) => (
-                  <td key={item.id}>{read(item)}</td>
+                  <td key={item.id}>{read(item, admissionsBySlug.get(item.slug))}</td>
                 ))}
               </tr>
             ))}
