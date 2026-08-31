@@ -39,6 +39,15 @@ SELECT jsonb_pretty(
         ),
         '{}'::jsonb
       ),
+      'factCounts', jsonb_build_object(
+        'admissionProfiles', (SELECT count(*) FROM admission_profiles),
+        'admissionCounts', (SELECT count(*) FROM admission_counts),
+        'admissionRequirements', (SELECT count(*) FROM admission_requirements),
+        'admissionTestScores', (SELECT count(*) FROM admission_test_scores),
+        'enrollmentSnapshots', (SELECT count(*) FROM enrollment_snapshots),
+        'costSnapshots', (SELECT count(*) FROM cost_snapshots),
+        'financialAidSnapshots', (SELECT count(*) FROM financial_aid_snapshots)
+      ),
       'rejectedRows', (SELECT count(*) FROM import_rejections)
     ),
     'latestImport', COALESCE(

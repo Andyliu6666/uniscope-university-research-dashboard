@@ -124,6 +124,24 @@ pnpm --filter @urd/api import:ipeds-cost \
 
 The importer records official source metadata, calendar and award-level characteristics, application fees, tuition, required fees, per-credit-hour charges, housing/food, and cost-of-attendance components. It does not infer a total cost or import doctoral-professional-practice charges into a general graduate row; those distinctions remain explicit in the source flags and scenarios.
 
+The reviewed ADM2024 snapshot adds first-time undergraduate admissions data. It records application, admission, and enrollment counts; the institution's admission considerations (such as GPA, recommendations, English proficiency, essays, and test policies); and reported SAT/ACT submission rates and score percentiles. IPEDS does not publish IB, A-Level, IELTS/TOEFL minimums, essay prompts, or program-specific requirements, so those fields must be added from the university's own official admissions pages.
+
+```bash
+# Docker: use the checked-in, reviewed snapshot inside the API image
+docker compose exec api pnpm --filter @urd/api import:ipeds-admissions \
+  /app/data/sources/ADM2024.csv 3000
+
+# Local Node.js run from the repository root
+pnpm --filter @urd/api import:ipeds-admissions \
+  ../../data/sources/ADM2024.csv 3000
+
+# Optional, safe validation without touching the database
+docker compose exec api pnpm --filter @urd/api import:ipeds-admissions \
+  /app/data/sources/ADM2024.csv --dry-run
+```
+
+The admissions importer is resumable: rerunning the same command continues from its committed `sourceRow` checkpoint, while a completed artifact becomes a no-op. It only attaches rows to an existing IPEDS `UNITID`; unmatched rows are preserved in `import_rejections` for review instead of being guessed into a university profile. Every imported value keeps its IPEDS reported, imputed, implied-zero, or unavailable flag in `source_flags`.
+
 To propose a newer crosswalk, run the checked-in SPARQL query into a separate candidate file, review all forward and reverse ambiguities, normalize and archive the approved response, and then add its checksum and counts to `ipeds-artifacts.json`. Never replace the reviewed snapshot with a live query during a production import.
 
 IPEDS is published by the U.S. National Center for Education Statistics through its [official data center](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx); the federal catalog describes IPEDS public-use data as [CC0](https://catalog.data.gov/dataset/integrated-postsecondary-education-data-system-2012-13). The Wikidata crosswalk is CC0 and is used only for identity resolution—not as evidence that an institution is currently active or degree-granting.
@@ -138,7 +156,7 @@ pnpm data:check
 pnpm data:status
 ```
 
-`data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, identifier counts by provider, and quality counters. Do not edit it by hand.
+`data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, identifier counts by provider, normalized admissions/enrichment fact counts, and quality counters. Do not edit it by hand. The file is a report, not an import input; regenerate it with `pnpm data:status` after a successful batch.
 
 For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
 

@@ -1,6 +1,15 @@
 {
   "database": {
     "countries": 225,
+    "factCounts": {
+      "costSnapshots": 98212,
+      "admissionCounts": 32941,
+      "admissionProfiles": 1835,
+      "admissionTestScores": 4552,
+      "enrollmentSnapshots": 0,
+      "admissionRequirements": 22020,
+      "financialAidSnapshots": 0
+    },
     "rejectedRows": 128,
     "universities": 28144,
     "rorIdentifiers": 27107,
@@ -11,7 +20,7 @@
       "wikidata": 7778
     }
   },
-  "generatedAt": "2026-08-31T01:32:44Z",
+  "generatedAt": "2026-08-31T01:37:55Z",
   "latestImport": {
     "status": "completed",
     "skipped": 3945,
