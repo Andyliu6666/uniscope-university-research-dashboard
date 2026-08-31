@@ -92,7 +92,6 @@ const rowSchema = z.object({
   establishedYear: z.string(),
   officialWebsite: z.string(),
 });
-type RawRow = z.infer<typeof rowSchema>;
 type Rejection = {
   sourceRow: number;
   externalId: string | null;
@@ -400,20 +399,6 @@ const upsertSourceRows = async (
     ]),
   );
 };
-
-const sourceFlagsFor = (candidate: Candidate, artifact: ReviewedArtifact) => ({
-  dataset: datasetVersion,
-  publisher: artifact.publisher,
-  sourceRow: candidate.sourceRow,
-  wikidataId: candidate.wikidataId,
-  retrievedAt: artifact.retrievedAt,
-  properties: {
-    studentCount: candidate.studentCount,
-    studentYear: candidate.studentYear,
-    establishedYear: candidate.establishedYear,
-    officialWebsite: candidate.officialWebsite,
-  },
-});
 
 const flushChunk = async (
   tx: Tx,
