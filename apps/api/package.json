@@ -14,7 +14,9 @@
     "db:studio": "drizzle-kit studio",
     "import": "tsx src/scripts/import-universities.ts",
     "import:ror": "tsx src/scripts/import-ror.ts",
-    "import:ipeds": "tsx src/scripts/import-ipeds.ts"
+    "import:ipeds": "tsx src/scripts/import-ipeds.ts",
+    "import:ipeds-admissions": "tsx src/scripts/import-ipeds-admissions.ts",
+    "import:ipeds-cost": "tsx src/scripts/import-ipeds-cost.ts"
   },
   "dependencies": {
     "@fastify/cors": "^11.3.0",
