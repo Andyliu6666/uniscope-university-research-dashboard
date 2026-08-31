@@ -113,6 +113,28 @@ const costSummaryRank = (row: CostSnapshotRow) => {
   return rank === -1 ? costSummaryOrder.length : rank;
 };
 
+/**
+ * Keep the legacy denormalized tuition filter useful after cost snapshots are
+ * imported. Most IPEDS records intentionally leave annualTuitionUsd null
+ * because tuition varies by level and residency; the normalized snapshot is
+ * the authoritative fallback and must be compared without currency
+ * conversion or combining scenarios.
+ */
+const maxTuitionFilter = (maximum: number) =>
+  or(
+    lte(universities.annualTuitionUsd, maximum),
+    sql`exists (
+      select 1
+      from ${costSnapshots}
+      where ${costSnapshots.universityId} = ${universities.id}
+        and ${costSnapshots.programId} is null
+        and ${costSnapshots.currency} = 'USD'
+        and ${costSnapshots.period} = 'academic_year'
+        and ${costSnapshots.category} in ('tuition', 'tuition_and_fees')
+        and ${costSnapshots.amount} <= ${maximum}
+    )`,
+  );
+
 const selectCostSummaries = (rows: CostSnapshotRow[]) =>
   rows
     .filter((row) => row.programId === null)
@@ -217,26 +239,41 @@ export const listUniversities = async (
   db: Database,
   query: UniversityQuery,
 ): Promise<UniversityListResponse> => {
+  const escapedQuery = query.q ? escapeLike(query.q) : '';
   const filters = [
     query.q
       ? or(
-          ilike(universities.name, `%${escapeLike(query.q)}%`),
-          ilike(universities.city, `%${escapeLike(query.q)}%`),
-          ilike(universities.country, `%${escapeLike(query.q)}%`),
+          ilike(universities.name, `%${escapedQuery}%`),
+          ilike(universities.city, `%${escapedQuery}%`),
+          ilike(universities.country, `%${escapedQuery}%`),
         )
       : undefined,
     query.country ? eq(universities.country, query.country) : undefined,
     query.type ? eq(universities.institutionType, query.type) : undefined,
-    query.maxTuition ? lte(universities.annualTuitionUsd, query.maxTuition) : undefined,
+    query.maxTuition ? maxTuitionFilter(query.maxTuition) : undefined,
   ].filter((filter) => filter !== undefined);
   const where = filters.length ? and(...filters) : undefined;
   const offset = (query.page - 1) * query.pageSize;
+  const relevanceOrder = query.q
+    ? sql<number>`case
+        when lower(${universities.name}) = lower(${query.q}) then 0
+        when lower(${universities.name}) = lower(${`${query.q} university`}) then 1
+        when lower(${universities.name}) like lower(${`${escapedQuery}%`}) then 2
+        when lower(${universities.name}) like lower(${`%${escapedQuery}%`}) then 3
+        when lower(${universities.city}) = lower(${query.q}) then 4
+        when lower(${universities.country}) = lower(${query.q}) then 5
+        else 6
+      end`
+    : undefined;
+  const orderBy = relevanceOrder
+    ? [relevanceOrder, asc(universities.name)]
+    : [asc(universities.name)];
   const [rows, totals, countryRows] = await Promise.all([
     db
       .select()
       .from(universities)
       .where(where)
-      .orderBy(asc(universities.name))
+      .orderBy(...orderBy)
       .limit(query.pageSize)
       .offset(offset),
     db.select({ value: count() }).from(universities).where(where),

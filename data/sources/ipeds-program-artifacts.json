@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "artifacts": {
+    "programs": {
+      "datasetFile": "C2024_A_programs.csv",
+      "datasetSha256": "f6e5dcf9f52e5a07a5007ba1b0a6edf643eb514420c8d3ba06fcb66651799ea6",
+      "datasetRows": 307707,
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/C2024_A.zip",
+      "publisher": "U.S. National Center for Education Statistics (NCES), IPEDS",
+      "reportedAcademicYear": "2024",
+      "reportingPeriod": "2023-24",
+      "retrievedAt": "2026-08-31T02:42:51.000Z",
+      "notes": "Derived from the official C2024_A CSV by retaining UNITID, CIPCODE, MAJORNUM, AWLEVEL, XCTOTALT, and CTOTALT. One source row represents one institution, CIP code, major number, and award level. The importer uses the reported totals only for validation; program titles come from the official CIP 2020 catalog."
+    },
+    "cipCatalog": {
+      "datasetFile": "CIPCode2020.csv",
+      "datasetSha256": "6cf0882c1f5beb94981d0a1a72285ab5cf633759f45433fb909afbfb6d6b2657",
+      "datasetRows": 2848,
+      "sourceUrl": "https://nces.ed.gov/ipeds/cipcode/Files/CIPCode2020.csv",
+      "publisher": "U.S. National Center for Education Statistics (NCES), Classification of Instructional Programs",
+      "retrievedAt": "2026-08-31T02:42:51.000Z",
+      "notes": "Official 2020 CIP catalog. The download contains spreadsheet-formula values such as =\"11.0101\"; the importer normalizes those code wrappers before matching six-digit CIP codes."
+    }
+  }
+}

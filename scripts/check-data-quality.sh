@@ -35,9 +35,12 @@ DECLARE
   inconsistent_rejection_ledgers integer;
   ipeds_rejections_without_source_rows integer;
   invalid_completed_ipeds_runs integer;
+  invalid_completed_ipeds_core_runs integer;
+  invalid_completed_ipeds_program_runs integer;
   invalid_completed_admission_runs integer;
   invalid_completed_enrichment_runs integer;
   invalid_completed_wikidata_runs integer;
+  invalid_completed_wikidata_crosswalk_runs integer;
   orphan_admission_profiles integer;
   orphan_admission_facts integer;
   orphan_enrichment_facts integer;
@@ -195,7 +198,15 @@ BEGIN
   SELECT count(*) INTO ipeds_rejections_without_source_rows
   FROM import_rejections rejection
   INNER JOIN import_runs run ON run.id = rejection.run_id
-  WHERE run.provider IN ('ipeds', 'ipeds-admissions', 'ipeds-enrichment')
+  WHERE run.provider IN (
+    'ipeds',
+    'ipeds-core',
+    'ipeds-admissions',
+    'ipeds-enrichment',
+    'ipeds-programs',
+    'wikidata-enrichment',
+    'wikidata-ror-crosswalk'
+  )
     AND rejection.source_row IS NULL;
 
   SELECT count(*) INTO invalid_completed_ipeds_runs
@@ -215,6 +226,46 @@ BEGIN
       CASE
         WHEN (checkpoint->>'eligibleRows') ~ '^[0-9]+$'
         THEN processed_count <> (checkpoint->>'eligibleRows')::bigint
+        ELSE true
+      END
+    );
+
+  SELECT count(*) INTO invalid_completed_ipeds_core_runs
+  FROM import_runs
+  WHERE provider = 'ipeds-core'
+    AND status = 'completed'
+    AND (
+      jsonb_typeof(checkpoint->'sourceRow') IS DISTINCT FROM 'number' OR
+      jsonb_typeof(checkpoint->'sourceRows') IS DISTINCT FROM 'number' OR
+      CASE
+        WHEN (checkpoint->>'sourceRow') ~ '^[0-9]+$'
+          AND (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN (checkpoint->>'sourceRow')::bigint <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END OR
+      CASE
+        WHEN (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN processed_count <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END
+    );
+
+  SELECT count(*) INTO invalid_completed_ipeds_program_runs
+  FROM import_runs
+  WHERE provider = 'ipeds-programs'
+    AND status = 'completed'
+    AND (
+      jsonb_typeof(checkpoint->'sourceRow') IS DISTINCT FROM 'number' OR
+      jsonb_typeof(checkpoint->'sourceRows') IS DISTINCT FROM 'number' OR
+      CASE
+        WHEN (checkpoint->>'sourceRow') ~ '^[0-9]+$'
+          AND (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN (checkpoint->>'sourceRow')::bigint <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END OR
+      CASE
+        WHEN (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN processed_count <> (checkpoint->>'sourceRows')::bigint
         ELSE true
       END
     );
@@ -289,6 +340,26 @@ BEGIN
       END
     );
 
+  SELECT count(*) INTO invalid_completed_wikidata_crosswalk_runs
+  FROM import_runs
+  WHERE provider = 'wikidata-ror-crosswalk'
+    AND status = 'completed'
+    AND (
+      jsonb_typeof(checkpoint->'sourceRow') IS DISTINCT FROM 'number' OR
+      jsonb_typeof(checkpoint->'sourceRows') IS DISTINCT FROM 'number' OR
+      CASE
+        WHEN (checkpoint->>'sourceRow') ~ '^[0-9]+$'
+          AND (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN (checkpoint->>'sourceRow')::bigint <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END OR
+      CASE
+        WHEN (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN processed_count <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END
+    );
+
   IF
     missing_sources > 0 OR
     missing_identifiers > 0 OR
@@ -302,9 +373,12 @@ BEGIN
     inconsistent_rejection_ledgers > 0 OR
     ipeds_rejections_without_source_rows > 0 OR
     invalid_completed_ipeds_runs > 0 OR
+    invalid_completed_ipeds_core_runs > 0 OR
+    invalid_completed_ipeds_program_runs > 0 OR
     invalid_completed_admission_runs > 0 OR
     invalid_completed_enrichment_runs > 0 OR
     invalid_completed_wikidata_runs > 0 OR
+    invalid_completed_wikidata_crosswalk_runs > 0 OR
     orphan_admission_profiles > 0 OR
     orphan_admission_facts > 0 OR
     orphan_enrichment_facts > 0 OR
@@ -315,7 +389,7 @@ BEGIN
     invalid_financial_aid_values > 0
   THEN
     RAISE EXCEPTION
-      'Data quality gate failed: missing sources %, missing identifiers %, duplicate identifiers %, duplicate slugs %, orphan identifiers %, insecure sources %, failed imports %, running imports %, inconsistent import counts %, inconsistent rejection ledgers %, IPEDS rejections without source rows %, invalid completed IPEDS runs %, invalid completed admission runs %, invalid completed enrichment runs %, invalid completed Wikidata runs %, orphan admission profiles %, orphan admission facts %, orphan enrichment facts %, negative admission counts %, invalid admission test values %, negative enrollment counts %, invalid cost values %, invalid financial aid values %',
+      'Data quality gate failed: missing sources %, missing identifiers %, duplicate identifiers %, duplicate slugs %, orphan identifiers %, insecure sources %, failed imports %, running imports %, inconsistent import counts %, inconsistent rejection ledgers %, reviewed-source rejections without source rows %, invalid completed IPEDS runs %, invalid completed IPEDS core runs %, invalid completed IPEDS program runs %, invalid completed admission runs %, invalid completed enrichment runs %, invalid completed Wikidata runs %, invalid completed Wikidata crosswalk runs %, orphan admission profiles %, orphan admission facts %, orphan enrichment facts %, negative admission counts %, invalid admission test values %, negative enrollment counts %, invalid cost values %, invalid financial aid values %',
       missing_sources,
       missing_identifiers,
       duplicate_identifiers,
@@ -328,9 +402,12 @@ BEGIN
       inconsistent_rejection_ledgers,
       ipeds_rejections_without_source_rows,
       invalid_completed_ipeds_runs,
+      invalid_completed_ipeds_core_runs,
+      invalid_completed_ipeds_program_runs,
       invalid_completed_admission_runs,
       invalid_completed_enrichment_runs,
       invalid_completed_wikidata_runs,
+      invalid_completed_wikidata_crosswalk_runs,
       orphan_admission_profiles,
       orphan_admission_facts,
       orphan_enrichment_facts,

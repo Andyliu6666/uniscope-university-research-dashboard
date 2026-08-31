@@ -9,6 +9,24 @@
       "publisher": "Wikidata (Wikimedia Foundation)",
       "retrievedAt": "2026-08-31T02:11:00.000Z",
       "notes": "Reviewed snapshot for the exact Wikidata QIDs already present in institution_identifiers. It contains optional P2196 students count, P571 inception year, and HTTPS P856 official website values. Blank cells are intentional; no names or identity matches are imported. Wikidata is a community-maintained reference and these values must be checked against the institution's official source before an application decision."
+    },
+    {
+      "datasetFile": "wikidata-ror-institution-facts-20260831.csv",
+      "datasetSha256": "00cc46eb3a48bfb89d6ff7ab278d419ed757ae02cc8efd6370ccd454ff3e7029",
+      "datasetRows": 27046,
+      "sourceUrl": "https://www.wikidata.org/",
+      "publisher": "Wikidata (Wikimedia Foundation)",
+      "retrievedAt": "2026-08-31T02:35:00.000Z",
+      "notes": "Reviewed ROR-to-Wikidata crosswalk snapshot for exact ROR identifiers already present in the database. Only one-to-one ROR/QID matches are included. The companion importer adds the QID identifier; the enrichment importer then applies optional P2196 students count, P571 inception year, and HTTPS P856 official website values only when the profile field is still empty. Wikidata is a community-maintained reference and these values must be checked against the institution's official source before an application decision."
+    },
+    {
+      "datasetFile": "wikidata-ror-qid-facts-20260831.csv",
+      "datasetSha256": "64fb397e9d2a299ba7f6dfc8980d34617c742967488c65ba7afbb2e320b6a38b",
+      "datasetRows": 27046,
+      "sourceUrl": "https://www.wikidata.org/",
+      "publisher": "Wikidata (Wikimedia Foundation)",
+      "retrievedAt": "2026-08-31T02:35:00.000Z",
+      "notes": "Reviewed facts companion to wikidata-ror-institution-facts-20260831.csv. Rows are the same one-to-one ROR/QID matches with the ROR column removed for the existing QID enrichment importer. Blank cells are intentional; no names or identity matches are inferred."
     }
   ]
 }

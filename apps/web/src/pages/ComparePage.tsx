@@ -87,7 +87,10 @@ export function ComparePage() {
           : 'Not reported';
       },
     },
-    { label: 'Programs listed', read: (i) => String(i.programs.length) },
+    {
+      label: 'Programs listed',
+      read: (i) => (i.programs.length ? String(i.programs.length) : 'Not reported'),
+    },
   ];
   return (
     <div className="compare-page">

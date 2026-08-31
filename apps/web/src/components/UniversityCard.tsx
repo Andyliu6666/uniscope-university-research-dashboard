@@ -57,7 +57,7 @@ export function UniversityCard({
           )}
         </div>
         <div>
-          <dt>Fall enrollment</dt>
+          <dt>Student body</dt>
           <dd>{university.studentCount?.toLocaleString() ?? 'Not published'}</dd>
         </div>
         <div>
@@ -66,7 +66,7 @@ export function UniversityCard({
         </div>
         <div>
           <dt>Programs</dt>
-          <dd>{university.programs.length}</dd>
+          <dd>{university.programs.length || 'Not reported'}</dd>
         </div>
         <div>
           <dt>Sources</dt>

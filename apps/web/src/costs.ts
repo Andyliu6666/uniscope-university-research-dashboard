@@ -110,7 +110,15 @@ const primaryCostRank = (
 };
 
 export const primaryCost = <
-  T extends Pick<CostSnapshot, 'level' | 'residency' | 'category' | 'period' | 'scenario'>,
+  T extends Pick<
+    CostSnapshot,
+    'academicYear' | 'level' | 'residency' | 'category' | 'period' | 'scenario'
+  >,
 >(
   costs: T[],
-) => [...costs].sort((left, right) => primaryCostRank(left) - primaryCostRank(right))[0];
+) =>
+  [...costs].sort((left, right) => {
+    const rankDifference = primaryCostRank(left) - primaryCostRank(right);
+    if (rankDifference !== 0) return rankDifference;
+    return right.academicYear.localeCompare(left.academicYear);
+  })[0];

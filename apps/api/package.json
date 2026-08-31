@@ -15,9 +15,12 @@
     "import": "tsx src/scripts/import-universities.ts",
     "import:ror": "tsx src/scripts/import-ror.ts",
     "import:ipeds": "tsx src/scripts/import-ipeds.ts",
+    "import:ipeds-core": "tsx src/scripts/import-ipeds-core.ts",
     "import:ipeds-admissions": "tsx src/scripts/import-ipeds-admissions.ts",
     "import:ipeds-cost": "tsx src/scripts/import-ipeds-cost.ts",
     "import:ipeds-enrollment": "tsx src/scripts/import-ipeds-enrollment.ts",
+    "import:ipeds-programs": "tsx src/scripts/import-ipeds-programs.ts",
+    "import:wikidata-ror-crosswalk": "tsx src/scripts/import-wikidata-ror-crosswalk.ts",
     "import:wikidata-enrichment": "tsx src/scripts/import-wikidata-enrichment.ts"
   },
   "dependencies": {

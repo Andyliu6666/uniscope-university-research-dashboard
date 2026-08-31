@@ -9,17 +9,29 @@ import type {
 
 const configuredApiUrl = import.meta.env.VITE_API_URL as unknown;
 const API_URL = typeof configuredApiUrl === 'string' && configuredApiUrl ? configuredApiUrl : '';
+
+const readJson = (raw: string): unknown => {
+  if (!raw.trim()) return null;
+  try {
+    return JSON.parse(raw) as unknown;
+  } catch {
+    return null;
+  }
+};
+
 const request = async <T>(path: string, options?: RequestInit): Promise<T> => {
   const response = await fetch(`${API_URL}${path}`, options);
+  const rawBody = await response.text();
+  const body = readJson(rawBody);
   if (!response.ok) {
-    const body = (await response.json()) as unknown;
     const message =
       typeof body === 'object' && body !== null && 'error' in body && typeof body.error === 'string'
         ? body.error
         : 'Request failed';
     throw new Error(message);
   }
-  return response.json() as Promise<T>;
+  if (body === null) throw new Error('The server returned an empty response.');
+  return body as T;
 };
 
 export const fetchUniversities = (query: UniversityQuery) => {

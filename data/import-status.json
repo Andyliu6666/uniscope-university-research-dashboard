@@ -2,6 +2,8 @@
   "database": {
     "countries": 225,
     "factCounts": {
+      "programs": 272663,
+      "deadlines": 1,
       "costSnapshots": 98212,
       "admissionCounts": 32941,
       "admissionProfiles": 1835,
@@ -11,43 +13,59 @@
       "financialAidSnapshots": 0
     },
     "coreCoverage": {
-      "studentCount": 2711,
-      "establishedYear": 6660,
-      "officialWebsite": 3362
+      "ownership": 3946,
+      "netPriceUrl": 3862,
+      "studentCount": 4984,
+      "admissionsUrl": 3749,
+      "offersGraduate": 3946,
+      "establishedYear": 22874,
+      "financialAidUrl": 3709,
+      "institutionType": 3947,
+      "officialWebsite": 13882,
+      "operatingStatus": 3946,
+      "offersUndergraduate": 3946
     },
     "rejectedRows": 128,
     "universities": 28144,
     "rorIdentifiers": 27107,
+    "profileCoverage": {
+      "costs": 3731,
+      "programs": 3935,
+      "deadlines": 1,
+      "admissions": 1835,
+      "enrollment": 3934,
+      "financialAid": 0
+    },
     "sourcedProfiles": 28144,
     "identifierCounts": {
       "ror": 27107,
       "ipeds": 3946,
-      "wikidata": 7778
+      "wikidata": 27465
     }
   },
-  "generatedAt": "2026-08-31T02:39:21Z",
+  "generatedAt": "2026-08-31T03:54:54Z",
   "latestImport": {
     "status": "completed",
-    "skipped": 760,
-    "updated": 7018,
+    "skipped": 2126,
+    "updated": 3946,
     "inserted": 0,
-    "provider": "wikidata-enrichment",
+    "provider": "ipeds-core",
     "rejected": 0,
-    "processed": 7778,
-    "startedAt": "2026-08-31T02:20:52.695076+00:00",
-    "updatedAt": "2026-08-31T02:21:05.336+00:00",
+    "processed": 6072,
+    "startedAt": "2026-08-31T03:41:49.417791+00:00",
+    "updatedAt": "2026-08-31T03:41:58.052+00:00",
     "checkpoint": {
-      "sourceRow": 7778,
-      "sourceUrl": "https://www.wikidata.org/",
-      "sourceFile": "wikidata-institution-facts-20260831.csv",
-      "sourceRows": 7778,
-      "sourceSha256": "894c8511f59e573722a0926c36d400ae3cc8a677bbedcc58030ae0982d278cd2",
+      "sourceRow": 6072,
+      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+      "sourceFile": "HD2024.csv",
+      "sourceRows": 6072,
+      "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
       "schemaVersion": 1,
-      "sourceRetrievedAt": "2026-08-31T02:11:00.000Z"
+      "sourceRetrievedAt": "2026-08-31T00:00:00.000Z"
     },
-    "finishedAt": "2026-08-31T02:21:05.336+00:00",
-    "artifactSha256": "aff69f1b012ef2f3d0b9c04058fad666bbfc79e6e9d2718187d9e9c28f941378",
-    "datasetVersion": "wikidata-institution-facts-20260831"
+    "finishedAt": "2026-08-31T03:41:58.052+00:00",
+    "artifactSha256": "2be435673c650e3c86619049fbef5dafbe6d5e2fc2c0751c967c1956a9683384",
+    "datasetVersion": "HD2024"
   },
   "schemaVersion": 1
 }

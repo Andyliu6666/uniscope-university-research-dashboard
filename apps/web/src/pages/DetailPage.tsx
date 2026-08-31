@@ -37,6 +37,19 @@ export function DetailPage() {
         <Link to="/">Return to explore</Link>
       </div>
     );
+  const primaryWebsite = university.officialWebsite ?? university.website;
+  const primaryWebsiteIsRegistry = primaryWebsite.startsWith('https://ror.org/');
+  const officialLinks = [
+    { label: 'Admissions', url: university.admissionsUrl },
+    { label: 'Financial aid', url: university.financialAidUrl },
+    { label: 'Net price', url: university.netPriceUrl },
+  ]
+    .filter((item): item is { label: string; url: string } => Boolean(item.url))
+    .filter(
+      (item, index, all) =>
+        item.url !== primaryWebsite &&
+        all.findIndex((candidate) => candidate.url === item.url) === index,
+    );
   return (
     <div className="detail-page">
       <Link to="/" className="back">
@@ -50,12 +63,23 @@ export function DetailPage() {
           </p>
           <h1>{university.name}</h1>
           <p>{university.summary}</p>
-          <a className="primary-link" href={university.website} target="_blank" rel="noreferrer">
-            {university.website.startsWith('https://ror.org/')
-              ? 'Open registry profile'
-              : 'Official website'}{' '}
-            <ArrowUpRight size={17} />
-          </a>
+          <div className="detail-actions">
+            <a className="primary-link" href={primaryWebsite} target="_blank" rel="noreferrer">
+              {primaryWebsiteIsRegistry ? 'Open registry profile' : 'Official website'}{' '}
+              <ArrowUpRight size={17} />
+            </a>
+            {officialLinks.map((item) => (
+              <a
+                className="secondary-link"
+                href={item.url}
+                target="_blank"
+                rel="noreferrer"
+                key={item.url}
+              >
+                {item.label} <ArrowUpRight size={15} />
+              </a>
+            ))}
+          </div>
         </div>
         <div className="verified-stamp">
           <CheckCircle2 />
@@ -121,6 +145,11 @@ export function DetailPage() {
               <span className="country-pill">{program.level}</span>
             </div>
           ))}
+          {university.programs.length === 0 && (
+            <p className="muted empty-list-copy">
+              No verified program catalog has been added for this institution yet.
+            </p>
+          )}
         </section>
         <section className="panel">
           <p className="kicker">Deadlines</p>
@@ -141,6 +170,11 @@ export function DetailPage() {
               </time>
             </div>
           ))}
+          {university.deadlines.length === 0 && (
+            <p className="muted empty-list-copy">
+              No current application deadline has been verified for this institution yet.
+            </p>
+          )}
         </section>
       </div>
       <section className="sources panel">
@@ -532,8 +566,14 @@ function CoverageSection({
           ? `${data.costs.length} reported facts`
           : 'Not reported',
     },
-    { label: 'Programs listed', value: String(university.programs.length) },
-    { label: 'Deadlines listed', value: String(university.deadlines.length) },
+    {
+      label: 'Programs listed',
+      value: university.programs.length ? String(university.programs.length) : 'Not reported',
+    },
+    {
+      label: 'Deadlines listed',
+      value: university.deadlines.length ? String(university.deadlines.length) : 'Not reported',
+    },
   ];
   return (
     <section className="panel coverage-panel">

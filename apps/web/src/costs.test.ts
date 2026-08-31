@@ -45,4 +45,10 @@ describe('cost display helpers', () => {
     expect(value).toContain('2024-25');
     expect(value).toContain('COST1_2024');
   });
+
+  it('prefers the newest year when two costs have the same context', () => {
+    const older = cost({ academicYear: '2023-24', amount: 50_000 });
+    const newer = cost({ academicYear: '2024-25', amount: 55_000 });
+    expect(primaryCost([older, newer])).toBe(newer);
+  });
 });

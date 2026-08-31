@@ -27,6 +27,7 @@ The project deliberately uses one web app, one API, and one database. Adding a u
 Requirements: Docker Desktop with Docker Compose.
 
 ```bash
+cd /path/to/uniscope-university-research-dashboard
 cp .env.example .env
 docker compose up --build -d
 docker compose cp data/myuniversity.json api:/tmp/myuniversity.json
@@ -54,6 +55,8 @@ pnpm dev
 ```
 
 The root `.env` is read when commands are started from the repository root. If your shell or editor starts the API inside `apps/api`, copy the same values to `apps/api/.env`.
+
+The `../../data/...` argument is intentional: pnpm runs the filtered API script with `apps/api` as its working directory. Docker commands use absolute container paths such as `/app/data/...` instead.
 
 ## Add a university without changing code
 
@@ -108,6 +111,24 @@ Run the last command again to resume the next reviewed batch. The IPEDS `UNITID`
 
 The checked-in crosswalk CSV is the reviewed, reproducible snapshot. Its query, source hashes, exact row counts, retrieval time, and line-ending normalization are recorded in `data/sources/`. The importer rejects an unknown filename, checksum, row count, schema, duplicate UnitID, truncated file, or concurrent institution import before publishing data. Each committed checkpoint retains the complete source metadata, and a completed artifact is a no-op on rerun.
 
+The separate IPEDS core refresh fills profile fields that the original identity import intentionally left conservative. It uses only the exact `institution_identifiers(provider='ipeds')` match, so it cannot create or merge a profile by name. It fills `institutionType`, `ownership`, `operatingStatus`, undergraduate/graduate offer flags, and official admissions, financial-aid, net-price, and website links only when those fields are null or unknown. Existing contributor or official values are preserved. The reviewed `HD2024.csv` artifact and manifest are checked in under `data/sources/`:
+
+```bash
+# Docker: use the checked-in artifact inside the rebuilt API image
+docker compose exec api pnpm --filter @urd/api import:ipeds-core \
+  /app/data/sources/HD2024.csv 3000
+
+# Local Node.js run from the repository root
+pnpm --filter @urd/api import:ipeds-core \
+  ../../data/sources/HD2024.csv 3000
+
+# Optional, safe validation without touching the database
+docker compose exec api pnpm --filter @urd/api import:ipeds-core \
+  /app/data/sources/HD2024.csv --dry-run
+```
+
+The core refresh is resumable by source-row checkpoint, uses a dedicated PostgreSQL advisory lock, records unmatched/invalid rows in the import ledger, and becomes a no-op after completion. The source link is stored as government provenance for every exact IPEDS match.
+
 The reviewed IPEDS enrichment snapshots add institutional characteristics and 2024–25 costs without creating new identities. They update only institutions that already have an IPEDS `UNITID`, preserve imputation flags, and resume from committed checkpoints:
 
 ```bash
@@ -142,6 +163,29 @@ docker compose exec api pnpm --filter @urd/api import:ipeds-enrollment \
 
 The enrollment importer verifies the checked-in SHA-256, row count, column order, EFALEVEL meanings, imputation flags, and duplicate `UNITID`/`EFALEVEL` keys before writing. It stores each value with its source row, attendance status, population, and IPEDS flags. A committed source-row checkpoint makes interruption safe, and a completed artifact is a no-op when rerun.
 
+The reviewed C2024_A snapshot adds official programs and award levels for U.S. IPEDS institutions. It covers the July 1, 2023–June 30, 2024 reporting period and uses the official 2020 Classification of Instructional Programs (CIP) catalog for human-readable program names. The checked-in `C2024_A_programs.csv` is a small, reviewed projection of the official C2024_A download containing only the fields needed to build the catalog; its source, row count, checksum, and transformation note are in `data/sources/ipeds-program-artifacts.json`.
+
+```bash
+# Docker: use the checked-in reviewed artifacts inside the API image
+docker compose exec api pnpm --filter @urd/api import:ipeds-programs \
+  /app/data/sources/C2024_A_programs.csv \
+  /app/data/sources/CIPCode2020.csv
+
+# Optional: pause after a fixed number of source rows, then rerun the same command
+docker compose exec api pnpm --filter @urd/api import:ipeds-programs \
+  /app/data/sources/C2024_A_programs.csv \
+  /app/data/sources/CIPCode2020.csv 3000
+
+# Optional, safe validation without touching the database
+docker compose exec api pnpm --filter @urd/api import:ipeds-programs \
+  /app/data/sources/C2024_A_programs.csv \
+  /app/data/sources/CIPCode2020.csv --dry-run
+```
+
+The API image copies the reviewed source artifacts at build time. If you replace either CSV or its manifest locally, run `docker compose up --build -d api` before importing so the container uses the same files that are checked into the repository.
+
+The importer only attaches a program to an existing IPEDS `UNITID`; unmatched rows are counted as skipped, never name-matched into a university. Duplicate second-major rows collapse to the same institution/CIP/award-level catalog item. Every run is protected by an advisory lock, records its source-row checkpoint in `import_runs`, and is a no-op after completion. Program names and award levels are sourced facts; C2024_A completion totals are validated but are not presented as current admissions requirements.
+
 The reviewed Wikidata snapshot fills a small set of global profile fields for exact Wikidata IDs already present in the database: student count (`P2196`), establishment year (`P571`), and HTTPS official website (`P856`). It is an enrichment layer, not an admissions authority. Only previously null fields are filled; no Wikidata value replaces a contributor's value or an official IPEDS value.
 
 ```bash
@@ -159,6 +203,17 @@ docker compose exec api pnpm --filter @urd/api import:wikidata-enrichment \
 ```
 
 The Wikidata importer matches QIDs only, verifies the reviewed SHA-256, schema, row count, URLs, years, and duplicate QIDs, records a source link for every changed profile, and stores a resumable checkpoint. Community-maintained values should still be checked against the university's current official pages before applying.
+
+The expanded reviewed snapshot links exact, one-to-one ROR identifiers to Wikidata QIDs before applying the same conservative enrichment. It never uses a university name to merge identities. Run the crosswalk first, then its facts companion:
+
+```bash
+docker compose exec api pnpm --filter @urd/api import:wikidata-ror-crosswalk \
+  /app/data/sources/wikidata-ror-institution-facts-20260831.csv
+docker compose exec api pnpm --filter @urd/api import:wikidata-enrichment \
+  /app/data/sources/wikidata-ror-qid-facts-20260831.csv
+```
+
+Both steps verify the checked-in manifest and SHA-256, keep an independent source-row checkpoint, and become no-ops after completion. Ambiguous ROR/QID mappings are excluded from the reviewed artifact rather than guessed.
 
 The reviewed ADM2024 snapshot adds first-time undergraduate admissions data. It records application, admission, and enrollment counts; the institution's admission considerations (such as GPA, recommendations, English proficiency, essays, and test policies); and reported SAT/ACT submission rates and score percentiles. IPEDS does not publish IB, A-Level, IELTS/TOEFL minimums, essay prompts, or program-specific requirements, so those fields must be added from the university's own official admissions pages.
 

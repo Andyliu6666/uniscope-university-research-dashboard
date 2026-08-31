@@ -10,12 +10,14 @@ export function ExplorePage() {
   const [q, setQ] = useState('');
   const [country, setCountry] = useState('');
   const [type, setType] = useState('');
+  const [maxTuition, setMaxTuition] = useState('');
   const [page, setPage] = useState(1);
   const comparison = useComparison();
   const query = {
     q,
     country: country || undefined,
     type: (type as 'public' | 'private' | 'unknown') || undefined,
+    maxTuition: maxTuition ? Number(maxTuition) : undefined,
     page,
     pageSize: 6,
   };
@@ -108,12 +110,27 @@ export function ExplorePage() {
             <option value="private">Private</option>
             <option value="unknown">Not classified</option>
           </select>
+          <select
+            value={maxTuition}
+            onChange={(event) => {
+              setMaxTuition(event.target.value);
+              setPage(1);
+            }}
+            aria-label="Maximum reported annual tuition in USD"
+          >
+            <option value="">Any reported tuition</option>
+            <option value="20000">Up to $20,000</option>
+            <option value="40000">Up to $40,000</option>
+            <option value="60000">Up to $60,000</option>
+            <option value="80000">Up to $80,000</option>
+          </select>
           <button
             type="button"
             onClick={() => {
               setQ('');
               setCountry('');
               setType('');
+              setMaxTuition('');
               setPage(1);
             }}
           >

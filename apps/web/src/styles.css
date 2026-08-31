@@ -410,6 +410,21 @@ a {
   color: #5c6c63;
   line-height: 1.7;
 }
+.detail-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.secondary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--green);
+  padding: 10px 13px;
+  color: var(--green);
+  font-size: 12px;
+}
 .primary-link {
   display: inline-flex;
   align-items: center;
@@ -650,6 +665,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.empty-list-copy {
+  margin: 1rem 0 0;
 }
 .panel {
   background: #fff;
