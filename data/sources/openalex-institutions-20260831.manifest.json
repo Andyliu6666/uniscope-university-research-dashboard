@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "provider": "openalex",
+  "datasetVersion": "2026-08-31",
+  "artifactFile": "openalex-institutions-20260831.jsonl",
+  "artifactSha256": "645206ac9b9eb860a97c1b9f7abeb7fdce8907a19ca30b6fe1b9c480075d90c4",
+  "artifactRows": 27401,
+  "sourceUrl": "https://api.openalex.org/institutions?filter=type:education,has_ror:true&per-page=100&cursor=*&select=id,ror,display_name,country_code,homepage_url,works_count,cited_by_count,summary_stats,status,updated_date",
+  "sourceRecordCount": 27401,
+  "retrievedAt": "2026-08-31T09:07:52.885Z",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://help.openalex.org/access/pricing/",
+  "identityRule": "Exact ROR ID only; names and domains are never automatic merge keys."
+}
