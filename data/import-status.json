@@ -10,6 +10,11 @@
       "admissionRequirements": 22020,
       "financialAidSnapshots": 0
     },
+    "coreCoverage": {
+      "studentCount": 2711,
+      "establishedYear": 6660,
+      "officialWebsite": 3362
+    },
     "rejectedRows": 128,
     "universities": 28144,
     "rorIdentifiers": 27107,
@@ -20,31 +25,29 @@
       "wikidata": 7778
     }
   },
-  "generatedAt": "2026-08-31T01:49:16Z",
+  "generatedAt": "2026-08-31T02:22:37Z",
   "latestImport": {
     "status": "completed",
-    "skipped": 28254,
-    "updated": 0,
-    "inserted": 85579,
-    "provider": "ipeds-enrollment",
+    "skipped": 760,
+    "updated": 7018,
+    "inserted": 0,
+    "provider": "wikidata-enrichment",
     "rejected": 0,
-    "processed": 113833,
-    "startedAt": "2026-08-31T01:48:20.369932+00:00",
-    "updatedAt": "2026-08-31T01:48:43.626+00:00",
+    "processed": 7778,
+    "startedAt": "2026-08-31T02:20:52.695076+00:00",
+    "updatedAt": "2026-08-31T02:21:05.336+00:00",
     "checkpoint": {
-      "sourceRow": 113833,
-      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/EF2024A.zip",
-      "sourceFile": "EF2024A.csv",
-      "sourceRows": 113833,
-      "academicYear": "2024-25",
-      "sourceSha256": "d17ce536cecd5bfa0e8bbf34d24af74095c1e2853abfed9e9db5aa14351a7aac",
+      "sourceRow": 7778,
+      "sourceUrl": "https://www.wikidata.org/",
+      "sourceFile": "wikidata-institution-facts-20260831.csv",
+      "sourceRows": 7778,
+      "sourceSha256": "894c8511f59e573722a0926c36d400ae3cc8a677bbedcc58030ae0982d278cd2",
       "schemaVersion": 1,
-      "sourceRetrievedAt": "2026-08-31T00:00:00.000Z",
-      "reportedAcademicYear": "2024"
+      "sourceRetrievedAt": "2026-08-31T02:11:00.000Z"
     },
-    "finishedAt": "2026-08-31T01:48:43.626+00:00",
-    "artifactSha256": "a15b6e6cc69d9cd7451c06227bf30e950c235d3527555a415223c900f96b2bbe",
-    "datasetVersion": "EF2024A"
+    "finishedAt": "2026-08-31T02:21:05.336+00:00",
+    "artifactSha256": "aff69f1b012ef2f3d0b9c04058fad666bbfc79e6e9d2718187d9e9c28f941378",
+    "datasetVersion": "wikidata-institution-facts-20260831"
   },
   "schemaVersion": 1
 }

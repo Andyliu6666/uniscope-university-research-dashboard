@@ -17,7 +17,8 @@
     "import:ipeds": "tsx src/scripts/import-ipeds.ts",
     "import:ipeds-admissions": "tsx src/scripts/import-ipeds-admissions.ts",
     "import:ipeds-cost": "tsx src/scripts/import-ipeds-cost.ts",
-    "import:ipeds-enrollment": "tsx src/scripts/import-ipeds-enrollment.ts"
+    "import:ipeds-enrollment": "tsx src/scripts/import-ipeds-enrollment.ts",
+    "import:wikidata-enrichment": "tsx src/scripts/import-wikidata-enrichment.ts"
   },
   "dependencies": {
     "@fastify/cors": "^11.3.0",

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "artifacts": [
+    {
+      "datasetFile": "wikidata-institution-facts-20260831.csv",
+      "datasetSha256": "894c8511f59e573722a0926c36d400ae3cc8a677bbedcc58030ae0982d278cd2",
+      "datasetRows": 7778,
+      "sourceUrl": "https://www.wikidata.org/",
+      "publisher": "Wikidata (Wikimedia Foundation)",
+      "retrievedAt": "2026-08-31T02:11:00.000Z",
+      "notes": "Reviewed snapshot for the exact Wikidata QIDs already present in institution_identifiers. It contains optional P2196 students count, P571 inception year, and HTTPS P856 official website values. Blank cells are intentional; no names or identity matches are imported. Wikidata is a community-maintained reference and these values must be checked against the institution's official source before an application decision."
+    }
+  ]
+}

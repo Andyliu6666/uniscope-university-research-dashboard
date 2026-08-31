@@ -48,6 +48,11 @@ SELECT jsonb_pretty(
         'costSnapshots', (SELECT count(*) FROM cost_snapshots),
         'financialAidSnapshots', (SELECT count(*) FROM financial_aid_snapshots)
       ),
+      'coreCoverage', jsonb_build_object(
+        'studentCount', (SELECT count(*) FROM universities WHERE student_count IS NOT NULL),
+        'establishedYear', (SELECT count(*) FROM universities WHERE established_year IS NOT NULL),
+        'officialWebsite', (SELECT count(*) FROM universities WHERE official_website IS NOT NULL)
+      ),
       'rejectedRows', (SELECT count(*) FROM import_rejections)
     ),
     'latestImport', COALESCE(

@@ -142,6 +142,24 @@ docker compose exec api pnpm --filter @urd/api import:ipeds-enrollment \
 
 The enrollment importer verifies the checked-in SHA-256, row count, column order, EFALEVEL meanings, imputation flags, and duplicate `UNITID`/`EFALEVEL` keys before writing. It stores each value with its source row, attendance status, population, and IPEDS flags. A committed source-row checkpoint makes interruption safe, and a completed artifact is a no-op when rerun.
 
+The reviewed Wikidata snapshot fills a small set of global profile fields for exact Wikidata IDs already present in the database: student count (`P2196`), establishment year (`P571`), and HTTPS official website (`P856`). It is an enrichment layer, not an admissions authority. Only previously null fields are filled; no Wikidata value replaces a contributor's value or an official IPEDS value.
+
+```bash
+# Docker: use the checked-in, reviewed snapshot inside the API image
+docker compose exec api pnpm --filter @urd/api import:wikidata-enrichment \
+  /app/data/sources/wikidata-institution-facts-20260831.csv
+
+# Optional: pause after a fixed number of rows, then rerun to resume
+docker compose exec api pnpm --filter @urd/api import:wikidata-enrichment \
+  /app/data/sources/wikidata-institution-facts-20260831.csv 3000
+
+# Optional, safe validation without touching the database
+docker compose exec api pnpm --filter @urd/api import:wikidata-enrichment \
+  /app/data/sources/wikidata-institution-facts-20260831.csv --dry-run
+```
+
+The Wikidata importer matches QIDs only, verifies the reviewed SHA-256, schema, row count, URLs, years, and duplicate QIDs, records a source link for every changed profile, and stores a resumable checkpoint. Community-maintained values should still be checked against the university's current official pages before applying.
+
 The reviewed ADM2024 snapshot adds first-time undergraduate admissions data. It records application, admission, and enrollment counts; the institution's admission considerations (such as GPA, recommendations, English proficiency, essays, and test policies); and reported SAT/ACT submission rates and score percentiles. IPEDS does not publish IB, A-Level, IELTS/TOEFL minimums, essay prompts, or program-specific requirements, so those fields must be added from the university's own official admissions pages.
 
 ```bash

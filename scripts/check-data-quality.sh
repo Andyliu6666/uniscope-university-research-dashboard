@@ -37,6 +37,7 @@ DECLARE
   invalid_completed_ipeds_runs integer;
   invalid_completed_admission_runs integer;
   invalid_completed_enrichment_runs integer;
+  invalid_completed_wikidata_runs integer;
   orphan_admission_profiles integer;
   orphan_admission_facts integer;
   orphan_enrichment_facts integer;
@@ -268,6 +269,26 @@ BEGIN
       END
     );
 
+  SELECT count(*) INTO invalid_completed_wikidata_runs
+  FROM import_runs
+  WHERE provider = 'wikidata-enrichment'
+    AND status = 'completed'
+    AND (
+      jsonb_typeof(checkpoint->'sourceRow') IS DISTINCT FROM 'number' OR
+      jsonb_typeof(checkpoint->'sourceRows') IS DISTINCT FROM 'number' OR
+      CASE
+        WHEN (checkpoint->>'sourceRow') ~ '^[0-9]+$'
+          AND (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN (checkpoint->>'sourceRow')::bigint <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END OR
+      CASE
+        WHEN (checkpoint->>'sourceRows') ~ '^[0-9]+$'
+        THEN processed_count <> (checkpoint->>'sourceRows')::bigint
+        ELSE true
+      END
+    );
+
   IF
     missing_sources > 0 OR
     missing_identifiers > 0 OR
@@ -283,6 +304,7 @@ BEGIN
     invalid_completed_ipeds_runs > 0 OR
     invalid_completed_admission_runs > 0 OR
     invalid_completed_enrichment_runs > 0 OR
+    invalid_completed_wikidata_runs > 0 OR
     orphan_admission_profiles > 0 OR
     orphan_admission_facts > 0 OR
     orphan_enrichment_facts > 0 OR
@@ -293,7 +315,7 @@ BEGIN
     invalid_financial_aid_values > 0
   THEN
     RAISE EXCEPTION
-      'Data quality gate failed: missing sources %, missing identifiers %, duplicate identifiers %, duplicate slugs %, orphan identifiers %, insecure sources %, failed imports %, running imports %, inconsistent import counts %, inconsistent rejection ledgers %, IPEDS rejections without source rows %, invalid completed IPEDS runs %, invalid completed admission runs %, invalid completed enrichment runs %, orphan admission profiles %, orphan admission facts %, orphan enrichment facts %, negative admission counts %, invalid admission test values %, negative enrollment counts %, invalid cost values %, invalid financial aid values %',
+      'Data quality gate failed: missing sources %, missing identifiers %, duplicate identifiers %, duplicate slugs %, orphan identifiers %, insecure sources %, failed imports %, running imports %, inconsistent import counts %, inconsistent rejection ledgers %, IPEDS rejections without source rows %, invalid completed IPEDS runs %, invalid completed admission runs %, invalid completed enrichment runs %, invalid completed Wikidata runs %, orphan admission profiles %, orphan admission facts %, orphan enrichment facts %, negative admission counts %, invalid admission test values %, negative enrollment counts %, invalid cost values %, invalid financial aid values %',
       missing_sources,
       missing_identifiers,
       duplicate_identifiers,
@@ -308,6 +330,7 @@ BEGIN
       invalid_completed_ipeds_runs,
       invalid_completed_admission_runs,
       invalid_completed_enrichment_runs,
+      invalid_completed_wikidata_runs,
       orphan_admission_profiles,
       orphan_admission_facts,
       orphan_enrichment_facts,
