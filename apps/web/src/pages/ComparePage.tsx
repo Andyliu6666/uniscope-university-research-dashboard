@@ -1,6 +1,7 @@
 import { useQueries } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
+import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
 import { useComparison } from '../store.js';
 
 export function ComparePage() {
@@ -43,6 +44,13 @@ export function ComparePage() {
     {
       label: 'Annual tuition (USD)',
       read: (i) => i.annualTuitionUsd?.toLocaleString() ?? 'Not published',
+    },
+    {
+      label: 'Reported cost snapshot',
+      read: (item, admissions) => {
+        const cost = primaryCost(admissions?.costs ?? item.costs);
+        return cost ? `${formatCostAmount(cost)} · ${formatCostContext(cost)}` : 'Not reported';
+      },
     },
     { label: 'Typical IB minimum', read: (i) => String(i.ibTypicalMin ?? 'Varies') },
     {

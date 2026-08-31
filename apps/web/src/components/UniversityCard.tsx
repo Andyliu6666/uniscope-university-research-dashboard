@@ -1,6 +1,7 @@
 import { ArrowUpRight, MapPin, Scale } from 'lucide-react';
 import type { University } from '@urd/shared';
 import { Link } from 'react-router-dom';
+import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
 
 const money = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -16,6 +17,7 @@ export function UniversityCard({
   compared: boolean;
   onCompare: () => void;
 }) {
+  const reportedCost = primaryCost(university.costs);
   return (
     <article className="uni-card">
       <div className="card-top">
@@ -40,12 +42,19 @@ export function UniversityCard({
       </div>
       <dl className="quick-stats">
         <div>
-          <dt>Tuition / yr</dt>
+          <dt>{reportedCost ? 'Reported cost' : 'Tuition / yr'}</dt>
           <dd>
-            {university.annualTuitionUsd
-              ? money.format(university.annualTuitionUsd)
-              : 'Check source'}
+            {reportedCost
+              ? formatCostAmount(reportedCost)
+              : university.annualTuitionUsd !== null
+                ? money.format(university.annualTuitionUsd)
+                : 'Check source'}
           </dd>
+          {reportedCost && (
+            <small className="cost-context" title={formatCostContext(reportedCost)}>
+              {formatCostContext(reportedCost)}
+            </small>
+          )}
         </div>
         <div>
           <dt>Fall enrollment</dt>

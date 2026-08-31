@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
+import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
 
 const money = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -27,6 +28,7 @@ export function DetailPage() {
     queryFn: () => fetchUniversityAdmissions(slug),
     enabled: Boolean(slug),
   });
+  const reportedCost = university ? primaryCost(university.costs) : undefined;
   if (isPending) return <div className="page-loading">Loading research profile…</div>;
   if (error || !university)
     return (
@@ -80,12 +82,23 @@ export function DetailPage() {
           <strong>{university.establishedYear ?? 'Not published'}</strong>
         </div>
         <div>
-          <span>Annual tuition</span>
+          <span>
+            {reportedCost && university.annualTuitionUsd === null
+              ? 'Reported cost'
+              : 'Annual tuition'}
+          </span>
           <strong>
-            {university.annualTuitionUsd
+            {university.annualTuitionUsd !== null
               ? money.format(university.annualTuitionUsd)
-              : 'Check source'}
+              : reportedCost
+                ? formatCostAmount(reportedCost)
+                : 'Check source'}
           </strong>
+          {reportedCost && university.annualTuitionUsd === null && (
+            <small className="cost-context" title={formatCostContext(reportedCost)}>
+              {formatCostContext(reportedCost)}
+            </small>
+          )}
         </div>
         <div>
           <span>Typical IB minimum</span>
@@ -93,6 +106,7 @@ export function DetailPage() {
         </div>
       </section>
       <AdmissionsSection data={admissions} pending={admissionsPending} />
+      <CostsSection data={admissions} pending={admissionsPending} />
       <CoverageSection university={university} data={admissions} pending={admissionsPending} />
       <div className="detail-grid">
         <section className="panel">
@@ -273,36 +287,64 @@ function AdmissionsSection({
           ))}
         </div>
       )}
-      {data.costs.length > 0 && (
-        <div className="admissions-subsection">
-          <h3>Reported costs</h3>
-          {data.costs.slice(0, 6).map((cost) => (
-            <div
-              className="list-row"
-              key={`${cost.category}-${cost.residency}-${cost.period}-${cost.scenario}`}
-            >
-              <div>
-                <strong>{cost.category.replaceAll('_', ' ')}</strong>
-                <span>
-                  {cost.residency.replaceAll('_', ' ')} · {cost.scenario.replaceAll('_', ' ')} ·{' '}
-                  {cost.academicYear}
-                </span>
-              </div>
-              <span className="country-pill">
-                {new Intl.NumberFormat('en-US', {
-                  style: 'currency',
-                  currency: cost.currency,
-                  maximumFractionDigits: 0,
-                }).format(cost.amount)}
-              </span>
-            </div>
-          ))}
-        </div>
-      )}
       <a href={profile.source.url} target="_blank" rel="noreferrer" className="source-inline">
         Verify this dataset at {profile.source.publisher ?? profile.source.title}{' '}
         <ArrowUpRight size={15} />
       </a>
+    </section>
+  );
+}
+
+function CostsSection({
+  data,
+  pending,
+}: {
+  data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
+  pending: boolean;
+}) {
+  if (pending || !data?.costs.length) return null;
+  const visibleCosts = data.costs.slice(0, 12);
+  return (
+    <section className="panel costs-panel">
+      <div className="subsection-heading">
+        <div>
+          <p className="kicker">Costs</p>
+          <h2>Reported cost snapshots</h2>
+          <p className="muted">
+            Official values are shown without currency conversion or combining separate scenarios.
+            Each row keeps its level, residency, period, scenario, and academic year.
+          </p>
+        </div>
+        <span className="country-pill">{data.costs.length} facts</span>
+      </div>
+      <div className="cost-list">
+        {visibleCosts.map((cost) => (
+          <div
+            className="list-row cost-row"
+            key={`${cost.level}-${cost.residency}-${cost.category}-${cost.period}-${cost.scenario}-${cost.source.url}`}
+          >
+            <div>
+              <strong>{formatCostAmount(cost)}</strong>
+              <span>{formatCostContext(cost)}</span>
+            </div>
+            <a
+              href={cost.source.url}
+              target="_blank"
+              rel="noreferrer"
+              className="cost-source"
+              title={`Verify ${cost.source.title}`}
+            >
+              Verify <ArrowUpRight size={14} />
+            </a>
+          </div>
+        ))}
+      </div>
+      {data.costs.length > visibleCosts.length && (
+        <p className="muted costs-more">
+          Showing the first {visibleCosts.length} of {data.costs.length} reported facts. Use the
+          source links above to review the complete official dataset.
+        </p>
+      )}
     </section>
   );
 }

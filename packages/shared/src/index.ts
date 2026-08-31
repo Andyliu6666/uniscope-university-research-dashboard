@@ -70,9 +70,24 @@ export const universityInputSchema = z.object({
   sources: z.array(sourceSchema).min(1),
 });
 
+const costSnapshotSchema = z.object({
+  academicYear: z.string(),
+  level: z.string(),
+  applicantType: z.enum(['domestic', 'international', 'all']),
+  residency: z.string(),
+  category: z.string(),
+  period: z.string(),
+  scenario: z.string(),
+  amount: z.number(),
+  currency: z.string(),
+  sourceFlags: z.record(z.string(), z.unknown()),
+  source: sourceSchema,
+});
+
 export const universitySchema = universityInputSchema.extend({
   id: z.string().uuid(),
   updatedAt: z.iso.datetime(),
+  costs: z.array(costSnapshotSchema),
 });
 
 export const universityQuerySchema = z.object({
@@ -186,6 +201,7 @@ export interface CostSnapshot {
   amount: number;
   currency: string;
   sourceFlags: Record<string, unknown>;
+  source: UniversitySource;
 }
 
 export interface EnrollmentSnapshot {

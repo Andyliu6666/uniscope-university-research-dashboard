@@ -311,6 +311,16 @@ a {
   font-size: 13px;
   margin: 5px 0;
 }
+.cost-context {
+  display: block;
+  color: #78847d;
+  font-size: 9px;
+  line-height: 1.35;
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .card-link {
   justify-content: space-between;
   border-top: 1px solid var(--ink);
@@ -553,6 +563,45 @@ a {
 }
 .coverage-panel {
   margin-bottom: 20px;
+}
+.costs-panel {
+  margin-bottom: 20px;
+}
+.costs-panel h2 {
+  margin: 0;
+}
+.costs-panel .subsection-heading > .country-pill {
+  flex-shrink: 0;
+}
+.costs-panel .muted {
+  max-width: 760px;
+  margin-bottom: 0;
+}
+.cost-list {
+  margin-top: 24px;
+}
+.cost-row {
+  align-items: center;
+}
+.cost-row strong {
+  font-size: 16px;
+}
+.cost-row > div > span {
+  line-height: 1.5;
+}
+.cost-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #34705a;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.costs-more {
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+  font-size: 11px;
 }
 .coverage-panel h2 {
   margin: 0;

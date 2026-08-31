@@ -40,10 +40,114 @@ const sourceForApi = (source: typeof sources.$inferSelect) => ({
   verifiedAt: source.verifiedAt.toISOString(),
 });
 
+type CostSnapshotRow = typeof costSnapshots.$inferSelect;
+
+const costSummaryOrder = [
+  {
+    level: 'undergraduate',
+    residency: 'out_of_state',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'undergraduate',
+    residency: 'in_state',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'undergraduate',
+    residency: 'in_district',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'graduate',
+    residency: 'out_of_state',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'graduate',
+    residency: 'in_state',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'graduate',
+    residency: 'in_district',
+    category: 'tuition_and_fees',
+    period: 'academic_year',
+    scenario: 'published_2024_25',
+  },
+  {
+    level: 'undergraduate',
+    residency: 'out_of_state',
+    category: 'tuition',
+    period: 'academic_year',
+    scenario: 'average_full_time',
+  },
+  {
+    level: 'undergraduate',
+    residency: 'in_state',
+    category: 'tuition',
+    period: 'academic_year',
+    scenario: 'average_full_time',
+  },
+] as const;
+
+const costSummaryRank = (row: CostSnapshotRow) => {
+  const rank = costSummaryOrder.findIndex(
+    (preferred) =>
+      row.level === preferred.level &&
+      row.residency === preferred.residency &&
+      row.category === preferred.category &&
+      row.period === preferred.period &&
+      row.scenario === preferred.scenario,
+  );
+  return rank === -1 ? costSummaryOrder.length : rank;
+};
+
+const selectCostSummaries = (rows: CostSnapshotRow[]) =>
+  rows
+    .filter((row) => row.programId === null)
+    .sort((left, right) => {
+      const rankDifference = costSummaryRank(left) - costSummaryRank(right);
+      if (rankDifference !== 0) return rankDifference;
+      const yearDifference = right.academicYear.localeCompare(left.academicYear);
+      if (yearDifference !== 0) return yearDifference;
+      return left.id.localeCompare(right.id);
+    })
+    .slice(0, 6);
+
+const costForApi = (row: CostSnapshotRow, source: typeof sources.$inferSelect) => ({
+  academicYear: row.academicYear,
+  level: row.level,
+  applicantType: row.applicantType,
+  residency: row.residency,
+  category: row.category,
+  period: row.period,
+  scenario: row.scenario,
+  amount: Number(row.amount),
+  currency: row.currency,
+  sourceFlags: row.sourceFlags,
+  source: sourceForApi(source),
+});
+
+export const resolveStudentCount = (
+  profileStudentCount: number | null,
+  officialEnrollment: number | undefined,
+) => officialEnrollment ?? profileStudentCount ?? null;
+
 const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[]> => {
   if (rows.length === 0) return [];
   const ids = rows.map((row) => row.id);
-  const [programRows, deadlineRows, sourceRows, enrollmentRows] = await Promise.all([
+  const [programRows, deadlineRows, sourceRows, enrollmentRows, costRows] = await Promise.all([
     db.select().from(programs).where(inArray(programs.universityId, ids)),
     db.select().from(deadlines).where(inArray(deadlines.universityId, ids)),
     db.select().from(sources).where(inArray(sources.universityId, ids)),
@@ -57,6 +161,7 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
       })
       .from(enrollmentSnapshots)
       .where(inArray(enrollmentSnapshots.universityId, ids)),
+    db.select().from(costSnapshots).where(inArray(costSnapshots.universityId, ids)),
   ]);
   const officialEnrollment = new Map(
     enrollmentRows
@@ -70,7 +175,7 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
   );
   return rows.map((row) => ({
     ...row,
-    studentCount: row.studentCount ?? officialEnrollment.get(row.id) ?? null,
+    studentCount: resolveStudentCount(row.studentCount, officialEnrollment.get(row.id)),
     acceptanceRate: row.acceptanceRate === null ? null : Number(row.acceptanceRate),
     latitude: row.latitude === null ? null : Number(row.latitude),
     longitude: row.longitude === null ? null : Number(row.longitude),
@@ -98,6 +203,13 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
         publishedAt: publishedAt?.toISOString() ?? null,
         verifiedAt: verifiedAt.toISOString(),
       })),
+    costs: selectCostSummaries(costRows.filter((item) => item.universityId === row.id)).map(
+      (item) => {
+        const source = sourceRows.find((candidate) => candidate.id === item.sourceId);
+        if (!source) throw new Error(`Missing source ${item.sourceId} for cost snapshot`);
+        return costForApi(item, source);
+      },
+    ),
   }));
 };
 
@@ -332,6 +444,7 @@ export const getUniversityAdmissions = async (
       amount: Number(row.amount),
       currency: row.currency,
       sourceFlags: row.sourceFlags,
+      source: sourceFor(row.sourceId),
     })),
     enrollment: enrollmentRows.map((row) => ({
       academicYear: row.academicYear,
