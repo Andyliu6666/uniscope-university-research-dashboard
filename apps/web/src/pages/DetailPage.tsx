@@ -72,6 +72,14 @@ export function DetailPage() {
           <strong>{university.institutionType}</strong>
         </div>
         <div>
+          <span>Student body</span>
+          <strong>{university.studentCount?.toLocaleString() ?? 'Not published'}</strong>
+        </div>
+        <div>
+          <span>Established</span>
+          <strong>{university.establishedYear ?? 'Not published'}</strong>
+        </div>
+        <div>
           <span>Annual tuition</span>
           <strong>
             {university.annualTuitionUsd
@@ -83,12 +91,9 @@ export function DetailPage() {
           <span>Typical IB minimum</span>
           <strong>{university.ibTypicalMin ?? 'Varies'}</strong>
         </div>
-        <div>
-          <span>Student body</span>
-          <strong>{university.studentCount?.toLocaleString() ?? 'Not published'}</strong>
-        </div>
       </section>
       <AdmissionsSection data={admissions} pending={admissionsPending} />
+      <CoverageSection university={university} data={admissions} pending={admissionsPending} />
       <div className="detail-grid">
         <section className="panel">
           <p className="kicker">Programs</p>
@@ -434,5 +439,83 @@ function AdmissionMetric({ label, value }: { label: string; value: string }) {
       <span>{label}</span>
       <strong>{value}</strong>
     </div>
+  );
+}
+
+function CoverageSection({
+  university,
+  data,
+  pending,
+}: {
+  university: Awaited<ReturnType<typeof fetchUniversity>>;
+  data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
+  pending: boolean;
+}) {
+  const requirementCount =
+    data?.profiles.reduce(
+      (total, profile) => total + profile.requirements.length + profile.qualifications.length,
+      0,
+    ) ?? 0;
+  const enrollmentYears = new Set(data?.enrollment.map((row) => row.academicYear)).size;
+  const rows = [
+    {
+      label: 'Identity & location',
+      value: `${university.sources.length} source${university.sources.length === 1 ? '' : 's'}`,
+    },
+    {
+      label: 'Admissions profiles',
+      value: pending
+        ? 'Loading…'
+        : data?.profiles.length
+          ? `${data.profiles.length} official profile${data.profiles.length === 1 ? '' : 's'}`
+          : 'Not reported',
+    },
+    {
+      label: 'Requirements & qualifications',
+      value: pending ? 'Loading…' : requirementCount ? String(requirementCount) : 'Not reported',
+    },
+    {
+      label: 'Enrollment',
+      value: pending
+        ? 'Loading…'
+        : data?.enrollment.length
+          ? `${data.enrollment.length} views · ${enrollmentYears} year${enrollmentYears === 1 ? '' : 's'}`
+          : 'Not reported',
+    },
+    {
+      label: 'Costs',
+      value: pending
+        ? 'Loading…'
+        : data?.costs.length
+          ? `${data.costs.length} reported facts`
+          : 'Not reported',
+    },
+    { label: 'Programs listed', value: String(university.programs.length) },
+    { label: 'Deadlines listed', value: String(university.deadlines.length) },
+  ];
+  return (
+    <section className="panel coverage-panel">
+      <div className="subsection-heading">
+        <div>
+          <p className="kicker">Data coverage</p>
+          <h2>What is verified for this profile</h2>
+        </div>
+        <Link className="source-inline" to="/contribute">
+          Add official details <ArrowUpRight size={15} />
+        </Link>
+      </div>
+      <div className="coverage-grid">
+        {rows.map((row) => (
+          <div className="coverage-item" key={row.label}>
+            <span>{row.label}</span>
+            <strong>{row.value}</strong>
+          </div>
+        ))}
+      </div>
+      <p className="muted coverage-note">
+        ROR and Wikidata establish an identity, but they do not publish application requirements or
+        tuition. Missing fields stay empty until a contributor adds a current official source.
+      </p>
+    </section>
   );
 }
