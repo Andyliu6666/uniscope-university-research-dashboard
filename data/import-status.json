@@ -1,71 +1,71 @@
 {
-  "database": {
-    "countries": 225,
-    "factCounts": {
-      "programs": 272663,
-      "deadlines": 1,
-      "costSnapshots": 98212,
-      "admissionCounts": 32941,
-      "admissionProfiles": 1835,
-      "admissionTestScores": 4552,
-      "enrollmentSnapshots": 85579,
-      "admissionRequirements": 22020,
-      "financialAidSnapshots": 0
+    "database": {
+        "countries": 225,
+        "factCounts": {
+            "programs": 272663,
+            "deadlines": 1,
+            "costSnapshots": 98212,
+            "admissionCounts": 32941,
+            "admissionProfiles": 1835,
+            "admissionTestScores": 4552,
+            "enrollmentSnapshots": 85579,
+            "admissionRequirements": 22020,
+            "financialAidSnapshots": 0
+        },
+        "coreCoverage": {
+            "ownership": 3946,
+            "netPriceUrl": 3862,
+            "studentCount": 4984,
+            "admissionsUrl": 3749,
+            "offersGraduate": 3946,
+            "establishedYear": 22874,
+            "financialAidUrl": 3709,
+            "institutionType": 3947,
+            "officialWebsite": 13882,
+            "operatingStatus": 3946,
+            "offersUndergraduate": 3946
+        },
+        "rejectedRows": 128,
+        "universities": 28144,
+        "rorIdentifiers": 27107,
+        "profileCoverage": {
+            "costs": 3731,
+            "programs": 3935,
+            "deadlines": 1,
+            "admissions": 1835,
+            "enrollment": 3934,
+            "financialAid": 0
+        },
+        "sourcedProfiles": 28144,
+        "identifierCounts": {
+            "ror": 27107,
+            "ipeds": 3946,
+            "wikidata": 27465
+        }
     },
-    "coreCoverage": {
-      "ownership": 3946,
-      "netPriceUrl": 3862,
-      "studentCount": 4984,
-      "admissionsUrl": 3749,
-      "offersGraduate": 3946,
-      "establishedYear": 22874,
-      "financialAidUrl": 3709,
-      "institutionType": 3947,
-      "officialWebsite": 13882,
-      "operatingStatus": 3946,
-      "offersUndergraduate": 3946
+    "generatedAt": "2026-08-31T08:54:51Z",
+    "latestImport": {
+        "status": "completed",
+        "skipped": 2126,
+        "updated": 3946,
+        "inserted": 0,
+        "provider": "ipeds-core",
+        "rejected": 0,
+        "processed": 6072,
+        "startedAt": "2026-08-31T08:54:45.158454+00:00",
+        "updatedAt": "2026-08-31T08:54:47.437+00:00",
+        "checkpoint": {
+            "sourceRow": 6072,
+            "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+            "sourceFile": "HD2024.csv",
+            "sourceRows": 6072,
+            "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
+            "schemaVersion": 2,
+            "sourceRetrievedAt": "2026-08-31T00:00:00.000Z"
+        },
+        "finishedAt": "2026-08-31T08:54:47.437+00:00",
+        "artifactSha256": "6c8ec2755a16b39cbf7f97b87b093f3ef0116299658605a60ecb0b89684df954",
+        "datasetVersion": "HD2024"
     },
-    "rejectedRows": 128,
-    "universities": 28144,
-    "rorIdentifiers": 27107,
-    "profileCoverage": {
-      "costs": 3731,
-      "programs": 3935,
-      "deadlines": 1,
-      "admissions": 1835,
-      "enrollment": 3934,
-      "financialAid": 0
-    },
-    "sourcedProfiles": 28144,
-    "identifierCounts": {
-      "ror": 27107,
-      "ipeds": 3946,
-      "wikidata": 27465
-    }
-  },
-  "generatedAt": "2026-08-31T03:54:54Z",
-  "latestImport": {
-    "status": "completed",
-    "skipped": 2126,
-    "updated": 3946,
-    "inserted": 0,
-    "provider": "ipeds-core",
-    "rejected": 0,
-    "processed": 6072,
-    "startedAt": "2026-08-31T03:41:49.417791+00:00",
-    "updatedAt": "2026-08-31T03:41:58.052+00:00",
-    "checkpoint": {
-      "sourceRow": 6072,
-      "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
-      "sourceFile": "HD2024.csv",
-      "sourceRows": 6072,
-      "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
-      "schemaVersion": 1,
-      "sourceRetrievedAt": "2026-08-31T00:00:00.000Z"
-    },
-    "finishedAt": "2026-08-31T03:41:58.052+00:00",
-    "artifactSha256": "2be435673c650e3c86619049fbef5dafbe6d5e2fc2c0751c967c1956a9683384",
-    "datasetVersion": "HD2024"
-  },
-  "schemaVersion": 1
+    "schemaVersion": 1
 }

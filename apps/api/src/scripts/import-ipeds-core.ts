@@ -50,34 +50,50 @@ if (!Number.isSafeInteger(requestedLimit) || requestedLimit < 1) {
 const provider = 'ipeds-core';
 const datasetVersion = basename(csvPath).replace(/\.csv$/iu, '');
 const chunkSize = 250;
-const importLockName = 'uniscope:ipeds-core-import:v1';
+const importLockName = 'uniscope:ipeds-core-import:v2';
 type Tx = Parameters<Parameters<Database['transaction']>[0]>[0];
 
 const requiredColumns = [
   'UNITID',
+  'ADDR',
+  'CITY',
+  'STABBR',
+  'ZIP',
+  'GENTELE',
   'WEBADDR',
   'ADMINURL',
   'APPLURL',
   'FAIDURL',
   'NPRICURL',
   'CONTROL',
+  'HLOFFER',
   'UGOFFER',
   'GROFFER',
   'ACT',
+  'LONGITUD',
+  'LATITUDE',
 ] as const;
 
 const rowSchema = z
   .object({
     UNITID: z.string().regex(/^\d{6}$/u),
+    ADDR: z.string(),
+    CITY: z.string(),
+    STABBR: z.string(),
+    ZIP: z.string(),
+    GENTELE: z.string(),
     WEBADDR: z.string(),
     ADMINURL: z.string(),
     APPLURL: z.string(),
     FAIDURL: z.string(),
     NPRICURL: z.string(),
     CONTROL: z.string(),
+    HLOFFER: z.string(),
     UGOFFER: z.string(),
     GROFFER: z.string(),
     ACT: z.string(),
+    LONGITUD: z.string(),
+    LATITUDE: z.string(),
   })
   .passthrough();
 
@@ -100,11 +116,19 @@ type ReviewedArtifact = z.infer<typeof reviewedArtifactSchema>;
 type RawRow = Record<string, unknown>;
 
 type CorePatch = {
+  countryCode?: string;
+  region?: string;
+  addressLine?: string;
+  postalCode?: string;
+  phone?: string;
+  latitude?: string;
+  longitude?: string;
   institutionType?: 'public' | 'private';
   ownership?: 'public' | 'private_nonprofit' | 'private_forprofit';
   operatingStatus?: 'active' | 'inactive';
   offersUndergraduate?: boolean;
   offersGraduate?: boolean;
+  highestAwardLevel?: string;
   officialWebsite?: string;
   admissionsUrl?: string;
   financialAidUrl?: string;
@@ -127,7 +151,7 @@ type Rejection = {
 };
 
 type CheckpointMetadata = {
-  schemaVersion: 1;
+  schemaVersion: 2;
   sourceFile: string;
   sourceSha256: string;
   sourceRows: number;
@@ -137,7 +161,7 @@ type CheckpointMetadata = {
 };
 
 const checkpointSchema = z.object({
-  schemaVersion: z.literal(1),
+  schemaVersion: z.literal(2),
   sourceFile: z.string().min(1),
   sourceSha256: z.string().regex(/^[a-f0-9]{64}$/u),
   sourceRows: z.number().int().nonnegative(),
@@ -184,6 +208,32 @@ const operatingStatusFor = (value: unknown): 'active' | 'inactive' | null => {
   if (code === 'A') return 'active';
   if (code === 'D' || code === 'M' || code === 'N') return 'inactive';
   return null;
+};
+
+const clippedText = (value: unknown, maximum: number) => {
+  const text = trimmed(value);
+  return missingSentinels.has(text) ? null : text.slice(0, maximum) || null;
+};
+
+const coordinate = (value: unknown, minimum: number, maximum: number) => {
+  const raw = trimmed(value);
+  if (missingSentinels.has(raw)) return null;
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed) || parsed < minimum || parsed > maximum) return null;
+  return parsed.toFixed(6);
+};
+
+const highestAwardLevels: Record<string, string> = {
+  '0': 'no postsecondary award',
+  '1': 'certificate under one year',
+  '2': 'certificate of one to two years',
+  '3': "associate's degree",
+  '4': 'certificate of two to four years',
+  '5': "bachelor's degree",
+  '6': 'post-baccalaureate certificate',
+  '7': "master's degree",
+  '8': "post-master's certificate",
+  '9': 'doctoral degree',
 };
 
 const assertColumns = (columns: string[]) => {
@@ -278,6 +328,21 @@ const toCandidate = (
   }
 
   const patch: CorePatch = {};
+  patch.countryCode = 'US';
+  const region = clippedText(row.STABBR, 120);
+  const addressLine = clippedText(row.ADDR, 500);
+  const postalCode = clippedText(row.ZIP, 32);
+  const phone = clippedText(row.GENTELE, 40);
+  const latitude = coordinate(row.LATITUDE, -90, 90);
+  const longitude = coordinate(row.LONGITUD, -180, 180);
+  const highestAwardLevel = highestAwardLevels[trimmed(row.HLOFFER)];
+  if (region) patch.region = region;
+  if (addressLine) patch.addressLine = addressLine;
+  if (postalCode) patch.postalCode = postalCode;
+  if (phone) patch.phone = phone;
+  if (latitude) patch.latitude = latitude;
+  if (longitude) patch.longitude = longitude;
+  if (highestAwardLevel) patch.highestAwardLevel = highestAwardLevel;
   if (control === '1' || control === '2' || control === '3') {
     patch.institutionType = control === '1' ? 'public' : 'private';
     patch.ownership =
@@ -390,11 +455,19 @@ const hasValue = (value: string | null | undefined) => Boolean(value?.trim());
 const buildSafePatch = (
   candidate: CorePatch,
   current: {
+    countryCode: string | null;
+    region: string | null;
+    addressLine: string | null;
+    postalCode: string | null;
+    phone: string | null;
+    latitude: string | null;
+    longitude: string | null;
     institutionType: 'public' | 'private' | 'unknown';
     ownership: 'public' | 'private_nonprofit' | 'private_forprofit' | 'unknown' | null;
     operatingStatus: 'active' | 'inactive' | 'unknown' | null;
     offersUndergraduate: boolean | null;
     offersGraduate: boolean | null;
+    highestAwardLevel: string | null;
     officialWebsite: string | null;
     admissionsUrl: string | null;
     financialAidUrl: string | null;
@@ -402,6 +475,19 @@ const buildSafePatch = (
   },
 ) => {
   const patch: CorePatch = {};
+  if (!hasValue(current.countryCode) && candidate.countryCode) {
+    patch.countryCode = candidate.countryCode;
+  }
+  if (!hasValue(current.region) && candidate.region) patch.region = candidate.region;
+  if (!hasValue(current.addressLine) && candidate.addressLine) {
+    patch.addressLine = candidate.addressLine;
+  }
+  if (!hasValue(current.postalCode) && candidate.postalCode) {
+    patch.postalCode = candidate.postalCode;
+  }
+  if (!hasValue(current.phone) && candidate.phone) patch.phone = candidate.phone;
+  if (current.latitude === null && candidate.latitude) patch.latitude = candidate.latitude;
+  if (current.longitude === null && candidate.longitude) patch.longitude = candidate.longitude;
   if (current.institutionType === 'unknown' && candidate.institutionType) {
     patch.institutionType = candidate.institutionType;
   }
@@ -419,6 +505,9 @@ const buildSafePatch = (
   }
   if (current.offersGraduate === null && candidate.offersGraduate !== undefined) {
     patch.offersGraduate = candidate.offersGraduate;
+  }
+  if (!hasValue(current.highestAwardLevel) && candidate.highestAwardLevel) {
+    patch.highestAwardLevel = candidate.highestAwardLevel;
   }
   if (!hasValue(current.officialWebsite) && candidate.officialWebsite) {
     patch.officialWebsite = candidate.officialWebsite;
@@ -450,11 +539,19 @@ const flushChunk = async (
     ? await tx
         .select({
           id: universities.id,
+          countryCode: universities.countryCode,
+          region: universities.region,
+          addressLine: universities.addressLine,
+          postalCode: universities.postalCode,
+          phone: universities.phone,
+          latitude: universities.latitude,
+          longitude: universities.longitude,
           institutionType: universities.institutionType,
           ownership: universities.ownership,
           operatingStatus: universities.operatingStatus,
           offersUndergraduate: universities.offersUndergraduate,
           offersGraduate: universities.offersGraduate,
+          highestAwardLevel: universities.highestAwardLevel,
           officialWebsite: universities.officialWebsite,
           admissionsUrl: universities.admissionsUrl,
           financialAidUrl: universities.financialAidUrl,
@@ -560,7 +657,7 @@ const run = async () => {
     throw new Error(`Refusing unreviewed IPEDS core artifact: ${problems.join('; ')}`);
 
   const metadata: Omit<CheckpointMetadata, 'sourceRow'> = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     sourceFile: basename(csvPath),
     sourceSha256: artifactHash,
     sourceRows: inspection.rowCount,
@@ -587,7 +684,7 @@ const run = async () => {
     lockHeld = true;
 
     const universityIdByIpeds = await readIndexes(connection.db);
-    const artifactRunHash = sha256Text(`ipeds-core:${artifactHash}\n`);
+    const artifactRunHash = sha256Text(`ipeds-core:v2:${artifactHash}\n`);
     const existingRun = await existingRunFor(connection.db, artifactRunHash);
     let checkpoint: CheckpointMetadata;
     if (existingRun) {
