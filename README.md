@@ -11,7 +11,7 @@ pnpm --filter @urd/api run import:admissions-facts ../../data/sources/admissions
 pnpm --filter @urd/api run import:admissions-facts ../../data/sources/admissions-facts-namibia-20261002.json --dry-run
 ```
 
-After reviewing the preview and taking a database backup, omit the flag to apply. A repeat skips existing facts; conflicting contents require review rather than replacement. New university/programme identities are never created by this importer. Do not copy a shared school rule into every course. Facts retain their own official source and checked date; use **Choose admission scope** on the university page to switch between years, qualifications/levels, applicants and entry routes.
+After reviewing the preview and taking a database backup, omit the flag to apply. A repeat skips existing facts; conflicting contents require review rather than replacement. The importer uses existing university identities. Missing programmes can be declared with official sources as documented in [ADMISSIONS_DATA.md](docs/ADMISSIONS_DATA.md); exact matching programmes are reused and conflicting identities are rejected. Do not copy a shared school rule into every course. Facts retain their own official source and checked date; use **Choose admission scope** on the university page to switch between years, qualifications/levels, applicants and entry routes.
 
 If using Docker, rebuild `api` after adding an artifact or importer change and use its `/app/data/sources/...` path:
 

@@ -185,7 +185,7 @@ BEGIN
       p.source_provider = 'official_admissions'
       AND (
         p.source_id IS NULL OR s.category <> 'official' OR
-        p.source_external_id IS NULL OR p.academic_year <> 'unspecified' OR
+        p.source_external_id IS NULL OR p.academic_year IS DISTINCT FROM 'unspecified' OR
         p.source_flags->>'provider' IS DISTINCT FROM 'official_admissions' OR
         p.source_flags->>'sourceUrl' IS DISTINCT FROM s.url
       )

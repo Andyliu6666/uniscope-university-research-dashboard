@@ -3,6 +3,7 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 concurrency:
@@ -11,6 +12,7 @@ concurrency:
 jobs:
   quality:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6
@@ -18,5 +20,57 @@ jobs:
         with:
           node-version: 26
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm check
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Check formatting
+        run: pnpm format:check
+      - name: Lint
+        run: pnpm lint
+      - name: Typecheck
+        run: pnpm typecheck
+      - name: Test
+        run: pnpm test
+      - name: Build
+        run: pnpm build
+
+  migrations:
+    name: Database migrations (path with spaces)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: project with spaces
+    env:
+      DATABASE_URL: postgresql://urd:ci-only-password@127.0.0.1:5432/uniscope_ci
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_DB: uniscope_ci
+          POSTGRES_USER: urd
+          POSTGRES_PASSWORD: ci-only-password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U urd -d uniscope_ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: project with spaces
+      - uses: pnpm/action-setup@v6
+        with:
+          package_json_file: project with spaces/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: pnpm
+          cache-dependency-path: project with spaces/pnpm-lock.yaml
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Apply migrations to an empty database
+        run: pnpm db:migrate
+      - name: Verify repeat migration is safe
+        run: pnpm db:migrate
