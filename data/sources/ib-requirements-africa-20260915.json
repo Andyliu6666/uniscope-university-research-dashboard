@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-africa-2026-09-16-r2",
+  "reviewedOn": "2026-09-16",
+  "institutions": [
+    {
+      "key": "nairobi",
+      "name": "University of Nairobi",
+      "provider": "ror",
+      "externalId": "02y9nww90",
+      "countryCode": "KE",
+      "officialDomains": ["uonbi.ac.ke"]
+    },
+    {
+      "key": "ardhi",
+      "name": "Ardhi University",
+      "provider": "ror",
+      "externalId": "05k903r09",
+      "countryCode": "TZ",
+      "officialDomains": ["aru.ac.tz"]
+    },
+    {
+      "key": "salem",
+      "name": "Salem University",
+      "provider": "ror",
+      "externalId": "056e30g48",
+      "countryCode": "NG",
+      "officialDomains": ["salemuniversity.edu.ng"]
+    },
+    {
+      "key": "pan-atlantic",
+      "name": "Pan-Atlantic University",
+      "provider": "ror",
+      "externalId": "02tythz78",
+      "countryCode": "NG",
+      "officialDomains": ["pau.edu.ng"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "nairobi",
+      "program": {
+        "name": "Bachelor of Information Science",
+        "level": "undergraduate",
+        "field": "Information science",
+        "courseCode": "C38",
+        "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=C38"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma; the programme source does not distinguish citizenship.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "No numeric IB HL/SL subject requirements are published in this source.",
+        "recordKey": "nairobi-information-science-ib-unspecified",
+        "conditions": "The course admission page lists the IB Diploma as an entry qualification but gives no IB total. Applicants remain subject to the University Faculty of Arts requirements. Its separate diploma-course contact-hour condition has unclear applicability to the IB route; seek clarification from admissions.",
+        "source": {
+          "title": "Bachelor of Information Science — admission requirements",
+          "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=C38",
+          "checkedOn": "2026-09-16",
+          "evidence": "International Baccalaureate Diploma"
+        }
+      }
+    },
+    {
+      "institutionKey": "nairobi",
+      "program": {
+        "name": "Bachelor of Arts in Philosophy",
+        "level": "undergraduate",
+        "field": "Philosophy",
+        "courseCode": null,
+        "url": "https://philosophy.uonbi.ac.ke/node/345"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma; the programme source does not distinguish citizenship.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "No numeric IB HL/SL subject requirements are published in this source.",
+        "recordKey": "nairobi-philosophy-ib-unspecified",
+        "conditions": "The department's course page explicitly lists the IB Diploma among eligible qualifications, without a numeric IB total. Course-unit combinations require Faculty approval; subsequent changes require the Dean's approval.",
+        "source": {
+          "title": "Bachelor of Arts in Philosophy — minimum admission requirements",
+          "url": "https://philosophy.uonbi.ac.ke/node/345",
+          "checkedOn": "2026-09-16",
+          "evidence": "International Baccalaureate Diploma"
+        }
+      }
+    },
+    {
+      "institutionKey": "nairobi",
+      "program": {
+        "name": "Bachelor of Education (Physical Education)",
+        "level": "undergraduate",
+        "field": "Physical education",
+        "courseCode": null,
+        "url": "https://education.uonbi.ac.ke/node/441"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting IB as an international qualification equivalent to KCSE; citizenship is not restricted in the course requirement.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "No numeric IB HL/SL subject requirements are published in this source.",
+        "recordKey": "nairobi-physical-education-ib-unspecified",
+        "conditions": "The programme lists IB among international qualifications equivalent to KCSE. It supplies no IB total or conversion table. Applications use the University's online admissions portal. The page specifies an annual September intake and allows applications throughout the year.",
+        "source": {
+          "title": "Bachelor of Education (Physical Education) — admission requirements",
+          "url": "https://education.uonbi.ac.ke/node/441",
+          "checkedOn": "2026-09-16",
+          "evidence": "Other International qualifications that are equivalent to KCSE like the International Baccalaureate"
+        }
+      }
+    },
+    {
+      "institutionKey": "ardhi",
+      "program": {
+        "name": "Bachelor of Science in Accounting and Finance",
+        "level": "undergraduate",
+        "field": "Accounting and finance",
+        "courseCode": "AR022",
+        "url": "https://www.aru.ac.tz/pages/entry-requirements-3"
+      },
+      "requirement": {
+        "academicYear": "2025",
+        "intakeTerm": "2025/2026 academic year",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB applicants to AR022 under the programme's equivalent-qualification entry route; no citizenship restriction is stated.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The equivalent route specifies English or Mathematics at CSEE. No IB subject-grade equivalence is supplied.",
+        "recordKey": "ardhi-ar022-ib-2025",
+        "conditions": "Historical 2025/2026 admissions page. Section 3.4 explicitly includes IB in the equivalent-qualification route alongside diplomas and technician certificates in listed business, finance, land, planning, engineering, hospitality, transport and construction fields. The combined route specifies an average B or GPA 3.0 and a CSEE pass in English or Mathematics. It gives no IB total or mapping to these classifications; obtain an admissions assessment of how the grouped criterion applies to IB.",
+        "source": {
+          "title": "Ardhi minimum entry requirements — section 3.4, BSc Accounting and Finance",
+          "url": "https://www.aru.ac.tz/pages/entry-requirements-3",
+          "checkedOn": "2026-09-16",
+          "evidence": "International Baccalaureate (IB)"
+        }
+      }
+    },
+    {
+      "institutionKey": "salem",
+      "program": {
+        "name": "English Language Education (B.A. Ed.)",
+        "level": "undergraduate",
+        "field": "English language education",
+        "courseCode": null,
+        "url": "https://salemuniversity.edu.ng/course/english-language-education-b-a-ed/"
+      },
+      "requirement": {
+        "academicYear": "2026",
+        "intakeTerm": "September",
+        "entryType": "other",
+        "applicantType": "all",
+        "applicantContext": "IB applicants for Direct Entry into 200 level (second year), a three-year programme, for the course page's September 2026 intake.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Five SSC credit passes including English and Mathematics are required. The source supplies no IB total or numeric IB subject grades.",
+        "recordKey": "salem-english-education-ib-direct-2026",
+        "conditions": "IB is explicitly listed for the three-year Direct Entry programme, together with five SSC credits including English and Mathematics. The 200-level checklist also requests a JAMB Direct Entry form, SSCE/NECO result, two passport photographs, sponsorship letter, National Identification Number and a character reference from a spiritual mentor. That checklist omits IB although the preceding qualification list includes it; confirm document handling with admissions. The course page gives September 2026 as its start date.",
+        "source": {
+          "title": "English Language Education (B.A. Ed.) — Direct Entry requirements",
+          "url": "https://salemuniversity.edu.ng/course/english-language-education-b-a-ed/",
+          "checkedOn": "2026-09-16",
+          "evidence": "IJMB, Cambridge A-levels, or International Baccalaureate"
+        }
+      }
+    },
+    {
+      "institutionKey": "pan-atlantic",
+      "program": {
+        "name": "B.Sc. Film and Multimedia Studies",
+        "level": "undergraduate",
+        "field": "Film and multimedia studies",
+        "courseCode": null,
+        "url": "https://pau.edu.ng/undergrad-film-multimedia/"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "other",
+        "applicantType": "all",
+        "applicantContext": "IB applicants to Direct Entry into 200 level (second year); the programme source does not distinguish citizenship.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The IB Diploma must cover relevant subjects. No IB HL/SL grades are specified; the separate O-Level requirements remain applicable.",
+        "recordKey": "pau-film-multimedia-ib-direct-unspecified",
+        "conditions": "The course lists an IB Diploma in relevant subjects for Direct Entry. Applicants also need five O-Level credits, including Mathematics, English and three Arts or Social Science subjects, obtained in at most two sittings, and must pass the University's evaluative test for entry into 200 level. No IB total is specified. Reviewed through the search provider's indexed official page; direct retrieval returned a 403 challenge.",
+        "source": {
+          "title": "B.Sc. Film and Multimedia Studies — Direct Entry requirements",
+          "url": "https://pau.edu.ng/undergrad-film-multimedia/",
+          "checkedOn": "2026-09-16",
+          "evidence": "International Baccalaureate Diploma (IB) in relevant subjects."
+        }
+      }
+    }
+  ]
+}

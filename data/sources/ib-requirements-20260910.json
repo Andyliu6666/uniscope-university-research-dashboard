@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-reviewed-2026-09-10-r2",
+  "reviewedOn": "2026-09-10",
+  "institutions": [
+    {
+      "key": "oxford",
+      "name": "University of Oxford",
+      "provider": "ror",
+      "externalId": "052gg0110",
+      "countryCode": "GB",
+      "officialDomains": ["ox.ac.uk"]
+    },
+    {
+      "key": "aberystwyth",
+      "name": "Aberystwyth University",
+      "provider": "ror",
+      "externalId": "015m2p889",
+      "countryCode": "GB",
+      "officialDomains": ["aber.ac.uk"]
+    },
+    {
+      "key": "ghana",
+      "name": "University of Ghana",
+      "provider": "ror",
+      "externalId": "01r22mr83",
+      "countryCode": "GH",
+      "officialDomains": ["ug.edu.gh"]
+    },
+    {
+      "key": "rhodes",
+      "name": "Rhodes University",
+      "provider": "ror",
+      "externalId": "016sewp10",
+      "countryCode": "ZA",
+      "officialDomains": ["ru.ac.za"]
+    },
+    {
+      "key": "lincoln-nz",
+      "name": "Lincoln University",
+      "provider": "ror",
+      "externalId": "04ps1r162",
+      "countryCode": "NZ",
+      "officialDomains": ["lincoln.ac.nz"]
+    },
+    {
+      "key": "waikato",
+      "name": "University of Waikato",
+      "provider": "ror",
+      "externalId": "013fsnh78",
+      "countryCode": "NZ",
+      "officialDomains": ["waikato.ac.nz"]
+    },
+    {
+      "key": "trent",
+      "name": "Trent University",
+      "provider": "ror",
+      "externalId": "03ygmq230",
+      "countryCode": "CA",
+      "officialDomains": ["trentu.ca"]
+    },
+    {
+      "key": "thompson-rivers",
+      "name": "Thompson Rivers University",
+      "provider": "ror",
+      "externalId": "01v9wj339",
+      "countryCode": "CA",
+      "officialDomains": ["tru.ca"]
+    },
+    {
+      "key": "utp",
+      "name": "Universiti Teknologi PETRONAS",
+      "provider": "ror",
+      "externalId": "048g2sh07",
+      "countryCode": "MY",
+      "officialDomains": ["utp.edu.my"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G400",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree/"
+      },
+      "requirement": {
+        "recordKey": "aber-g400-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G400: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science and Artificial Intelligence (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "GG4R",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-artificial-intelligence-deg/"
+      },
+      "requirement": {
+        "recordKey": "aber-gg4r-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth GG4R: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-artificial-intelligence-deg/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science with integrated year in industry (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G401",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree-with-industrial-year/"
+      },
+      "requirement": {
+        "recordKey": "aber-g401-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G401: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-degree-with-industrial-year/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science with integrated year studying abroad (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G406",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-year-study-abroad/"
+      },
+      "requirement": {
+        "recordKey": "aber-g406-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G406: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-year-study-abroad/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science / Mathematics (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "GG14",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-mathematics-degree/"
+      },
+      "requirement": {
+        "recordKey": "aber-gg14-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 28,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [5],
+        "subjectNotes": "HL Mathematics must be at least 5. Check the separate English-language and GCSE-equivalent conditions.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth GG14: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-mathematics-degree/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-28 with 5 points in Mathematics at Higher Level"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science with integrated year in industry (MComp)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G419",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-industry/"
+      },
+      "requirement": {
+        "recordKey": "aber-g419-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 32,
+        "totalMax": 34,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G419: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-industry/",
+          "checkedOn": "2026-09-10",
+          "evidence": "34-32 points overall"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science (MComp)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G409",
+        "url": "https://courses.aber.ac.uk/undergraduate//mcomp-computerscience/"
+      },
+      "requirement": {
+        "recordKey": "aber-g409-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 32,
+        "totalMax": 34,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G409: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate//mcomp-computerscience/",
+          "checkedOn": "2026-09-10",
+          "evidence": "34-32 points overall"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science and Artificial Intelligence with integrated year in industry (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "GG47",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-artificial-intelligence/"
+      },
+      "requirement": {
+        "recordKey": "aber-gg47-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth GG47: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-artificial-intelligence/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Software Engineering with integrated year in industry (BEng)",
+        "level": "undergraduate",
+        "field": "Software engineering",
+        "courseCode": "G600",
+        "url": "https://courses.aber.ac.uk/undergraduate/software-engineering/"
+      },
+      "requirement": {
+        "recordKey": "aber-g600-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth G600: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/software-engineering/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science / Physical Geography (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "FG84",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-physical-geography-degree/"
+      },
+      "requirement": {
+        "recordKey": "aber-fg84-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": 30,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "English or Welsh and Mathematics at GCSE C/4 or the accepted equivalent are also listed; check international equivalencies.",
+        "conditions": "The official page lists September 2026 entry and a typical offer range. The lower end is not a universal cutoff; individual offers can vary. The upper bound is not a maximum acceptable score.",
+        "source": {
+          "title": "Aberystwyth FG84: typical entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-physical-geography-degree/",
+          "checkedOn": "2026-09-10",
+          "evidence": "30-26"
+        }
+      }
+    },
+    {
+      "institutionKey": "aberystwyth",
+      "program": {
+        "name": "Computer Science (Top-up) (BSc)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": "G40T",
+        "url": "https://courses.aber.ac.uk/undergraduate/comp-sci-top-up/"
+      },
+      "requirement": {
+        "recordKey": "aber-g40t-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "other",
+        "applicantType": "all",
+        "applicantContext": "Applicants to the one-year top-up route with prior higher-education study",
+        "status": "not_applicable",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "A level 5 computing or closely related qualification is required. This is a top-up degree, not direct first-year entry from an IB Diploma.",
+        "source": {
+          "title": "Aberystwyth G40T top-up entry requirements",
+          "url": "https://courses.aber.ac.uk/undergraduate/comp-sci-top-up/",
+          "checkedOn": "2026-09-10",
+          "evidence": "A level 5 qualification, such as HND or FdSc"
+        }
+      }
+    },
+    {
+      "institutionKey": "oxford",
+      "program": {
+        "name": "Computer Science",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": null,
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science"
+      },
+      "requirement": {
+        "recordKey": "oxford-cs-2027",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 39,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": true,
+        "hlGrades": [7, 6, 6],
+        "subjectNotes": "The 7 at Higher Level must be in Mathematics.",
+        "conditions": "The course also requires the TMUA admissions test. Selection is competitive and includes further assessment; meeting the stated IB total alone does not secure admission.",
+        "source": {
+          "title": "Oxford Computer Science IB entry requirements",
+          "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+          "checkedOn": "2026-09-10",
+          "evidence": "39 (including core points) with 766 at HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "BSc Biological Sciences (common first-year entry)",
+        "level": "undergraduate",
+        "field": "Biological sciences",
+        "courseCode": null,
+        "url": "https://www.ug.edu.gh/dpeb/academics/undergraduate-admission"
+      },
+      "requirement": {
+        "recordKey": "ghana-biological-sciences-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "HL Chemistry, Biology and Mathematics: at least 4 each. The page also lists SL English Language/Literature and Mathematics at 4, plus IGCSE-equivalent Physics at C.",
+        "conditions": "Entry is through a common first year; later specialization depends on university performance. No IB total or entry year is stated. Mathematics appears in both the HL and SL lists: ask admissions to clarify this overlap.",
+        "source": {
+          "title": "Ghana Biological Sciences IB subject requirements",
+          "url": "https://www.ug.edu.gh/dpeb/academics/undergraduate-admission",
+          "checkedOn": "2026-09-10",
+          "evidence": "At least Grade 4 in three Higher Level (HL) subjects"
+        }
+      }
+    },
+    {
+      "institutionKey": "rhodes",
+      "program": null,
+      "requirement": {
+        "recordKey": "rhodes-ib-equivalency-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "International applicants presenting foreign school qualifications",
+        "status": "conversion_required",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The page gives HL and SL grade conditions and converts qualifications into the university's points system.",
+        "conditions": "Rhodes APS figures are not IB totals out of 45. Faculty requirements and matriculation exemption also apply. The source contains historical-year references and an unusual three-HL/four-SL listing; current intake requirements need confirmation.",
+        "source": {
+          "title": "Rhodes international qualification conversion",
+          "url": "https://www.ru.ac.za/admissiongateway/application/entryrequirements/",
+          "checkedOn": "2026-09-10",
+          "evidence": "Points rating"
+        }
+      }
+    },
+    {
+      "institutionKey": "lincoln-nz",
+      "program": null,
+      "requirement": {
+        "recordKey": "lincoln-general-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Overseas-qualification applicants to bachelor's degrees",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "The completed diploma and 24 points satisfy this listed general academic threshold. Course-specific and English requirements still need review. The source does not attach this rule to a named entry year.",
+        "source": {
+          "title": "Lincoln overseas undergraduate entry criteria",
+          "url": "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/",
+          "checkedOn": "2026-09-10",
+          "evidence": "The diploma must be completed with a minimum of 24 points"
+        }
+      }
+    },
+    {
+      "institutionKey": "waikato",
+      "program": null,
+      "requirement": {
+        "recordKey": "waikato-general-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "International undergraduate applicants with IB taken in New Zealand or overseas",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "The page sets a general completed-diploma threshold. Admission is not guaranteed; individual programs and English proficiency may require additional evidence. Entry year is not specified.",
+        "source": {
+          "title": "Waikato international undergraduate entry criteria",
+          "url": "https://www.waikato.ac.nz/int/study/apply/international/entry-requirements-for-international-students/",
+          "checkedOn": "2026-09-10",
+          "evidence": "Completed International Baccalaureate (IB) Diploma with a minimum of 24 points."
+        }
+      }
+    },
+    {
+      "institutionKey": "trent",
+      "program": null,
+      "requirement": {
+        "recordKey": "trent-general-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 26,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": true,
+        "hlGrades": [],
+        "subjectNotes": "Three HL subjects are required. For a mathematics prerequisite, AA SL/HL or AI HL is accepted; AI SL is not. English A at 5 is a condition for an English-test waiver, not a universal score cutoff.",
+        "conditions": "This is the university's general diploma threshold. Programs can impose prerequisites and higher selection standards. IB certificates alone do not replace a school-leaving diploma. The reviewed page does not specify an entry year.",
+        "source": {
+          "title": "Trent IB diploma admission requirements",
+          "url": "https://www.trentu.ca/futurestudents/admissions/admission-requirements/international-baccalaureate-students",
+          "checkedOn": "2026-09-10",
+          "evidence": "Minimum overall score of 26 (including bonus points)"
+        }
+      }
+    },
+    {
+      "institutionKey": "thompson-rivers",
+      "program": null,
+      "requirement": {
+        "recordKey": "tru-general-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the IB Diploma",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "The IB Diploma is recognized as equivalent to high-school graduation. Program prerequisites, English conditions and admission category still apply. This page supplies no universal numeric IB total or named entry year.",
+        "source": {
+          "title": "Thompson Rivers general admission requirements",
+          "url": "https://www.tru.ca/future/admissions/undergrad/requirements.html",
+          "checkedOn": "2026-09-10",
+          "evidence": "completed the International Baccalaureate diploma program"
+        }
+      }
+    },
+    {
+      "institutionKey": "utp",
+      "program": {
+        "name": "Integrated Engineering",
+        "level": "undergraduate",
+        "field": "Engineering",
+        "courseCode": null,
+        "url": "https://www.utp.edu.my/Pages/Admission/Undergraduate/International/Entry-Requirement.aspx"
+      },
+      "requirement": {
+        "recordKey": "utp-integrated-engineering-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "International undergraduate applicants",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "At least 4 in Mathematics, Physics and Chemistry. HL/SL is not specified.",
+        "conditions": "IB must be passed. Final results and English evidence are required. Entry remains competitive. No intake year is specified.",
+        "source": {
+          "title": "UTP international undergraduate minimum requirements",
+          "url": "https://www.utp.edu.my/Pages/Admission/Undergraduate/International/Entry-Requirement.aspx",
+          "checkedOn": "2026-09-10",
+          "evidence": "Pass IB with minimum 24 points"
+        }
+      }
+    },
+    {
+      "institutionKey": "utp",
+      "program": {
+        "name": "Computer Science",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": null,
+        "url": "https://www.utp.edu.my/Pages/Admission/Undergraduate/International/Entry-Requirement.aspx"
+      },
+      "requirement": {
+        "recordKey": "utp-computer-science-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "International undergraduate applicants",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "At least 4 in Mathematics and two other non-language subjects; SPM-equivalent Mathematics at C is additionally required. HL/SL is not specified.",
+        "conditions": "IB must be passed. Final results and English evidence are required. Entry remains competitive. No intake year is specified.",
+        "source": {
+          "title": "UTP international undergraduate minimum requirements",
+          "url": "https://www.utp.edu.my/Pages/Admission/Undergraduate/International/Entry-Requirement.aspx",
+          "checkedOn": "2026-09-10",
+          "evidence": "Pass IB with minimum 24 points"
+        }
+      }
+    }
+  ]
+}

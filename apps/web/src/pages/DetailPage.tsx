@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
+import { useState } from 'react';
 import {
   ArrowLeft,
   ArrowUpRight,
@@ -9,7 +10,9 @@ import {
 } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
+import { IbRequirementsSection } from '../components/IbRequirementsSection.js';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
+import { coverageLevelCopy, coverageSourceTierLabel, coverageStatusLabel } from '../coverage.js';
 
 const money = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -39,6 +42,7 @@ export function DetailPage() {
     );
   const primaryWebsite = university.officialWebsite ?? university.website;
   const primaryWebsiteIsRegistry = primaryWebsite.startsWith('https://ror.org/');
+  const coverageCopy = coverageLevelCopy[university.coverage.level];
   const officialLinks = [
     { label: 'Admissions', url: university.admissionsUrl },
     { label: 'Financial aid', url: university.financialAidUrl },
@@ -81,15 +85,17 @@ export function DetailPage() {
             ))}
           </div>
         </div>
-        <div className="verified-stamp">
+        <div className={`verified-stamp coverage-stamp-${university.coverage.level}`}>
           <CheckCircle2 />
-          <strong>Source-backed profile</strong>
-          <span>
+          <strong>{coverageCopy.label}</strong>
+          <span>{coverageCopy.detail}</span>
+          <small>
+            Updated{' '}
             {new Date(university.updatedAt).toLocaleDateString('en-US', {
               month: 'short',
               year: 'numeric',
             })}
-          </span>
+          </small>
         </div>
       </header>
       <section className="metric-strip">
@@ -125,26 +131,30 @@ export function DetailPage() {
           )}
         </div>
         <div>
-          <span>Typical IB minimum</span>
-          <strong>{university.ibTypicalMin ?? 'Varies'}</strong>
+          <span>IB entry requirements</span>
+          <strong>
+            <a href="#ib-requirements">View by program</a>
+          </strong>
         </div>
       </section>
+      <InstitutionFactsSection university={university} />
+      <ResearchSection profile={university.researchProfile} />
       <AdmissionsSection data={admissions} pending={admissionsPending} />
       <CostsSection data={admissions} pending={admissionsPending} />
-      <CoverageSection university={university} data={admissions} pending={admissionsPending} />
+      <CoverageSection university={university} />
+      <IbRequirementsSection key={slug} slug={slug} />
       <div className="detail-grid">
         <section className="panel">
           <p className="kicker">Programs</p>
           <h2>Areas to explore</h2>
-          {university.programs.map((program) => (
-            <div className="list-row" key={`${program.name}-${program.level}`}>
-              <div>
-                <strong>{program.name}</strong>
-                <span>{program.field}</span>
-              </div>
-              <span className="country-pill">{program.level}</span>
-            </div>
-          ))}
+          {university.programs.length > 0 && (
+            <p>
+              <a href="#ib-requirements">
+                Search {university.programs.length.toLocaleString()} catalog entries and their IB
+                requirements above ↗
+              </a>
+            </p>
+          )}
           {university.programs.length === 0 && (
             <p className="muted empty-list-copy">
               No verified program catalog has been added for this institution yet.
@@ -210,13 +220,206 @@ export function DetailPage() {
   );
 }
 
-function AdmissionsSection({
+type ResearchProfile = NonNullable<Awaited<ReturnType<typeof fetchUniversity>>['researchProfile']>;
+
+type UniversityProfile = Awaited<ReturnType<typeof fetchUniversity>>;
+
+const continentNames: Record<string, string> = {
+  AF: 'Africa',
+  AN: 'Antarctica',
+  AS: 'Asia',
+  EU: 'Europe',
+  NA: 'North America',
+  OC: 'Oceania',
+  SA: 'South America',
+};
+
+function InstitutionFactsSection({ university }: { university: UniversityProfile }) {
+  const address = [
+    university.addressLine,
+    university.city,
+    university.region,
+    university.postalCode,
+    university.country,
+  ]
+    .filter((part, index, all): part is string => Boolean(part && all.indexOf(part) === index))
+    .join(', ');
+  const levels = [
+    university.offersUndergraduate ? 'Undergraduate' : null,
+    university.offersGraduate ? 'Graduate' : null,
+  ].filter(Boolean);
+  const latitude = typeof university.latitude === 'number' ? university.latitude : null;
+  const longitude = typeof university.longitude === 'number' ? university.longitude : null;
+  const coordinates =
+    latitude !== null && longitude !== null
+      ? `${latitude.toFixed(5)}, ${longitude.toFixed(5)}`
+      : null;
+  const mapUrl = coordinates
+    ? `https://www.openstreetmap.org/?mlat=${latitude}&mlon=${longitude}#map=15/${latitude}/${longitude}`
+    : null;
+  const facts = [
+    { label: 'Verified location', value: address || 'Not published' },
+    {
+      label: 'Country / continent',
+      value: [
+        university.countryCode
+          ? `${university.country} (${university.countryCode})`
+          : university.country,
+        university.continentCode
+          ? (continentNames[university.continentCode] ?? university.continentCode)
+          : null,
+      ]
+        .filter(Boolean)
+        .join(' · '),
+    },
+    {
+      label: 'Ownership',
+      value: university.ownership?.replaceAll('_', ' ') ?? 'Not published',
+    },
+    {
+      label: 'Operating status',
+      value: university.operatingStatus ?? 'Not published',
+    },
+    {
+      label: 'Study levels',
+      value: levels.length > 0 ? levels.join(' and ') : 'Not published',
+    },
+    {
+      label: 'Highest award',
+      value: university.highestAwardLevel ?? 'Not published',
+    },
+    {
+      label: 'Academic calendar',
+      value: university.academicCalendar ?? 'Not published',
+    },
+  ];
+
+  return (
+    <section className="panel institution-facts-panel">
+      <div className="subsection-heading">
+        <div>
+          <p className="kicker">Institution profile</p>
+          <h2>Verified identity and core facts</h2>
+          <p className="muted">
+            Registry and government facts are kept separate from application requirements. Missing
+            values are shown explicitly instead of being guessed.
+          </p>
+        </div>
+        {university.wikipediaUrl && (
+          <a
+            href={university.wikipediaUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="source-inline"
+          >
+            Background article <ArrowUpRight size={15} />
+          </a>
+        )}
+      </div>
+      <div className="institution-facts-grid">
+        {facts.map((fact) => (
+          <div className="institution-fact" key={fact.label}>
+            <span>{fact.label}</span>
+            <strong>{fact.value}</strong>
+          </div>
+        ))}
+      </div>
+      {(university.phone || mapUrl) && (
+        <div className="institution-contact-row">
+          {university.phone && <a href={`tel:${university.phone}`}>Phone: {university.phone}</a>}
+          {mapUrl && (
+            <a href={mapUrl} target="_blank" rel="noreferrer">
+              Map coordinates: {coordinates} <ArrowUpRight size={14} />
+            </a>
+          )}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function ResearchSection({ profile }: { profile: ResearchProfile | null }) {
+  if (!profile) return null;
+  const metrics = [
+    { label: 'Works associated', value: profile.worksCount.toLocaleString() },
+    { label: 'Citations received', value: profile.citedByCount.toLocaleString() },
+    { label: 'h-index', value: profile.hIndex.toLocaleString() },
+    { label: 'i10-index', value: profile.i10Index.toLocaleString() },
+    {
+      label: '2-year mean citedness',
+      value:
+        profile.twoYearMeanCitedness === null
+          ? 'Not reported'
+          : profile.twoYearMeanCitedness.toLocaleString(undefined, {
+              maximumFractionDigits: 2,
+            }),
+    },
+  ];
+  return (
+    <section className="panel research-panel">
+      <div className="subsection-heading">
+        <div>
+          <p className="kicker">Independent research context</p>
+          <h2>OpenAlex research activity</h2>
+          <p className="muted">
+            Bibliometric totals currently associated with this institution by OpenAlex. They are not
+            a university ranking, a measure of teaching quality, or admissions information.
+          </p>
+        </div>
+        <a href={profile.profileUrl} target="_blank" rel="noreferrer" className="source-inline">
+          View OpenAlex record <ArrowUpRight size={15} />
+        </a>
+      </div>
+      <div className="research-metrics-grid">
+        {metrics.map((metric) => (
+          <div className="research-metric" key={metric.label}>
+            <span>{metric.label}</span>
+            <strong>{metric.value}</strong>
+          </div>
+        ))}
+      </div>
+      <p className="research-note">
+        OpenAlex status: {profile.status}. Source updated{' '}
+        {new Date(profile.sourceUpdatedAt).toLocaleDateString()}. Counts depend on OpenAlex's work
+        and affiliation metadata and can change as records are corrected.
+      </p>
+    </section>
+  );
+}
+
+export function AdmissionsSection({
   data,
   pending,
 }: {
   data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
   pending: boolean;
 }) {
+  const [selectedId, setSelectedId] = useState('');
+  // IB-only profiles retain their dedicated programme browser below.
+  const profiles =
+    data?.profiles
+      .filter(
+        (item) =>
+          item.counts.length > 0 || item.requirements.length > 0 || item.testScores.length > 0,
+      )
+      .sort((a, b) => {
+        const priority = (item: typeof a) =>
+          (item.programId ? 20 : 0) +
+          (item.entryType === 'first_year' ? 0 : 10) +
+          (item.level === 'undergraduate'
+            ? 0
+            : item.level === 'all'
+              ? 1
+              : item.level === 'graduate'
+                ? 2
+                : 3);
+        return (
+          priority(a) - priority(b) ||
+          b.academicYear.localeCompare(a.academicYear) ||
+          a.id.localeCompare(b.id)
+        );
+      }) ?? [];
+  const profile = profiles.find((item) => item.id === selectedId) ?? profiles[0];
   if (pending)
     return (
       <section className="panel admissions-panel">
@@ -233,15 +436,15 @@ function AdmissionsSection({
       </section>
     );
 
-  const profile = data.profiles[0];
   if (!profile)
     return (
       <section className="panel admissions-panel">
         <p className="kicker">Research data</p>
         <h2>Admissions data</h2>
         <p className="muted">
-          A first-year admissions profile is not reported for this institution. Enrollment details
-          are shown below when available.
+          General admissions requirements and statistics have not been verified here. IB
+          requirements are shown in their own section below; enrollment details are shown when
+          available.
         </p>
         <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
       </section>
@@ -264,24 +467,54 @@ function AdmissionsSection({
       ? `${((enrolled / admitted) * 100).toFixed(1)}%`
       : 'Not reported';
   return (
-    <section className="panel admissions-panel">
+    <section className="panel admissions-panel" id="admissions-requirements">
       <p className="kicker">Admissions · {profile.academicYear}</p>
-      <h2>First-year undergraduate admissions</h2>
+      <h2>Admissions requirements & application</h2>
       <p className="muted">
-        {profile.openAdmission === false
-          ? 'Official IPEDS data for first-time, degree/certificate-seeking undergraduates at a non-open-admission institution.'
-          : 'Official source-backed admissions profile.'}
+        {profiles.length} available admission scopes. Select a scope to view its requirements; this
+        count does not mean the institution is fully researched.
       </p>
-      <div className="admissions-grid">
-        <AdmissionMetric
-          label="Applicants"
-          value={applicants?.toLocaleString() ?? 'Not reported'}
-        />
-        <AdmissionMetric label="Admitted" value={admitted?.toLocaleString() ?? 'Not reported'} />
-        <AdmissionMetric label="Enrolled" value={enrolled?.toLocaleString() ?? 'Not reported'} />
-        <AdmissionMetric label="Acceptance rate" value={acceptanceRate} />
-        <AdmissionMetric label="Yield rate" value={yieldRate} />
-      </div>
+      <label htmlFor="admissions-scope">Choose admission scope</label>
+      <select
+        id="admissions-scope"
+        value={profile.id}
+        onChange={(event) => setSelectedId(event.target.value)}
+      >
+        {profiles.map((item) => (
+          <option key={item.id} value={item.id}>
+            {item.programId ? (item.programName ?? 'Programme-specific') : 'University-wide'} ·{' '}
+            {item.level.replaceAll('_', ' ')} ·{' '}
+            {item.academicYear === 'unspecified' ? 'Year not specified' : item.academicYear} ·{' '}
+            {item.intakeTerm} intake · {item.entryType.replaceAll('_', ' ')} ·{' '}
+            {item.applicantType === 'all' ? 'All applicants' : item.applicantType}
+          </option>
+        ))}
+      </select>
+      <p className="muted">
+        {profile.programId
+          ? 'Programme-specific requirements.'
+          : 'Shared university requirements are recorded once, not copied to every programme.'}{' '}
+        Only the selected year, applicant group and entry route are shown. Undated information is
+        not a confirmed current-year offer.
+      </p>
+      {profile.notes && <p className="muted">{profile.notes}</p>}
+      {profile.applicationUrl && (
+        <a href={profile.applicationUrl} target="_blank" rel="noreferrer">
+          Official application page ↗
+        </a>
+      )}
+      {profile.counts.length > 0 && (
+        <div className="admissions-grid">
+          <AdmissionMetric
+            label="Applicants"
+            value={applicants?.toLocaleString() ?? 'Not reported'}
+          />
+          <AdmissionMetric label="Admitted" value={admitted?.toLocaleString() ?? 'Not reported'} />
+          <AdmissionMetric label="Enrolled" value={enrolled?.toLocaleString() ?? 'Not reported'} />
+          <AdmissionMetric label="Acceptance rate" value={acceptanceRate} />
+          <AdmissionMetric label="Yield rate" value={yieldRate} />
+        </div>
+      )}
       <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
       {profile.testScores.length > 0 && (
         <div className="admissions-subsection">
@@ -309,12 +542,21 @@ function AdmissionsSection({
       )}
       {profile.requirements.length > 0 && (
         <div className="admissions-subsection">
-          <h3>Admission considerations</h3>
+          <h3>Requirements and selection policies</h3>
           {profile.requirements.map((requirement) => (
             <div className="list-row" key={`${requirement.category}-${requirement.requirementKey}`}>
               <div>
                 <strong>{requirement.label}</strong>
                 <span>{requirement.details ?? 'Official consideration policy'}</span>
+                <a
+                  href={(requirement.source ?? profile.source).url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="source-inline"
+                >
+                  {(requirement.source ?? profile.source).title} · checked{' '}
+                  {requirement.verifiedAt.slice(0, 10)} ↗
+                </a>
               </div>
               <span className="country-pill">{requirement.status.replaceAll('_', ' ')}</span>
             </div>
@@ -520,59 +762,42 @@ function AdmissionMetric({ label, value }: { label: string; value: string }) {
 
 function CoverageSection({
   university,
-  data,
-  pending,
 }: {
   university: Awaited<ReturnType<typeof fetchUniversity>>;
-  data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
-  pending: boolean;
 }) {
-  const requirementCount =
-    data?.profiles.reduce(
-      (total, profile) => total + profile.requirements.length + profile.qualifications.length,
-      0,
-    ) ?? 0;
-  const enrollmentYears = new Set(data?.enrollment.map((row) => row.academicYear)).size;
+  const dimensions = university.coverage.dimensions;
   const rows = [
     {
       label: 'Identity & location',
-      value: `${university.sources.length} source${university.sources.length === 1 ? '' : 's'}`,
+      dimension: dimensions.identity,
     },
     {
-      label: 'Admissions profiles',
-      value: pending
-        ? 'Loading…'
-        : data?.profiles.length
-          ? `${data.profiles.length} official profile${data.profiles.length === 1 ? '' : 's'}`
-          : 'Not reported',
+      label: 'Core institution facts',
+      dimension: dimensions.core,
     },
     {
-      label: 'Requirements & qualifications',
-      value: pending ? 'Loading…' : requirementCount ? String(requirementCount) : 'Not reported',
+      label: 'Programs',
+      dimension: dimensions.programs,
+    },
+    {
+      label: 'Admissions & requirements',
+      dimension: dimensions.admissions,
+    },
+    {
+      label: 'Deadlines',
+      dimension: dimensions.deadlines,
     },
     {
       label: 'Enrollment',
-      value: pending
-        ? 'Loading…'
-        : data?.enrollment.length
-          ? `${data.enrollment.length} views · ${enrollmentYears} year${enrollmentYears === 1 ? '' : 's'}`
-          : 'Not reported',
+      dimension: dimensions.enrollment,
     },
     {
       label: 'Costs',
-      value: pending
-        ? 'Loading…'
-        : data?.costs.length
-          ? `${data.costs.length} reported facts`
-          : 'Not reported',
+      dimension: dimensions.costs,
     },
     {
-      label: 'Programs listed',
-      value: university.programs.length ? String(university.programs.length) : 'Not reported',
-    },
-    {
-      label: 'Deadlines listed',
-      value: university.deadlines.length ? String(university.deadlines.length) : 'Not reported',
+      label: 'Financial aid',
+      dimension: dimensions.financialAid,
     },
   ];
   return (
@@ -590,13 +815,21 @@ function CoverageSection({
         {rows.map((row) => (
           <div className="coverage-item" key={row.label}>
             <span>{row.label}</span>
-            <strong>{row.value}</strong>
+            <strong className={`coverage-status-${row.dimension.status}`}>
+              {coverageStatusLabel[row.dimension.status]}
+            </strong>
+            <small>
+              {row.dimension.factCount} structured fact
+              {row.dimension.factCount === 1 ? '' : 's'}
+            </small>
+            <small>{coverageSourceTierLabel[row.dimension.sourceTier]}</small>
           </div>
         ))}
       </div>
       <p className="muted coverage-note">
-        ROR and Wikidata establish an identity, but they do not publish application requirements or
-        tuition. Missing fields stay empty until a contributor adds a current official source.
+        ROR and Wikidata can verify an institution's identity, but identity evidence alone is never
+        counted as a complete profile. “Verified” dimensions require structured facts linked to a
+        current official institution or government source.
       </p>
     </section>
   );

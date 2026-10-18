@@ -14,6 +14,7 @@ import {
   sources,
   universities,
 } from '../db/schema.js';
+import { assertProviderIdentifierOwnership } from './institution-identifier-ownership.js';
 
 const csvPathArgument = process.argv[2];
 const requestedLimitArgument = process.argv[3] ?? '3000';
@@ -172,7 +173,7 @@ const existingRunFor = async (db: Database, artifactHash: string) => {
   return run;
 };
 
-const backfillRorIdentifiers = async (db: Database) =>
+const backfillRorIdentifiers = async (db: Pick<Database, 'execute'>) =>
   db.execute(sql`
     with normalized_ror_sources as (
       select
@@ -341,7 +342,10 @@ try {
   if (lockRow?.acquired !== true) throw new Error('Another institution import is already running.');
   lockHeld = true;
 
-  await backfillRorIdentifiers(connection.db);
+  await connection.db.transaction(async (tx) => {
+    await backfillRorIdentifiers(tx);
+    await assertProviderIdentifierOwnership(tx, ['ror'], 'ROR baseline import');
+  });
   const existingRun = await existingRunFor(connection.db, artifactHash);
   if (existingRun?.status === 'completed') {
     console.log(

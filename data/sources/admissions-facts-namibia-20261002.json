@@ -1,0 +1,316 @@
+{
+  "datasetVersion": "official-admissions-namibia-2026-10-02-v1",
+  "reviewedOn": "2026-10-02",
+  "institutions": [
+    {
+      "key": "unam",
+      "name": "University of Namibia",
+      "provider": "ror",
+      "externalId": "016xje988",
+      "countryCode": "NA",
+      "officialDomains": ["unam.edu.na"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The dedicated postgraduate admissions page supplies these general routes; faculties may add requirements. No entry year is specified. Requirements are not copied into individual programmes.",
+      "requirements": [
+        {
+          "key": "masters_qualification_and_faculty_conditions",
+          "category": "academic",
+          "label": "Master's eligibility",
+          "status": "conditional",
+          "details": "A good level-8 bachelor's degree averaging C (60–69%), or a good postgraduate diploma, from a recognized institution. Approved equivalent level-8 qualifications may be considered. Faculty conditions still apply, such as teaching experience for M.Ed.; the C band is not an upper score limit.",
+          "source": {
+            "url": "https://www.unam.edu.na/postgraduate-requirements/",
+            "title": "UNAM Postgraduate Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "postgraduate_diploma_eligibility",
+          "category": "academic",
+          "label": "Postgraduate diploma eligibility",
+          "status": "conditional",
+          "details": "Normally an accredited bachelor's degree; exceptionally, faculty/department/institute-certified experience and accomplishments equivalent to that degree may be considered.",
+          "source": {
+            "url": "https://www.unam.edu.na/postgraduate-requirements/",
+            "title": "UNAM Postgraduate Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "doctoral",
+      "applicantType": "all",
+      "notes": "General doctoral entry, not a programme-specific offer. The official page does not date the requirement.",
+      "requirements": [
+        {
+          "key": "doctoral_qualification",
+          "category": "academic",
+          "label": "Doctoral eligibility",
+          "status": "required",
+          "details": "A master's qualification, or equivalent, in the intended field from a recognized higher-education institution.",
+          "source": {
+            "url": "https://www.unam.edu.na/postgraduate-requirements/",
+            "title": "UNAM Postgraduate Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "doctoral",
+      "applicantType": "all",
+      "notes": "Two distinct special doctoral routes, not normal first-year eligibility. Experience here is an admission condition, not graduate employment information.",
+      "requirements": [
+        {
+          "key": "research_masters_upgrade",
+          "category": "academic",
+          "label": "Research master's upgrade",
+          "status": "considered",
+          "details": "Bachelor's-only applicants may first enrol in a research-only master's; exceptional ability demonstrated during its first research year can permit consideration for doctoral upgrading.",
+          "source": {
+            "url": "https://www.unam.edu.na/postgraduate-requirements/",
+            "title": "UNAM Postgraduate Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "higher_doctorate_candidacy",
+          "category": "academic",
+          "label": "Higher doctorate candidacy",
+          "status": "conditional",
+          "details": "UNAM graduates: bachelor's standing of 15+ years, master's 10+, or doctorate 8+. External graduates need 5+ years of approved UNAM academic service; the page's degree-standing cross-reference needs clarification. Only outstanding scholars with nationally and internationally recognized contributions are considered.",
+          "source": {
+            "url": "https://www.unam.edu.na/postgraduate-requirements/",
+            "title": "UNAM Postgraduate Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "General qualification pathways, subject to school-specific regulations. Certificate dates distinguish examination systems, not admission years. These are not IB scores; no programme-specific threshold is inferred.",
+      "requirements": [
+        {
+          "key": "degree_pre_2021_certificates",
+          "category": "academic",
+          "label": "Degree: pre-2021 certificates",
+          "status": "conditional",
+          "details": "Five distinct subjects: either 2 NSSCH at 4+ and 3 NSSCO at C+, or 3 NSSCH at 4+ and 2 NSSCO at D+. Both alternatives require NSSCO English C+; school regulations also apply.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "degree_2021_onward_certificates",
+          "category": "academic",
+          "label": "Degree: certificates from 2021",
+          "status": "conditional",
+          "details": "Five distinct subjects: either 2 NSSCAS averaging d+ and 3 NSSCO at C+, or 3 NSSCAS averaging d+ and 2 NSSCO at D+. Both alternatives require NSSCO English C+; school regulations also apply.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "diploma_pre_2021_certificates",
+          "category": "academic",
+          "label": "Diploma: pre-2021 certificates",
+          "status": "conditional",
+          "details": "Five NSSCO subjects, or combined NSSCO/NSSCH: 24+ UNAM evaluation points and NSSCO English D+. School regulations apply.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "diploma_2021_onward_certificates",
+          "category": "academic",
+          "label": "Diploma: certificates from 2021",
+          "status": "conditional",
+          "details": "Five subjects: either 2 NSSCAS at e+ and 3 NSSCO at D+, or 5 NSSCO totalling 24+ UNAM evaluation points. NSSCO English D+ and school regulations apply.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "other_school_leaving_qualifications",
+          "category": "academic",
+          "label": "Other school-leaving qualifications",
+          "status": "considered",
+          "details": "Recognized alternatives undergo individual assessment using UNAM's evaluation scale.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Prior tertiary qualification pathway; consideration is not guaranteed admission or credit transfer. The source does not identify an entry year within the programme.",
+      "requirements": [
+        {
+          "key": "postsecondary_qualification_pathways",
+          "category": "academic",
+          "label": "Prior tertiary qualifications",
+          "status": "considered",
+          "details": "Completed NQF-registered tertiary qualifications permit consideration: level 3/120+ credits for certificates; level 4/120+ for diplomas; level 5/240+ for degrees.",
+          "source": {
+            "url": "https://www.unam.edu.na/requirements",
+            "title": "UNAM General Admission Requirements",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "all",
+      "notes": "The reviewed application-information page explicitly refers to 2026 undergraduate and postgraduate applications. Its 'open' announcement is not evidence that applications remain open today. These shared instructions are stored once; programme-specific and mature-age routes need their own review.",
+      "requirements": [
+        {
+          "key": "one_application_and_identifier",
+          "category": "application",
+          "label": "One online application",
+          "status": "required",
+          "details": "Submit one online form. Previous applicants reuse their student number; newcomers receive a reference/student number.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "programme_choices_and_mode",
+          "category": "application",
+          "label": "Choices and study mode",
+          "status": "required",
+          "details": "Specify your preferred programme, a second choice where applicable, and full-time or part-time study.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "selection_not_guaranteed",
+          "category": "application",
+          "label": "Selection after eligibility",
+          "status": "conditional",
+          "details": "Meeting minimum academic and applicable English requirements does not ensure an offer where places are competitive; eligible applications go to school admissions committees.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "external_qualification_evaluation",
+          "category": "document",
+          "label": "NQA evaluation",
+          "status": "conditional",
+          "details": "Qualifications completed outside UNAM require a recent NQA evaluation certificate before admission consideration. The page also explicitly requires this of international applicants.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "registration_original_documents",
+          "category": "document",
+          "label": "Original documents at registration",
+          "status": "required",
+          "details": "Admitted applicants must present original documents on registration day, as directed in Registrar correspondence.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        },
+        {
+          "key": "registration_assigned_date",
+          "category": "application",
+          "label": "Assigned registration date",
+          "status": "conditional",
+          "details": "Fully admitted applicants register on their assigned school/department/programme date; missing it can forfeit the place or incur a late fee.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "international",
+      "notes": "An additional international-applicant document rule. The shared 2026 application instructions, including NQA evaluation, are in the All applicants scope and are not repeated here.",
+      "requirements": [
+        {
+          "key": "school_certificate_evidence",
+          "category": "document",
+          "label": "International certificate evidence",
+          "status": "required",
+          "details": "Supply the school-leaving certificate, or examination-authority confirmation that it will be issued during the first study year.",
+          "source": {
+            "url": "https://www.unam.edu.na/application-information-general",
+            "title": "UNAM Application Information (General)",
+            "checkedOn": "2026-10-02"
+          }
+        }
+      ]
+    }
+  ]
+}

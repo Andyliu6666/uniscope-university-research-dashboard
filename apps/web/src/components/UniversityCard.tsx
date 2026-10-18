@@ -2,6 +2,7 @@ import { ArrowUpRight, MapPin, Scale } from 'lucide-react';
 import type { University } from '@urd/shared';
 import { Link } from 'react-router-dom';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
+import { coverageLevelCopy } from '../coverage.js';
 
 const money = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -18,10 +19,19 @@ export function UniversityCard({
   onCompare: () => void;
 }) {
   const reportedCost = primaryCost(university.costs);
+  const coverageCopy = coverageLevelCopy[university.coverage.level];
   return (
     <article className="uni-card">
       <div className="card-top">
-        <span className="country-pill">{university.country}</span>
+        <div className="card-labels">
+          <span className="country-pill">{university.country}</span>
+          <span
+            className={`coverage-badge coverage-${university.coverage.level}`}
+            title={coverageCopy.detail}
+          >
+            {coverageCopy.label}
+          </span>
+        </div>
         <button
           type="button"
           className={compared ? 'compare-button selected' : 'compare-button'}
@@ -61,8 +71,10 @@ export function UniversityCard({
           <dd>{university.studentCount?.toLocaleString() ?? 'Not published'}</dd>
         </div>
         <div>
-          <dt>Typical IB</dt>
-          <dd>{university.ibTypicalMin ?? 'Varies'}</dd>
+          <dt>IB requirements</dt>
+          <dd>
+            <Link to={`/universities/${university.slug}#ib-requirements`}>View by program</Link>
+          </dd>
         </div>
         <div>
           <dt>Programs</dt>

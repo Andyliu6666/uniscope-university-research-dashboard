@@ -2,6 +2,7 @@ import { useQueries } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
+import { coverageLevelCopy } from '../coverage.js';
 import { useComparison } from '../store.js';
 
 export function ComparePage() {
@@ -39,6 +40,7 @@ export function ComparePage() {
     label: string;
     read: (item: ComparisonItem, admissions: AdmissionsData) => string;
   }> = [
+    { label: 'Profile coverage', read: (i) => coverageLevelCopy[i.coverage.level].label },
     { label: 'Location', read: (i) => `${i.city}, ${i.country}` },
     { label: 'Institution', read: (i) => i.institutionType },
     {
@@ -52,7 +54,7 @@ export function ComparePage() {
         return cost ? `${formatCostAmount(cost)} · ${formatCostContext(cost)}` : 'Not reported';
       },
     },
-    { label: 'Typical IB minimum', read: (i) => String(i.ibTypicalMin ?? 'Varies') },
+    { label: 'IB entry requirements', read: () => 'See program and entry-year requirements' },
     {
       label: 'Student body (profile)',
       read: (i) => i.studentCount?.toLocaleString() ?? 'Not published',

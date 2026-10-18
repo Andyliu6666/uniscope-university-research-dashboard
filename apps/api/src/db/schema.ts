@@ -150,6 +150,7 @@ export const universities = pgTable(
     slug: varchar('slug', { length: 180 }).notNull().unique(),
     country: varchar('country', { length: 80 }).notNull(),
     countryCode: varchar('country_code', { length: 2 }),
+    continentCode: varchar('continent_code', { length: 2 }),
     region: varchar('region', { length: 120 }),
     city: varchar('city', { length: 80 }).notNull(),
     addressLine: text('address_line'),
@@ -159,6 +160,7 @@ export const universities = pgTable(
     longitude: numeric('longitude', { precision: 9, scale: 6 }),
     website: text('website').notNull(),
     officialWebsite: text('official_website'),
+    wikipediaUrl: text('wikipedia_url'),
     admissionsUrl: text('admissions_url'),
     financialAidUrl: text('financial_aid_url'),
     netPriceUrl: text('net_price_url'),
@@ -181,6 +183,7 @@ export const universities = pgTable(
   (table) => [
     index('universities_country_idx').on(table.country),
     index('universities_country_code_idx').on(table.countryCode),
+    index('universities_continent_code_idx').on(table.continentCode),
     index('universities_type_idx').on(table.institutionType),
     index('universities_ownership_idx').on(table.ownership),
     index('universities_operating_status_idx').on(table.operatingStatus),
@@ -192,6 +195,10 @@ export const universities = pgTable(
       sql`${table.countryCode} is null or ${table.countryCode} ~ '^[A-Z]{2}$'`,
     ),
     check(
+      'universities_continent_code_check',
+      sql`${table.continentCode} is null or ${table.continentCode} in ('AF', 'AN', 'AS', 'EU', 'NA', 'OC', 'SA')`,
+    ),
+    check(
       'universities_latitude_range_check',
       sql`${table.latitude} is null or ${table.latitude} between -90 and 90`,
     ),
@@ -201,8 +208,35 @@ export const universities = pgTable(
     ),
     check(
       'universities_established_year_range_check',
-      sql`${table.establishedYear} is null or ${table.establishedYear} between 1000 and 2100`,
+      sql`${table.establishedYear} is null or ${table.establishedYear} between 1 and 2100`,
     ),
+  ],
+);
+
+export const institutionAliases = pgTable(
+  'institution_aliases',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    name: text('name').notNull(),
+    kind: varchar('kind', { length: 16 }).notNull(),
+    languageCode: varchar('language_code', { length: 24 }).notNull().default('und'),
+    provider: varchar('provider', { length: 40 }).notNull(),
+  },
+  (table) => [
+    uniqueIndex('institution_aliases_identity_unique').on(
+      table.universityId,
+      table.provider,
+      table.kind,
+      table.languageCode,
+      table.name,
+    ),
+    index('institution_aliases_university_id_idx').on(table.universityId),
+    index('institution_aliases_name_trgm_idx').using('gin', table.name.op('gin_trgm_ops')),
+    check('institution_aliases_kind_check', sql`${table.kind} in ('acronym', 'alias', 'label')`),
+    check('institution_aliases_name_not_blank_check', sql`length(btrim(${table.name})) > 0`),
   ],
 );
 
@@ -224,6 +258,9 @@ export const institutionIdentifiers = pgTable(
       table.provider,
       table.externalId,
     ),
+    uniqueIndex('institution_identifiers_university_provider_ror_openalex_unique')
+      .on(table.universityId, table.provider)
+      .where(sql`${table.provider} in ('ror', 'openalex')`),
     index('institution_identifiers_university_id_idx').on(table.universityId),
   ],
 );
@@ -284,8 +321,30 @@ export const programs = pgTable(
     name: varchar('name', { length: 160 }).notNull(),
     level: programLevel('level').notNull(),
     field: varchar('field', { length: 100 }).notNull(),
+    academicYear: varchar('academic_year', { length: 20 }),
+    sourceId: uuid('source_id').references(() => sources.id, { onDelete: 'set null' }),
+    sourceProvider: varchar('source_provider', { length: 80 }),
+    sourceExternalId: varchar('source_external_id', { length: 255 }),
+    sourceFlags: jsonb('source_flags').$type<Record<string, unknown>>().notNull().default({}),
   },
-  (table) => [index('programs_university_id_idx').on(table.universityId)],
+  (table) => [
+    index('programs_university_id_idx').on(table.universityId),
+    index('programs_source_id_idx').on(table.sourceId),
+    uniqueIndex('programs_source_identity_unique')
+      .on(table.universityId, table.sourceProvider, table.sourceExternalId, table.academicYear)
+      .where(
+        sql`${table.sourceProvider} is not null and ${table.sourceExternalId} is not null and ${table.academicYear} is not null`,
+      ),
+    check(
+      'programs_source_identity_pair_check',
+      sql`(${table.sourceProvider} is null) = (${table.sourceExternalId} is null)`,
+    ),
+    check('programs_source_flags_object_check', sql`jsonb_typeof(${table.sourceFlags}) = 'object'`),
+    check(
+      'programs_academic_year_format_check',
+      sql`${table.academicYear} is null or ${table.academicYear} ~ '^[0-9]{4}([/-][0-9]{2,4})?$' or ${table.academicYear} = 'unspecified'`,
+    ),
+  ],
 );
 
 export const deadlines = pgTable(
@@ -333,6 +392,55 @@ export const sources = pgTable(
     index('sources_university_id_idx').on(table.universityId),
     index('sources_import_run_id_idx').on(table.importRunId),
     uniqueIndex('sources_university_id_url_unique').on(table.universityId, table.url),
+  ],
+);
+
+/**
+ * Independent bibliometric context from OpenAlex. These values describe the
+ * works currently associated with an institution in OpenAlex; they are not a
+ * ranking, an admissions signal, or evidence that the rest of a university
+ * profile is complete.
+ */
+export const researchProfiles = pgTable(
+  'research_profiles',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    universityId: uuid('university_id')
+      .notNull()
+      .references(() => universities.id, { onDelete: 'cascade' }),
+    openAlexId: varchar('openalex_id', { length: 32 }).notNull(),
+    worksCount: integer('works_count').notNull(),
+    citedByCount: integer('cited_by_count').notNull(),
+    hIndex: integer('h_index').notNull(),
+    i10Index: integer('i10_index').notNull(),
+    twoYearMeanCitedness: numeric('two_year_mean_citedness', {
+      precision: 14,
+      scale: 8,
+    }),
+    status: varchar('status', { length: 16 }).notNull(),
+    sourceId: uuid('source_id')
+      .notNull()
+      .references(() => sources.id, { onDelete: 'cascade' }),
+    sourceUpdatedAt: timestamp('source_updated_at', { withTimezone: true }).notNull(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => [
+    uniqueIndex('research_profiles_university_id_unique').on(table.universityId),
+    uniqueIndex('research_profiles_openalex_id_unique').on(table.openAlexId),
+    index('research_profiles_source_id_idx').on(table.sourceId),
+    check('research_profiles_openalex_id_check', sql`${table.openAlexId} ~ '^I[1-9][0-9]*$'`),
+    check(
+      'research_profiles_counts_nonnegative_check',
+      sql`${table.worksCount} >= 0 and ${table.citedByCount} >= 0 and ${table.hIndex} >= 0 and ${table.i10Index} >= 0`,
+    ),
+    check(
+      'research_profiles_mean_citedness_nonnegative_check',
+      sql`${table.twoYearMeanCitedness} is null or ${table.twoYearMeanCitedness} >= 0`,
+    ),
+    check(
+      'research_profiles_status_check',
+      sql`${table.status} in ('active', 'inactive', 'withdrawn')`,
+    ),
   ],
 );
 

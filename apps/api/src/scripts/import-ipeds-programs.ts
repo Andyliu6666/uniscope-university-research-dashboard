@@ -171,6 +171,7 @@ type ValidatedProgramRow = {
 
 type ProgramCandidate = ValidatedProgramRow & {
   universityId: string;
+  sourceRow: number;
   name: string;
   level: ProgramLevel;
   field: string;
@@ -401,8 +402,8 @@ const upsertSourceRows = async (
   runId: string,
 ) => {
   const uniqueUniversityIds = [...new Set(universityIds)];
-  if (!uniqueUniversityIds.length) return;
-  await tx
+  if (!uniqueUniversityIds.length) return new Map<string, string>();
+  const rows = await tx
     .insert(sources)
     .values(
       uniqueUniversityIds.map((universityId) => ({
@@ -426,7 +427,9 @@ const upsertSourceRows = async (
         importRunId: sql`excluded.import_run_id`,
         verifiedAt: sql`excluded.verified_at`,
       },
-    });
+    })
+    .returning({ universityId: sources.universityId, sourceId: sources.id });
+  return new Map(rows.map((row) => [row.universityId, row.sourceId]));
 };
 
 const checkpointFor = (
@@ -502,7 +505,7 @@ const flushChunk = async (
   checkpoint: CheckpointMetadata,
   artifact: ProgramArtifact,
 ) => {
-  await upsertSourceRows(tx, matchedUniversityIds, artifact, runId);
+  const sourceIdByUniversityId = await upsertSourceRows(tx, matchedUniversityIds, artifact, runId);
   let insertedCount = 0;
   for (let offset = 0; offset < candidates.length; offset += programInsertChunkSize) {
     const rows = candidates.slice(offset, offset + programInsertChunkSize).map((candidate) => ({
@@ -510,8 +513,50 @@ const flushChunk = async (
       name: candidate.name,
       level: candidate.level,
       field: candidate.field,
+      academicYear: artifact.reportingPeriod,
+      sourceId: sourceIdByUniversityId.get(candidate.universityId),
+      sourceProvider: provider,
+      sourceExternalId: `${candidate.unitId}:${candidate.cipCode}:${candidate.awardLevel}`,
+      sourceFlags: {
+        provider,
+        datasetVersion,
+        datasetFile: basename(programsCsvPath),
+        sourceUrl: artifact.sourceUrl,
+        sourceRetrievedAt: artifact.retrievedAt,
+        reportedAcademicYear: artifact.reportedAcademicYear,
+        academicYear: artifact.reportingPeriod,
+        sourceRows: [candidate.sourceRow],
+        unitId: candidate.unitId,
+        cipCode: candidate.cipCode,
+        majorNumber: candidate.majorNumber,
+        awardLevel: candidate.awardLevel,
+        sourceTotal: candidate.sourceTotal,
+        sourceTotalFlag: candidate.sourceTotalFlag,
+      },
     }));
-    const inserted = await tx.insert(programs).values(rows).returning({ id: programs.id });
+    if (rows.some((row) => !row.sourceId)) {
+      throw new Error('IPEDS program source row is missing after source upsert.');
+    }
+    const inserted = await tx
+      .insert(programs)
+      .values(rows)
+      .onConflictDoUpdate({
+        target: [
+          programs.universityId,
+          programs.sourceProvider,
+          programs.sourceExternalId,
+          programs.academicYear,
+        ],
+        targetWhere: sql`${programs.sourceProvider} is not null and ${programs.sourceExternalId} is not null and ${programs.academicYear} is not null`,
+        set: {
+          name: sql`excluded.name`,
+          level: sql`excluded.level`,
+          field: sql`excluded.field`,
+          sourceId: sql`excluded.source_id`,
+          sourceFlags: sql`excluded.source_flags`,
+        },
+      })
+      .returning({ id: programs.id });
     insertedCount += inserted.length;
   }
   const processedCount = candidates.length + existingCount + skippedCount;
@@ -710,6 +755,7 @@ const run = async () => {
         const candidate: ProgramCandidate = {
           ...validated,
           universityId,
+          sourceRow,
           name: title,
           level: validated.awardDefinition.level,
           field,

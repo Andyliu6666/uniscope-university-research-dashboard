@@ -6,7 +6,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER:-urd}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-in-production}
     ports:
-      - '${POSTGRES_PORT:-5432}:5432'
+      - '${COMPOSE_BIND_ADDRESS:-127.0.0.1}:${POSTGRES_PORT:-5432}:5432'
     volumes:
       - postgres_data_v18:/var/lib/postgresql
     healthcheck:
@@ -31,9 +31,11 @@ services:
       PORT: 3001
       HOST: 0.0.0.0
       WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:5173}
-      ADMIN_KEY: ${ADMIN_KEY:-local-development-only}
+      ADMIN_WRITES_ENABLED: ${ADMIN_WRITES_ENABLED:-false}
+      ADMIN_KEY: ${ADMIN_KEY:-}
+      TRUST_PROXY: ${TRUST_PROXY:-false}
     ports:
-      - '3001:3001'
+      - '${COMPOSE_BIND_ADDRESS:-127.0.0.1}:3001:3001'
     depends_on:
       db:
         condition: service_healthy
@@ -55,7 +57,7 @@ services:
       context: .
       dockerfile: apps/web/Dockerfile
     ports:
-      - '5173:80'
+      - '${COMPOSE_BIND_ADDRESS:-127.0.0.1}:5173:80'
     depends_on:
       api:
         condition: service_healthy

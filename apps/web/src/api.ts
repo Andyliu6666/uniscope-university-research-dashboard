@@ -1,5 +1,7 @@
 import type {
   AdmissionsQuery,
+  IbQuery,
+  UniversityIbResponse,
   UniversityAdmissionsResponse,
   University,
   UniversityInput,
@@ -42,6 +44,15 @@ export const fetchUniversities = (query: UniversityQuery) => {
   return request<UniversityListResponse>(`/api/universities?${params.toString()}`);
 };
 export const fetchUniversity = (slug: string) => request<University>(`/api/universities/${slug}`);
+export const fetchUniversityIb = (slug: string, query: IbQuery) => {
+  const params = new URLSearchParams();
+  Object.entries(query).forEach(([key, value]) => {
+    if (value !== undefined && value !== '') params.set(key, String(value));
+  });
+  return request<UniversityIbResponse>(
+    `/api/universities/${encodeURIComponent(slug)}/ib?${params}`,
+  );
+};
 export const fetchUniversityAdmissions = (slug: string, query: AdmissionsQuery = {}) => {
   const params = new URLSearchParams();
   Object.entries(query).forEach(([key, value]) => {

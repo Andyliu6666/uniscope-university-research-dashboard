@@ -251,6 +251,14 @@ a {
 }
 .card-top {
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.card-labels {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 .country-pill {
   font-size: 10px;
@@ -259,6 +267,32 @@ a {
   background: var(--mint);
   color: #245843;
   padding: 7px 9px;
+}
+.coverage-badge {
+  border: 1px solid var(--line);
+  padding: 6px 8px;
+  color: #5f6c65;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.coverage-identity_unverified {
+  border-color: #d9a99f;
+  color: #872f1e;
+}
+.coverage-identity_verified {
+  border-color: #c7bd98;
+  color: #6e5e20;
+}
+.coverage-core_complete {
+  border-color: #8fb39b;
+  color: #276247;
+}
+.coverage-application_ready {
+  border-color: var(--green);
+  background: var(--green);
+  color: #fff;
 }
 .compare-button {
   gap: 6px;
@@ -437,7 +471,8 @@ a {
   cursor: pointer;
 }
 .verified-stamp {
-  min-width: 145px;
+  width: 245px;
+  flex-shrink: 0;
   border: 1px solid #93b69d;
   color: #276247;
   padding: 20px;
@@ -447,8 +482,22 @@ a {
   text-align: center;
 }
 .verified-stamp span {
-  font-size: 11px;
-  margin-top: 5px;
+  font-size: 10px;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+.verified-stamp small {
+  font-size: 9px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.coverage-stamp-identity_unverified {
+  border-color: #d9a99f;
+  color: #872f1e;
+}
+.coverage-stamp-identity_verified {
+  border-color: #c7bd98;
+  color: #6e5e20;
 }
 .metric-strip {
   display: grid;
@@ -478,6 +527,96 @@ a {
 }
 .admissions-panel {
   margin-bottom: 20px;
+}
+.institution-facts-panel {
+  margin-bottom: 20px;
+}
+.institution-facts-panel h2 {
+  margin: 0;
+}
+.institution-facts-panel .muted {
+  max-width: 780px;
+  margin-bottom: 0;
+}
+.institution-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px 20px;
+  margin-top: 24px;
+}
+.institution-fact {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.institution-fact span {
+  display: block;
+  color: #6d7a73;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.institution-fact strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 6px;
+  text-transform: capitalize;
+}
+.institution-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  border-top: 1px solid var(--line);
+  margin-top: 24px;
+  padding-top: 16px;
+}
+.institution-contact-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #34705a;
+  font-size: 12px;
+  font-weight: 600;
+}
+.research-panel {
+  margin-bottom: 20px;
+}
+.research-panel h2 {
+  margin: 0;
+}
+.research-panel .muted {
+  max-width: 780px;
+  margin-bottom: 0;
+}
+.research-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+.research-metric {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.research-metric span {
+  display: block;
+  color: #6d7a73;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.research-metric strong {
+  display: block;
+  font-size: 19px;
+  margin-top: 7px;
+  font-variant-numeric: tabular-nums;
+}
+.research-note {
+  color: #65736b;
+  font-size: 11px;
+  line-height: 1.55;
+  margin: 20px 0 0;
 }
 .admissions-panel > h2 {
   margin-bottom: 8px;
@@ -646,6 +785,22 @@ a {
   display: block;
   margin-top: 6px;
   font-size: 14px;
+}
+.coverage-item small {
+  display: block;
+  color: #6d7a73;
+  font-size: 10px;
+  line-height: 1.45;
+  margin-top: 4px;
+}
+.coverage-status-missing {
+  color: #872f1e;
+}
+.coverage-status-partial {
+  color: #6e5e20;
+}
+.coverage-status-verified {
+  color: #276247;
 }
 .coverage-note {
   margin: 20px 0 0;
@@ -864,6 +1019,9 @@ footer p {
   .quick-stats {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .research-metrics-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .coverage-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -935,6 +1093,9 @@ footer p {
   .quick-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .research-metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .subsection-heading {
     flex-direction: column;
     gap: 8px;
@@ -971,5 +1132,105 @@ footer p {
   }
   footer > div:last-child {
     text-align: left;
+  }
+}
+
+.ib-panel {
+  margin: 28px 0;
+  scroll-margin-top: 100px;
+}
+.ib-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: end;
+  margin: 24px 0;
+}
+.ib-filters label {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ib-filters input,
+.ib-filters select {
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  color: var(--ink);
+  background: white;
+  border: 1px solid var(--line);
+}
+.ib-filters button,
+.ib-pagination button {
+  padding: 12px 18px;
+  border: 1px solid var(--green);
+  background: var(--green);
+  color: white;
+  cursor: pointer;
+}
+.ib-panel :focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+}
+.ib-coverage {
+  padding: 16px;
+  border-left: 3px solid var(--green);
+  background: var(--cream);
+  line-height: 1.6;
+}
+.ib-institution {
+  margin: 24px 0;
+  padding: 20px;
+  border: 1px solid var(--line);
+}
+.ib-institution summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.ib-program {
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.ib-program h3 {
+  margin: 0 0 8px;
+}
+.ib-requirement {
+  padding: 20px;
+  margin: 16px 0;
+  background: var(--cream);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.ib-requirement > strong {
+  display: block;
+  color: var(--green);
+  font-size: 20px;
+}
+.ib-panel a,
+.metric-strip a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.ib-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.ib-pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+@media (max-width: 700px) {
+  .ib-filters {
+    grid-template-columns: 1fr;
+  }
+  .ib-requirement,
+  .ib-institution {
+    padding: 16px;
   }
 }

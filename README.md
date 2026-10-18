@@ -1,5 +1,27 @@
 # UniScope — University Research Dashboard
 
+Current admissions-data work and source gaps are tracked in [the admissions checkpoint](docs/ADMISSIONS_PROGRESS.md). The priority is distinct, source-backed admissions requirements, not filling every field or repeating university rules under each programme. Employment data collection is deferred.
+
+## Reviewed admissions facts
+
+The dedicated IB importer remains separate. General academic, language, document and application requirements use the append-only reviewed-fact importer and existing admissions tables; no new migration is needed. From the repository root:
+
+```sh
+pnpm --filter @urd/api run import:admissions-facts ../../data/sources/admissions-facts-namibia-20261002.json --validate-only
+pnpm --filter @urd/api run import:admissions-facts ../../data/sources/admissions-facts-namibia-20261002.json --dry-run
+```
+
+After reviewing the preview and taking a database backup, omit the flag to apply. A repeat skips existing facts; conflicting contents require review rather than replacement. New university/programme identities are never created by this importer. Do not copy a shared school rule into every course. Facts retain their own official source and checked date; use **Choose admission scope** on the university page to switch between years, qualifications/levels, applicants and entry routes.
+
+If using Docker, rebuild `api` after adding an artifact or importer change and use its `/app/data/sources/...` path:
+
+```sh
+docker compose up --build -d api web
+docker compose exec -T api pnpm --filter @urd/api run import:admissions-facts /app/data/sources/admissions-facts-namibia-20261002.json --dry-run
+```
+
+Dry runs never write. The reviewed dataset has at most 200 facts; an applied batch and its ledger commit in one transaction. This is not an automated web scraper or proof of complete institution coverage. See the checkpoint for deduplication limitations and unresolved sources.
+
 An open-source, non-profit university research website built by students. UniScope helps applicants discover, compare, and verify university information without turning the project into a large application.
 
 ## What is included
@@ -35,6 +57,8 @@ docker compose exec api pnpm --filter @urd/api run import /tmp/myuniversity.json
 ```
 
 Open `http://localhost:5173`. The API health endpoint is `http://localhost:3001/health`.
+
+Compose publishes the web app, API, and PostgreSQL on `127.0.0.1` by default. Set `COMPOSE_BIND_ADDRESS` only when another machine must connect, and apply firewall and production authentication controls before using a non-loopback address.
 
 If PostgreSQL already uses port 5432 on your computer, set `POSTGRES_PORT=55432` in `.env`. When running database commands directly on the Mac, also use port `55432` in `DATABASE_URL`; Docker services continue to use `db:5432` internally.
 
@@ -91,6 +115,123 @@ docker compose exec api pnpm --filter @urd/api import:ror \
 ```
 
 Run the last command again for the next reviewed batch. The import ledger resumes from its committed checkpoint, uses the ROR ID rather than a name guess for deduplication, records rejected rows, and makes a completed dataset a no-op on rerun. Unknown admissions fields remain empty rather than being invented.
+
+### Refresh global core facts from ROR
+
+The baseline importer creates identities; the separate core refresh keeps those exact ROR-backed profiles useful outside the best-known universities. The checked-in `ror-core-v2.12-2026-08-25.jsonl` artifact contains the small, validated projection used by the application: country and continent codes, first-level region, coordinates, HTTPS official and Wikipedia links, establishment year, ROR status, and stored acronyms, aliases, and translated labels. ROR official links that are only available over HTTP are stored as `null`, never silently upgraded to an unverified HTTPS endpoint. Its upstream and artifact checksums, artifact byte and row counts, retrieval time, status counts, and transformation note are recorded in `data/sources/ror-core-artifacts.json`.
+
+To reproduce the reviewed artifact from the verified ROR CSV:
+
+```bash
+pnpm --filter @urd/api build:ror-core \
+  /tmp/ror/v2.12-2026-08-25-ror-data.csv \
+  ../../data/sources \
+  'https://zenodo.org/records/22099990/files/v2.12-2026-08-25-ror-data.zip?download=1' \
+  '2026-08-31T04:10:00.000Z'
+```
+
+Validate or import the checked-in artifact locally:
+
+```bash
+pnpm --filter @urd/api import:ror-core \
+  ../../data/sources/ror-core-v2.12-2026-08-25.jsonl --dry-run
+pnpm --filter @urd/api import:ror-core \
+  ../../data/sources/ror-core-v2.12-2026-08-25.jsonl 3000
+```
+
+For Docker, rebuild the API image after changing a reviewed artifact, then run the same resumable batch inside the container:
+
+```bash
+docker compose up --build -d api
+docker compose exec api pnpm --filter @urd/api import:ror-core \
+  /app/data/sources/ror-core-v2.12-2026-08-25.jsonl 3000
+```
+
+The refresh never creates or merges a university. It requires an exact existing ROR identifier, fills only missing or `unknown` core values, preserves existing safe contributor and government values, and replaces only ROR-owned aliases. As a security cleanup, it replaces any existing non-HTTPS `official_website` on an exact ROR match with the reviewed HTTPS value or `null`; rerunning this artifact therefore removes HTTP values imported by an older ROR core run. Because the safe artifact has a new checksum, that cleanup is recorded as a separate resumable import run. The artifact includes inactive and withdrawn education records so an existing identity can receive the correct ROR status; records absent from the local identity table are counted as skipped rather than name-matched.
+
+### Add current Taiwan institutions and official enrollment
+
+The Taiwan adapter combines two reviewed Ministry of Education datasets under Taiwan's Open Government Data License: the 114-academic-year student file defines the current scope, while the older 108 higher-education directory supplies contact fields only when its school code still has the same current name (or only adds the legal entity wrapper). The deterministic artifact contains 139 current institutions and 737 source rows, producing 638 institution/qualification enrollment snapshots. Its review result is explicit: 105 directory names are exact, 27 are legal-name variants, 5 are stale rename conflicts, and 2 current schools are absent from the older directory.
+
+Rebuild the compact artifact and checksum manifest from the checked-in official downloads:
+
+```bash
+pnpm --filter @urd/api build:taiwan-moe
+```
+
+After rebuilding the API image, preview the exact identity plan without writing to PostgreSQL, then run a resumable reviewed batch:
+
+```bash
+docker compose up --build -d api
+docker compose exec api pnpm --filter @urd/api import:taiwan-moe --dry-run
+docker compose exec api pnpm --filter @urd/api import:taiwan-moe \
+  /app/data/sources/taiwan-moe-114.json 50
+```
+
+The dry run reads existing identifiers, domains, and aliases so it can report the real `identifier`/`domain`/`alias`/`create`/`reject` distribution, but it performs no inserts or updates. The importer never fuzzy-matches a name. A `tw_moe` school code is authoritative; otherwise it accepts only one exact, trusted Chinese label or one unique exact official domain from a non-stale directory row. A stale rename/merge domain can never match or create a profile. Unmatched current schools are created only from exact/legal-name directory rows with a valid official website; conflicts are quarantined in `import_rejections`. This dataset adds current identity, location/contact, study-level availability, and official enrollment—not admissions requirements, deadlines, programs, or tuition.
+
+### Add reviewed Taiwan programs and tuition bases
+
+After the base Taiwan identity import completes, the separate enrichment adapter can attach the reviewed 114-academic-year department and tuition artifacts. It joins only one unique existing `tw_moe` school-code identifier. Numeric codes are compared after removing presentation-only leading zeroes (`0001` and `1` are the same official code); alphanumeric codes are otherwise unchanged. The importer never creates an institution and never falls back to a name, domain, or fuzzy match.
+
+Rebuild the two compact artifacts and their manifest only from the byte-for-byte reviewed raw files. The input basenames must remain `programs.json` and `tuition.csv`; the builder verifies their filenames, byte counts, SHA-256 hashes, source row counts, and academic year against `taiwan-moe-enrichment-source-review.json` before writing output:
+
+```bash
+pnpm --filter @urd/api build:taiwan-moe-enrichment \
+  /tmp/taiwan-moe/programs.json \
+  /tmp/taiwan-moe/tuition.csv \
+  ../../data/sources
+```
+
+After an artifact rebuild, rebuild the API image so Docker receives the same checked-in files. The dry run validates both artifacts and reads the current exact-identifier/program/cost state to print the real insert, update, already-present, skip, and rejection plan; it does not open a write run or mutate the database:
+
+```bash
+docker compose up --build -d api
+
+# Read-only validation and an exact plan against the current database
+docker compose exec api pnpm --filter @urd/api import:taiwan-moe-enrichment --dry-run
+
+# Full resumable import using the checked-in reviewed artifacts
+docker compose exec api pnpm --filter @urd/api import:taiwan-moe-enrichment
+
+# Optional: commit at most 50 combined school records, then rerun to resume
+docker compose exec api pnpm --filter @urd/api import:taiwan-moe-enrichment \
+  /app/data/sources/taiwan-moe-departments-114.json \
+  /app/data/sources/taiwan-moe-tuition-114.json 50
+```
+
+The optional final number is a combined-school limit, not a source-row limit. Each school is committed atomically with its checkpoint and cumulative metrics; rerunning the identical command resumes at the next school, and rerunning a completed artifact is a no-op. Missing or ambiguous exact `tw_moe` identifiers produce one source-row-linked `import_rejections` record and do not block later schools.
+
+The department projection contains 7,696 distinct degree-offering candidates. Repeated attendance rows collapse only when the exact institution, department name, program level, MOE unit code, and qualification are identical. The existing concise `programs` table has no truthful place for organization-only rows, so 472 such rows are skipped and counted. Three `X 4+X` rows are also counted but not inserted because the current undergraduate/graduate model cannot represent them without guessing.
+
+The tuition artifact contains 529 positive TWD tuition-and-miscellaneous-fee bases. The official source does not say whether each basis is annual, per semester, or another charge interval, so values are stored as `tuition_and_fees` with `period = 'other'`, category-specific scenarios, and `source_flags.chargePeriod = 'not_specified_by_source'`. UniScope does not annualize, multiply, or present these values as directly comparable annual tuition. The 1,823 source-reported zero cells are retained in the reviewed artifact and cumulative import metrics but are never inserted as zero cost or interpreted as free tuition; blanks are tracked separately. The importer validates both artifact schemas, filenames, byte counts, SHA-256 hashes, and manifest counts before opening a write run; it uses an advisory lock, committed school checkpoint, idempotent program/cost handling, government source rows, and `import_rejections` for missing or ambiguous exact identifiers.
+
+### Add independent OpenAlex research context
+
+The reviewed `openalex-institutions-20260831.jsonl` snapshot contains 27,401 education institutions with an OpenAlex ID and an exact ROR ID. Its companion manifest records the canonical cursor query, source and artifact row counts, retrieval time, CC0 license, identity policy, and SHA-256 (`645206ac9b9eb860a97c1b9f7abeb7fdce8907a19ca30b6fe1b9c480075d90c4`). Build a fresh compact snapshot from the OpenAlex API with:
+
+```bash
+pnpm --filter @urd/api build:openalex-research \
+  ../../data/sources/openalex-institutions-YYYYMMDD.jsonl
+```
+
+Validate the reviewed artifact and preview the exact database plan without writing, or import it in resumable batches:
+
+```bash
+pnpm --filter @urd/api import:openalex-research \
+  ../../data/sources/openalex-institutions-20260831.jsonl --dry-run
+pnpm --filter @urd/api import:openalex-research \
+  ../../data/sources/openalex-institutions-20260831.jsonl 3000
+
+# Docker uses the artifacts copied into the rebuilt API image
+docker compose up --build -d api
+docker compose exec api pnpm --filter @urd/api import:openalex-research \
+  /app/data/sources/openalex-institutions-20260831.jsonl 3000
+```
+
+The dry run verifies every row and the full artifact checksum, then reads the current ROR/OpenAlex identity state to report exact matches, absent identities, inserts, updates, and conflicts. It confirms that `import_runs`, sources, research profiles, and OpenAlex identifiers have unchanged row counts before it exits. The real importer joins only through `institution_identifiers(provider='ror')`, rejects conflicting identities, uses a dedicated advisory lock, and resumes from a committed source-row checkpoint; repeating a completed artifact is a no-op.
+
+OpenAlex works, citation totals, h-index, i10-index, and two-year mean citedness appear in a separate **Independent research context** section. They depend on OpenAlex affiliation metadata and may change as records are corrected. They are not a university ranking, teaching-quality score, admissions requirement, or evidence that a profile is application-ready; OpenAlex data never upgrades UniScope's coverage level.
 
 After the global ROR baseline, maintainers can add U.S. degree-granting institutions from the official NCES IPEDS directory. The importer accepts only rows marked active (`ACT=A`), degree-granting (`DEGGRANT=1`), non-administrative (`SECTOR!=0`), and in institution categories 1–4. Certificate-only schools and system offices are deliberately excluded from the university count.
 
@@ -249,7 +390,17 @@ pnpm data:status
 
 `data/import-status.json` is generated from the live database and committed after each reviewed batch so GitHub shows the imported dataset version, checksum, checkpoint, identifier counts by provider, normalized admissions/enrichment fact counts, and quality counters. Do not edit it by hand. The file is a report, not an import input; regenerate it with `pnpm data:status` after a successful batch.
 
-For local maintainer testing, `/contribute` includes a form that sends the same JSON to the API. It requires `ADMIN_KEY`. This is intentionally a development tool, not production authentication. Do not expose it publicly without replacing the shared key with real identity and authorization.
+For local maintainer testing, `/contribute` includes a form that can send the same JSON to the API. The write route is absent by default. To opt in, set `ADMIN_WRITES_ENABLED=true` and provide a random `ADMIN_KEY` of at least 16 characters (for example, `openssl rand -hex 32`) before starting the API. Known development placeholder keys are rejected in production. This shared-key form is not production authentication; do not expose it publicly without real identity and authorization. Proxy headers are ignored unless `TRUST_PROXY` is explicitly set to `true` or to a comma-separated trusted IP/CIDR list.
+
+### General and programme-specific admissions requirements
+
+Official requirements can be added through reviewed JSON without changing website code. The importer supports university-wide rules, exact existing programme IDs and sourced declarations for programmes missing from the catalogue. It validates identities and source domains, previews changes without writes, skips existing facts and rejects conflicts. See [ADMISSIONS_DATA.md](docs/ADMISSIONS_DATA.md) for data entry and import commands, and [ADMISSIONS_PROGRESS.md](docs/ADMISSIONS_PROGRESS.md) for the current six-step checkpoint and remaining coverage.
+
+### Program-level IB entry requirements
+
+Reviewed IB requirements now have a separate searchable, paginated section on each university profile. University-wide policies are not copied to every program. Official minima, typical offers, contextual offers, qualification conversion and missing evidence have distinct labels; each reviewed record retains its entry year, applicant route, subject conditions and official source.
+
+See [IB_REQUIREMENTS.md](docs/IB_REQUIREMENTS.md) for the JSON format, safe validation/preview/import commands and coverage definitions. [IB_PROGRESS.md](docs/IB_PROGRESS.md) records the current checkpoint and outstanding work. The reviewed global and Kenyan artifacts are a first batch, not complete global coverage.
 
 ## Database commands
 

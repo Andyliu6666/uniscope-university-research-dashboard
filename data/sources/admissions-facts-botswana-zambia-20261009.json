@@ -1,0 +1,360 @@
+{
+  "datasetVersion": "official-admissions-botswana-zambia-2026-10-09-v1",
+  "reviewedOn": "2026-10-09",
+  "institutions": [
+    {
+      "key": "ub",
+      "name": "University of Botswana",
+      "provider": "ror",
+      "externalId": "01encsj80",
+      "countryCode": "BW",
+      "officialDomains": ["ub.bw"]
+    },
+    {
+      "key": "unza",
+      "name": "University of Zambia",
+      "provider": "ror",
+      "externalId": "03gh19d69",
+      "countryCode": "ZM",
+      "officialDomains": ["unza.ac.zm", "unza.zm"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ub",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "August",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Historical 2026 undergraduate guidance; its published deadline has passed. Certificate-system points below are not IB scores. Degree and diploma conditions differ; programme-specific rules still need review. The English-grade inconsistency is preserved rather than resolved by inference.",
+      "requirements": [
+        {
+          "key": "normal_school_leaver_qualification",
+          "category": "academic",
+          "label": "School-leaver qualification",
+          "status": "required",
+          "details": "Normally Certificate IV/NCQF Level 4, such as BGCSE/equivalent, with six subjects at E or above.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "bachelors_grades_and_points",
+          "category": "academic",
+          "label": "Bachelor's grades and points",
+          "status": "required",
+          "details": "Normally five subjects at C or above across one or two sittings, plus at least 34 BGCSE/equivalent points.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "english_degree_threshold_ambiguity",
+          "category": "language",
+          "label": "Degree English grades: clarification needed",
+          "status": "unknown",
+          "details": "English must qualify. Page 9 specifies C for non-science degrees and D for science; page 10 also permits bachelor's consideration with E. Confirm the applicable rule with admissions.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "diploma_certificate_grades_and_points",
+          "category": "academic",
+          "label": "Diploma/certificate grades and points",
+          "status": "required",
+          "details": "Normally three C grades, English E and 30 points. Five subjects may suffice if the six-subject points threshold is met.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "application_fee_2026",
+          "category": "financial",
+          "label": "2026 application fee",
+          "status": "required",
+          "details": "BWP 250 for local and international applicants; non-refundable.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "required_experience_evidence",
+          "category": "experience",
+          "label": "Experience evidence where applicable",
+          "status": "conditional",
+          "details": "Where experience is required, complete it before applying and upload a supervisor's statement confirming its nature and duration.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "school_leaver_application_documents",
+          "category": "document",
+          "label": "School-leaver application documents",
+          "status": "required",
+          "details": "Prepare the fee receipt, certified school certificate/results and certified identity document: Omang for citizens, or passport.",
+          "source": {
+            "url": "https://www.ub.bw/study/application-requirements",
+            "title": "University of Botswana: Application requirements",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "online_application_contact",
+          "category": "application",
+          "label": "Online application and contact details",
+          "status": "required",
+          "details": "Apply online through UB's Study link, with a working email address and accurate mobile number for decisions.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "competitive_selection",
+          "category": "academic",
+          "label": "Eligibility is not an offer",
+          "status": "conditional",
+          "details": "Selection depends on academic merit and available places; satisfying programme minima does not guarantee admission.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "programme_choice_changes",
+          "category": "application",
+          "label": "Changing programme choices",
+          "status": "optional",
+          "details": "Request study-choice changes by emailing admissions@ub.ac.bw.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "published_august_2026_deadline",
+          "category": "application",
+          "label": "August 2026 deadline (past)",
+          "status": "required",
+          "details": "The published closing date for local and international August 2026 applications was 6 August 2026, already past when reviewed.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "application_tracking",
+          "category": "application",
+          "label": "Tracking a submitted application",
+          "status": "optional",
+          "details": "After acknowledgement, use the supplied login details; navigate through Main Menu, Student Admissions, Self Service and Student Centre.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "application_payment_reference",
+          "category": "application",
+          "label": "Payment method and reference",
+          "status": "required",
+          "details": "Pay online or at a bank; bank deposit references should include the applicant's full name and Omang/passport number.",
+          "source": {
+            "url": "https://www.ub.bw/study/undergraduate/how-apply-admission",
+            "title": "University of Botswana: How to apply for admission",
+            "checkedOn": "2026-10-09"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ub",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "August",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Mature Age Entry is a separate route for Botswana nationals, not a waiver available to all applicants. Only programmes explicitly offering this route qualify. Do not copy normal school-leaver thresholds into this scope.",
+      "requirements": [
+        {
+          "key": "mature_age_route",
+          "category": "academic",
+          "label": "Mature Age Entry",
+          "status": "conditional",
+          "details": "Botswana nationals without normal entry qualifications must take the appropriate Mature Age Entry examination, where their programme offers this route.",
+          "source": {
+            "url": "https://www.ub.bw/sites/default/files/2026-04/A-GUIDE_TO-PROSPECTIVE-APPLICANTS-2026-UNDEGRADUATE-14042026.pdf",
+            "title": "University of Botswana: 2026 undergraduate admissions guide",
+            "checkedOn": "2026-10-09"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unza",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated undergraduate English guidance and current online-portal instructions, checked on 2026-10-09. Select the actual intake in the portal; this scope does not assert that any intake is open. The portal fee classification explicitly includes SADC nationals. Programme-specific academic thresholds are not yet covered here.",
+      "requirements": [
+        {
+          "key": "english_proficiency",
+          "category": "language",
+          "label": "English proficiency evidence",
+          "status": "required",
+          "details": "Provide English proficiency evidence; a school-certificate credit or O-Level English pass is normally required and accepted.",
+          "source": {
+            "url": "https://unza.ac.zm/academics/undergraduates",
+            "title": "University of Zambia: Undergraduates",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "programme_choice_limit",
+          "category": "application",
+          "label": "Programme choices",
+          "status": "required",
+          "details": "Select the school and intake; the portal permits up to three programme choices.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "online_supporting_documents",
+          "category": "document",
+          "label": "Online supporting documents",
+          "status": "required",
+          "details": "Upload clear copies of a recent passport photograph, NRC/passport and academic qualifications; staff-child evidence is conditional on that status.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "qualification_grade_entry",
+          "category": "application",
+          "label": "Entering qualification grades",
+          "status": "required",
+          "details": "Enter ECZ O-Level or Cambridge subjects and grades exactly as shown on the qualification document.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "portal_application_fee",
+          "category": "financial",
+          "label": "Portal application fee",
+          "status": "required",
+          "details": "Non-refundable: ZMW 150 for Zambian/SADC nationals; USD 60 for international applicants. Use the portal's nationality classification.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "saved_application_retrieval",
+          "category": "application",
+          "label": "Saved application is not submission",
+          "status": "required",
+          "details": "Step 1 creates an Applicant ID, not a completed submission. Resume using that ID and the original NRC/passport number.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "final_application_review",
+          "category": "application",
+          "label": "Review before final submission",
+          "status": "required",
+          "details": "Complete all six steps and verify details before submitting; the guide warns that submitted applications cannot be edited.",
+          "source": {
+            "url": "https://oap.unza.ac.zm/applications/step1",
+            "title": "University of Zambia: Online application guide",
+            "checkedOn": "2026-10-09"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unza",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "regular programmes",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The advertisement explicitly says 2027 intake although its filename contains 2026. The stated deadline is already past. These cycle-specific conditions supplement, rather than duplicate, the undated application instructions. No claim that applications remain open.",
+      "requirements": [
+        {
+          "key": "published_2027_regular_deadline",
+          "category": "application",
+          "label": "2027 regular-intake deadline (past)",
+          "status": "required",
+          "details": "The advertisement's application deadline was 17 April 2026; it had passed when checked on 9 October 2026.",
+          "source": {
+            "url": "https://web.unza.zm/sites/default/files/article_files/2026-01/2026%20Jan%20Online%20ADMISSION%20ADVERT%20UPDATED%202026.pdf",
+            "title": "University of Zambia: 2027 undergraduate regular-programmes advertisement",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "zaqa_grade12_certification",
+          "category": "document",
+          "label": "ZAQA-certified Grade 12 results",
+          "status": "required",
+          "details": "Submit Grade 12 results certified by the Zambia Qualifications Authority for the application to be considered.",
+          "source": {
+            "url": "https://web.unza.zm/sites/default/files/article_files/2026-01/2026%20Jan%20Online%20ADMISSION%20ADVERT%20UPDATED%202026.pdf",
+            "title": "University of Zambia: 2027 undergraduate regular-programmes advertisement",
+            "checkedOn": "2026-10-09"
+          }
+        },
+        {
+          "key": "selection_and_document_integrity",
+          "category": "academic",
+          "label": "Selection and document integrity",
+          "status": "conditional",
+          "details": "Minimum qualifications do not guarantee a place; programmes may close early. Offers are provisional, and false documents can lead to cancellation.",
+          "source": {
+            "url": "https://web.unza.zm/sites/default/files/article_files/2026-01/2026%20Jan%20Online%20ADMISSION%20ADVERT%20UPDATED%202026.pdf",
+            "title": "University of Zambia: 2027 undergraduate regular-programmes advertisement",
+            "checkedOn": "2026-10-09"
+          }
+        }
+      ]
+    }
+  ]
+}

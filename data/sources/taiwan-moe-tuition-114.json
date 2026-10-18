@@ -1,0 +1,4198 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "114",
+  "academicYear": "2025-26",
+  "generatedAt": "2026-08-31T14:29:07Z",
+  "selectedSourceRows": 147,
+  "schoolCount": 147,
+  "currency": "TWD",
+  "amountMeaning": "tuition_and_miscellaneous_fee_basis",
+  "chargePeriod": "not_specified_by_source",
+  "referenceDateRule": "annual October 15 statistical reference date",
+  "sourceReportedPositiveAmountCount": 529,
+  "sourceReportedZeroCount": 1823,
+  "sourceBlankCount": 0,
+  "categories": [
+    {
+      "code": "undergraduate_medicine",
+      "sourceColumn": "日間學制學士班學雜費收費基準-醫學系",
+      "studyScope": "daytime_undergraduate",
+      "label": "醫學系"
+    },
+    {
+      "code": "undergraduate_dentistry",
+      "sourceColumn": "日間學制學士班學雜費收費基準-牙醫學系",
+      "studyScope": "daytime_undergraduate",
+      "label": "牙醫學系"
+    },
+    {
+      "code": "undergraduate_medical_college",
+      "sourceColumn": "日間學制學士班學雜費收費基準-醫學院",
+      "studyScope": "daytime_undergraduate",
+      "label": "醫學院"
+    },
+    {
+      "code": "undergraduate_engineering_college",
+      "sourceColumn": "日間學制學士班學雜費收費基準-工學院",
+      "studyScope": "daytime_undergraduate",
+      "label": "工學院"
+    },
+    {
+      "code": "undergraduate_science_agriculture_college",
+      "sourceColumn": "日間學制學士班學雜費收費基準-理農學院",
+      "studyScope": "daytime_undergraduate",
+      "label": "理農學院"
+    },
+    {
+      "code": "undergraduate_business_college",
+      "sourceColumn": "日間學制學士班學雜費收費基準-商學院",
+      "studyScope": "daytime_undergraduate",
+      "label": "商學院"
+    },
+    {
+      "code": "undergraduate_humanities_law_college",
+      "sourceColumn": "日間學制學士班學雜費收費基準-文法學院",
+      "studyScope": "daytime_undergraduate",
+      "label": "文法學院"
+    },
+    {
+      "code": "undergraduate_other",
+      "sourceColumn": "日間學制學士班學雜費收費基準-其他",
+      "studyScope": "daytime_undergraduate",
+      "label": "其他"
+    },
+    {
+      "code": "associate_nursing",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-護理類",
+      "studyScope": "daytime_associate",
+      "label": "護理類"
+    },
+    {
+      "code": "associate_health",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-衛生類",
+      "studyScope": "daytime_associate",
+      "label": "衛生類"
+    },
+    {
+      "code": "associate_home_economics",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-家事類",
+      "studyScope": "daytime_associate",
+      "label": "家事類"
+    },
+    {
+      "code": "associate_business",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-商業類",
+      "studyScope": "daytime_associate",
+      "label": "商業類"
+    },
+    {
+      "code": "associate_industrial",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-工業類",
+      "studyScope": "daytime_associate",
+      "label": "工業類"
+    },
+    {
+      "code": "associate_agriculture_food",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-農業與食品類",
+      "studyScope": "daytime_associate",
+      "label": "農業與食品類"
+    },
+    {
+      "code": "associate_hospitality",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-餐旅類",
+      "studyScope": "daytime_associate",
+      "label": "餐旅類"
+    },
+    {
+      "code": "associate_arts_design",
+      "sourceColumn": "日間學制副學士學雜費收費基準(五專後2年、二專)-藝術與設計類",
+      "studyScope": "daytime_associate",
+      "label": "藝術與設計類"
+    }
+  ],
+  "schools": [
+    {
+      "sourceRow": 440,
+      "schoolCode": "0001",
+      "chineseName": "國立政治大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28430 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24890 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24510 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 441,
+      "schoolCode": "0002",
+      "chineseName": "國立清華大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71159 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28630 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28630 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24370 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24370 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 442,
+      "schoolCode": "0003",
+      "chineseName": "國立臺灣大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 39560 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 36170 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 31050 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 30000 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 30260 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 25610 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 25230 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 443,
+      "schoolCode": "0004",
+      "chineseName": "國立臺灣師範大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27600 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27380 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23590 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 444,
+      "schoolCode": "0005",
+      "chineseName": "國立成功大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 39550 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 36160 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 31040 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 29490 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 29250 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 25600 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 25210 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 445,
+      "schoolCode": "0006",
+      "chineseName": "國立中興大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71159 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 28438 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27877 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27652 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24215 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23858 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 446,
+      "schoolCode": "0007",
+      "chineseName": "國立陽明交通大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 38380 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 35080 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 30110 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28990 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28740 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 28740 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24770 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 447,
+      "schoolCode": "0008",
+      "chineseName": "國立中央大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28660 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28440 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24870 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24510 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 448,
+      "schoolCode": "0009",
+      "chineseName": "國立中山大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71159 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 31040 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28940 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28710 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 25130 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24730 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 449,
+      "schoolCode": "0012",
+      "chineseName": "國立臺灣海洋大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27810 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27590 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24140 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24140 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 450,
+      "schoolCode": "0013",
+      "chineseName": "國立中正大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28248 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 28026 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24529 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24147 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 451,
+      "schoolCode": "0014",
+      "chineseName": "國立高雄師範大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27590 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27365 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23605 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23605 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 452,
+      "schoolCode": "0015",
+      "chineseName": "國立彰化師範大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27570 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27340 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23950 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23590 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 453,
+      "schoolCode": "0017",
+      "chineseName": "國立臺北大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26540 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22510 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22170 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 454,
+      "schoolCode": "0018",
+      "chineseName": "國立嘉義大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 24650 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 24440 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 21390 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21070 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 455,
+      "schoolCode": "0019",
+      "chineseName": "國立高雄大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26720 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26510 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23320 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23320 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 456,
+      "schoolCode": "0020",
+      "chineseName": "國立東華大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27790 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27570 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24100 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23740 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 457,
+      "schoolCode": "0021",
+      "chineseName": "國立暨南國際大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 28122 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26185 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22741 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22397 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 458,
+      "schoolCode": "0022",
+      "chineseName": "國立臺灣科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 28390 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 28390 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24340 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 28390 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 459,
+      "schoolCode": "0023",
+      "chineseName": "國立雲林科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27845 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24182 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24182 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 27845 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 460,
+      "schoolCode": "0024",
+      "chineseName": "國立屏東科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27580 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 27340 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24000 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 24000 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 461,
+      "schoolCode": "0025",
+      "chineseName": "國立臺北科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26896 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23339 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23339 },
+        { "categoryCode": "associate_industrial", "amountTwd": 21000 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 462,
+      "schoolCode": "0028",
+      "chineseName": "國立臺北藝術大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_engineering_college", "amountTwd": 26620 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 463,
+      "schoolCode": "0029",
+      "chineseName": "國立臺灣藝術大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_engineering_college", "amountTwd": 26230 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 464,
+      "schoolCode": "0030",
+      "chineseName": "國立臺東大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 25490 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21980 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 465,
+      "schoolCode": "0031",
+      "chineseName": "國立宜蘭大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26302 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26086 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22827 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 466,
+      "schoolCode": "0032",
+      "chineseName": "國立聯合大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26000 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22600 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22285 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 467,
+      "schoolCode": "0033",
+      "chineseName": "國立虎尾科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 25748 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 21997 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21997 },
+        { "categoryCode": "associate_industrial", "amountTwd": 19463 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 468,
+      "schoolCode": "0035",
+      "chineseName": "國立臺南藝術大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26990 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 469,
+      "schoolCode": "0036",
+      "chineseName": "國立臺南大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 25330 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22790 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21840 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 470,
+      "schoolCode": "0037",
+      "chineseName": "國立臺北教育大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26250 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22600 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 471,
+      "schoolCode": "0039",
+      "chineseName": "國立臺中教育大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 24840 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23950 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21410 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 472,
+      "schoolCode": "0042",
+      "chineseName": "國立澎湖科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 23491 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 20394 },
+        { "categoryCode": "associate_industrial", "amountTwd": 20415 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 473,
+      "schoolCode": "0043",
+      "chineseName": "國立勤益科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 27029 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 23466 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 23100 },
+        { "categoryCode": "associate_business", "amountTwd": 17611 },
+        { "categoryCode": "associate_industrial", "amountTwd": 20415 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 474,
+      "schoolCode": "0044",
+      "chineseName": "國立體育大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 23870 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 475,
+      "schoolCode": "0046",
+      "chineseName": "國立臺北護理健康大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [{ "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26240 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 476,
+      "schoolCode": "0047",
+      "chineseName": "國立高雄餐旅大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_other", "amountTwd": 24139 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 22999 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 477,
+      "schoolCode": "0048",
+      "chineseName": "國立金門大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 26761 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 25390 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22042 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22042 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 478,
+      "schoolCode": "0049",
+      "chineseName": "國立臺灣體育運動大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 22980 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 479,
+      "schoolCode": "0050",
+      "chineseName": "國立臺中科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 21520 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 25660 },
+        { "categoryCode": "associate_nursing", "amountTwd": 17806 },
+        { "categoryCode": "associate_business", "amountTwd": 16160 },
+        { "categoryCode": "associate_industrial", "amountTwd": 16160 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 16160 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 480,
+      "schoolCode": "0051",
+      "chineseName": "國立臺北商業大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 21520 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 25780 },
+        { "categoryCode": "associate_business", "amountTwd": 16300 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 481,
+      "schoolCode": "0052",
+      "chineseName": "國立屏東大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 25394 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 25320 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22794 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 21820 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 482,
+      "schoolCode": "0053",
+      "chineseName": "國立高雄科技大學",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 26279 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 26063 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 22814 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 22814 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 26277 },
+        { "categoryCode": "associate_industrial", "amountTwd": 19847 },
+        { "categoryCode": "associate_agriculture_food", "amountTwd": 19847 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 483,
+      "schoolCode": "0144",
+      "chineseName": "國立臺灣戲曲學院",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [{ "categoryCode": "undergraduate_other", "amountTwd": 23150 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 484,
+      "schoolCode": "0221",
+      "chineseName": "國立臺南護理專科學校",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 18524 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 18524 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_health",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 485,
+      "schoolCode": "0222",
+      "chineseName": "國立臺東專科學校",
+      "ownership": "public",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_business", "amountTwd": 19580 },
+        { "categoryCode": "associate_industrial", "amountTwd": 22380 },
+        { "categoryCode": "associate_agriculture_food", "amountTwd": 20720 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 20968 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 22380 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 486,
+      "schoolCode": "1001",
+      "chineseName": "東海大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 56289 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 55820 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48951 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 50510 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 487,
+      "schoolCode": "1002",
+      "chineseName": "輔仁大學學校財團法人輔仁大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 72500 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 58200 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55350 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54890 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48140 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 47430 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 488,
+      "schoolCode": "1003",
+      "chineseName": "東吳大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 56460 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 55990 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 49110 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48370 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 489,
+      "schoolCode": "1004",
+      "chineseName": "中原大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55550 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 55030 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46630 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 46630 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 490,
+      "schoolCode": "1005",
+      "chineseName": "淡江大學學校財團法人淡江大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54720 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54260 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47590 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 46880 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 491,
+      "schoolCode": "1006",
+      "chineseName": "中國文化大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53390 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 52950 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46425 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45735 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 492,
+      "schoolCode": "1007",
+      "chineseName": "逢甲大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54970 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47820 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 47080 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 493,
+      "schoolCode": "1008",
+      "chineseName": "靜宜大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 51874 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45496 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44811 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 494,
+      "schoolCode": "1009",
+      "chineseName": "長庚大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 59317 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 46577 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 44307 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 38528 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 495,
+      "schoolCode": "1010",
+      "chineseName": "元智大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 56040 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 56040 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48910 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48190 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 496,
+      "schoolCode": "1011",
+      "chineseName": "中華大學學校財團法人中華大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51880 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 51880 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45121 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44442 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 497,
+      "schoolCode": "1012",
+      "chineseName": "大葉大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 55900 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52748 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45870 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45218 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 498,
+      "schoolCode": "1013",
+      "chineseName": "華梵學校財團法人華梵大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52380 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 52380 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44870 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 499,
+      "schoolCode": "1014",
+      "chineseName": "義守大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 72500 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 55495 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55373 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54232 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47994 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 500,
+      "schoolCode": "1015",
+      "chineseName": "世新大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 57340 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 49621 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48645 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 501,
+      "schoolCode": "1016",
+      "chineseName": "銘傳大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53383 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46201 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45288 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 502,
+      "schoolCode": "1017",
+      "chineseName": "實踐大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50417 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 49997 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 43856 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45288 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 503,
+      "schoolCode": "1018",
+      "chineseName": "朝陽科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55684 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48409 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48409 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 55684 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 504,
+      "schoolCode": "1019",
+      "chineseName": "高雄醫學大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71159 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 65115 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 55848 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 52688 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45514 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 505,
+      "schoolCode": "1020",
+      "chineseName": "南華大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51597 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46597 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44865 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 506,
+      "schoolCode": "1021",
+      "chineseName": "真理大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 51940 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45560 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44870 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 507,
+      "schoolCode": "1022",
+      "chineseName": "大同大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54170 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47120 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 508,
+      "schoolCode": "1023",
+      "chineseName": "南臺學校財團法人南臺科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55270 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48135 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 47425 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 55270 },
+        { "categoryCode": "associate_industrial", "amountTwd": 41282 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 509,
+      "schoolCode": "1024",
+      "chineseName": "崑山科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52206 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45437 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 52206 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 510,
+      "schoolCode": "1025",
+      "chineseName": "嘉藥學校財團法人嘉南藥理大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 56825 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 52928 },
+        { "categoryCode": "associate_health", "amountTwd": 41281 },
+        { "categoryCode": "associate_business", "amountTwd": 41281 },
+        { "categoryCode": "associate_industrial", "amountTwd": 41281 },
+        { "categoryCode": "associate_agriculture_food", "amountTwd": 41281 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_home_economics",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 511,
+      "schoolCode": "1026",
+      "chineseName": "樹德科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53390 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46433 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 512,
+      "schoolCode": "1027",
+      "chineseName": "慈濟學校財團法人慈濟大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 61975 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 48849 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54230 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47800 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 46831 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 44760 },
+        { "categoryCode": "associate_nursing", "amountTwd": 33730 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 33730 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_science_agriculture_college",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 513,
+      "schoolCode": "1028",
+      "chineseName": "臺北醫學大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71480 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 65410 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 56110 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 514,
+      "schoolCode": "1029",
+      "chineseName": "中山醫學大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71495 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 65414 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 56110 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 515,
+      "schoolCode": "1030",
+      "chineseName": "龍華科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51308 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44630 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44630 },
+        { "categoryCode": "associate_industrial", "amountTwd": 41174 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 516,
+      "schoolCode": "1031",
+      "chineseName": "輔英科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 56610 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53870 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 53870 },
+        { "categoryCode": "associate_nursing", "amountTwd": 39910 },
+        { "categoryCode": "associate_health", "amountTwd": 39535 },
+        { "categoryCode": "associate_business", "amountTwd": 35195 },
+        { "categoryCode": "associate_industrial", "amountTwd": 39910 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 517,
+      "schoolCode": "1032",
+      "chineseName": "明新學校財團法人明新科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51210 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44617 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 518,
+      "schoolCode": "1033",
+      "chineseName": "長榮大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 56000 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52740 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54740 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46210 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 46210 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 519,
+      "schoolCode": "1034",
+      "chineseName": "弘光科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 55057 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52369 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 52369 },
+        { "categoryCode": "associate_nursing", "amountTwd": 38305 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 520,
+      "schoolCode": "1035",
+      "chineseName": "中國醫藥大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 71489 },
+        { "categoryCode": "undergraduate_dentistry", "amountTwd": 65425 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 56126 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 56126 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 521,
+      "schoolCode": "1036",
+      "chineseName": "健行學校財團法人健行科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54124 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47165 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 522,
+      "schoolCode": "1037",
+      "chineseName": "正修學校財團法人正修科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54735 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47597 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 47597 },
+        { "categoryCode": "associate_industrial", "amountTwd": 41282 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 523,
+      "schoolCode": "1038",
+      "chineseName": "萬能學校財團法人萬能科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53390 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46432 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 48932 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 524,
+      "schoolCode": "1039",
+      "chineseName": "玄奘大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50978 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 50978 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45568 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 525,
+      "schoolCode": "1040",
+      "chineseName": "建國科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54220 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47256 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 526,
+      "schoolCode": "1041",
+      "chineseName": "明志科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [{ "categoryCode": "undergraduate_engineering_college", "amountTwd": 50760 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 527,
+      "schoolCode": "1042",
+      "chineseName": "台鋼學校財團法人台鋼科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50853 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44221 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 528,
+      "schoolCode": "1043",
+      "chineseName": "大仁科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 53453 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53453 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 50423 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 48028 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48618 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 48028 },
+        { "categoryCode": "associate_health", "amountTwd": 41282 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 41282 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 41282 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "associate_nursing",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 529,
+      "schoolCode": "1044",
+      "chineseName": "聖約翰科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53938 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46915 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 46915 },
+        { "categoryCode": "associate_business", "amountTwd": 33158 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38347 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 530,
+      "schoolCode": "1045",
+      "chineseName": "嶺東科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 52542 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45782 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 531,
+      "schoolCode": "1046",
+      "chineseName": "中國科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51658 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45025 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 51658 },
+        { "categoryCode": "associate_business", "amountTwd": 33963 },
+        { "categoryCode": "associate_industrial", "amountTwd": 39162 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 36082 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 532,
+      "schoolCode": "1047",
+      "chineseName": "中臺科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 54250 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51640 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 51220 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45020 },
+        { "categoryCode": "associate_health", "amountTwd": 39000 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 533,
+      "schoolCode": "1048",
+      "chineseName": "亞洲大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 57160 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54980 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54870 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47800 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 48250 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 534,
+      "schoolCode": "1049",
+      "chineseName": "開南大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 54324 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46243 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45685 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 535,
+      "schoolCode": "1050",
+      "chineseName": "佛光大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 48720 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 42700 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 42700 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 536,
+      "schoolCode": "1051",
+      "chineseName": "台南家專學校財團法人台南應用科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53390 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 52950 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46430 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 42584 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 537,
+      "schoolCode": "1052",
+      "chineseName": "中信金學校財團法人中信科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51450 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44820 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 44820 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 538,
+      "schoolCode": "1053",
+      "chineseName": "光宇學校財團法人元培醫事科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 54050 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51440 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 51020 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44820 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 539,
+      "schoolCode": "1054",
+      "chineseName": "景文科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 49628 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 43160 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 43160 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 43160 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 540,
+      "schoolCode": "1055",
+      "chineseName": "中華醫事科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 54793 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45434 },
+        { "categoryCode": "associate_nursing", "amountTwd": 38305 },
+        { "categoryCode": "associate_health", "amountTwd": 38305 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 37596 },
+        { "categoryCode": "associate_business", "amountTwd": 37596 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38305 },
+        { "categoryCode": "associate_agriculture_food", "amountTwd": 38305 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 541,
+      "schoolCode": "1056",
+      "chineseName": "東南科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51343 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44710 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 51343 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 542,
+      "schoolCode": "1057",
+      "chineseName": "德明財經科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [{ "categoryCode": "undergraduate_business_college", "amountTwd": 45320 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 543,
+      "schoolCode": "1060",
+      "chineseName": "南開科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53483 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46615 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 50767 },
+        { "categoryCode": "associate_industrial", "amountTwd": 40545 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 544,
+      "schoolCode": "1061",
+      "chineseName": "中華學校財團法人中華科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51743 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 51743 },
+        { "categoryCode": "associate_industrial", "amountTwd": 39744 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 545,
+      "schoolCode": "1062",
+      "chineseName": "僑光科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51653 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45020 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 48337 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 546,
+      "schoolCode": "1063",
+      "chineseName": "廣亞學校財團法人育達科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51643 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45020 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45020 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 547,
+      "schoolCode": "1064",
+      "chineseName": "美和學校財團法人美和科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 54619 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51582 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45478 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45478 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 49722 },
+        { "categoryCode": "associate_nursing", "amountTwd": 38311 },
+        { "categoryCode": "associate_health", "amountTwd": 38311 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 38311 },
+        { "categoryCode": "associate_agriculture_food", "amountTwd": 38311 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 38311 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_business",
+        "associate_industrial",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 548,
+      "schoolCode": "1065",
+      "chineseName": "吳鳳科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54130 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47220 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 549,
+      "schoolCode": "1069",
+      "chineseName": "修平學校財團法人修平科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54220 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47266 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 550,
+      "schoolCode": "1070",
+      "chineseName": "長庚學校財團法人長庚科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 45054 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 45054 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 551,
+      "schoolCode": "1071",
+      "chineseName": "城市學校財團法人臺北城市科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50843 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44210 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 44210 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 44210 },
+        { "categoryCode": "associate_business", "amountTwd": 33158 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38347 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 33158 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 552,
+      "schoolCode": "1072",
+      "chineseName": "大華學校財團法人敏實科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51217 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44625 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 51217 },
+        { "categoryCode": "associate_business", "amountTwd": 33763 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38958 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 553,
+      "schoolCode": "1073",
+      "chineseName": "醒吾學校財團法人醒吾科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47317 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 47317 },
+        { "categoryCode": "associate_business", "amountTwd": 35486 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 35486 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 554,
+      "schoolCode": "1075",
+      "chineseName": "文藻學校財團法人文藻外語大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 52544 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 52544 },
+        { "categoryCode": "associate_business", "amountTwd": 40470 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 555,
+      "schoolCode": "1076",
+      "chineseName": "華夏學校財團法人華夏科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53390 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46425 },
+        { "categoryCode": "associate_business", "amountTwd": 35056 },
+        { "categoryCode": "associate_industrial", "amountTwd": 39513 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 556,
+      "schoolCode": "1078",
+      "chineseName": "致理學校財團法人致理科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45910 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 45910 },
+        { "categoryCode": "associate_business", "amountTwd": 34759 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 557,
+      "schoolCode": "1079",
+      "chineseName": "康寧學校財團法人康寧大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 53234 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 45991 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 45473 },
+        { "categoryCode": "associate_nursing", "amountTwd": 37118 },
+        { "categoryCode": "associate_health", "amountTwd": 37118 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 34635 },
+        { "categoryCode": "associate_business", "amountTwd": 33048 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 33020 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_other",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 558,
+      "schoolCode": "1080",
+      "chineseName": "宏國學校財團法人宏國德霖科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 54290 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47325 },
+        { "categoryCode": "associate_business", "amountTwd": 35720 },
+        { "categoryCode": "associate_industrial", "amountTwd": 41174 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 559,
+      "schoolCode": "1082",
+      "chineseName": "崇右學校財團法人崇右影藝科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [{ "categoryCode": "undergraduate_business_college", "amountTwd": 47534 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 560,
+      "schoolCode": "1083",
+      "chineseName": "台北海洋學校財團法人台北海洋科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 55000 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 47720 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 52730 },
+        { "categoryCode": "associate_business", "amountTwd": 35118 },
+        { "categoryCode": "associate_industrial", "amountTwd": 40575 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 38988 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 40575 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_agriculture_food"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 561,
+      "schoolCode": "1084",
+      "chineseName": "亞東學校財團法人亞東科技大學",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 52710 },
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50105 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 43512 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 562,
+      "schoolCode": "1085",
+      "chineseName": "馬偕學校財團法人馬偕醫學大學",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_medicine", "amountTwd": 59317 },
+        { "categoryCode": "undergraduate_medical_college", "amountTwd": 57160 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_dentistry",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 563,
+      "schoolCode": "1125",
+      "chineseName": "中信學校財團法人中信金融管理學院",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_business_college", "amountTwd": 42896 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 564,
+      "schoolCode": "1168",
+      "chineseName": "南亞科技學校財團法人南亞技術學院",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 51556 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 44839 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 47086 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38969 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 38969 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_humanities_law_college",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 565,
+      "schoolCode": "1183",
+      "chineseName": "黎明技術學院",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_engineering_college", "amountTwd": 50843 },
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 50443 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 46426 },
+        { "categoryCode": "associate_industrial", "amountTwd": 38347 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 566,
+      "schoolCode": "1185",
+      "chineseName": "德育學校財團法人德育護理健康學院",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 50423 },
+        { "categoryCode": "undergraduate_other", "amountTwd": 53423 },
+        { "categoryCode": "associate_nursing", "amountTwd": 37716 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 35294 },
+        { "categoryCode": "associate_business", "amountTwd": 33705 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "associate_health",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 567,
+      "schoolCode": "1196",
+      "chineseName": "法鼓學校財團法人法鼓文理學院",
+      "ownership": "private",
+      "institutionCategory": "general_university",
+      "fees": [{ "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 29000 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 568,
+      "schoolCode": "1282",
+      "chineseName": "馬偕學校財團法人馬偕醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 38620 },
+        { "categoryCode": "associate_health", "amountTwd": 39500 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 39500 },
+        { "categoryCode": "associate_industrial", "amountTwd": 39500 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 35240 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 569,
+      "schoolCode": "1283",
+      "chineseName": "仁德醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 36023 },
+        { "categoryCode": "associate_health", "amountTwd": 36023 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 36023 },
+        { "categoryCode": "associate_industrial", "amountTwd": 36023 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 34746 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 570,
+      "schoolCode": "1284",
+      "chineseName": "樹人醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 38965 },
+        { "categoryCode": "associate_health", "amountTwd": 38965 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 38965 },
+        { "categoryCode": "associate_business", "amountTwd": 40184 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 571,
+      "schoolCode": "1285",
+      "chineseName": "慈惠醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 38599 },
+        { "categoryCode": "associate_health", "amountTwd": 38599 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 36112 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 34370 },
+        { "categoryCode": "associate_arts_design", "amountTwd": 39798 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 572,
+      "schoolCode": "1286",
+      "chineseName": "耕莘健康管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 37824 },
+        { "categoryCode": "associate_health", "amountTwd": 39350 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 37311 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 38290 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 573,
+      "schoolCode": "1287",
+      "chineseName": "敏惠醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 38482 },
+        { "categoryCode": "associate_health", "amountTwd": 38746 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 38482 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 574,
+      "schoolCode": "1289",
+      "chineseName": "育英醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 38558 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 37000 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_health",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 575,
+      "schoolCode": "1291",
+      "chineseName": "聖母醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 37196 },
+        { "categoryCode": "associate_health", "amountTwd": 38965 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 37196 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 37196 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 576,
+      "schoolCode": "1292",
+      "chineseName": "新生醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 36540 },
+        { "categoryCode": "associate_health", "amountTwd": 38746 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 34520 },
+        { "categoryCode": "associate_business", "amountTwd": 38746 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 35520 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 577,
+      "schoolCode": "1293",
+      "chineseName": "崇仁醫護管理專科學校",
+      "ownership": "private",
+      "institutionCategory": "technical_college",
+      "fees": [
+        { "categoryCode": "associate_nursing", "amountTwd": 36023 },
+        { "categoryCode": "associate_home_economics", "amountTwd": 38275 },
+        { "categoryCode": "associate_business", "amountTwd": 35000 },
+        { "categoryCode": "associate_hospitality", "amountTwd": 35000 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_health",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 578,
+      "schoolCode": "1R02",
+      "chineseName": "學校財團法人中華浸信會基督教台灣浸會神學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 579,
+      "schoolCode": "1R03",
+      "chineseName": "臺北基督學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [{ "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 85000 }],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 580,
+      "schoolCode": "1R05",
+      "chineseName": "台神學校財團法人台灣神學研究學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 581,
+      "schoolCode": "1R06",
+      "chineseName": "一貫道崇德學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 582,
+      "schoolCode": "1R07",
+      "chineseName": "台灣基督長老教會南神神學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 583,
+      "schoolCode": "1R08",
+      "chineseName": "中華福音神學研究學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 584,
+      "schoolCode": "1R09",
+      "chineseName": "唯心聖教學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 585,
+      "schoolCode": "1R10",
+      "chineseName": "福智學校財團法人福智佛教學院",
+      "ownership": "private",
+      "institutionCategory": "religious_college",
+      "fees": [],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_science_agriculture_college",
+        "undergraduate_business_college",
+        "undergraduate_humanities_law_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    },
+    {
+      "sourceRow": 586,
+      "schoolCode": "3002",
+      "chineseName": "臺北市立大學",
+      "ownership": "public",
+      "institutionCategory": "general_university",
+      "fees": [
+        { "categoryCode": "undergraduate_science_agriculture_college", "amountTwd": 23500 },
+        { "categoryCode": "undergraduate_business_college", "amountTwd": 24000 },
+        { "categoryCode": "undergraduate_humanities_law_college", "amountTwd": 20200 }
+      ],
+      "sourceReportedZeroCategoryCodes": [
+        "undergraduate_medicine",
+        "undergraduate_dentistry",
+        "undergraduate_medical_college",
+        "undergraduate_engineering_college",
+        "undergraduate_other",
+        "associate_nursing",
+        "associate_health",
+        "associate_home_economics",
+        "associate_business",
+        "associate_industrial",
+        "associate_agriculture_food",
+        "associate_hospitality",
+        "associate_arts_design"
+      ],
+      "sourceBlankCategoryCodes": []
+    }
+  ]
+}

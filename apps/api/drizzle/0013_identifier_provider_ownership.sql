@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "institution_identifiers_university_provider_ror_openalex_unique" ON "institution_identifiers" USING btree ("university_id","provider") WHERE "institution_identifiers"."provider" in ('ror', 'openalex');

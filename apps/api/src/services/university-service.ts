@@ -1,8 +1,11 @@
 import { and, asc, count, desc, eq, ilike, inArray, lte, or, sql } from 'drizzle-orm';
 import type {
   AdmissionsQuery,
+  CoverageDimension,
+  CoverageSourceTier,
   UniversityAdmissionsResponse,
   University,
+  UniversityCoverage,
   UniversityInput,
   UniversityListResponse,
   UniversityQuery,
@@ -17,9 +20,11 @@ import {
   deadlines,
   enrollmentSnapshots,
   financialAidSnapshots,
+  institutionAliases,
   institutionIdentifiers,
   programs,
   qualificationRequirements,
+  researchProfiles,
   sources,
   universities,
 } from '../db/schema.js';
@@ -29,6 +34,57 @@ type Tx = Parameters<Parameters<Database['transaction']>[0]>[0];
 
 const escapeLike = (value: string) => value.replace(/[\\%_]/g, (char) => `\\${char}`);
 const numberOrNull = (value: string | number | null) => (value === null ? null : Number(value));
+
+export const universitySearchFilter = (query: string) => {
+  const escapedQuery = escapeLike(query);
+  const containsQuery = `%${escapedQuery}%`;
+  const filter = or(
+    ilike(universities.name, containsQuery),
+    ilike(universities.city, containsQuery),
+    ilike(universities.country, containsQuery),
+    sql<boolean>`exists (
+      select 1
+      from ${institutionAliases}
+      where ${institutionAliases.universityId} = ${universities.id}
+        and ${institutionAliases.name} ilike ${containsQuery} escape '\\'
+    )`,
+  );
+  if (!filter) throw new Error('University search filter requires at least one condition');
+  return filter;
+};
+
+export const universitySearchRelevance = (query: string) => {
+  const escapedQuery = escapeLike(query);
+  const prefixQuery = `${escapedQuery}%`;
+  const containsQuery = `%${escapedQuery}%`;
+  return sql<number>`case
+    when lower(${universities.name}) = lower(${query}) then 0
+    when lower(${universities.name}) = lower(${`${query} university`}) then 1
+    when exists (
+      select 1
+      from ${institutionAliases}
+      where ${institutionAliases.universityId} = ${universities.id}
+        and lower(${institutionAliases.name}) = lower(${query})
+    ) then 2
+    when lower(${universities.name}) like lower(${prefixQuery}) escape '\\' then 3
+    when exists (
+      select 1
+      from ${institutionAliases}
+      where ${institutionAliases.universityId} = ${universities.id}
+        and lower(${institutionAliases.name}) like lower(${prefixQuery}) escape '\\'
+    ) then 4
+    when lower(${universities.name}) like lower(${containsQuery}) escape '\\' then 5
+    when exists (
+      select 1
+      from ${institutionAliases}
+      where ${institutionAliases.universityId} = ${universities.id}
+        and lower(${institutionAliases.name}) like lower(${containsQuery}) escape '\\'
+    ) then 6
+    when lower(${universities.city}) = lower(${query}) then 7
+    when lower(${universities.country}) = lower(${query}) then 8
+    else 9
+  end`;
+};
 
 const sourceForApi = (source: typeof sources.$inferSelect) => ({
   title: source.title,
@@ -41,6 +97,213 @@ const sourceForApi = (source: typeof sources.$inferSelect) => ({
 });
 
 type CostSnapshotRow = typeof costSnapshots.$inferSelect;
+type SourceRow = typeof sources.$inferSelect;
+
+export interface UniversityCoverageFacts {
+  sources: Array<
+    Pick<SourceRow, 'id' | 'title' | 'url' | 'category' | 'publisher' | 'datasetVersion'>
+  >;
+  identifierProviders: string[];
+  programCount: number;
+  programSourceIds: string[];
+  admissionProfileCount: number;
+  admissionRequirementCount: number;
+  qualificationCount: number;
+  admissionTestCount: number;
+  deadlineCount: number;
+  costCount: number;
+  enrollmentCount: number;
+  financialAidCount: number;
+  admissionSourceIds: string[];
+  deadlineSourceIds: string[];
+  costSourceIds: string[];
+  enrollmentSourceIds: string[];
+  financialAidSourceIds: string[];
+  hasApplicationUrl: boolean;
+}
+
+type CoverageUniversityCore = Pick<
+  UniversityRow,
+  | 'name'
+  | 'country'
+  | 'countryCode'
+  | 'city'
+  | 'officialWebsite'
+  | 'admissionsUrl'
+  | 'financialAidUrl'
+  | 'institutionType'
+  | 'ownership'
+  | 'operatingStatus'
+  | 'highestAwardLevel'
+  | 'offersUndergraduate'
+  | 'offersGraduate'
+  | 'studentCount'
+>;
+
+const identityRegistryPattern =
+  /(?:ror\.org|wikidata\.org|research organization registry|wikidata)/iu;
+
+const isIdentityRegistrySource = (source: UniversityCoverageFacts['sources'][number]) =>
+  identityRegistryPattern.test(
+    [source.title, source.url, source.publisher, source.datasetVersion].filter(Boolean).join(' '),
+  );
+
+const isOpenAlexResearchSource = (source: UniversityCoverageFacts['sources'][number]) =>
+  source.publisher?.toLowerCase() === 'openalex' ||
+  /(?:^|[/.])openalex[.]org(?:[/]|$)/iu.test(source.url);
+
+const strongestSourceTier = (
+  sourceRows: UniversityCoverageFacts['sources'],
+  identityProviders: string[] = [],
+): CoverageSourceTier => {
+  if (
+    sourceRows.some((source) => source.category === 'official' || source.category === 'government')
+  )
+    return 'official';
+  if (sourceRows.some((source) => !isIdentityRegistrySource(source))) return 'independent';
+  if (
+    sourceRows.some(isIdentityRegistrySource) ||
+    identityProviders.some((provider) => ['ror', 'wikidata'].includes(provider.toLowerCase()))
+  )
+    return 'identity_registry';
+  return 'none';
+};
+
+const dimension = (
+  factCount: number,
+  sourceTier: CoverageSourceTier,
+  verified: boolean,
+  hasReference = false,
+): CoverageDimension => ({
+  status: verified ? 'verified' : factCount > 0 || hasReference ? 'partial' : 'missing',
+  factCount,
+  sourceTier,
+});
+
+const relevantSources = (allSources: UniversityCoverageFacts['sources'], sourceIds: string[]) => {
+  const ids = new Set(sourceIds);
+  return allSources.filter((source) => ids.has(source.id));
+};
+
+const coreSources = (sourceRows: UniversityCoverageFacts['sources']) =>
+  sourceRows.filter((source) =>
+    /(?:directory|institution(?:al)? (?:profile|data)|college navigator|hd20[0-9]{2})/iu.test(
+      [source.title, source.publisher, source.datasetVersion].filter(Boolean).join(' '),
+    ),
+  );
+
+/**
+ * Coverage is deliberately stricter than "has a source". ROR and Wikidata can
+ * verify that an institution exists, but they cannot make a profile complete
+ * or application-ready. Those levels require structured facts backed by an
+ * official institution or government source.
+ */
+export const deriveUniversityCoverage = (
+  university: CoverageUniversityCore,
+  facts: UniversityCoverageFacts,
+): UniversityCoverage => {
+  // Bibliometrics are useful context but must never upgrade identity, core, or
+  // admissions coverage. Ignore both the OpenAlex source and identifier here.
+  const coverageSources = facts.sources.filter((source) => !isOpenAlexResearchSource(source));
+  const coverageIdentifierProviders = facts.identifierProviders.filter(
+    (provider) => provider.toLowerCase() !== 'openalex',
+  );
+  const officialOrGovernmentSourceCount = coverageSources.filter(
+    (source) => source.category === 'official' || source.category === 'government',
+  ).length;
+  const identityTier = strongestSourceTier(coverageSources, coverageIdentifierProviders);
+  const identityFactCount = [
+    university.name.trim().length > 0,
+    university.country.trim().length > 0,
+    university.city.trim().length > 0 && university.city.toLowerCase() !== 'unknown',
+    coverageIdentifierProviders.length > 0,
+  ].filter(Boolean).length;
+  const identityVerified = identityFactCount >= 3 && identityTier !== 'none';
+
+  const coreChecks = [
+    Boolean(university.countryCode),
+    university.city.trim().length > 0 && university.city.toLowerCase() !== 'unknown',
+    Boolean(university.officialWebsite),
+    university.institutionType !== 'unknown',
+    Boolean(university.ownership && university.ownership !== 'unknown'),
+    Boolean(university.operatingStatus && university.operatingStatus !== 'unknown'),
+    university.studentCount !== null,
+    Boolean(
+      university.highestAwardLevel ||
+      university.offersUndergraduate !== null ||
+      university.offersGraduate !== null,
+    ),
+  ];
+  const coreFactCount = coreChecks.filter(Boolean).length;
+  const coreTier = strongestSourceTier(coreSources(coverageSources));
+  const coreComplete =
+    identityVerified && coreFactCount === coreChecks.length && coreTier === 'official';
+
+  const sourceTierFor = (sourceIds: string[]) =>
+    strongestSourceTier(relevantSources(coverageSources, sourceIds));
+  const programsTier = sourceTierFor(facts.programSourceIds);
+  const admissionsTier = sourceTierFor(facts.admissionSourceIds);
+  const deadlinesTier = sourceTierFor(facts.deadlineSourceIds);
+  const costsTier = sourceTierFor(facts.costSourceIds);
+  const enrollmentTier = sourceTierFor(facts.enrollmentSourceIds);
+  const financialAidTier = sourceTierFor(facts.financialAidSourceIds);
+  const admissionsFactCount =
+    facts.admissionProfileCount +
+    facts.admissionRequirementCount +
+    facts.qualificationCount +
+    facts.admissionTestCount;
+  const programsVerified = facts.programCount > 0 && programsTier === 'official';
+  const admissionsVerified =
+    facts.admissionProfileCount > 0 &&
+    facts.admissionRequirementCount + facts.qualificationCount > 0 &&
+    admissionsTier === 'official';
+  const deadlinesVerified = facts.deadlineCount > 0 && deadlinesTier === 'official';
+  const costsVerified = facts.costCount > 0 && costsTier === 'official';
+  const enrollmentVerified = facts.enrollmentCount > 0 && enrollmentTier === 'official';
+  const financialAidVerified = facts.financialAidCount > 0 && financialAidTier === 'official';
+  const hasApplicationReference = Boolean(university.admissionsUrl || facts.hasApplicationUrl);
+  const applicationReady =
+    coreComplete &&
+    programsVerified &&
+    admissionsVerified &&
+    deadlinesVerified &&
+    costsVerified &&
+    hasApplicationReference;
+
+  return {
+    level: applicationReady
+      ? 'application_ready'
+      : coreComplete
+        ? 'core_complete'
+        : identityVerified
+          ? 'identity_verified'
+          : 'identity_unverified',
+    identityVerified,
+    coreComplete,
+    applicationReady,
+    officialOrGovernmentSourceCount,
+    dimensions: {
+      identity: dimension(identityFactCount, identityTier, identityVerified),
+      core: dimension(coreFactCount, coreTier, coreComplete),
+      programs: dimension(facts.programCount, programsTier, programsVerified),
+      admissions: dimension(
+        admissionsFactCount,
+        admissionsTier,
+        admissionsVerified,
+        hasApplicationReference,
+      ),
+      deadlines: dimension(facts.deadlineCount, deadlinesTier, deadlinesVerified),
+      costs: dimension(facts.costCount, costsTier, costsVerified),
+      enrollment: dimension(facts.enrollmentCount, enrollmentTier, enrollmentVerified),
+      financialAid: dimension(
+        facts.financialAidCount,
+        financialAidTier,
+        financialAidVerified,
+        Boolean(university.financialAidUrl),
+      ),
+    },
+  };
+};
 
 const costSummaryOrder = [
   {
@@ -169,7 +432,20 @@ export const resolveStudentCount = (
 const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[]> => {
   if (rows.length === 0) return [];
   const ids = rows.map((row) => row.id);
-  const [programRows, deadlineRows, sourceRows, enrollmentRows, costRows] = await Promise.all([
+  const [
+    programRows,
+    deadlineRows,
+    sourceRows,
+    enrollmentRows,
+    costRows,
+    researchRows,
+    identifierRows,
+    profileRows,
+    requirementRows,
+    qualificationRows,
+    testRows,
+    aidRows,
+  ] = await Promise.all([
     db.select().from(programs).where(inArray(programs.universityId, ids)),
     db.select().from(deadlines).where(inArray(deadlines.universityId, ids)),
     db.select().from(sources).where(inArray(sources.universityId, ids)),
@@ -180,10 +456,67 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
         attendanceStatus: enrollmentSnapshots.attendanceStatus,
         population: enrollmentSnapshots.population,
         studentCount: enrollmentSnapshots.studentCount,
+        sourceId: enrollmentSnapshots.sourceId,
       })
       .from(enrollmentSnapshots)
       .where(inArray(enrollmentSnapshots.universityId, ids)),
     db.select().from(costSnapshots).where(inArray(costSnapshots.universityId, ids)),
+    db.select().from(researchProfiles).where(inArray(researchProfiles.universityId, ids)),
+    db
+      .select({
+        universityId: institutionIdentifiers.universityId,
+        provider: institutionIdentifiers.provider,
+      })
+      .from(institutionIdentifiers)
+      .where(inArray(institutionIdentifiers.universityId, ids)),
+    db
+      .select({
+        universityId: admissionProfiles.universityId,
+        sourceId: admissionProfiles.sourceId,
+        applicationUrl: admissionProfiles.applicationUrl,
+      })
+      .from(admissionProfiles)
+      .where(inArray(admissionProfiles.universityId, ids)),
+    db
+      .select({
+        universityId: admissionProfiles.universityId,
+        sourceId: admissionRequirements.sourceId,
+      })
+      .from(admissionRequirements)
+      .innerJoin(
+        admissionProfiles,
+        eq(admissionRequirements.admissionProfileId, admissionProfiles.id),
+      )
+      .where(inArray(admissionProfiles.universityId, ids)),
+    db
+      .select({
+        universityId: admissionProfiles.universityId,
+        sourceId: qualificationRequirements.sourceId,
+      })
+      .from(qualificationRequirements)
+      .innerJoin(
+        admissionProfiles,
+        eq(qualificationRequirements.admissionProfileId, admissionProfiles.id),
+      )
+      .where(inArray(admissionProfiles.universityId, ids)),
+    db
+      .select({
+        universityId: admissionProfiles.universityId,
+        sourceId: admissionTestScores.sourceId,
+      })
+      .from(admissionTestScores)
+      .innerJoin(
+        admissionProfiles,
+        eq(admissionTestScores.admissionProfileId, admissionProfiles.id),
+      )
+      .where(inArray(admissionProfiles.universityId, ids)),
+    db
+      .select({
+        universityId: financialAidSnapshots.universityId,
+        sourceId: financialAidSnapshots.sourceId,
+      })
+      .from(financialAidSnapshots)
+      .where(inArray(financialAidSnapshots.universityId, ids)),
   ]);
   const officialEnrollment = new Map(
     enrollmentRows
@@ -195,76 +528,134 @@ const hydrate = async (db: Database, rows: UniversityRow[]): Promise<University[
       )
       .map((item) => [item.universityId, item.studentCount]),
   );
-  return rows.map((row) => ({
-    ...row,
-    studentCount: resolveStudentCount(row.studentCount, officialEnrollment.get(row.id)),
-    acceptanceRate: row.acceptanceRate === null ? null : Number(row.acceptanceRate),
-    latitude: row.latitude === null ? null : Number(row.latitude),
-    longitude: row.longitude === null ? null : Number(row.longitude),
-    updatedAt: row.updatedAt.toISOString(),
-    programs: programRows
-      .filter((item) => item.universityId === row.id)
-      .map(({ name, level, field }) => ({ name, level, field })),
-    deadlines: deadlineRows
-      .filter((item) => item.universityId === row.id)
-      .map(({ label, date, applicantType, entryType, academicYear }) => ({
-        label,
-        date,
-        applicantType,
-        entryType,
-        academicYear,
-      })),
-    sources: sourceRows
-      .filter((item) => item.universityId === row.id)
-      .map(({ title, url, category, publisher, datasetVersion, publishedAt, verifiedAt }) => ({
-        title,
-        url,
-        category,
-        publisher,
-        datasetVersion,
-        publishedAt: publishedAt?.toISOString() ?? null,
-        verifiedAt: verifiedAt.toISOString(),
-      })),
-    costs: selectCostSummaries(costRows.filter((item) => item.universityId === row.id)).map(
-      (item) => {
+  return rows.map((row) => {
+    const universityPrograms = programRows.filter((item) => item.universityId === row.id);
+    const universityDeadlines = deadlineRows.filter((item) => item.universityId === row.id);
+    const universitySources = sourceRows.filter((item) => item.universityId === row.id);
+    const universityEnrollment = enrollmentRows.filter((item) => item.universityId === row.id);
+    const universityCosts = costRows.filter((item) => item.universityId === row.id);
+    const universityResearch = researchRows.find((item) => item.universityId === row.id);
+    const universityProfiles = profileRows.filter((item) => item.universityId === row.id);
+    const universityRequirements = requirementRows.filter((item) => item.universityId === row.id);
+    const universityQualifications = qualificationRows.filter(
+      (item) => item.universityId === row.id,
+    );
+    const universityTests = testRows.filter((item) => item.universityId === row.id);
+    const universityAid = aidRows.filter((item) => item.universityId === row.id);
+    const resolvedStudentCount = resolveStudentCount(
+      row.studentCount,
+      officialEnrollment.get(row.id),
+    );
+    const coverage = deriveUniversityCoverage(
+      { ...row, studentCount: resolvedStudentCount },
+      {
+        sources: universitySources,
+        identifierProviders: identifierRows
+          .filter((item) => item.universityId === row.id)
+          .map((item) => item.provider),
+        programCount: universityPrograms.length,
+        programSourceIds: universityPrograms.flatMap((item) =>
+          item.sourceId ? [item.sourceId] : [],
+        ),
+        admissionProfileCount: universityProfiles.length,
+        admissionRequirementCount: universityRequirements.length,
+        qualificationCount: universityQualifications.length,
+        admissionTestCount: universityTests.length,
+        deadlineCount: universityDeadlines.length,
+        costCount: universityCosts.length,
+        enrollmentCount: universityEnrollment.length,
+        financialAidCount: universityAid.length,
+        admissionSourceIds: [
+          ...universityProfiles,
+          ...universityRequirements,
+          ...universityQualifications,
+          ...universityTests,
+        ].map((item) => item.sourceId),
+        deadlineSourceIds: universityDeadlines.flatMap((item) =>
+          item.sourceId ? [item.sourceId] : [],
+        ),
+        costSourceIds: universityCosts.map((item) => item.sourceId),
+        enrollmentSourceIds: universityEnrollment.map((item) => item.sourceId),
+        financialAidSourceIds: universityAid.map((item) => item.sourceId),
+        hasApplicationUrl: universityProfiles.some((item) => Boolean(item.applicationUrl)),
+      },
+    );
+    return {
+      ...row,
+      studentCount: resolvedStudentCount,
+      acceptanceRate: row.acceptanceRate === null ? null : Number(row.acceptanceRate),
+      latitude: row.latitude === null ? null : Number(row.latitude),
+      longitude: row.longitude === null ? null : Number(row.longitude),
+      updatedAt: row.updatedAt.toISOString(),
+      programs: universityPrograms.map(({ name, level, field }) => ({ name, level, field })),
+      deadlines: universityDeadlines.map(
+        ({ label, date, applicantType, entryType, academicYear }) => ({
+          label,
+          date,
+          applicantType,
+          entryType,
+          academicYear,
+        }),
+      ),
+      sources: universitySources.map(
+        ({ title, url, category, publisher, datasetVersion, publishedAt, verifiedAt }) => ({
+          title,
+          url,
+          category,
+          publisher,
+          datasetVersion,
+          publishedAt: publishedAt?.toISOString() ?? null,
+          verifiedAt: verifiedAt.toISOString(),
+        }),
+      ),
+      costs: selectCostSummaries(universityCosts).map((item) => {
         const source = sourceRows.find((candidate) => candidate.id === item.sourceId);
         if (!source) throw new Error(`Missing source ${item.sourceId} for cost snapshot`);
         return costForApi(item, source);
-      },
-    ),
-  }));
+      }),
+      researchProfile: universityResearch
+        ? (() => {
+            const source = sourceRows.find(
+              (candidate) => candidate.id === universityResearch.sourceId,
+            );
+            if (!source) {
+              throw new Error(`Missing source ${universityResearch.sourceId} for research profile`);
+            }
+            return {
+              openAlexId: universityResearch.openAlexId,
+              profileUrl: `https://openalex.org/${universityResearch.openAlexId}`,
+              worksCount: universityResearch.worksCount,
+              citedByCount: universityResearch.citedByCount,
+              hIndex: universityResearch.hIndex,
+              i10Index: universityResearch.i10Index,
+              twoYearMeanCitedness:
+                universityResearch.twoYearMeanCitedness === null
+                  ? null
+                  : Number(universityResearch.twoYearMeanCitedness),
+              status: universityResearch.status as 'active' | 'inactive' | 'withdrawn',
+              sourceUpdatedAt: universityResearch.sourceUpdatedAt.toISOString(),
+              source: sourceForApi(source),
+            };
+          })()
+        : null,
+      coverage,
+    };
+  });
 };
 
 export const listUniversities = async (
   db: Database,
   query: UniversityQuery,
 ): Promise<UniversityListResponse> => {
-  const escapedQuery = query.q ? escapeLike(query.q) : '';
   const filters = [
-    query.q
-      ? or(
-          ilike(universities.name, `%${escapedQuery}%`),
-          ilike(universities.city, `%${escapedQuery}%`),
-          ilike(universities.country, `%${escapedQuery}%`),
-        )
-      : undefined,
+    query.q ? universitySearchFilter(query.q) : undefined,
     query.country ? eq(universities.country, query.country) : undefined,
     query.type ? eq(universities.institutionType, query.type) : undefined,
     query.maxTuition ? maxTuitionFilter(query.maxTuition) : undefined,
   ].filter((filter) => filter !== undefined);
   const where = filters.length ? and(...filters) : undefined;
   const offset = (query.page - 1) * query.pageSize;
-  const relevanceOrder = query.q
-    ? sql<number>`case
-        when lower(${universities.name}) = lower(${query.q}) then 0
-        when lower(${universities.name}) = lower(${`${query.q} university`}) then 1
-        when lower(${universities.name}) like lower(${`${escapedQuery}%`}) then 2
-        when lower(${universities.name}) like lower(${`%${escapedQuery}%`}) then 3
-        when lower(${universities.city}) = lower(${query.q}) then 4
-        when lower(${universities.country}) = lower(${query.q}) then 5
-        else 6
-      end`
-    : undefined;
+  const relevanceOrder = query.q ? universitySearchRelevance(query.q) : undefined;
   const orderBy = relevanceOrder
     ? [relevanceOrder, asc(universities.name)]
     : [asc(universities.name)];
@@ -323,7 +714,11 @@ export const getUniversityAdmissions = async (
     .select()
     .from(admissionProfiles)
     .where(and(...profileFilters))
-    .orderBy(desc(admissionProfiles.academicYear), asc(admissionProfiles.intakeTerm))
+    .orderBy(
+      sql`${admissionProfiles.programId} is null desc`,
+      desc(admissionProfiles.academicYear),
+      asc(admissionProfiles.intakeTerm),
+    )
     .limit(50);
   const profileIds = profiles.map((profile) => profile.id);
   const [countRows, requirementRows, qualificationRows, testRows] = profileIds.length
@@ -403,8 +798,20 @@ export const getUniversityAdmissions = async (
     return sourceForApi(source);
   };
 
+  const scopedProgramIds = profiles.flatMap((profile) =>
+    profile.programId ? [profile.programId] : [],
+  );
+  const scopedPrograms = scopedProgramIds.length
+    ? await db
+        .select({ id: programs.id, name: programs.name })
+        .from(programs)
+        .where(inArray(programs.id, scopedProgramIds))
+    : [];
+  const programNames = new Map(scopedPrograms.map((program) => [program.id, program.name]));
   const profileResponses = profiles.map((profile) => ({
     id: profile.id,
+    programId: profile.programId,
+    programName: profile.programId ? (programNames.get(profile.programId) ?? null) : null,
     academicYear: profile.academicYear,
     intakeTerm: profile.intakeTerm,
     entryType: profile.entryType,
@@ -431,6 +838,7 @@ export const getUniversityAdmissions = async (
         details: row.details,
         sourceFlags: row.sourceFlags,
         verifiedAt: row.verifiedAt.toISOString(),
+        source: sourceFor(row.sourceId),
       })),
     qualifications: qualificationRows
       .filter((row) => row.admissionProfileId === profile.id)

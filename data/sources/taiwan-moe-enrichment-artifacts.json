@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-08-31T14:29:07Z",
+  "license": {
+    "name": "Open Government Data License, version 1.0",
+    "url": "https://data.gov.tw/license"
+  },
+  "sources": [
+    {
+      "datasetId": "9621",
+      "datasetTitle": "大專校院各校科系別概況",
+      "datasetPageUrl": "https://data.gov.tw/dataset/9621",
+      "downloadUrl": "https://stats.moe.gov.tw/files/opendata/sdata.json",
+      "publisher": "Taiwan Ministry of Education, Department of Statistics",
+      "datasetPageMetadataUpdatedAt": "2026-02-04T16:34:00+08:00",
+      "downloadLastModifiedAt": "2026-03-26T07:02:36Z",
+      "downloadFile": "programs.json",
+      "downloadSha256": "d484c6671e63d89419f71ac689f19d1eb908e6faf966a29f5cd891338766059c",
+      "downloadBytes": 37111112,
+      "downloadRows": 118000,
+      "datasetVersion": "103-114",
+      "selectedAcademicYear": "114",
+      "selectedRows": 9341,
+      "selectedSchools": 140,
+      "notes": "The official annual dataset reports department or organizational-unit rows with student, full-time teacher, and previous-academic-year graduate counts. Since academic year 110, the teacher field includes teaching assistants. Empty qualification labels in year 114 are preserved as organizational-unit rows and are not presented as degree offerings.",
+      "role": "department_overview"
+    },
+    {
+      "datasetId": "24726",
+      "datasetTitle": "大專校院學雜費收費基準",
+      "datasetPageUrl": "https://data.gov.tw/dataset/24726",
+      "downloadUrl": "https://udb.moe.edu.tw/download/udata/static_file/114/校1-2.日間學士班以下學費、雜費收費基準-以「學院」統計(111學年度起).csv",
+      "publisher": "Taiwan Ministry of Education, Department of Higher Education",
+      "datasetPageMetadataUpdatedAt": "2026-01-12T18:47:00+08:00",
+      "downloadLastModifiedAt": "2026-07-09T02:17:50Z",
+      "downloadFile": "tuition.csv",
+      "downloadSha256": "5bb9e58ec0c967f5d925f9aeeebd219a5c85e252f0fc5a1aaab9e464b6dc5baa",
+      "downloadBytes": 68921,
+      "downloadRows": 586,
+      "datasetVersion": "111-114",
+      "selectedAcademicYear": "114",
+      "selectedRows": 147,
+      "selectedSchools": 147,
+      "notes": "The supplied CSV was verified byte-for-byte against official dataset 24726. Dataset 31445 is a different aggregate institution-overview dataset and must not be cited as tuition provenance. Values are TWD tuition-and-miscellaneous-fee bases by daytime study category. The official source does not state a semester or annual charge period, so the artifact does not infer one. Source-reported zero is retained separately and is never interpreted as free tuition.",
+      "role": "tuition_fee_basis"
+    }
+  ],
+  "generatedArtifacts": [
+    {
+      "datasetFile": "taiwan-moe-departments-114.json",
+      "datasetSha256": "c7b8187697afadc3ecd8e690904a2d31df367d157225dc9d75328dc9a6be192c",
+      "datasetBytes": 3881780,
+      "datasetVersion": "114",
+      "selectedRows": 9341,
+      "schoolCount": 140,
+      "role": "department_overview"
+    },
+    {
+      "datasetFile": "taiwan-moe-tuition-114.json",
+      "datasetSha256": "d5a9e063eeb67cff0d11907b1681da591796e8db2033f897b6a2b68dcda4a7ce",
+      "datasetBytes": 156747,
+      "datasetVersion": "114",
+      "selectedRows": 147,
+      "schoolCount": 147,
+      "role": "tuition_fee_basis"
+    }
+  ]
+}

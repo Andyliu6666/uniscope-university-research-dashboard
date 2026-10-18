@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+export * from './ib.ts';
+
 export const programSchema = z.object({
   name: z.string().min(2).max(160),
   level: z.enum(['undergraduate', 'graduate']),
@@ -36,6 +38,11 @@ export const universityInputSchema = z.object({
     .regex(/^[A-Z]{2}$/u)
     .nullable()
     .optional(),
+  continentCode: z
+    .string()
+    .regex(/^(?:AF|AN|AS|EU|NA|OC|SA)$/u)
+    .nullable()
+    .optional(),
   region: z.string().max(120).nullable().optional(),
   city: z.string().min(2).max(80),
   addressLine: z.string().max(500).nullable().optional(),
@@ -45,6 +52,7 @@ export const universityInputSchema = z.object({
   longitude: z.number().min(-180).max(180).nullable().optional(),
   website: z.url().startsWith('https://'),
   officialWebsite: z.url().startsWith('https://').nullable().optional(),
+  wikipediaUrl: z.url().startsWith('https://').nullable().optional(),
   admissionsUrl: z.url().startsWith('https://').nullable().optional(),
   financialAidUrl: z.url().startsWith('https://').nullable().optional(),
   netPriceUrl: z.url().startsWith('https://').nullable().optional(),
@@ -59,7 +67,7 @@ export const universityInputSchema = z.object({
   offersUndergraduate: z.boolean().nullable().optional(),
   offersGraduate: z.boolean().nullable().optional(),
   academicCalendar: z.string().max(100).nullable().optional(),
-  establishedYear: z.number().int().min(1000).max(2100).nullable().optional(),
+  establishedYear: z.number().int().min(1).max(2100).nullable().optional(),
   studentCount: z.number().int().positive().nullable(),
   acceptanceRate: z.number().min(0).max(100).nullable(),
   annualTuitionUsd: z.number().int().nonnegative().nullable(),
@@ -84,10 +92,60 @@ const costSnapshotSchema = z.object({
   source: sourceSchema,
 });
 
+/**
+ * Independent OpenAlex bibliometrics. This is intentionally separate from
+ * admissions and completeness coverage: publication and citation counts are
+ * research context, not a university ranking or an application requirement.
+ */
+export const researchProfileSchema = z.object({
+  openAlexId: z.string().regex(/^I[1-9][0-9]*$/u),
+  profileUrl: z.url().startsWith('https://openalex.org/'),
+  worksCount: z.number().int().nonnegative(),
+  citedByCount: z.number().int().nonnegative(),
+  hIndex: z.number().int().nonnegative(),
+  i10Index: z.number().int().nonnegative(),
+  twoYearMeanCitedness: z.number().nonnegative().nullable(),
+  status: z.enum(['active', 'inactive', 'withdrawn']),
+  sourceUpdatedAt: z.iso.datetime(),
+  source: sourceSchema,
+});
+
+export const coverageStatusSchema = z.enum(['missing', 'partial', 'verified']);
+export const coverageSourceTierSchema = z.enum([
+  'none',
+  'identity_registry',
+  'independent',
+  'official',
+]);
+export const coverageDimensionSchema = z.object({
+  status: coverageStatusSchema,
+  factCount: z.number().int().nonnegative(),
+  sourceTier: coverageSourceTierSchema,
+});
+export const universityCoverageSchema = z.object({
+  level: z.enum(['identity_unverified', 'identity_verified', 'core_complete', 'application_ready']),
+  identityVerified: z.boolean(),
+  coreComplete: z.boolean(),
+  applicationReady: z.boolean(),
+  officialOrGovernmentSourceCount: z.number().int().nonnegative(),
+  dimensions: z.object({
+    identity: coverageDimensionSchema,
+    core: coverageDimensionSchema,
+    programs: coverageDimensionSchema,
+    admissions: coverageDimensionSchema,
+    deadlines: coverageDimensionSchema,
+    costs: coverageDimensionSchema,
+    enrollment: coverageDimensionSchema,
+    financialAid: coverageDimensionSchema,
+  }),
+});
+
 export const universitySchema = universityInputSchema.extend({
   id: z.string().uuid(),
   updatedAt: z.iso.datetime(),
   costs: z.array(costSnapshotSchema),
+  researchProfile: researchProfileSchema.nullable(),
+  coverage: universityCoverageSchema,
 });
 
 export const universityQuerySchema = z.object({
@@ -102,6 +160,11 @@ export const universityQuerySchema = z.object({
 export type UniversityInput = z.infer<typeof universityInputSchema>;
 export type University = z.infer<typeof universitySchema>;
 export type UniversityQuery = z.infer<typeof universityQuerySchema>;
+export type CoverageStatus = z.infer<typeof coverageStatusSchema>;
+export type CoverageSourceTier = z.infer<typeof coverageSourceTierSchema>;
+export type CoverageDimension = z.infer<typeof coverageDimensionSchema>;
+export type UniversityCoverage = z.infer<typeof universityCoverageSchema>;
+export type ResearchProfile = z.infer<typeof researchProfileSchema>;
 
 export const admissionsQuerySchema = z.object({
   year: z
@@ -133,6 +196,7 @@ export interface AdmissionCount {
 }
 
 export interface AdmissionRequirement {
+  source?: UniversitySource;
   category:
     | 'academic'
     | 'application'
@@ -230,6 +294,8 @@ export interface FinancialAidSnapshot {
 
 export interface AdmissionProfile {
   id: string;
+  programId: string | null;
+  programName?: string | null;
   academicYear: string;
   intakeTerm: string;
   entryType: 'first_year' | 'transfer' | 'readmission' | 'other';

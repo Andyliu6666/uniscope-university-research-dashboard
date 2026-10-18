@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-asia-reviewed-2026-09-16-r2",
+  "reviewedOn": "2026-09-16",
+  "institutions": [
+    {
+      "key": "ums",
+      "name": "Universiti Malaysia Sabah",
+      "provider": "ror",
+      "externalId": "040v70252",
+      "countryCode": "MY",
+      "officialDomains": ["ums.edu.my"]
+    },
+    {
+      "key": "sukkur-iba",
+      "name": "Sukkur IBA University",
+      "provider": "ror",
+      "externalId": "03e5jvk98",
+      "countryCode": "PK",
+      "officialDomains": ["iba-suk.edu.pk"]
+    },
+    {
+      "key": "unikl",
+      "name": "Universiti Kuala Lumpur",
+      "provider": "ror",
+      "externalId": "026wwrx19",
+      "countryCode": "MY",
+      "officialDomains": ["unikl.edu.my"]
+    },
+    {
+      "key": "sunway",
+      "name": "Sunway University",
+      "provider": "ror",
+      "externalId": "04mjt7f73",
+      "countryCode": "MY",
+      "officialDomains": ["sunwayuniversity.edu.my"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "ums",
+      "program": {
+        "name": "Civil Engineering",
+        "level": "undergraduate",
+        "field": "Civil engineering",
+        "courseCode": "UH6526001",
+        "url": "https://www.ums.edu.my/fkj/index.php/what-we-offer/undergraduate/uh6526001-civil-engineering"
+      },
+      "requirement": {
+        "recordKey": "ums-uh6526001-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "domestic",
+        "applicantContext": "IB Diploma candidates using the published UPU/local undergraduate route. Applicability to the separate international-admissions route has not been verified.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4],
+        "subjectNotes": "Minimum Higher Level grade 4 in Mathematics and in either Physics or Chemistry.",
+        "conditions": "IB Diploma completion is required. English alternatives are valid MUET Band 3.0 (from Session 1 of 2021) or Band 3 (earlier tests), IELTS Academic 5.5, or TOEFL 550 PBT / 213 CBT / 80 iBT. The IB section also requires absence of visual or physical impairments that would hinder practical work. The published application link is UPU. UMS maintains a separate international-admissions system; this record is conservatively limited to the local route and is not evidence of international eligibility. No entry year is specified.",
+        "source": {
+          "title": "Universiti Malaysia Sabah Civil Engineering: IB entry requirements",
+          "url": "https://www.ums.edu.my/fkj/index.php/what-we-offer/undergraduate/uh6526001-civil-engineering",
+          "checkedOn": "2026-09-16",
+          "evidence": "24 mata minimum dan sekurang-kurangnya Gred 4(Higher Level)"
+        }
+      }
+    },
+    {
+      "institutionKey": "ums",
+      "program": {
+        "name": "Mechanical Engineering",
+        "level": "undergraduate",
+        "field": "Mechanical engineering",
+        "courseCode": "UH6521001",
+        "url": "https://www.ums.edu.my/fkj/index.php/what-we-offer/undergraduate/uh6521001-mechanical-engineering"
+      },
+      "requirement": {
+        "recordKey": "ums-uh6521001-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "domestic",
+        "applicantContext": "IB Diploma candidates using the published UPU/local undergraduate route. Applicability to the separate international-admissions route has not been verified.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4],
+        "subjectNotes": "Minimum Higher Level grade 4 in Mathematics and in either Physics or Chemistry, as stated specifically in the IB route.",
+        "conditions": "IB Diploma completion is required. English alternatives are valid MUET Band 3.0 (from Session 1 of 2021) or Band 3 (earlier tests), IELTS Academic 5.5, or TOEFL 550 PBT / 213 CBT / 80 iBT. The IB section also requires absence of visual or physical impairments that would hinder practical work. The published application link is UPU. UMS maintains a separate international-admissions system; this record is conservatively limited to the local route and is not evidence of international eligibility. No entry year is specified.",
+        "source": {
+          "title": "Universiti Malaysia Sabah Mechanical Engineering: IB entry requirements",
+          "url": "https://www.ums.edu.my/fkj/index.php/what-we-offer/undergraduate/uh6521001-mechanical-engineering",
+          "checkedOn": "2026-09-16",
+          "evidence": "24 mata minimum dan sekurang-kurangnya Gred 4 (Higher Level)"
+        }
+      }
+    },
+    {
+      "institutionKey": "sukkur-iba",
+      "program": {
+        "name": "Bachelor of Business Administration",
+        "level": "undergraduate",
+        "field": "Business administration",
+        "courseCode": null,
+        "url": "https://iba-suk.edu.pk/offered-programs/bba"
+      },
+      "requirement": {
+        "recordKey": "sukkur-iba-bba-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the International Baccalaureate under the programme's published IB qualification route.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 28,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme's IB entry statement does not specify individual subject or Higher Level grades.",
+        "conditions": "The course page expressly offers IB as one of the alternative qualifying credentials. This is an academic eligibility threshold, not an admission guarantee. The IB clause states no separate subject grades. The entry rule is undated.",
+        "source": {
+          "title": "Sukkur IBA University BBA: eligibility criteria for admission",
+          "url": "https://iba-suk.edu.pk/offered-programs/bba",
+          "checkedOn": "2026-09-16",
+          "evidence": "An international Baccalaureate (at least 28 points out of 45)."
+        }
+      }
+    },
+    {
+      "institutionKey": "sukkur-iba",
+      "program": {
+        "name": "Bachelors of Science (Computer Science)",
+        "level": "undergraduate",
+        "field": "Computer science",
+        "courseCode": null,
+        "url": "https://www.iba-suk.edu.pk/offered-programs/computer-science"
+      },
+      "requirement": {
+        "recordKey": "sukkur-iba-bscs-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the International Baccalaureate under the programme's published IB qualification route.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 28,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme's IB entry statement does not specify individual subject or Higher Level grades.",
+        "conditions": "IB is an alternative qualifying credential in this programme's own admission section. The stated total establishes academic eligibility without guaranteeing admission. Dates attached to downloadable course schemas are curriculum dates, so the IB entry year remains unspecified.",
+        "source": {
+          "title": "Sukkur IBA University Computer Science: admission requirements",
+          "url": "https://www.iba-suk.edu.pk/offered-programs/computer-science",
+          "checkedOn": "2026-09-16",
+          "evidence": "An international Baccalaureate (at least 28 points out of 45)."
+        }
+      }
+    },
+    {
+      "institutionKey": "sukkur-iba",
+      "program": {
+        "name": "Bachelors of Science (Software Engineering)",
+        "level": "undergraduate",
+        "field": "Software engineering",
+        "courseCode": null,
+        "url": "https://www.iba-suk.edu.pk/offered-programs/software-engineering"
+      },
+      "requirement": {
+        "recordKey": "sukkur-iba-bsse-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the International Baccalaureate under the programme's published IB qualification route.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 28,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme's IB entry statement does not specify individual subject or Higher Level grades.",
+        "conditions": "IB is an alternative qualifying credential in this programme's own admission section. The stated total establishes academic eligibility without guaranteeing admission. Dates attached to downloadable course schemas are curriculum dates, so the IB entry year remains unspecified.",
+        "source": {
+          "title": "Sukkur IBA University Software Engineering: admission requirements",
+          "url": "https://www.iba-suk.edu.pk/offered-programs/software-engineering",
+          "checkedOn": "2026-09-16",
+          "evidence": "An international Baccalaureate (at least 28 points out of 45)."
+        }
+      }
+    },
+    {
+      "institutionKey": "sukkur-iba",
+      "program": {
+        "name": "BS Economics",
+        "level": "undergraduate",
+        "field": "Economics",
+        "courseCode": null,
+        "url": "https://dob.iba-suk.edu.pk/UndergradPrograms/BsEcoElig"
+      },
+      "requirement": {
+        "recordKey": "sukkur-iba-economics-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the International Baccalaureate under the programme's published IB qualification route.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 28,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme's IB entry statement does not specify individual subject or Higher Level grades.",
+        "conditions": "The department's BS Economics eligibility page explicitly lists the IB alternative. The numeric requirement is a minimum for academic eligibility; the page does not guarantee admission. Its footer date does not establish an entry year.",
+        "source": {
+          "title": "Sukkur IBA University BS Economics: eligibility criteria",
+          "url": "https://dob.iba-suk.edu.pk/UndergradPrograms/BsEcoElig",
+          "checkedOn": "2026-09-16",
+          "evidence": "an International Baccalaureate (minimum 28 points out of 45)"
+        }
+      }
+    },
+    {
+      "institutionKey": "unikl",
+      "program": {
+        "name": "Bachelor of Engineering Technology (Water Engineering and Energy) with Honours",
+        "level": "undergraduate",
+        "field": "Engineering technology",
+        "courseCode": null,
+        "url": "https://www.unikl.edu.my/programme/bachelor-of-engineering-technology-water-engineering-and-energy-with-honours/"
+      },
+      "requirement": {
+        "recordKey": "unikl-water-engineering-ib-local-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "January and September",
+        "entryType": "first_year",
+        "applicantType": "domestic",
+        "applicantContext": "Local applicants presenting IB under the programme page's explicitly labelled Local Requirement section.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme's IB entry statement does not specify individual subject or Higher Level grades.",
+        "conditions": "A pass in IB with the published total is a standalone alternative under local entry requirements. Mathematics/science grades attached to other qualifications are not stated as IB conditions. The page directs international applicants to a separate source. January and September intakes are named without a year. The displayed MQA/MOHE registration numbers are not treated as course codes.",
+        "source": {
+          "title": "UniKL Water Engineering and Energy: local entry requirements",
+          "url": "https://www.unikl.edu.my/programme/bachelor-of-engineering-technology-water-engineering-and-energy-with-honours/",
+          "checkedOn": "2026-09-16",
+          "evidence": "Pass in International Baccalaureate (IB) with at least 24 points"
+        }
+      }
+    },
+    {
+      "institutionKey": "sunway",
+      "program": {
+        "name": "Bachelor of Science (Honours) in International Business",
+        "level": "undergraduate",
+        "field": "International business",
+        "courseCode": null,
+        "url": "https://www.sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-international-business"
+      },
+      "requirement": {
+        "recordKey": "sunway-international-business-ib-unspecified",
+        "academicYear": "unspecified",
+        "intakeTerm": "January, April and September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the International Baccalaureate under the programme's published IB qualification route.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 42,
+        "includesCorePoints": false,
+        "hlGrades": [],
+        "subjectNotes": "A pass in SPM Mathematics or equivalent is additionally required. No numerical IB Higher Level subject pattern is specified.",
+        "conditions": "Complete IB with at least 24 subject points, excluding bonus/core points. English options include IELTS 6.0 or equivalent, MUET Band 4, SPM English B, UEC English B6, O-Level English (1119) credit, Sunway IEP Level 4 at 65%, or satisfactory pre-university ESL/English where instruction is in English. Intakes are listed without an entry year; the 2026 label applies to fees.",
+        "source": {
+          "title": "Sunway University International Business: entry requirements",
+          "url": "https://www.sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-international-business",
+          "checkedOn": "2026-09-16",
+          "evidence": "Completed with minimum 24 points (excluding bonus points)"
+        }
+      }
+    }
+  ]
+}

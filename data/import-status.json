@@ -2,70 +2,170 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 272663,
+            "programs": 280086,
             "deadlines": 1,
-            "costSnapshots": 98212,
+            "costSnapshots": 98718,
             "admissionCounts": 32941,
-            "admissionProfiles": 1835,
+            "researchProfiles": 27018,
+            "admissionProfiles": 1906,
             "admissionTestScores": 4552,
-            "enrollmentSnapshots": 85579,
-            "admissionRequirements": 22020,
-            "financialAidSnapshots": 0
+            "enrollmentSnapshots": 86194,
+            "admissionRequirements": 22068,
+            "financialAidSnapshots": 0,
+            "qualificationRequirements": 54
+        },
+        "ibCoverage": {
+            "byCountry": [
+                {
+                    "country": "Canada",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Chile",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 3,
+                    "programs_with_published_totals": 3
+                },
+                {
+                    "country": "Ghana",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 4,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Kenya",
+                    "institutions": 6,
+                    "programs_with_reviewed_ib": 16,
+                    "programs_with_published_totals": 13
+                },
+                {
+                    "country": "Malaysia",
+                    "institutions": 4,
+                    "programs_with_reviewed_ib": 6,
+                    "programs_with_published_totals": 6
+                },
+                {
+                    "country": "New Zealand",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Nigeria",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 2,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Pakistan",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 4,
+                    "programs_with_published_totals": 4
+                },
+                {
+                    "country": "Peru",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "South Africa",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Tanzania",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 1,
+                    "programs_with_published_totals": 0
+                },
+                {
+                    "country": "United Kingdom",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 12,
+                    "programs_with_published_totals": 11
+                }
+            ],
+            "reviewedRecords": 54,
+            "programsWithReviewedIb": 48,
+            "institutionWidePolicies": 6,
+            "institutionsWithReviewedIb": 25,
+            "programsWithPublishedTotals": 37,
+            "undergraduateCatalogEntries": 194422
         },
         "coreCoverage": {
-            "ownership": 3946,
+            "phone": 4078,
+            "region": 28030,
+            "address": 4067,
+            "ownership": 3992,
+            "postalCode": 4078,
+            "coordinates": 28144,
+            "countryCode": 28171,
             "netPriceUrl": 3862,
-            "studentCount": 4984,
+            "studentCount": 5015,
+            "wikipediaUrl": 15301,
             "admissionsUrl": 3749,
-            "offersGraduate": 3946,
-            "establishedYear": 22874,
+            "continentCode": 27103,
+            "offersGraduate": 4080,
+            "establishedYear": 25370,
             "financialAidUrl": 3709,
-            "institutionType": 3947,
-            "officialWebsite": 13882,
-            "operatingStatus": 3946,
-            "offersUndergraduate": 3946
+            "institutionType": 4079,
+            "officialWebsite": 20841,
+            "operatingStatus": 28171,
+            "offersUndergraduate": 4080
         },
-        "rejectedRows": 128,
-        "universities": 28144,
+        "rejectedRows": 147,
+        "universities": 28171,
         "rorIdentifiers": 27107,
+        "aliasedProfiles": 23827,
         "profileCoverage": {
-            "costs": 3731,
-            "programs": 3935,
+            "costs": 3865,
+            "programs": 4088,
+            "research": 27018,
             "deadlines": 1,
-            "admissions": 1835,
-            "enrollment": 3934,
-            "financialAid": 0
+            "admissions": 1863,
+            "enrollment": 4068,
+            "financialAid": 0,
+            "noStructuredApplicationFacts": 24066
         },
-        "sourcedProfiles": 28144,
+        "sourcedProfiles": 28171,
         "identifierCounts": {
             "ror": 27107,
             "ipeds": 3946,
+            "tw_moe": 134,
+            "openalex": 27018,
             "wikidata": 27465
+        },
+        "institutionAliases": 52955,
+        "reviewedAdmissionsCoverage": {
+            "facts": 48,
+            "profiles": 17,
+            "institutions": 3
         }
     },
-    "generatedAt": "2026-08-31T08:54:51Z",
+    "generatedAt": "2026-10-18T00:07:25Z",
     "latestImport": {
         "status": "completed",
-        "skipped": 2126,
-        "updated": 3946,
-        "inserted": 0,
-        "provider": "ipeds-core",
+        "skipped": 0,
+        "updated": 0,
+        "inserted": 6,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 6072,
-        "startedAt": "2026-08-31T08:54:45.158454+00:00",
-        "updatedAt": "2026-08-31T08:54:47.437+00:00",
+        "processed": 6,
+        "startedAt": "2026-10-18T00:07:21.605833+00:00",
+        "updatedAt": "2026-10-18T00:07:21.605833+00:00",
         "checkpoint": {
-            "sourceRow": 6072,
-            "sourceUrl": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
-            "sourceFile": "HD2024.csv",
-            "sourceRows": 6072,
-            "sourceSha256": "d7b20e136fd971d7dce8ad6ec9b7002f0f281f133959f2c3a6c089a5a4610fe5",
-            "schemaVersion": 2,
-            "sourceRetrievedAt": "2026-08-31T00:00:00.000Z"
+            "profiles": 6,
+            "admissionFacts": 6,
+            "programsReused": 0,
+            "programsCreated": 5
         },
-        "finishedAt": "2026-08-31T08:54:47.437+00:00",
-        "artifactSha256": "6c8ec2755a16b39cbf7f97b87b093f3ef0116299658605a60ecb0b89684df954",
-        "datasetVersion": "HD2024"
+        "finishedAt": "2026-10-18T00:07:21.64+00:00",
+        "artifactSha256": "85621415911d74a1db373ca7e7c542cbc47b0d286a2fa87a19e4e0d700df3ee5",
+        "datasetVersion": "official-admissions-botswana-programs-2026-10-18-v1"
     },
-    "schemaVersion": 1
+    "schemaVersion": 2
 }

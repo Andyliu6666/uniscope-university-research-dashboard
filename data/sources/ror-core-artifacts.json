@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "artifact": {
+    "datasetVersion": "v2.12-2026-08-25",
+    "datasetFile": "ror-core-v2.12-2026-08-25.jsonl",
+    "datasetSha256": "8cc89b0570b3715dad263be0e9259fc84fc4796a5d4106342f5f6b504e48930a",
+    "datasetBytes": 12767109,
+    "datasetRows": 27801,
+    "sourceFile": "v2.12-2026-08-25-ror-data.csv",
+    "sourceSha256": "f9b672279852803c547140f7655221ce00dd1d6590ee84bd6342237d850dff79",
+    "sourceRows": 137398,
+    "sourceUrl": "https://zenodo.org/records/22099990/files/v2.12-2026-08-25-ror-data.zip?download=1",
+    "publisher": "Research Organization Registry (ROR)",
+    "license": "CC0 1.0",
+    "retrievedAt": "2026-08-31T04:10:00.000Z",
+    "statusCounts": {
+      "active": 27055,
+      "inactive": 338,
+      "withdrawn": 408
+    },
+    "aliasRows": 53722,
+    "transformation": "Exact ROR education records projected to stable identity-linked core fields and stored names; insecure official website links are omitted rather than upgraded or guessed; no name matching, estimates, or inferred admissions data."
+  }
+}

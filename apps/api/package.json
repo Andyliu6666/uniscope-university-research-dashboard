@@ -13,7 +13,17 @@
     "db:migrate": "tsx src/db/migrate.ts",
     "db:studio": "drizzle-kit studio",
     "import": "tsx src/scripts/import-universities.ts",
+    "import:ib": "tsx src/scripts/import-ib-requirements.ts",
+    "import:admissions-facts": "tsx src/scripts/import-admissions-facts.ts",
+    "build:ror-core": "tsx src/scripts/build-ror-core-artifact.ts",
+    "build:openalex-research": "tsx src/scripts/build-openalex-institution-artifact.ts",
+    "build:taiwan-moe": "tsx src/scripts/build-taiwan-moe-artifact.ts",
+    "build:taiwan-moe-enrichment": "tsx src/scripts/build-taiwan-moe-enrichment-artifacts.ts",
     "import:ror": "tsx src/scripts/import-ror.ts",
+    "import:ror-core": "tsx src/scripts/import-ror-core.ts",
+    "import:openalex-research": "tsx src/scripts/import-openalex-research.ts",
+    "import:taiwan-moe": "tsx src/scripts/import-taiwan-moe.ts",
+    "import:taiwan-moe-enrichment": "tsx src/scripts/import-taiwan-moe-enrichment.ts",
     "import:ipeds": "tsx src/scripts/import-ipeds.ts",
     "import:ipeds-core": "tsx src/scripts/import-ipeds-core.ts",
     "import:ipeds-admissions": "tsx src/scripts/import-ipeds-admissions.ts",
@@ -33,12 +43,12 @@
     "drizzle-orm": "^0.45.2",
     "fastify": "^5.12.1",
     "postgres": "^3.4.9",
-    "zod": "^4.4.3"
+    "zod": "^4.5.4"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.4.0",
     "drizzle-kit": "^0.31.10",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.13",
     "vitest": "^4.1.11"
   }
 }

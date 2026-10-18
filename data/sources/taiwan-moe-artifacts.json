@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-08-31T09:02:42Z",
+  "license": {
+    "name": "Open Government Data License, version 1.0",
+    "url": "https://data.gov.tw/license"
+  },
+  "sources": [
+    {
+      "role": "directory",
+      "datasetFile": "taiwan-moe-directory-108.csv",
+      "datasetSha256": "18c39c8d88d0da369ed58fdf2fce70b2536680408f597f437e206295e73a93cf",
+      "datasetRows": 160,
+      "datasetVersion": "108",
+      "datasetPageUrl": "https://data.gov.tw/dataset/33207",
+      "downloadUrl": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5038/55f39b31-27a0-4009-866a-ea260eb45eaf.csv",
+      "publisher": "Taiwan Ministry of Education, Department of Higher Education",
+      "notes": "The directory is an official 108-academic-year snapshot. It is used only as a candidate for contact and website fields; the current institution scope comes from the 114-academic-year enrollment file."
+    },
+    {
+      "role": "enrollment",
+      "datasetFile": "taiwan-moe-students-113-114.json",
+      "datasetSha256": "5c421013ac45f7911073057d07ba3b8353a2d65f36070e1815e171a3de40c677",
+      "datasetRows": 1474,
+      "datasetVersion": "113-114",
+      "datasetPageUrl": "https://data.gov.tw/dataset/6231",
+      "downloadUrl": "https://stats.moe.gov.tw/files/opendata/student.json",
+      "publisher": "Taiwan Ministry of Education, Department of Statistics",
+      "notes": "The importer selects only reported academic year 114. Counts are official enrolled students as of the Ministry dataset reference date."
+    }
+  ],
+  "generatedArtifact": {
+    "datasetFile": "taiwan-moe-114.json",
+    "datasetSha256": "6faf077dc2c8ef674ac9861544bbcaa0cae9c70bbb5f2013177870d814a37ebc",
+    "datasetVersion": "114",
+    "schoolCount": 139,
+    "selectedSourceRows": 737
+  }
+}

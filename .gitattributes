@@ -1,0 +1,2 @@
+# Preserve downloaded CSV bytes so reviewed source checksums remain reproducible.
+data/sources/*.csv -text whitespace=cr-at-eol
