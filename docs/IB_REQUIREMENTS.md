@@ -24,6 +24,7 @@ The validated and imported artifacts are:
 - `data/sources/ib-requirements-latin-america-20260916.json`
 - `data/sources/ib-requirements-ghana-20260929.json`
 - `data/sources/ib-requirements-strathmore-20261001.json`
+- `data/sources/ib-requirements-ghana-pacific-20261018.json`
 
 Copy their structure into a **new versioned file**, review each source, then validate and preview it before importing. Filenames retain their initial research date; the artifact's dataset version and source check dates identify the final review.
 

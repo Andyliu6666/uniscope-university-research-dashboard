@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-ghana-pacific-2026-10-18-v1",
+  "reviewedOn": "2026-10-18",
+  "institutions": [
+    {
+      "key": "ashesi",
+      "name": "Ashesi University",
+      "provider": "ror",
+      "externalId": "028kehd60",
+      "countryCode": "GH",
+      "officialDomains": ["ashesi.edu.gh"]
+    },
+    {
+      "key": "ghana",
+      "name": "University of Ghana",
+      "provider": "ror",
+      "externalId": "01r22mr83",
+      "countryCode": "GH",
+      "officialDomains": ["ug.edu.gh"]
+    },
+    {
+      "key": "usp",
+      "name": "University of the South Pacific",
+      "provider": "ror",
+      "externalId": "008stv805",
+      "countryCode": "FJ",
+      "officialDomains": ["usp.ac.fj"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "ashesi",
+      "program": null,
+      "requirement": {
+        "recordKey": "ashesi-ib-diploma-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants using the IB Diploma route; programme-specific and additional application conditions still apply.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The FAQ does not state an IB total, HL grade pattern or IB-specific subject grades. Its general engineering Physics and Elective/Further Mathematics condition remains in general admissions; no IB grade equivalent is invented.",
+        "conditions": "An IB Diploma is an accepted alternative school-leaving qualification. High-school transcripts and the applicable application/interview conditions also apply. The source does not state an entry year, IB minimum or offer band.",
+        "source": {
+          "title": "Ashesi: undergraduate IB Diploma route",
+          "url": "https://ashesi.edu.gh/how-to-apply/",
+          "checkedOn": "2026-10-18",
+          "evidence": "The undergraduate FAQ lists IB Diploma as an accepted qualification."
+        }
+      }
+    },
+    {
+      "institutionKey": "usp",
+      "program": null,
+      "requirement": {
+        "recordKey": "usp-ib-international-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "International qualification equivalency for citizens of non-USP-member countries, as defined in the 2026 handbook; diploma/undergraduate column, not foundation or postgraduate.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The Diploma/Undergraduate column requires an IB Diploma with aggregate at least 24. No academic HL subject pattern is stated in this table. The separate English-evidence table lists HL grade 4 or higher but omits a subject name; confirm the accepted English subject with USP. It is an alternative language-evidence route, not an extra generic HL total.",
+        "conditions": "2026 handbook printed page 82 / PDF page 83, with international definition and language rules on printed pages 78-79. This is academic equivalency, not guaranteed admission. English and programme-specific conditions apply. The 45-point scale is the IB Diploma scale; the table does not separately specify core-point inclusion, retained as unknown.",
+        "source": {
+          "title": "USP 2026 Handbook: IB academic equivalency, printed page 82",
+          "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+          "checkedOn": "2026-10-18",
+          "evidence": "The diploma/undergraduate IB equivalency is a minimum aggregate of 24."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Medicine and Bachelor of Surgery",
+        "level": "undergraduate",
+        "field": "Medicine",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-medicine-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [5],
+        "subjectNotes": "HL Chemistry must be at least 5. The page additionally specifies one HL and one SL grade from Biology, Mathematics or Physics, but gives no numeric minimum for those two grades. English Language/Literature SL and Mathematics SL must be at least 4, with IGCSE/equivalent grade C in the remaining third science. Do not infer three HL grades of 5 or an IB total.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Medicine and Bachelor of Surgery",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for medicine; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "B.Ed. in Science (Physics)",
+        "level": "undergraduate",
+        "field": "Physics education",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-education-physics-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4, including Physics; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — B.Ed. in Science (Physics)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for education physics; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "B.Ed. in Science (Chemistry)",
+        "level": "undergraduate",
+        "field": "Chemistry education",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-education-chemistry-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4, including Chemistry; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — B.Ed. in Science (Chemistry)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for education chemistry; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "B.Ed. in Science (Biology)",
+        "level": "undergraduate",
+        "field": "Biology education",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-education-biology-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4, including Biology; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — B.Ed. in Science (Biology)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for education biology; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "B.Ed. in Mathematics",
+        "level": "undergraduate",
+        "field": "Mathematics education",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-education-mathematics-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4, including Mathematics; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — B.Ed. in Mathematics",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for education mathematics; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "B.A. in Sport and Physical Culture Studies",
+        "level": "undergraduate",
+        "field": "Sport and physical culture",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-sport-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — B.A. in Sport and Physical Culture Studies",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for sport; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Fine Arts",
+        "level": "undergraduate",
+        "field": "Fine arts",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-fine-arts-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4; English Language/Literature SL and Mathematics SL at least 4. Shared programme selection requirements are recorded in general admissions.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Fine Arts",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for fine arts; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Laws (LLB)",
+        "level": "undergraduate",
+        "field": "Law",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-law-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [6, 6, 6],
+        "subjectNotes": "Three HL subjects at least 6; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Laws (LLB)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for law; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Business Administration",
+        "level": "undergraduate",
+        "field": "Business administration",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-business-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [5, 5, 5],
+        "subjectNotes": "Three HL subjects at least 5; English Language/Literature SL and Mathematics SL at least 4.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Business Administration",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for business; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Arts",
+        "level": "undergraduate",
+        "field": "Arts",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-arts-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4; English Language/Literature SL and Mathematics SL at least 4. BA course choices also require Mathematics for Economics/Mathematics/Statistics or Computer Science, French for French, English Literature for English, and Geography for Geography; the table does not separately state the level/grade for these named course prerequisites.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Arts",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for arts; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Doctor of Veterinary Medicine",
+        "level": "undergraduate",
+        "field": "Veterinary medicine",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-veterinary-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Biology, Chemistry and Mathematics at HL, each at least 4; English Language/Literature SL at least 4 and IGCSE/equivalent Physics at least C. Do not add a separate SL Mathematics condition absent from this programme block.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Doctor of Veterinary Medicine",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for veterinary; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Engineering Sciences (Materials Science & Engineering Option)",
+        "level": "undergraduate",
+        "field": "Materials engineering",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-materials-engineering-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Mathematics plus any two of Chemistry, Physics and Biology. English Language/Literature SL at least 4 and IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Engineering Sciences (Materials Science & Engineering Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for materials engineering; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Engineering Sciences (Food Process Engineering Option)",
+        "level": "undergraduate",
+        "field": "Food process engineering",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-food-engineering-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Mathematics plus any two of Chemistry, Physics and Biology. English Language/Literature SL at least 4 and IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Engineering Sciences (Food Process Engineering Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for food engineering; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Engineering Sciences (Computer Engineering Option)",
+        "level": "undergraduate",
+        "field": "Computer engineering",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-computer-engineering-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Mathematics plus any two of Chemistry, Physics and Biology. English Language/Literature SL at least 4 and IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Engineering Sciences (Computer Engineering Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for computer engineering; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Engineering Sciences (Biomedical Engineering Option)",
+        "level": "undergraduate",
+        "field": "Biomedical engineering",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-biomedical-engineering-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Mathematics plus any two of Chemistry, Physics and Biology. English Language/Literature SL at least 4 and IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Engineering Sciences (Biomedical Engineering Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for biomedical engineering; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Engineering Sciences (Agricultural Engineering Option)",
+        "level": "undergraduate",
+        "field": "Agricultural engineering",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-agricultural-engineering-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Mathematics plus any two of Chemistry, Physics and Biology. English Language/Literature SL at least 4 and IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Engineering Sciences (Agricultural Engineering Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for agricultural engineering; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Family & Consumer Sciences (Family and Child Studies Option)",
+        "level": "undergraduate",
+        "field": "Family and child studies",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-family-child-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4; English Language/Literature SL and Mathematics SL at least 4, plus IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Family & Consumer Sciences (Family and Child Studies Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for family child; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Family & Consumer Sciences (Food and Clothing Option)",
+        "level": "undergraduate",
+        "field": "Food and clothing",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-food-clothing-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4 including Chemistry; English Language/Literature SL and Mathematics SL at least 4, plus IGCSE/equivalent grade C in a science subject.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Family & Consumer Sciences (Food and Clothing Option)",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for food clothing; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Agriculture",
+        "level": "undergraduate",
+        "field": "Agriculture",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-agriculture-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Three HL subjects at least 4: Chemistry plus any two of Physics, Biology, Geography and Mathematics. English Language/Literature SL and Mathematics SL at least 4, plus IGCSE/equivalent grade C in a science subject. Listed specialisms are not treated as separately verified degree admissions.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Agriculture",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for agriculture; no total stated."
+        }
+      }
+    },
+    {
+      "institutionKey": "ghana",
+      "program": {
+        "name": "Bachelor of Science in Psychology",
+        "level": "undergraduate",
+        "field": "Psychology",
+        "courseCode": null,
+        "url": "https://admissions.ug.edu.gh/international/requirements"
+      },
+      "requirement": {
+        "recordKey": "ghana-psychology-ib-international-undated",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "international",
+        "applicantContext": "Non-Ghanaian first-year undergraduate applicants, whether schooled in Ghana or abroad. Not a transfer rule. Explicit international IB programme block, not the copied A-level introduction.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 4],
+        "subjectNotes": "Chemistry, Biology and Mathematics at HL, each at least 4; English Language/Literature SL and Mathematics SL at least 4, plus IGCSE/equivalent Physics at least C. The source lists Mathematics at both levels; clarification is needed rather than silently removing that overlap.",
+        "conditions": "Programme-specific IB subject minima, not a published IB total or guaranteed offer. The international page explicitly excludes transfers and supplies no entry year. Its IB-section introduction incorrectly repeats A-level wording; the explicit IB programme block is used instead. Confirm unclear subject overlaps with admissions. General programme selection policies are shown separately.",
+        "source": {
+          "title": "University of Ghana: international IB requirements — Bachelor of Science in Psychology",
+          "url": "https://admissions.ug.edu.gh/international/requirements",
+          "checkedOn": "2026-10-18",
+          "evidence": "International IB subject requirements for psychology; no total stated."
+        }
+      }
+    }
+  ]
+}

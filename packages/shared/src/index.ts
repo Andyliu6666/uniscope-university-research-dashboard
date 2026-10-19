@@ -174,6 +174,8 @@ export const admissionsQuerySchema = z.object({
   level: z.enum(['all', 'undergraduate', 'graduate', 'doctoral', 'non_degree', 'other']).optional(),
   applicantType: z.enum(['domestic', 'international', 'all']).optional(),
   entryType: z.enum(['first_year', 'transfer', 'readmission', 'other']).optional(),
+  page: z.coerce.number().int().min(1).max(100000).optional(),
+  pageSize: z.coerce.number().int().min(1).max(50).optional(),
 });
 
 export type AdmissionsQuery = z.infer<typeof admissionsQuerySchema>;
@@ -314,6 +316,7 @@ export interface AdmissionProfile {
 export interface UniversityAdmissionsResponse {
   university: { id: string; name: string; slug: string };
   profiles: AdmissionProfile[];
+  pagination: { page: number; pageSize: number; total: number; totalPages: number };
   costs: CostSnapshot[];
   enrollment: EnrollmentSnapshot[];
   financialAid: FinancialAidSnapshot[];

@@ -1,0 +1,1685 @@
+{
+  "datasetVersion": "official-admissions-ghana-pacific-2026-10-18-v1",
+  "reviewedOn": "2026-10-18",
+  "institutions": [
+    {
+      "key": "ashesi",
+      "name": "Ashesi University",
+      "provider": "ror",
+      "externalId": "028kehd60",
+      "countryCode": "GH",
+      "officialDomains": ["ashesi.edu.gh"]
+    },
+    {
+      "key": "ghana",
+      "name": "University of Ghana",
+      "provider": "ror",
+      "externalId": "01r22mr83",
+      "countryCode": "GH",
+      "officialDomains": ["ug.edu.gh"]
+    },
+    {
+      "key": "usp",
+      "name": "University of the South Pacific",
+      "provider": "ror",
+      "externalId": "008stv805",
+      "countryCode": "FJ",
+      "officialDomains": ["usp.ac.fj"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official guidance checked 18 October 2026; not a confirmed current-year offer. Qualification routes are alternatives, not cumulative requirements.",
+      "requirements": [
+        {
+          "key": "submit_application",
+          "category": "application",
+          "status": "required",
+          "label": "Complete and submit the application",
+          "details": "Register in the application portal, complete the requested information and supporting uploads, then submit. An application saved without final submission is not evaluated. Undergraduate paper applications may instead be emailed or delivered in person.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "high_school_transcripts",
+          "category": "document",
+          "status": "required",
+          "label": "High-school transcripts and qualifying results",
+          "details": "Submit high-school transcripts with one accepted school-leaving qualification. Alternative qualification routes are described separately; applicants awaiting results can use the pending-results procedure.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "wassce_six_subjects",
+          "category": "academic",
+          "status": "conditional",
+          "label": "WASSCE: six subjects at C6 or better",
+          "details": "For the WASSCE route, the six subjects are Integrated Science, Core Mathematics, Core English and three electives; each must be at least C6. This is not an IB score or a guarantee of admission.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "alevel_olevel_route",
+          "category": "academic",
+          "status": "conditional",
+          "label": "A-level and IGCSE/O-level route",
+          "details": "At least three A-level passes, each in the A-D grade range, together with six IGCSE/GCE O-level passes including Mathematics, English and Science.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "engineering_school_subjects",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Engineering: Physics and further mathematics",
+          "details": "Applicants intending to major in Engineering must have taken Physics and Elective/Further Mathematics. The FAQ does not give qualification-specific grade thresholds for these subjects.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "north_american_diploma",
+          "category": "academic",
+          "status": "conditional",
+          "label": "American or Canadian high-school diploma",
+          "details": "An American or Canadian High School Diploma is an accepted alternative school-leaving qualification. This page does not state an AP, SAT, ACT or GPA threshold for this route.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "french_baccalaureate",
+          "category": "academic",
+          "status": "conditional",
+          "label": "French Baccalaureate route",
+          "details": "The French Baccalaureate is accepted with a certified original score copy and a certified English translation. No numerical Baccalaureate threshold is stated here.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "other_approved_qualifications",
+          "category": "academic",
+          "status": "considered",
+          "label": "Other approved examination qualifications",
+          "details": "Equivalent examination results approved by the Ghana Tertiary Education Commission can be considered; the FAQ does not list a universal conversion score.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "personal_essay_review",
+          "category": "document",
+          "status": "considered",
+          "label": "Personal essay in application review",
+          "details": "The FAQ identifies the personal essay as part of the application reviewed before final examination results arrive. It does not specify a current essay prompt, count or word limit; the separately dated 2024/25 paper form must not be treated as the current portal.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "extracurricular_review",
+          "category": "experience",
+          "status": "considered",
+          "label": "Extracurricular activities in review",
+          "details": "Extracurricular activities form part of the early application review. No required competition, prize, activity count or award level is stated.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "shortlisted_interview",
+          "category": "interview",
+          "status": "conditional",
+          "label": "Interview for shortlisted candidates",
+          "details": "Submitted applications are reviewed and shortlisted candidates are invited to a personal interview. The decision uses both the application and interview; this is not a compulsory interview for every initial applicant.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "pending_exam_results",
+          "category": "application",
+          "status": "conditional",
+          "label": "Apply while awaiting examination results",
+          "details": "An applicant awaiting WASSCE, A-level, IB or equivalent examination results may apply first, then reopen the application, add results and resubmit when available. Early review is not final admission without the results.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "additional_awards_updates",
+          "category": "application",
+          "status": "optional",
+          "label": "Update accomplishments and awards",
+          "details": "After submission, applicants may add new accomplishments or awards through their admissions account and resubmit, or email admissions. This permission does not establish a compulsory competition or award requirement.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "application_payment_proof",
+          "category": "financial",
+          "status": "required",
+          "label": "Proof of application payment",
+          "details": "The admissions office says processing is completed only after proof of payment is received. A fee-waiver request is a separate reviewed procedure; no automatic waiver is promised.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "application_fee_waiver_request",
+          "category": "financial",
+          "status": "conditional",
+          "label": "Requesting an application-fee waiver",
+          "details": "Applicants unable to afford the application fee may email admissions@ashesi.edu.gh. Eligibility is reviewed using responses to a short questionnaire; requesting a waiver does not guarantee approval.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "international",
+      "notes": "Additional international requirements appear in both undergraduate and graduate FAQ sections and are stored once here. They supplement the applicable degree/route requirements; no numerical English score is inferred.",
+      "requirements": [
+        {
+          "key": "non_english_document_translation",
+          "category": "document",
+          "status": "conditional",
+          "label": "Certified translations of non-English documents",
+          "details": "International applicants must provide certified translations of non-English transcripts or supporting documents as copies of the originals. The French Baccalaureate's specific certification rule is already stated in its shared qualification route.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "english_proficiency_evidence",
+          "category": "language",
+          "status": "conditional",
+          "label": "English evidence when high school was not English-medium",
+          "details": "International applicants whose high-school instruction was not in English must supply English-proficiency evidence, such as TOEFL or IELTS. The FAQ states no test minimum, subscore or validity period.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Transfer route, not a first-year rule. International translation/language conditions remain shared in their own scope.",
+      "requirements": [
+        {
+          "key": "transfer_school_completion",
+          "category": "document",
+          "status": "required",
+          "label": "Transfer: secondary completion evidence",
+          "details": "Choose Transfer in the application portal and submit the official high-school completion certificate or university-entry examination results.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "transfer_all_transcripts",
+          "category": "document",
+          "status": "required",
+          "label": "Transfer: transcripts from every tertiary institution",
+          "details": "Submit official transcripts from each college/university attended and ensure Ashesi receives every transcript. A successful transfer applicant may have at most one year of study waived; credit is not guaranteed.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "2024/25",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Historical paper form explicitly labelled 2024/25, PDF page 8 / printed page 7. Still linked by the current FAQ on 18 October 2026, but no current portal inspection or extension to 2026 is claimed.",
+      "requirements": [
+        {
+          "key": "paper_form_two_essays",
+          "category": "document",
+          "status": "required",
+          "label": "Historical 2024/25 form: two essays",
+          "details": "For the 2024/25 paper form, answer its mandatory topic on Africa's future and the applicant's contribution, plus one topic chosen from academic honesty, leadership or community engagement. No word limit is printed on this page. These are historical form instructions, not verified 2026 portal prompts.",
+          "source": {
+            "url": "https://ashesi.edu.gh/wp-content/uploads/2024/07/Ashesi_University_Admissions_Application_Form_2024.pdf",
+            "title": "Ashesi: 2024/25 undergraduate paper application, PDF page 8 (printed page 7)",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "paper_form_ai_essay_policy",
+          "category": "application",
+          "status": "required",
+          "label": "Historical 2024/25 form: essay authorship",
+          "details": "The 2024/25 paper form warns that an essay detected as written using AI tools will be rejected. This policy is preserved with that form's year; current portal terms still require confirmation.",
+          "source": {
+            "url": "https://ashesi.edu.gh/wp-content/uploads/2024/07/Ashesi_University_Admissions_Application_Form_2024.pdf",
+            "title": "Ashesi: 2024/25 undergraduate paper application, PDF page 8 (printed page 7)",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific graduate requirements from the official FAQ. Shared international language/translation rules are stored once separately; no IB requirement is applied to graduate entry.",
+      "programKey": "ashesi-mechatronics",
+      "requirements": [
+        {
+          "key": "mechatronics_prior_degree",
+          "category": "academic",
+          "status": "required",
+          "label": "Relevant bachelor's or master's degree",
+          "details": "Applicants with a bachelor's or master's degree in mechatronics, mechanical, electrical, computer, allied engineering or a related discipline are considered.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "mechatronics_older_degree",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Degrees awarded more than five years ago",
+          "details": "Applicants whose relevant degree was awarded more than five years before application must demonstrate consistent professional development on the job.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific graduate requirements from the official FAQ. Shared international language/translation rules are stored once separately; no IB requirement is applied to graduate entry.",
+      "programKey": "ashesi-mba",
+      "requirements": [
+        {
+          "key": "mba_first_degree",
+          "category": "academic",
+          "status": "required",
+          "label": "Recognized first degree",
+          "details": "A good first degree in any discipline from a recognized university is required. The FAQ supplies no numerical GPA definition of good.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "mba_work_experience",
+          "category": "experience",
+          "status": "required",
+          "label": "At least three years of relevant work experience",
+          "details": "MBA applicants need a minimum of three years of relevant work experience.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "mba_entrance_exam",
+          "category": "standardized_test",
+          "status": "required",
+          "label": "MBA entrance examination",
+          "details": "MBA applicants must take an entrance examination. The FAQ does not identify a required GMAT/GRE score or a pass mark.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "mba_interview",
+          "category": "interview",
+          "status": "required",
+          "label": "MBA interview",
+          "details": "MBA applicants must undergo an interview process; no score threshold is published in the FAQ.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ashesi",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific graduate requirements from the official FAQ. Shared international language/translation rules are stored once separately; no IB requirement is applied to graduate entry.",
+      "programKey": "ashesi-intelligent-computing",
+      "requirements": [
+        {
+          "key": "computing_prior_degree",
+          "category": "academic",
+          "status": "required",
+          "label": "Computing or related technical degree",
+          "details": "A good bachelor's degree in Computer Science or a related field (including Computer Engineering, IT or Information Systems) is required. Other technical degrees with computing and mathematics coursework are also considered.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "computing_programming_proficiency",
+          "category": "academic",
+          "status": "required",
+          "label": "Strong programming proficiency",
+          "details": "All applicants must demonstrate strong programming proficiency through coursework or work experience; the FAQ does not specify a language, certificate or numeric benchmark.",
+          "source": {
+            "url": "https://ashesi.edu.gh/how-to-apply/",
+            "title": "Ashesi: How to Apply and admissions FAQ",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Shared Cambridge rule verified against both the domestic entry page and international/requirements page. Applies only to applicants using that qualification; no A-level letter-grade cutoff is supplied.",
+      "requirements": [
+        {
+          "key": "alevel_common_eligibility",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge A-level/O-level baseline",
+          "details": "For the Cambridge route, provide three relevant A-level subjects and at least five O-level passes including English and Mathematics. Programme-specific subject combinations add to this baseline. Both the domestic page and the explicit international Cambridge section publish this same baseline; it is stored once for all applicants.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "The source explicitly limits this section to Ghanaian applicants. The generic distance aggregate 30 does not override a programme's lower maximum; no programme cutoff is generalized to every course.",
+      "requirements": [
+        {
+          "key": "wassce_sssce_credit_subjects",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Ghanaian WASSCE/SSSCE credit requirements",
+          "details": "Credits in English, Core Mathematics, Integrated Science/Core Science and Social Studies plus three electives: WASSCE A1-C6 or SSSCE A-D. These are qualification-specific grades, not IB points.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "wassce_sssce_aggregate_routes",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Regular and distance aggregate limits",
+          "details": "The six-subject aggregate must be 24 or better for regular admission, or 30 or better for distance education, subject to programme exceptions. For science routes count English, Core Mathematics, Integrated Science/Core Science and three science electives; for non-science count English, Core Mathematics, Social Studies/Life Skills and three Arts/Business electives. Do not count both excluded core subjects.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "unlisted_local_qualification_enquiry",
+          "category": "application",
+          "status": "conditional",
+          "label": "Other qualifications for Ghana-schooled Ghanaian applicants",
+          "details": "Ghanaian applicants schooled in Ghana with qualifications outside the listed WASSCE, SSSCE, Cambridge O/A-level, IB and French Baccalaureate categories should email admissions with the qualification name, awarding body, academic results and other relevant information for guidance.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "The page explicitly covers non-Ghanaian undergraduate first-year applicants whether schooled in Ghana or abroad, not transfer applicants. Several copied qualification headings are incorrect; only the explicitly named WASSCE section supports this fact.",
+      "requirements": [
+        {
+          "key": "international_wassce_route",
+          "category": "academic",
+          "status": "conditional",
+          "label": "International WASSCE baseline",
+          "details": "For non-Ghanaian WASSCE applicants to Legon, Accra City or Korle Bu campuses, the general section specifies A1-C6 credits in English, Core Mathematics and four Science electives for Science/Agriculture, or four Arts/Business electives otherwise, with aggregate no worse than 24. Individual programme blocks list their own core/elective combinations, which must also be checked; their apparent subject-count differences are not silently resolved.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/international/requirements",
+            "title": "University of Ghana: international undergraduate requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-actuarial",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Mathematics is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-computer-science",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Mathematics is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-medicine",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Chemistry plus two of Physics, Biology and Mathematics. If the two are Biology and Mathematics, also pass O-level Physics. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-education-physics",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Physics is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-education-chemistry",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Chemistry is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-education-biology",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Biology is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-education-mathematics",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "Mathematics is required among the three relevant A-level subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-fine-arts",
+      "requirements": [
+        {
+          "key": "performing_arts_audition_interview",
+          "category": "interview",
+          "status": "required",
+          "label": "Performing Arts: audition or interview",
+          "details": "Applicants interested in Performing Arts are expected to attend an audition or interview. The A-level block also refers to aggregate 12 without defining its qualification scale, while the international WASSCE block uses 24. No numerical aggregate is inferred for IB or A-level from this ambiguous wording.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/international/requirements",
+            "title": "University of Ghana: international undergraduate requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-arts",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "For the specified BA subjects: A-level Mathematics for Economics/Mathematics/Statistics or Computer Science; A-level French for French; A-level English Literature for English; A-level Geography for Geography. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-veterinary",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Biology and Chemistry plus either Physics or Mathematics. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-materials-engineering",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Mathematics plus any two of Chemistry, Physics and Biology. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-food-engineering",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Mathematics plus any two of Chemistry, Physics and Biology. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-computer-engineering",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Mathematics plus any two of Chemistry, Physics and Biology. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-biomedical-engineering",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Mathematics plus any two of Chemistry, Physics and Biology. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-agricultural-engineering",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Mathematics plus any two of Chemistry, Physics and Biology. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ghana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific conditions, checked in matching domestic and international Cambridge blocks, are recorded once for all applicants using that route. Shared Cambridge/O-level baseline remains university-wide. IB conditions belong to the separate international IB section. No entry year is stated.",
+      "programKey": "ghana-food-clothing",
+      "requirements": [
+        {
+          "key": "alevel_subject_combination",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Cambridge route: programme subject conditions",
+          "details": "A-level Chemistry plus any other two subjects. The shared five-pass O-level baseline also applies. Matching domestic and explicitly international Cambridge programme blocks publish the same condition; stored once.",
+          "source": {
+            "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+            "title": "University of Ghana: undergraduate entry requirements",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "usp",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "all",
+      "notes": "2026 handbook, printed page 95 / PDF page 96. Shared admission documents are stored once; programme and applicant-route conditions add to them. Annual handbook deadlines may be superseded by university announcements, so no open/current deadline is inferred.",
+      "requirements": [
+        {
+          "key": "signed_application",
+          "category": "application",
+          "status": "required",
+          "label": "Application form and declaration",
+          "details": "Apply online or using the admission application form; submit the required documents with a signed form and declare the information supplied is true. Handbook clause 11.1.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "certified_identity_document",
+          "category": "document",
+          "status": "required",
+          "label": "Certified identity/citizenship evidence",
+          "details": "Provide a certified birth certificate, passport or other legal identity document showing name, birth date and citizenship. Where the current name differs, include legal name-change evidence.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "certified_academic_documents",
+          "category": "document",
+          "status": "required",
+          "label": "Certified qualifications and transcripts",
+          "details": "Provide certified copies of educational qualifications and transcripts. USP may request additional documents; the handbook does not make an essay or competition record universally compulsory.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "misleading_application_evidence",
+          "category": "application",
+          "status": "required",
+          "label": "Accurate application evidence",
+          "details": "USP may refuse or cancel admission if supporting evidence is untrue or misleading. Under clause 11.2, an applicant whose admission is declined or cancelled on this ground may reapply after one semester with correct evidence.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "concurrent_programmes",
+          "category": "application",
+          "status": "conditional",
+          "label": "Normally one programme at a time",
+          "details": "Clause 11.1 normally disallows concurrent admission to more than one programme; no universal exception or approval entitlement is inferred.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "usp",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "international",
+      "notes": "2026 handbook printed pages 78-79 / PDF 79-80. International = citizenship outside USP member countries. Language pathways supplement academic equivalencies; programme/level thresholds remain separate.",
+      "requirements": [
+        {
+          "key": "english_requirement_applicability",
+          "category": "language",
+          "status": "conditional",
+          "label": "When English-proficiency evidence is needed",
+          "details": "International applicants whose entry qualification was not taught in English must meet the English requirement. In this handbook, international means citizens of non-USP-member countries, not every person who is non-Fijian.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "english_test_validity",
+          "category": "language",
+          "status": "conditional",
+          "label": "Language-test results: within two years",
+          "details": "When examination scores establish English proficiency, results must have been obtained within two years of the admission application date. Published alternatives are not cumulative test requirements.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "english_unclassified_alternative",
+          "category": "application",
+          "status": "considered",
+          "label": "Unclassified study where English is not yet sufficient",
+          "details": "An applicant meeting all other admission requirements but not the English condition may be admitted to an Unclassified Programme. This is not direct unconditional admission to the requested degree.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "usp",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Diploma/undergraduate columns only, printed pages 79-84 / PDF pages 80-85. International here means citizens of non-USP-member countries. Country labels describe the qualification studied, not the applicant's required nationality. Foundation and postgraduate columns are not reused as undergraduate requirements. IB remains in its dedicated section.",
+      "requirements": [
+        {
+          "key": "ielts_undergraduate",
+          "category": "language",
+          "status": "conditional",
+          "label": "IELTS alternative: undergraduate",
+          "details": "IELTS overall at least 6.0 and writing at least 6.0.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "toefl_ibt_undergraduate",
+          "category": "language",
+          "status": "conditional",
+          "label": "TOEFL iBT alternative: undergraduate",
+          "details": "The 2026 handbook lists TOEFL iBT overall 60 and writing 22. These are the handbook's numeric scores; confirm comparability with any later test-scale changes.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "toefl_legacy_undergraduate",
+          "category": "language",
+          "status": "unknown",
+          "label": "Legacy TOEFL alternatives in the 2026 handbook",
+          "details": "The table prints paper TOEFL overall 497/writing 59, or computer TOEFL overall 170/writing 25. These legacy formats are not presented as currently available tests. The paper writing scale is not identified; obtain clarification rather than treating 59 as a current TOEFL writing score or inventing a conversion.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "pte_undergraduate",
+          "category": "language",
+          "status": "conditional",
+          "label": "PTE Academic alternative: undergraduate",
+          "details": "PTE Academic overall at least 50, with no component below 42.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "cambridge_legacy_scale",
+          "category": "language",
+          "status": "unknown",
+          "label": "Cambridge CAE: legacy score needs clarification",
+          "details": "The 2026 table prints Cambridge Certificate in Advanced English overall 52 but gives no scale or modern Cambridge English Scale conversion. Confirm with USP; do not present 52 as a modern-scale score.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "english_medium_secondary_alternative",
+          "category": "language",
+          "status": "conditional",
+          "label": "English-medium secondary-study alternative",
+          "details": "At least three years of full-time secondary education taught in English is a listed alternative to examination evidence for diploma/undergraduate entry.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "english_medium_tertiary_alternative",
+          "category": "language",
+          "status": "conditional",
+          "label": "English-medium tertiary-study alternative",
+          "details": "At least one year of full-time undergraduate education taught in English is a listed alternative for diploma/undergraduate entry.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "unlisted_international_qualification",
+          "category": "academic",
+          "status": "considered",
+          "label": "International qualifications not in the table",
+          "details": "International qualifications not listed in the academic-equivalency table are assessed individually. Qualification equivalency does not remove English or programme-specific conditions.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_australia_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Australia Year 12: international qualification route",
+          "details": "Complete the Australian Certificate of Education/Year 12 satisfactorily in every subject. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_bangladesh_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Bangladesh HSC: international qualification route",
+          "details": "Complete HSC with First Division (60% in four subjects), or minimum overall GPA 3.0. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_brazil_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Brazil secondary diploma: international qualification route",
+          "details": "Complete Diploma de Ensino Medio with an average of 70%. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_canada_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Canada Grade 12: international qualification route",
+          "details": "Complete a provincial high-school diploma (Grade 12) with an average of 60%. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_china_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "China Gao San / Gao Kao / tertiary route: international qualification route",
+          "details": "Either complete Gao San (Senior Middle 3) with average 85%, complete one year at a recognized tertiary/higher-education institution, or complete Gao Kao with 65% of the province-specific overall score. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_france_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "France and French territories: international qualification route",
+          "details": "Successfully complete the French Baccalaureate. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_germany_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Germany recognized leaving qualifications: international qualification route",
+          "details": "Complete one listed German qualification: Allgemeine Hochschulreife (Abitur), Fachgebundene Hochschulreife, Fachhochschulreife, Abiturientenzeugnis, Zeugnis der Reife or Reifezeugnis. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_hong_kong_equivalency",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Hong Kong HKDSE / HKALE: international qualification route",
+          "details": "Complete HKDSE with the source's stated average of 3 in the four core subjects and two electives, or HKALE with two passes and one credit. The phrase 'level 4 core subjects' in the original is ambiguous; do not convert it to a requirement for grade 4 in every core. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_india_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "India HSC board-dependent average: international qualification route",
+          "details": "CBSE, ISC, West Bengal or Maharashtra HSC: average 60% in four academic subjects. HSC from other boards: average at least 65% in four academic subjects. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_japan_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Japan school-leaving / tertiary route: international qualification route",
+          "details": "Complete the Japanese Upper Secondary School Certificate (Kotogakko Sotsugyo Shomeisho), or one year of a bachelor's degree at a recognized tertiary institution. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_korea_equivalency",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Korea school-leaving / tertiary route: international qualification route",
+          "details": "Complete the Korean general high-school diploma with grades described as above 'mi' (70-79), or complete one year at a recognized tertiary institution. Retain the source wording; no precise numeric boundary beyond this is inferred. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_malaysia_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Malaysia STPM: international qualification route",
+          "details": "Complete STPM with grade C or higher in four subjects. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_nepal_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nepal Proficiency Certificate: international qualification route",
+          "details": "Complete the Proficiency Certificate in First Class. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_new_zealand_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "New Zealand NCEA: international qualification route",
+          "details": "Successfully complete NCEA Level 3. The international equivalency table is not a substitute for programme-specific subjects or the separate regional-entry regulations. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_nigeria_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nigeria SSCE / WASSCE: international qualification route",
+          "details": "Either SSCE plus one successful year at a recognized tertiary institution, or WASSCE with overall Credit (4-6). The source gives no universal subject count for this international equivalency. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_norway_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Norway Vitnemal: international qualification route",
+          "details": "Complete Vitnemal fra den Videregaende Skolen with grade average 3 out of 6. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_pakistan_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Pakistan intermediate / tertiary route: international qualification route",
+          "details": "Complete HSSC Intermediate Division 1 with average 65% in four subjects, or successfully complete the first year of a degree at a recognized tertiary institution. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_papua_new_guinea_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Papua New Guinea HSC: international qualification route",
+          "details": "Complete the Higher School Certificate with a B grade average. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "international_usa_equivalency",
+          "category": "academic",
+          "status": "conditional",
+          "label": "USA diploma / tertiary route: international qualification route",
+          "details": "Complete an accredited honours or college-preparatory high-school diploma, or successfully complete the first year at an accredited tertiary institution. This row states no SAT, ACT or AP threshold; absence is not a test-not-required policy. Academic-equivalency guideline for diploma/undergraduate entry, not guaranteed admission.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "usp",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "all",
+      "applicantType": "all",
+      "notes": "Mature-entry route, handbook clauses 4.3.12 and 11.3, printed pages 78 and 95. Not an automatic waiver of course prerequisites or a general first-year age policy.",
+      "requirements": [
+        {
+          "key": "mature_entry_consideration",
+          "category": "experience",
+          "status": "considered",
+          "label": "Mature admission: background and experience",
+          "details": "Under clause 11.3, Senate or its delegate considers likelihood of successful completion using academic background and the nature of employment/experience. No universal age or years-of-experience cutoff is stated in this clause.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        },
+        {
+          "key": "mature_entry_prescribed_courses",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Mature admission: prescribed prerequisite courses",
+          "details": "A mature applicant may be required to pass courses prescribed by Senate or its delegate for the specific programme. Equivalent entry qualifications completed more than five years ago may also be considered through mature entry.",
+          "source": {
+            "url": "https://www.usp.ac.fj/handbookandcalendar2026/wp-content/uploads/sites/176/2026/01/2026-Handbook-and-Calendar_updated.pdf",
+            "title": "USP 2026 Handbook: admission regulations, printed pages 78-84 and 95",
+            "checkedOn": "2026-10-18"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ashesi-mechatronics",
+      "institutionKey": "ashesi",
+      "name": "Master's in Mechatronic Engineering",
+      "level": "graduate",
+      "field": "Mechatronic engineering",
+      "source": {
+        "url": "https://ashesi.edu.gh/how-to-apply/",
+        "title": "Ashesi: How to Apply and admissions FAQ",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ashesi-mba",
+      "institutionKey": "ashesi",
+      "name": "MBA",
+      "level": "graduate",
+      "field": "Business administration",
+      "source": {
+        "url": "https://ashesi.edu.gh/how-to-apply/",
+        "title": "Ashesi: How to Apply and admissions FAQ",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ashesi-intelligent-computing",
+      "institutionKey": "ashesi",
+      "name": "Intelligent Computing Systems Master's Program",
+      "level": "graduate",
+      "field": "Computing",
+      "source": {
+        "url": "https://ashesi.edu.gh/how-to-apply/",
+        "title": "Ashesi: How to Apply and admissions FAQ",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-actuarial",
+      "institutionKey": "ghana",
+      "name": "B.Sc. Actuarial Science",
+      "level": "undergraduate",
+      "field": "Actuarial science",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-computer-science",
+      "institutionKey": "ghana",
+      "name": "B.Sc. Computer Science",
+      "level": "undergraduate",
+      "field": "Computer science",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-medicine",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-education-physics",
+      "institutionKey": "ghana",
+      "name": "B.Ed. in Science (Physics)",
+      "level": "undergraduate",
+      "field": "Physics education",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-education-chemistry",
+      "institutionKey": "ghana",
+      "name": "B.Ed. in Science (Chemistry)",
+      "level": "undergraduate",
+      "field": "Chemistry education",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-education-biology",
+      "institutionKey": "ghana",
+      "name": "B.Ed. in Science (Biology)",
+      "level": "undergraduate",
+      "field": "Biology education",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-education-mathematics",
+      "institutionKey": "ghana",
+      "name": "B.Ed. in Mathematics",
+      "level": "undergraduate",
+      "field": "Mathematics education",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-fine-arts",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Fine Arts",
+      "level": "undergraduate",
+      "field": "Fine arts",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-arts",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Arts",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-veterinary",
+      "institutionKey": "ghana",
+      "name": "Doctor of Veterinary Medicine",
+      "level": "undergraduate",
+      "field": "Veterinary medicine",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-materials-engineering",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Engineering Sciences (Materials Science & Engineering Option)",
+      "level": "undergraduate",
+      "field": "Materials engineering",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-food-engineering",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Engineering Sciences (Food Process Engineering Option)",
+      "level": "undergraduate",
+      "field": "Food process engineering",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-computer-engineering",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Engineering Sciences (Computer Engineering Option)",
+      "level": "undergraduate",
+      "field": "Computer engineering",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-biomedical-engineering",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Engineering Sciences (Biomedical Engineering Option)",
+      "level": "undergraduate",
+      "field": "Biomedical engineering",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-agricultural-engineering",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Engineering Sciences (Agricultural Engineering Option)",
+      "level": "undergraduate",
+      "field": "Agricultural engineering",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    },
+    {
+      "key": "ghana-food-clothing",
+      "institutionKey": "ghana",
+      "name": "Bachelor of Science in Family & Consumer Sciences (Food and Clothing Option)",
+      "level": "undergraduate",
+      "field": "Food and clothing",
+      "source": {
+        "url": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
+        "title": "University of Ghana: undergraduate entry requirements",
+        "checkedOn": "2026-10-18"
+      }
+    }
+  ]
+}

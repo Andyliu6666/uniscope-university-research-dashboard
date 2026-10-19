@@ -1,8 +1,18 @@
-# IB work checkpoint — 2026-10-02 (Strathmore fully verified)
+# IB work checkpoint — 2026-10-18 (Ghana/Pacific increment verified)
+
+## Latest closed checkpoint — Ghana/Pacific, October 18
+
+The expanded admissions increment added **22 reviewed IB records**: 20 exact University of Ghana international first-year programme conditions, Ashesi's accepted-Diploma policy without an invented minimum, and USP's 2026 international academic-equivalency minimum. General admissions facts use a separate artifact and are not duplicated into IB records. Five official sources were retrieved October 18; relevant complete PDF pages were rendered and inspected. Source ambiguities and the historical Ashesi form remain explicit in `research/GHANA_PACIFIC_20261018.md`.
+
+All 22 records imported with zero updates/rejections and six newly created programmes; 14 programme names were reused from the same increment's general-facts import. Repeating the IB artifact returned `already-completed`. Every new IB object matched the website API exactly. The prior 54 IB rows retained row-content hash `2740385419e27aeef39a92f1be5b7936`; no earlier batch was replayed or altered.
+
+Live coverage `2026-10-18T11:21:54Z`: **76 records / 27 institutions / 68 programmes / 37 programmes with published totals / eight institution-wide policies**. Ghana's subject minima are not numeric total cutoffs; the programme-total count therefore does not increase from these 20 records. USP adds an institution-wide total, not a minimum for each programme. **28,171** institutions remain in the directory, not fully researched. Read the six-step import/backup/API/browser checkpoint in `ADMISSIONS_PROGRESS.md`; all local gates and 157 tests passed. Publication/CI outcomes are in the task handoff and Git history.
+
+Do not reimport the completed `ib-requirements-ghana-pacific-20261018.json` as a new version just to refresh its review date. The global requirement-completeness objective remains open; none of these institutions is marked complete.
 
 **Current work direction:** the user's October 2 instruction expands the next work from IB-only batches to all discoverable admissions requirements, without repeated facts. Employment data is deferred. Read `docs/ADMISSIONS_PROGRESS.md` first for the current increment; the completed IB checkpoints below remain historical and must not be reimported.
 
-## Latest closed checkpoint — Strathmore, October 1–2
+## Historical closed checkpoint — Strathmore, October 1–2
 
 **Seven reviewed requirements and seven programmes were imported October 1, with zero updates and zero rejections.** Repeating the artifact immediately returned `already-completed`, so this batch must not be recreated or reseeded. The API image was rebuilt successfully afterward. Programmes: Computer Networks and Cyber Security, Electrical and Electronics Engineering, Financial Economics, Financial Engineering, Actuarial Science, Informatics and Computer Science, and Law.
 

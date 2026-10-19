@@ -21,14 +21,21 @@ const money = new Intl.NumberFormat('en-US', {
 });
 export function DetailPage() {
   const { slug = '' } = useParams();
+  const [admissionsPageState, setAdmissionsPage] = useState({ slug, page: 1 });
+  const admissionsPage = admissionsPageState.slug === slug ? admissionsPageState.page : 1;
   const {
     data: university,
     isPending,
     error,
   } = useQuery({ queryKey: ['university', slug], queryFn: () => fetchUniversity(slug) });
-  const { data: admissions, isPending: admissionsPending } = useQuery({
-    queryKey: ['university-admissions', slug],
-    queryFn: () => fetchUniversityAdmissions(slug),
+  const {
+    data: admissions,
+    isPending: admissionsPending,
+    error: admissionsError,
+    refetch: refetchAdmissions,
+  } = useQuery({
+    queryKey: ['university-admissions', slug, admissionsPage],
+    queryFn: () => fetchUniversityAdmissions(slug, { page: admissionsPage, pageSize: 20 }),
     enabled: Boolean(slug),
   });
   const reportedCost = university ? primaryCost(university.costs) : undefined;
@@ -139,7 +146,15 @@ export function DetailPage() {
       </section>
       <InstitutionFactsSection university={university} />
       <ResearchSection profile={university.researchProfile} />
-      <AdmissionsSection data={admissions} pending={admissionsPending} />
+      <AdmissionsSection
+        data={admissions}
+        pending={admissionsPending}
+        failed={Boolean(admissionsError)}
+        onRetry={() => {
+          void refetchAdmissions();
+        }}
+        onPageChange={(page) => setAdmissionsPage({ slug, page })}
+      />
       <CostsSection data={admissions} pending={admissionsPending} />
       <CoverageSection university={university} />
       <IbRequirementsSection key={slug} slug={slug} />
@@ -390,9 +405,15 @@ function ResearchSection({ profile }: { profile: ResearchProfile | null }) {
 export function AdmissionsSection({
   data,
   pending,
+  failed = false,
+  onPageChange,
+  onRetry,
 }: {
   data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
   pending: boolean;
+  failed?: boolean;
+  onPageChange?: (page: number) => void;
+  onRetry?: () => void;
 }) {
   const [selectedId, setSelectedId] = useState('');
   // IB-only profiles retain their dedicated programme browser below.
@@ -420,6 +441,28 @@ export function AdmissionsSection({
         );
       }) ?? [];
   const profile = profiles.find((item) => item.id === selectedId) ?? profiles[0];
+  const pagination = data && onPageChange && data.pagination.totalPages > 1 && (
+    <nav className="pagination" aria-label="Admissions pages">
+      <button
+        type="button"
+        disabled={data.pagination.page <= 1}
+        onClick={() => onPageChange(data.pagination.page - 1)}
+      >
+        Previous admissions page
+      </button>
+      <span>
+        Page {data.pagination.page} of {data.pagination.totalPages} · {data.pagination.total}{' '}
+        profiles including IB-only scopes
+      </span>
+      <button
+        type="button"
+        disabled={data.pagination.page >= data.pagination.totalPages}
+        onClick={() => onPageChange(data.pagination.page + 1)}
+      >
+        Next admissions page
+      </button>
+    </nav>
+  );
   if (pending)
     return (
       <section className="panel admissions-panel">
@@ -427,9 +470,24 @@ export function AdmissionsSection({
         <h2>Loading official admissions data…</h2>
       </section>
     );
+  if (failed)
+    return (
+      <section className="panel admissions-panel" id="admissions-requirements">
+        <p className="kicker">Admissions</p>
+        <h2>Admissions data could not be loaded</h2>
+        <p role="alert">
+          Check your connection and reload. This error does not mean the school has no requirements.
+        </p>
+        {onRetry && (
+          <button type="button" onClick={onRetry}>
+            Retry admissions request
+          </button>
+        )}
+      </section>
+    );
   if (!data)
     return (
-      <section className="panel admissions-panel">
+      <section className="panel admissions-panel" id="admissions-requirements">
         <p className="kicker">Admissions</p>
         <h2>Admissions data</h2>
         <p className="muted">Not yet researched or not reported by the selected official source.</p>
@@ -442,10 +500,11 @@ export function AdmissionsSection({
         <p className="kicker">Research data</p>
         <h2>Admissions data</h2>
         <p className="muted">
-          General admissions requirements and statistics have not been verified here. IB
+          General admissions requirements and statistics have not been verified on this page. IB
           requirements are shown in their own section below; enrollment details are shown when
           available.
         </p>
+        {pagination}
         <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
       </section>
     );
@@ -471,9 +530,10 @@ export function AdmissionsSection({
       <p className="kicker">Admissions · {profile.academicYear}</p>
       <h2>Admissions requirements & application</h2>
       <p className="muted">
-        {profiles.length} available admission scopes. Select a scope to view its requirements; this
-        count does not mean the institution is fully researched.
+        {profiles.length} general admission scopes on this page. Select a scope to view its
+        requirements; this count does not mean the institution is fully researched.
       </p>
+      {pagination}
       <label htmlFor="admissions-scope">Choose admission scope</label>
       <select
         id="admissions-scope"

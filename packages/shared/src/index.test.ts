@@ -1,9 +1,21 @@
 import { describe, expect, it } from 'vitest';
-import { universityInputSchema, universityQuerySchema } from './index.js';
+import { admissionsQuerySchema, universityInputSchema, universityQuerySchema } from './index.js';
 
 describe('shared validation', () => {
   it('applies safe pagination defaults', () => {
     expect(universityQuerySchema.parse({})).toMatchObject({ page: 1, pageSize: 9 });
+  });
+
+  it('parses bounded admissions pagination without changing legacy filter defaults', () => {
+    expect(admissionsQuerySchema.parse({})).toEqual({});
+    expect(admissionsQuerySchema.parse({ page: '2', pageSize: '10' })).toEqual({
+      page: 2,
+      pageSize: 10,
+    });
+    for (const value of [0, -1, 1.5, 100001, 'NaN'])
+      expect(admissionsQuerySchema.safeParse({ page: value }).success).toBe(false);
+    for (const value of [0, -1, 1.5, 51])
+      expect(admissionsQuerySchema.safeParse({ pageSize: value }).success).toBe(false);
   });
 
   it('rejects non-https evidence links', () => {

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280086,
+            "programs": 280111,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 1906,
+            "admissionProfiles": 1956,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22068,
+            "admissionRequirements": 22155,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 54
+            "qualificationRequirements": 76
         },
         "ibCoverage": {
             "byCountry": [
@@ -29,9 +29,15 @@
                     "programs_with_published_totals": 3
                 },
                 {
+                    "country": "Fiji",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "Ghana",
-                    "institutions": 2,
-                    "programs_with_reviewed_ib": 4,
+                    "institutions": 3,
+                    "programs_with_reviewed_ib": 24,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -89,12 +95,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 54,
-            "programsWithReviewedIb": 48,
-            "institutionWidePolicies": 6,
-            "institutionsWithReviewedIb": 25,
+            "reviewedRecords": 76,
+            "programsWithReviewedIb": 68,
+            "institutionWidePolicies": 8,
+            "institutionsWithReviewedIb": 27,
             "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194422
+            "undergraduateCatalogEntries": 194444
         },
         "coreCoverage": {
             "phone": 4078,
@@ -123,13 +129,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4088,
+            "programs": 4089,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1863,
+            "admissions": 1865,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24066
+            "noStructuredApplicationFacts": 24064
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -141,31 +147,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 48,
-            "profiles": 17,
-            "institutions": 3
+            "facts": 135,
+            "profiles": 47,
+            "institutions": 6
         }
     },
-    "generatedAt": "2026-10-18T00:07:25Z",
+    "generatedAt": "2026-10-18T11:21:54Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 6,
-        "provider": "official_admissions",
+        "inserted": 22,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 6,
-        "startedAt": "2026-10-18T00:07:21.605833+00:00",
-        "updatedAt": "2026-10-18T00:07:21.605833+00:00",
+        "processed": 22,
+        "startedAt": "2026-10-18T11:21:39.557836+00:00",
+        "updatedAt": "2026-10-18T11:21:39.622+00:00",
         "checkpoint": {
-            "profiles": 6,
-            "admissionFacts": 6,
-            "programsReused": 0,
-            "programsCreated": 5
+            "rowIndex": 22,
+            "sourceRows": 22,
+            "schemaVersion": 1,
+            "createdPrograms": 6
         },
-        "finishedAt": "2026-10-18T00:07:21.64+00:00",
-        "artifactSha256": "85621415911d74a1db373ca7e7c542cbc47b0d286a2fa87a19e4e0d700df3ee5",
-        "datasetVersion": "official-admissions-botswana-programs-2026-10-18-v1"
+        "finishedAt": "2026-10-18T11:21:39.622+00:00",
+        "artifactSha256": "03ff46cc0ba3563c570cebfc32a7b21df1d364961356ce8434ee9b135665dadb",
+        "datasetVersion": "official-ib-ghana-pacific-2026-10-18-v1"
     },
     "schemaVersion": 2
 }

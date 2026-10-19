@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { PgDialect } from 'drizzle-orm/pg-core';
 import {
   deriveUniversityCoverage,
+  admissionsPageBounds,
   resolveStudentCount,
   type UniversityCoverageFacts,
   universitySearchFilter,
@@ -49,6 +50,14 @@ const sparseUniversity = {
 };
 
 describe('university profile hydration', () => {
+  it('keeps admissions pages bounded and computes a non-overlapping offset', () => {
+    expect(admissionsPageBounds({})).toEqual({ page: 1, pageSize: 50, offset: 0 });
+    expect(admissionsPageBounds({ page: 3, pageSize: 10 })).toEqual({
+      page: 3,
+      pageSize: 10,
+      offset: 20,
+    });
+  });
   it('prefers official enrollment over a community profile count', () => {
     expect(resolveStudentCount(21_189, 30_259)).toBe(30_259);
   });

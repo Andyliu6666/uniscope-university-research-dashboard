@@ -691,6 +691,12 @@ export const getUniversity = async (db: Database, slug: string) => {
   return (await hydrate(db, rows))[0] ?? null;
 };
 
+export const admissionsPageBounds = (query: AdmissionsQuery) => {
+  const page = query.page ?? 1;
+  const pageSize = query.pageSize ?? 50;
+  return { page, pageSize, offset: (page - 1) * pageSize };
+};
+
 export const getUniversityAdmissions = async (
   db: Database,
   slug: string,
@@ -702,6 +708,8 @@ export const getUniversityAdmissions = async (
     .where(eq(universities.slug, slug))
     .limit(1);
   if (!university) return null;
+
+  const { page, pageSize, offset } = admissionsPageBounds(query);
 
   const profileFilters = [
     eq(admissionProfiles.universityId, university.id),
@@ -718,8 +726,15 @@ export const getUniversityAdmissions = async (
       sql`${admissionProfiles.programId} is null desc`,
       desc(admissionProfiles.academicYear),
       asc(admissionProfiles.intakeTerm),
+      asc(admissionProfiles.id),
     )
-    .limit(50);
+    .limit(pageSize)
+    .offset(offset);
+  const [profileCount] = await db
+    .select({ value: count() })
+    .from(admissionProfiles)
+    .where(and(...profileFilters));
+  const totalProfiles = Number(profileCount?.value ?? 0);
   const profileIds = profiles.map((profile) => profile.id);
   const [countRows, requirementRows, qualificationRows, testRows] = profileIds.length
     ? await Promise.all([
@@ -878,6 +893,12 @@ export const getUniversityAdmissions = async (
   return {
     university,
     profiles: profileResponses,
+    pagination: {
+      page,
+      pageSize,
+      total: totalProfiles,
+      totalPages: Math.max(1, Math.ceil(totalProfiles / pageSize)),
+    },
     costs: costRows.map((row) => ({
       academicYear: row.academicYear,
       level: row.level,

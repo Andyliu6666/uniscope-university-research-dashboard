@@ -54,3 +54,15 @@ Repeat previews should report zero new facts/programmes. A repeat real import of
 The Botswana programme batch was reviewed October 18 from the official PDF downloaded October 9. A fresh October 18 HTTPS retrieval failed. Each profile records that limitation, the historical 2026 cycle and the relevant guide pages. It establishes the preserved guide's requirements, not current availability or the absence of later revisions.
 
 Preserve source retrieval dates separately from content review and deployment dates. Do not infer a current application opening, deadline, IB conversion or guaranteed offer from historical guidance. General requirements, catalogue coverage and reviewed IB coverage are separate measurements. Progress and remaining work are recorded in `ADMISSIONS_PROGRESS.md`.
+
+## All admissions categories, without invented requirements
+
+Academic qualifications (including A-level/AP), subject grades, exams, language, documents/essays, experience/awards, portfolios, interviews and application conditions use the existing fact categories. IB stays in its dedicated structured section. A fact must distinguish a compulsory requirement from conditional, considered or optional evidence. A page silent on competitions, AP or SAT does not establish `not_required`. Preserve alternative qualifications and AND/OR subject combinations rather than making every listed exam compulsory. Only explicitly published current prompts/counts may be presented as current essay instructions; old forms retain their historical year.
+
+The October 18 Ghana/Pacific review is documented in `research/GHANA_PACIFIC_20261018.md`. It does not establish complete coverage of any institution or the global directory.
+
+## Paginated admissions profiles
+
+`GET /api/universities/:slug/admissions` accepts `page` (1–100000) and `pageSize` (1–50), in addition to the existing exact year/level/applicant/entry filters. Omitted pagination defaults to page 1 / 50 profiles for compatibility. Responses include `pagination: { page, pageSize, total, totalPages }` for the same filters; ordering ends with the unique profile ID to prevent tied rows shifting between pages. Empty result sets have one navigable page.
+
+The website requests 20 profiles per page and provides previous/next controls. Counts include IB-only profiles even though their requirements are displayed by the dedicated IB browser; pages containing only IB profiles still expose navigation. An API/network error is not shown as a school with no requirements. Paging does not imply complete research coverage.
