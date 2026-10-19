@@ -427,6 +427,13 @@ export function AdmissionsSection({
         const priority = (item: typeof a) =>
           (item.programId ? 20 : 0) +
           (item.entryType === 'first_year' ? 0 : 10) +
+          (item.applicantType === 'all' ? 0 : 4) +
+          (item.counts.length === 0 &&
+          item.testScores.length === 0 &&
+          item.requirements.length > 0 &&
+          item.requirements.every((requirement) => requirement.category === 'financial')
+            ? 8
+            : 0) +
           (item.level === 'undergraduate'
             ? 0
             : item.level === 'all'

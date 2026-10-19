@@ -1,0 +1,1428 @@
+{
+  "datasetVersion": "official-admissions-ara-uca-2026-10-19-v1",
+  "reviewedOn": "2026-10-19",
+  "institutions": [
+    {
+      "key": "ara",
+      "name": "Ara Institute of Canterbury",
+      "provider": "ror",
+      "externalId": "01fkw3y20",
+      "countryCode": "NZ",
+      "officialDomains": ["ara.ac.nz"]
+    },
+    {
+      "key": "uca",
+      "name": "University of Central Asia",
+      "provider": "ror",
+      "externalId": "04rrs4x54",
+      "countryCode": "KG",
+      "officialDomains": ["ucentralasia.org"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ara",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "international",
+      "notes": "Shared international first-application checklist; programme and qualification routes remain separate. No entry year, universal IELTS/PTE score, essay prompt or work-experience duration is inferred. Administrative offer conditions are distinguished from academic eligibility.",
+      "requirements": [
+        {
+          "key": "application_submission_route",
+          "category": "application",
+          "status": "required",
+          "label": "International application: online or PDF",
+          "details": "Apply through Ara's online portal or complete its PDF application and email it to intladmissions@ara.ac.nz. The official page recommends online submission; it does not require use of a paid agent.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "certified_qualifications_translation",
+          "category": "document",
+          "status": "required",
+          "label": "Certified qualifications and academic records",
+          "details": "Supply certified originals of entrance qualifications/academic records with certified English translations where needed. Documents accompanying the application must be in English.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "personal_statement",
+          "category": "document",
+          "status": "required",
+          "label": "Personal statement",
+          "details": "The international application checklist requires a personal statement. The page does not give a universal prompt, word limit or essay count; programme-specific instructions must be checked.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "relevant_work_evidence",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Relevant work-experience evidence",
+          "details": "Provide details of relevant work experience, such as a CV, resume or references, where applicable. This is a request for relevant evidence, not a universal minimum number of years of employment.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "english_evidence",
+          "category": "language",
+          "status": "conditional",
+          "label": "English-proficiency evidence and programme requirements",
+          "details": "Applicants whose first language is not English must provide an accepted language-test result or accepted evidence of previous study in English. The checklist names IELTS/PTE or other proof. The page also says 'Medium of English' is not accepted as evidence: do not assume an English-medium instruction letter alone qualifies. Confirm acceptable documentation and the chosen programme's thresholds.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "offer_response_date",
+          "category": "application",
+          "status": "conditional",
+          "label": "Respond by the date on the individual offer",
+          "details": "An offer carries its own response date. If more time is needed, contact international admissions; failure to respond can close the application and require reapplication. No universal current application deadline is stated here.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "unconditional_receipted_offer",
+          "category": "financial",
+          "status": "conditional",
+          "label": "Unconditional receipted offer",
+          "details": "Ara issues its Unconditional Receipted Offer of Place after entry conditions are met and programme payment is received. This is Ara's offer-processing condition, not independent immigration/legal guidance.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ara",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "non_degree",
+      "applicantType": "international",
+      "notes": "Diploma-entry column only (incoming qualification equivalent to NCEA Level 2 / Year 12). Here non_degree distinguishes a diploma target from a bachelor's target; it does not assign a specific NZQF award level or convert the table into national regulations. Blank France/Italy diploma cells are not filled and do not mean applicants are rejected. Country labels identify prior qualification systems, not nationality. Programme-specific requirements remain additional.",
+      "requirements": [
+        {
+          "key": "diploma_argentina",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Argentina: diploma-entry equivalency",
+          "details": "Titulo de Bachiller.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_australia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Australia: diploma-entry equivalency",
+          "details": "Complete a High School Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_bangladesh",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Bangladesh: diploma-entry equivalency",
+          "details": "Higher Secondary Certificate with First Division: 60% passes in four subjects.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_brazil",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Brazil: diploma-entry equivalency",
+          "details": "Titulo de Tecnico (Ensino Medio) or Diploma de Tecnico de Segundo Grau; retain the source's named credential alternatives.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_brunei",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Brunei: diploma-entry equivalency",
+          "details": "Four GCE O-level subjects.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_canada",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Canada: diploma-entry equivalency",
+          "details": "Grade 12 Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_chile",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Chile: diploma-entry equivalency",
+          "details": "Licencia de Educacion Media or Tecnico Medio.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_china",
+          "category": "academic",
+          "status": "conditional",
+          "label": "China: diploma-entry equivalency",
+          "details": "Senior High School Graduate Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_colombia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Colombia: diploma-entry equivalency",
+          "details": "Bachillerato or Diploma de Bachiller.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_denmark",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Denmark: diploma-entry equivalency",
+          "details": "Folkeskolens 10 Klasseprove.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_fiji",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Fiji: diploma-entry equivalency",
+          "details": "Either successful South Pacific Form Seven Certificate, PSSC grade 4 or above (source range 54-61%), or Fiji School Leaving Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_germany",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Germany: diploma-entry equivalency",
+          "details": "One of Realschulabschluss, Mittlere Reife, Mittlerer Schulabschluss, Erweiterter Realschulabschluss, Fachoberschulreife or Sekundarabschluss 1.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_hong_kong",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Hong Kong: diploma-entry equivalency",
+          "details": "Hong Kong Certificate of Education or equivalent.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_india",
+          "category": "academic",
+          "status": "conditional",
+          "label": "India: diploma-entry equivalency",
+          "details": "CBSE/HSC/ISC: average at least 55% over four academic subjects and at least 60% in English; other boards require equivalent results.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_indonesia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Indonesia: diploma-entry equivalency",
+          "details": "STTB-SMA.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_iran_iraq",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Iran/Iraq: diploma-entry equivalency",
+          "details": "The table names High School Diploma average at least 13, a Pre-University Certificate, a vocational-stream diploma and a First Degree Technician's Certificate. Its intervening 10/11 wording and punctuation do not clearly link each grade to a credential; confirm the accepted alternative rather than inventing that mapping or a common grading scale.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_japan",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Japan: diploma-entry equivalency",
+          "details": "Kotogakko Sotsugyo Shomeisho (Upper Secondary School Leaving Certificate).",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_kenya",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Kenya: diploma-entry equivalency",
+          "details": "KCSE with C average.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_korea_usa",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Korea / USA: diploma-entry equivalency",
+          "details": "A High School Diploma is listed for these two qualification systems. No additional diploma-column GPA/test threshold is stated in their rows.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_malaysia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Malaysia: diploma-entry equivalency",
+          "details": "SPM grades 1-6, Chinese Unified Examination, or equivalent.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_mexico",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Mexico: diploma-entry equivalency",
+          "details": "A listed Bachiller/Bachillerato credential (including General or Tecnologico) or Titulo de Tecnico.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_nepal",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nepal: diploma-entry equivalency",
+          "details": "Proficiency Certificate with grade average 65%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_netherlands",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Netherlands: diploma-entry equivalency",
+          "details": "HAVO diploma, GCE AS-level or NCEA level 2.5, as named in the table. The NCEA 2.5 reference is not defined and must not be converted into a current credit requirement.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_new_caledonia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "New Caledonia: diploma-entry equivalency",
+          "details": "Baccalaureat with minimum grade 10. The table does not identify the grading scale; do not convert it to IB points.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_new_zealand",
+          "category": "academic",
+          "status": "unknown",
+          "label": "New Zealand: diploma-entry equivalency",
+          "details": "The table lists Year 12 NCEA Level 2 with 55 credits over four subjects. Its date and relationship to current NCEA/qualification rules are not confirmed; seek Ara confirmation rather than presenting this as a current national NCEA standard.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_nigeria",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nigeria: diploma-entry equivalency",
+          "details": "Senior School Certificate or West African Senior School Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_norway",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Norway: diploma-entry equivalency",
+          "details": "Avgangseksamen (lower-secondary final examination), as named by the source.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_oman",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Oman: diploma-entry equivalency",
+          "details": "Thanawiya Amma with overall mark at least 80%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_pakistan",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Pakistan: diploma-entry equivalency",
+          "details": "Higher Secondary School Certificate with average at least 60%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_papua_new_guinea",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Papua New Guinea: diploma-entry equivalency",
+          "details": "The diploma cell names an academic-track Senior High School Certificate/Diploma and 'Katunayan/Katibayan'. These terms appear mismatched to the row's country; confirm the accepted credential instead of silently replacing the country or certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_philippines",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Philippines: diploma-entry equivalency",
+          "details": "Academic-track Senior High School awarded from 2016 onward: at least 60% in four academic subjects; or the pre-2016 High School Graduation route with a passed University Admission Test. The table's 2016 boundary wording is retained, not applied to modern graduates without qualification review.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_russia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Russia: diploma-entry equivalency",
+          "details": "Attestat Certificate of Secondary Education or Certificate of Maturity.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_samoa",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Samoa: diploma-entry equivalency",
+          "details": "Completion of high school.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_saudi_arabia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Saudi Arabia: diploma-entry equivalency",
+          "details": "Tawjihiyah with overall mark at least 60%, or Higher Technical Institute Diploma.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_singapore",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Singapore: diploma-entry equivalency",
+          "details": "GCE O-levels; no grade/count is stated in this diploma cell.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_sri_lanka",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Sri Lanka: diploma-entry equivalency",
+          "details": "Sri Lankan GCE Ordinary Level.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_sweden",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Sweden: diploma-entry equivalency",
+          "details": "Slutbetyg fran Grundskola (upper grades), as named in the table.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_taiwan",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Taiwan: diploma-entry equivalency",
+          "details": "Senior High School Leaving Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_thailand",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Thailand: diploma-entry equivalency",
+          "details": "Matayom 6 with at least 50%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_tonga",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Tonga: diploma-entry equivalency",
+          "details": "Successful Year 12 / sixth form.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_uae",
+          "category": "academic",
+          "status": "conditional",
+          "label": "United Arab Emirates: diploma-entry equivalency",
+          "details": "Tawajihyya (general/religious) with at least 70%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_uk",
+          "category": "academic",
+          "status": "conditional",
+          "label": "United Kingdom: diploma-entry equivalency",
+          "details": "GCE O-levels in four subjects.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "diploma_vietnam",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Vietnam: diploma-entry equivalency",
+          "details": "Diploma of General Education (Bang Tu Tai) or Upper Secondary School Graduation Certificate (Bang Tot Nghiep Pho Tong Trung Hoc), with scores at least 6.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ara",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Degree-entry column only (incoming qualification equivalent to NCEA Level 3 / Year 13), not the adjacent diploma column and not postgraduate entry. Undated guidance retrieved 19 October 2026; current programme rules still need checking. Shared identical one-year-tertiary alternatives are grouped once across ten source rows. Legacy/ambiguous entries remain unknown.",
+      "requirements": [
+        {
+          "key": "degree_argentina",
+          "category": "academic",
+          "status": "unknown",
+          "label": "Argentina: degree-entry equivalency",
+          "details": "Trayecto Tecnico Profesional or successful completion of one year of study; the source does not identify the level of that one-year study, so confirm with Ara.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_australia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Australia: degree-entry equivalency",
+          "details": "Complete Year 12 / High School Certificate with ATAR at least 74.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_bangladesh",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Bangladesh: degree-entry equivalency",
+          "details": "Complete HSC with GPA at least 4.0, or one successful year of tertiary study at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_brunei",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Brunei: degree-entry equivalency",
+          "details": "At least two academic GCE A-level subjects at E (two E grades) or equivalent.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_canada",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Canada: degree-entry equivalency",
+          "details": "Provincial High School Diploma with average 60% across six subjects.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_china",
+          "category": "academic",
+          "status": "conditional",
+          "label": "China: degree-entry equivalency",
+          "details": "Either Gaokao at the current year's Tier-2 cutoff in Ara's translated approved table, one successful undergraduate year at a recognized institution of university standing, or two successful academic years at a recognized Junior College. No province/year cutoff or universal Gaokao percentage is invented.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_denmark",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Denmark: degree-entry equivalency",
+          "details": "Bevis for Studentereksamen/Hojere Forberedelseseksamen or Bevis for Hojere Handelseksamen.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_fiji",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Fiji: degree-entry equivalency",
+          "details": "Either SPFSC with at least three B grades in academic/course-specific subjects; Fiji Year 13/Form 7 aggregate at least 250 (English plus best three); or USP Foundation Studies including C in Communication Studies. These are Fiji/USP-system conditions, not IB conversions.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_france",
+          "category": "academic",
+          "status": "conditional",
+          "label": "France: degree-entry equivalency",
+          "details": "Diplome du baccalaureat general.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_germany",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Germany: degree-entry equivalency",
+          "details": "Zeugnis der Allgemeinen Hochschulreife / Abitur.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_hong_kong",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Hong Kong: degree-entry equivalency",
+          "details": "Hong Kong Diploma of Secondary Education; the row supplies no minimum component/total grades.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_india",
+          "category": "academic",
+          "status": "conditional",
+          "label": "India: degree-entry equivalency",
+          "details": "CBSE/HSC/ISC: average at least 70% across four academic subjects and English at least 60%; equivalent results from other boards.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_indonesia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Indonesia: degree-entry equivalency",
+          "details": "SMA with average 8.5, or one successful year at a recognized tertiary institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_iran_iraq",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Iran/Iraq: degree-entry equivalency",
+          "details": "Pre-University Certificate (Peeshdaneshgahe) or one successful tertiary year at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_italy",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Italy: degree-entry equivalency",
+          "details": "Diploma di Maturita with a pass of at least 75%.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_japan",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Japan: degree-entry equivalency",
+          "details": "High School Diploma with B average, or one successful tertiary year at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_kenya",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Kenya: degree-entry equivalency",
+          "details": "KCSE with B+ average.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_korea",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Korea: degree-entry equivalency",
+          "details": "Senior/upper-secondary schooling with 80% (B) average, or one successful tertiary year at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_malaysia",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Malaysia: degree-entry equivalency",
+          "details": "Either three STPM passes at C or better, UEC at most 18 points across six academic subjects, or successful Australian/Canadian matriculation. The row's English evidence options are STPM English B or higher, SPM English A1/A2, or UEC English B4 or higher. Keep these qualification-specific options; confirm programme English requirements.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_nepal",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nepal: degree-entry equivalency",
+          "details": "Proficiency Certificate average 80%, or School Leaving Certificate Examination (Grades XI-XII) with average at least 3.0 across four academic subjects.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_netherlands",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Netherlands: degree-entry equivalency",
+          "details": "VWO diploma (Gymnasium A/B or Atheneum A/B), as named by the source.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_new_caledonia",
+          "category": "academic",
+          "status": "unknown",
+          "label": "New Caledonia: degree-entry equivalency",
+          "details": "The table prints Baccalaureat minimum grade 24 but supplies no scale. Do not reinterpret 24 as an IB total or a valid minimum on a presumed Baccalaureat scale; confirmation is required.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_new_zealand",
+          "category": "academic",
+          "status": "unknown",
+          "label": "New Zealand: degree-entry equivalency",
+          "details": "The undated table lists Year 13 NCEA Level 3 with 42 credits over four subjects. Do not substitute this for verified current NCEA/University Entrance or programme rules; confirm applicability with Ara.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_nigeria",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Nigeria: degree-entry equivalency",
+          "details": "Either West African GCE A-levels in at least three subjects with C or higher (excluding General Studies/similar general paper), HND, or one successful tertiary year at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_norway",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Norway: degree-entry equivalency",
+          "details": "Examen artium (university-preparatory examination), as named by the source.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_philippines",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Philippines: degree-entry equivalency",
+          "details": "Academic-track Senior High School awarded from 2016 onward with at least 70% in four academic subjects, or one complete successful year at a recognized tertiary institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_samoa",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Samoa: degree-entry equivalency",
+          "details": "USP Foundation Studies Certificate or UPY Certificate with at least eight passes including C1 in English.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_singapore",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Singapore: degree-entry equivalency",
+          "details": "NUS High School Diploma or GCE A-levels; no universal A-level grade pattern is stated in this row.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_sri_lanka",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Sri Lanka: degree-entry equivalency",
+          "details": "Sri Lanka Certificate of Education Advanced Level; the row does not give a subject-grade pattern.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_sweden",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Sweden: degree-entry equivalency",
+          "details": "Student Examen / Avgangsbetyg Leaving Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_taiwan",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Taiwan: degree-entry equivalency",
+          "details": "Junior College Diploma or one successful tertiary year at a recognized institution.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_thailand",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Thailand: degree-entry equivalency",
+          "details": "Matayom 6 with either at least 80% of grades at Level 4, or GPA at least 2.5 with relevant subjects, or one successful tertiary year. Preserve the percentage-of-grades wording; it is not a universal 80% examination-score cutoff.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_tonga",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Tonga: degree-entry equivalency",
+          "details": "Form 7 or USP Foundation Studies Certificate.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_uk",
+          "category": "academic",
+          "status": "conditional",
+          "label": "United Kingdom: degree-entry equivalency",
+          "details": "GCE A-levels in three subjects; no minimum letter grades are stated in this country row.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_usa",
+          "category": "academic",
+          "status": "unknown",
+          "label": "USA: degree-entry equivalency",
+          "details": "The undated table lists a High School Diploma with C average plus SAT I/SAT II at least 500 per part, or an Advanced Placement exam alternative. SAT II is a legacy test name; the number/subjects/scores for AP are absent. This is an unresolved source statement, not a current SAT II mandate, modern SAT conversion or inferred AP 3/4/5 cutoff.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_vietnam",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Vietnam: degree-entry equivalency",
+          "details": "Pass the National High School Graduation Examination and Grade-12 GPA at least 7 in four degree-relevant subjects, or one successful recognized undergraduate year. For a July intake the source permits the temporary graduation certificate by the end of August; no current-year intake opening is inferred.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "degree_tertiary_year_group",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Brazil / Chile / Colombia / Mexico / Oman / Pakistan / Papua New Guinea / Russia / Saudi Arabia / United Arab Emirates: degree-entry equivalency",
+          "details": "The degree-entry cells for these ten qualification systems each accept one successful year of tertiary study at a recognized institution. Stored once because their condition is the same. This is not a rule for every country or a transfer-credit award.",
+          "source": {
+            "url": "https://www.ara.ac.nz/academic-equivalence",
+            "title": "Ara: academic and English entry equivalencies",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ara",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "all",
+      "applicantType": "international",
+      "notes": "Post-offer first-enrolment checklist, not first-stage admission eligibility. No application-year or legal immigration interpretation is inferred.",
+      "requirements": [
+        {
+          "key": "first_enrolment_identity",
+          "category": "document",
+          "status": "required",
+          "label": "First visit: passport and visa",
+          "details": "For the first enrolment visit, Ara lists passport and visa among documents to bring. This is an institution enrolment checklist, not a statement of visa eligibility or an initial academic cutoff.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "first_enrolment_original_records",
+          "category": "document",
+          "status": "required",
+          "label": "First visit: original academic and English records",
+          "details": "Bring original academic transcripts and English-test results, including certified translated copies where applicable, at first enrolment. The application-stage certified-copy requirement is recorded separately.",
+          "source": {
+            "url": "https://www.ara.ac.nz/study/priority-learner-groups/international/international-how-to-apply/",
+            "title": "Ara: international application requirements and checklist",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uca",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Explicit 2026 application cycle, reviewed 19 October 2026. February/March/April 2026 dates are historical and already past. Preparatory and direct-entry conditions are alternatives; the portal does not map every threshold to a campus. Current central-campus pathway wording differs from older five-year descriptions, so no universal campus allocation or current opening is inferred. Shared requirements are not cloned across four majors.",
+      "requirements": [
+        {
+          "key": "stage1_application_2026",
+          "category": "application",
+          "status": "required",
+          "label": "2026 Stage 1 application and historical deadline",
+          "details": "Submit the Stage 1 form and supplementary documents by 14 February 2026. This date has passed; it is not an open deadline for a later cycle.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-1/",
+            "title": "UCA: Stage 1 application, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "stage1_photo_id",
+          "category": "document",
+          "status": "required",
+          "label": "Stage 1: government photo identification",
+          "details": "Supply a clear copy of a government-issued photo ID or passport.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-1/",
+            "title": "UCA: Stage 1 application, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "stage1_recent_photograph",
+          "category": "document",
+          "status": "required",
+          "label": "Stage 1: recent white-background photograph",
+          "details": "Supply one white-background photograph showing the face, taken during the previous three months.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-1/",
+            "title": "UCA: Stage 1 application, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "admissions_assessment_options",
+          "category": "standardized_test",
+          "status": "required",
+          "label": "Stage 2: admissions-test or SAT route",
+          "details": "Applicants use UCA's English/mathematics admissions test or the SAT submission route. Taking every alternative is not required. English-test replacement and route-specific scores are stated separately.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "test_notification_location",
+          "category": "application",
+          "status": "conditional",
+          "label": "UCA test: assigned location and evidence",
+          "details": "Applicants taking the UCA test receive their application number, location and time by email and may attend only that assigned location. Bring the personal application-number/email notice and original passport or other government photo ID.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "uca_test_fee",
+          "category": "financial",
+          "status": "conditional",
+          "label": "UCA admissions-test fee",
+          "details": "For candidates taking UCA's own admissions test, the 2026 page states a USD 15 examination fee. It is not presented as a universal fee for applicants using SAT instead.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "sat_preparatory_subscores",
+          "category": "standardized_test",
+          "status": "conditional",
+          "label": "SAT: preparatory-year pathway",
+          "details": "For the preparatory-year SAT route the table lists Mathematics 500 and Evidence-Based Reading and Writing 500. Preserve both section conditions; do not invent a published composite total or apply these lower subscores to direct entry.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "sat_direct_entry_subscores",
+          "category": "standardized_test",
+          "status": "conditional",
+          "label": "SAT: direct-entry pathway",
+          "details": "For direct entry the table lists Mathematics 600 and Evidence-Based Reading and Writing 550. This is a separate route from the preparatory-year thresholds; no IB/AP/A-level conversion or guaranteed admission is stated.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "sat_submission_2026",
+          "category": "document",
+          "status": "conditional",
+          "label": "SAT reporting and historical 2026 deadline",
+          "details": "Use UCA reporting code 7834, or send a scanned/official electronic result by email, post or in person by 7 March 2026. The date has passed and is retained only for the 2026 cycle.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "uca_test_supersedes_sat",
+          "category": "standardized_test",
+          "status": "conditional",
+          "label": "If both SAT and the UCA test are taken",
+          "details": "If an applicant submits SAT results and also sits UCA's admissions test, only the UCA test result is considered. This is not a SAT/UCA superscoring policy.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "ielts_english_replacement",
+          "category": "language",
+          "status": "conditional",
+          "label": "IELTS instead of UCA's English test",
+          "details": "The published alternatives are IELTS 6.0-6.5 for the Preparatory Programme and 7.0 or higher for direct entry. These are the portal's route bands, not maximum permitted scores or a waiver of Mathematics/other selection requirements.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "toefl_ibt_english_replacement",
+          "category": "language",
+          "status": "conditional",
+          "label": "TOEFL iBT instead of UCA's English test",
+          "details": "The 2026 table lists iBT 79-95 for the Preparatory Programme and 96 or higher for direct entry. Retain the source's test-scale numbers and route; no conversion to a newer TOEFL scale is inferred.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "legacy_toefl_english_replacements",
+          "category": "language",
+          "status": "unknown",
+          "label": "Legacy TOEFL CBT/PBT: confirm score applicability",
+          "details": "The table also lists CBT 212-241 / 242+ and PBT 548-588 / 590+ for preparatory/direct routes. These are legacy-format entries, not claims that those tests are currently available; the PBT 589 gap is unresolved.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "cambridge_english_replacement",
+          "category": "language",
+          "status": "conditional",
+          "label": "Cambridge English alternative",
+          "details": "The table lists Cambridge English level B1 for the Preparatory Programme and C1 for direct entry. It does not identify an exam score scale; no numeric Cambridge score is generated.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "uca_english_shortlisting_levels",
+          "category": "language",
+          "status": "conditional",
+          "label": "UCA English-test shortlisting levels",
+          "details": "For UCA's own English assessment the page describes CEFR B1 for preparatory shortlisting and B2/C1 for direct-entry shortlisting. This test description is kept distinct from the Cambridge-alternative table's C1 condition; shortlisting is not an offer.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "stage3_shortlisted_form",
+          "category": "application",
+          "status": "conditional",
+          "label": "Stage 3 form for shortlisted candidates",
+          "details": "Candidates shortlisted following competitive assessment complete the Stage 3 form in April 2026, with further details by email. The page displays 8 April 2026 without defining whether it is a deadline; do not convert that label into a confirmed due date.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-3/",
+            "title": "UCA: Stage 3 application evidence, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "academic_achievements_considered",
+          "category": "experience",
+          "status": "considered",
+          "label": "Academic achievements, Olympiads and competitions",
+          "details": "Stage 3 asks for academic achievements, with examples such as Olympiads, debates and high-school/academic contests. No universal competition participation, prize, medal or rank is required by this statement.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-3/",
+            "title": "UCA: Stage 3 application evidence, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "extracurricular_evidence_considered",
+          "category": "experience",
+          "status": "considered",
+          "label": "Extracurricular and community contribution",
+          "details": "Stage 3 considers activities such as volunteering, community service and leading social projects, to understand interests and potential beyond test scores. No required activity count or duration is stated.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-3/",
+            "title": "UCA: Stage 3 application evidence, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        },
+        {
+          "key": "outside_founding_states_shortlist",
+          "category": "application",
+          "status": "conditional",
+          "label": "Test invitations outside the three founding states",
+          "details": "Applicants from outside Tajikistan, Kyrgyzstan and Kazakhstan are shortlisted after preliminary review before invitation to the UCA admissions test. The page does not define 'from outside' as citizenship rather than schooling or residence; retain the named condition without narrowing it to non-Kyrgyz citizens. No nationality exclusion or guaranteed invitation is inferred.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-2/",
+            "title": "UCA: Stage 2 admissions test and SAT, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uca",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Explicit 2026 application cycle, reviewed 19 October 2026. February/March/April 2026 dates are historical and already past. Preparatory and direct-entry conditions are alternatives; the portal does not map every threshold to a campus. Current central-campus pathway wording differs from older five-year descriptions, so no universal campus allocation or current opening is inferred. Shared requirements are not cloned across four majors. The page separately names applicants from outside the three founding states; that exact condition is retained in the fact and must not be replaced by a non-Kyrgyz-only rule.",
+      "requirements": [
+        {
+          "key": "international_stage1_transcripts",
+          "category": "document",
+          "status": "required",
+          "label": "International Stage 1: academic transcripts",
+          "details": "The Stage 1 page explicitly requires academic transcripts from international applicants. Shared ID/photo/form requirements are stored once in the all-applicant 2026 scope.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-1/",
+            "title": "UCA: Stage 1 application, 2026 cycle",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uca",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated Stage 4 admission-selection policy. Scholarship eligibility, tuition amounts and exceptional second-year entry are not imported as universal entry requirements. This page has no explicit entry year; its footer is not used as one.",
+      "requirements": [
+        {
+          "key": "ability_to_pay_not_considered",
+          "category": "financial",
+          "status": "not_considered",
+          "label": "Admission selection: ability to pay",
+          "details": "UCA states admission is merit-based and ability to pay fees is not considered in selection. This is not an automatic scholarship award; the separate scholarship competition/Republican Olympiad criteria are not general admission prerequisites.",
+          "source": {
+            "url": "https://admissions.ucentralasia.org/apply/stage-4/",
+            "title": "UCA: fees, financial assistance and admission selection",
+            "checkedOn": "2026-10-19"
+          }
+        }
+      ]
+    }
+  ]
+}

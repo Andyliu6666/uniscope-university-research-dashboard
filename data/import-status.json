@@ -7,10 +7,10 @@
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 1956,
+            "admissionProfiles": 1963,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22155,
+            "admissionRequirements": 22265,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 76
         },
@@ -132,10 +132,10 @@
             "programs": 4089,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1865,
+            "admissions": 1867,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24064
+            "noStructuredApplicationFacts": 24062
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -147,31 +147,29 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 135,
-            "profiles": 47,
-            "institutions": 6
+            "facts": 245,
+            "profiles": 54,
+            "institutions": 8
         }
     },
-    "generatedAt": "2026-10-18T11:21:54Z",
+    "generatedAt": "2026-10-19T00:48:09Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 22,
-        "provider": "official_ib",
+        "inserted": 110,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 22,
-        "startedAt": "2026-10-18T11:21:39.557836+00:00",
-        "updatedAt": "2026-10-18T11:21:39.622+00:00",
+        "processed": 110,
+        "startedAt": "2026-10-19T00:48:07.627562+00:00",
+        "updatedAt": "2026-10-19T00:48:07.627562+00:00",
         "checkpoint": {
-            "rowIndex": 22,
-            "sourceRows": 22,
-            "schemaVersion": 1,
-            "createdPrograms": 6
+            "profiles": 7,
+            "admissionFacts": 110
         },
-        "finishedAt": "2026-10-18T11:21:39.622+00:00",
-        "artifactSha256": "03ff46cc0ba3563c570cebfc32a7b21df1d364961356ce8434ee9b135665dadb",
-        "datasetVersion": "official-ib-ghana-pacific-2026-10-18-v1"
+        "finishedAt": "2026-10-19T00:48:07.71+00:00",
+        "artifactSha256": "1347f3c13a6229ccd4e969ac419310c050a25fc7ce27d463a3fc3b5ba9c5799e",
+        "datasetVersion": "official-admissions-ara-uca-2026-10-19-v1"
     },
     "schemaVersion": 2
 }

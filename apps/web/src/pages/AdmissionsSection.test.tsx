@@ -95,6 +95,24 @@ describe('general admissions scope and evidence', () => {
     ).toBeInTheDocument();
     expect(screen.queryByLabelText('Choose admission scope')).not.toBeInTheDocument();
   });
+
+  it('defaults to shared application requirements instead of a financial-only or group-specific policy', () => {
+    const financial = profile('financial');
+    financial.requirements = financial.requirements.map((r) => ({ ...r, category: 'financial' }));
+    render(
+      <AdmissionsSection
+        data={response([
+          financial,
+          profile('international', { applicantType: 'international' }),
+          profile('academic', { academicYear: '2026' }),
+        ])}
+        pending={false}
+      />,
+    );
+    expect(screen.getByText('Details academic')).toBeInTheDocument();
+    expect(screen.queryByText('Details financial')).not.toBeInTheDocument();
+    expect(screen.queryByText('Details international')).not.toBeInTheDocument();
+  });
   it('handles a pending request and an empty response', () => {
     const { rerender } = render(<AdmissionsSection data={undefined} pending />);
     expect(screen.getByText('Loading official admissions data…')).toBeInTheDocument();
