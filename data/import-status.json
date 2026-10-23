@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280111,
+            "programs": 280136,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 1963,
+            "admissionProfiles": 2002,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22265,
+            "admissionRequirements": 22344,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 76
         },
@@ -100,7 +100,7 @@
             "institutionWidePolicies": 8,
             "institutionsWithReviewedIb": 27,
             "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194444
+            "undergraduateCatalogEntries": 194469
         },
         "coreCoverage": {
             "phone": 4078,
@@ -129,13 +129,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4089,
+            "programs": 4091,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1867,
+            "admissions": 1869,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24062
+            "noStructuredApplicationFacts": 24060
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -147,29 +147,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 245,
-            "profiles": 54,
-            "institutions": 8
+            "facts": 324,
+            "profiles": 93,
+            "institutions": 10
         }
     },
-    "generatedAt": "2026-10-19T00:48:09Z",
+    "generatedAt": "2026-10-23T15:00:28Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 110,
+        "inserted": 79,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 110,
-        "startedAt": "2026-10-19T00:48:07.627562+00:00",
-        "updatedAt": "2026-10-19T00:48:07.627562+00:00",
+        "processed": 79,
+        "startedAt": "2026-10-23T14:56:47.641479+00:00",
+        "updatedAt": "2026-10-23T14:56:47.641479+00:00",
         "checkpoint": {
-            "profiles": 7,
-            "admissionFacts": 110
+            "profiles": 39,
+            "admissionFacts": 79,
+            "programsReused": 0,
+            "programsCreated": 25
         },
-        "finishedAt": "2026-10-19T00:48:07.71+00:00",
-        "artifactSha256": "1347f3c13a6229ccd4e969ac419310c050a25fc7ce27d463a3fc3b5ba9c5799e",
-        "datasetVersion": "official-admissions-ara-uca-2026-10-19-v1"
+        "finishedAt": "2026-10-23T14:56:47.786+00:00",
+        "artifactSha256": "d7e65edcc39c8bd0f68c1a9bd49202adb07589ea9204d9860e4d56e4cdd1db08",
+        "datasetVersion": "official-admissions-nust-utech-2026-10-23-v1"
     },
     "schemaVersion": 2
 }

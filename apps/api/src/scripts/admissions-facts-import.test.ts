@@ -76,6 +76,27 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
 }
 
 describe('admission facts import safety', () => {
+  it('retains different page citations for facts sharing one source URL', async () => {
+    const second = {
+      ...fact,
+      key: 'another_page',
+      details: 'A distinct reviewed condition.',
+      source: { ...fact.source, title: 'Same guide, page 22' },
+    };
+    const mock = mockDb(new Map(), true);
+    await importAdmissionsFacts(mock.db, {
+      ...one,
+      profiles: [{ ...profile, requirements: [fact, second] }],
+    });
+    const saved = mock.rows.get(admissionRequirements) as Array<{
+      sourceFlags: Record<string, unknown>;
+    }>;
+    expect(saved.map((r) => r.sourceFlags.sourceTitle)).toEqual([
+      fact.source.title,
+      second.source.title,
+    ]);
+    expect(mock.rows.get(sources)).toHaveLength(1);
+  });
   it('rejects aliases from different providers that resolve to one real admission scope', async () => {
     const school = dataset.institutions[0];
     if (!school) throw new Error('Missing fixture institution.');

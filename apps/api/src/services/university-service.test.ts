@@ -3,6 +3,7 @@ import { PgDialect } from 'drizzle-orm/pg-core';
 import {
   deriveUniversityCoverage,
   admissionsPageBounds,
+  requirementCitationForApi,
   resolveStudentCount,
   type UniversityCoverageFacts,
   universitySearchFilter,
@@ -48,6 +49,58 @@ const sparseUniversity = {
   offersGraduate: null,
   studentCount: null,
 };
+
+describe('requirement-level source citations', () => {
+  const source = {
+    title: 'Shared guide, first recorded page',
+    url: 'https://college.example.edu/guide.pdf',
+    category: 'official' as const,
+    publisher: 'Example College',
+    datasetVersion: 'v1',
+    publishedAt: null,
+    verifiedAt: '2026-10-01T00:00:00.000Z',
+  };
+  const flags = {
+    provider: 'official_admissions',
+    sourceUrl: source.url,
+    sourceTitle: 'Guide, page 5',
+  };
+  const date = new Date('2026-10-23T00:00:00Z');
+  it('uses the fact page and check date without changing shared source metadata', () => {
+    expect(requirementCitationForApi(source, flags, date)).toMatchObject({
+      title: 'Guide, page 5',
+      verifiedAt: date.toISOString(),
+      url: source.url,
+    });
+    expect(source.title).toBe('Shared guide, first recorded page');
+    expect(source.verifiedAt).toBe('2026-10-01T00:00:00.000Z');
+  });
+  it('keeps legacy citations readable while using their own fact review date', () => {
+    expect(requirementCitationForApi(source, {}, date)).toMatchObject({
+      title: source.title,
+      verifiedAt: date.toISOString(),
+    });
+  });
+  it('rejects a page title from another provider or mismatched URL', () => {
+    expect(requirementCitationForApi(source, { ...flags, provider: 'other' }, date).title).toBe(
+      source.title,
+    );
+    expect(
+      requirementCitationForApi(
+        source,
+        { ...flags, sourceUrl: 'https://other.example/guide.pdf' },
+        date,
+      ).title,
+    ).toBe(source.title);
+  });
+  it('does not expose malformed or excessive citation titles', () => {
+    for (const sourceTitle of ['', '  ', 5, null, 'x'.repeat(201)]) {
+      expect(requirementCitationForApi(source, { ...flags, sourceTitle }, date).title).toBe(
+        source.title,
+      );
+    }
+  });
+});
 
 describe('university profile hydration', () => {
   it('keeps admissions pages bounded and computes a non-overlapping offset', () => {

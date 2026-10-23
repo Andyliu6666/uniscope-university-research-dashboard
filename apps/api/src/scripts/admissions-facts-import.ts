@@ -323,6 +323,7 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
             provider: PROVIDER,
             datasetVersion: dataset.datasetVersion,
             sourceUrl: fact.source.url,
+            sourceTitle: fact.source.title,
           },
         });
       }

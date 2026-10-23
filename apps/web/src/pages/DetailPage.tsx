@@ -197,7 +197,11 @@ export function DetailPage() {
           ))}
           {university.deadlines.length === 0 && (
             <p className="muted empty-list-copy">
-              No current application deadline has been verified for this institution yet.
+              No separate calendar entry has been added. Published dates may be recorded within{' '}
+              <a href="#admissions-requirements">
+                admissions requirements and application guidance
+              </a>
+              . Check the applicable year and route before relying on a date.
             </p>
           )}
         </section>

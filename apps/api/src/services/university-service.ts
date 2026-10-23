@@ -96,6 +96,26 @@ const sourceForApi = (source: typeof sources.$inferSelect) => ({
   verifiedAt: source.verifiedAt.toISOString(),
 });
 
+/** One PDF URL can support different pages and review dates on individual facts. */
+export const requirementCitationForApi = (
+  source: ReturnType<typeof sourceForApi>,
+  flags: Record<string, unknown>,
+  checkedAt: Date,
+) => {
+  const title = flags.sourceTitle;
+  const hasReviewedTitle =
+    flags.provider === 'official_admissions' &&
+    flags.sourceUrl === source.url &&
+    typeof title === 'string' &&
+    title.trim().length > 0 &&
+    title.length <= 200;
+  return {
+    ...source,
+    title: hasReviewedTitle ? title : source.title,
+    verifiedAt: checkedAt.toISOString(),
+  };
+};
+
 type CostSnapshotRow = typeof costSnapshots.$inferSelect;
 type SourceRow = typeof sources.$inferSelect;
 
@@ -853,7 +873,7 @@ export const getUniversityAdmissions = async (
         details: row.details,
         sourceFlags: row.sourceFlags,
         verifiedAt: row.verifiedAt.toISOString(),
-        source: sourceFor(row.sourceId),
+        source: requirementCitationForApi(sourceFor(row.sourceId), row.sourceFlags, row.verifiedAt),
       })),
     qualifications: qualificationRows
       .filter((row) => row.admissionProfileId === profile.id)
