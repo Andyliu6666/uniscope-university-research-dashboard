@@ -1,0 +1,1311 @@
+{
+  "datasetVersion": "official-admissions-eswatini-belize-2026-10-30-v1",
+  "reviewedOn": "2026-10-30",
+  "institutions": [
+    {
+      "key": "eswatini",
+      "name": "University of Eswatini",
+      "provider": "ror",
+      "externalId": "05nv2rz39",
+      "countryCode": "SZ",
+      "officialDomains": ["uneswa.ac.sz"]
+    },
+    {
+      "key": "belize",
+      "name": "University of Belize",
+      "provider": "ror",
+      "externalId": "00fgcap50",
+      "countryCode": "BZ",
+      "officialDomains": ["ub.edu.bz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "es_commerce",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Commerce",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 16–17",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_taxation",
+      "institutionKey": "eswatini",
+      "name": "Post-Graduate Diploma in Taxation",
+      "field": "Taxation",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 18",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "graduate"
+    },
+    {
+      "key": "es_primary_education",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Education (Primary)",
+      "field": "Primary education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 24",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_secondary_education",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Education (Secondary)",
+      "field": "Secondary education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 25",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_pgce",
+      "institutionKey": "eswatini",
+      "name": "Post-Graduate Certificate in Education",
+      "field": "Teacher education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 26",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "graduate"
+    },
+    {
+      "key": "es_nursing_new",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Nursing Science (New Programme)",
+      "field": "Nursing",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 29",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_journalism",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Arts in Journalism and Mass Communication",
+      "field": "Journalism",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_humanities",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Arts in Humanities",
+      "field": "Humanities",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+        "checkedOn": "2026-10-30"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "bz_medicine",
+      "institutionKey": "belize",
+      "name": "Bachelor of Medicine, Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://ub.edu.bz/ubsom/",
+        "title": "Belize: School of Medicine programme and admissions FAQ (undated)",
+        "checkedOn": "2026-10-30"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_degree_six_credits",
+          "category": "academic",
+          "label": "Degree school-leaver requirements",
+          "status": "required",
+          "details": "Degree applicants need six SGCSE/IGCSE passes at C or better, including English Language and four other relevant subjects. Faculty-specific requirements still apply. These are school-subject grades, not an IB Diploma total.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_selection_competitive",
+          "category": "application",
+          "label": "Minimum requirements do not guarantee a place",
+          "status": "required",
+          "details": "Applicants compete for limited places and are subject to selection. Meeting the published minimum or submitting an application does not guarantee admission.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_2026_deadline",
+          "category": "application",
+          "label": "2026/2027 application deadline — past",
+          "status": "required",
+          "details": "The prospectus gives 10 April 2026 as the closing date for receipt of all applications, already past at this review. Outcomes were expected by the end of June 2026. This is not a 2027/2028 deadline or evidence that applications remain open.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 5",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_prevocational_accreditation",
+          "category": "academic",
+          "label": "Prevocational subject recognition",
+          "status": "conditional",
+          "details": "Prevocational-subject admission is considered against accreditation dated March 2022. The note does not provide an IB/AP equivalence, a subject-grade conversion or unconditional recognition of every vocational credential.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_agriculture_subject_group",
+          "category": "academic",
+          "label": "Agriculture degree group: subject credits",
+          "status": "required",
+          "details": "For Agricultural and Bio-Systems Engineering, Agricultural Economics and Agri-Business Management, Agricultural Education, Agricultural Extension, Agronomy, Animal Science (including Dairy) and Horticulture: C or better in English, Mathematics and two sciences. Accepted sciences include Physics, Chemistry, Physical Science, Biology, Integrated Science and Combined Science. Shared rule stored once for this named faculty group.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 14",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_agriculture_science_substitution",
+          "category": "academic",
+          "label": "Agriculture-related subjects as sciences",
+          "status": "conditional",
+          "details": "For agriculture-related degrees, Agriculture, Agricultural Science or Agricultural Technology at credit level can count as a science subject. This substitution is not extended to every science/health degree.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 14",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_health_school_subjects",
+          "category": "academic",
+          "label": "Named Health Sciences degrees: school-subject route",
+          "status": "required",
+          "details": "For the four Environmental Health/Environmental Management degrees and Bachelor of Nursing Science (New Programme), the SGCSE/IGCSE route needs six passes including C or better in English, Mathematics and two of Biology, Chemistry, Physics, Physical Science or Combined Science, plus two other subjects. Separate selection applies to new-programme Nursing; this is not postgraduate-diploma eligibility.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 27",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_environmental_health_subject_exception",
+          "category": "academic",
+          "label": "Environmental Health Science: Geography/Agriculture option",
+          "status": "conditional",
+          "details": "Geography or Agriculture may count among the two science choices only for Bachelor of Science in Environmental Health Science. Do not extend that exception to Nursing or every environmental degree.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 27–28",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_health_gce_science_options",
+          "category": "academic",
+          "label": "Health Sciences: GCE O-level science choices",
+          "status": "conditional",
+          "details": "The GCE O-level route for the named Health Sciences degrees requires six passes, English and Mathematics C or better, plus two credit-level sciences from Biology, Chemistry, Physics, Science (Biology/Chemistry), Combined Science, Human and Social Biology, or Additional Combined Science, and two other subjects. The Environmental Health Science-only exception is separate.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 27–28",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_health_higcse_as_route",
+          "category": "academic",
+          "label": "Health Sciences: HIGCSE/AS route",
+          "status": "conditional",
+          "details": "The HIGCSE/AS route specifies six passes including English, Mathematics and two listed sciences at C or better, plus two other subjects. The listed sciences match the SGCSE/IGCSE group, with the Environmental Health Science-only Geography/Agriculture exception. Keep this six-subject route distinct from the two-A-level exemption route.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 28",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "General non-bachelor diploma/certificate school-leaver categories only; specific award conditions may add requirements. Postgraduate diplomas/certificates are separate.",
+      "requirements": [
+        {
+          "key": "es_diploma_six_credits",
+          "category": "academic",
+          "label": "Diploma school-leaver requirements",
+          "status": "required",
+          "details": "The general diploma route requires six SGCSE/IGCSE passes at C or better, including English and three other relevant subjects. This is the diploma category, not a postgraduate diploma's prior-degree condition.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_certificate_four_passes",
+          "category": "academic",
+          "label": "Certificate school-leaver requirements",
+          "status": "required",
+          "details": "The general certificate route requires four SGCSE/IGCSE passes, including English at E or better. Do not replace it with the degree's six-C-pass standard or apply it to a postgraduate certificate.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_mature_route_over_22",
+          "category": "academic",
+          "label": "Mature-age alternative",
+          "status": "conditional",
+          "details": "The 2026 prospectus describes mature-age entry for applicants over 22 who lack normal entry qualifications, subject to faculty-specific requirements. It refers applicants to the detailed scheme; no birth-date cutoff, universal work duration or test pass mark is published on this page.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 13",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_agriculture_diploma_levels",
+          "category": "academic",
+          "label": "Agriculture: two- and three-year diploma placement",
+          "status": "conditional",
+          "details": "A relevant two-year UNESWA Agriculture diploma or equivalent leads to Level 1; a relevant three-year diploma leads to Level 2 or 3. Agricultural Education uses the Agricultural Education diploma; other agriculture degrees use Agriculture. Senate/faculty decide course exemptions, and missing Level 1/2 courses remain required.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 14–15",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_agriculture_alevel_credit",
+          "category": "academic",
+          "label": "Agriculture: A-level course exemption",
+          "status": "conditional",
+          "details": "Courses passed at A-level with C or better may receive exemption in the Agriculture faculty. This is course-credit assessment, not a published three-A-level admission offer.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 14",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_health_alevel_year_exemption",
+          "category": "academic",
+          "label": "Health Sciences: possible first-year exemption",
+          "status": "conditional",
+          "details": "Two relevant acceptable A-level grades C or better, or equivalent, may support first-year exemption if the applicant fits an acceptable year-II programme. The decision is conditional; this is not the HIGCSE/AS six-pass route or an IB conversion.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 28",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_environmental_diploma_placement",
+          "category": "academic",
+          "label": "Environmental qualifications: advanced entry",
+          "status": "conditional",
+          "details": "UNESWA's Environmental Health Science diploma may support Level 3 in the relevant four-year programmes; an external recognized equivalent has Senate-determined placement. Public Health Inspection diploma holders may be eligible for Level 2 of Environmental Science programmes. Do not apply these placements automatically to Nursing.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 28",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_commerce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_commerce_sgcse_subjects",
+          "category": "academic",
+          "label": "Commerce: SGCSE/IGCSE subjects",
+          "status": "required",
+          "details": "Six SGCSE/IGCSE passes, with English and Mathematics at C or better and at least two credit subjects from the approved list: Economics, Business Studies, Accounts, Additional Mathematics, French, English Literature, Geography, Religious Studies, Food and Nutrition, Agricultural Technology, Business Accounting, Entrepreneurship, IT, SiSwati, Biology, Afrikaans, Combined Science, Design Technology, History, Agriculture, Fashion and Fabrics, Food and Technology, Technical Studies, or ICT.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 16",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_commerce_gce_subjects",
+          "category": "academic",
+          "label": "Commerce: GCE O-level alternative",
+          "status": "conditional",
+          "details": "The GCE O-level route requires six passes, English and Mathematics C or better, plus two credits from Additional Mathematics, Agriculture, Bible Knowledge, Biology, Combined Science, Commerce, Chemistry, Economics, French, Geography, General Science, History, Human and Social Biology, Physics, Physical Science, Principles of Accounts or SiSwati. The GCE and SGCSE lists are not interchangeable.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 17",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_commerce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_commerce_diploma_placement",
+          "category": "academic",
+          "label": "Commerce: different diploma routes",
+          "status": "conditional",
+          "details": "Diploma in Accounting and Business Studies (DABS), or recognized business-related diploma, supports Level 1. A UNESWA Diploma in Commerce or recognized equivalent may support Level 3, with any additional courses directed by Senate. Do not treat every business diploma as automatic third-year entry.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 17",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_taxation",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_taxation_prior_qualifications",
+          "category": "academic",
+          "label": "Taxation: alternative prior qualifications",
+          "status": "required",
+          "details": "Alternatives: BCom or equivalent; LLB; completed CA/ACCA/CPA/CIMA or another recognized professional qualification; or another recognized bachelor's degree plus tax-environment work experience. The work condition applies to the last alternative. Senate determines entry and additional courses; school-leaver certificate rules are not substituted.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 18",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_primary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_primary_teacher_route_ambiguity",
+          "category": "academic",
+          "label": "Primary Education: entry wording needs confirmation",
+          "status": "unknown",
+          "details": "The page lists Primary Teacher's Diploma, a two-year Secondary Teachers' Certificate or a recognized equivalent, but places them beneath a 'Direct Entry' school-qualification heading. Confirm which credential route applies and the entry level; do not invent an unconditional direct school-leaver offer or require every applicant to hold both teacher qualifications.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 24",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_secondary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_secondary_mathematics_group",
+          "category": "academic",
+          "label": "Secondary Education: Mathematics by specialization",
+          "status": "required",
+          "details": "Mathematics C or better is required for Business Education and Science, and for Humanities applicants intending to major in Geography. The Humanities Geography condition is not imposed on every Humanities specialization. Shared subject condition recorded once.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 25",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_secondary_science_subjects",
+          "category": "academic",
+          "label": "Secondary Science Education: additional subjects",
+          "status": "required",
+          "details": "Science specialization also lists two subjects drawn from Biology, Chemistry, Geography, Physical Science, Physics or Co-ordinated Sciences, and C or better in another subject. The source does not say Co-ordinated Sciences automatically counts as two subjects; confirm the exact combination if relying on that award.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 25",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_secondary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_secondary_teacher_qualification_route",
+          "category": "academic",
+          "label": "Secondary Education: teacher qualification alternative",
+          "status": "conditional",
+          "details": "An STD, a two-year STC, or a recognized equivalent may qualify for consideration. These are alternatives, not cumulative requirements; the page does not guarantee a specific higher entry year.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 25",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_pgce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_pgce_degree_subject_gpa",
+          "category": "academic",
+          "label": "PGCE: degree and teaching-subject preparation",
+          "status": "required",
+          "details": "A bachelor's degree, including BEng, from UNESWA or a recognized institution, with average GPA at least 2.0 (D) in at least one teaching subject. Listed subjects include languages, humanities, accounting/business, science and mathematics; French is explicitly not currently offered. This is a prior-degree teaching-subject threshold, not a school GPA or universal IB cutoff.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 26",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_nursing_new",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_nursing_grade_priority",
+          "category": "academic",
+          "label": "Nursing: competitive subject-grade priority",
+          "status": "considered",
+          "details": "Subject to available places and shared Health Sciences conditions, the new Nursing programme prioritizes higher English, Mathematics and science grades. The science list includes Biology, Chemistry, Combined Science, Human and Social Biology, Physics and physical-science combinations. No fixed competitive cutoff is published in this row.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 29",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_nursing_selection_methods",
+          "category": "interview",
+          "label": "Nursing: aptitude test or oral interview",
+          "status": "conditional",
+          "details": "The new programme also uses selection methods such as an aptitude test or oral interview, subject to available places and applicable entry routes. The source says 'or'; do not require both or invent an examination pass score.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 29",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_journalism",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_journalism_language_credit",
+          "category": "academic",
+          "label": "Journalism: language credit",
+          "status": "required",
+          "details": "Alongside general entry requirements, candidates need C or better in SiSwati or another language. SiSwati is one alternative, not a compulsory nationality-specific subject for every applicant.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_journalism",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_journalism_diploma_route",
+          "category": "academic",
+          "label": "Journalism: diploma alternative",
+          "status": "conditional",
+          "details": "A Journalism and Mass Communication diploma from UNESWA or another recognized higher-education institution supports consideration for degree entry. Senate determines the level on departmental recommendation; no automatic year-three placement is promised.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_humanities",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus. Shared entry requirements are recorded once; named course/award and route conditions must also be met. A minimum permits consideration, not a guaranteed place.",
+      "requirements": [
+        {
+          "key": "es_humanities_subject_pair",
+          "category": "academic",
+          "label": "Humanities: two relevant subject credits",
+          "status": "required",
+          "details": "C or better in any two of English Literature, History, Geography, French, Religious Knowledge or SiSwati, in addition to general admission conditions.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "es_humanities_geography_mathematics",
+          "category": "academic",
+          "label": "Humanities Geography: Mathematics condition",
+          "status": "conditional",
+          "details": "Applicants intending Geography, Environmental Science and Planning need Mathematics C or better at SGCSE/IGCSE or O-level. This condition does not apply to every Humanities subject combination.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 undergraduate prospectus, printed/PDF page 30",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_general_school_gpa",
+          "category": "academic",
+          "label": "General academic minimum",
+          "status": "required",
+          "details": "The new-student page specifies cumulative GPA at least 2.0/4.0 from high school or junior college, with official evidence of graduation from a recognized four-year high school. Programme-specific higher conditions, including Medicine, remain separate.",
+          "source": {
+            "url": "https://ub.edu.bz/new-students/",
+            "title": "Belize: new-student academic requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_one_complete_application",
+          "category": "application",
+          "label": "One completed application route",
+          "status": "required",
+          "details": "Apply online or on paper, not both, and supply a complete, accurate application package. Incomplete applications are not processed. Shared submission instructions apply alongside the named programme's own checklist.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_official_transcripts",
+          "category": "document",
+          "label": "Official transcripts and former-UB exception",
+          "status": "required",
+          "details": "School-leavers provide official transcripts from all high schools; current students include first term of fourth year. Transcripts must arrive directly from the institution or in its sealed envelope. Former UB students from 2000 onward need not resubmit their UB transcript; predecessor-college transcripts are still required.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1–2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_two_recommendation_forms",
+          "category": "document",
+          "label": "Two recommendation forms",
+          "status": "required",
+          "details": "Submit two completed UB recommendation forms, sent directly by recommenders or in sealed envelopes. Medicine has additional recommender-qualification rules recorded under its programme; do not substitute two generic unsigned letters.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_shared_identity_award_evidence",
+          "category": "document",
+          "label": "Identity, photo and qualification evidence",
+          "status": "required",
+          "details": "The applicable checklist includes a passport-size photo, certified Social Security Card, passport biometric page or birth certificate, and high-school diploma/associate qualification. A still-pending graduation certificate can follow completion. Select documents applicable to the applicant; do not demand a Belizean card from every foreign applicant without confirmation.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_document_certification",
+          "category": "document",
+          "label": "Certification of copies",
+          "status": "required",
+          "details": "Copies are authenticated by a Justice of the Peace or UB Records/Admissions personnel; international documents may require apostille. Certification does not replace official transcript delivery.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_ordinary_application_fee",
+          "category": "financial",
+          "label": "Ordinary undergraduate application fee",
+          "status": "required",
+          "details": "The general undergraduate form lists a non-refundable BZ$30 or US$15 application fee and payment receipt; do not mail cash. Medicine uses a separate BZ$200/US$100 fee, recorded under its programme. These are application charges, not tuition.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_personal_statement_shared",
+          "category": "application",
+          "label": "Personal statement: approximately 250–500 words",
+          "status": "required",
+          "details": "Provide an approximately 250–500-word statement covering achievements, career/professional aims and extracurricular interests or involvement. The undergraduate form and Medicine form use the same prompt and length, stored once. No required competition medal, activity count or essay-scoring threshold is stated.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 5 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_under_eighteen_guardian",
+          "category": "document",
+          "label": "Under-18 signature and contact",
+          "status": "conditional",
+          "details": "Applicants sign the declaration; those under 18 also need parent/guardian signature and contact details. This is not an age-18 minimum for every undergraduate programme.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 6 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_test_reports_where_applicable",
+          "category": "standardized_test",
+          "label": "Submit relevant examination evidence",
+          "status": "conditional",
+          "details": "Provide reports for standardized examinations applicable to the chosen route (the form lists ATLIB, CXC, SAT, ACT and GCE). This checklist does not require taking every listed examination or establish an IB/AP minimum.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_atlib_cxc_act_alternatives",
+          "category": "standardized_test",
+          "label": "Alternatives to the ATLIB general requirement",
+          "status": "conditional",
+          "details": "The new-student page lists four CXC passes including English and Mathematics, or ACT 18, as alternatives to the ATLIB general requirement. They are alternatives, not cumulative tests; programme-specific conditions still apply.",
+          "source": {
+            "url": "https://ub.edu.bz/new-students/",
+            "title": "Belize: new-student examination alternatives (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_sat_version_unspecified",
+          "category": "standardized_test",
+          "label": "Published SAT alternative: version not stated",
+          "status": "unknown",
+          "details": "The new-student page also lists combined SAT 890 in place of ATLIB but does not identify the SAT edition or scale. Confirm applicability to a current SAT result; do not present this as a verified current digital-SAT cutoff or a guarantee of admission.",
+          "source": {
+            "url": "https://ub.edu.bz/new-students/",
+            "title": "Belize: new-student examination alternatives (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_interview_if_requested",
+          "category": "interview",
+          "label": "Interview when requested",
+          "status": "conditional",
+          "details": "The university may request an interview and will notify the applicant. Medicine's specific interview selection is separate; this general statement is not a universal interview requirement.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_conditional_pending_graduation",
+          "category": "application",
+          "label": "Conditional offer while finishing school/college",
+          "status": "conditional",
+          "details": "An offer can be conditional on successful completion and later submission of the final transcript and certified diploma/degree. A provisional offer does not waive graduation requirements.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_recurring_deadline_rules",
+          "category": "application",
+          "label": "Recurring deadlines; confirm the entry cycle",
+          "status": "conditional",
+          "details": "The form gives August early-bird last Friday of March and regular last Friday of May; January last Friday of November; summer last Friday of February. Faculty of Health Sciences uses last Friday of March; late processing depends on space. No year is assigned here, and Medicine advertises its own dates. Do not infer a currently open intake from the stale January 2026 website banner.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_placement_conditions",
+          "category": "standardized_test",
+          "label": "English/Mathematics placement and ATLIB validity",
+          "status": "conditional",
+          "details": "ATLIB Mathematics at least 35/50 and English at least 60/100 exempt applicants from the corresponding UB placement examination. ATLIB older than five years requires reassessment. The placement page lists low/missing scores; the form also considers prior college English/Math. Confirm which exam is needed if relying on prior study or an alternative qualification. These are placement conditions, not universal degree-admission cutoffs.",
+          "source": {
+            "url": "https://ub.edu.bz/placement-tests/",
+            "title": "Belize: English/Mathematics placement examinations (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_acceptance_deferral",
+          "category": "application",
+          "label": "Deferral after acceptance",
+          "status": "conditional",
+          "details": "An accepted student may request deferral up to one academic year if the programme is open then. Submit the deferral form and processing-fee receipt one semester in advance; old examples using 2024/2025 are not new deadlines.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "readmission",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_pued_odl_ace_readmission",
+          "category": "application",
+          "label": "Previous PUED/ODL/ACE students",
+          "status": "required",
+          "details": "Applicants who previously took UB PUED, ODL or ACE courses are instructed to reapply using the Readmission Form. This is not a new application requirement for every first-time school-leaver.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 1 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_transfer_college_gpa",
+          "category": "academic",
+          "label": "Recognized junior-college transfer route",
+          "status": "required",
+          "details": "The transfer page accepts Ministry-recognized junior colleges and specifies GPA at least 2.0/4.0 in English and Mathematics at junior-college level. Do not substitute Medicine's 3.0 threshold or assume every foreign institution is automatically recognized.",
+          "source": {
+            "url": "https://ub.edu.bz/transfer-students/",
+            "title": "Belize: junior-college transfer requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_transfer_advanced_vocational_alternatives",
+          "category": "academic",
+          "label": "Transfer alternatives: A-level, CAPE, City and Guilds",
+          "status": "conditional",
+          "details": "Alternatives include two GCE A-level core-course passes; two two-unit CAPE core-course passes in place of the GPA requirement; or a relevant City and Guilds pass in place of subject-specific GPA. No numerical A-level/CAPE grades or IB conversion are stated on this transfer page.",
+          "source": {
+            "url": "https://ub.edu.bz/transfer-students/",
+            "title": "Belize: alternative transfer qualifications (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_transfer_credit_assessment",
+          "category": "academic",
+          "label": "Course transferability is assessed",
+          "status": "conditional",
+          "details": "Prior associate study may receive course credit only where transferability standards are met. Belize junior-college students can consult the institutional transfer matrix; prior attendance is not a guarantee that every credit transfers.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_international_transfer_outlines",
+          "category": "document",
+          "label": "Foreign credit: course outlines direct from institution",
+          "status": "required",
+          "details": "For requested foreign transfer credits, the previous institution sends official relevant course outlines directly to UB Admissions. Do not replace institutional delivery with self-authored summaries.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/07/UB-APPLICATION-FORM-Updated-2025.pdf",
+            "title": "Belize undergraduate application, PDF page 2 (2025 file; entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_international_language_scores",
+          "category": "language",
+          "label": "English competency for non-English-country applicants",
+          "status": "conditional",
+          "details": "Applicants from countries where English is not official must demonstrate English competency. The page lists TOEFL at least 87 or IELTS at least 5, or equivalent, without specifying TOEFL edition, IELTS component minima or IB-English exemptions. Confirm how the published scores apply to the test format used.",
+          "source": {
+            "url": "https://ub.edu.bz/international-students/",
+            "title": "Belize: international English-language evidence (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_international_credential_evaluation",
+          "category": "document",
+          "label": "English translation and credential assessment",
+          "status": "required",
+          "details": "The international page requests English-translated academic credentials and international credential evaluation. Josef Silny and WES are recommended agencies; the page does not say those are the only permitted assessors.",
+          "source": {
+            "url": "https://ub.edu.bz/international-students/",
+            "title": "Belize: international academic credentials (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_international_financial_letter",
+          "category": "financial",
+          "label": "Proof of support for the full programme",
+          "status": "required",
+          "details": "Provide evidence of financial support for the programme's duration, with an official bank/financial-agency letter in the admissions package. No minimum bank balance is published here.",
+          "source": {
+            "url": "https://ub.edu.bz/international-students/",
+            "title": "Belize: financial support evidence (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_international_fee_timing_conflict",
+          "category": "application",
+          "label": "Application-fee timing differs between instructions",
+          "status": "unknown",
+          "details": "The international page says pay after application submission, while the undergraduate form requires a receipt in the submitted package. Confirm the applicable payment timing; do not reject a package based on a guessed reconciliation. The fee itself is not waived.",
+          "source": {
+            "url": "https://ub.edu.bz/international-students/",
+            "title": "Belize: international application-fee instructions (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_medicine",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Medicine-specific conditions and source ambiguities, entry year unspecified. Read the shared undergraduate application evidence/essay rules and applicable international requirements as well. A prior-degree route enters this programme; it does not automatically grant higher-year placement.",
+      "requirements": [
+        {
+          "key": "bz_medicine_tertiary_academic_routes",
+          "category": "academic",
+          "label": "Medicine: PreMedical/science GPA alternatives",
+          "status": "conditional",
+          "details": "The medical application page specifies cumulative GPA at least 3.0/4.0 for a PreMedical Sciences associate or Biology/Chemistry bachelor's degree. The PDF also names Biochemistry. These are alternative qualifications, not a requirement to hold both degrees; they replace neither selection nor programme-specific evidence.",
+          "source": {
+            "url": "https://ub.edu.bz/ubsom-apply-now/",
+            "title": "Belize: Medicine academic eligibility (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_broader_degree_list",
+          "category": "academic",
+          "label": "Medicine: additional degree recognition needs confirmation",
+          "status": "unknown",
+          "details": "The medical-school FAQ additionally names Nursing, Pharmacy, Medical Laboratory Sciences and science bachelor's degrees at cGPA 3.0, while the application page/PDF use narrower lists. Confirm the intended course's acceptance when relying on one of these additional degrees; no unpublished equivalence or guaranteed entry is inferred.",
+          "source": {
+            "url": "https://ub.edu.bz/ubsom/",
+            "title": "Belize: School of Medicine admissions FAQ (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_advanced_school_route",
+          "category": "academic",
+          "label": "Medicine: GCE A-level/CAPE alternative",
+          "status": "conditional",
+          "details": "The webpage lists two A-level passes at B or CAPE passes at II plus one A-level C or CAPE III among Biology, Chemistry, Mathematics and Physics; the fourth subject needs an O-level/CXC General pass. It does not specify CAPE units or explain mixed-system combinations. Confirm those details; do not invent an IB equivalent.",
+          "source": {
+            "url": "https://ub.edu.bz/ubsom-apply-now/",
+            "title": "Belize: Medicine regional/international examinations (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_test_applicability",
+          "category": "standardized_test",
+          "label": "Medicine: QESE/MCAT applicability",
+          "status": "unknown",
+          "details": "The checklist asks for QESE/MCAT scores, while the eligibility notes and FAQ specifically require testing for applicants who do not meet academic entry. The PDF also associates QESE with scholarship competition. Confirm testing for an academically qualified applicant; neither a universal test waiver nor a universal compulsory QESE is established.",
+          "source": {
+            "url": "https://ub.edu.bz/ubsom-apply-now/",
+            "title": "Belize: Medicine testing and checklist (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_qese_threshold",
+          "category": "standardized_test",
+          "label": "QESE minimum for the examination route",
+          "status": "conditional",
+          "details": "When using QESE, the medical PDF gives total at least 320 and at least 80 in each section. This is not an MCAT score, ATLIB placement threshold or IB Diploma total.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 7 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_mcat_recommendation",
+          "category": "standardized_test",
+          "label": "MCAT 500 is recommended",
+          "status": "recommended",
+          "details": "The official medical sources recommend MCAT 500. They do not label 500 a compulsory minimum; keep its recommendation status distinct from the QESE minimum.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 7 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_recommender_one",
+          "category": "document",
+          "label": "Medical recommendation form 1: healthcare professional",
+          "status": "required",
+          "details": "The first medical recommendation form must be completed by a licensed medical practitioner or licensed healthcare professional, with the institution/organization stamp or seal. This refines the shared two-form rule; it does not require two physician references.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 10 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_recommender_two",
+          "category": "document",
+          "label": "Medical recommendation form 2: permitted recommender",
+          "status": "required",
+          "details": "The second medical recommendation form is completed by a junior-college/university counsellor or lecturer, or an employment manager/supervisor. A job is not mandatory: academic recommenders are explicit alternatives.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 11 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_police_record",
+          "category": "document",
+          "label": "Police records: previous four years",
+          "status": "required",
+          "details": "Submit police-record evidence from the jurisdiction or jurisdictions of residence over the previous four years. Do not extend this medical-programme requirement to all UB undergraduates.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 5 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_nontraditional_background",
+          "category": "document",
+          "label": "Non-traditional/foreign schooling background form",
+          "status": "conditional",
+          "details": "Applicants from non-traditional, adult-continuing/alternative or foreign institutions must supply the Educational Background Form as applicable. This is distinct from a transcript or a new standardized-test score.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 1–2 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_language_route",
+          "category": "language",
+          "label": "Non-first-language English: medical-school instructions",
+          "status": "conditional",
+          "details": "The medical form directs students for whom English is not their first language to the Regional Language Centre regarding TOEFL/IELTS testing. It gives no medical-specific cutoff here. This language trigger differs from the shared international-country rule; no automatic nationality-based waiver is inferred.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 1 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_application_fee",
+          "category": "financial",
+          "label": "Medicine application fee",
+          "status": "required",
+          "details": "The medical form requires a non-refundable BZ$200 or US$100 application fee, with the receipt and supporting package. This is the programme's fee, not the ordinary undergraduate BZ$30/US$15 charge.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 1 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_interview_selection",
+          "category": "interview",
+          "label": "Medical interview selection",
+          "status": "conditional",
+          "details": "The form says applicants will be interviewed, while its selection guidelines specify shortlisted candidates. Prepare for an interview if shortlisted/notified; the sources give no numerical pass mark or mandatory interview for every submitted application.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 2, 7 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_selection_ranking",
+          "category": "application",
+          "label": "Medical selection considers more than academic minimums",
+          "status": "required",
+          "details": "Selection scores academic/test evidence, interview, recommendations and personal-statement quality/motivation. Highest-ranked candidates receive places; a GPA or examination threshold alone does not guarantee admission. The shared essay length/prompt is not duplicated here.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 7 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "bz_medicine_deadline_confirmation",
+          "category": "application",
+          "label": "Medicine dates are advertised annually",
+          "status": "unknown",
+          "details": "The application page directs applicants to annually advertised dates. The PDF says its first-intake date was not yet set and only suggests May/June; the FAQ gives 6 June 2025, already past. No current deadline is established by those old statements or by the general Health Sciences last-Friday rule.",
+          "source": {
+            "url": "https://ub.edu.bz/ubsom-apply-now/",
+            "title": "Belize: Medicine application deadlines (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_medicine",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated admission rules/forms checked 30 October 2026. Shared application rules are recorded once; programme differences apply. Upload years and expired application banners are not current-cycle confirmation.",
+      "requirements": [
+        {
+          "key": "bz_medicine_after_offer_confirmation",
+          "category": "application",
+          "label": "After a Medicine offer: deposit and registration",
+          "status": "conditional",
+          "details": "Accept an offer and pay the required deposit by the date in the admission letter, then complete registration/orientation as instructed. The guideline supplies no universal deposit amount or future date; this is after selection, not an initial academic cutoff.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/06/UBSoM-Application-for-Admission.pdf",
+            "title": "Belize School of Medicine application, PDF page 7 (entry year unspecified)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    }
+  ]
+}
