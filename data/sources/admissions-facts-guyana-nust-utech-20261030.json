@@ -1,0 +1,1484 @@
+{
+  "datasetVersion": "official-admissions-guyana-nust-utech-2026-10-30-v1",
+  "reviewedOn": "2026-10-30",
+  "institutions": [
+    {
+      "key": "guyana",
+      "name": "University of Guyana",
+      "provider": "ror",
+      "externalId": "05d8pm274",
+      "countryCode": "GY",
+      "officialDomains": ["uog.edu.gy"]
+    },
+    {
+      "key": "nust",
+      "name": "Namibia University of Science and Technology",
+      "provider": "ror",
+      "externalId": "03gg1ey66",
+      "countryCode": "NA",
+      "officialDomains": ["nust.na"]
+    },
+    {
+      "key": "utech",
+      "name": "University of Technology, Jamaica",
+      "provider": "ror",
+      "externalId": "02w1kdc51",
+      "countryCode": "JM",
+      "officialDomains": ["utech.edu.jm"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nust_agriculture",
+      "institutionKey": "nust",
+      "name": "Bachelor of Science in Agriculture",
+      "level": "undergraduate",
+      "field": "Agriculture",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_horticulture",
+      "institutionKey": "nust",
+      "name": "Bachelor of Science in Horticulture",
+      "level": "undergraduate",
+      "field": "Horticulture",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_natural_resources",
+      "institutionKey": "nust",
+      "name": "Bachelor of Natural Resource Management",
+      "level": "undergraduate",
+      "field": "Natural resource management",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_emergency_care",
+      "institutionKey": "nust",
+      "name": "Bachelor of Emergency Medical Care",
+      "level": "undergraduate",
+      "field": "Emergency medical care",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_health_information",
+      "institutionKey": "nust",
+      "name": "Bachelor of Health Information Systems Management",
+      "level": "undergraduate",
+      "field": "Health information systems",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_actuarial",
+      "institutionKey": "nust",
+      "name": "Bachelor of Actuarial Science Honours",
+      "level": "undergraduate",
+      "field": "Actuarial science",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_applied_mathematics",
+      "institutionKey": "nust",
+      "name": "Bachelor of Applied Mathematics and Statistics",
+      "level": "undergraduate",
+      "field": "Mathematics and statistics",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_accounting",
+      "institutionKey": "nust",
+      "name": "Bachelor of Accounting",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "nust_chartered_accounting",
+      "institutionKey": "nust",
+      "name": "Bachelor of Accounting (Chartered Accountancy)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+        "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_associate_health_it",
+      "institutionKey": "utech",
+      "name": "Associate of Science Degree in Health Information Technology",
+      "level": "undergraduate",
+      "field": "Health information technology",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_child_development_certificate",
+      "institutionKey": "utech",
+      "name": "Certificate in Child & Adolescent Development",
+      "level": "undergraduate",
+      "field": "Child and adolescent development",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_pharmacy_technician_certificate",
+      "institutionKey": "utech",
+      "name": "Certificate in Pharmacy Technician",
+      "level": "undergraduate",
+      "field": "Pharmacy technician",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 12 (PDF 14)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_electrical_advanced_diploma",
+      "institutionKey": "utech",
+      "name": "Advanced Diploma in Electrical Engineering",
+      "level": "undergraduate",
+      "field": "Electrical engineering",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 20 (PDF 22)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_mechanical_diploma",
+      "institutionKey": "utech",
+      "name": "Diploma in Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Mechanical engineering",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 20 (PDF 22)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_entertainment_design",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Entertainment Design, Production and Technology",
+      "level": "undergraduate",
+      "field": "Entertainment design",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_tvet_education",
+      "institutionKey": "utech",
+      "name": "Bachelor of Education in Technical and Vocational Education and Training",
+      "level": "undergraduate",
+      "field": "Technical and vocational education",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "utech_communication_arts",
+      "institutionKey": "utech",
+      "name": "Bachelor of Arts in Communication Arts & Technology",
+      "level": "undergraduate",
+      "field": "Communication arts",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "guyana_computer_science",
+      "institutionKey": "guyana",
+      "name": "Bachelor of Science (Computer Science)",
+      "level": "undergraduate",
+      "field": "Computer science",
+      "source": {
+        "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/804/details",
+        "title": "Guyana Registry: BSc Computer Science entry requirements (undated)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "guyana_nursing",
+      "institutionKey": "guyana",
+      "name": "Bachelor of Science (Nursing)",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://registry.uog.edu.gy/srms/departments/258/programmes/782/details",
+        "title": "Guyana Registry: BSc Nursing professional-entry requirements (undated)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "guyana_architecture",
+      "institutionKey": "guyana",
+      "name": "Bachelor of Science (Architecture)",
+      "level": "undergraduate",
+      "field": "Architecture",
+      "source": {
+        "url": "https://registry.uog.edu.gy/srms/departments/70/programmes/905/details",
+        "title": "Guyana Registry: BSc Architecture higher-entry requirements (undated)",
+        "checkedOn": "2026-10-30"
+      }
+    },
+    {
+      "key": "guyana_medicine",
+      "institutionKey": "guyana",
+      "name": "Bachelor of Medicine, Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+        "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+        "checkedOn": "2026-10-30"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "health_science_old_subject_aps",
+          "category": "academic",
+          "label": "Environmental Health Science and Science: old curriculum",
+          "status": "required",
+          "details": "For Bachelor of Environmental Health Science (08BOHS) and Bachelor of Science (07BASC), the NSSC Old Curriculum column requires 15 APS from Biology, Mathematics and Physical Science, none below C. Stored once for this named pair. These are subject APS allocations, not IB Diploma totals.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22–23",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "health_science_new_subject_aps",
+          "category": "academic",
+          "label": "Environmental Health Science and Science: new curriculum",
+          "status": "required",
+          "details": "For Bachelor of Environmental Health Science (08BOHS) and Bachelor of Science (07BASC), the NSSC New Curriculum column requires 20 APS from Biology, Mathematics, Physics and Chemistry, none below NSSC Ordinary C or NSSC Advanced Subsidiary D. This is not an IB total or a replacement for other applicable entry rules.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22–23",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "commerce_mathematics_d_group",
+          "category": "academic",
+          "label": "Named commerce degrees: Mathematics D",
+          "status": "required",
+          "details": "The 2027 commerce table requires Mathematics D for Bachelor of Economics (07BECO), Business Management (07BBMN), Marketing (07BMAK), Procurement and Supply Chain Management (07BPSM), and Transport Management (07BTRN). Store this shared condition once; do not extend it to every commerce programme or invent an IB subject conversion.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "commerce_mathematics_e_group",
+          "category": "academic",
+          "label": "Entrepreneurship and Public Management: Mathematics E",
+          "status": "required",
+          "details": "For Bachelor of Entrepreneurship (07BOEN) and Bachelor of Public Management (07BPME), the table specifies Mathematics E. This shared requirement is separate from the five commerce degrees requiring D.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "natural_health_mature_route_scope",
+          "category": "academic",
+          "label": "Mature-age route: named natural-resource and health courses",
+          "status": "conditional",
+          "details": "The page 22 school header excludes Mature Age Entry unless indicated. Agriculture (07BAGA), Horticulture (07BHOR) and Natural Resource Management (07BNRS) explicitly accept this route; relevant experience is required where that option applies. Do not extend this to every health course or impose mature-route work requirements on ordinary school-leavers.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_agriculture",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "agriculture_subject_grades",
+          "category": "academic",
+          "label": "Agriculture: Mathematics and Biology/science",
+          "status": "required",
+          "details": "Programme 07BAGA requires Mathematics E and Biology or a science-related subject E. Retain the school-certificate grades as published; no IB grade equivalent is established.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_horticulture",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "horticulture_subject_grades",
+          "category": "academic",
+          "label": "Horticulture subject grades",
+          "status": "required",
+          "details": "Programme 07BHOR requires Biology or a science-related subject C and Mathematics D.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_natural_resources",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "natural_resources_subject_grades",
+          "category": "academic",
+          "label": "Natural Resource Management subject grades",
+          "status": "required",
+          "details": "Programme 07BNRS requires English D and Mathematics D, plus Biology or Geography or Agriculture C. The last three are alternatives, not three compulsory subjects.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_emergency_care",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "emergency_old_curriculum_wording",
+          "category": "academic",
+          "label": "Emergency Medical Care: old-column ambiguity",
+          "status": "unknown",
+          "details": "The Old Curriculum column for 07BOMC gives Mathematics, Biology or Physical Science with an A at NSSCO or E at NSSCAS, and English D at NSSCO or E at NSSCAS. Its subject connector/legacy-column wording is unclear; confirm the required science combination with admissions. Do not silently substitute the new-column subject combination.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "emergency_new_subject_aps",
+          "category": "academic",
+          "label": "Emergency Medical Care: new curriculum",
+          "status": "required",
+          "details": "The New Curriculum column for 07BOMC requires 18 APS in Mathematics, Biology and either Physics or Chemistry, none below NSSCO B or NSSCAS D. The 18 is a subject APS allocation, not a minimum IB total; other applicable university entry rules remain separate.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_health_information",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "health_information_old_subject_aps",
+          "category": "academic",
+          "label": "Health Information Systems: old curriculum",
+          "status": "required",
+          "details": "For 07BSHM, the Old Curriculum column requires 15 APS from Biology, Mathematics and Physical Science, none below D. Do not use the C minima from the neighbouring Environmental Health Science row.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "health_information_new_subject_aps",
+          "category": "academic",
+          "label": "Health Information Systems: new curriculum",
+          "status": "required",
+          "details": "For 07BSHM, the New Curriculum column requires 20 APS from Biology, Mathematics, Physics and Chemistry, none below NSSC Ordinary C or NSSC Advanced Subsidiary D. These APS allocations are not IB totals.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_health_information",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "health_information_mature_test_scope",
+          "category": "standardized_test",
+          "label": "Mature-age test marks printed only in old column",
+          "status": "unknown",
+          "details": "The 07BSHM Old Curriculum cell accepts mature-age entry with 60% in both NUST English and Mathematics. The New Curriculum cell does not repeat that exception, while the school header otherwise excludes mature-age entry unless indicated. Confirm applicability for a new-curriculum applicant; these marks do not apply to ordinary school-leavers or every NUST mature applicant.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 22",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_actuarial",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "actuarial_school_leaver_route",
+          "category": "academic",
+          "label": "Actuarial Science Honours: school-leaver APS",
+          "status": "unknown",
+          "details": "Programme 08BACS appears in the undergraduate school-leaver table despite 'Honours' in the award name. Its row gives 18 APS in the best three subjects including Mathematics and English. The relationship to the shared five-subject university threshold is not stated: confirm it; do not assume a waiver, a previous-degree prerequisite, or an IB total of 18.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "actuarial_mathematics",
+          "category": "academic",
+          "label": "Actuarial Science: Mathematics grade",
+          "status": "required",
+          "details": "Mathematics must be at least NSSCO A* or NSSCAS d, or equivalent, as printed for 08BACS. No numerical IB equivalent is supplied.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_applied_mathematics",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "applied_mathematics_standard_grade",
+          "category": "academic",
+          "label": "Applied Mathematics: ordinary/advanced Mathematics",
+          "status": "required",
+          "details": "Programme 07BSAM specifies NSSCO Mathematics B or NSSCAS Mathematics e in both curriculum columns. The old-column C-grade examination alternative is recorded separately, not treated as a universal C offer.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "applied_mathematics_old_c_test",
+          "category": "standardized_test",
+          "label": "Old-curriculum Mathematics C: entrance test",
+          "status": "conditional",
+          "details": "Only the Old Curriculum column says applicants with NSSCO Mathematics C must sit an entrance test. It supplies no pass mark, guarantee of admission or corresponding new-curriculum C route.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 23",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_accounting",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "accounting_school_subjects",
+          "category": "academic",
+          "label": "Accounting: 30 APS and subject grades",
+          "status": "required",
+          "details": "Programme 07BGAC requires 30 APS across five subjects, including English C and Mathematics or Accounting C. Mathematics and Accounting are alternatives. APS 30 is not a minimum IB Diploma total.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "nust",
+      "programId": null,
+      "programKey": "nust_chartered_accounting",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Only the named programme/route is covered. Shared university rules remain separate; absence of a published IB/AP minimum is not an exemption. Sources rechecked 30 October 2026.",
+      "requirements": [
+        {
+          "key": "chartered_accounting_subjects",
+          "category": "academic",
+          "label": "Chartered Accountancy: 35 APS",
+          "status": "required",
+          "details": "Programme 07BCAC requires 35 APS across five subjects including Mathematics C and English C. Do not substitute the ordinary Bachelor of Accounting's 30-point route or turn APS 35 into IB 35.",
+          "source": {
+            "url": "https://www.nust.na/sites/default/files/docs-forms/Guide_to_Prospective_Students_2027.pdf",
+            "title": "NUST 2027 prospective students guide, printed/PDF page 26",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_associate_health_it",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "associate_health_it_subjects",
+          "category": "academic",
+          "label": "Health Information Technology associate: four subjects",
+          "status": "required",
+          "details": "Four CSEC/GCE O-level passes including English Language, Mathematics, Biology or Human and Social Biology, and one other related subject. Do not replace this with a bachelor's five-subject requirement.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_child_development_certificate",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "child_certificate_subjects",
+          "category": "academic",
+          "label": "Child Development certificate: three subjects",
+          "status": "required",
+          "details": "Three CSEC/GCE O-level passes: English Language, Mathematics, and Biology or Human and Social Biology. This is the certificate's own requirement, not the nursing bachelor's five-subject rule.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "child_certificate_work_preference",
+          "category": "experience",
+          "label": "Relevant experience for mature applicants",
+          "status": "recommended",
+          "details": "Mature applicants with field work experience are encouraged to apply. This row gives no minimum age or number of working years.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "child_certificate_interview",
+          "category": "interview",
+          "label": "Child Development certificate interview",
+          "status": "required",
+          "details": "The certificate requires an interview; the row does not state a numerical interview pass score.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "child_certificate_psychometric",
+          "category": "standardized_test",
+          "label": "Child Development certificate psychometric test",
+          "status": "required",
+          "details": "A pass in the Psychometric Test is required. No numerical cutoff is published in this row.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "child_certificate_police_record",
+          "category": "document",
+          "label": "Clean police record",
+          "status": "required",
+          "details": "Provide a clean Police Record for this certificate. Do not extend this document requirement to every UTech course.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 10 (PDF 12)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_pharmacy_technician_certificate",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "pharmacy_technician_subjects",
+          "category": "academic",
+          "label": "Pharmacy Technician certificate: four subjects",
+          "status": "required",
+          "details": "Four CSEC/GCE O-level passes in English Language, Mathematics, Chemistry and one other science-related subject.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 12 (PDF 14)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "pharmacy_technician_biology_preference",
+          "category": "academic",
+          "label": "Biology as an asset",
+          "status": "recommended",
+          "details": "Biology is an asset for the other science-related subject; it is not an additional mandatory fifth subject.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 12 (PDF 14)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "pharmacy_technician_interview",
+          "category": "interview",
+          "label": "Pharmacy Technician certificate interview",
+          "status": "required",
+          "details": "An interview is required for the certificate. The psychometric test in the neighbouring BPharm row is not imposed here.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 12 (PDF 14)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_electrical_advanced_diploma",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "electrical_diploma_subjects",
+          "category": "academic",
+          "label": "Electrical Engineering advanced diploma: five-semester route",
+          "status": "required",
+          "details": "The five-semester pathway requires five CSEC/GCE O-level subjects: Mathematics, Physics or Electrical and Electronic Technology, English Language, and two other subjects. This is not the BEng accelerated/higher-year route.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 20 (PDF 22)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_mechanical_diploma",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "mechanical_diploma_subjects",
+          "category": "academic",
+          "label": "Mechanical Engineering diploma: four subjects",
+          "status": "required",
+          "details": "Four CSEC/GCE O-level passes in English Language, Mathematics, Physics or Electrical and Electronic Technology, and one other subject, preferably technical, at the prescribed level. The technical preference is not an extra fifth subject or BEng Mathematics grade-1 condition.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 20 (PDF 22)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_entertainment_design",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "entertainment_ordinary_count_ambiguity",
+          "category": "academic",
+          "label": "Entertainment Design: five-subject wording",
+          "status": "unknown",
+          "details": "The row says five CSEC/GCE O-level passes, but names English, Mathematics and two related-field subjects (design/technology, industrial or theatre arts). Those enumerate four of the stated five. Confirm the remaining subject; do not invent a compulsory science or reduce the stated total to four.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "entertainment_vocational_alternative",
+          "category": "academic",
+          "label": "Entertainment Design: vocational alternative",
+          "status": "unknown",
+          "details": "An alternative is three CSEC/GCE O-level passes including English and Mathematics plus TWO NCTVET Levels 2 or 3, or accredited equivalent qualifications such as City and Guilds or CVQ as assessed by NCTVET. The source does not clarify the counting unit of 'TWO'; confirm the exact awards required rather than demanding both level 2 and level 3 sequentially.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_tvet_education",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "tvet_common_school_subjects",
+          "category": "academic",
+          "label": "TVET Education: shared subject requirement",
+          "status": "required",
+          "details": "Five CSEC/GCE O-level subjects including English Language, Mathematics and three other approved subjects, or equivalent. One shared rule covers the listed Business/Computer Studies, Industrial Technology, Fashion Design Business and Management, and Food Service Production and Management specializations; no extra major-specific threshold is given in this row.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "programKey": "utech_communication_arts",
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027/2028 entry conditions; the adjacent fees use 2026/2027 and are not admission years. The catalogue's coarse undergraduate family does not make a certificate, diploma or associate award a bachelor's degree. Use the named course's own subject count.",
+      "requirements": [
+        {
+          "key": "communication_arts_subjects",
+          "category": "academic",
+          "label": "Communication Arts: five passes including English",
+          "status": "required",
+          "details": "Five CSEC/GCE O-level subjects including English Language. The row does not specify the other four subjects; it does not establish a universal Mathematics waiver.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "communication_arts_advantage",
+          "category": "academic",
+          "label": "Literature, language and CAPE advantages",
+          "status": "recommended",
+          "details": "English Literature, a foreign language and CAPE Units give applicants an advantage. The row gives no CAPE grade cutoff and does not make these universal compulsory subjects.",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/10/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech international booklet, 2027/2028 entry, printed page 14 (PDF 16)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official requirements, checked 30 October 2026; course replacement/introduction dates are not admission years. Shared rules are stored once. Programme-specific conditions may be stricter.",
+      "requirements": [
+        {
+          "key": "guyana_minimum_age",
+          "category": "application",
+          "label": "Minimum admission age",
+          "status": "required",
+          "details": "Normally at least 16 in the calendar year of admission; programme regulations may specify otherwise.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_degree_school_routes",
+          "category": "academic",
+          "label": "Alternative school-qualification routes",
+          "status": "required",
+          "details": "Degree entry alternatives: three GCE A-level subjects plus two distinct ordinary-level subjects; or two A-levels plus three distinct ordinary-level subjects; or five CSEC General/IGCSE/GCE O-level passes. English is required; Mathematics and major subjects depend on the programme. Ordinary subjects cannot duplicate subjects counted at A-level.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_grade_acceptance",
+          "category": "academic",
+          "label": "General accepted grades; stricter programme rules prevail",
+          "status": "conditional",
+          "details": "General notes accept CSEC I–III (III only from June 1998), CAPE I–V, GCE A-level A–E and GCE O-level/IGCSE A–E. CAPE I–III or A-level A–C may earn academic-unit exemptions. Several programme pages require ordinary-level A–C; general A–E is not a universal programme offer.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_missing_subject_bridge",
+          "category": "academic",
+          "label": "Missing prescribed subjects: possible qualifying route",
+          "status": "conditional",
+          "details": "Applicants with five passes but missing an acceptable prescribed subject may be allowed a subject qualifying examination or IDCE foundation course. Departments may require foundation courses even where general entry is met; this is not an automatic subject waiver.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_prior_tertiary_entry",
+          "category": "academic",
+          "label": "Prior accredited tertiary study",
+          "status": "considered",
+          "details": "CXC Arts/Science associate holders may enter two- or three-year degree routes. Other accredited tertiary qualifications may support year-one/two admission after transcript assessment. Placement and credit are not automatic.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_interview_discretion",
+          "category": "interview",
+          "label": "Interview when requested",
+          "status": "conditional",
+          "details": "Applicants may be invited to interview. The general rule does not require an interview for every applicant.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_qualified_ugee_exemption",
+          "category": "standardized_test",
+          "label": "UGEE not required for ordinarily qualified applicants",
+          "status": "not_required",
+          "details": "Applicants already meeting the relevant CSEC/IGCSE/GCE O-level or other approved entry qualifications are not required to take UGEE. This exemption is conditional on being qualified; it is not a waiver for mature or deficient-entry routes.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/university-guyana-entrance-exam",
+            "title": "University of Guyana Registry: UG Entrance Examination eligibility (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_pending_results_ugee",
+          "category": "standardized_test",
+          "label": "UGEE option while awaiting examination results",
+          "status": "optional",
+          "details": "Applicants expecting qualifying May/June school-examination passes may opt for UGEE. No numerical pass mark is published on the eligibility page.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/university-guyana-entrance-exam",
+            "title": "University of Guyana Registry: UG Entrance Examination eligibility (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_apply_portals",
+          "category": "application",
+          "label": "Official application portals by campus/mode",
+          "status": "required",
+          "details": "Use the Registry-linked public application service for Turkeyen, Tain/Berbice, or IDCE/distance education as applicable. Course registration by already admitted students is a separate process; no essay count is stated on this portal-selection page.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/apply-uog",
+            "title": "University of Guyana Registry: Apply to UOG, campus/application services",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "Named associate/diploma/certificate routes, including shared Computer Science bachelor/associate conditions. Each fact names its applicable awards; no NQF level or bachelor's equivalence for certificates is assigned. Shared facts are stored once across award levels.",
+      "requirements": [
+        {
+          "key": "guyana_associate_certificate_school_route",
+          "category": "academic",
+          "label": "Associate, diploma and certificate school route",
+          "status": "required",
+          "details": "The shared standard is five CSEC General/IGCSE/GCE O-level passes including English and Mathematics, subject to the named course's conditions. This is not a bachelor's prerequisite imposed on UTech or other universities.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_certificate_bridge_lower_csec",
+          "category": "academic",
+          "label": "CSEC IV/V: certificate bridge, not direct degree entry",
+          "status": "conditional",
+          "details": "Applicants with CSEC IV/V may matriculate through a Guyana certificate programme to become eligible for bachelor's entry. This does not establish direct bachelor's acceptance with those grades.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_cs_shared_school_subjects",
+          "category": "academic",
+          "label": "Computer Science bachelor/associate: school subjects",
+          "status": "required",
+          "details": "Both BSc Computer Science and Associate of Science Computer Science specify five CSEC General I–III or IGCSE/GCE O-level A–C subjects including English, Mathematics and CSEC Information Technology. Their IT/EDPM remedial alternative is a separate condition, not a missing-subject rejection.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/804/details",
+            "title": "Guyana Registry: BSc Computer Science entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_cs_missing_it_remedy",
+          "category": "academic",
+          "label": "Computer Science: IT/EDPM remedial course",
+          "status": "conditional",
+          "details": "Students without CSEC IT or EDPM may be admitted but must register for and pass UGC1101 Computer Literacy I. This is a post-admission course requirement for the two named Computer Science awards, not an exemption from all entry criteria.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/801/details",
+            "title": "Guyana Registry: Associate of Science Computer Science entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Alternative entry only. Mature-age conflict is unresolved; qualification and programme-specific exceptions retain their own scope. No universal work-duration threshold is inferred.",
+      "requirements": [
+        {
+          "key": "guyana_mature_age_conflict",
+          "category": "academic",
+          "label": "Mature-age policy: official pages disagree",
+          "status": "unknown",
+          "details": "The Registry general page specifies age 21 in the entry year plus suitable education for mature consideration; https://uog.edu.gy/admission-requirements specifies 26. Both are undated. Computer Science and Nursing pages also say 21 for their own routes. Confirm the applicable age with Admissions; neither value is presented as a reconciled university-wide cutoff.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_mature_ugee",
+          "category": "standardized_test",
+          "label": "Mature-entry UGEE",
+          "status": "required",
+          "details": "Mature Student category applicants must take UGEE. This is an alternative entry route, not an extra test imposed on ordinarily qualified school-leavers.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/university-guyana-entrance-exam",
+            "title": "University of Guyana Registry: UG Entrance Examination eligibility (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_tertiary_ugee_exceptions",
+          "category": "standardized_test",
+          "label": "Certificate/diploma entrants: UGEE exceptions",
+          "status": "conditional",
+          "details": "UGEE normally applies to entrants relying on accepted certificates/diplomas. Exceptions include Agriculture diplomas for Agriculture/Forestry; accepted trained-teacher certificates; government technical diplomas for the listed science/technology/medical faculties; IDCE Industrial Relations and Management; Commonwealth Youth Work; and Academic Board approvals. The general page names College of Medical Sciences, while the UGEE page names Health Sciences; confirm the relevant faculty rather than extending an exemption to all courses.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_preuniversity_recognition",
+          "category": "academic",
+          "label": "Pre-university and vocational qualifications",
+          "status": "considered",
+          "details": "Relevant reputable pre-university/IDCE qualifications and recognized CVQ, GROW/SCQF and GED credentials may be considered. The page supplies no universal GED score, vocational grade conversion or guaranteed degree admission.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_cs_shared_tertiary_alternatives",
+          "category": "academic",
+          "label": "Computer Science bachelor/associate: shared tertiary alternatives",
+          "status": "conditional",
+          "details": "Both Computer Science pages list a Secondary Mathematics trained-teacher certificate, or a Credit-level GTEE Ordinary Diploma in Computer Science or Science, as alternative qualifications. Stored once for BSc and Associate of Science Computer Science; the BSc's additional computing diploma/associate route is separate.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/804/details",
+            "title": "Guyana Registry: BSc Computer Science entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_cs_clc_exam_route",
+          "category": "academic",
+          "label": "Computer Science bachelor/associate: CLC route",
+          "status": "conditional",
+          "details": "For the Computer Science bachelor's and associate courses, a Critchlow Labour College Certificate in Industrial and Social Studies must be accompanied by a UGEE pass. The similarly named IDCE certificate exemption must not be substituted.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/801/details",
+            "title": "Guyana Registry: Associate of Science Computer Science entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official requirements, checked 30 October 2026; course replacement/introduction dates are not admission years. Shared rules are stored once. Programme-specific conditions may be stricter.",
+      "requirements": [
+        {
+          "key": "guyana_transfer_documents",
+          "category": "document",
+          "label": "Transfer standing and advanced-credit evidence",
+          "status": "required",
+          "details": "Transfer applicants must have been properly admitted to and attending a recognized university degree. Supply a studentship certificate/relevant information; advanced-standing assessment needs transcripts and syllabi of passed courses. Faculty recommendation and university acceptance are required.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_transfer_residence_credit",
+          "category": "academic",
+          "label": "Transfer credit and residence limits",
+          "status": "conditional",
+          "details": "Credit requires equivalent courses. At least half of the required courses, including the final year, must be completed at Guyana; previous attendance does not guarantee entry or credit.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_second_degree_credit",
+          "category": "academic",
+          "label": "Prior Guyana degree: additional-degree credit",
+          "status": "conditional",
+          "details": "Relevant courses from a previous Guyana degree may count toward another degree, normally when the original degree was obtained within five years. At least half the new degree's required courses, including its final year, must still be completed.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/admissions-division/general-admission-requirements",
+            "title": "University of Guyana Registry: general admission requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "programKey": "guyana_computer_science",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official requirements, checked 30 October 2026; course replacement/introduction dates are not admission years. Shared rules are stored once. Programme-specific conditions may be stricter.",
+      "requirements": [
+        {
+          "key": "guyana_cs_additional_computing_qualification",
+          "category": "academic",
+          "label": "BSc Computer Science: computing diploma/associate alternative",
+          "status": "conditional",
+          "details": "The BSc also accepts a Diploma in Computer Science, Associate of Science in Computer Science, Information Technology or Information Systems. The duplicated equivalence sentences on its source page represent one equivalence assessment, not separate requirements.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/7/programmes/804/details",
+            "title": "Guyana Registry: BSc Computer Science entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "programKey": "guyana_nursing",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Professional-entry Nursing routes require RN/Medex registration. Do not present this page as a direct school-leaver pre-registration Nursing offer. The source is undated.",
+      "requirements": [
+        {
+          "key": "guyana_nursing_registration",
+          "category": "document",
+          "label": "Nursing professional registration route",
+          "status": "required",
+          "details": "Every listed academic route also requires Registered Nurse certification recognized by both Guyana's Nursing Council and the university, or a Guyana Medex completion certificate plus registration to practise as a Medex. RN applicants also registered as midwives receive preference; midwifery registration is not universally mandatory.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/258/programmes/782/details",
+            "title": "Guyana Registry: BSc Nursing professional-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_nursing_school_or_tertiary_routes",
+          "category": "academic",
+          "label": "Nursing academic alternatives",
+          "status": "conditional",
+          "details": "Alternatives alongside professional registration: five CSEC I–III (III from 1998)/IGCSE/GCE A–C passes including English, Mathematics and a science; or GTI Ordinary Diploma in Science with Credit plus three such passes including those subjects; or a Natural Science trained-teacher certificate plus three such passes including English and Mathematics. Equivalent qualifications require assessment.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/258/programmes/782/details",
+            "title": "Guyana Registry: BSc Nursing professional-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_nursing_mature_experience",
+          "category": "experience",
+          "label": "Nursing mature alternative: age, work and UGEE",
+          "status": "conditional",
+          "details": "The mature route specifies age 21+, at least five years of relevant work and a UGEE pass, together with the professional registration condition above. Five years' work is not required of every academic-route applicant or every Guyana applicant.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/258/programmes/782/details",
+            "title": "Guyana Registry: BSc Nursing professional-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "programKey": "guyana_architecture",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Higher-entry Architecture routes. 'From 2020' in the programme name and 2025/2026 course changes are not a published admissions cycle.",
+      "requirements": [
+        {
+          "key": "guyana_architecture_local_higher_entry",
+          "category": "academic",
+          "label": "Architecture: prior diploma/associate route",
+          "status": "conditional",
+          "details": "Guyana's Architecture and Building Technology diploma or Architectural and Building Technology associate, or equivalent, requires GPA at least 2.0 and ARH2205 (or equivalent) at least C. A lower ARH2205 grade may be improved by repeating the course. The diploma and associate alternatives share this rule, stored once.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/70/programmes/905/details",
+            "title": "Guyana Registry: BSc Architecture higher-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_architecture_external_portfolio",
+          "category": "portfolio",
+          "label": "Other technical qualifications: transcript and 5–10 works",
+          "status": "conditional",
+          "details": "Applicants with relevant regional/international tertiary technical qualifications must submit a certified transcript and a portfolio of 5–10 artwork/design examples. The page lists architectural drawings and other visual-design media; it does not require an example of every medium.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/70/programmes/905/details",
+            "title": "Guyana Registry: BSc Architecture higher-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_architecture_authorship",
+          "category": "document",
+          "label": "Portfolio authorship verification",
+          "status": "conditional",
+          "details": "The technical-qualification portfolio must be accompanied by letters verifying that the work is the applicant's own. This is tied to that portfolio route, not a universal recommendation-letter count.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/70/programmes/905/details",
+            "title": "Guyana Registry: BSc Architecture higher-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_architecture_interview",
+          "category": "interview",
+          "label": "Architecture interview if requested",
+          "status": "conditional",
+          "details": "Candidates may be asked for an in-person or virtual interview. The page does not say every candidate must interview or receive automatic entry into a specified study year.",
+          "source": {
+            "url": "https://registry.uog.edu.gy/srms/departments/70/programmes/905/details",
+            "title": "Guyana Registry: BSc Architecture higher-entry requirements (undated)",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "guyana",
+      "programId": null,
+      "programKey": "guyana_medicine",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Public 5207D profile explicitly states academic year 2026/2027. 'From 2023 intake batch' identifies the curriculum, not this admission year. These are alternative qualifications, not cumulative prerequisites.",
+      "requirements": [
+        {
+          "key": "guyana_mbbs_advanced_school_route",
+          "category": "academic",
+          "label": "MBBS: A-level or CAPE route",
+          "status": "conditional",
+          "details": "Alternative school routes: at least three GCE A-level passes in Physics/Chemistry/Biology/Mathematics with grades at least C; or at least three CAPE passes in those subjects with grades at least III. The CAPE row does not specify a unit count; no IB/AP equivalence or extra compulsory fourth subject is invented.",
+          "source": {
+            "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+            "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_mbbs_premed_associate",
+          "category": "academic",
+          "label": "MBBS: Pre-Medical Sciences associate",
+          "status": "conditional",
+          "details": "An Associate of Science in Pre-Medical Sciences with GPA at least 3.4 is an alternative entry qualification.",
+          "source": {
+            "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+            "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_mbbs_second_year_routes",
+          "category": "academic",
+          "label": "MBBS: science/medical second-year alternatives",
+          "status": "conditional",
+          "details": "Second-year passes in a science-based programme (e.g. Biology, Chemistry, Physics, Environmental Studies), or in a College of Medical Sciences programme (e.g. Allied Health, Pharmacy, Rehabilitation, Optometry), require overall GPA at least 3.4.",
+          "source": {
+            "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+            "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_mbbs_prior_degree_routes",
+          "category": "academic",
+          "label": "MBBS: prior Nursing/science degree alternatives",
+          "status": "conditional",
+          "details": "A recognized BSc Nursing with overall GPA at least 3.4, or a science-based first degree with at least Credit and overall GPA at least 3.4, may qualify. The university assesses other equivalent qualifications.",
+          "source": {
+            "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+            "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "key": "guyana_mbbs_selection_not_guaranteed",
+          "category": "application",
+          "label": "MBBS minimums do not guarantee selection",
+          "status": "required",
+          "details": "Selection also ranks overall grades and subject performance against available quota/category places. The college may apply the GPA mode for the particular matriculation year. Meeting one published alternative does not guarantee admission.",
+          "source": {
+            "url": "https://www.turkeyenonline.uog.edu.gy/srms/student/current/reg_help/progprof.php?ID=1169&action=View",
+            "title": "Guyana MBBS programme 5207D: academic year 2026/2027 admission criteria",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ]
+    }
+  ]
+}

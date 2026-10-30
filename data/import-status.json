@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280136,
+            "programs": 280157,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2002,
+            "admissionProfiles": 2028,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22344,
+            "admissionRequirements": 22414,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 76
         },
@@ -100,7 +100,7 @@
             "institutionWidePolicies": 8,
             "institutionsWithReviewedIb": 27,
             "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194469
+            "undergraduateCatalogEntries": 194490
         },
         "coreCoverage": {
             "phone": 4078,
@@ -129,13 +129,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4091,
+            "programs": 4092,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1869,
+            "admissions": 1870,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24060
+            "noStructuredApplicationFacts": 24059
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -147,31 +147,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 324,
-            "profiles": 93,
-            "institutions": 10
+            "facts": 394,
+            "profiles": 119,
+            "institutions": 11
         }
     },
-    "generatedAt": "2026-10-23T15:00:28Z",
+    "generatedAt": "2026-10-30T06:01:55Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 79,
+        "inserted": 70,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 79,
-        "startedAt": "2026-10-23T14:56:47.641479+00:00",
-        "updatedAt": "2026-10-23T14:56:47.641479+00:00",
+        "processed": 70,
+        "startedAt": "2026-10-30T05:59:01.460519+00:00",
+        "updatedAt": "2026-10-30T05:59:01.460519+00:00",
         "checkpoint": {
-            "profiles": 39,
-            "admissionFacts": 79,
+            "profiles": 28,
+            "admissionFacts": 70,
             "programsReused": 0,
-            "programsCreated": 25
+            "programsCreated": 21
         },
-        "finishedAt": "2026-10-23T14:56:47.786+00:00",
-        "artifactSha256": "d7e65edcc39c8bd0f68c1a9bd49202adb07589ea9204d9860e4d56e4cdd1db08",
-        "datasetVersion": "official-admissions-nust-utech-2026-10-23-v1"
+        "finishedAt": "2026-10-30T05:59:01.586+00:00",
+        "artifactSha256": "1b8576fb6274b2ecf84dff843f90af2bbc875d41d3909d4e27773022c4e00c3f",
+        "datasetVersion": "official-admissions-guyana-nust-utech-2026-10-30-v1"
     },
     "schemaVersion": 2
 }
