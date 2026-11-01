@@ -1,0 +1,594 @@
+{
+  "datasetVersion": "official-admissions-belize-business-graduate-2026-11-01-v1",
+  "reviewedOn": "2026-11-01",
+  "institutions": [
+    {
+      "key": "belize",
+      "name": "University of Belize",
+      "provider": "ror",
+      "externalId": "00fgcap50",
+      "countryCode": "BZ",
+      "officialDomains": ["ub.edu.bz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bz_associate_business",
+      "institutionKey": "belize",
+      "name": "Associate in Business Science",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: ABUS",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_accounting",
+      "institutionKey": "belize",
+      "name": "Bachelor in Accounting",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BACC",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_bba_marketing",
+      "institutionKey": "belize",
+      "name": "Bachelor in Business Administration - Marketing",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BBMK",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_bba_management",
+      "institutionKey": "belize",
+      "name": "Bachelor in Business Administration - Management",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BBMN",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_bba_finance",
+      "institutionKey": "belize",
+      "name": "Bachelor in Business Administration - Finance",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BBFN",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_bba_entrepreneurship",
+      "institutionKey": "belize",
+      "name": "Bachelor in Business Administration - Entrepreneurship",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BBEN",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_public_sector_management",
+      "institutionKey": "belize",
+      "name": "Bachelor in Public Sector Management",
+      "level": "undergraduate",
+      "field": "Business and management",
+      "source": {
+        "url": "https://ub.edu.bz/business-department/",
+        "title": "University of Belize Business department: BPSM",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_mba",
+      "institutionKey": "belize",
+      "name": "Master of Business Administration",
+      "level": "graduate",
+      "field": "Business administration",
+      "source": {
+        "url": "https://ub.edu.bz/master-of-business-administration/",
+        "title": "University of Belize MBA: Admission Requirements",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_medl",
+      "institutionKey": "belize",
+      "name": "Master in Educational Leadership",
+      "level": "graduate",
+      "field": "Educational leadership",
+      "source": {
+        "url": "https://ub.edu.bz/master-of-educational-leadership/",
+        "title": "University of Belize Educational Leadership: Admission Requirements",
+        "checkedOn": "2026-11-01"
+      }
+    },
+    {
+      "key": "bz_mphil",
+      "institutionKey": "belize",
+      "name": "Master of Philosophy",
+      "level": "graduate",
+      "field": "Research studies",
+      "source": {
+        "url": "https://ub.edu.bz/master-of-philosophy/",
+        "title": "University of Belize MPhil: Admission Requirements",
+        "checkedOn": "2026-11-01"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_associate_business",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_associate_business_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "English, Mathematics and cumulative GPA must each be at least 2.0. This is an associate award, not a bachelor degree.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: ABUS",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_accounting",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_accounting_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite. No guaranteed credit transfer or entry year is specified.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BACC",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_bba_marketing",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_bba_marketing_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite for the Marketing major. No automatic advanced standing is specified.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BBMK",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_bba_management",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_bba_management_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite for the Management major. No automatic advanced standing is specified.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BBMN",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_bba_finance",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_bba_finance_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite for the Finance major. No automatic advanced standing is specified.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BBFN",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_bba_entrepreneurship",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_bba_entrepreneurship_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite. The Entrepreneurship major is offered by cohort; the department does not identify the next cohort or application dates.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BBEN",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_public_sector_management",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated official programme entry panel, checked 1 November 2026. Shared application conditions are recorded separately. No admission year, automatic credit placement or IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "bz_public_sector_management_eligibility",
+          "category": "academic",
+          "label": "Programme entry qualifications",
+          "status": "required",
+          "details": "An associate award in a business-related field is the published prerequisite. The department lists online delivery, without a current intake date or guaranteed advanced standing.",
+          "source": {
+            "url": "https://ub.edu.bz/business-department/",
+            "title": "University of Belize Business department: BPSM",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mba",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Master of Business Administration. Graduate entry from a prior bachelor degree; not a school-leaver or doctoral threshold. CV, recommendation and possible interview conditions shared by the three reviewed graduate programmes remain in their explicitly named common scope. No application year is published.",
+      "requirements": [
+        {
+          "key": "bz_mba_degree_grades",
+          "category": "academic",
+          "label": "Prior degree and academic standing",
+          "status": "required",
+          "details": "A recognized bachelor degree is required, with either cumulative GPA of at least 3.0 on a 4.0 scale or upper second-class honours under the named US/UK/UWI scales. The page does not establish a general conversion between every national grading system.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-business-administration/",
+            "title": "University of Belize MBA: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mba_personal_statement",
+          "category": "document",
+          "label": "Graduate personal-statement instructions",
+          "status": "required",
+          "details": "The personal statement must explain reasons for applying, preparation for the field and career alignment, and relevant background/interests. It must be typed in APA format and no longer than two pages. The undergraduate 250–500-word prompt is not substituted for this programme instruction.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-business-administration/",
+            "title": "University of Belize MBA: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mba_professional_experience",
+          "category": "experience",
+          "label": "MBA professional-experience minimum",
+          "status": "required",
+          "details": "At least three years of professional work experience is required for the MBA. The programme page does not restrict this to a named industry or publish an identical duration rule for Educational Leadership or MPhil.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-business-administration/",
+            "title": "University of Belize MBA: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_medl",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Master in Educational Leadership. Graduate entry from a prior bachelor degree; not a school-leaver or doctoral threshold. CV, recommendation and possible interview conditions shared by the three reviewed graduate programmes remain in their explicitly named common scope. No application year is published.",
+      "requirements": [
+        {
+          "key": "bz_medl_degree_grades",
+          "category": "academic",
+          "label": "Prior degree and academic standing",
+          "status": "required",
+          "details": "A recognized bachelor degree is required, with either cumulative GPA of at least 3.0 on a 4.0 scale or upper second-class honours under the named US/UK/UWI scales. The page does not establish a general conversion between every national grading system.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_medl_personal_statement",
+          "category": "document",
+          "label": "Graduate personal-statement instructions",
+          "status": "required",
+          "details": "The personal statement must explain reasons for applying, preparation for the field and career alignment, and relevant background/interests. It must be typed in APA format and no longer than two pages. The undergraduate 250–500-word prompt is not substituted for this programme instruction.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mphil",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Master of Philosophy. Graduate entry from a prior bachelor degree; not a school-leaver or doctoral threshold. CV, recommendation and possible interview conditions shared by the three reviewed graduate programmes remain in their explicitly named common scope. No application year is published.",
+      "requirements": [
+        {
+          "key": "bz_mphil_degree_grades",
+          "category": "academic",
+          "label": "Prior degree and academic standing",
+          "status": "required",
+          "details": "A recognized bachelor degree is required, with either cumulative GPA of at least 3.0 on a 4.0 scale or upper second-class honours under the named US/UK/UWI scales. The page does not establish a general conversion between every national grading system.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mphil_research_proposal",
+          "category": "document",
+          "label": "MPhil research-proposal instructions",
+          "status": "required",
+          "details": "Submit the research proposal requested by the programme panel. It asks for reasons for applying, preparation for the field, career alignment, relevant background and interests, with a maximum of two typed pages in APA format. These are the published panel instructions, not an invented full thesis-proposal word count.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Shared conditions cross-checked on the MBA, Educational Leadership and MPhil official admissions pages. Each fact names the programmes to which it applies; this is not an assertion that all future graduate awards have identical conditions.",
+      "requirements": [
+        {
+          "key": "bz_three_graduate_cv",
+          "category": "document",
+          "label": "CV for the three reviewed graduate programmes",
+          "status": "required",
+          "details": "MBA, Educational Leadership and MPhil each request a recent resume/CV. This common rule applies to those three reviewed programmes; it is not copied into their individual scopes or extended to every future graduate award.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-business-administration/",
+            "title": "University of Belize MBA: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_three_graduate_recommendations",
+          "category": "document",
+          "label": "Graduate recommendations: count not specified",
+          "status": "required",
+          "details": "MBA, Educational Leadership and MPhil each request acceptable recommendations. Their reviewed web panels do not specify a universal number or recommender occupations. The undergraduate two-form requirement is not automatically extended to these graduate programmes.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_three_graduate_interview",
+          "category": "interview",
+          "label": "Possible graduate admissions interview",
+          "status": "conditional",
+          "details": "For MBA, Educational Leadership and MPhil, an interview may be required before the final admissions decision. The wording is conditional, not a claim that every applicant will be interviewed.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mba_medl_job_letter",
+          "category": "document",
+          "label": "Job letter for MBA and Educational Leadership",
+          "status": "conditional",
+          "details": "The MBA and Educational Leadership application-material panels require a job letter. This named-programme condition is not applied to MPhil, and a job letter alone does not establish an unstated number of years of teaching or management experience.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_medl",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "international",
+      "notes": "International conditions for this named graduate programme only. They are separate from the prior-degree/academic requirements and shared graduate application materials. The page is undated and does not confirm a currently open cycle.",
+      "requirements": [
+        {
+          "key": "bz_medl_international_english",
+          "category": "language",
+          "label": "International English evidence",
+          "status": "required",
+          "details": "The programme requires English-competency evidence: TOEFL at least 87, IELTS at least 5, or an equivalent qualification. The web panel does not identify a TOEFL edition, IELTS module, component scores or IB-English waiver; confirm the matching accepted test/version.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_medl_international_credentials",
+          "category": "document",
+          "label": "International credential evaluation",
+          "status": "required",
+          "details": "Provide an official report from a reputable credential-evaluation service. The programme panel names Josef Silny and WES; it does not establish a complete exclusive list of every accepted service.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_medl_international_first_term_payment",
+          "category": "financial",
+          "label": "First-term payment and unresolved timing",
+          "status": "conditional",
+          "details": "The international programme panel lists full payment of first-trimester or first-semester tuition and fees. It gives no amount or precise offer/registration/payment stage. Confirm the applicable timing before acting; this is not an instruction to pay before an admissions decision.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-educational-leadership/",
+            "title": "University of Belize Educational Leadership: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mphil",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "international",
+      "notes": "International conditions for this named graduate programme only. They are separate from the prior-degree/academic requirements and shared graduate application materials. The page is undated and does not confirm a currently open cycle.",
+      "requirements": [
+        {
+          "key": "bz_mphil_international_english",
+          "category": "language",
+          "label": "International English evidence",
+          "status": "required",
+          "details": "The programme requires English-competency evidence: TOEFL at least 87, IELTS at least 5, or an equivalent qualification. The web panel does not identify a TOEFL edition, IELTS module, component scores or IB-English waiver; confirm the matching accepted test/version.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mphil_international_credentials",
+          "category": "document",
+          "label": "International credential evaluation",
+          "status": "required",
+          "details": "Provide an official report from a reputable credential-evaluation service. The programme panel names Josef Silny and WES; it does not establish a complete exclusive list of every accepted service.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "key": "bz_mphil_international_first_term_payment",
+          "category": "financial",
+          "label": "First-term payment and unresolved timing",
+          "status": "conditional",
+          "details": "The international programme panel lists full payment of first-trimester or first-semester tuition and fees. It gives no amount or precise offer/registration/payment stage. Confirm the applicable timing before acting; this is not an instruction to pay before an admissions decision.",
+          "source": {
+            "url": "https://ub.edu.bz/master-of-philosophy/",
+            "title": "University of Belize MPhil: Admission Requirements",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ]
+    }
+  ]
+}
