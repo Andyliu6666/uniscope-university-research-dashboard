@@ -1,0 +1,431 @@
+{
+  "datasetVersion": "official-admissions-belize-graduate-forms-2026-11-04-v1",
+  "reviewedOn": "2026-11-04",
+  "institutions": [
+    {
+      "key": "belize",
+      "name": "University of Belize",
+      "provider": "ror",
+      "externalId": "00fgcap50",
+      "countryCode": "BZ",
+      "officialDomains": ["ub.edu.bz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bz_mba",
+      "institutionKey": "belize",
+      "name": "Master of Business Administration",
+      "level": "graduate",
+      "field": "Business administration",
+      "source": {
+        "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+        "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+        "checkedOn": "2026-11-04"
+      }
+    },
+    {
+      "key": "bz_medl",
+      "institutionKey": "belize",
+      "name": "Master in Educational Leadership",
+      "level": "graduate",
+      "field": "Educational leadership",
+      "source": {
+        "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MEDL-Application-Form.pdf",
+        "title": "Belize Educational Leadership application, PDF page 1; currently linked form, entry year unspecified",
+        "checkedOn": "2026-11-04"
+      }
+    },
+    {
+      "key": "bz_mphil",
+      "institutionKey": "belize",
+      "name": "Master of Philosophy",
+      "level": "graduate",
+      "field": "Research studies",
+      "source": {
+        "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+        "title": "Belize MPhil application, PDF page 1; currently linked form, entry year unspecified",
+        "checkedOn": "2026-11-04"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_grad_forms_two_references",
+          "category": "document",
+          "label": "Linked forms specify two recommendations",
+          "status": "required",
+          "details": "The currently linked graduate recommendation form and the three reviewed programme application checklists specify two recommendation forms. This supplies the count missing from the earlier web panels; roles and delivery conditions must also be checked. The number is stored once for the reviewed MBA, Educational Leadership and MPhil programmes.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Graduate-Recommendation-Form-Fillable-Version.pdf",
+            "title": "Belize graduate recommendation form, PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_recommender_roles_conflict",
+          "category": "document",
+          "label": "Recommendation roles differ across linked forms",
+          "status": "unknown",
+          "details": "The shared recommendation form asks for one former professor/dean/institution head and one current/past employer, or two academic recommenders if never employed. Educational Leadership application page 3 says one academic and one character reference; MPhil page 3 requires at least one academic. Confirm acceptable referee roles under the relevant form rather than imposing employment on every applicant. The no-employment reference option does not waive the separate MBA three-year work minimum.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Graduate-Recommendation-Form-Fillable-Version.pdf",
+            "title": "Belize graduate recommendation form, PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_recommender_delivery",
+          "category": "document",
+          "label": "Recommendations: sealed envelope or direct recommender email",
+          "status": "required",
+          "details": "Recommendations may reach Admissions in a sealed envelope with the recommender signature/stamp on the flap, or be sent directly by the recommender to etranscripts@ub.edu.bz. These are alternatives; an applicant-forwarded unsealed reference is not expressly accepted by this form.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Graduate-Recommendation-Form-Fillable-Version.pdf",
+            "title": "Belize graduate recommendation form, PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_processing_fee",
+          "category": "financial",
+          "label": "Graduate application processing fee",
+          "status": "required",
+          "details": "The generic graduate, Educational Leadership and MPhil forms agree on a processing fee of BZ$100 or USD50. These are graduate application fees, separate from undergraduate/medicine fees and annual tuition. The forms say not to mail cash; payment instructions should be confirmed for the intended cycle.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_transcript_scope",
+          "category": "document",
+          "label": "Graduate transcripts and the limited UB-alumni exemption",
+          "status": "conditional",
+          "details": "The generic form requires official academic transcripts but exempts past UB students; Educational Leadership specifies one sealed official bachelor-awarding-institution transcript with that past-UB exception. MPhil specifies one official bachelor-awarding-institution transcript without printing the same exemption. Confirm the MPhil alumni case rather than applying an exemption to all programmes or treating a scan as an official transcript.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_citizenship_evidence",
+          "category": "document",
+          "label": "Citizenship evidence: alternatives and programme differences",
+          "status": "required",
+          "details": "The generic form requests a certified passport copy OR birth-certificate copy, explicitly not both. The Educational Leadership and MPhil checklists request certified citizenship proof using a passport or birth certificate together with photo ID; Educational Leadership prefers a passport. The generic form Social Security Card item is recorded separately for its own applicability check.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_one_photo",
+          "category": "document",
+          "label": "One recent passport-size photograph",
+          "status": "required",
+          "details": "All three reviewed application forms request one recent passport-size photograph. Educational Leadership and MPhil additionally ask for the applicant first and last name on the back. This is one photo requirement, not one extra photograph for each repeated checklist.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_other_awards",
+          "category": "document",
+          "label": "Other academic/training certificates when applicable",
+          "status": "conditional",
+          "details": "Include certified copies of other relevant academic-course or training certificates where such qualifications are supplied. This does not require an applicant to invent an additional award or a competition result beyond the actual entry qualifications.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_signed_complete_package",
+          "category": "application",
+          "label": "Completed signed form and supporting package",
+          "status": "required",
+          "details": "Complete and sign the relevant application form and supply its required supporting documents. The forms say incomplete packages are not processed or are held pending completion. Any additional conduct/special-needs explanation requested by the form must be supplied where applicable; the blank fields do not establish an automatic rejection threshold.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 1, 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_grad_forms_emergency_contact_variants",
+          "category": "document",
+          "label": "Emergency-contact requirements depend on the form",
+          "status": "conditional",
+          "details": "Educational Leadership and MPhil ask for two different emergency contacts. The generic graduate form additionally requires international applicants to provide at least one emergency contact in Belize. Applicants provide these details to the university; this research website does not collect their contacts.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mba",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_mba_form_email_and_documents",
+          "category": "application",
+          "label": "Linked MBA form submission channel",
+          "status": "required",
+          "details": "The graduate form linked by the MBA page instructs applicants to complete the electronic form and email it to admissions@ub.edu.bz, then gather supporting documents for submission to the nearest UB campus in Belize City, Belmopan or Punta Gorda. Emailing the form is not described as replacing all supporting-document delivery.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mba_form_standardized_exam_applicability",
+          "category": "standardized_test",
+          "label": "Standardized-exam evidence only where applicable",
+          "status": "conditional",
+          "details": "The linked generic form asks for evidence of any standardized exam taken where applicable and includes GRE/English-test/other checkboxes. It does not publish a compulsory GRE test or a GRE admission-score minimum merely by displaying that checkbox.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 2; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mba_form_social_security_applicability",
+          "category": "document",
+          "label": "Social Security Card applicability needs confirmation",
+          "status": "unknown",
+          "details": "The generic form linked by MBA lists a certified Social Security Card copy separately from passport/birth-certificate evidence. It does not specify an alternative for an applicant who does not hold that card. Confirm its applicability, especially for international applicants; it is not a universal requirement for all three graduate programmes.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mba_form_photocopy_certification",
+          "category": "document",
+          "label": "MBA linked-form photocopy certification",
+          "status": "required",
+          "details": "The linked generic graduate form says all photocopied documents are to be certified by a Justice of the Peace. This instruction concerns that form checklist; it is not a claim that original transcripts or every recommender email must be photocopied.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mba_form_funding_support",
+          "category": "financial",
+          "label": "MBA linked-form proof of support",
+          "status": "required",
+          "details": "The linked generic form requests evidence of support to finance study, such as a bank statement, letter of intent to pay/affidavit of support or other sponsor confirmation. Its financing questionnaire is described as statistical/financial-guidance information that does not affect admission status. No minimum bank balance or employment-status eligibility cutoff is stated there.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mba",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "international",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_mba_form_international_english",
+          "category": "language",
+          "label": "MBA linked form: non-native English evidence",
+          "status": "conditional",
+          "details": "The MBA-linked graduate form requires English evidence for non-native English speakers, publishing TOEFL at least 87 or IELTS at least 5. It does not identify the test edition/module, component minima or an automatic IB-English waiver. The applicable test/version and any exemption need confirmation.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mba_form_international_evaluation",
+          "category": "document",
+          "label": "MBA linked form: credential assessment",
+          "status": "required",
+          "details": "The international checklist requests a credential assessment report and names Josef Silny & Associates or World Education Services. The generic form does not explicitly use the same exclusive-provider wording found in the Educational Leadership/MPhil criteria; acceptance of other evaluators requires confirmation.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/Application-for-Graduate-Studies-UB-Admissions.pdf",
+            "title": "Belize graduate application (internal update February 2022), PDF page 1; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mphil",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_mphil_form_proposal_format_conflict",
+          "category": "document",
+          "label": "Research-proposal format conflict requires confirmation",
+          "status": "unknown",
+          "details": "The currently linked MPhil application page 3 requests a research-interest proposal with specific objectives of 1000 words. The programme webpage checked again on 4 November instead describes a maximum of two APA-formatted pages with preparation/background/career-alignment instructions. No source establishes precedence or says both limits must be combined. Confirm the required format with admissions rather than replacing the word count, silently treating 1000 as a maximum, or inventing a full thesis plan.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mphil_form_job_letter_if_applicable",
+          "category": "document",
+          "label": "MPhil form: job letter only if applicable",
+          "status": "conditional",
+          "details": "The MPhil application criteria request a job letter if applicable. The web panel does not list it. This is a source-specific conditional document request, not a universal employment or work-duration minimum for MPhil.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mphil_form_research_area",
+          "category": "application",
+          "label": "MPhil faculty and research-area declaration",
+          "status": "required",
+          "details": "The MPhil form asks the applicant to select the admitting faculty and state the research area. It lists Education and Arts, Management and Social Sciences, Science and Technology, and Health Sciences. Those choices are not four separately verified degree programmes or four distinct admission-score cutoffs.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 2; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mphil_form_submission_channel",
+          "category": "application",
+          "label": "MPhil package submission channel",
+          "status": "required",
+          "details": "The MPhil form permits delivery to Admissions at the Belmopan address, in person, or online via admissions@ub.edu.bz. Required package documents and recommender delivery rules still apply; the receipt/evaluation page is reserved for university staff.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 1, 4; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_medl",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "international",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_medl_form_english_trigger_conflict",
+          "category": "language",
+          "label": "English-evidence trigger differs between source panels",
+          "status": "unknown",
+          "details": "The programme application criteria restrict the English-evidence item to applicants not from English-speaking countries, whereas the webpage lists it under international requirements without that qualifier. The generic graduate form instead refers to non-native English speakers. These are different triggers, not an established automatic country/citizenship waiver; confirm the rule applicable to the intended programme and qualification.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MEDL-Application-Form.pdf",
+            "title": "Belize Educational Leadership application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_medl_form_evaluator_list_conflict",
+          "category": "document",
+          "label": "Credential-evaluator restriction needs confirmation",
+          "status": "unknown",
+          "details": "The programme application criteria say only Josef Silny and World Education Services are accepted, while the webpage names reputable evaluators without explicit exclusive wording. A credential report is still requested; confirm acceptance before using another provider rather than assuming all reputable services qualify.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MEDL-Application-Form.pdf",
+            "title": "Belize Educational Leadership application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "belize",
+      "programId": null,
+      "programKey": "bz_mphil",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "international",
+      "notes": "Currently linked graduate application/recommendation forms checked 4 November 2026. Upload directories and the generic form internal February 2022 revision are not admission-cycle dates. Newly discovered form requirements supplement the earlier web-panel statements; explicit source conflicts need confirmation. Shared conditions are limited to the reviewed MBA, Educational Leadership and MPhil programmes.",
+      "requirements": [
+        {
+          "key": "bz_mphil_form_english_trigger_conflict",
+          "category": "language",
+          "label": "English-evidence trigger differs between source panels",
+          "status": "unknown",
+          "details": "The programme application criteria restrict the English-evidence item to applicants not from English-speaking countries, whereas the webpage lists it under international requirements without that qualifier. The generic graduate form instead refers to non-native English speakers. These are different triggers, not an established automatic country/citizenship waiver; confirm the rule applicable to the intended programme and qualification.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "key": "bz_mphil_form_evaluator_list_conflict",
+          "category": "document",
+          "label": "Credential-evaluator restriction needs confirmation",
+          "status": "unknown",
+          "details": "The programme application criteria say only Josef Silny and World Education Services are accepted, while the webpage names reputable evaluators without explicit exclusive wording. A credential report is still requested; confirm acceptance before using another provider rather than assuming all reputable services qualify.",
+          "source": {
+            "url": "https://ub.edu.bz/wp-content/uploads/2025/08/MPhil-Application-form.pdf",
+            "title": "Belize MPhil application, PDF page 3; currently linked form, entry year unspecified",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ]
+    }
+  ]
+}

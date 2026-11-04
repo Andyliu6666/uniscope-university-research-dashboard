@@ -1,4 +1,5 @@
 import { timingSafeEqual } from 'node:crypto';
+import { STATUS_CODES } from 'node:http';
 import cors from '@fastify/cors';
 import helmet from '@fastify/helmet';
 import rateLimit from '@fastify/rate-limit';
@@ -97,8 +98,19 @@ export const buildApp = async (config: Config, db: Database) => {
   }
 
   app.setErrorHandler((error, _request, reply) => {
-    if ((error as { code?: string }).code === '23505')
+    const failure = error !== null && typeof error === 'object' ? error : {};
+    if ('code' in failure && failure.code === '23505')
       return reply.status(409).send({ error: 'A record with this slug already exists' });
+    const statusCode = 'statusCode' in failure ? failure.statusCode : undefined;
+    if (
+      typeof statusCode === 'number' &&
+      Number.isInteger(statusCode) &&
+      statusCode >= 400 &&
+      statusCode < 500
+    )
+      return reply
+        .status(statusCode)
+        .send({ error: STATUS_CODES[statusCode] ?? 'Request rejected' });
     app.log.error(error);
     return reply.status(500).send({ error: 'Unexpected server error' });
   });
