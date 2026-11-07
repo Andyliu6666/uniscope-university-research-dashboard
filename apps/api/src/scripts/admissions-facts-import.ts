@@ -140,6 +140,7 @@ async function resolveProfile(
                 : isNull(admissionProfiles.programId),
               eq(admissionProfiles.academicYear, profile.academicYear),
               eq(admissionProfiles.intakeTerm, profile.intakeTerm),
+              eq(admissionProfiles.deliveryMode, profile.deliveryMode ?? 'unspecified'),
               eq(admissionProfiles.entryType, profile.entryType),
               eq(admissionProfiles.level, profile.level),
               eq(admissionProfiles.applicantType, profile.applicantType),
@@ -299,6 +300,7 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
             .insert(admissionProfiles)
             .values({
               ...scope,
+              deliveryMode: plan.profile.deliveryMode ?? 'unspecified',
               programId: plan.profile.programKey
                 ? programIds.get(plan.profile.programKey)
                 : plan.programId,

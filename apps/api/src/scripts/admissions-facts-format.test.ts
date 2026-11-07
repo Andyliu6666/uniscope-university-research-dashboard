@@ -29,6 +29,21 @@ describe('reviewed admission fact deduplication', () => {
     expect(JSON.stringify(dataset)).toBe(JSON.stringify(input));
     expect(dataset).not.toHaveProperty('programs');
     expect(dataset.profiles[0]).not.toHaveProperty('programKey');
+    expect(dataset.profiles[0]).not.toHaveProperty('deliveryMode');
+  });
+  it('distinguishes distance/campus scopes but treats an omitted mode as unspecified', () => {
+    expect(factScope({ ...profile, deliveryMode: 'unspecified' })).toBe(factScope(profile));
+    const distance = { ...profile, deliveryMode: 'distance' as const };
+    expect(factScope(distance)).not.toBe(factScope(profile));
+    expect(
+      admissionFactsDatasetSchema.safeParse({ ...dataset, profiles: [profile, distance] }).success,
+    ).toBe(true);
+    expect(
+      admissionFactsDatasetSchema.safeParse({
+        ...dataset,
+        profiles: [profile, { ...profile, deliveryMode: 'unspecified' }],
+      }).success,
+    ).toBe(false);
   });
   it('validates the reviewed 18 facts in seven scopes without creating programmes', () => {
     expect(dataset.profiles).toHaveLength(7);

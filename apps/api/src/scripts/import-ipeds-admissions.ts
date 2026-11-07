@@ -712,6 +712,7 @@ const flushChunk = async (
             isNull(admissionProfiles.programId),
             eq(admissionProfiles.academicYear, artifact.academicYear),
             eq(admissionProfiles.intakeTerm, 'fall'),
+            eq(admissionProfiles.deliveryMode, 'unspecified'),
             eq(admissionProfiles.entryType, 'first_year'),
             eq(admissionProfiles.level, 'undergraduate'),
             eq(admissionProfiles.applicantType, 'all'),

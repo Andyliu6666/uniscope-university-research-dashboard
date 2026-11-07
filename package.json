@@ -19,6 +19,7 @@
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build",
     "db:generate": "pnpm --filter @urd/api db:generate",
     "db:migrate": "pnpm --filter @urd/api db:migrate",
+    "db:test": "pnpm --filter @urd/api db:test",
     "db:studio": "pnpm --filter @urd/api db:studio",
     "data:check": "./scripts/check-data-quality.sh",
     "data:status": "./scripts/export-data-status.sh"

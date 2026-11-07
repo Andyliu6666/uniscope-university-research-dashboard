@@ -558,6 +558,9 @@ export function AdmissionsSection({
             {item.academicYear === 'unspecified' ? 'Year not specified' : item.academicYear} ·{' '}
             {item.intakeTerm} intake · {item.entryType.replaceAll('_', ' ')} ·{' '}
             {item.applicantType === 'all' ? 'All applicants' : item.applicantType}
+            {item.deliveryMode &&
+              item.deliveryMode !== 'unspecified' &&
+              ` · ${item.deliveryMode === 'distance' ? 'Distance education' : item.deliveryMode === 'campus' ? 'Campus study' : 'Hybrid study'}`}
           </option>
         ))}
       </select>
@@ -565,8 +568,8 @@ export function AdmissionsSection({
         {profile.programId
           ? 'Programme-specific requirements.'
           : 'Shared university requirements are recorded once, not copied to every programme.'}{' '}
-        Only the selected year, applicant group and entry route are shown. Undated information is
-        not a confirmed current-year offer.
+        Only the selected year, applicant group, entry route and delivery mode are shown. Undated
+        information is not a confirmed current-year offer.
       </p>
       {profile.notes && <p className="muted">{profile.notes}</p>}
       {profile.applicationUrl && (

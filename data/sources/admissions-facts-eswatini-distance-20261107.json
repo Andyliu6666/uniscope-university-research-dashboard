@@ -1,0 +1,908 @@
+{
+  "datasetVersion": "official-admissions-eswatini-distance-2026-11-07-v1",
+  "reviewedOn": "2026-11-07",
+  "institutions": [
+    {
+      "key": "eswatini",
+      "name": "University of Eswatini",
+      "provider": "ror",
+      "externalId": "05nv2rz39",
+      "countryCode": "SZ",
+      "officialDomains": ["uneswa.ac.sz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "es_commerce",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Commerce",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 46",
+        "checkedOn": "2026-11-07"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_primary_education",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Education (Primary)",
+      "field": "Primary education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 47–48",
+        "checkedOn": "2026-11-07"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_secondary_education",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Education (Secondary)",
+      "field": "Secondary education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 48–50",
+        "checkedOn": "2026-11-07"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_humanities",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Arts in Humanities",
+      "field": "Humanities",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 50",
+        "checkedOn": "2026-11-07"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "es_law",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Laws (LLB)",
+      "field": "Law",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 50–51",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "es_information_science",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Science in Information Science",
+      "field": "Information science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "es_information_technology",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Science in Information Technology",
+      "field": "Information technology",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 52–53",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "es_computer_science_education",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Science in Computer Science Education",
+      "field": "Computer science education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 53–54",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "es_pgce",
+      "institutionKey": "eswatini",
+      "name": "Post-Graduate Certificate in Education",
+      "field": "Teacher education",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 55",
+        "checkedOn": "2026-11-07"
+      },
+      "level": "graduate"
+    },
+    {
+      "key": "es_nursing_completion",
+      "institutionKey": "eswatini",
+      "name": "Bachelor of Nursing Science (Completion)",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+        "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 54–55",
+        "checkedOn": "2026-11-07"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_degree_credit_count_clarification",
+          "category": "academic",
+          "label": "IDE degrees: general six credits versus programme-specific counts",
+          "status": "unknown",
+          "details": "General page 13 requires six C-or-better school passes including English C. IDE Commerce and Humanities instead print six passes with five C grades, while IDE LLB prints six passes with English C and at least four C subjects; Information Science lists at least four other C subjects plus the General Regulations. The source does not establish an approved lower-sixth-grade exception or a waiver of English. Keep both statements and confirm the applicable count; the conventional Science faculty's English D wording is not an IDE English exemption.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 13, 46, 50–51",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_degree_mature_framework",
+          "category": "academic",
+          "label": "Named IDE degree mature-entry framework",
+          "status": "conditional",
+          "details": "Where the IDE sections offer mature entry for Commerce, Primary/Secondary Education, Humanities, LLB, Information Science, IT or Computer Science Education, they refer to the Academic General Regulations. General page 13 describes applicants over 22 who do not meet normal requirements; programme-specific conditions still apply and scheme details are available on request. This is over 22, not automatically age 22 inclusive or a new work-duration rule. It is not a mature-entry waiver of the Nursing Completion diploma/registration requirements.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 13, 46–54",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_portuguese_junior_entry",
+          "category": "academic",
+          "label": "Certificate in Portuguese: Junior Certificate route",
+          "status": "conditional",
+          "details": "The named IDE Certificate in Portuguese lists a Junior Certificate or recognized equivalent as its entry qualification. Its separately stated three-school-subject route concerns Year 2 advanced entry, not a Portuguese-subject condition expressly printed for every Year 1 applicant. The general certificate-rule interaction is separately flagged.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 44",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_psychosocial_qualification_options",
+          "category": "academic",
+          "label": "Psychosocial Support certificate: two qualification options",
+          "status": "conditional",
+          "details": "The IDE Certificate in Psychosocial Support lists Junior Certificate or recognized equivalent with at least four subject passes including English, OR EGCSE/SGCSE/IGCSE/GCE O-level or recognized equivalent with three passes including English Language. These are alternatives; a candidate is not required to hold both certificates. The special/general certificate pass-count relationship requires confirmation.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 45",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_psychosocial_preference_reference",
+          "category": "document",
+          "label": "Psychosocial Support certificate: preference and recommendation",
+          "status": "considered",
+          "details": "Preference is stated for applicants working with children and youth who have a recommendation letter from an employer or designated/recognized authority. The paragraph presents this as a preference alongside the qualification routes, not universal employment eligibility, a fixed work duration or compulsory employer letters from every applicant.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 45",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_law_diploma_school_option",
+          "category": "academic",
+          "label": "Diploma in Law: school-certificate option",
+          "status": "conditional",
+          "details": "The IDE school-certificate option states six SGCSE/IGCSE/equivalent passes at E or better, including C or better in English and at least three other subjects. This is followed by OR-separated qualification/mature alternatives. The six-E/four-C wording differs from general page 13's six-C diploma baseline; no automatic exception is promised. The 381 credits elsewhere on this page concern the diploma curriculum, not credits needed before applying.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 45",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_other_level_general_conflict",
+          "category": "academic",
+          "label": "Named IDE certificates/diploma versus general school-pass rules",
+          "status": "unknown",
+          "details": "General page 13 gives certificate entry as four passes with English at least E and diploma entry as six C-or-better passes including English and three other relevant subjects. IDE Portuguese names Junior Certificate, Psychosocial Support has a three-pass school-certificate alternative, and Diploma in Law permits six E-or-better passes with English/three others at C. The special/general relationship is not expressly settled; confirm each named route rather than silently imposing or waiving a different scheme's rule.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 13, 44–46",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_portuguese_year_two",
+          "category": "academic",
+          "label": "Certificate in Portuguese: Year 2 school-subject route",
+          "status": "conditional",
+          "details": "For the Portuguese certificate, at least three EGCSE/SGCSE/IGCSE/GCE O-level subject passes including Portuguese may permit direct Year 2 entry. This is not a degree admission threshold or an additional three subjects required from every Junior Certificate applicant.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 44",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_law_diploma_certificate_options",
+          "category": "academic",
+          "label": "Diploma in Law: Law Certificate or ESQF 4 alternative",
+          "status": "conditional",
+          "details": "Two OR-separated alternatives to the IDE Diploma in Law school route are a Certificate in Law from UNESWA or another recognized institution, OR a formal certificate from a recognized institution at Eswatini Qualifications Framework Level 4 or equivalent. These are alternative credentials, not two certificates required together; no foreign certificate is automatically equated to ESQF 4.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 45–46",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_law_diploma_mature_option",
+          "category": "academic",
+          "label": "Diploma in Law: mature-entry regulation route",
+          "status": "conditional",
+          "details": "The IDE Diploma in Law separately permits the Mature Age Entry Programme, referring to Academic General Regulation 014.32 and Special Regulation 704. The general scheme describes applicants over 22, but detailed programme conditions must be obtained from the university; this paragraph publishes no extra test score or work-duration substitute.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 13, 46",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_commerce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_commerce_school_subjects",
+          "category": "academic",
+          "label": "IDE Commerce: six passes, five credits and named subjects",
+          "status": "required",
+          "details": "The six-year IDE BCom school route states six SGCSE/IGCSE/GCE O-level passes, five at C or better including Mathematics and English; recognized equivalent qualifications or the mature scheme are alternatives. The shared IDE/general six-credit discrepancy remains unresolved. Accounting/Finance, Marketing and Management are majors available after the first three years, not three separate entry qualifications.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 46",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_commerce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_commerce_diploma_placement",
+          "category": "academic",
+          "label": "IDE Commerce: distinct diploma entry levels",
+          "status": "conditional",
+          "details": "DABS (Diploma in Accounting and Business Studies) or equivalent leads to Level 1 of the six-year IDE BCom. A UNESWA Diploma in Commerce or recognized equivalent may allow Level 4, with additional courses directed by Senate. A recognized business-related diploma may allow Level 1. These are distinct qualification routes, not a promise that every business diploma gives Level 4.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 46",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_primary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_primary_science_school_options",
+          "category": "academic",
+          "label": "IDE Primary Science: school-subject science alternatives",
+          "status": "conditional",
+          "details": "For the Science specialization, SGCSE/IGCSE/equivalent requires C or better in Mathematics, two from Biology, Chemistry, Life Sciences, Physical Science or Physics OR Co-ordinated Sciences (expressly counts as two), plus another subject. For GCE O-level/COSC/equivalent, the listed sciences are Biology, Chemistry, Physics, Science (Chemistry/Physics), OR Combined Science with Additional Combined Science, plus Mathematics and another subject. These are qualification-specific science alternatives, read with the General Regulations.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 47",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_primary_social_mathematics",
+          "category": "academic",
+          "label": "IDE Primary Social Studies: Mathematics condition",
+          "status": "conditional",
+          "details": "Applicants for the Social Studies specialization also require C or better in Mathematics. This specialization condition is not a new universal Language Arts subject minimum. Language Arts refers to the Academic General Regulations rather than a new published subject-score list.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 47",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_primary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_primary_teacher_placement",
+          "category": "academic",
+          "label": "IDE Primary: teacher qualifications and placement review",
+          "status": "conditional",
+          "details": "Recognized PTD/STD (Primary/Secondary Teacher Diploma), STC (Secondary Teachers' Certificate), or equivalent is listed as admissible to Level 2; the same paragraph also assigns entry level and courses to Senate. Prior major subjects must fit an existing specialization, and Social Studies applicants still need school Mathematics C. Retain the stated Level 2 route with Senate review, rather than promising unconditional placement or requiring every qualification together.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 48",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_primary_mature_major_fit",
+          "category": "academic",
+          "label": "IDE Primary mature entry: approved subject combination",
+          "status": "conditional",
+          "details": "Within the mature route, major subjects must fit an acceptable Year 1 programme approved by the Faculty of Education, in Language Arts, Social Studies or Science. These are alternative specializations; the text does not replace the general mature conditions with an automatic exemption.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 48",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_secondary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_secondary_business_geography_maths",
+          "category": "academic",
+          "label": "IDE Secondary: Mathematics for Business or Geography",
+          "status": "conditional",
+          "details": "Business Education applicants need Mathematics C or better. In Humanities Education, the Mathematics C condition is attached to applicants intending to take Geography, not automatically every humanities specialization. The direct-entry section accepts the listed school certificates or equivalent alongside the General Regulations.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 48–49",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_secondary_science_subjects",
+          "category": "academic",
+          "label": "IDE Secondary Science: Mathematics, science choices and another subject",
+          "status": "required",
+          "details": "The Science Education paragraph lists Mathematics at C or better, two from Biology, Chemistry, Geography, Physical Science, Physics OR Co-ordinated Sciences, and another subject at C or better. Unlike the Primary Science paragraph, it does not explicitly repeat that Co-ordinated Sciences counts as two; confirm that counting treatment rather than automatically transferring the Primary rule. Programme-specific and general entry conditions both apply.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 49",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_secondary_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_secondary_teacher_routes",
+          "category": "academic",
+          "label": "IDE Secondary: teacher qualification and specialization fit",
+          "status": "conditional",
+          "details": "For the Business/Humanities section, recognized STD or STC or equivalent supports admission, with Senate determining the level and courses. Intended Geography or Business Education still requires school Mathematics C, and previous major subjects must fit an existing specialization. Listed Business subjects are Accounting, Business Studies and Economics; Humanities lists African Languages/Literature, English Language/Literature, History, Geography and Religious Education. French is marked currently not offered.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 49",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_secondary_science_teacher_year_two",
+          "category": "academic",
+          "label": "IDE Secondary Science: specified teacher qualifications for Level 2",
+          "status": "conditional",
+          "details": "The Science-specific route considers a Diploma in Education (Secondary or In-Service) (STD), the two-year STC, or a recognized equivalent for Level 2. This Science wording is not extended to promise Level 2 to every Business/Humanities teacher applicant. The seven science/education combinations printed next are study options, not seven extra qualifications applicants must already possess.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 49–50",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_humanities",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_humanities_school_subjects",
+          "category": "academic",
+          "label": "IDE Humanities: relevant humanities subject pair",
+          "status": "required",
+          "details": "The IDE paragraph states six SGCSE/IGCSE/GCE O-level passes, five at C or better including English, with two selected from English Literature, Geography, History, Religious Knowledge, French and SiSwati. The mature scheme is an alternative. Read with the shared general-six-credit clarification; the list is a choice of two relevant subjects, not all six subjects simultaneously.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 50",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_law",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_llb_school_conditions",
+          "category": "academic",
+          "label": "IDE LLB: school-certificate conditions",
+          "status": "required",
+          "details": "The IDE LLB paragraph states six SGCSE/equivalent passes, including English C or better and at least four subjects at C or better, and refers direct entry to the Academic General Regulations. The shared IDE/general credit-count clarification applies; the paragraph does not publish an IB minimum or a new compulsory law aptitude score.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 50",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_law",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_llb_diploma_levels",
+          "category": "academic",
+          "label": "IDE LLB: diploma type and Levels 1–3",
+          "status": "conditional",
+          "details": "For IDE Diploma in Law holders, entry depends on the diploma type, with Levels 1–3 listed. This is not an entitlement to Level 3 for every law diploma; verify the placement for the actual award.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_llb_ba_law_senate",
+          "category": "academic",
+          "label": "IDE LLB: BA Law Senate placement",
+          "status": "conditional",
+          "details": "The IDE paragraph lists BA Law holders as eligible with Senate-determined placement. The conventional faculty section's express Year 3 placement/no-exemption rule is a different mode-specific statement; it is not substituted for the IDE Senate decision.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_llb_other_degree_level_one",
+          "category": "academic",
+          "label": "IDE LLB: other bachelor's-degree route",
+          "status": "conditional",
+          "details": "Bachelor's-degree holders may enter IDE LLB at Level 1. This is separate from the BA Law placement group and does not guarantee advanced standing from every prior degree.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_information_science",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_information_science_library_school",
+          "category": "academic",
+          "label": "IDE Information Science: Library Science option school credits",
+          "status": "required",
+          "details": "The IDE Library Science option specifies C or better in at least four other subjects in addition to the Academic General Regulations. This paragraph does not restate the conventional faculty's English D wording or the Library Information Systems Mathematics condition. The shared IDE/general credit-count clarification remains relevant.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_information_science",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_information_science_alevel",
+          "category": "academic",
+          "label": "IDE Information Science: A-level entry and exemptions",
+          "status": "conditional",
+          "details": "Acceptable A-level examinations or an equivalent qualification may permit Level 1 entry to the Library Science programme, with possible exemption from courses already passed at A-level. The IDE statement does not promise automatic Level 2 entry or a numeric A-level total.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_information_science_mature_aptitude",
+          "category": "standardized_test",
+          "label": "IDE Information Science mature route: aptitude paper",
+          "status": "conditional",
+          "details": "The IDE mature route follows the Academic General Regulations except that the special paper is an aptitude test. This is a mature-route condition, not a compulsory test for every school-leaver, and no numeric pass mark is published here.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_information_science_diploma",
+          "category": "academic",
+          "label": "IDE Information Science: diploma and Senate placement",
+          "status": "conditional",
+          "details": "A recognized diploma in Information Science or an equivalent qualification is admissible to the Library Science degree route; Senate determines the entry level and courses. No automatic later year or entitlement to a different library option is established.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 51",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_information_technology",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_it_school_pool",
+          "category": "academic",
+          "label": "IDE IT: EGCSE/SGCSE/IGCSE subject choices",
+          "status": "required",
+          "details": "C or better in Mathematics/Additional Mathematics and two from Accounts, Agriculture, Biology, Business Studies, Chemistry, Combined Science, Design and Technology, Economics, Geography, ICT, Physics, Physical Science, Food and Nutrition, Fashion and Fabrics or Home Economics, alongside the General Regulations. The IDE list does not include the extra prevocational subjects or optional Additional Mathematics printed in some conventional faculty lists.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 52",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_it_gce_pool",
+          "category": "academic",
+          "label": "IDE IT: GCE O-level subject choices",
+          "status": "required",
+          "details": "C or better in Mathematics/Additional Mathematics and two from Biology, Agriculture, Combined Science, Commerce, Chemistry, Economics, Geography, General Science, Human and Social Biology, Physics, Physical Science, Principle of Accounts (as printed), Food and Nutrition, Fashion and Fabrics, Home Economics or ICT. These are two choices, not sixteen compulsory subjects; the General Regulations still apply.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 52",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_information_technology",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_it_diploma",
+          "category": "academic",
+          "label": "IDE IT: related diploma and Senate decision",
+          "status": "conditional",
+          "details": "A recognized diploma in IT, Computer Science or Commerce may support admission. Senate determines the entry level and subjects to take; this paragraph gives no fixed diploma-entry year.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 52",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_it_prior_degree_level_two",
+          "category": "academic",
+          "label": "IDE IT: related bachelor's degree and possible Level 2",
+          "status": "conditional",
+          "details": "A recognized bachelor's degree in Information Science, Library Management, Business Management or an IT-related degree may allow Level 2. Senate determines entry level and courses. This explicit IDE Level 2 option is not replaced by the conventional subsection, which gives no fixed year for that group.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 52",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_computer_science_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_cse_school_pool",
+          "category": "academic",
+          "label": "IDE Computer Science Education: school-certificate pool",
+          "status": "required",
+          "details": "For EGCSE/SGCSE/IGCSE, C or better in Mathematics/Additional Mathematics and two from Accounts, Additional Mathematics, Agriculture, Biology, Business Studies, Chemistry, Combined Science, Design and Technology, Economics, Geography, Physics, Physical Science, Fashion and Fabrics, Food and Nutrition or ICT. Additional Mathematics cannot count again if already used for the core Mathematics/Additional Mathematics requirement. The four extra prevocational subjects in the conventional section are not part of this printed IDE list.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 53",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_cse_gce_pool",
+          "category": "academic",
+          "label": "IDE Computer Science Education: GCE O-level pool",
+          "status": "required",
+          "details": "For GCE O-level, C or better in Mathematics/Additional Mathematics and two from Biology, Additional Mathematics, Agriculture, Combined Science, Commerce, Chemistry, Economics, Geography, General Science, Human and Social Biology, Physics, Physical Science, Principle of Accounts, Fashion and Fabrics or Food and Nutrition. The Additional Mathematics no-double-count footnote applies; recognized equivalents and the General Regulations are also mentioned.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 53–54",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_computer_science_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_cse_diploma",
+          "category": "academic",
+          "label": "IDE Computer Science Education: related diploma eligibility",
+          "status": "conditional",
+          "details": "A completed recognized diploma in Computer Science, Information Technology or Education may make the holder eligible. The IDE paragraph gives no guaranteed entry year, diploma grade or numerical credit-transfer entitlement.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 54",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_nursing_completion",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_nursing_completion_diploma",
+          "category": "academic",
+          "label": "IDE Nursing Completion: General Nursing Science diploma",
+          "status": "required",
+          "details": "A Diploma in General Nursing Science from UNESWA or another recognized nursing training institution is required for the IDE Completion programme. This is a post-diploma completion route, distinct from the previously listed Nursing New Programme school-leaver route; no professional-option list is turned into extra prior qualifications.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 54–55",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_nursing_completion_registration",
+          "category": "document",
+          "label": "IDE Nursing Completion: current professional registration",
+          "status": "required",
+          "details": "Current registration with the Eswatini Nursing Council is required in addition to the General Nursing Science diploma. The programme paragraph publishes no new work-duration minimum or IB score and does not describe registration as an alternative to the diploma.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 55",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "eswatini",
+      "programId": null,
+      "programKey": "es_pgce",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "IDE distance-education route in the 2026/2027 prospectus only. Shared IDE/general-regulation clarifications are recorded in the university-wide distance scopes; programme and applicant-route conditions must be read together. Different school-credit counts and Senate placement wording remain qualified. The April 2026 closing date is past and no reopened/current round, IB/AP conversion or guaranteed place is established.",
+      "requirements": [
+        {
+          "key": "es_ide_pgce_degree_subject_gpa",
+          "category": "academic",
+          "label": "IDE PGCE: degree and teaching-subject GPA",
+          "status": "required",
+          "details": "A recognized university degree in which one or more teaching subjects have been studied, with at least GPA 2.0 (D grade) in those teaching subjects. The published GPA concerns the teaching subjects, not an invented whole-degree GPA or school-leaver IB score.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 55",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "es_ide_pgce_teaching_fields",
+          "category": "academic",
+          "label": "IDE PGCE: teaching-subject preparation",
+          "status": "required",
+          "details": "The named teaching subjects are Accounting, English, African Languages, Commerce, History, Business Studies, Economics, Religious Education, Physics, Biology/Life Sciences, Geography, Mathematics, Chemistry and Computer Science. At least one appropriate teaching subject is needed through the prior-degree rule, not every subject in the list. French is printed but marked currently not offered.",
+          "source": {
+            "url": "https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf",
+            "title": "Eswatini 2026/2027 prospectus, IDE distance education, printed/PDF page 55",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    }
+  ]
+}

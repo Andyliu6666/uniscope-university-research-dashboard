@@ -74,6 +74,8 @@ export const getUniversityIb = async (
         and(
           eq(admissionProfiles.universityId, university.id),
           eq(admissionProfiles.level, query.level),
+          // The current reviewed IB artifact format has no delivery-mode dimension.
+          eq(admissionProfiles.deliveryMode, 'unspecified'),
           eq(qualificationRequirements.qualificationSystem, 'IB'),
           eq(sources.category, 'official'),
           sql`${qualificationRequirements.sourceFlags}->>'provider' = ${IB_PROVIDER}`,

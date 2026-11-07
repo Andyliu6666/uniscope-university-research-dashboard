@@ -166,6 +166,9 @@ export type CoverageDimension = z.infer<typeof coverageDimensionSchema>;
 export type UniversityCoverage = z.infer<typeof universityCoverageSchema>;
 export type ResearchProfile = z.infer<typeof researchProfileSchema>;
 
+export const admissionDeliveryModeSchema = z.enum(['unspecified', 'campus', 'distance', 'hybrid']);
+export type AdmissionDeliveryMode = z.infer<typeof admissionDeliveryModeSchema>;
+
 export const admissionsQuerySchema = z.object({
   year: z
     .string()
@@ -174,6 +177,7 @@ export const admissionsQuerySchema = z.object({
   level: z.enum(['all', 'undergraduate', 'graduate', 'doctoral', 'non_degree', 'other']).optional(),
   applicantType: z.enum(['domestic', 'international', 'all']).optional(),
   entryType: z.enum(['first_year', 'transfer', 'readmission', 'other']).optional(),
+  deliveryMode: admissionDeliveryModeSchema.optional(),
   page: z.coerce.number().int().min(1).max(100000).optional(),
   pageSize: z.coerce.number().int().min(1).max(50).optional(),
 });
@@ -300,6 +304,7 @@ export interface AdmissionProfile {
   programName?: string | null;
   academicYear: string;
   intakeTerm: string;
+  deliveryMode: AdmissionDeliveryMode;
   entryType: 'first_year' | 'transfer' | 'readmission' | 'other';
   level: string;
   applicantType: 'domestic' | 'international' | 'all';

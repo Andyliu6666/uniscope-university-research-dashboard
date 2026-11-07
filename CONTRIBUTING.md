@@ -19,7 +19,7 @@ Before opening a pull request, run `pnpm check`. Keep changes focused. New depen
 
 If a formatting check fails, run `pnpm format`, review the diff, then run `pnpm check` before committing. Hand-edited JSON and migration metadata follow the same formatting rules as code; downloaded source artifacts and generated reports retain their defined bytes and exclusions.
 
-GitHub CI checks code quality and also applies database migrations twice to a temporary PostgreSQL database from a checkout path containing spaces. For a historical red check, open its failed step and compare its commit with the latest branch: rerunning an old commit does not include a later fix. The CI workflow can also be run manually against the current branch. See [the failure audit](docs/CI_FAILURE_AUDIT_20261018.md) for the reviewed historical failures.
+GitHub CI checks code quality and also applies database migrations twice to a temporary PostgreSQL database from a checkout path containing spaces, then runs `pnpm db:test` to check independent delivery-mode scopes and same-mode uniqueness. All database-test fixtures are rolled back. For a historical red check, open its failed step and compare its commit with the latest branch: rerunning an old commit does not include a later fix. The CI workflow can also be run manually against the current branch. See [the failure audit](docs/CI_FAILURE_AUDIT_20261018.md) for the reviewed historical failures.
 
 ## Community expectations
 

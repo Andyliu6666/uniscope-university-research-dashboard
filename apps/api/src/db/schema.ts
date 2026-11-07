@@ -48,6 +48,12 @@ export const admissionEntryType = pgEnum('admission_entry_type', [
   'readmission',
   'other',
 ]);
+export const admissionDeliveryMode = pgEnum('admission_delivery_mode', [
+  'unspecified',
+  'campus',
+  'distance',
+  'hybrid',
+]);
 export const admissionCountMetric = pgEnum('admission_count_metric', [
   'applicants',
   'admitted',
@@ -454,6 +460,7 @@ export const admissionProfiles = pgTable(
     programId: uuid('program_id').references(() => programs.id, { onDelete: 'cascade' }),
     academicYear: varchar('academic_year', { length: 20 }).notNull(),
     intakeTerm: varchar('intake_term', { length: 80 }).notNull().default('unspecified'),
+    deliveryMode: admissionDeliveryMode('delivery_mode').notNull().default('unspecified'),
     entryType: admissionEntryType('entry_type').notNull().default('first_year'),
     level: studyLevel('level').notNull().default('all'),
     applicantType: applicantType('applicant_type').notNull().default('all'),
@@ -472,6 +479,7 @@ export const admissionProfiles = pgTable(
         table.universityId,
         table.academicYear,
         table.intakeTerm,
+        table.deliveryMode,
         table.entryType,
         table.level,
         table.applicantType,
@@ -483,6 +491,7 @@ export const admissionProfiles = pgTable(
         table.programId,
         table.academicYear,
         table.intakeTerm,
+        table.deliveryMode,
         table.entryType,
         table.level,
         table.applicantType,

@@ -412,6 +412,8 @@ See [IB_REQUIREMENTS.md](docs/IB_REQUIREMENTS.md) for the JSON format, safe vali
 
 All database operations require `DATABASE_URL`; `.env.example` includes a working local value.
 
+After migrations, `pnpm db:test` verifies that university-wide and programme-specific admission profiles can keep delivery modes separate, while rejecting duplicate scopes. It uses `apps/api/src/db/check-admission-scopes.ts` and rolls back every fixture row. The migration CI job runs the same check against its temporary database.
+
 ## Quality checks
 
 ```bash

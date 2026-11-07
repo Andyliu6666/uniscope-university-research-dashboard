@@ -74,3 +74,5 @@ jobs:
         run: pnpm db:migrate
       - name: Verify repeat migration is safe
         run: pnpm db:migrate
+      - name: Verify independent admission delivery scopes
+        run: pnpm db:test

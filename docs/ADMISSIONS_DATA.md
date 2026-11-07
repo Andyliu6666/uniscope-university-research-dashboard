@@ -29,6 +29,14 @@ Programme names are normalized for case, spacing and Unicode within one exact in
 
 Do not repeat university rules in every programme. Record only distinct programme conditions, preserving AND/OR subject requirements and qualification systems. BGCSE points must never populate an IB score field. Where one published requirement combines subject grades and a programme cut-off, keep that condition together. Alternative diploma/transfer routes belong in their own profiles, and a source saying "may be considered" must retain that conditional meaning.
 
+## Delivery modes
+
+Profiles may supply `deliveryMode: "distance"`, `"campus"`, `"hybrid"` or `"unspecified"`. An omitted mode resolves to `unspecified` for database identity; parsing does not add a default field to completed JSON artifacts or change their hashes. Existing records remain unspecified, without assuming they are campus offers. The same programme/year/intake/level/applicant/entry route can have independent mode-specific profiles. Do not put delivery mode into `intakeTerm` or create a second catalogue award solely for distance study.
+
+The admissions API accepts an exact optional `deliveryMode` filter and returns the mode on each profile. The website appends an explicit mode label to the scope selector when specified. Legacy IB and IPEDS imports continue to resolve only unspecified-mode profiles; the present structured IB artifact format does not support mode-specific imports. General admission conditions for distance routes can be recorded without inventing an IB minimum.
+
+Apply checked-in migration `0014_admission_delivery_mode.sql` before starting the updated API. Docker does this through its existing startup migration command. After migration, `pnpm db:test` exercises both institution and programme scopes against PostgreSQL with all fixtures rolled back.
+
 ## Validate, preview, back up, import
 
 From the repository root:
@@ -63,6 +71,6 @@ The October 18 Ghana/Pacific review is documented in `research/GHANA_PACIFIC_202
 
 ## Paginated admissions profiles
 
-`GET /api/universities/:slug/admissions` accepts `page` (1–100000) and `pageSize` (1–50), in addition to the existing exact year/level/applicant/entry filters. Omitted pagination defaults to page 1 / 50 profiles for compatibility. Responses include `pagination: { page, pageSize, total, totalPages }` for the same filters; ordering ends with the unique profile ID to prevent tied rows shifting between pages. Empty result sets have one navigable page.
+`GET /api/universities/:slug/admissions` accepts `page` (1–100000) and `pageSize` (1–50), in addition to exact year/level/applicant/entry/delivery-mode filters. Omitted pagination defaults to page 1 / 50 profiles for compatibility. Responses include `pagination: { page, pageSize, total, totalPages }` for the same filters; ordering ends with the unique profile ID to prevent tied rows shifting between pages. Empty result sets have one navigable page.
 
 The website requests 20 profiles per page and provides previous/next controls. Counts include IB-only profiles even though their requirements are displayed by the dedicated IB browser; pages containing only IB profiles still expose navigation. An API/network error is not shown as a school with no requirements. Paging does not imply complete research coverage.

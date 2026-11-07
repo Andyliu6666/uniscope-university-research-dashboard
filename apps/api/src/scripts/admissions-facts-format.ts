@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { admissionDeliveryModeSchema } from '@urd/shared';
 
 export const normalizeFactText = (text: string) =>
   text.normalize('NFKC').trim().replace(/\s+/gu, ' ').toLowerCase();
@@ -54,6 +55,8 @@ const profileSchema = z.strictObject({
   programKey: text(80).optional(),
   academicYear: z.string().regex(/^(?:[0-9]{4}(?:[/-][0-9]{2,4})?|unspecified)$/u),
   intakeTerm: text(80),
+  // Optional without a default: completed artifact serialization must stay unchanged.
+  deliveryMode: admissionDeliveryModeSchema.optional(),
   entryType: z.enum(['first_year', 'transfer', 'readmission', 'other']),
   level: z.enum(['all', 'undergraduate', 'graduate', 'doctoral', 'non_degree', 'other']),
   applicantType: z.enum(['all', 'domestic', 'international']),
@@ -69,6 +72,7 @@ export const factScope = (profile: FactProfile) =>
     profile.programKey ? ['programKey', profile.programKey] : profile.programId,
     profile.academicYear,
     profile.intakeTerm,
+    profile.deliveryMode ?? 'unspecified',
     profile.entryType,
     profile.level,
     profile.applicantType,

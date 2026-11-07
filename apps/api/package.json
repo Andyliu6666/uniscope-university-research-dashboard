@@ -11,6 +11,7 @@
     "test": "vitest run src",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx src/db/migrate.ts",
+    "db:test": "tsx src/db/check-admission-scopes.ts",
     "db:studio": "drizzle-kit studio",
     "import": "tsx src/scripts/import-universities.ts",
     "import:ib": "tsx src/scripts/import-ib-requirements.ts",

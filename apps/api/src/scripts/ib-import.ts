@@ -233,6 +233,7 @@ const saveRecord = async (
           : isNull(admissionProfiles.programId),
         eq(admissionProfiles.academicYear, requirement.academicYear),
         eq(admissionProfiles.intakeTerm, requirement.intakeTerm),
+        eq(admissionProfiles.deliveryMode, 'unspecified'),
         eq(admissionProfiles.entryType, requirement.entryType),
         eq(admissionProfiles.applicantType, requirement.applicantType),
         eq(admissionProfiles.level, level),

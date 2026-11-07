@@ -2,6 +2,12 @@ import { describe, expect, it } from 'vitest';
 import { admissionsQuerySchema, universityInputSchema, universityQuerySchema } from './index.js';
 
 describe('shared validation', () => {
+  it('accepts only explicit delivery modes without inventing a legacy default filter', () => {
+    expect(admissionsQuerySchema.parse({})).not.toHaveProperty('deliveryMode');
+    for (const deliveryMode of ['unspecified', 'campus', 'distance', 'hybrid'])
+      expect(admissionsQuerySchema.parse({ deliveryMode }).deliveryMode).toBe(deliveryMode);
+    expect(admissionsQuerySchema.safeParse({ deliveryMode: 'online-ish' }).success).toBe(false);
+  });
   it('applies safe pagination defaults', () => {
     expect(universityQuerySchema.parse({})).toMatchObject({ page: 1, pageSize: 9 });
   });

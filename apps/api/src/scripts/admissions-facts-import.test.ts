@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { describe, expect, it, vi } from 'vitest';
+import type { SQL } from 'drizzle-orm';
+import { PgDialect } from 'drizzle-orm/pg-core';
 import type { Database } from '../db/client.js';
 import {
   admissionProfiles,
@@ -30,6 +32,7 @@ if (!profile || !fact) throw new Error('Missing fixture');
 const one = { ...dataset, profiles: [{ ...profile, requirements: [fact] }] };
 
 function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = false) {
+  const filters = new Map<unknown, SQL[]>();
   const rows = new Map<unknown, unknown[]>([
     [institutionIdentifiers, [{ university: { id: 'unam', countryCode: 'NA' } }]],
     [admissionProfiles, []],
@@ -60,7 +63,13 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
   const db = {
     select: () => ({
       from: (table: unknown) => {
-        const query = { innerJoin: () => query, where: async () => rows.get(table) ?? [] };
+        const query = {
+          innerJoin: () => query,
+          where: async (filter: SQL) => {
+            filters.set(table, [...(filters.get(table) ?? []), filter]);
+            return rows.get(table) ?? [];
+          },
+        };
         return query;
       },
     }),
@@ -72,10 +81,28 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
   transaction.mockImplementation(async (callback: (tx: typeof db) => Promise<unknown>) =>
     callback(db),
   );
-  return { db: db as unknown as Database, insert, update, execute, transaction, rows };
+  return { db: db as unknown as Database, insert, update, execute, transaction, rows, filters };
 }
 
 describe('admission facts import safety', () => {
+  it.each(['distance', undefined] as const)(
+    'resolves and writes the correct mode for %s input',
+    async (deliveryMode) => {
+      const mock = mockDb(new Map(), true);
+      await importAdmissionsFacts(mock.db, {
+        ...one,
+        profiles: [{ ...profile, ...(deliveryMode ? { deliveryMode } : {}), requirements: [fact] }],
+      });
+      expect(mock.rows.get(admissionProfiles)).toEqual([
+        expect.objectContaining({ deliveryMode: deliveryMode ?? 'unspecified' }),
+      ]);
+      const filter = mock.filters.get(admissionProfiles)?.[0];
+      if (!filter) throw new Error('Missing profile identity query.');
+      const compiled = new PgDialect().sqlToQuery(filter);
+      expect(compiled.sql).toContain('"admission_profiles"."delivery_mode"');
+      expect(compiled.params).toContain(deliveryMode ?? 'unspecified');
+    },
+  );
   it('retains different page citations for facts sharing one source URL', async () => {
     const second = {
       ...fact,

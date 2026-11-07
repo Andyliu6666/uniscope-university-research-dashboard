@@ -737,6 +737,7 @@ export const getUniversityAdmissions = async (
     query.level ? eq(admissionProfiles.level, query.level) : undefined,
     query.applicantType ? eq(admissionProfiles.applicantType, query.applicantType) : undefined,
     query.entryType ? eq(admissionProfiles.entryType, query.entryType) : undefined,
+    query.deliveryMode ? eq(admissionProfiles.deliveryMode, query.deliveryMode) : undefined,
   ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
   const profiles = await db
     .select()
@@ -849,6 +850,7 @@ export const getUniversityAdmissions = async (
     programName: profile.programId ? (programNames.get(profile.programId) ?? null) : null,
     academicYear: profile.academicYear,
     intakeTerm: profile.intakeTerm,
+    deliveryMode: profile.deliveryMode,
     entryType: profile.entryType,
     level: profile.level,
     applicantType: profile.applicantType,

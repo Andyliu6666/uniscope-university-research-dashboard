@@ -16,6 +16,7 @@ const profile = (id: string, changes: Partial<AdmissionProfile> = {}): Admission
   programId: null,
   academicYear: 'unspecified',
   intakeTerm: 'unspecified',
+  deliveryMode: 'unspecified',
   entryType: 'first_year',
   level: 'undergraduate',
   applicantType: 'all',
@@ -55,6 +56,32 @@ const response = (profiles: AdmissionProfile[]): UniversityAdmissionsResponse =>
 });
 afterEach(cleanup);
 describe('general admissions scope and evidence', () => {
+  it('labels distance study explicitly and switches between same-course modes without mixing facts', () => {
+    const base = {
+      programId: 'same-course',
+      programName: 'Shared Course',
+      academicYear: '2026/2027',
+    };
+    render(
+      <AdmissionsSection
+        data={response([
+          profile('campus', { ...base, deliveryMode: 'campus' }),
+          profile('distance', { ...base, deliveryMode: 'distance' }),
+        ])}
+        pending={false}
+      />,
+    );
+    expect(screen.getByRole('option', { name: /Shared Course.*Campus study/ })).toBeInTheDocument();
+    expect(
+      screen.getByRole('option', { name: /Shared Course.*Distance education/ }),
+    ).toBeInTheDocument();
+    expect(screen.queryByText('Details distance')).not.toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText('Choose admission scope'), {
+      target: { value: 'distance' },
+    });
+    expect(screen.getByText('Details distance')).toBeInTheDocument();
+    expect(screen.queryByText('Details campus')).not.toBeInTheDocument();
+  });
   it('shows the fact source rather than attributing every fact to the profile source', () => {
     render(<AdmissionsSection data={response([profile('one')])} pending={false} />);
     expect(screen.getByRole('link', { name: /Specific requirement source/ })).toHaveAttribute(

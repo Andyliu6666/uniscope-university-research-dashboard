@@ -1,0 +1,49 @@
+# Eswatini IDE admissions and independent delivery modes — 7 November 2026
+
+This increment adds **40 facts / 21 profiles / ten programme declarations**: nine exact existing awards reused and one new Nursing Completion award. Diploma/certificate conditions remain individually named in other-level profiles, not false bachelor's entries. Subject combinations and delivery variants do not create duplicate programme identities. No complete institution/global coverage is claimed.
+
+## Source and review
+
+The [official 2026/2027 prospectus](https://www.uneswa.ac.sz/wp-content/uploads/2026/02/2026-2027-Undergraduate-Prospectus.pdf) was freshly downloaded over verified HTTPS on November 7. SHA-256 `fc24e82a52147e7c6ccf238f94b50c2942527befe7e222377936b9a1ebf20e39` matches the earlier captures. The web extractor timed out; the official PDF download succeeded. The original 70-page PDF and full-page PNGs are retained in ignored `backups/research-eswatini-distance-20261107/`. Complete pages **44–55** were visually inspected, including all continuations, two-column pools and footnotes; the previously reviewed general page 13 provides the separately identified baseline. Font-configuration warnings did not impair the legible rendered pages. Both UTC and Bangkok review dates are November 7. The April 2026 closing date remains past; this is not a reopened window or a 2027/2028 offer.
+
+| Award / group                    | Complete source pages | Distinctions preserved                                                                                                           |
+| -------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Portuguese certificate           | 44                    | Junior Certificate entry versus three passes including Portuguese for possible Year2                                             |
+| Psychosocial Support certificate | 45                    | Two qualification alternatives; work/reference preference is considered, not compulsory for all                                  |
+| Diploma in Law                   | 45–46                 | Six E passes with English/three others C; Law Certificate OR ESQF4 OR mature route; baseline discrepancy                         |
+| Commerce                         | 46                    | Six-year IDE programme; DABS Level1, Commerce diploma possible Level4, other business diploma possible Level1                    |
+| Primary Education                | 47–48                 | Distinct science qualification groups; explicit Coordinated Sciences double count; teacher placement/Senate and mature major fit |
+| Secondary Education              | 48–50                 | Business/Geography Mathematics; Science-specific Year2 route; subject combinations remain options                                |
+| Humanities                       | 50                    | Six passes/five credits and two humanities subjects; general six-credit relationship unresolved                                  |
+| LLB                              | 50–51                 | Mode-specific school baseline and three prior-qualification placement groups                                                     |
+| Information Science              | 51                    | Library Science option; A-level Level1/course exemption, mature aptitude, diploma Senate placement                               |
+| IT                               | 52–53                 | Narrower IDE pools; diploma Senate decision versus possible prior-degree Level2                                                  |
+| Computer Science Education       | 53–54                 | IDE subject pools and Additional Mathematics footnote; related diploma without promised year                                     |
+| Nursing Completion               | 54–55                 | General Nursing Science diploma AND current Eswatini Nursing Council registration                                                |
+| PGCE                             | 55                    | Recognized degree and teaching-subject GPA2.0/D, not whole-degree GPA; French marked unavailable                                 |
+
+## Delivery-mode implementation
+
+An additive `admission_delivery_mode` enum/column now distinguishes unspecified, campus, distance and hybrid. Existing profiles receive **unspecified**, not an inferred campus classification. Both institution- and programme-scope unique indexes include mode. Reviewed artifact mode is optional without a parser default, so completed artifact bytes/canonical hashes do not change. Omission and explicit unspecified resolve to the same identity; explicit distance is independent. Mode participates in importer lookup/insert/resolved-alias dedup, exact API filtering and response, and UI selector labels. Intake term retains its actual intake meaning.
+
+Legacy structured IB and IPEDS importers explicitly resolve unspecified-mode scopes so they cannot attach data to a newly created distance scope. The present structured IB format has no mode field; its service continues exposing only its supported unspecified-mode records. This increment supplies general distance admissions facts without manufacturing mode-specific IB totals. Existing programme identities remain shared across modes.
+
+Migration 0014 was generated from the Drizzle schema with matching snapshot/journal. New `pnpm db:test` runs real PostgreSQL checks in a transaction: legacy default and distance scopes coexist for both institution and programme identities, and same-mode duplicates are rejected. All fixture rows roll back. The CI migration job applies migrations twice from a path containing spaces and runs that check. Unit tests also cover mode parsing, artifact-hash compatibility, importer lookup/insertion, IB boundaries and frontend switching between the same course's modes. All 15 completed general-admissions artifact hashes were compared with their real import-ledger hashes before import and matched.
+
+## Evidence interpretation
+
+The special/general school-pass discrepancies are recorded once per IDE level group. General page13's six C grades are not automatically waived by IDE six-pass/five-credit wording; its certificate/diploma rules are not silently substituted for Junior Certificate, three-pass or six-E special options. Portuguese Year2 subjects do not become Year1 requirements. Psychosocial employment and recommendation wording is a preference, not a universal work minimum. The381 Diploma in Law credits are curriculum completion, not entry credits.
+
+Conventional LLB BA Law Year3 placement is not applied to IDE's Senate-determined placement. Other bachelor's holders may enter IDE Level1; law diploma type determines Levels1–3. IT's explicit IDE prior-degree Level2 option is preserved without turning it into a diploma entitlement. Primary teacher Level2 wording retains Senate decision; Science Secondary's Year2 teacher route does not determine Business/Humanities placement. Only Primary Science expressly states Coordinated Sciences counts twice; the Secondary paragraph does not automatically inherit it.
+
+IDE technical lists remain their own printed lists, including the narrower prevocational options and Additional Mathematics counting restriction. Library Science is not automatically Library Information Systems. Nursing Completion is a distinct post-diploma route with current professional registration, not the older Nursing New Programme; no unspecified work minimum is added. PGCE GPA2.0/D applies to teaching subjects, and the list does not require all subjects or advertise unavailable French. Mature testing has no invented pass mark. No numeric IB/AP conversion was found.
+
+## Verification and further work
+
+The existing database was resumed after Docker Desktop was stopped. No volume deletion, restore or reseed occurred. Both full archives were read completely by `pg_restore`. Migration and repeat migration passed. The first PostgreSQL fixture attempt exposed a missing required institution-type field; that fixture was corrected, the final image rebuilt, and the transactional scope checks passed without leaving fixture rows. Full formatting, lint, types, **260 tests in 34 files** and production build passed.
+
+Preview confirmed **40 inserts / one new programme / nine reused / zero writes**. Actual import added 40 facts and 21 profiles; repeat preview skipped all 40 and actual repeat returned `already-completed`. All **789 reviewed general facts across 16 artifacts / 14 institutions / 320 distinct profiles** matched API text, status, scope, source, title and date. Eleven exact-filter cases and invalid-mode rejection passed. Browser verified all three admissions pages, independent LLB placement rules, Nursing Completion, certificate/diploma alternatives and the PGCE teaching-subject GPA. Original **749 general rows, 76 IB rows and 2,208 legacy profiles** remain unchanged, excluding only the new default column in the profile comparison. No current IB/AP conversion was manufactured.
+
+Measured coverage, backup hashes and the six-step checkpoint are recorded in `../ADMISSIONS_PROGRESS.md`. The ignored `backups/ADMISSIONS_HANDOFF_DISTANCE_20261107.md` records the exact publication SHA and subsequent CI closure; those results must be checked before marking the phase published.
+
+Further work remains official clarification of special/general rules and programme placement, separate certificate/diploma catalogue support, the remaining Consumer catalogue identities without repeated shared profiles, and wider institutions/other admission schemes. Neither all prospectus details nor all institutional admissions cycles are claimed complete. Employment/outcomes remain deferred.

@@ -51,6 +51,7 @@ const fact = (value: IbRequirement, programId: string | null = 'computing') => (
     programId,
     academicYear: value.academicYear,
     intakeTerm: value.intakeTerm,
+    deliveryMode: 'unspecified',
     entryType: value.entryType,
     applicantType: value.applicantType,
     level: 'undergraduate',
@@ -300,8 +301,16 @@ describe('IB university service', () => {
     expect(where.sql).toContain('"programs"."university_id"');
     expect(where.sql).toContain('"programs"."level"');
     expect(where.sql).toContain('"admission_profiles"."level"');
+    expect(where.sql).toContain('"admission_profiles"."delivery_mode"');
     expect(where.params).toEqual(
-      expect.arrayContaining([university.id, 'graduate', 'official', 'official_ib', 'IB']),
+      expect.arrayContaining([
+        university.id,
+        'graduate',
+        'official',
+        'official_ib',
+        'IB',
+        'unspecified',
+      ]),
     );
     const sourceJoin = compiled(query?.joins[1]?.on);
     expect(sourceJoin.sql).toContain(
