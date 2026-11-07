@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-lesotho-2026-11-07-v1",
+  "reviewedOn": "2026-11-07",
+  "institutions": [
+    {
+      "key": "lesotho",
+      "name": "National University of Lesotho",
+      "provider": "ror",
+      "externalId": "04j4j0a75",
+      "countryCode": "LS",
+      "officialDomains": ["nul.ls"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "lesotho",
+      "program": {
+        "name": "Bachelor of Pharmacy (Honours)",
+        "field": "Pharmacy",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx"
+      },
+      "requirement": {
+        "recordKey": "nul-pharmacy-indirect-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "other",
+        "applicantType": "all",
+        "applicantContext": "IB applicants to the four-year indirect-entry Pharmacy (Honours) route in the 2026/2027 undergraduate prospectus; not the five-year school-leaver route.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [4, 4, 3],
+        "subjectNotes": "Higher Level Biology at least 4 AND Higher Level Chemistry at least 4, plus either Higher Level Mathematics OR Higher Level Physics at least 3. The named subjects and OR choice matter; this is not any three HL grades, and no particular Mathematics syllabus variant is specified.",
+        "conditions": "For the 2026/2027 cycle, the prospectus's Pharmacy indirect-entry IB alternative requires passes in Chemistry, Biology and either Physics or Mathematics with the stated Higher Level grades. It publishes no overall IB total here. The diploma-credit, diploma-plus-experience and A-level routes are separate OR alternatives, so their employment/reference conditions are not added to every IB applicant. The named cycle and minima do not establish a current open window or a guaranteed place.",
+        "source": {
+          "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+          "title": "NUL 2026/2027 prospectus, printed page 18: Pharmacy indirect-entry IB alternative",
+          "checkedOn": "2026-11-07",
+          "evidence": "Pharmacy indirect entry specifies HL Biology and Chemistry 4, with HL Mathematics or Physics 3."
+        }
+      }
+    }
+  ]
+}

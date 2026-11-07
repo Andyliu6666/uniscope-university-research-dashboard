@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280278,
+            "programs": 280287,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2229,
+            "admissionProfiles": 2247,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22809,
+            "admissionRequirements": 22853,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 76
+            "qualificationRequirements": 77
         },
         "ibCoverage": {
             "byCountry": [
@@ -45,6 +45,12 @@
                     "institutions": 6,
                     "programs_with_reviewed_ib": 16,
                     "programs_with_published_totals": 13
+                },
+                {
+                    "country": "Lesotho",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 1,
+                    "programs_with_published_totals": 0
                 },
                 {
                     "country": "Malaysia",
@@ -95,12 +101,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 76,
-            "programsWithReviewedIb": 68,
+            "reviewedRecords": 77,
+            "programsWithReviewedIb": 69,
             "institutionWidePolicies": 8,
-            "institutionsWithReviewedIb": 27,
+            "institutionsWithReviewedIb": 28,
             "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194605
+            "undergraduateCatalogEntries": 194614
         },
         "coreCoverage": {
             "phone": 4078,
@@ -129,13 +135,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4095,
+            "programs": 4096,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1873,
+            "admissions": 1874,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24056
+            "noStructuredApplicationFacts": 24055
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -147,31 +153,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 789,
-            "profiles": 320,
-            "institutions": 14
+            "facts": 833,
+            "profiles": 337,
+            "institutions": 15
         }
     },
-    "generatedAt": "2026-11-07T02:23:29Z",
+    "generatedAt": "2026-11-07T08:27:45Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 40,
-        "provider": "official_admissions",
+        "inserted": 1,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 40,
-        "startedAt": "2026-11-07T02:21:43.649206+00:00",
-        "updatedAt": "2026-11-07T02:21:43.649206+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-07T08:27:14.279761+00:00",
+        "updatedAt": "2026-11-07T08:27:14.296+00:00",
         "checkpoint": {
-            "profiles": 21,
-            "admissionFacts": 40,
-            "programsReused": 9,
-            "programsCreated": 1
+            "rowIndex": 1,
+            "sourceRows": 1,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-07T02:21:43.747+00:00",
-        "artifactSha256": "86617f8dd782452b2bd84bac227701ff2b2d590f0f1ded2d704d753d79309fd5",
-        "datasetVersion": "official-admissions-eswatini-distance-2026-11-07-v1"
+        "finishedAt": "2026-11-07T08:27:14.296+00:00",
+        "artifactSha256": "4942b1b82a2810a91a097a3ea5cd5636efbbee9356b200d8f537b2203b808121",
+        "datasetVersion": "official-ib-lesotho-2026-11-07-v1"
     },
     "schemaVersion": 2
 }

@@ -1,0 +1,872 @@
+{
+  "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+  "reviewedOn": "2026-11-07",
+  "institutions": [
+    {
+      "key": "lesotho",
+      "name": "National University of Lesotho",
+      "provider": "ror",
+      "externalId": "04j4j0a75",
+      "countryCode": "LS",
+      "officialDomains": ["nul.ls"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nul_bed",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Education",
+      "field": "Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 12–13: Bachelor of Education",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_science_education",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science with Education",
+      "field": "Science education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 14: Bachelor of Science with Education",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_primary",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Education (Primary)",
+      "field": "Primary education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 15: Bachelor of Education (Primary)",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_nursing_midwifery",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Nursing and Midwifery",
+      "field": "Nursing and midwifery",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 16–17: Bachelor of Science in Nursing and Midwifery",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_pharmacy",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Pharmacy (Honours)",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 17–18: Bachelor of Pharmacy (Honours)",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_environmental_health",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Environmental Health",
+      "field": "Environmental health",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 18–19: Bachelor of Science in Environmental Health",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_nutrition",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Nutrition",
+      "field": "Nutrition",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 19–20: Bachelor of Science in Nutrition",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_nursing_odl",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Nursing Science",
+      "field": "Nursing",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 20: Bachelor of Nursing Science",
+        "checkedOn": "2026-11-07"
+      }
+    },
+    {
+      "key": "nul_law",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Laws (LLB)",
+      "field": "Law",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 28–30: Bachelor of Laws (LLB)",
+        "checkedOn": "2026-11-07"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_lgcse_baseline",
+          "category": "academic",
+          "label": "LGCSE: six subjects, English and the general APS ceiling",
+          "status": "required",
+          "details": "The general bachelor's minimum is at least six LGCSE subjects: four at C or better including English Language, and the remaining two at D or better from the designated five subject groups. The Admission Points Score must not exceed 26. Faculty/route conditions also apply; the lower-is-better APS ceiling is not an IB Diploma total.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6: General LGCSE entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_cosc_baseline",
+          "category": "academic",
+          "label": "COSC: six passes and aggregate limit",
+          "status": "conditional",
+          "details": "For the COSC qualification route, the general bachelor's baseline is six passed subjects with four credits including English Language and two other passes, plus a First or Second Class pass with aggregate no greater than 34. This is a separate qualification route, not a requirement to hold COSC as well as LGCSE.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6: General COSC entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_aps_scale",
+          "category": "academic",
+          "label": "How the LGCSE APS is calculated",
+          "status": "required",
+          "details": "APS uses six recognized LGCSE subjects. The printed eight-point scale assigns A*=1 (90–100%), A=2 (80–89%), B=3 (70–79%), C=4 (60–69%), D=5 (50–59%), E=6 (40–49%), F=7 (30–39%) and G=8 (0–29%). Lower point totals are better. Do not treat 26 as a minimum score or convert it into an IB/AP total.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6: APS calculation table",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_academic_references",
+          "category": "document",
+          "label": "Two stamped academic references before consideration",
+          "status": "required",
+          "details": "Submit two academic references bearing official stamps of the referees' educational institutions. The reference should address academic aptitude, interests and character; the referee completes the comments and signs/dates the form. Applications are not considered until references have been received. The undergraduate reference form gives no 500-word applicant motivation-letter requirement.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/REFERENCE-FORM-2026-2027.docx",
+            "title": "NUL 2026/2027 academic reference form, page 1",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_identity_copy",
+          "category": "document",
+          "label": "Certified identity document",
+          "status": "required",
+          "details": "Provide a certified passport, ID or other identification showing biographical information and expiry date.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 7: Requirements for applying",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_education_copies",
+          "category": "document",
+          "label": "Certified educational certificates and transcripts",
+          "status": "required",
+          "details": "Provide verified/certified educational certificates and transcripts; the prospectus excludes PSLE and Junior Certificate certificates from this requested set. Post-secondary qualification holders should include their applicable certificates/transcripts; no bachelor's degree is imposed on every school-leaver.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 7: Requirements for applying",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_passport_photo",
+          "category": "document",
+          "label": "Passport-size photograph",
+          "status": "required",
+          "details": "A passport-size photograph is listed among the undergraduate application attachments.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 7: Requirements for applying",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_fee_proof",
+          "category": "financial",
+          "label": "Application-fee payment evidence",
+          "status": "required",
+          "details": "Attach a copy of the application-fee payment confirmation. The fee-category wording differs between the prospectus and the separately linked undergraduate checklist, as recorded in the fee clarification; confirm the applicable category before paying.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 7: Requirements for applying",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_fee_categories_unresolved",
+          "category": "financial",
+          "label": "Fee categories: local/international versus SADC/non-SADC",
+          "status": "unknown",
+          "details": "The 2026/2027 prospectus, printed page 7, gives M500 for local and M650 for international students. The undergraduate checklist currently linked from the 2026/2027 navigation instead labels M500 as SADC and M650 as non-SADC, while its actual file name says 2025–2026 and its body has no cycle. These classifications differ for some international applicants; no later effective date or automatic supersession is established. Verify the category and amount with Admissions.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/APPLICATION-REQUIREMENTS-2025-2026.docx",
+            "title": "NUL linked undergraduate checklist, page 1; file labelled 2025–2026",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_ecol_scope_conflict",
+          "category": "document",
+          "label": "Foreign-qualification evaluation and the GCSE exception",
+          "status": "unknown",
+          "details": "The international-student paragraph requests ECOL evaluation/conversion of foreign transcripts/results and strongly advises doing it before applying. The application list specifically requests an ECOL certificate for matriculates but says foreign GCSE holders, for example LGCSE/IGCSE or equivalent, need not evaluate. The scope of that broad exception is not fully explained. Confirm the actual qualification's treatment; no IB/AP conversion or score is manufactured.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 7: International students and application item v",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_english_general_faculty_difference",
+          "category": "academic",
+          "label": "Agriculture and Science Education: English C versus D",
+          "status": "unknown",
+          "details": "The general LGCSE baseline requires English C, but the reviewed Agriculture school-leaver group and BSc with Education paragraphs print English D. Both statements remain applicable evidence; the prospectus does not expressly establish a general-rule waiver or precedence. Confirm the English threshold for the chosen route rather than treating faculty D as a guaranteed exemption from general C.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6, 8, 14: General/faculty English wording",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_agriculture_school_group",
+          "category": "academic",
+          "label": "Agriculture and Agricultural Economics: school subjects",
+          "status": "required",
+          "details": "The Agriculture direct-entry group names BSc Agriculture and BSc Agricultural Economics. It requires at least six LGCSE/equivalent subjects: Mathematics C, English D, one of Biology/Physical Science/another recognized science at C, two other subjects at C and the remaining subject at D. Read with the shared English-C-versus-D clarification; this is not a published IB/AP subject-grade conversion.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 8: Agriculture direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_agriculture_ranking",
+          "category": "academic",
+          "label": "Agriculture ranking and tie decisions",
+          "status": "considered",
+          "details": "For the named Agriculture direct-entry group, ranking uses Mathematics, one science, and whichever is best of a second science, Agriculture or English. Ties use APS and/or another faculty admissions sub-committee criterion. These are ranking inputs, not a demand for all three optional third subjects, and meeting minima does not guarantee a place.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 8: Agriculture ranking",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_bed_shared_school_baseline",
+          "category": "academic",
+          "label": "BEd and Special Education: shared school baseline",
+          "status": "required",
+          "details": "The Bachelor of Education and Bachelor of Education in Special Education direct routes require at least six LGCSE/equivalent subjects, four at C or better including English, and the remaining two at D or better. These conditions apply to the two named awards; Science Education and diploma-based Primary Education have separate entry routes.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 12–13: Education direct-entry groups",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_bed_shared_english_teaching",
+          "category": "academic",
+          "label": "BEd and Special Education: English teaching subject",
+          "status": "conditional",
+          "details": "Applicants intending to take English Language as a teaching subject in Bachelor of Education or Bachelor of Education in Special Education need English Language at B or better. This specialization-specific B requirement is separate from the shared general English-C school baseline.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 12–13: English Language Education",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_health_shared_ranking",
+          "category": "academic",
+          "label": "Four direct Health Sciences degrees: merit ranking",
+          "status": "considered",
+          "details": "For Nursing and Midwifery, Pharmacy (Honours), Environmental Health and Nutrition direct entry, ranking uses Mathematics, one recognized science and whichever is better of a second science or English. Ties use APS and/or another faculty admissions sub-committee criterion, and admission is on merit. This is not a promise of a place or three simultaneous optional-subject requirements.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 16–19: Health Sciences ranking",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_environment_nutrition_school",
+          "category": "academic",
+          "label": "Environmental Health and Nutrition: shared school subjects",
+          "status": "required",
+          "details": "The two named direct-entry degrees require at least six LGCSE/equivalent subjects: C or better in Mathematics, Biology/Physical Science/another recognized science, English and one other subject, with D or better in two remaining subjects. Nursing has a higher science grade and Pharmacy has a higher mathematics grade in their separate requirements.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 18–19: Environmental Health and Nutrition direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_agriculture_diploma_placement",
+          "category": "academic",
+          "label": "Agriculture group: diploma credit and Year 2",
+          "status": "conditional",
+          "details": "The Agriculture indirect-entry list names Agriculture (General, Agricultural Economics, Agricultural Extension, Animal Science, Crop Science and Soil Science), Range Resources and Ecology Management, and Consumer Science. It specifies a pass with credit in Agriculture, Agricultural Education, Forestry/Resource Management, Home Economics/Consumer Science/Tourism and Hospitality/Interior Design and Decoration or another agriculture-related diploma from a CHE-recognized institution, for Year 2 entry. The teacher-certificate bullet's relationship to this diploma list remains separately qualified.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 8–9: Agriculture indirect entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_agriculture_stc_wording",
+          "category": "academic",
+          "label": "Agriculture: Secondary Teachers Certificate wording",
+          "status": "unknown",
+          "details": "Under 'To be admitted into Year 2', the source also lists a Second Division Secondary Teachers Certificate with Agriculture or Home Economics/Consumer Science as a major. It does not print an OR/AND connector between this and the diploma bullet. Confirm whether this is an alternative qualification or an additional condition; do not automatically require every diploma holder to hold both awards.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 9: Agriculture indirect-entry bullets",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_agriculture_diploma_maths",
+          "category": "academic",
+          "label": "Specialized Agriculture: diploma Mathematics C",
+          "status": "conditional",
+          "details": "Applicants entering specialized Agriculture programmes through the named diplomas in Agriculture, Forestry and Resource Management, Consumer Science or Agricultural Education must have taken and passed Mathematics at C or better at diploma level. This is not a newly invented IB Mathematics grade or a condition automatically extended to every listed diploma field.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 9: Specialized Agriculture diploma Mathematics",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_bed_shared_stc_placement",
+          "category": "academic",
+          "label": "BEd and Special Education: STC route starts in Year 1",
+          "status": "conditional",
+          "details": "For the two named awards, a Secondary Teachers Certificate/equivalent with at least a second-class pass or pass with credit and majors in two teaching subjects recognized by the school system supports the four-year indirect route, starting in Year 1. It is not the same as the diploma route's Year 2 placement.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 12–14: Education indirect STC routes",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_bed_shared_diploma_placement",
+          "category": "academic",
+          "label": "BEd and Special Education: secondary diploma starts in Year 2",
+          "status": "conditional",
+          "details": "For the two named awards, a Diploma in Education (Secondary)/equivalent with at least a second-class pass and two school-recognized teaching subjects supports the three-year indirect route, starting in Year 2. This must not be applied automatically to every teacher certificate or to Primary Education.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 13–14: Education indirect diploma routes",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_bed",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_bed_business_economics_maths",
+          "category": "academic",
+          "label": "Business/Economics Education specialization Mathematics",
+          "status": "conditional",
+          "details": "Within Bachelor of Education, applicants intending to take Business Education or Economics Education as subjects need Mathematics at C or better. This is a condition for those named specializations, not a compulsory Mathematics-C requirement expressly printed for every BEd subject combination. The shared BEd school and English-teaching conditions also apply.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 12: BEd selected specializations",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_science_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_science_education_school",
+          "category": "academic",
+          "label": "Science Education: Mathematics B and school-subject set",
+          "status": "required",
+          "details": "For BSc with Education direct entry: at least six LGCSE/equivalent subjects; Mathematics B or better; Biology, Physical Science or another recognized science C or better; English D or better; C or better in two other subjects; D or better in the remaining subject. Read with the unresolved general English-C rule, rather than silently treating D as a waiver.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 14: BSc with Education direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_science_education",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_science_education_stc",
+          "category": "academic",
+          "label": "Science Education: STC subject preparation and Year 1",
+          "status": "conditional",
+          "details": "The four-year indirect route accepts STC/equivalent at least second class or pass with credit, majoring in two science subjects OR Mathematics and a science subject. Placement is Year 1; it is not automatic Year 2 for every teaching qualification.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 14: BSc with Education STC entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_science_education_diploma",
+          "category": "academic",
+          "label": "Science Education: secondary diploma and Year 2",
+          "status": "conditional",
+          "details": "The three-year indirect route requires a Diploma in Education (Secondary)/equivalent with at least a second-class pass and two science subjects OR Mathematics and a science subject. Placement is Year 2. The subject preparation differs from the shared non-science BEd diploma group.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 14: BSc with Education diploma entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_primary",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_primary_diploma",
+          "category": "academic",
+          "label": "Primary Education: recognized primary-teaching diploma",
+          "status": "required",
+          "details": "The three-year part-time BEd (Primary) indirect route requires a Diploma in Education (Primary) or equivalent from a CHE-recognized institution. This paragraph does not publish a further grade, fixed work-duration minimum, IB total or an automatic entry year borrowed from secondary-teaching routes. Part-time study alone does not establish distance delivery.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 15: BEd Primary indirect entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_nursing_midwifery",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_nursing_school",
+          "category": "academic",
+          "label": "Nursing and Midwifery: higher school-science grade",
+          "status": "required",
+          "details": "For the five-year full-time direct route, take at least six LGCSE/equivalent subjects: Mathematics C, Biology/Physical Science/another recognized science B, English C and one other subject C or better, plus two subjects D or better. The B is in the science requirement, not Mathematics; the shared Health Sciences ranking applies.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 16: Nursing and Midwifery direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_nursing_midwifery",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_nursing_indirect_grade_ambiguity",
+          "category": "academic",
+          "label": "Nursing indirect entry: mixed qualification grade wording",
+          "status": "unknown",
+          "details": "The four-year full-time indirect paragraph groups IB, A-level and bachelor's qualifications, then prints D or better in Mathematics, Physics, Chemistry and Biology. It does not explain how alphabetic D applies to the IB numerical scale or to every degree transcript. Preserve the four named subjects but obtain official interpretation; do not convert D into an invented IB point threshold or apply Pharmacy's different HL grades.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 16–17: Nursing and Midwifery indirect entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_pharmacy",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_pharmacy_school",
+          "category": "academic",
+          "label": "Pharmacy: Mathematics B for the direct route",
+          "status": "required",
+          "details": "The five-year full-time Pharmacy (Honours) direct route requires at least six LGCSE/equivalent subjects: Mathematics B, a recognized science (Biology/Physical Science/other recognized science) C, English C, one other subject C, and two remaining subjects D or better. The B is in Mathematics; the shared Health Sciences ranking applies. The separately reviewed IB route is indirect entry.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 17: Pharmacy direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_pharmacy",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_pharmacy_diploma_alternatives",
+          "category": "academic",
+          "label": "Pharmacy indirect entry: diploma credit OR pass plus experience",
+          "status": "conditional",
+          "details": "One four-year indirect-entry alternative is a Diploma in Pharmaceutical Technology passed with credit. Another is a pass in that diploma plus two years of related work experience supported by work reference letters/portfolio. The source separates these with OR; two years' work and a portfolio must not be imposed on every credit-diploma, A-level or IB applicant.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 18: Pharmacy indirect-entry diploma alternatives",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_pharmacy_alevel",
+          "category": "academic",
+          "label": "Pharmacy indirect entry: A-level science alternative",
+          "status": "conditional",
+          "details": "The A-level alternative is a pass in the Advanced Certificate of Education examination, with Chemistry C or better, Biology C or better and C or better in either Mathematics OR Physics. These are alphabetic A-level conditions, not IB subject scores. The IB alternative is recorded once in the programme's separate structured IB record.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 18: Pharmacy indirect-entry A-level alternative",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_environmental_health",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_environmental_health_indirect",
+          "category": "academic",
+          "label": "Environmental Health: diploma or recognized BSc",
+          "status": "conditional",
+          "details": "The three-year full-time indirect route specifies a Diploma in Environmental Health with a pass or better OR a Bachelor of Science from a CHE-recognized institution. The diploma condition is pass, not Nutrition's separately printed pass-with-credit; the two awards are alternatives rather than jointly required.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 19: Environmental Health indirect entry",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_nutrition",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_nutrition_indirect_connector",
+          "category": "academic",
+          "label": "Nutrition indirect entry: credit diploma and BSc wording",
+          "status": "unknown",
+          "details": "The three-year full-time indirect paragraph lists a Diploma in Nutrition or related field passed with credit from a CHE-recognized institution, followed by a Bachelor of Science from a CHE-recognized institution. Unlike Environmental Health's nearby paragraph, it prints no OR/AND connector. Confirm whether these are alternative credentials; do not silently demand both or promise eligibility on either one alone.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 20: Nutrition indirect-entry bullets",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_nursing_odl",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "deliveryMode": "distance",
+      "requirements": [
+        {
+          "key": "nul_nursing_odl_diploma",
+          "category": "academic",
+          "label": "ODL Nursing: recognized nursing diploma with credit",
+          "status": "required",
+          "details": "The three-year part-time Bachelor of Nursing Science ODL route is for qualified registered nurses. It requires a Diploma in Nursing/equivalent passed with credit or better from a CHE-recognized institution. It is distinct from the school-leaver Nursing and Midwifery degree.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 20: Bachelor of Nursing Science ODL",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_nursing_odl_registration",
+          "category": "document",
+          "label": "ODL Nursing: Lesotho Nursing Council registration",
+          "status": "required",
+          "details": "Registration with the Lesotho Nursing Council is required for the ODL Bachelor of Nursing Science route, in addition to its nursing diploma condition. The paragraph does not state a new minimum number of employment years.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 20: ODL Nursing registration",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_nursing_odl_midwifery",
+          "category": "academic",
+          "label": "ODL Nursing: Midwifery for two intended majors",
+          "status": "conditional",
+          "details": "A Midwifery qualification is compulsory for applicants who want to major in Community Health Nursing or Primary Health Care Nursing. The clause is scoped to those two intended majors, rather than being automatically imposed on every ODL nursing applicant.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 20: ODL Nursing intended majors",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_law",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_law_direct_cosc_wording",
+          "category": "academic",
+          "label": "Five-year LLB: school routes and COSC wording",
+          "status": "conditional",
+          "details": "The direct-route heading is LL.B. five-year. Its LGCSE option follows the shared six-subject/four-C-including-English/two-D school baseline. Its COSC alternative explicitly states four subjects C, two D and English C; read with the general COSC First/Second Class and aggregate-34 baseline rather than assuming that baseline is waived. The heading/preamble contains a stray '3-Year' label but says the direct route lasts five years; no separate extra award is created.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6, 28: LLB direct entry",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_law_tie_subjects",
+          "category": "academic",
+          "label": "LLB tie-breaking subjects",
+          "status": "considered",
+          "details": "For ties in APS, the LLB direct-entry paragraph uses grades in English Literature, History and Development Studies for ranking. It does not expressly make all three new compulsory school-entry subjects. Admission is on merit.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 28: LLB ranking",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_law",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_law_other_degree",
+          "category": "academic",
+          "label": "Three-year LLB: prior degree in another discipline",
+          "status": "conditional",
+          "details": "The three-year indirect LLB route requires a bachelor's degree from another discipline with at least a Second Class Second-Division pass. This is distinct from the BA Law route and does not grant the two-year route to every degree holder.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 29: LLB three-year indirect route",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_law_ba_law",
+          "category": "academic",
+          "label": "Two-year LLB: BA Law pass",
+          "status": "conditional",
+          "details": "The two-year indirect LLB route requires BA Law with a minimum of pass. It does not impose the other-discipline bachelor's route's Second Class Second-Division grade on BA Law holders or make every prior degree a law degree.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 30: LLB two-year indirect route",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_insurance_school",
+          "category": "academic",
+          "label": "Insurance proficiency certificate: school-qualification route",
+          "status": "conditional",
+          "details": "The named Certificate of Proficiency in Insurance school route requires at least six LGCSE/COSC subjects: five at D or better including English, and the remaining subject at E or better. It is an LQF/SADCQF Level 5 certificate, not an undergraduate bachelor's award. The source also gives a post-secondary alternative and a separate work-evidence bullet whose scope needs confirmation.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 30: Certificate of Proficiency in Insurance",
+            "checkedOn": "2026-11-07"
+          }
+        },
+        {
+          "key": "nul_insurance_work_scope",
+          "category": "experience",
+          "label": "Insurance certificate: two-year work-evidence applicability",
+          "status": "unknown",
+          "details": "After the OR-separated diploma/bachelor's alternative, the source lists proof of at least two years' work in the insurance industry. It does not clearly say whether this applies only to that alternative or to all applicants including the school route. Retain the published duration and industry while asking Admissions to confirm applicability; do not silently waive it or impose it universally.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 30: Insurance certificate work-evidence bullet",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "Reviewed 2026/2027 undergraduate prospectus only; this is not evidence of a current open application window. University-wide requirements and the named programme/entry-route conditions must be read together. General/faculty wording differences remain qualified. No unreported IB/AP equivalence is inferred.",
+      "requirements": [
+        {
+          "key": "nul_insurance_prior_award",
+          "category": "academic",
+          "label": "Insurance certificate: post-secondary alternative",
+          "status": "conditional",
+          "details": "As an alternative to the school-subject route, the Certificate of Proficiency in Insurance lists a diploma OR bachelor's degree in another discipline from a recognized tertiary institution. The separate two-year insurance-industry work-evidence bullet remains qualified in the shared certificate clarification. A possible blended teaching approach is not treated as a guaranteed delivery mode.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 30: Insurance certificate alternative qualification",
+            "checkedOn": "2026-11-07"
+          }
+        }
+      ]
+    }
+  ]
+}
