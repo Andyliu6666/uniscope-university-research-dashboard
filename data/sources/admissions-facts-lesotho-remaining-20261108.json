@@ -1,0 +1,1315 @@
+{
+  "datasetVersion": "official-admissions-lesotho-remaining-2026-11-08-v1",
+  "reviewedOn": "2026-11-08",
+  "institutions": [
+    {
+      "key": "lesotho",
+      "name": "National University of Lesotho",
+      "provider": "ror",
+      "externalId": "04j4j0a75",
+      "countryCode": "LS",
+      "officialDomains": ["nul.ls"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nul_humanities",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Humanities",
+      "field": "Humanities",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_humanities_school",
+        "nul_remaining_humanities_diplomas",
+        "nul_remaining_humanities_evaluation"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 22–23: Bachelor of Arts in Humanities",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_spiritual",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Spiritual Care and Counselling",
+      "field": "Spiritual care and counselling",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_humanities_school",
+        "nul_remaining_humanities_diplomas",
+        "nul_remaining_humanities_evaluation"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 23–24: Bachelor of Arts in Spiritual Care and Counselling",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_philosophy",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Practical Philosophy and Applied Ethics",
+      "field": "Philosophy and ethics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_humanities_school",
+        "nul_remaining_humanities_diplomas",
+        "nul_remaining_humanities_evaluation"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 24–25: Bachelor of Arts in Practical Philosophy and Applied Ethics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_library",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Library and Information Studies",
+      "field": "Library and information studies",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_humanities_school",
+        "nul_remaining_humanities_diplomas",
+        "nul_remaining_humanities_evaluation"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 25–26: Bachelor of Arts in Library and Information Studies",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_journalism",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Journalism and Media Studies",
+      "field": "Journalism and media",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_humanities_school",
+        "nul_remaining_humanities_diplomas",
+        "nul_remaining_humanities_evaluation"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 26–27: Bachelor of Journalism and Media Studies",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_general",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science (General)",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_science_general_cs_school",
+        "nul_remaining_science_ranking"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 32–33: Bachelor of Science (General)",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_biology",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Biology",
+      "field": "Biology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_bsc_first_year_preparation"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 33: Bachelor of Science in Biology",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_biotech",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Biotechnology",
+      "field": "Biotechnology",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 33: Bachelor of Science in Biotechnology",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_chemistry",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Chemistry",
+      "field": "Chemistry",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_bsc_first_year_preparation"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 33: Bachelor of Science in Chemistry",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_chemtech",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Chemical Technology",
+      "field": "Chemical technology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_bsc_first_year_preparation"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 34: Bachelor of Science in Chemical Technology",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_cs",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Computer Science",
+      "field": "Computer science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_science_general_cs_school",
+        "nul_remaining_computing_as_science",
+        "nul_remaining_science_ranking",
+        "nul_remaining_bsc_first_year_preparation",
+        "nul_remaining_computing_department_entry"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 34, 36–37: Bachelor of Science in Computer Science",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_networks",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Engineering in Computer Systems and Networks",
+      "field": "Computer engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 35: Bachelor of Engineering in Computer Systems and Networks",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_engineering_electronics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Engineering in Electronics",
+      "field": "Electronic engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_electronics_alternatives"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 35: Bachelor of Engineering in Electronics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_environment",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Environmental Science",
+      "field": "Environmental science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 35: Bachelor of Science in Environmental Science",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_maths",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Mathematics",
+      "field": "Mathematics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_bsc_first_year_preparation"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 36: Bachelor of Science in Mathematics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_physics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Physics",
+      "field": "Physics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_bsc_first_year_preparation"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 36: Bachelor of Science in Physics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_electronics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Electronics",
+      "field": "Electronics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_electronics_alternatives"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 36: Bachelor of Science in Electronics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_statistics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Statistics",
+      "field": "Statistics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_statistics_systems_school",
+        "nul_remaining_computing_as_science",
+        "nul_remaining_science_ranking",
+        "nul_remaining_computing_department_entry"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 37–38: Bachelor of Science in Statistics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_systems",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Information Systems",
+      "field": "Information systems",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_statistics_systems_school",
+        "nul_remaining_computing_as_science",
+        "nul_remaining_science_ranking",
+        "nul_remaining_computing_department_entry"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 38: Bachelor of Science in Information Systems",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_geography",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Human Geography",
+      "field": "Human geography",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_geography_ranking",
+        "nul_remaining_geography_department_entry"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 39: Bachelor of Science in Human Geography",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_planning",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Urban and Regional Planning",
+      "field": "Urban and regional planning",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_geography_ranking",
+        "nul_remaining_geography_department_entry"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 39–40: Bachelor of Urban and Regional Planning",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_accounting",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Commerce in Accounting and Finance",
+      "field": "Accounting and finance",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_social_science_maths_group",
+        "nul_remaining_commerce_diploma_cas"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 41: Bachelor of Commerce in Accounting and Finance",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_marketing",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Commerce in Marketing",
+      "field": "Marketing",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_social_science_maths_group",
+        "nul_remaining_commerce_diploma_cas",
+        "nul_remaining_marketing_hrm_external"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 41–42: Bachelor of Commerce in Marketing",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_hrm",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Commerce in Human Resource Management",
+      "field": "Human resource management",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_social_science_maths_group",
+        "nul_remaining_commerce_diploma_cas",
+        "nul_remaining_marketing_hrm_external"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 42: Bachelor of Commerce in Human Resource Management",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_economics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Economics",
+      "field": "Economics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_social_science_maths_group"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 43: Bachelor of Arts in Economics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_sociology",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Sociology",
+      "field": "Sociology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_social_science_school_group"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 43: Bachelor of Arts in Sociology",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_socialwork",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Social Work",
+      "field": "Social work",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_social_science_school_group"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 44: Bachelor of Social Work",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_administration",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Public Administration",
+      "field": "Public administration",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_social_science_school_group",
+        "nul_remaining_public_politics_lipam"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 44–46: Bachelor of Arts in Public Administration",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_politics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Political Science",
+      "field": "Political science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "nul_remaining_social_science_school_group",
+        "nul_remaining_public_politics_lipam"
+      ],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 45: Bachelor of Arts in Political Science",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_demography",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Demography and Statistics",
+      "field": "Demography and statistics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": ["nul_remaining_social_science_maths_group"],
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 46: Bachelor of Arts in Demography and Statistics",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_adult",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Education in Adult Education",
+      "field": "Adult education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 48: Bachelor of Education in Adult Education",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_business",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Arts in Business and Entrepreneurship",
+      "field": "Business and entrepreneurship",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 49: Bachelor of Arts in Business and Entrepreneurship",
+        "checkedOn": "2026-11-08"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_disability_declaration",
+          "category": "application",
+          "label": "Application-stage disability declaration",
+          "status": "conditional",
+          "details": "The prospectus's disability-support policy requires disability to be declared during the application process where applicable. This is a declaration/support process; the paragraph does not publish a disability-based academic exclusion or an extra admission score.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 3: Disability policy",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_registration_clearance",
+          "category": "financial",
+          "label": "Financial clearance before registration",
+          "status": "required",
+          "details": "Financial clearance and proof of the required fee payment precede academic registration, residence admission and class attendance. The prospectus describes annual tuition as payable by registration, while also allowing term fees in full or management-approved instalments; confirm the actual approved payment arrangement. This is a registration condition, separate from application-fee evidence and academic selection; no bank account or inferred tuition amount is supplied here.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 3: Fees and registration",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_humanities_school",
+          "category": "academic",
+          "label": "Five Humanities degrees: direct school routes",
+          "status": "conditional",
+          "details": "For BA Humanities, Spiritual Care and Counselling, Practical Philosophy and Applied Ethics, Library and Information Studies, and Journalism and Media Studies: the four-year direct LGCSE route requires six subjects, four C-or-better grades including English, and two D-or-better grades from the designated subject groups. The COSC alternative specifies six subjects, four credits including English, aggregate no greater than 34 and two other subjects at D or better. Read with the existing general COSC class condition; the faculty paragraphs do not expressly announce a waiver.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 22–26: Five Humanities degrees: direct school routes",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_science_general_cs_school",
+          "category": "academic",
+          "label": "BSc General and single-major Computer Science: school grades",
+          "status": "required",
+          "details": "For BSc General and the single-major Computer Science direct route: at least six LGCSE/equivalent subjects; Mathematics B or better; Biology/Physical Science/another recognized basic science C; English D; two other subjects C; the remaining subject D or better. General university English C is separately published and is not silently waived by faculty D. The double-major Computer Science continuation has its own BSc Year 1 preparation.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 32, 36–37: BSc General and single-major Computer Science: school grades",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_statistics_systems_school",
+          "category": "academic",
+          "label": "Statistics and Information Systems: English C school route",
+          "status": "required",
+          "details": "For the four-year direct BSc Statistics and BSc Information Systems routes: six LGCSE/equivalent subjects; Mathematics B, recognized basic science C, English C, one other subject C and two remaining subjects D or better. These English-C/one-other-C conditions differ from the General/Computer Science English-D/two-other-C paragraphs.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 37–38: Statistics and Information Systems: English C school route",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_computing_as_science",
+          "category": "academic",
+          "label": "Three computing/statistics degrees: Computer Science as science",
+          "status": "conditional",
+          "details": "The direct Computer Science, Statistics and Information Systems paragraphs expressly accept Computer Science or equivalent as a basic science subject. This named exception is not automatically extended to every science programme or to the separate Pharmacy/Nursing conditions.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 36–38: Three computing/statistics degrees: Computer Science as science",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_science_ranking",
+          "category": "academic",
+          "label": "Four Science degrees: ranking and tie decisions",
+          "status": "considered",
+          "details": "For BSc General, single-major Computer Science, Statistics and Information Systems, ranking uses Mathematics, one eligible science, and the better of a second science or English. APS and/or another faculty admissions sub-committee criterion breaks ties; admission is on merit. Computer Science's science-subject exception applies only where expressly printed. The three ranking components do not require every optional science at once.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 32–33, 37–38: Four Science degrees: ranking and tie decisions",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_geography_ranking",
+          "category": "academic",
+          "label": "Human Geography and Planning: eligible science and ranking",
+          "status": "considered",
+          "details": "Both named Geography/Planning routes rank Mathematics, one eligible science including Geography, and the better of a second science or English. The shared source list names Biology, Physical Science, Geography and other sciences. These are ranking choices, not a compulsory combination of every listed science.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 39–40: Human Geography and Planning: eligible science and ranking",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_social_science_maths_group",
+          "category": "academic",
+          "label": "Commerce, Economics and Demography/Statistics: Mathematics C",
+          "status": "required",
+          "details": "The direct school routes for BCom Accounting and Finance, Marketing, Human Resource Management, BA Economics and BA Demography and Statistics require six LGCSE/equivalent subjects with four C-or-better grades including English AND Mathematics, plus two remaining D-or-better grades. Mathematics C is specific to this named group; Economics minors do not create separate awards or remove this entry condition.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 41–43, 46: Commerce, Economics and Demography/Statistics: Mathematics C",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_social_science_school_group",
+          "category": "academic",
+          "label": "Sociology, Social Work, Public Administration and Politics: school route",
+          "status": "required",
+          "details": "For BA Sociology, Bachelor of Social Work, Public Administration and Political Science (including the named double-major variants): six LGCSE/equivalent subjects with four C-or-better grades including English and two other subjects D or better. These paragraphs do not add the separate Commerce/Economics/Demography group's Mathematics-C requirement. General university entry rules still apply.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 43–46: Sociology, Social Work, Public Administration and Politics: school route",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_humanities_diplomas",
+          "category": "academic",
+          "label": "Five Humanities degrees: diploma grade and work wording",
+          "status": "unknown",
+          "details": "For the five named Humanities degrees, relevant diplomas from CHE-recognized higher-learning institutions are considered for Year 2 of the three-year indirect route. The source lists credit/Second Class or better, followed by pass plus two years of relevant work, without an OR/AND connector. Confirm how these pathways relate; do not require all credit holders to have work experience or promise that every unqualified pass alone is sufficient. Some indirect preambles mistakenly say 'direct applicants'; the headings identify the indirect route.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 23–27: Five Humanities degrees: diploma grade and work wording",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_humanities_evaluation",
+          "category": "document",
+          "label": "Humanities: international qualifications and transfers",
+          "status": "conditional",
+          "details": "For the five named Humanities degree indirect routes, international qualifications and transfers are considered after Council on Higher Education (CHE) evaluation. This is a higher-education/transfer requirement, distinct from the general school-qualification ECOL conversion paragraph. No automatic transfer year, IB total or diploma-grade equivalence is stated.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 23–27: Humanities: international qualifications and transfers",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_bsc_first_year_preparation",
+          "category": "academic",
+          "label": "Six Science options: completed BSc General Year 1",
+          "status": "required",
+          "details": "Biology (single/double major), Chemistry (single/double major), Chemical Technology, double-major Computer Science, Mathematics (single/double major) and Physics (single/double major) require successful BSc General Year 1 or equivalent. These are subsequent-stage preparation requirements, not six separate school-leaver IB cutoffs or a requirement to have finished a whole BSc. The different major combinations are options within their named awards.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 33–36: Six Science options: completed BSc General Year 1",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_electronics_alternatives",
+          "category": "academic",
+          "label": "Electronic Engineering and Electronics: related prior qualifications",
+          "status": "conditional",
+          "details": "For BEng Electronics, the source lists completed BSc Physics and Computer Science Year 2 OR a CHE-recognized Electrical and/or Electronic Engineering diploma or equivalent. BSc Electronics prints the same alternatives but also expressly allows equivalent BSc Year 2 preparation. Preserve that distinction; equivalence is not an automatic diploma placement year, and the two award types remain separate catalogue identities.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 35–36: Electronic Engineering and Electronics: related prior qualifications",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_computing_department_entry",
+          "category": "academic",
+          "label": "Computer Science, Statistics and Information Systems: advanced qualifications",
+          "status": "conditional",
+          "details": "For the named three programmes, applicants with A-level, certificate or diploma qualifications in Statistics, Mathematical Sciences or IT-related fields from higher-learning institutions are assessed by the relevant department for eligibility and entry point. This paragraph provides no automatic entry year, numerical A-level score or IB conversion.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 37–38: Computer Science, Statistics and Information Systems: advanced qualifications",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_geography_department_entry",
+          "category": "academic",
+          "label": "Human Geography and Planning: department assessment",
+          "status": "conditional",
+          "details": "For Human Geography and Urban and Regional Planning, A-level/certificate/diploma qualifications in Geography or related fields from higher-learning institutions are submitted to the department to determine eligibility and entry point. Neither paragraph states a guaranteed advanced-entry year.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 39–40: Human Geography and Planning: department assessment",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_commerce_diploma_cas",
+          "category": "academic",
+          "label": "Three Commerce degrees: distinction diploma OR CAS accountant",
+          "status": "conditional",
+          "details": "For Accounting and Finance, Marketing and Human Resource Management, indirect entry normally accepts an IEMS Diploma in Business Management with distinction OR a CAS Licensed Accountant qualification with at least LGCSE D in Mathematics AND English. The CAS school grades are attached to that alternative; neither qualification is required in addition to the other.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 41–42: Three Commerce degrees: distinction diploma OR CAS accountant",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_marketing_hrm_external",
+          "category": "academic",
+          "label": "Marketing and HRM: other qualifications require review",
+          "status": "conditional",
+          "details": "Marketing and Human Resource Management additionally list qualifications from other higher-learning institutions for departmental evaluation and consideration. The Accounting and Finance paragraph does not expressly print this additional alternative. No automatic qualification equivalence or entry year is promised.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 42: Marketing and HRM: other qualifications require review",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_public_politics_lipam",
+          "category": "academic",
+          "label": "Public Administration and Politics: LIPAM credit diploma",
+          "status": "conditional",
+          "details": "Public Administration and Political Science, including their double-major variants, normally require a LIPAM Diploma in Public Administration with at least pass with credit for indirect entry. This one named shared condition does not create duplicate single-/double-major catalogue awards or specify an unprinted placement year.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 44–46: Public Administration and Politics: LIPAM credit diploma",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_journalism",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_journalism_diploma_fields",
+          "category": "academic",
+          "label": "Journalism: named diploma fields",
+          "status": "conditional",
+          "details": "The Journalism and Media Studies indirect paragraph additionally names completed diplomas in Mass Communication, Journalism, Media Studies or Film Studies for admission consideration. Read with the shared Humanities relevant-diploma/Year 2 and grade/work clarification; the final bullet does not expressly remove those preceding conditions.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 27: Journalism: named diploma fields",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_general",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_general_science_advanced",
+          "category": "academic",
+          "label": "BSc General: department decides advanced admission",
+          "status": "conditional",
+          "details": "A-level, certificate or diploma holders in science subjects from recognized higher-learning institutions may be considered for indirect BSc General admission. The relevant department determines eligibility and entry point in each case; the paragraph states no automatic Year 2 placement, A-level letter grades or IB equivalent.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 33: BSc General: department decides advanced admission",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_biotech",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_biotech_year_two",
+          "category": "academic",
+          "label": "Biotechnology: Biology and Chemistry Year 2 preparation",
+          "status": "required",
+          "details": "The Biotechnology paragraph requires successful completion of BSc Biology and Chemistry Year 2 or equivalent. This differs from the BSc General Year 1 requirement of several other Science options; no numerical IB conversion or completed bachelor's-degree requirement is invented. The source describes a two-and-a-half-year programme after that preparation.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 33: Biotechnology: Biology and Chemistry Year 2 preparation",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_networks",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_networks_alternatives",
+          "category": "academic",
+          "label": "Computer Systems and Networks: prior study OR engineering diploma",
+          "status": "conditional",
+          "details": "The Engineering in Computer Systems and Networks route requires completed BSc Physics and Computer Science Year 2 OR a diploma in Computer Systems Engineering, Electrical and Electronic Engineering or equivalent from a CHE-recognized institution. The alternatives must not become a requirement to hold both the diploma and BSc preparation. No fixed diploma-entry year is printed.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 35: Computer Systems and Networks: prior study OR engineering diploma",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_environment",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_environmental_science_alternatives",
+          "category": "academic",
+          "label": "Environmental Science: Year 1 OR Water/Environmental Engineering diploma",
+          "status": "conditional",
+          "details": "Environmental Science requires successful BSc General Year 1 OR a diploma in Water and Environmental Engineering/equivalent from a CHE-recognized institution. It is not the separate Environmental Health degree and does not inherit that degree's prior-qualification conditions.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 35: Environmental Science: Year 1 OR Water/Environmental Engineering diploma",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_geography",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_human_geography_school",
+          "category": "academic",
+          "label": "Human Geography: school grades and Geography as science",
+          "status": "required",
+          "details": "For direct Human Geography: at least six LGCSE/equivalent subjects; Mathematics C, English C, a science C (Geography counts as science), two other subjects C and one remaining subject D or better. The two-other-C/one-D wording is distinct from Urban and Regional Planning. General/faculty requirements also apply.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 39: Human Geography: school grades and Geography as science",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_planning",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_planning_school",
+          "category": "academic",
+          "label": "Urban and Regional Planning: school grades",
+          "status": "required",
+          "details": "For direct Urban and Regional Planning: at least six LGCSE/equivalent subjects; Mathematics C, English C, a science C (Geography counts as science), one other subject C and the remaining two subjects D or better. Do not substitute Human Geography's two-other-C requirement.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 39–40: Urban and Regional Planning: school grades",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_economics",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_economics_diploma",
+          "category": "academic",
+          "label": "Economics: distinction OR credit plus two subject grades",
+          "status": "conditional",
+          "details": "Economics indirect entry normally requires an IEMS Diploma in Business Management with distinction OR that diploma passed with credit AND at least C in both Quantitative Techniques and Business Statistics. These subject-grade conditions belong to the credit alternative, not an invented condition for all distinction or school-leaver applicants.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 43: Economics: distinction OR credit plus two subject grades",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_socialwork",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_social_work_placement_conflict",
+          "category": "academic",
+          "label": "Social Work: conflicting Advanced Diploma placement",
+          "status": "unknown",
+          "details": "The first indirect bullet gives a credit Diploma/Advanced Diploma in Social Work from a CHE-recognized institution and states entry to Year 3 of the four-year programme. The next gives a credit Advanced Diploma in Social Work from a CHE-recognized institution but states Year 2. The Advanced Diploma appears in both with conflicting placement. Obtain official clarification rather than selecting one year or silently reversing diploma levels.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 44: Social Work: conflicting Advanced Diploma placement",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_demography",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_demography_grade_work",
+          "category": "academic",
+          "label": "Demography/Statistics: qualification, grade and post-graduation work",
+          "status": "unknown",
+          "details": "Indirect applicants may present NUL's Certificate in Statistics, an equivalent qualification, or a Statistics diploma from a CHE-recognized institution. The source then lists credit or higher and pass followed by at least two years of relevant work AFTER graduating, without an OR/AND connector between the grade bullets. Confirm the relationship; do not impose work on every credit holder or count pre-graduation work toward the stated post-graduation period.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 46: Demography/Statistics: qualification, grade and post-graduation work",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_adult",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_adult_degree_direct",
+          "category": "academic",
+          "label": "Adult Education ODL degree: direct qualification alternatives",
+          "status": "conditional",
+          "details": "The four-year direct Adult Education degree lists at least six school subjects. LGCSE: four C-or-better grades including English, two D-or-better grades, APS no greater than 26. COSC: Third Division or better with four credits including English and two other passes. ODL includes face-to-face, print-based and online instruction; it is not a promise of fully online study.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 48: Adult Education ODL degree: direct qualification alternatives",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_adult_degree_cosc_conflict",
+          "category": "academic",
+          "label": "Adult Education: COSC class versus general entry",
+          "status": "unknown",
+          "details": "The programme's direct COSC clause says Third Division or better, whereas the general bachelor's COSC rule says First or Second Class and aggregate no greater than 34. The relationship is not expressly settled in these paragraphs. Confirm the actual route rather than assuming either a waiver or an additional class requirement.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 6, 48: Adult Education: COSC class versus general entry",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_adult",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_adult_degree_four_year",
+          "category": "academic",
+          "label": "Adult Education: any recognized diploma, four-year route",
+          "status": "conditional",
+          "details": "The four-year indirect Adult Education ODL route lists any NUL diploma or a diploma from a CHE-recognized higher-learning institution. It does not publish a minimum diploma grade here or automatically grant the three-year route to every diploma holder.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 48: Adult Education: any recognized diploma, four-year route",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_adult_degree_three_year",
+          "category": "academic",
+          "label": "Adult Education: three-year diploma-list connector",
+          "status": "unknown",
+          "details": "The three-year indirect ODL paragraph lists a NUL Diploma in Adult Education, followed by a related-field diploma from another CHE-recognized institution, without an explicit OR/AND connector. Confirm how these two bullets operate; do not demand both diplomas or promise three-year entry for an unrelated award.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 48: Adult Education: three-year diploma-list connector",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_business",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_business_degree_direct",
+          "category": "academic",
+          "label": "Business and Entrepreneurship ODL: Mathematics D",
+          "status": "required",
+          "details": "The four-year direct Business and Entrepreneurship ODL route requires at least six LGCSE/equivalent subjects: four at C or better including English, Mathematics D or better, and one other remaining subject D or better. Its printed Mathematics threshold is D, not the Commerce/Economics group's C. ODL combines face-to-face, print-based and online instruction.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 49: Business and Entrepreneurship ODL: Mathematics D",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_business",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_business_degree_four_year",
+          "category": "academic",
+          "label": "Business and Entrepreneurship: non-business diploma route",
+          "status": "conditional",
+          "details": "The four-year indirect ODL route requires a non-Business or non-Management diploma from NUL or another CHE-recognized higher-learning institution, with at least pass. The source wording covers this named diploma group; it is not the same as the three-year business/management alternative.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 49: Business and Entrepreneurship: non-business diploma route",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_business_degree_three_year",
+          "category": "academic",
+          "label": "Business and Entrepreneurship: business/management diploma route",
+          "status": "conditional",
+          "details": "The three-year indirect ODL route accepts a NUL Diploma in Management with at least pass OR another Business or Management-related diploma from a CHE-recognized higher-learning institution with at least pass. These are alternatives; the source does not require both awards or a credit/distinction grade for this route.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 49: Business and Entrepreneurship: business/management diploma route",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_humanities_diploma_lgcse",
+          "category": "academic",
+          "label": "Two Humanities diplomas: LGCSE route and APS ceiling",
+          "status": "conditional",
+          "details": "Diploma in Spiritual Care and Counselling and Diploma in Applied Philosophy and Public Ethics share a two-year direct LGCSE route: six subjects, at least four D-or-better grades including English, the remaining two at E or better, and APS no greater than 32. These are named diplomas, not bachelor's awards; do not substitute the bachelor's APS ceiling of 26.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 21–22: Two Humanities diplomas: LGCSE route and APS ceiling",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_humanities_diploma_cosc",
+          "category": "academic",
+          "label": "Two Humanities diplomas: COSC alternative",
+          "status": "conditional",
+          "details": "For the same two named Humanities diplomas, the COSC alternative specifies at least a Third Class pass with six subjects including English and aggregate described as 40 or better; four subjects including English at D or better and the remaining two at E or better. This is an alternative qualification route, not an additional requirement to hold LGCSE as well.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 21–22: Two Humanities diplomas: COSC alternative",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_adult_diploma_lgcse",
+          "category": "academic",
+          "label": "Adult Education diploma ODL: six subjects, incomplete sixth-grade wording",
+          "status": "unknown",
+          "details": "The three-year direct ODL Diploma in Adult Education requires at least six LGCSE/equivalent subjects, four at D or better including English and E or better in one other subject. Only five subject-grade positions are specified after requiring six subjects. The sixth threshold is not printed; confirm it rather than filling it from the Mass Communication diploma or inventing a missing grade.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 47: Adult Education diploma ODL: six subjects, incomplete sixth-grade wording",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_adult_diploma_cosc",
+          "category": "academic",
+          "label": "Adult Education diploma ODL: COSC alternative",
+          "status": "conditional",
+          "details": "The direct Diploma in Adult Education COSC clause asks for a passing rating of E or better in four subjects including English. It does not print the LGCSE route's sixth-subject threshold or an IB equivalent. The ODL programme blends face-to-face, print-based and online teaching.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 47: Adult Education diploma ODL: COSC alternative",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_mass_communication_diploma_direct",
+          "category": "academic",
+          "label": "Mass Communication diploma ODL: English and an additional language",
+          "status": "required",
+          "details": "The three-year direct Diploma in Mass Communication requires at least six LGCSE/equivalent subjects, four at D or better including English AND Sesotho or another language accepted as an alternative to Sesotho, with E or better in the remaining two. The extra-language option does not replace English or require both Sesotho and every alternative language.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 50: Mass Communication diploma ODL: English and an additional language",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_management_diploma_direct",
+          "category": "academic",
+          "label": "Management diploma ODL: Mathematics and incomplete sixth-grade wording",
+          "status": "unknown",
+          "details": "The three-year direct Diploma in Management requires at least six LGCSE/equivalent subjects; four at D or better including English and Mathematics, and E or better in one other subject. This specifies grades for five positions while requiring six subjects. Confirm the missing sixth threshold rather than borrowing another diploma's two-E rule.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 50–51: Management diploma ODL: Mathematics and incomplete sixth-grade wording",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "other",
+      "level": "other",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus requirements reviewed on 8 November 2026. Read this scope with the applicable university-wide and named programme-group conditions. Teaching combinations, major variants and different study lengths do not create duplicate awards. Published minima do not guarantee admission or establish a currently open application window; unresolved source wording is retained.",
+      "requirements": [
+        {
+          "key": "nul_remaining_adult_diploma_indirect",
+          "category": "academic",
+          "label": "Adult Education diploma: prior learning/work pathway",
+          "status": "conditional",
+          "details": "The three-year indirect Diploma in Adult Education ODL route gives LGCSE with minimum achievement D or COSC with passes in any three subjects including English, PLUS prior learning or relevant work experience in formal/non-formal education and community-development programmes. No fixed number of work years is stated.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 48: Adult Education diploma: prior learning/work pathway",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_mass_communication_prior_study",
+          "category": "academic",
+          "label": "Mass Communication diploma: prior study and communication proficiency",
+          "status": "conditional",
+          "details": "The indirect ODL Mass Communication diploma paragraph lists completed LGCSE and evidence of related short courses, certificates or diplomas in communication, journalism or media studies, together with communication proficiency and relevant work evidence. It does not publish a numerical language-test score, minimum work duration or an IB total.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 50: Mass Communication diploma: prior study and communication proficiency",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_mass_communication_work",
+          "category": "experience",
+          "label": "Mass Communication diploma: supporting work evidence",
+          "status": "conditional",
+          "details": "For its indirect route, relevant work experience is supported by a recommendation letter, portfolio of work OR employment contracts. These support options are not three documents automatically required together, and no work-duration minimum is published in this paragraph.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 50: Mass Communication diploma: supporting work evidence",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_mass_communication_rpl",
+          "category": "document",
+          "label": "Mass Communication diploma: institutional RPL form",
+          "status": "required",
+          "details": "Applicants using the Mass Communication diploma's indirect/prior-learning route are expected to complete the institution's recognition-of-prior-learning form with supporting documents. This is route-specific; it is not an extra form expressly required for every direct school-leaver applicant.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 50: Mass Communication diploma: institutional RPL form",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_management_diploma_indirect",
+          "category": "academic",
+          "label": "Management diploma: certificate OR school/prior-learning route",
+          "status": "conditional",
+          "details": "For the indirect ODL Diploma in Management, one alternative is an additional certificate from a CHE-recognized higher-learning institution passed at least at pass level. The OR alternative is LGCSE/equivalent D in English, Mathematics and a commercial subject (examples: Economics, Accounting, Commerce, Business Studies or Consumer Studies), PLUS prior learning or relevant work in formal/non-formal education/community development. The certificate alternative is not automatically burdened with the school/prior-learning conditions.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 51: Management diploma: certificate OR school/prior-learning route",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_remaining_management_diploma_documents",
+          "category": "document",
+          "label": "Management diploma: evidence and assessment",
+          "status": "considered",
+          "details": "For the indirect Management diploma pathway, the source says supporting transcripts, CV and/or portfolio, references and an assessment test will be considered. It gives no test score, pass mark, fixed work duration or required commercial-subject list beyond the named examples. Preserve the and/or wording instead of requiring both CV and portfolio from everyone.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 51: Management diploma: evidence and assessment",
+            "checkedOn": "2026-11-08"
+          }
+        }
+      ]
+    }
+  ]
+}

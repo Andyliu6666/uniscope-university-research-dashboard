@@ -19,6 +19,12 @@ const programSchema = z.strictObject({
   name: text(160),
   level: z.enum(['undergraduate', 'graduate']),
   field: text(100),
+  // Explicit references keep a shared rule in one university-wide profile.
+  sharedRequirementKeys: z
+    .array(z.string().regex(/^[a-z][a-z0-9_]{0,99}$/u))
+    .min(1)
+    .max(200)
+    .optional(),
   source,
 });
 export const admissionFactSchema = z.strictObject({
@@ -137,7 +143,28 @@ export const admissionFactsDatasetSchema = z
       if (programIdentities.has(identity)) fail('Duplicate normalized programme identity.');
       programIdentities.add(identity);
       checkSource(program.source, program.institutionKey);
-      if (!dataset.profiles.some((profile) => profile.programKey === program.key))
+      if (program.sharedRequirementKeys) {
+        if (new Set(program.sharedRequirementKeys).size !== program.sharedRequirementKeys.length)
+          fail('Duplicate shared requirement reference.');
+        for (const key of program.sharedRequirementKeys) {
+          const matches = dataset.profiles.flatMap((profile) =>
+            profile.institutionKey === program.institutionKey &&
+            profile.level === program.level &&
+            profile.programId === null &&
+            !profile.programKey
+              ? profile.requirements.filter((fact) => fact.key === key)
+              : [],
+          );
+          if (matches.length !== 1)
+            fail(
+              'Shared references must resolve to one university-wide fact in the same institution and level.',
+            );
+        }
+      }
+      if (
+        !dataset.profiles.some((profile) => profile.programKey === program.key) &&
+        !program.sharedRequirementKeys?.length
+      )
         fail('Every declared programme must have a referenced admissions profile.');
     }
     const scopes = new Set<string>();

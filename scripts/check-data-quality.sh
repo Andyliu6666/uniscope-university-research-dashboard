@@ -710,6 +710,39 @@ BEGIN
     RAISE EXCEPTION 'IB quality gate failed: % records have invalid scope, provenance or score semantics', invalid_ib;
   END IF;
 END $$;
+DO $$
+DECLARE invalid_shared integer;
+BEGIN
+  WITH linked AS (
+    SELECT r.source_flags->'sharedProgramIds' AS original,
+      CASE WHEN jsonb_typeof(r.source_flags->'sharedProgramIds') = 'array'
+        THEN r.source_flags->'sharedProgramIds' ELSE '[]'::jsonb END AS ids,
+      p.university_id, p.level, p.program_id
+    FROM admission_requirements r
+    JOIN admission_profiles p ON p.id = r.admission_profile_id
+    WHERE r.source_flags ? 'sharedProgramIds'
+  )
+  SELECT count(*) INTO invalid_shared FROM linked l
+  WHERE l.program_id IS NOT NULL
+    OR jsonb_typeof(l.original) IS DISTINCT FROM 'array'
+    OR jsonb_array_length(l.ids) = 0
+    OR (SELECT count(*) FROM jsonb_array_elements(l.ids)) <>
+       (SELECT count(DISTINCT value) FROM jsonb_array_elements(l.ids))
+    OR EXISTS (
+      SELECT 1 FROM jsonb_array_elements(l.ids) entry(value)
+      WHERE jsonb_typeof(entry.value) <> 'string' OR NOT EXISTS (
+        SELECT 1 FROM programs program
+        WHERE program.id = CASE
+          WHEN (entry.value #>> '{}') ~ '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
+          THEN (entry.value #>> '{}')::uuid ELSE NULL END
+          AND program.university_id = l.university_id
+          AND program.level::text = l.level::text
+      )
+    );
+  IF invalid_shared > 0 THEN
+    RAISE EXCEPTION 'Shared admission programme references failed: % invalid facts', invalid_shared;
+  END IF;
+END $$;
 SQL
 
 curl --fail --silent --show-error http://127.0.0.1:3001/health >/dev/null

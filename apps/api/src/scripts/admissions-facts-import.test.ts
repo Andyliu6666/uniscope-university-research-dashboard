@@ -85,6 +85,65 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
 }
 
 describe('admission facts import safety', () => {
+  const shared = {
+    ...one,
+    programs: ['first', 'second'].map((key) => ({
+      key,
+      institutionKey: profile.institutionKey,
+      name: `Course ${key}`,
+      level: 'undergraduate',
+      field: 'Science',
+      source: fact.source,
+      sharedRequirementKeys: [fact.key],
+    })),
+    profiles: [{ ...profile, level: 'undergraduate', requirements: [fact] }],
+  };
+
+  it('stores one shared fact with two resolved programme identities and refuses changed links on repeats', async () => {
+    const mock = mockDb(new Map(), true);
+    await importAdmissionsFacts(mock.db, shared);
+    const savedFacts = mock.rows.get(admissionRequirements) as Array<{
+      sourceFlags: Record<string, unknown>;
+    }>;
+    const savedPrograms = mock.rows.get(programs) as Array<{ id: string }>;
+    expect(savedFacts).toHaveLength(1);
+    expect(savedFacts[0]?.sourceFlags.sharedProgramIds).toEqual(
+      savedPrograms.map((program) => program.id),
+    );
+    const calls = mock.insert.mock.calls.length;
+    await expect(
+      importAdmissionsFacts(mock.db, {
+        ...shared,
+        programs: [
+          ...shared.programs,
+          { ...shared.programs[0], key: 'third', name: 'Third course' },
+        ],
+      }),
+    ).rejects.toThrow(/Shared programme links conflict/);
+    expect(mock.insert.mock.calls).toHaveLength(calls);
+  });
+  it('keeps a same-key programme-specific fact separate from its shared rule', async () => {
+    const mock = mockDb(new Map(), true);
+    const [sharedScope] = shared.profiles;
+    if (!sharedScope) throw new Error('Missing shared scope');
+    await importAdmissionsFacts(mock.db, {
+      ...shared,
+      profiles: [
+        sharedScope,
+        {
+          ...sharedScope,
+          programKey: 'first',
+          requirements: [{ ...fact, details: 'A different condition for this programme.' }],
+        },
+      ],
+    });
+    const savedFacts = mock.rows.get(admissionRequirements) as Array<{
+      sourceFlags: Record<string, unknown>;
+    }>;
+    expect(savedFacts).toHaveLength(2);
+    expect(savedFacts[0]?.sourceFlags.sharedProgramIds).toHaveLength(2);
+    expect(savedFacts[1]?.sourceFlags).not.toHaveProperty('sharedProgramIds');
+  });
   it.each(['distance', undefined] as const)(
     'resolves and writes the correct mode for %s input',
     async (deliveryMode) => {

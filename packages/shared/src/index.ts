@@ -215,6 +215,7 @@ export interface AdmissionRequirement {
     | 'financial'
     | 'other';
   requirementKey: string;
+  sharedPrograms?: Array<{ id: string; name: string }>;
   label: string;
   status:
     | 'required'

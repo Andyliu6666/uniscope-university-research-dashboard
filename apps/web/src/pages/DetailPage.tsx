@@ -621,6 +621,12 @@ export function AdmissionsSection({
             <div className="list-row" key={`${requirement.category}-${requirement.requirementKey}`}>
               <div>
                 <strong>{requirement.label}</strong>
+                {requirement.sharedPrograms?.length ? (
+                  <span className="muted">
+                    Applies to:{' '}
+                    {requirement.sharedPrograms.map((program) => program.name).join('; ')}
+                  </span>
+                ) : null}
                 <span>{requirement.details ?? 'Official consideration policy'}</span>
                 <a
                   href={(requirement.source ?? profile.source).url}

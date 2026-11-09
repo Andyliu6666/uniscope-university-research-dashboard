@@ -29,6 +29,14 @@ Programme names are normalized for case, spacing and Unicode within one exact in
 
 Do not repeat university rules in every programme. Record only distinct programme conditions, preserving AND/OR subject requirements and qualification systems. BGCSE points must never populate an IB score field. Where one published requirement combines subject grades and a programme cut-off, keep that condition together. Alternative diploma/transfer routes belong in their own profiles, and a source saying "may be considered" must retain that conditional meaning.
 
+## Shared programme requirements
+
+A programme declaration can use optional `sharedRequirementKeys` to name facts in this same artifact's university-wide profiles. Each key must resolve exactly once in the same institution and exact study level; programme-specific facts, missing/ambiguous keys and duplicate references are rejected. A declaration must have its own programme profile, valid shared references, or both. This allows a catalogue award to reuse a shared qualification rule without duplicating its profile or text.
+
+The importer resolves programme identities before inserting facts and saves `sharedProgramIds` on the fact's provenance metadata. The API resolves those IDs to current catalogue names within the same institution/level; the website displays those names beside the shared rule. Its parent profile still controls year, intake, delivery mode, entry route and applicant group. The association is explicit evidence applicability, not a rule automatically inherited by every programme. Missing, duplicate, cross-institution and wrong-level associations fail the data-quality gate. This metadata adds no new database table or migration.
+
+Shared references are optional without defaults, preserving completed artifact hashes. Existing fact rows and catalogue provenance are not rewritten: a repeat with identical associations skips safely, while a new association to an existing fact is rejected for maintainer review. References cannot reach another artifact's key or silently extend an already imported rule to new awards. Supply a newly reviewed, distinctly applicable group when the source establishes one; do not copy an identical rule merely to bypass this guard.
+
 ## Delivery modes
 
 Profiles may supply `deliveryMode: "distance"`, `"campus"`, `"hybrid"` or `"unspecified"`. An omitted mode resolves to `unspecified` for database identity; parsing does not add a default field to completed JSON artifacts or change their hashes. Existing records remain unspecified, without assuming they are campus offers. The same programme/year/intake/level/applicant/entry route can have independent mode-specific profiles. Do not put delivery mode into `intakeTerm` or create a second catalogue award solely for distance study.

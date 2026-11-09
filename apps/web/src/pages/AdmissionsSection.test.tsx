@@ -140,6 +140,19 @@ describe('general admissions scope and evidence', () => {
     expect(screen.queryByText('Details financial')).not.toBeInTheDocument();
     expect(screen.queryByText('Details international')).not.toBeInTheDocument();
   });
+  it('shows the named programmes beside their one shared requirement', () => {
+    const shared = profile('shared');
+    shared.requirements = shared.requirements.map((r) => ({
+      ...r,
+      sharedPrograms: [
+        { id: 'one', name: 'Biology' },
+        { id: 'two', name: 'Chemistry' },
+      ],
+    }));
+    render(<AdmissionsSection data={response([shared])} pending={false} />);
+    expect(screen.getByText('Applies to: Biology; Chemistry')).toBeInTheDocument();
+    expect(screen.getAllByText('Details shared')).toHaveLength(1);
+  });
   it('handles a pending request and an empty response', () => {
     const { rerender } = render(<AdmissionsSection data={undefined} pending />);
     expect(screen.getByText('Loading official admissions data…')).toBeInTheDocument();

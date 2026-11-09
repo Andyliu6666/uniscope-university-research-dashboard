@@ -154,6 +154,52 @@ const programInput = {
   ],
 };
 describe('reviewed programme declarations', () => {
+  it('lets two programmes cite one shared fact without cloning its profile or body', () => {
+    const shared = {
+      ...programInput,
+      programs: ['first', 'second'].map((key) => ({
+        ...programInput.programs[0],
+        key,
+        name: `Course ${key}`,
+        sharedRequirementKeys: [fact.key],
+      })),
+      profiles: [{ ...programInput.profiles[0], programKey: undefined }],
+    };
+    const parsed = admissionFactsDatasetSchema.parse(shared);
+    expect(parsed.profiles).toHaveLength(1);
+    expect(parsed.programs).toHaveLength(2);
+    expect(parsed.profiles[0]?.requirements).toHaveLength(1);
+  });
+  it('rejects missing, duplicated, wrong-level and programme-specific shared references', () => {
+    const shared = {
+      ...programInput,
+      programs: [{ ...programInput.programs[0], sharedRequirementKeys: [fact.key] }],
+      profiles: [{ ...programInput.profiles[0], programKey: undefined }],
+    };
+    expect(admissionFactsDatasetSchema.safeParse(shared).success).toBe(true);
+    for (const keys of [['missing'], [fact.key, fact.key]])
+      expect(
+        admissionFactsDatasetSchema.safeParse({
+          ...shared,
+          programs: [{ ...shared.programs[0], sharedRequirementKeys: keys }],
+        }).success,
+      ).toBe(false);
+    expect(
+      admissionFactsDatasetSchema.safeParse({
+        ...shared,
+        profiles: [{ ...shared.profiles[0], level: 'graduate' }],
+      }).success,
+    ).toBe(false);
+    expect(
+      admissionFactsDatasetSchema.safeParse({ ...shared, profiles: programInput.profiles }).success,
+    ).toBe(false);
+    expect(
+      admissionFactsDatasetSchema.safeParse({
+        ...shared,
+        profiles: [shared.profiles[0], { ...shared.profiles[0], entryType: 'other' }],
+      }).success,
+    ).toBe(false);
+  });
   it('accepts a sourced programme referenced within the same institution and level', () => {
     expect(admissionFactsDatasetSchema.parse(programInput).programs).toHaveLength(1);
   });

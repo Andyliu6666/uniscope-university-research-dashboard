@@ -834,14 +834,32 @@ export const getUniversityAdmissions = async (
     return sourceForApi(source);
   };
 
-  const scopedProgramIds = profiles.flatMap((profile) =>
-    profile.programId ? [profile.programId] : [],
-  );
+  const sharedIdsFor = (row: (typeof requirementRows)[number]): string[] => {
+    const ids = row.sourceFlags.sharedProgramIds;
+    if (ids === undefined) return [];
+    if (
+      !Array.isArray(ids) ||
+      !ids.length ||
+      !ids.every((id): id is string => typeof id === 'string') ||
+      new Set(ids).size !== ids.length
+    )
+      throw new Error('Invalid shared programme references.');
+    return ids;
+  };
+  const scopedProgramIds = [
+    ...profiles.flatMap((profile) => (profile.programId ? [profile.programId] : [])),
+    ...requirementRows.flatMap(sharedIdsFor),
+  ];
   const scopedPrograms = scopedProgramIds.length
     ? await db
-        .select({ id: programs.id, name: programs.name })
+        .select({ id: programs.id, name: programs.name, level: programs.level })
         .from(programs)
-        .where(inArray(programs.id, scopedProgramIds))
+        .where(
+          and(
+            eq(programs.universityId, university.id),
+            inArray(programs.id, [...new Set(scopedProgramIds)]),
+          ),
+        )
     : [];
   const programNames = new Map(scopedPrograms.map((program) => [program.id, program.name]));
   const profileResponses = profiles.map((profile) => ({
@@ -874,6 +892,16 @@ export const getUniversityAdmissions = async (
         status: row.status,
         details: row.details,
         sourceFlags: row.sourceFlags,
+        ...(sharedIdsFor(row).length
+          ? {
+              sharedPrograms: sharedIdsFor(row).map((id) => {
+                const program = scopedPrograms.find((item) => item.id === id);
+                if (profile.programId || !program || program.level !== profile.level)
+                  throw new Error('Shared programme is absent or outside the admission scope.');
+                return { id: program.id, name: program.name };
+              }),
+            }
+          : {}),
         verifiedAt: row.verifiedAt.toISOString(),
         source: requirementCitationForApi(sourceFor(row.sourceId), row.sourceFlags, row.verifiedAt),
       })),

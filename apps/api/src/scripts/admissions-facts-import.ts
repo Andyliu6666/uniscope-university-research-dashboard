@@ -197,6 +197,17 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
         }
       : {};
     const plans = [];
+    const sharedKeysFor = (profile: FactProfile, key: string) => {
+      if (profile.programId !== null || profile.programKey) return [];
+      return (dataset.programs ?? [])
+        .filter(
+          (program) =>
+            program.institutionKey === profile.institutionKey &&
+            program.level === profile.level &&
+            program.sharedRequirementKeys?.includes(key),
+        )
+        .map((program) => program.key);
+    };
     const resolvedScopes = new Set<string>();
     for (const profile of dataset.profiles) {
       const plan = await resolveProfile(store, dataset, profile, programPlans);
@@ -215,6 +226,21 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
       resolvedScopes.add(scope);
       plans.push(plan);
     }
+    for (const plan of plans)
+      for (const item of plan.facts) {
+        const keys = sharedKeysFor(plan.profile, item.fact.key);
+        if (!item.existing || !keys.length) continue;
+        const ids = keys.map((key) => programPlans.get(key)?.existing?.id);
+        const stored = item.existing.sourceFlags?.sharedProgramIds;
+        if (
+          ids.some((id) => !id) ||
+          !Array.isArray(stored) ||
+          JSON.stringify([...ids].sort()) !== JSON.stringify([...stored].sort())
+        )
+          throw new Error(
+            'Shared programme links conflict with an existing fact; review rather than overwrite.',
+          );
+      }
     const inserted = plans.flatMap((plan) => plan.facts).filter((item) => !item.existing).length;
     const skipped = plans.flatMap((plan) => plan.facts).length - inserted;
     if (!write) return { mode: 'dry-run', inserted, skipped, databaseWrites: 0, ...programCounts };
@@ -326,6 +352,15 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
             datasetVersion: dataset.datasetVersion,
             sourceUrl: fact.source.url,
             sourceTitle: fact.source.title,
+            ...(sharedKeysFor(plan.profile, fact.key).length
+              ? {
+                  sharedProgramIds: sharedKeysFor(plan.profile, fact.key).map((key) => {
+                    const id = programIds.get(key);
+                    if (!id) throw new Error('Shared programme identity disappeared.');
+                    return id;
+                  }),
+                }
+              : {}),
           },
         });
       }
