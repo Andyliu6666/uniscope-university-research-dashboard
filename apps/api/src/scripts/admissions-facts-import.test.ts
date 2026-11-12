@@ -54,9 +54,10 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
       },
     };
   });
+  const updateValues = vi.fn(() => ({ where: async () => [] }));
   const update = vi.fn(() => {
     if (!allowWrites) throw new Error('Unexpected write');
-    return { set: () => ({ where: async () => [] }) };
+    return { set: updateValues };
   });
   const execute = vi.fn(async () => []);
   const transaction = vi.fn();
@@ -81,7 +82,16 @@ function mockDb(overrides: Map<unknown, unknown[]> = new Map(), allowWrites = fa
   transaction.mockImplementation(async (callback: (tx: typeof db) => Promise<unknown>) =>
     callback(db),
   );
-  return { db: db as unknown as Database, insert, update, execute, transaction, rows, filters };
+  return {
+    db: db as unknown as Database,
+    insert,
+    update,
+    updateValues,
+    execute,
+    transaction,
+    rows,
+    filters,
+  };
 }
 
 describe('admission facts import safety', () => {
@@ -143,6 +153,57 @@ describe('admission facts import safety', () => {
     expect(savedFacts).toHaveLength(2);
     expect(savedFacts[0]?.sourceFlags.sharedProgramIds).toHaveLength(2);
     expect(savedFacts[1]?.sourceFlags).not.toHaveProperty('sharedProgramIds');
+  });
+  const priorLinkBatch = {
+    ...one,
+    datasetVersion: 'additional-catalogue',
+    programs: shared.programs.map(({ sharedRequirementKeys: _keys, ...program }) => ({
+      ...program,
+      priorSharedRequirements: [{ datasetVersion: dataset.datasetVersion, key: fact.key }],
+    })),
+    profiles: [],
+  };
+
+  it('adds earlier shared links while retaining existing fact provenance and programme IDs', async () => {
+    const sourceFlags = { provider: 'official_admissions', sharedProgramIds: ['existing-id'] };
+    const mock = mockDb(
+      new Map([[admissionRequirements, [{ id: 'prior-fact', sourceFlags }]]]),
+      true,
+    );
+    const preview = await importAdmissionsFacts(mock.db, priorLinkBatch, true);
+    expect(preview).toMatchObject({ priorSharedLinksAdded: 2, databaseWrites: 0, inserted: 0 });
+    expect(mock.update).not.toHaveBeenCalled();
+    const result = await importAdmissionsFacts(mock.db, priorLinkBatch);
+    const added = mock.rows.get(programs) as Array<{ id: string }>;
+    expect(result).toMatchObject({
+      mode: 'completed',
+      programsCreated: 2,
+      priorSharedLinksAdded: 2,
+    });
+    expect(mock.update).toHaveBeenNthCalledWith(1, admissionRequirements);
+    expect(mock.updateValues).toHaveBeenNthCalledWith(1, {
+      sourceFlags: {
+        ...sourceFlags,
+        sharedProgramIds: ['existing-id', ...added.map(({ id }) => id)],
+      },
+    });
+    expect(mock.insert).not.toHaveBeenCalledWith(admissionRequirements);
+  });
+
+  it.each([0, 2])('rejects a prior requirement matching %i rows before writes', async (count) => {
+    const mock = mockDb(
+      new Map([
+        [
+          admissionRequirements,
+          Array.from({ length: count }, (_, id) => ({ id, sourceFlags: {} })),
+        ],
+      ]),
+    );
+    await expect(importAdmissionsFacts(mock.db, priorLinkBatch)).rejects.toThrow(
+      /Expected one prior shared requirement in the same institution and level/,
+    );
+    expect(mock.insert).not.toHaveBeenCalled();
+    expect(mock.update).not.toHaveBeenCalled();
   });
   it.each(['distance', undefined] as const)(
     'resolves and writes the correct mode for %s input',

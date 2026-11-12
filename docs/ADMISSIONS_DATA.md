@@ -1,6 +1,6 @@
 # Reviewed general admissions data
 
-Use a new versioned JSON artifact for each reviewed batch. The importer accepts exact existing institution identifiers, official source URLs, applicant scope and concise requirements. It is append-only: matching facts are skipped, conflicting content requires review, and the whole batch commits in one transaction.
+Use a new versioned JSON artifact for each reviewed batch. The importer accepts exact existing institution identifiers, official source URLs, applicant scope and concise requirements. Matching facts reuse their original rows, conflicting content requires review, and the whole batch commits in one transaction.
 
 ## Programme requirements
 
@@ -35,7 +35,9 @@ A programme declaration can use optional `sharedRequirementKeys` to name facts i
 
 The importer resolves programme identities before inserting facts and saves `sharedProgramIds` on the fact's provenance metadata. The API resolves those IDs to current catalogue names within the same institution/level; the website displays those names beside the shared rule. Its parent profile still controls year, intake, delivery mode, entry route and applicant group. The association is explicit evidence applicability, not a rule automatically inherited by every programme. Missing, duplicate, cross-institution and wrong-level associations fail the data-quality gate. This metadata adds no new database table or migration.
 
-Shared references are optional without defaults, preserving completed artifact hashes. Existing fact rows and catalogue provenance are not rewritten: a repeat with identical associations skips safely, while a new association to an existing fact is rejected for maintainer review. References cannot reach another artifact's key or silently extend an already imported rule to new awards. Supply a newly reviewed, distinctly applicable group when the source establishes one; do not copy an identical rule merely to bypass this guard.
+Use optional `priorSharedRequirements` on a programme to link to an earlier official fact. Supply its original `datasetVersion` and fact `key` as an object for each association. The reference must match one university-wide fact for the same institution and level. The earlier fact's year, intake, delivery mode, applicant group and route control when the association applies. An artifact containing only these references can use an empty `profiles` array. See [the Lesotho catalogue artifact](../data/sources/admissions-facts-lesotho-catalogue-20261112.json).
+
+The importer adds these associations to the prior fact's programme IDs in the same transaction as the new catalogue entries and ledger. It retains earlier associations, requirement text and citations. The preview reports `priorSharedLinksAdded`, and a complete repeat reports zero. Both reference fields are optional without defaults so completed artifact hashes still match.
 
 ## Delivery modes
 
@@ -63,7 +65,7 @@ pnpm data:check
 pnpm data:status
 ```
 
-Repeat previews should report zero new facts/programmes. A repeat real import of the same completed artifact is a no-op. Existing artifact parsing and checksums remain unchanged when the optional programme fields are absent. Removing local JSON does not delete database rows.
+Repeat previews should report zero new facts, programmes and links. A repeat real import of the same completed artifact is a no-op. Existing artifact parsing and checksums remain unchanged when the optional programme fields are absent. Removing local JSON does not delete database rows.
 
 ## Review dates and incomplete evidence
 

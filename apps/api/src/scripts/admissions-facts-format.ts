@@ -13,6 +13,7 @@ const source = z.strictObject({
   title: text(200),
   checkedOn: z.iso.date(),
 });
+const requirementKey = z.string().regex(/^[a-z][a-z0-9_]{0,99}$/u);
 const programSchema = z.strictObject({
   key: text(80),
   institutionKey: text(80),
@@ -20,15 +21,16 @@ const programSchema = z.strictObject({
   level: z.enum(['undergraduate', 'graduate']),
   field: text(100),
   // Explicit references keep a shared rule in one university-wide profile.
-  sharedRequirementKeys: z
-    .array(z.string().regex(/^[a-z][a-z0-9_]{0,99}$/u))
+  sharedRequirementKeys: z.array(requirementKey).min(1).max(200).optional(),
+  priorSharedRequirements: z
+    .array(z.strictObject({ datasetVersion: text(120), key: requirementKey }))
     .min(1)
     .max(200)
     .optional(),
   source,
 });
 export const admissionFactSchema = z.strictObject({
-  key: z.string().regex(/^[a-z][a-z0-9_]{0,99}$/u),
+  key: requirementKey,
   category: z.enum([
     'academic',
     'application',
@@ -103,7 +105,7 @@ export const admissionFactsDatasetSchema = z
       )
       .min(1)
       .max(50),
-    profiles: z.array(profileSchema).min(1).max(50),
+    profiles: z.array(profileSchema).max(50),
     // No default: adding an empty array would change previously reviewed artifact hashes.
     programs: z.array(programSchema).min(1).max(50).optional(),
   })
@@ -133,6 +135,8 @@ export const admissionFactsDatasetSchema = z
     };
     const programMap = new Map(dataset.programs?.map((program) => [program.key, program]));
     if (programMap.size !== (dataset.programs?.length ?? 0)) fail('Duplicate programme key.');
+    if (!dataset.profiles.length && !dataset.programs?.some((p) => p.priorSharedRequirements))
+      fail('Provide a profile or a reference to a prior shared requirement.');
     const programIdentities = new Set<string>();
     for (const program of dataset.programs ?? []) {
       const identity = JSON.stringify([
@@ -161,9 +165,18 @@ export const admissionFactsDatasetSchema = z
             );
         }
       }
+      const prior = program.priorSharedRequirements ?? [];
+      if (
+        new Set(prior.map(({ datasetVersion, key }) => JSON.stringify([datasetVersion, key])))
+          .size !== prior.length
+      )
+        fail('Duplicate prior shared requirement reference.');
+      if (prior.some((reference) => reference.datasetVersion === dataset.datasetVersion))
+        fail('A prior shared requirement must come from an earlier artifact.');
       if (
         !dataset.profiles.some((profile) => profile.programKey === program.key) &&
-        !program.sharedRequirementKeys?.length
+        !program.sharedRequirementKeys?.length &&
+        !prior.length
       )
         fail('Every declared programme must have a referenced admissions profile.');
     }

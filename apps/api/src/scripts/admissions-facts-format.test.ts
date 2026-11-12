@@ -31,6 +31,31 @@ describe('reviewed admission fact deduplication', () => {
     expect(dataset.profiles[0]).not.toHaveProperty('programKey');
     expect(dataset.profiles[0]).not.toHaveProperty('deliveryMode');
   });
+  it('accepts a link-only artifact with distinct references to an earlier batch', () => {
+    const reference = { datasetVersion: dataset.datasetVersion, key: fact.key };
+    const programme = {
+      key: 'catalogue_course',
+      institutionKey: profile.institutionKey,
+      name: 'Course',
+      level: 'undergraduate',
+      field: 'Science',
+      source: fact.source,
+    };
+    const linked = {
+      ...dataset,
+      datasetVersion: 'additional-catalogue',
+      profiles: [],
+    };
+    const valid = (references: Array<typeof reference>) =>
+      admissionFactsDatasetSchema.safeParse({
+        ...linked,
+        programs: [{ ...programme, priorSharedRequirements: references }],
+      }).success;
+    expect(valid([reference])).toBe(true);
+    expect(valid([reference, reference])).toBe(false);
+    expect(valid([{ ...reference, datasetVersion: linked.datasetVersion }])).toBe(false);
+    expect(admissionFactsDatasetSchema.safeParse(linked).success).toBe(false);
+  });
   it('distinguishes distance/campus scopes but treats an omitted mode as unspecified', () => {
     expect(factScope({ ...profile, deliveryMode: 'unspecified' })).toBe(factScope(profile));
     const distance = { ...profile, deliveryMode: 'distance' as const };

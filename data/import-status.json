@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280319,
+            "programs": 280328,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2263,
+            "admissionProfiles": 2266,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22901,
+            "admissionRequirements": 22908,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 77
         },
@@ -106,7 +106,7 @@
             "institutionWidePolicies": 8,
             "institutionsWithReviewedIb": 28,
             "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194646
+            "undergraduateCatalogEntries": 194655
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,31 +153,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 881,
-            "profiles": 353,
+            "facts": 888,
+            "profiles": 356,
             "institutions": 15
         }
     },
-    "generatedAt": "2026-11-09T12:13:44Z",
+    "generatedAt": "2026-11-12T00:50:05Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 48,
+        "inserted": 7,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 48,
-        "startedAt": "2026-11-08T10:42:20.031988+00:00",
-        "updatedAt": "2026-11-08T10:42:20.031988+00:00",
+        "processed": 7,
+        "startedAt": "2026-11-12T00:49:29.097423+00:00",
+        "updatedAt": "2026-11-12T00:49:29.097423+00:00",
         "checkpoint": {
-            "profiles": 19,
-            "admissionFacts": 48,
-            "programsReused": 0,
-            "programsCreated": 32
+            "profiles": 5,
+            "admissionFacts": 7,
+            "programsReused": 12,
+            "programsCreated": 9,
+            "priorSharedLinksAdded": 42
         },
-        "finishedAt": "2026-11-08T10:42:20.159+00:00",
-        "artifactSha256": "fa37631be49a0c1aff133a2bd5a182677f85516b70ae5622da4abddf302669fa",
-        "datasetVersion": "official-admissions-lesotho-remaining-2026-11-08-v1"
+        "finishedAt": "2026-11-12T00:49:29.188+00:00",
+        "artifactSha256": "73aedbcff2d38fa898990689a69abc709a3a7b2dd507580ef4d3937de4e0b3cc",
+        "datasetVersion": "official-admissions-lesotho-catalogue-2026-11-12-v1"
     },
     "schemaVersion": 2
 }

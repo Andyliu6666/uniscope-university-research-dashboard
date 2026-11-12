@@ -1,0 +1,623 @@
+{
+  "datasetVersion": "official-admissions-lesotho-catalogue-2026-11-12-v1",
+  "reviewedOn": "2026-11-12",
+  "institutions": [
+    {
+      "key": "lesotho",
+      "name": "National University of Lesotho",
+      "provider": "ror",
+      "externalId": "04j4j0a75",
+      "countryCode": "LS",
+      "officialDomains": ["nul.ls"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 prospectus and undated faculty web wording. Check the applicable entry path before applying.",
+      "requirements": [
+        {
+          "key": "nul_catalogue_agriculture_direct_source_difference",
+          "category": "academic",
+          "label": "Agriculture: direct-entry subject grades differ across sources",
+          "status": "unknown",
+          "details": "The 2026/2027 prospectus names Agriculture and Agricultural Economics under Year 1 direct entry and specifies two additional C grades and one remaining D. The undated faculty programme page asks for one additional C and two remaining D grades. The prospectus lists all eight awards under Year 2 indirect entry. Confirm the Year 1 route and applicable grades with the faculty for the chosen award.",
+          "source": {
+            "url": "https://nul.ls/faculty-of-agriculture/academic-programmes/",
+            "title": "NUL Faculty of Agriculture, Academic Programmes: direct-entry subject grades",
+            "checkedOn": "2026-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_catalogue_special_ed",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Use the shared BEd school baseline and the programme-specific conditions together.",
+      "requirements": [
+        {
+          "key": "nul_catalogue_special_ed_year_one",
+          "category": "academic",
+          "label": "Special Education major: first-year course",
+          "status": "conditional",
+          "details": "Students who intend to major in Special Education must take a Special Education course during Year 1. This condition applies after enrolment.",
+          "source": {
+            "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+            "title": "NUL 2026/2027 prospectus, printed page 13: Special Education preamble",
+            "checkedOn": "2026-11-08"
+          }
+        },
+        {
+          "key": "nul_catalogue_special_ed_business_grade",
+          "category": "academic",
+          "label": "Special Education: Business Education Mathematics wording",
+          "status": "unknown",
+          "details": "The undated Special Education course page lists Mathematics C or better for the Business Education specialization. The 2026/2027 Special Education subsection names English Language Education as its listed specialization requirement. Confirm whether Business Education is offered in this award and whether the Mathematics threshold applies to it for the selected year.",
+          "source": {
+            "url": "https://nul.ls/course/bachelor-of-special-education/",
+            "title": "NUL Bachelor of Special Education course page: selected specializations",
+            "checkedOn": "2026-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_socialwork",
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "See the source conflict on indirect entry and confirm placement with the faculty.",
+      "requirements": [
+        {
+          "key": "nul_catalogue_social_work_web_placement",
+          "category": "academic",
+          "label": "Social Work: programme page reverses the placement years",
+          "status": "unknown",
+          "details": "The undated programme page assigns Year 2 in its combined Diploma/Advanced Diploma clause and Year 3 in its separate Advanced Diploma clause. The 2026/2027 prospectus gives the opposite order. Ask the faculty which placement applies to the exact credential.",
+          "source": {
+            "url": "https://nul.ls/course/15077-2/",
+            "title": "NUL Bachelor of Social Work course page: indirect entry",
+            "checkedOn": "2026-11-12"
+          }
+        },
+        {
+          "key": "nul_catalogue_social_work_credit_exemption",
+          "category": "academic",
+          "label": "Social Work: possible first-year semester exemptions",
+          "status": "conditional",
+          "details": "Faculty regulations FSS 3.05 and 3.06 allow consideration for exemption from semesters 1 and 2 for recognized Social Work Diploma or Advanced Diploma holders with at least a credit pass. The regulation page gives no effective cohort. Confirm how this exemption is applied alongside the prospectus and programme-page placement clauses.",
+          "source": {
+            "url": "https://nul.ls/faculty-of-social-sciences/faculty-regulations/",
+            "title": "NUL Social Sciences Faculty Regulations: FSS 3.05 and 3.06",
+            "checkedOn": "2026-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated faculty guidance. Availability depends on remaining places after the first admissions round.",
+      "requirements": [
+        {
+          "key": "nul_catalogue_science_maths_bridge",
+          "category": "academic",
+          "label": "Mathematics bridging: six named Science, Education and Pharmacy awards",
+          "status": "conditional",
+          "details": "Applicants with LGCSE Mathematics C or its equivalent who meet the other entry requirements may be considered for a bridging programme for BSc General, Computer Science, Information Systems, Statistics, BSc with Education and Pharmacy. It is offered only if places remain after the first admissions round. The faculty page gives no intake year or guaranteed offer.",
+          "source": {
+            "url": "https://nul.ls/faculty-of-social-sciences/academic-programmes/",
+            "title": "NUL Social Sciences Academic Programmes: Mathematics Bridging Programme",
+            "checkedOn": "2026-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "lesotho",
+      "programId": null,
+      "programKey": "nul_planning",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Undated faculty guidance on a separate bridging route.",
+      "requirements": [
+        {
+          "key": "nul_catalogue_planning_maths_bridge",
+          "category": "academic",
+          "label": "Urban and Regional Planning: Mathematics bridging with grade D",
+          "status": "conditional",
+          "details": "Applicants with LGCSE Mathematics D or equivalent who meet the other minimum requirements may be considered for the Mathematics Bridging Programme through the Department of Mathematics and Computer Science. It runs only if there are places after the first admissions round. The faculty page gives no intake year.",
+          "source": {
+            "url": "https://nul.ls/faculty-of-social-sciences/academic-programmes/",
+            "title": "NUL Social Sciences Academic Programmes: Planning Mathematics Bridging Programme",
+            "checkedOn": "2026-11-12"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nul_catalogue_ag_general",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture",
+      "level": "undergraduate",
+      "field": "Agriculture",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Agriculture)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_school_group"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_ranking"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_english_general_faculty_difference"
+        }
+      ],
+      "sharedRequirementKeys": ["nul_catalogue_agriculture_direct_source_difference"]
+    },
+    {
+      "key": "nul_catalogue_ag_economics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture (Agricultural Economics)",
+      "level": "undergraduate",
+      "field": "Agricultural economics",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Agricultural economics)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_school_group"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_ranking"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_english_general_faculty_difference"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_maths"
+        }
+      ],
+      "sharedRequirementKeys": ["nul_catalogue_agriculture_direct_source_difference"]
+    },
+    {
+      "key": "nul_catalogue_ag_extension",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture (Agricultural Extension)",
+      "level": "undergraduate",
+      "field": "Agricultural extension",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Agricultural extension)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_maths"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_ag_animal",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture (Animal Science)",
+      "level": "undergraduate",
+      "field": "Animal science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Animal science)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_maths"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_ag_crop",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture (Crop Science)",
+      "level": "undergraduate",
+      "field": "Crop science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Crop science)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_maths"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_ag_soil",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Agriculture (Soil Science)",
+      "level": "undergraduate",
+      "field": "Soil science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Soil science)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_maths"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_ag_range",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Range Resources and Ecology Management",
+      "level": "undergraduate",
+      "field": "Range resources and ecology management",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Range resources and ecology management)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_ag_consumer",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Consumer Sciences",
+      "level": "undergraduate",
+      "field": "Consumer science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed pages 8–11: Agriculture catalogue (Consumer science)",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_diploma_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_agriculture_stc_wording"
+        }
+      ]
+    },
+    {
+      "key": "nul_catalogue_special_ed",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Education in Special Education",
+      "level": "undergraduate",
+      "field": "Special education",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 13: Bachelor of Education in Special Education",
+        "checkedOn": "2026-11-08"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_school_baseline"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_english_teaching"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_stc_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_diploma_placement"
+        }
+      ]
+    },
+    {
+      "key": "nul_bed",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Education",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 12–13: Bachelor of Education",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_school_baseline"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_english_teaching"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_stc_placement"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_bed_shared_diploma_placement"
+        }
+      ]
+    },
+    {
+      "key": "nul_science_education",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science with Education",
+      "level": "undergraduate",
+      "field": "Science education",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 14: Bachelor of Science with Education",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_english_general_faculty_difference"
+        }
+      ],
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_nursing_midwifery",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Nursing and Midwifery",
+      "level": "undergraduate",
+      "field": "Nursing and midwifery",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 16–17: Bachelor of Science in Nursing and Midwifery",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_health_shared_ranking"
+        }
+      ]
+    },
+    {
+      "key": "nul_pharmacy",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Pharmacy (Honours)",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 17–18: Bachelor of Pharmacy (Honours)",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_health_shared_ranking"
+        }
+      ],
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_environmental_health",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Environmental Health",
+      "level": "undergraduate",
+      "field": "Environmental health",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 18–19: Bachelor of Science in Environmental Health",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_health_shared_ranking"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_environment_nutrition_school"
+        }
+      ]
+    },
+    {
+      "key": "nul_nutrition",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Nutrition",
+      "level": "undergraduate",
+      "field": "Nutrition",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 19–20: Bachelor of Science in Nutrition",
+        "checkedOn": "2026-11-07"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_health_shared_ranking"
+        },
+        {
+          "datasetVersion": "official-admissions-lesotho-2026-11-07-v1",
+          "key": "nul_environment_nutrition_school"
+        }
+      ]
+    },
+    {
+      "key": "nul_general",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science (General)",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 32–33: Bachelor of Science (General)",
+        "checkedOn": "2026-11-08"
+      },
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_cs",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Computer Science",
+      "level": "undergraduate",
+      "field": "Computer science",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 34, 36–37: Bachelor of Science in Computer Science",
+        "checkedOn": "2026-11-08"
+      },
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_statistics",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Statistics",
+      "level": "undergraduate",
+      "field": "Statistics",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 37–38: Bachelor of Science in Statistics",
+        "checkedOn": "2026-11-08"
+      },
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_systems",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Science in Information Systems",
+      "level": "undergraduate",
+      "field": "Information systems",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 38: Bachelor of Science in Information Systems",
+        "checkedOn": "2026-11-08"
+      },
+      "sharedRequirementKeys": ["nul_catalogue_science_maths_bridge"]
+    },
+    {
+      "key": "nul_socialwork",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Social Work",
+      "level": "undergraduate",
+      "field": "Social work",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 44: Bachelor of Social Work",
+        "checkedOn": "2026-11-08"
+      }
+    },
+    {
+      "key": "nul_planning",
+      "institutionKey": "lesotho",
+      "name": "Bachelor of Urban and Regional Planning",
+      "level": "undergraduate",
+      "field": "Urban and regional planning",
+      "source": {
+        "url": "https://nul.ls/wp-content/uploads/2025/12/PROSPECTUS-2026-2027-FINAL-VERSION.docx",
+        "title": "NUL 2026/2027 prospectus, printed page 39–40: Bachelor of Urban and Regional Planning",
+        "checkedOn": "2026-11-08"
+      }
+    }
+  ]
+}

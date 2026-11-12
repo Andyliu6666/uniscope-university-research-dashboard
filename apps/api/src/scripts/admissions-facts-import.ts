@@ -112,6 +112,67 @@ type ProgramPlan = {
   existing: ProgramRow | undefined;
 };
 
+async function planPriorSharedLinks(store: Store, programsToImport: Map<string, ProgramPlan>) {
+  const targets = new Map<
+    string,
+    { id: string; sourceFlags: Record<string, unknown>; programIds: string[]; addedKeys: string[] }
+  >();
+  for (const [key, { input, universityId, existing }] of programsToImport) {
+    for (const reference of input.priorSharedRequirements ?? []) {
+      const targetKey = JSON.stringify([
+        universityId,
+        input.level,
+        reference.datasetVersion,
+        reference.key,
+      ]);
+      let target = targets.get(targetKey);
+      if (!target) {
+        const matches = await store
+          .select({ id: admissionRequirements.id, sourceFlags: admissionRequirements.sourceFlags })
+          .from(admissionRequirements)
+          .innerJoin(
+            admissionProfiles,
+            eq(admissionRequirements.admissionProfileId, admissionProfiles.id),
+          )
+          .innerJoin(sources, eq(admissionRequirements.sourceId, sources.id))
+          .where(
+            and(
+              eq(admissionProfiles.universityId, universityId),
+              eq(admissionProfiles.level, input.level),
+              isNull(admissionProfiles.programId),
+              eq(sources.universityId, universityId),
+              eq(sources.category, 'official'),
+              eq(admissionRequirements.requirementKey, reference.key),
+              eq(sql`${admissionRequirements.sourceFlags}->>'provider'`, PROVIDER),
+              eq(
+                sql`${admissionRequirements.sourceFlags}->>'datasetVersion'`,
+                reference.datasetVersion,
+              ),
+            ),
+          );
+        const row = matches[0];
+        if (matches.length !== 1 || !row)
+          throw new Error(
+            `Expected one prior shared requirement in the same institution and level: ${reference.datasetVersion}/${reference.key}`,
+          );
+        const ids = row.sourceFlags.sharedProgramIds;
+        if (
+          ids !== undefined &&
+          (!Array.isArray(ids) ||
+            !ids.length ||
+            !ids.every((id) => typeof id === 'string') ||
+            new Set(ids).size !== ids.length)
+        )
+          throw new Error('Invalid existing shared programme links.');
+        target = { ...row, programIds: ids ?? [], addedKeys: [] };
+        targets.set(targetKey, target);
+      }
+      if (!existing || !target.programIds.includes(existing.id)) target.addedKeys.push(key);
+    }
+  }
+  return [...targets.values()].filter(({ addedKeys }) => addedKeys.length);
+}
+
 async function resolveProfile(
   db: Store,
   dataset: AdmissionsFactsDataset,
@@ -162,7 +223,7 @@ async function resolveProfile(
   return { school, university, profile, programId, existingProfile, facts };
 }
 
-/** Append only: repeat facts are skipped across source URLs. Conflicts roll back the whole batch. */
+/** Add facts and explicit programme links atomically. Repeated facts reuse their original rows. */
 export async function importAdmissionsFacts(db: Database, input: unknown, dryRun = false) {
   const dataset = admissionFactsDatasetSchema.parse(input);
   const artifactHash = createHash('sha256').update(JSON.stringify(dataset)).digest('hex');
@@ -194,6 +255,15 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
       ? {
           programsCreated: [...programPlans.values()].filter((plan) => !plan.existing).length,
           programsReused: [...programPlans.values()].filter((plan) => plan.existing).length,
+        }
+      : {};
+    const priorLinks = await planPriorSharedLinks(store, programPlans);
+    const linkCounts = [...programPlans.values()].some(({ input }) => input.priorSharedRequirements)
+      ? {
+          priorSharedLinksAdded: priorLinks.reduce(
+            (total, link) => total + link.addedKeys.length,
+            0,
+          ),
         }
       : {};
     const plans = [];
@@ -235,7 +305,7 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
         if (
           ids.some((id) => !id) ||
           !Array.isArray(stored) ||
-          JSON.stringify([...ids].sort()) !== JSON.stringify([...stored].sort())
+          ids.some((id) => !stored.includes(id))
         )
           throw new Error(
             'Shared programme links conflict with an existing fact; review rather than overwrite.',
@@ -243,7 +313,15 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
       }
     const inserted = plans.flatMap((plan) => plan.facts).filter((item) => !item.existing).length;
     const skipped = plans.flatMap((plan) => plan.facts).length - inserted;
-    if (!write) return { mode: 'dry-run', inserted, skipped, databaseWrites: 0, ...programCounts };
+    if (!write)
+      return {
+        mode: 'dry-run',
+        inserted,
+        skipped,
+        databaseWrites: 0,
+        ...programCounts,
+        ...linkCounts,
+      };
     const [previousRun] = await store
       .select()
       .from(importRuns)
@@ -255,11 +333,11 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
         ),
       );
     if (previousRun?.status === 'completed') {
-      if (inserted)
+      if (inserted || priorLinks.length || programCounts.programsCreated)
         throw new Error(
-          'Completed artifact has missing facts; investigate instead of silently restoring.',
+          'Completed artifact has missing facts, programmes or links; investigate before restoring.',
         );
-      return { mode: 'already-completed', inserted: 0, skipped, ...programCounts };
+      return { mode: 'already-completed', inserted: 0, skipped, ...programCounts, ...linkCounts };
     }
     if (previousRun) throw new Error('Unexpected incomplete ledger; review before retrying.');
     const [run] = await store
@@ -301,6 +379,17 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
         .returning();
       if (!saved) throw new Error('Programme insert failed.');
       programIds.set(key, saved.id);
+    }
+    for (const { id, sourceFlags, programIds: priorIds, addedKeys } of priorLinks) {
+      const newIds = addedKeys.map((key) => {
+        const programId = programIds.get(key);
+        if (!programId) throw new Error('Shared programme identity disappeared.');
+        return programId;
+      });
+      await store
+        .update(admissionRequirements)
+        .set({ sourceFlags: { ...sourceFlags, sharedProgramIds: [...priorIds, ...newIds] } })
+        .where(eq(admissionRequirements.id, id));
     }
     for (const plan of plans) {
       let profileId = plan.existingProfile?.id;
@@ -377,10 +466,11 @@ export async function importAdmissionsFacts(db: Database, input: unknown, dryRun
           profiles: plans.length,
           admissionFacts: inserted + skipped,
           ...programCounts,
+          ...linkCounts,
         },
       })
       .where(eq(importRuns.id, run.id));
-    return { mode: 'completed', inserted, skipped, ...programCounts };
+    return { mode: 'completed', inserted, skipped, ...programCounts, ...linkCounts };
   };
   if (dryRun) return perform(db, false);
   return db.transaction(async (tx) => {
