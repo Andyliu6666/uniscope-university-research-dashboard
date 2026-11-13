@@ -1,0 +1,2332 @@
+{
+  "datasetVersion": "official-admissions-hku-scores-2026-11-13-1",
+  "reviewedOn": "2026-11-13",
+  "institutions": [
+    {
+      "key": "hku",
+      "name": "University of Hong Kong",
+      "provider": "ror",
+      "externalId": "02zhqgq86",
+      "countryCode": "HK",
+      "officialDomains": ["hku.hk"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "International and Non-JUPAS first-year university entrance rules.",
+      "requirements": [
+        {
+          "key": "hku_a_level_eligibility",
+          "category": "academic",
+          "label": "A-level / International A-level · general eligibility",
+          "status": "required",
+          "details": "Present at least three eligible A-level subjects. The exclusions include English or Chinese language-related subjects, Critical Thinking, Extended Project Qualification, General Studies, Global Perspectives and Research, Knowledge and Enquiry, Project Work and Thinking Skills.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2, university-wide requirements",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_ap_eligibility",
+          "category": "academic",
+          "label": "AP · general eligibility",
+          "status": "required",
+          "details": "Present at least three eligible AP subjects and either SAT or two further eligible AP subjects. The university may consider comparable ACT results. English Language and Composition, AP Research and AP Seminar are excluded. Programme-level grade and test conditions vary.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2, university-wide requirements",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_5d4a61b20aa7ae24b4",
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2028/29 non-JUPAS entry, per the faculty’s forward guidance.",
+      "requirements": [
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference for 2028/29",
+          "status": "considered",
+          "details": "At least eight AP exams at grade 5, together with one of these test scores in a single sitting: SAT 1500/1600 or ACT composite 34. Check the faculty’s excluded AP subjects.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS FAQ, expected scores for 2028/29",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_a_level_sitting",
+          "category": "academic",
+          "label": "A-level / International A-level · 2028/29 exam timing",
+          "status": "required",
+          "details": "All four required A-level subject grades must be obtained in the same examination series at the end of the two-year course. The 2027/28 exception for an earlier Mathematics examination ends for this cycle.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS FAQ, GCEAL/IAL examination series",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_6b374b5841852ec9e0",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_cfceb91f9201bad450",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 4 + SAT 1500/1600. AP-only route: 5 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_34856400bac0017af3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_331b0b9a3f22a4aa1b",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1400/1600. AP-only route: 3 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_fa04f736e1ca163bfd",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1500/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_aa7c2cd49259de2fbd",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1500/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_10acb8ff44b636c7f3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1500/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_e9e8bdd2f648086eba",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1470/1600. AP-only route: 4 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_3dc87ef51d7aac51be",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1520/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_4295521086a74b578c",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1520/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_a7f24b50487f8f552f",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1520/1600. AP-only route: 6 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_47eab9c9f58b67d54b",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1560/1600. AP-only route: 7 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_3f09c8f61ebf94ff42",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 4 AP exams at grade 5 + SAT 1470/1600. AP-only route: 4 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_ca7fe47d4006840fc9",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_8431b6c3642e24f2d9",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_bc258ba68c60035093",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_0056f9e4d6459002c1",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_31486ffdd29a522a71",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_c26f8e9fcb1ff9685c",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1510/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_1cc565c9c0826a33e6",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1500/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_4cd4ce09cc08dbb6c8",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1500/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_5cc635a3f744511df1",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_314293ac5e8484fe2e",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_c616790ed3d5ba3b1a",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_7299468f6b2117d547",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1400/1600. AP-only route: 3 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_66c6dd0d8dddfafdb4",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_5d4a61b20aa7ae24b4",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "4 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "Six AP exams at grade 5, together with one of these test scores in a single sitting: SAT 1500/1600 or ACT composite 34. The faculty excludes AP Chinese Language and Culture, English Language and Composition, Seminar and Research.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS FAQ, expected scores for 2027/28",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_mbbs_subject",
+          "category": "academic",
+          "label": "Medicine · Biology or Chemistry",
+          "status": "required",
+          "details": "Provide high-school public examination evidence in Biology or Chemistry. The programme is a first-choice application.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS programme requirements",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_mbbs_chinese",
+          "category": "language",
+          "label": "Medicine · working knowledge of Chinese",
+          "status": "required",
+          "details": "A working knowledge of Chinese applies to local and non-local candidates. Interview assessment can use Cantonese or Mandarin.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS FAQ, Chinese language",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_mbbs_ucat",
+          "category": "standardized_test",
+          "label": "Medicine · UCAT",
+          "status": "optional",
+          "details": "UCAT may support a 2027/28 application. Applicants who omit it are assessed without a disadvantage.",
+          "source": {
+            "url": "https://hkumed-ugadmissions.hku.hk/ug_programmes/bachelor-of-medicine-and-bachelor-of-surgery/",
+            "title": "HKUMed Non-JUPAS FAQ, UCAT",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_73b47caea394245acd",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_746eca4203c4ab1aa4",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_7e71586d50289e6b2f",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_58f4ec3ddbe7fe58eb",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1400/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_9f72574a0f11d87277",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1400/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_7a68416eede9df70a3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 3 + SAT 1380/1600. AP-only route: 5 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_e7a01bfe48409640e1",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1520/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_baf44c9bdbc9b97c98",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 4 + SAT 1500/1600. AP-only route: 3 AP exams at grade 4 + 2 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_29d61fe60fa12f4f2e",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 4 + SAT 1500/1600. AP-only route: 3 AP exams at grade 4 + 2 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_eb845500c474a0324d",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 4 + SAT 1500/1600. AP-only route: 3 AP exams at grade 4 + 2 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_9540b0310d5692fae3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 1 AP exams at grade 5 + 2 AP exams at grade 4 + SAT 1510/1600. AP-only route: 1 AP exams at grade 5 + 4 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_5c80e5a6ba55ed7632",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 1 AP exams at grade 5 + 2 AP exams at grade 4 + SAT 1510/1600. AP-only route: 1 AP exams at grade 5 + 4 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_1b81cfbbe61ce03a59",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 1 AP exams at grade 5 + 2 AP exams at grade 4 + SAT 1510/1600. AP-only route: 1 AP exams at grade 5 + 4 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_08c7c4e05a5d59f9fe",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 4 + SAT 1500/1600. AP-only route: 3 AP exams at grade 4 + 2 AP exams at grade 3.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_2f7f68fb5c918554d6",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "1 × A* + 2 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1400/1600. AP-only route: 3 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_db6f5e565bab36a340",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "4 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1450/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_f51271565b78f6a53a",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "3 × A*.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1450/1600. AP-only route: 5 AP exams at grade 5.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "hku",
+      "programId": null,
+      "programKey": "course_71105ec7eba171c94f",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 international and non-JUPAS first-year applicants. HKU publishes a competitive reference. Selection also considers subject requirements, statements, references and interview performance where applicable.",
+      "requirements": [
+        {
+          "key": "hku_competitive_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · competitive reference",
+          "status": "considered",
+          "details": "2 × A* + 1 × A.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "hku_competitive_ap",
+          "category": "academic",
+          "label": "AP · competitive reference",
+          "status": "considered",
+          "details": "With SAT: 3 AP exams at grade 5 + SAT 1400/1600. AP-only route: 3 AP exams at grade 5 + 2 AP exams at grade 4.",
+          "source": {
+            "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+            "title": "HKU 2027 international admissions, PDF p. 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "course_6b374b5841852ec9e0",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_cfceb91f9201bad450",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts Elite Programme",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_34856400bac0017af3",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts in Humanities and Digital Technologies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_331b0b9a3f22a4aa1b",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Bachelor of Engineering in Artificial Intelligence and Data Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_fa04f736e1ca163bfd",
+      "institutionKey": "hku",
+      "name": "Bachelor of Business Administration",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_aa7c2cd49259de2fbd",
+      "institutionKey": "hku",
+      "name": "Bachelor of Economics / Bachelor of Economics and Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_10acb8ff44b636c7f3",
+      "institutionKey": "hku",
+      "name": "Bachelor of Business Administration in Accounting and Finance / Bachelor of Business Administration in Accounting Data Analytics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_e9e8bdd2f648086eba",
+      "institutionKey": "hku",
+      "name": "Bachelor of Business Administration (Business Analytics)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_3dc87ef51d7aac51be",
+      "institutionKey": "hku",
+      "name": "Bachelor of Business Administration (Law) and Bachelor of Laws",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_4295521086a74b578c",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science in Quantitative Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_a7f24b50487f8f552f",
+      "institutionKey": "hku",
+      "name": "Bachelor of Finance in Asset Management and Private Banking",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_47eab9c9f58b67d54b",
+      "institutionKey": "hku",
+      "name": "Bachelor of Business Administration in International Business and Global Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_3f09c8f61ebf94ff42",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science in Marketing Analytics and Technology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_ca7fe47d4006840fc9",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts in Architectural Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_8431b6c3642e24f2d9",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science in Surveying",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_bc258ba68c60035093",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts in Landscape Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_0056f9e4d6459002c1",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts in Urban Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_31486ffdd29a522a71",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Sciences in Design+",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_c26f8e9fcb1ff9685c",
+      "institutionKey": "hku",
+      "name": "Bachelor of Dental Surgery",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_1cc565c9c0826a33e6",
+      "institutionKey": "hku",
+      "name": "Bachelor of Laws",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_4cd4ce09cc08dbb6c8",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Bachelor of Laws",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_5cc635a3f744511df1",
+      "institutionKey": "hku",
+      "name": "Bachelor of Education in Early Childhood Education and Special Education",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_314293ac5e8484fe2e",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Bachelor of Education in Language Education - English",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_c616790ed3d5ba3b1a",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Bachelor of Education in Language Education - Chinese",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7299468f6b2117d547",
+      "institutionKey": "hku",
+      "name": "Bachelor of Education and Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_66c6dd0d8dddfafdb4",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science in Speech-Language Pathology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_5d4a61b20aa7ae24b4",
+      "institutionKey": "hku",
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_73b47caea394245acd",
+      "institutionKey": "hku",
+      "name": "Bachelor of Nursing",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_746eca4203c4ab1aa4",
+      "institutionKey": "hku",
+      "name": "Bachelor of Nursing Advanced Leadership Track",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7e71586d50289e6b2f",
+      "institutionKey": "hku",
+      "name": "Bachelor of Chinese Medicine",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_58f4ec3ddbe7fe58eb",
+      "institutionKey": "hku",
+      "name": "Bachelor of Pharmacy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_9f72574a0f11d87277",
+      "institutionKey": "hku",
+      "name": "Bachelor of Biomedical Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7a68416eede9df70a3",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Sciences in Global Health and Development",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_e7a01bfe48409640e1",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering Elite Programme",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_baf44c9bdbc9b97c98",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering in Data and Systems Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_29d61fe60fa12f4f2e",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering in Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_eb845500c474a0324d",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering in Civil Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_9540b0310d5692fae3",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering in Robotics Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_5c80e5a6ba55ed7632",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering and Master of Science in Engineering in Artificial Intelligence in Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_1b81cfbbe61ce03a59",
+      "institutionKey": "hku",
+      "name": "Global Engineering and Business Programme",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_08c7c4e05a5d59f9fe",
+      "institutionKey": "hku",
+      "name": "Bachelor of Engineering in Computer Engineering / Electrical Engineering / Electronic Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_2f7f68fb5c918554d6",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_db6f5e565bab36a340",
+      "institutionKey": "hku",
+      "name": "Science Master Class",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_f51271565b78f6a53a",
+      "institutionKey": "hku",
+      "name": "Bachelor of Science and Bachelor of Laws",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_71105ec7eba171c94f",
+      "institutionKey": "hku",
+      "name": "Bachelor of Arts and Sciences in Applied Artificial Intelligence",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admissions.hku.hk/sites/default/files/2026-11/HKU%20Intl%20Admissions_2027.pdf",
+        "title": "HKU 2027 international admissions, PDF p. 4",
+        "checkedOn": "2026-11-13"
+      }
+    }
+  ]
+}

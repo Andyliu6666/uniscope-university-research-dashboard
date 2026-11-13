@@ -65,6 +65,13 @@ describe('reviewed IB requirements', () => {
     expect(ibRequirementSchema.parse(requirement)).toEqual(requirement);
     expect(formatIbTotal(requirement)).toBe('28–30/45 · Typical offer');
   });
+  it.each([
+    ['competitive_reference', 'Competitive reference score'],
+    ['historical_reference', 'Historical admissions reference'],
+  ] as const)('renders %s with its published meaning', (scoreKind, label) => {
+    const value = ibRequirementSchema.parse({ ...requirement, scoreKind });
+    expect(formatIbTotal(value)).toBe(`28–30/45 · ${label}`);
+  });
   it.each([null, 0, 46])('rejects a missing or impossible published total: %s', (totalMin) => {
     expect(ibRequirementSchema.safeParse({ ...requirement, totalMin }).success).toBe(false);
   });

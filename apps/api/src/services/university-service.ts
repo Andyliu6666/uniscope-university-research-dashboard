@@ -733,6 +733,14 @@ export const getUniversityAdmissions = async (
 
   const profileFilters = [
     eq(admissionProfiles.universityId, university.id),
+    query.programme
+      ? sql<boolean>`exists (
+          select 1 from ${programs}
+          where ${programs.id} = ${admissionProfiles.programId}
+            and ${programs.universityId} = ${admissionProfiles.universityId}
+            and ${programs.name} ilike ${`%${escapeLike(query.programme)}%`} escape '\\'
+        )`
+      : undefined,
     query.year ? eq(admissionProfiles.academicYear, query.year) : undefined,
     query.level ? eq(admissionProfiles.level, query.level) : undefined,
     query.applicantType ? eq(admissionProfiles.applicantType, query.applicantType) : undefined,

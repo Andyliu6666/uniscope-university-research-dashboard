@@ -89,7 +89,7 @@ describe('IbRequirementCard', () => {
     ).toBeInTheDocument();
     expect(screen.getByText('Total includes core points.')).toBeInTheDocument();
     expect(screen.getByText(/An offer also depends/u)).toBeInTheDocument();
-    const link = screen.getByRole('link', { name: /Official requirement · checked 2026-09-10/u });
+    const link = screen.getByRole('link', { name: /Official source · checked 2026-09-10/u });
     expect(link).toHaveAttribute('href', 'https://university.example/courses/computing');
     expect(link).toHaveAttribute('rel', 'noreferrer');
   });

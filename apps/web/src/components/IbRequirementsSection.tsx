@@ -29,7 +29,7 @@ export function IbRequirementCard({ requirement }: { requirement: IbRequirement 
       )}
       <p>{requirement.conditions}</p>
       <a href={requirement.source.url} target="_blank" rel="noreferrer">
-        Official requirement · checked {requirement.source.checkedOn} ↗
+        Official source · checked {requirement.source.checkedOn} ↗
       </a>
     </div>
   );
@@ -60,8 +60,8 @@ export function IbRequirementsSection({ slug }: { slug: string }) {
       <p className="kicker">Programs & IB entry requirements</p>
       <h2 id="ib-heading">Find the requirements for your course</h2>
       <p>
-        Compare the entry year, applicant route, IB total and Higher Level conditions. A published
-        minimum permits consideration; it does not guarantee an offer.
+        Compare entry years, IB scores and Higher Level conditions. Check each score’s label for its
+        role in admissions.
       </p>
       <form
         className="ib-filters"

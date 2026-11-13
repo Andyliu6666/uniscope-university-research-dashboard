@@ -265,7 +265,7 @@ const saveRecord = async (
     kind: 'overall_score' as const,
     subject: requirement.recordKey,
     operator:
-      requirement.totalMin === null
+      requirement.totalMin === null || requirement.scoreKind === 'competitive_reference'
         ? ('descriptive' as const)
         : requirement.totalMax !== null
           ? ('range' as const)

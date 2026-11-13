@@ -39,6 +39,12 @@ Use optional `priorSharedRequirements` on a programme to link to an earlier offi
 
 The importer adds these associations to the prior fact's programme IDs in the same transaction as the new catalogue entries and ledger. It retains earlier associations, requirement text and citations. The preview reports `priorSharedLinksAdded`, and a complete repeat reports zero. Both reference fields are optional without defaults so completed artifact hashes still match.
 
+## Qualification scores
+
+Use the IB artifact for structured Diploma totals. Score kinds include `competitive_reference` for published application benchmarks and `historical_reference` for score bands compiled from earlier admissions. Record a minimum only where the source establishes it as an eligibility threshold. A-level grade combinations and AP exam counts, grades and companion tests use reviewed admissions facts. Use the same catalogue name and profile scope so the IB importer can reuse the programme identity. See the [Hong Kong batch](research/HONG_KONG_QUALIFICATIONS_20261113.md).
+
+The general admissions API accepts `programme` for a case-insensitive programme name search across all pages. The university detail page exposes this search above the general admissions results.
+
 ## Delivery modes
 
 Profiles may supply `deliveryMode: "distance"`, `"campus"`, `"hybrid"` or `"unspecified"`. An omitted mode resolves to `unspecified` for database identity; parsing does not add a default field to completed JSON artifacts or change their hashes. Existing records remain unspecified, without assuming they are campus offers. The same programme/year/intake/level/applicant/entry route can have independent mode-specific profiles. Do not put delivery mode into `intakeTerm` or create a second catalogue award solely for distance study.

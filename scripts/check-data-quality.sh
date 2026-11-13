@@ -701,7 +701,8 @@ BEGIN
         OR COALESCE(q.scale, '') NOT IN ('42', '45')
         OR p.level = 'graduate'
         OR COALESCE(q.source_flags #>> '{ib,scoreKind}', '') NOT IN
-          ('minimum_entry', 'typical_offer', 'contextual_offer', 'guaranteed_entry')
+          ('minimum_entry', 'typical_offer', 'contextual_offer', 'guaranteed_entry',
+           'competitive_reference', 'historical_reference')
       ))
       OR (q.source_flags #>> '{ib,status}' <> 'published' AND
           (q.minimum_value IS NOT NULL OR q.maximum_value IS NOT NULL OR q.scale IS NOT NULL))

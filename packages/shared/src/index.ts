@@ -170,6 +170,7 @@ export const admissionDeliveryModeSchema = z.enum(['unspecified', 'campus', 'dis
 export type AdmissionDeliveryMode = z.infer<typeof admissionDeliveryModeSchema>;
 
 export const admissionsQuerySchema = z.object({
+  programme: z.string().trim().max(100).optional(),
   year: z
     .string()
     .regex(/^(?:[0-9]{4}(?:[/-][0-9]{2,4})?|unspecified)$/u)

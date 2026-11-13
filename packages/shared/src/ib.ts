@@ -26,7 +26,14 @@ export const ibRequirementSchema = z
       'not_accepted',
     ]),
     scoreKind: z
-      .enum(['minimum_entry', 'typical_offer', 'contextual_offer', 'guaranteed_entry'])
+      .enum([
+        'minimum_entry',
+        'typical_offer',
+        'contextual_offer',
+        'guaranteed_entry',
+        'competitive_reference',
+        'historical_reference',
+      ])
       .nullable(),
     totalMin: z.number().int().min(1).max(45).nullable(),
     totalMax: z.number().int().min(1).max(45).nullable(),
@@ -220,6 +227,8 @@ export const ibStatusLabels: Record<IbRequirement['status'], string> = {
 };
 export const ibScoreKindLabels: Record<NonNullable<IbRequirement['scoreKind']>, string> = {
   minimum_entry: 'Minimum entry requirement',
+  competitive_reference: 'Competitive reference score',
+  historical_reference: 'Historical admissions reference',
   typical_offer: 'Typical offer',
   contextual_offer: 'Contextual offer — eligibility conditions apply',
   guaranteed_entry: 'Guaranteed entry — all stated conditions must be met',

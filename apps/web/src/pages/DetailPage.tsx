@@ -21,8 +21,9 @@ const money = new Intl.NumberFormat('en-US', {
 });
 export function DetailPage() {
   const { slug = '' } = useParams();
-  const [admissionsPageState, setAdmissionsPage] = useState({ slug, page: 1 });
-  const admissionsPage = admissionsPageState.slug === slug ? admissionsPageState.page : 1;
+  const [admissionsFilter, setAdmissionsFilter] = useState({ slug, page: 1, programme: '' });
+  const { page: admissionsPage, programme } =
+    admissionsFilter.slug === slug ? admissionsFilter : { page: 1, programme: '' };
   const {
     data: university,
     isPending,
@@ -34,8 +35,9 @@ export function DetailPage() {
     error: admissionsError,
     refetch: refetchAdmissions,
   } = useQuery({
-    queryKey: ['university-admissions', slug, admissionsPage],
-    queryFn: () => fetchUniversityAdmissions(slug, { page: admissionsPage, pageSize: 20 }),
+    queryKey: ['university-admissions', slug, admissionsPage, programme],
+    queryFn: () =>
+      fetchUniversityAdmissions(slug, { page: admissionsPage, pageSize: 20, programme }),
     enabled: Boolean(slug),
   });
   const reportedCost = university ? primaryCost(university.costs) : undefined;
@@ -147,13 +149,16 @@ export function DetailPage() {
       <InstitutionFactsSection university={university} />
       <ResearchSection profile={university.researchProfile} />
       <AdmissionsSection
+        key={slug}
         data={admissions}
         pending={admissionsPending}
         failed={Boolean(admissionsError)}
         onRetry={() => {
           void refetchAdmissions();
         }}
-        onPageChange={(page) => setAdmissionsPage({ slug, page })}
+        onPageChange={(page) => setAdmissionsFilter({ slug, page, programme })}
+        programme={programme}
+        onProgrammeSearch={(name) => setAdmissionsFilter({ slug, page: 1, programme: name })}
       />
       <CostsSection data={admissions} pending={admissionsPending} />
       <CoverageSection university={university} />
@@ -412,13 +417,49 @@ export function AdmissionsSection({
   failed = false,
   onPageChange,
   onRetry,
+  programme,
+  onProgrammeSearch,
 }: {
   data: Awaited<ReturnType<typeof fetchUniversityAdmissions>> | undefined;
   pending: boolean;
   failed?: boolean;
   onPageChange?: (page: number) => void;
   onRetry?: () => void;
+  programme?: string;
+  onProgrammeSearch?: (name: string) => void;
 }) {
+  const [search, setSearch] = useState('');
+  const searchForm = onProgrammeSearch && (
+    <form
+      className="ib-filters"
+      onSubmit={(event) => {
+        event.preventDefault();
+        onProgrammeSearch(search.trim());
+      }}
+    >
+      <label>
+        Find programme admissions
+        <input
+          type="search"
+          maxLength={100}
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+        />
+      </label>
+      <button type="submit">Search admissions</button>
+      {programme && (
+        <button
+          type="button"
+          onClick={() => {
+            setSearch('');
+            onProgrammeSearch('');
+          }}
+        >
+          Clear programme search
+        </button>
+      )}
+    </form>
+  );
   const [selectedId, setSelectedId] = useState('');
   // IB-only profiles retain their dedicated programme browser below.
   const profiles =
@@ -507,13 +548,14 @@ export function AdmissionsSection({
 
   if (!profile)
     return (
-      <section className="panel admissions-panel">
+      <section className="panel admissions-panel" id="admissions-requirements">
         <p className="kicker">Research data</p>
         <h2>Admissions data</h2>
+        {searchForm}
         <p className="muted">
-          General admissions requirements and statistics have not been verified on this page. IB
-          requirements are shown in their own section below; enrollment details are shown when
-          available.
+          {programme
+            ? 'No general admissions records match this programme search. The IB section below has a separate programme search.'
+            : 'General admissions requirements and statistics have not been verified on this page. See the IB section and enrollment details below.'}
         </p>
         {pagination}
         <EnrollmentSection rows={data.enrollment} source={findEnrollmentSource(data.sources)} />
@@ -540,6 +582,7 @@ export function AdmissionsSection({
     <section className="panel admissions-panel" id="admissions-requirements">
       <p className="kicker">Admissions · {profile.academicYear}</p>
       <h2>Admissions requirements & application</h2>
+      {searchForm}
       <p className="muted">
         {profiles.length} general admission scopes on this page. Select a scope to view its
         requirements; this count does not mean the institution is fully researched.

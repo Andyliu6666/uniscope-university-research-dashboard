@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280328,
+            "programs": 280459,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2266,
+            "admissionProfiles": 2400,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 22908,
+            "admissionRequirements": 23179,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 77
+            "qualificationRequirements": 209
         },
         "ibCoverage": {
             "byCountry": [
@@ -39,6 +39,12 @@
                     "institutions": 3,
                     "programs_with_reviewed_ib": 24,
                     "programs_with_published_totals": 0
+                },
+                {
+                    "country": "Hong Kong",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 131,
+                    "programs_with_published_totals": 131
                 },
                 {
                     "country": "Kenya",
@@ -101,12 +107,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 77,
-            "programsWithReviewedIb": 69,
-            "institutionWidePolicies": 8,
-            "institutionsWithReviewedIb": 28,
-            "programsWithPublishedTotals": 37,
-            "undergraduateCatalogEntries": 194655
+            "reviewedRecords": 209,
+            "programsWithReviewedIb": 200,
+            "institutionWidePolicies": 9,
+            "institutionsWithReviewedIb": 30,
+            "programsWithPublishedTotals": 168,
+            "undergraduateCatalogEntries": 194786
         },
         "coreCoverage": {
             "phone": 4078,
@@ -135,13 +141,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4096,
+            "programs": 4098,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1874,
+            "admissions": 1876,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24055
+            "noStructuredApplicationFacts": 24053
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -153,32 +159,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 888,
-            "profiles": 356,
-            "institutions": 15
+            "facts": 1159,
+            "profiles": 490,
+            "institutions": 17
         }
     },
-    "generatedAt": "2026-11-12T00:50:05Z",
+    "generatedAt": "2026-11-13T12:02:31Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 7,
-        "provider": "official_admissions",
+        "inserted": 132,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 7,
-        "startedAt": "2026-11-12T00:49:29.097423+00:00",
-        "updatedAt": "2026-11-12T00:49:29.097423+00:00",
+        "processed": 132,
+        "startedAt": "2026-11-13T12:02:09.66283+00:00",
+        "updatedAt": "2026-11-13T12:02:09.944+00:00",
         "checkpoint": {
-            "profiles": 5,
-            "admissionFacts": 7,
-            "programsReused": 12,
-            "programsCreated": 9,
-            "priorSharedLinksAdded": 42
+            "rowIndex": 132,
+            "sourceRows": 132,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-12T00:49:29.188+00:00",
-        "artifactSha256": "73aedbcff2d38fa898990689a69abc709a3a7b2dd507580ef4d3937de4e0b3cc",
-        "datasetVersion": "official-admissions-lesotho-catalogue-2026-11-12-v1"
+        "finishedAt": "2026-11-13T12:02:09.944+00:00",
+        "artifactSha256": "d8fc9d12e8d8b23e90d4a608b9157fd9f3e5975cc6ba3810e83432d952060731",
+        "datasetVersion": "official-ib-hong-kong-2026-11-13-v1"
     },
     "schemaVersion": 2
 }

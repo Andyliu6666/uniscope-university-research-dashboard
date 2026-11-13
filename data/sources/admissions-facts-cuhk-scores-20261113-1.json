@@ -1,0 +1,2259 @@
+{
+  "datasetVersion": "official-admissions-cuhk-scores-2026-11-13-1",
+  "reviewedOn": "2026-11-13",
+  "institutions": [
+    {
+      "key": "cuhk",
+      "name": "Chinese University of Hong Kong",
+      "provider": "ror",
+      "externalId": "00t33hh48",
+      "countryCode": "HK",
+      "officialDomains": ["cuhk.edu.hk"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University-wide first-year entry standards for international qualifications. Programme and language requirements also apply.",
+      "requirements": [
+        {
+          "key": "cuhk_general_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · minimum eligibility",
+          "status": "required",
+          "details": "Pass three A-level subjects, or pass two A-level subjects and two AS-level subjects. Programme-specific subject requirements also apply.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/application/non-jupas/general-requirements/",
+            "title": "CUHK local Non-JUPAS general entry requirements",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_general_ap",
+          "category": "academic",
+          "label": "AP · minimum eligibility with SAT or ACT",
+          "status": "required",
+          "details": "Present a senior secondary graduation diploma or certificate, two AP exams at grade 3 or higher, and either SAT 1190/1600 or ACT composite 24.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/application/non-jupas/general-requirements/",
+            "title": "CUHK local Non-JUPAS general entry requirements",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_0fa737ecd16855b5c5",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_058b76bee0c89af55f",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_59ee968563b11275fd",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_ba118bf7fc9c1aedc1",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_cfd159eb769363d655",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_0e769600933790607b",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_b60e56e77b7f0ecc02",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_f8e5d982ee8ee1f7d5",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_6eb00b4b2614a144d4",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_7f3d81eb0817c1bf0e",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_c465caabd47aba7a8c",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_9769a8d59c83af66f6",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_88d8a4f0b1d5256f25",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_6fbd766b1a71cc4d29",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "BBB to ABB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 1",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_565c88bd0bedd5c19a",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_61378e7fa9774b026b",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_fa52957744f0ca0918",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1450-1500/1600. The historical table lists either grades 4-5 in each of two AP exams or 700-750 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_57640e5e833c913a57",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "A*A*A*A to A*A*A*A*. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1450-1500/1600. The historical table lists either grades 4-5 in each of two AP exams or 700-750 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_f17492add3ba47eca1",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 5",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 5",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_9fe59c8e5c9a0f102a",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_bf68944b43c0f666fb",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1450-1500/1600. The historical table lists either grades 4-5 in each of two AP exams or 700-750 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_701c96fe0e116a05fb",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAB to AAA. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_7633176d3078576412",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_de3ee849bb46c74f6e",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_4da2c936272423fd29",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_18888de3a93fe1aa65",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_713bbe43a61dad67fd",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_84180523a797072f41",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_03031661318f679c24",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_ecafc8404dd6e9cfb6",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_187cde692966030a9b",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_8c60b3d294cd721683",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 2",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_b288ecef4822f3b956",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAB to AAA. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_ea735f99add19e6102",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_d84768403dab367014",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 700-750 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_993acda64e1c9d1ba1",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAA to A*A*A. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_52ecef902dc728254e",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_b55696e73d66d83896",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_afebc502c7b0661b72",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_dbff121dfbf46ae573",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAB to AAA. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_4fa6ade60b9dceb088",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_baeb7673deadc058d1",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "AAB to AAA. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1350-1450/1600. The historical table lists either grades 3-4 in each of two AP exams or 650-700 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_ece9c17e45c2ccbe88",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_7c9b19d597bb49c2fd",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "programKey": "course_838d2f06435588e0cd",
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2026 local Non-JUPAS first-year planning reference based on 2023–2025 admissions. The ranges reflect published reference bands and can vary by cohort. Check current university, language and programme conditions.",
+      "requirements": [
+        {
+          "key": "cuhk_historical_a_level",
+          "category": "academic",
+          "label": "A-level / International A-level · historical reference",
+          "status": "considered",
+          "details": "ABB to AAB. Reference band based on 2023–2025 admissions.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        },
+        {
+          "key": "cuhk_historical_ap",
+          "category": "academic",
+          "label": "AP and SAT · historical reference",
+          "status": "considered",
+          "details": "SAT 1250-1350/1600. The historical table lists either grades 3-4 in each of two AP exams or 600-650 in each of two SAT Subject Tests. Use CUHK’s current requirements to check which credentials it accepts for new applications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+            "title": "CUHK 2026 international qualification reference, PDF p. 3",
+            "checkedOn": "2026-11-13"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "course_0fa737ecd16855b5c5",
+      "institutionKey": "cuhk",
+      "name": "Anthropology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_058b76bee0c89af55f",
+      "institutionKey": "cuhk",
+      "name": "Chinese Language & Literature",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_59ee968563b11275fd",
+      "institutionKey": "cuhk",
+      "name": "Chinese Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_ba118bf7fc9c1aedc1",
+      "institutionKey": "cuhk",
+      "name": "English",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_cfd159eb769363d655",
+      "institutionKey": "cuhk",
+      "name": "Fine Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_0e769600933790607b",
+      "institutionKey": "cuhk",
+      "name": "History",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_b60e56e77b7f0ecc02",
+      "institutionKey": "cuhk",
+      "name": "Japanese Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_f8e5d982ee8ee1f7d5",
+      "institutionKey": "cuhk",
+      "name": "Linguistics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_6eb00b4b2614a144d4",
+      "institutionKey": "cuhk",
+      "name": "Music",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7f3d81eb0817c1bf0e",
+      "institutionKey": "cuhk",
+      "name": "Philosophy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_c465caabd47aba7a8c",
+      "institutionKey": "cuhk",
+      "name": "Public Humanities",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_9769a8d59c83af66f6",
+      "institutionKey": "cuhk",
+      "name": "Religious Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_88d8a4f0b1d5256f25",
+      "institutionKey": "cuhk",
+      "name": "Theology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_6fbd766b1a71cc4d29",
+      "institutionKey": "cuhk",
+      "name": "Translation",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 1",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_565c88bd0bedd5c19a",
+      "institutionKey": "cuhk",
+      "name": "Biotechnology, Entrepreneurship & Healthcare Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_61378e7fa9774b026b",
+      "institutionKey": "cuhk",
+      "name": "Integrated Bachelor of Business Administration",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_fa52957744f0ca0918",
+      "institutionKey": "cuhk",
+      "name": "Integrated BBA Programme & Juris Doctor",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_57640e5e833c913a57",
+      "institutionKey": "cuhk",
+      "name": "Global Business Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_f17492add3ba47eca1",
+      "institutionKey": "cuhk",
+      "name": "Global Economics & Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 5",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_9fe59c8e5c9a0f102a",
+      "institutionKey": "cuhk",
+      "name": "Hospitality & Real Estate",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_bf68944b43c0f666fb",
+      "institutionKey": "cuhk",
+      "name": "Insurance, Financial & Actuarial Analysis",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_701c96fe0e116a05fb",
+      "institutionKey": "cuhk",
+      "name": "Interdisciplinary Data Analytics and X Double Major Programme",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7633176d3078576412",
+      "institutionKey": "cuhk",
+      "name": "Professional Accountancy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_de3ee849bb46c74f6e",
+      "institutionKey": "cuhk",
+      "name": "Quantitative Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_4da2c936272423fd29",
+      "institutionKey": "cuhk",
+      "name": "Quantitative Finance & Risk Management Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_18888de3a93fe1aa65",
+      "institutionKey": "cuhk",
+      "name": "B.A. (Chinese Language Studies) & B.Ed. (Chinese Language Education)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_713bbe43a61dad67fd",
+      "institutionKey": "cuhk",
+      "name": "B.A. (English Studies) & B.Ed. (English Language Education)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_84180523a797072f41",
+      "institutionKey": "cuhk",
+      "name": "BSc in Learning Design & Technology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2, 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_03031661318f679c24",
+      "institutionKey": "cuhk",
+      "name": "Early Childhood Education",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_ecafc8404dd6e9cfb6",
+      "institutionKey": "cuhk",
+      "name": "Human Movement Science and Health Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_187cde692966030a9b",
+      "institutionKey": "cuhk",
+      "name": "Mathematics & Mathematics Education",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_8c60b3d294cd721683",
+      "institutionKey": "cuhk",
+      "name": "Physical Education, Exercise Science & Health",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 2",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_b288ecef4822f3b956",
+      "institutionKey": "cuhk",
+      "name": "Aerospace Science and Earth Informatics and X (ASEI+X) Double Major Programme",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_ea735f99add19e6102",
+      "institutionKey": "cuhk",
+      "name": "Artificial Intelligence: Systems & Technologies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_d84768403dab367014",
+      "institutionKey": "cuhk",
+      "name": "Biomedical Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_993acda64e1c9d1ba1",
+      "institutionKey": "cuhk",
+      "name": "Computational Data Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_52ecef902dc728254e",
+      "institutionKey": "cuhk",
+      "name": "Computer Science & Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_b55696e73d66d83896",
+      "institutionKey": "cuhk",
+      "name": "Electronic Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_afebc502c7b0661b72",
+      "institutionKey": "cuhk",
+      "name": "Energy & Environmental Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_dbff121dfbf46ae573",
+      "institutionKey": "cuhk",
+      "name": "Financial Technology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_4fa6ade60b9dceb088",
+      "institutionKey": "cuhk",
+      "name": "Information Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_baeb7673deadc058d1",
+      "institutionKey": "cuhk",
+      "name": "Materials Science and Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_ece9c17e45c2ccbe88",
+      "institutionKey": "cuhk",
+      "name": "Mathematics & Information Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3, 4",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_7c9b19d597bb49c2fd",
+      "institutionKey": "cuhk",
+      "name": "Mechanical & Automation Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    },
+    {
+      "key": "course_838d2f06435588e0cd",
+      "institutionKey": "cuhk",
+      "name": "Systems Engineering & Engineering Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/10/Reference_Scores.pdf",
+        "title": "CUHK 2026 international qualification reference, PDF p. 3",
+        "checkedOn": "2026-11-13"
+      }
+    }
+  ]
+}
