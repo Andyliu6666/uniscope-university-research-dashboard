@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280503,
+            "programs": 280601,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2535,
+            "admissionProfiles": 2659,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 23287,
+            "admissionRequirements": 23391,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 299
+            "qualificationRequirements": 398
         },
         "ibCoverage": {
             "byCountry": [
@@ -90,8 +90,8 @@
                 },
                 {
                     "country": "Singapore",
-                    "institutions": 1,
-                    "programs_with_reviewed_ib": 43,
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 141,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -113,12 +113,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 299,
-            "programsWithReviewedIb": 244,
-            "institutionWidePolicies": 13,
-            "institutionsWithReviewedIb": 31,
+            "reviewedRecords": 398,
+            "programsWithReviewedIb": 342,
+            "institutionWidePolicies": 14,
+            "institutionsWithReviewedIb": 32,
             "programsWithPublishedTotals": 168,
-            "undergraduateCatalogEntries": 194830
+            "undergraduateCatalogEntries": 194928
         },
         "coreCoverage": {
             "phone": 4078,
@@ -147,13 +147,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4099,
+            "programs": 4100,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1877,
+            "admissions": 1878,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24052
+            "noStructuredApplicationFacts": 24051
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -165,31 +165,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 1267,
-            "profiles": 541,
-            "institutions": 18
+            "facts": 1371,
+            "profiles": 591,
+            "institutions": 19
         }
     },
-    "generatedAt": "2026-11-15T01:20:25Z",
+    "generatedAt": "2026-11-15T01:39:51Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 90,
+        "inserted": 75,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 90,
-        "startedAt": "2026-11-15T01:19:22.331168+00:00",
-        "updatedAt": "2026-11-15T01:19:22.549+00:00",
+        "processed": 75,
+        "startedAt": "2026-11-15T01:38:36.788454+00:00",
+        "updatedAt": "2026-11-15T01:38:36.99+00:00",
         "checkpoint": {
-            "rowIndex": 90,
-            "sourceRows": 90,
+            "rowIndex": 75,
+            "sourceRows": 75,
             "schemaVersion": 1,
-            "createdPrograms": 1
+            "createdPrograms": 75
         },
-        "finishedAt": "2026-11-15T01:19:22.549+00:00",
-        "artifactSha256": "791d9a9a8b97662a73e67787924763e41d4ecbcc9aed3f4e8a9ea800341ff59d",
-        "datasetVersion": "official-ib-ntu-cuhk-2026-11-15-v1"
+        "finishedAt": "2026-11-15T01:38:36.99+00:00",
+        "artifactSha256": "67b8c194e28526214deb7efdb16430185383737b89db34f3e916975266a5a2d4",
+        "datasetVersion": "official-ib-ntu-remaining-options-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

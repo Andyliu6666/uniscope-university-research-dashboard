@@ -1,0 +1,79 @@
+{
+  "datasetVersion": "official-admissions-ntu-ib-application-supplement-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "ntu",
+      "name": "Nanyang Technological University",
+      "provider": "ror",
+      "externalId": "02e7b5302",
+      "countryCode": "SG",
+      "officialDomains": ["ntu.edu.sg"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_a050daa56fc7a97511",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Additional programme assessment for the 2027/28 IB route.",
+      "requirements": [
+        {
+          "key": "ntu_ib_communication_selection",
+          "category": "interview",
+          "label": "IB Communication Studies · selection assessment",
+          "status": "required",
+          "details": "The selection column for the Communication Studies row specifies a selection test or interview.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+            "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "IB Diploma requirements for Singapore citizens and permanent residents.",
+      "requirements": [
+        {
+          "key": "ntu_ib_mother_tongue",
+          "category": "language",
+          "label": "IB · Mother Tongue Language and exemption",
+          "status": "conditional",
+          "details": "An SL or HL pass in Mother Tongue Language A or B can fulfil the requirement. NTU also recognises specified Singapore GCE results, Mother Tongue Language in lieu and MOE exemptions. Applicants may still apply if they do not meet it. Admitted students without an approved exemption must fulfil the requirement before graduation.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements",
+            "title": "NTU IB Diploma admissions, Mother Tongue Language for Singapore citizens and PRs",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ntu_a050daa56fc7a97511",
+      "institutionKey": "ntu",
+      "name": "Communication Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}
