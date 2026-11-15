@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Queensland international entry matrix — November 15
+
+1. **Baseline.** Local main matched remote `d0e4eff`. [Both ANU CI checks passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43668388683). The prior verified archive is the pre-import backup. It held 2,197 reviewed general facts and 677 IB rows. The UQ identity `ror:00rqy9422` had zero catalogue entries.
+2. **Sources.** Checked all 54 undergraduate table rows against the rendered 2027 international guide. The [source record](research/UQ_QUALIFICATIONS_20261115.md) identifies the five score columns, IBAS meaning, subject prerequisites, selection criteria and source differences.
+3. **Artifacts.** Two general files contain 93 facts and 79 links to 54 programme entries. The IB file records 54 exact IBAS references, 35 fractional. The database keeps converted admissions scores distinct from the integer IB Diploma total.
+4. **Import.** Three validation passes and zero-write previews succeeded. Part 2 was previewed once its references to Part 1 existed. Live import added 54 catalogue entries, 93 general facts and 54 IB records without rejection. Part 2 added 45 explicit references to the first file's facts. The IB importer reused all 54 programme IDs. Every repeat returned already completed.
+5. **Verification.** Prior 2,197 general and 677 IB rows matched their complete-row hashes. The live API matched 2,290 reviewed general facts, 731 IB records and all 79 new programme links. Browser search displayed the provisional Medicine scores, UCAT ANZ, interview and direct-route closing date. All 293 workspace tests and the data-quality gate passed.
+6. **Coverage and backup.** The database has 28,171 institutions, 280,933 catalogue entries, 2,996 admission profiles, 24,310 general requirements, 107,582 sources and 76 runs. Reviewed general admissions cover 24 institutions. IB research covers 37 institutions and 674 catalogue entries, with 430 raw diploma total references. The broad count without structured application facts is 24,046. Archive `backups/post-uq-20261115.3cf54V` read completely with 192 listing entries and SHA-256 `c4487f26c2ef3bb62210589cb5b3039d5ef50f999a2072b5d7792820cb066bfa`.
+
+The next source batch is the University of Cape Town's 2027 prospectus, including separate faculty rules and local admission-point calculations.
+
 ## ANU entrance ranks and associated programme requirements — November 15
 
 1. **Baseline.** Local and remote main matched at `71c1700` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43667248914). The verified Sydney/Monash post-import archive is the ANU pre-import archive. It held 2,108 reviewed general requirements and 627 reviewed IB records.

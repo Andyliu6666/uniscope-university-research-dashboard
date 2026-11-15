@@ -1,0 +1,1502 @@
+{
+  "datasetVersion": "official-admissions-uq-2027-qualifications-part-1-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "uq",
+      "name": "The University of Queensland",
+      "provider": "ror",
+      "externalId": "00rqy9422",
+      "countryCode": "AU",
+      "officialDomains": ["uq.edu.au"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international school-leaver entry. Score sets are linked to programmes with the same published values.",
+      "requirements": [
+        {
+          "key": "uq_ib_converted_score",
+          "label": "IB Admissions Score conversion",
+          "category": "academic",
+          "status": "conditional",
+          "details": "UQ uses the converted IB Admissions Score (IBAS) for university entry, and can translate it to an ATAR-like Combined Rank. Fractional programme scores in the 2027 matrix are preserved as converted admission scores.",
+          "source": {
+            "url": "https://study.uq.edu.au/stories/ib-vs-atar",
+            "title": "UQ International Baccalaureate and ATAR, IBAS calculation",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_us_qualification",
+          "label": "US secondary credential and AP, SAT or ACT evidence",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "Provide an accepted secondary completion credential. For AP, provide the College Board results and count two to four tests. Use the best four results when more than four are presented. UQ also lists separate SAT and ACT routes.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2020-06/usa-high-school-info-sheet.pdf",
+            "title": "UQ USA high school qualifications, standardized tests and AP aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_academic_scope",
+          "label": "Secondary completion and subject prerequisites",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete Queensland Year 12 or an accepted equivalent. Meet the programme’s academic score, required subjects, English proficiency and any additional programme selection.",
+          "source": {
+            "url": "https://study.uq.edu.au/admissions/undergraduate/review-entry-requirements",
+            "title": "UQ undergraduate entry requirements, qualification and prerequisites",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_standard_english",
+          "label": "Standard undergraduate English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "The guide’s standard IELTS route is 6.5 overall and 6.0 in every band. Recognised academic evidence or equivalent tests may also be accepted. Some programmes set higher scores.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_intl_route",
+          "label": "International undergraduate application route",
+          "category": "application",
+          "status": "conditional",
+          "details": "International applicants with senior schooling outside Australia generally apply directly or through an approved agent. Applicants currently taking Australian Year 12 or completing IB in Australia typically apply through QTAC. Check the programme’s exceptions.",
+          "source": {
+            "url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
+            "title": "UQ international undergraduate application routes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_1",
+          "label": "Published qualifications · ATAR 73 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 27.25, UK GCE A-level aggregate 5, AP aggregate 9, SAT 1000/1600 and ACT 22/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_2",
+          "label": "Published qualifications · ATAR 78 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 29.25, UK GCE A-level aggregate 7.5, AP aggregate 11, SAT 1060/1600 and ACT 23/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_3",
+          "label": "Published qualifications · ATAR 94 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 38, UK GCE A-level aggregate 13.5, AP aggregate 16, SAT 1360/1600 and ACT 31/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_4",
+          "label": "Published qualifications · ATAR 75 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 28, UK GCE A-level aggregate 6, AP aggregate 10, SAT 1000/1600 and ACT 22/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_5",
+          "label": "Published qualifications · ATAR 84 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 32, UK GCE A-level aggregate 10, AP aggregate 13, SAT 1170/1600 and ACT 26/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_6",
+          "label": "Published qualifications · ATAR 80 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 30.25, UK GCE A-level aggregate 8.5, AP aggregate 12, SAT 1100/1600 and ACT 24/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_7",
+          "label": "Published qualifications · ATAR 90 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 35.25, UK GCE A-level aggregate 12, AP aggregate 15, SAT 1290/1600 and ACT 29/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_8",
+          "label": "Published qualifications · ATAR 70 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 26.25, UK GCE A-level aggregate 5, AP aggregate 8, SAT 980/1600 and ACT 21/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_9",
+          "label": "Published qualifications · ATAR 76 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 28.5, UK GCE A-level aggregate 6.5, AP aggregate 10, SAT 1020/1600 and ACT 22/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_10",
+          "label": "Published qualifications · ATAR 99 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 43.25, UK GCE A-level aggregate 15, AP aggregate 17, SAT 1460/1600 and ACT 34/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_11",
+          "label": "Published qualifications · ATAR 74 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 27.75, UK GCE A-level aggregate 5.5, AP aggregate 10, SAT 1000/1600 and ACT 22/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_12",
+          "label": "Published qualifications · ATAR 98 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 41.75, UK GCE A-level aggregate 15, AP aggregate 17, SAT 1440/1600 and ACT 33/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_13",
+          "label": "Published qualifications · ATAR 97 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 40.75, UK GCE A-level aggregate 14.5, AP aggregate 17, SAT 1420/1600 and ACT 33/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_14",
+          "label": "Published qualifications · ATAR 85 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 32.75, UK GCE A-level aggregate 10.5, AP aggregate 14, SAT 1190/1600 and ACT 27/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_15",
+          "label": "Published qualifications · ATAR 86 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 33, UK GCE A-level aggregate 11, AP aggregate 14, SAT 1210/1600 and ACT 27/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_16",
+          "label": "Published qualifications · ATAR 82 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 31, UK GCE A-level aggregate 9.5, AP aggregate 13, SAT 1130/1600 and ACT 25/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_17",
+          "label": "Published qualifications · ATAR 93 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 37, UK GCE A-level aggregate 13, AP aggregate 16, SAT 1350/1600 and ACT 30/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_18",
+          "label": "Published qualifications · ATAR 96 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 39.75, UK GCE A-level aggregate 14, AP aggregate 17, SAT 1400/1600 and ACT 32/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_19",
+          "label": "Published qualifications · ATAR 91 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 35.75, UK GCE A-level aggregate 12.5, AP aggregate 15, SAT 1310/1600 and ACT 29/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_20",
+          "label": "Published qualifications · ATAR 88 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 34, UK GCE A-level aggregate 11.5, AP aggregate 14, SAT 1250/1600 and ACT 28/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_21",
+          "label": "Published qualifications · ATAR 95 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 38.75, UK GCE A-level aggregate 14, AP aggregate 16, SAT 1380/1600 and ACT 32/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_22",
+          "label": "Published qualifications · ATAR 92 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 36.75, UK GCE A-level aggregate 13, AP aggregate 15, SAT 1330/1600 and ACT 30/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_scores_23",
+          "label": "Published qualifications · ATAR 81 equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international guide lists converted IBAS 30.75, UK GCE A-level aggregate 9, AP aggregate 12, SAT 1120/1600 and ACT 25/36. Follow the entry and selection conditions for the named programme.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_higher_english",
+          "label": "Programme English requirement above the standard",
+          "category": "language",
+          "status": "required",
+          "details": "The 2027 guide flags this programme for a higher-than-standard English requirement. Check the exact test or academic proof on the programme’s current official page.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF pages 2–3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_competitive_quota",
+          "label": "Quota and competitive selection",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 guide marks this course as quota-restricted. The scores are indicative and applications are assessed individually.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF pages 2–3, quota note",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_01_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 73 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_01"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_02_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 73 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_02"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_03_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 78 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_03"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_04_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 94 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_vet_casper",
+          "label": "Veterinary Science · Casper and selection",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "Sit Casper during the application year. UQ assesses the academic rank and Casper result together. The 2027 guide lists rank 94 and IBAS 38 for the international matrix, while the 2027 programme page also lists rank 95 in its minimum selection section. Confirm the applicable standard with UQ.",
+          "source": {
+            "url": "https://study.uq.edu.au/study-options/programs/bachelor-veterinary-science-honours-2378?year=2027",
+            "title": "UQ Veterinary Science 2027 prerequisites and selection",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_vet_subjects",
+          "label": "Veterinary Science · required subjects and English",
+          "category": "academic",
+          "status": "required",
+          "details": "Queensland Year 12 or equivalent General English, Chemistry, Mathematical Methods and one of Physics or Biology, each Units 3 and 4 at grade C. IELTS requires 7 overall and in every band. The programme specifies separate equivalent English test requirements.",
+          "source": {
+            "url": "https://study.uq.edu.au/study-options/programs/bachelor-veterinary-science-honours-2378?year=2027",
+            "title": "UQ Veterinary Science 2027 prerequisites and English tests",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_04"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_05_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 75 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_05"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_06_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 73 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_06"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_07_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_07"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_08_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_08"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_09_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 80 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_09"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_10_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 90 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_10"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_11_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 70 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_11"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_12_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 78 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_12"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_13_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 76 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_13"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_14_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_14"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_15_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 78 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_15"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_16_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 70 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_music_selection",
+          "label": "Music audition, interview and musicianship",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Arrange a School of Music audition and interview between 1 September and 30 November in the year before entry. Prepare repertoire comparable to AMEB Grade 7. The international guide also lists a musicianship test. Queensland Year 12 General English, Units 3 and 4 at grade C or equivalent, applies.",
+          "source": {
+            "url": "https://study.uq.edu.au/study-options/programs/bachelor-music-2535?year=2027",
+            "title": "UQ Bachelor of Music 2027 prerequisites and audition guidance",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_16"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_17_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 75 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_17"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_18_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 94 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_18"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_19_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 99 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_19"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_20_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 74 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_20"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_21_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_21"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_22_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_22"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_23_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 98 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_23"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_24_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 94 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_24"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_25_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 74 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_25"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1.",
+      "requirements": [
+        {
+          "key": "uq_2027_26_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 75 or the equivalent for this course. Commencement is listed for Semester 1.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_26"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_27_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 84 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uq_cs_subjects",
+          "label": "Computer Science · subject prerequisites",
+          "category": "academic",
+          "status": "required",
+          "details": "Queensland Year 12 or equivalent General English and Mathematical Methods, both Units 3 and 4 at grade C.",
+          "source": {
+            "url": "https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559?year=2027",
+            "title": "UQ Bachelor of Computer Science 2027 prerequisites",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_27"
+    },
+    {
+      "institutionKey": "uq",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 entry for international school leavers. The guide lists Semester 1 and Semester 2.",
+      "requirements": [
+        {
+          "key": "uq_2027_28_rank",
+          "label": "Published academic reference and intake",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 international entry guide lists ATAR 97 or the equivalent for this course. Commencement is listed for Semester 1 and Semester 2.",
+          "source": {
+            "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+            "title": "UQ 2027 international minimum entry scores, PDF page 3",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uq_2027_28"
+    }
+  ],
+  "programs": [
+    {
+      "key": "uq_2027_01",
+      "institutionKey": "uq",
+      "name": "Bachelor of Agribusiness",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Agribusiness, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_1"]
+    },
+    {
+      "key": "uq_2027_02",
+      "institutionKey": "uq",
+      "name": "Bachelor of Agricultural Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Agricultural Science, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_1"]
+    },
+    {
+      "key": "uq_2027_03",
+      "institutionKey": "uq",
+      "name": "Bachelor of Environmental Management (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Environmental Management (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_2"]
+    },
+    {
+      "key": "uq_2027_04",
+      "institutionKey": "uq",
+      "name": "Bachelor of Veterinary Science (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/study-options/programs/bachelor-veterinary-science-honours-2378?year=2027",
+        "title": "UQ Bachelor of Veterinary Science (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_3", "uq_higher_english", "uq_competitive_quota"]
+    },
+    {
+      "key": "uq_2027_05",
+      "institutionKey": "uq",
+      "name": "Bachelor of Veterinary Technology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Veterinary Technology, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_4"]
+    },
+    {
+      "key": "uq_2027_06",
+      "institutionKey": "uq",
+      "name": "Bachelor of Wildlife Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Wildlife Science, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_1"]
+    },
+    {
+      "key": "uq_2027_07",
+      "institutionKey": "uq",
+      "name": "Bachelor of Architectural Design",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Architectural Design, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_08",
+      "institutionKey": "uq",
+      "name": "Bachelor of Design",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Design, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_09",
+      "institutionKey": "uq",
+      "name": "Bachelor of Urban Planning",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Urban Planning, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_6"]
+    },
+    {
+      "key": "uq_2027_10",
+      "institutionKey": "uq",
+      "name": "Bachelor of Advanced Humanities (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Advanced Humanities (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_7"]
+    },
+    {
+      "key": "uq_2027_11",
+      "institutionKey": "uq",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Arts, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_8"]
+    },
+    {
+      "key": "uq_2027_12",
+      "institutionKey": "uq",
+      "name": "Bachelor of Communication",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Communication, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_2"]
+    },
+    {
+      "key": "uq_2027_13",
+      "institutionKey": "uq",
+      "name": "Bachelor of Criminology and Criminal Justice",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Criminology and Criminal Justice, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_9"]
+    },
+    {
+      "key": "uq_2027_14",
+      "institutionKey": "uq",
+      "name": "Bachelor of International Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of International Studies, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_15",
+      "institutionKey": "uq",
+      "name": "Bachelor of Journalism",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Journalism, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_2"]
+    },
+    {
+      "key": "uq_2027_16",
+      "institutionKey": "uq",
+      "name": "Bachelor of Music",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/study-options/programs/bachelor-music-2535?year=2027",
+        "title": "UQ Bachelor of Music, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_8"]
+    },
+    {
+      "key": "uq_2027_17",
+      "institutionKey": "uq",
+      "name": "Bachelor of Social Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Social Science, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_4"]
+    },
+    {
+      "key": "uq_2027_18",
+      "institutionKey": "uq",
+      "name": "Bachelor of Advanced Business (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Advanced Business (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_3", "uq_higher_english"]
+    },
+    {
+      "key": "uq_2027_19",
+      "institutionKey": "uq",
+      "name": "Bachelor of Advanced Finance and Economics (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Advanced Finance and Economics (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_10", "uq_higher_english"]
+    },
+    {
+      "key": "uq_2027_20",
+      "institutionKey": "uq",
+      "name": "Bachelor of Business Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Business Management, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_11"]
+    },
+    {
+      "key": "uq_2027_21",
+      "institutionKey": "uq",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Commerce, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_22",
+      "institutionKey": "uq",
+      "name": "Bachelor of Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Economics, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_23",
+      "institutionKey": "uq",
+      "name": "Bachelor of Laws (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Laws (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_12", "uq_higher_english"]
+    },
+    {
+      "key": "uq_2027_24",
+      "institutionKey": "uq",
+      "name": "Bachelor of Politics, Philosophy and Economics (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Politics, Philosophy and Economics (Honours), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_3"]
+    },
+    {
+      "key": "uq_2027_25",
+      "institutionKey": "uq",
+      "name": "Bachelor of Tourism, Hospitality and Event Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Tourism, Hospitality and Event Management, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_11"]
+    },
+    {
+      "key": "uq_2027_26",
+      "institutionKey": "uq",
+      "name": "Bachelor of Education (Primary)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Education (Primary), 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_4", "uq_higher_english"]
+    },
+    {
+      "key": "uq_2027_27",
+      "institutionKey": "uq",
+      "name": "Bachelor of Computer Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559?year=2027",
+        "title": "UQ Bachelor of Computer Science, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_5"]
+    },
+    {
+      "key": "uq_2027_28",
+      "institutionKey": "uq",
+      "name": "Bachelor of Computer Science and Master of Data Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://study.uq.edu.au/sites/default/files/2026-09/International-minimum-entry-score-guide.pdf",
+        "title": "UQ Bachelor of Computer Science and Master of Data Science, 2027 programme",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uq_scores_13"]
+    }
+  ]
+}

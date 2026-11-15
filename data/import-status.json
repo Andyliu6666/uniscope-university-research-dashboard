@@ -2,24 +2,24 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280879,
+            "programs": 280933,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2941,
+            "admissionProfiles": 2996,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24217,
+            "admissionRequirements": 24310,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 677
+            "qualificationRequirements": 731
         },
         "ibCoverage": {
             "byCountry": [
                 {
                     "country": "Australia",
-                    "institutions": 4,
-                    "programs_with_reviewed_ib": 263,
+                    "institutions": 5,
+                    "programs_with_reviewed_ib": 317,
                     "programs_with_published_totals": 262
                 },
                 {
@@ -119,12 +119,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 677,
-            "programsWithReviewedIb": 620,
+            "reviewedRecords": 731,
+            "programsWithReviewedIb": 674,
             "institutionWidePolicies": 15,
-            "institutionsWithReviewedIb": 36,
+            "institutionsWithReviewedIb": 37,
             "programsWithPublishedTotals": 430,
-            "undergraduateCatalogEntries": 195206
+            "undergraduateCatalogEntries": 195260
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,13 +153,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4104,
+            "programs": 4105,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1882,
+            "admissions": 1883,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24047
+            "noStructuredApplicationFacts": 24046
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -171,31 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2197,
-            "profiles": 873,
-            "institutions": 23
+            "facts": 2290,
+            "profiles": 928,
+            "institutions": 24
         }
     },
-    "generatedAt": "2026-11-15T02:28:31Z",
+    "generatedAt": "2026-11-15T02:39:34Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 50,
+        "inserted": 54,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 50,
-        "startedAt": "2026-11-15T02:28:07.90169+00:00",
-        "updatedAt": "2026-11-15T02:28:08.03+00:00",
+        "processed": 54,
+        "startedAt": "2026-11-15T02:38:58.536257+00:00",
+        "updatedAt": "2026-11-15T02:38:58.674+00:00",
         "checkpoint": {
-            "rowIndex": 50,
-            "sourceRows": 50,
+            "rowIndex": 54,
+            "sourceRows": 54,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-15T02:28:08.03+00:00",
-        "artifactSha256": "d39675a60d38033d841aec21c6ff6cc1623175f07b0b2f1335f9615febcb6239",
-        "datasetVersion": "official-ib-anu-2027-qualifications-2026-11-15-v1"
+        "finishedAt": "2026-11-15T02:38:58.674+00:00",
+        "artifactSha256": "15e99ab121124e480f84d03152b0210a2c42701108a39cb2927aa5719fd919d6",
+        "datasetVersion": "official-ib-uq-2027-qualifications-2026-11-15-v1"
     },
     "schemaVersion": 2
 }
