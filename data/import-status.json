@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281125,
+            "programs": 281130,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3192,
+            "admissionProfiles": 3216,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24633,
+            "admissionRequirements": 24691,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 813
         },
@@ -124,7 +124,7 @@
             "institutionWidePolicies": 15,
             "institutionsWithReviewedIb": 39,
             "programsWithPublishedTotals": 465,
-            "undergraduateCatalogEntries": 195452
+            "undergraduateCatalogEntries": 195457
         },
         "coreCoverage": {
             "phone": 4078,
@@ -171,31 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2613,
-            "profiles": 1054,
+            "facts": 2671,
+            "profiles": 1078,
             "institutions": 27
         }
     },
-    "generatedAt": "2026-11-15T14:25:59Z",
+    "generatedAt": "2026-11-15T14:32:19Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 35,
-        "provider": "official_ib",
+        "inserted": 58,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 35,
-        "startedAt": "2026-11-15T14:25:15.505036+00:00",
-        "updatedAt": "2026-11-15T14:25:15.602+00:00",
+        "processed": 58,
+        "startedAt": "2026-11-15T14:31:39.052368+00:00",
+        "updatedAt": "2026-11-15T14:31:39.052368+00:00",
         "checkpoint": {
-            "rowIndex": 35,
-            "sourceRows": 35,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 24,
+            "admissionFacts": 58,
+            "programsReused": 0,
+            "programsCreated": 5
         },
-        "finishedAt": "2026-11-15T14:25:15.602+00:00",
-        "artifactSha256": "c75a15b736ffb0ab4dacfa5e4f45822181e5f1037cd97d01009d2c9dea9149b9",
-        "datasetVersion": "official-ib-auckland-2027-overseas-2026-11-15-v1"
+        "finishedAt": "2026-11-15T14:31:39.146+00:00",
+        "artifactSha256": "dbcdfc25c7f1774835659e0173d1889a568c91e84d3ccc96ad2c93493efa9401",
+        "datasetVersion": "official-admissions-auckland-clinical-law-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

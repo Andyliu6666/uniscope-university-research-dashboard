@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Auckland clinical and Law progression — November 15
+
+1. **Baseline.** The database matched the prior Auckland overseas entry fingerprint. The verified preceding backup was retained. Local main matched `f44eba2` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43724489910).
+2. **Sources.** Compared five degree pages, the first-year clinical guidance, the 2027 health transition notes and the dedicated Law Part II selection rules. The [source record](research/AUCKLAND_CLINICAL_LAW_20261115.md) explains the two years, international routes, graduate thresholds and the conflicting 2028 Medical Imaging figures.
+3. **Artifacts.** One file adds five catalogue entries, 24 profiles and 58 facts. Twelve programme associations reuse three common facts about the 2028 clinical pathway and application timing. The programme-specific GPAs are stored as university selection facts.
+4. **Import.** The preview performed zero writes. The committed database transaction added five programme entries and 58 facts without rejection. The repeat reported already completed. Prior 2,613 general facts and 813 IB records matched their complete-row hashes.
+5. **Verification.** The API matched all 2,671 reviewed general facts, 813 IB records and 12 new shared associations. It confirmed the Medicine test change, both Medical Imaging GPA sources and the two Law Part II grade policies. The website displayed the Medical Imaging discrepancy in the 2028 scope. All 293 tests and the data-quality check passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 281,130 catalogue entries, 3,216 profiles, 24,691 general requirements, 107,626 sources and 86 runs. Archive `backups/post-auckland-clinical-20261115.aEANTN` read completely with 192 listing entries and SHA-256 `63f6b8a740b7d2a0635479e13929e0081a9ed8df94b32be3ebc1c999447889f9`.
+
+The next batch cross-checks the separate 2027 New Zealand school-leaver guaranteed rank scores with the current programme pages and the faculty’s revised Health and Science table.
+
 ## University of Auckland overseas secondary entry — November 15
 
 1. **Baseline.** Auckland ROR `03b94tp07` had no admissions profiles. The database fingerprint matched the verified Dar es Salaam backup and local main matched `1fa9ab9` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43723760852).

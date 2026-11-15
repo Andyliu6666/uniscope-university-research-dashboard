@@ -1,0 +1,1105 @@
+{
+  "datasetVersion": "official-admissions-auckland-clinical-law-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "auckland",
+      "name": "University of Auckland",
+      "provider": "ror",
+      "externalId": "03b94tp07",
+      "countryCode": "NZ",
+      "officialDomains": ["auckland.ac.nz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "akl_medicine",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Auckland · Bachelor of Medicine and Bachelor of Surgery",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_clinical_28_path",
+        "akl_clinical_28_courses",
+        "akl_clinical_28_application"
+      ]
+    },
+    {
+      "key": "akl_optometry",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Optometry",
+      "field": "Optometry",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Auckland · Bachelor of Optometry",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_clinical_28_path",
+        "akl_clinical_28_courses",
+        "akl_clinical_28_application"
+      ]
+    },
+    {
+      "key": "akl_pharmacy",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Pharmacy",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Auckland · Bachelor of Pharmacy",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_clinical_28_path",
+        "akl_clinical_28_courses",
+        "akl_clinical_28_application"
+      ]
+    },
+    {
+      "key": "akl_imaging",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Medical Imaging (Honours)",
+      "field": "Medical Imaging",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Auckland · Bachelor of Medical Imaging (Honours)",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_clinical_28_path",
+        "akl_clinical_28_courses",
+        "akl_clinical_28_application"
+      ]
+    },
+    {
+      "key": "akl_law",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Laws",
+      "field": "Law",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Auckland · Bachelor of Laws",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Published shared course and application rules for clinical progression in 2028.",
+      "requirements": [
+        {
+          "key": "akl_clinical_28_path",
+          "label": "2028 clinical entry · eligible Auckland degrees",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete year one in Biomedical Science, Community Health or Health Systems and Data Analytics within Health Sciences, or one of six Science majors: Cell and Molecular Bioscience, Exercise Sciences, Medicinal Chemistry, Nutrition, Pharmacology or Physiology. Use a full-time year and first attempts in the eight required courses.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · eligible Auckland degrees",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_clinical_28_courses",
+          "label": "2028 clinical entry · eight Auckland courses",
+          "category": "academic",
+          "status": "required",
+          "details": "Take BIOSCI 107, CHEM 190, MEDSCI 142 and POPLHLTH 111. Add WTRMHS 100 in Biomedical Science and Health Sciences or WTRSCI 100 in Science, plus three courses worth 15 points each from the qualifying degree.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · eight Auckland courses",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_clinical_28_application",
+          "label": "2028 clinical entry · progression application deadline",
+          "category": "application",
+          "status": "required",
+          "details": "Apply for clinical year-two entry by 1 July 2027 during the qualifying first year. The stated admission cycle is 2028.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · progression application deadline",
+            "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical admission after the first year of university study. The GPA is a university selection measure.",
+      "requirements": [
+        {
+          "key": "akl_medicine_2027_first_path",
+          "label": "2027 clinical entry · first-year course requirements",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete eight full-time Auckland courses in BHSc or the then-current BSc Biomedical Science route. Both take BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111. Add POPLHLTH 101, POPLHLTH 102, HLTHPSYC 122 and WTRMHS 100 in BHSc. BSc Biomedical Science takes BIOSCI 101, BIOSCI 106 and PHYSICS 160 and WTRSCI 100. First attempts are assessed.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · first-year course requirements",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2027_first_gpa",
+          "label": "2027 clinical entry · interview eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The published university GPA minimum for interview consideration is 6.0 across the seven assessed courses without failing any. The listed Auckland compulsory WTR course must be passed. Interview invitations are ranked.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · interview eligibility",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2027_first_ranking",
+          "label": "2027 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "Final ranking weights the GPA in BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111 at 60%, UCAT ANZ at 15% and the Multiple Mini Interview at 25%. Sit UCAT ANZ in the year of application.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_medicine"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical selection after the restructured 2027 first-year pathway. The listed GPA is a university result.",
+      "requirements": [
+        {
+          "key": "akl_medicine_2028_first_gpa",
+          "label": "2028 clinical entry · university GPA threshold",
+          "category": "academic",
+          "status": "required",
+          "details": "The degree page states GPA 6.0 in the four required courses and requires applicants to earn at least B in every first-year course. The interview ranking considers the core GPA and may use interim grades until official results are available.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · university GPA threshold",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2028_first_ranking",
+          "label": "2028 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "Auckland’s Casper and the Multiple Mini Interview each account for 50% of final selection. Sit Casper in the application year.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_medicine"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate entry for Medicine.",
+      "requirements": [
+        {
+          "key": "akl_medicine_2027_intl_grad",
+          "label": "International Medicine graduate · degree and GPA",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete a relevant degree at a recognised university full time, with at least GPA/GPE 6.0 and courses equivalent to BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111. The last full-time year must be within five years of applying. Pending graduates must provide final results by 30 November in the application year.",
+          "source": {
+            "title": "University of Auckland · International Medicine graduate · degree and GPA",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2027_intl_grad_mmi",
+          "label": "International Medicine graduate · interview and ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The published international graduate route exempts UCAT ANZ. Shortlisted applicants interview via Kira Talent. GPA/GPE and interview score each contribute 50% to final ranking.",
+          "source": {
+            "title": "University of Auckland · International Medicine graduate · interview and ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_medicine"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate entry for Medicine.",
+      "requirements": [
+        {
+          "key": "akl_medicine_2028_intl_grad",
+          "label": "International Medicine graduate · degree and GPA",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete a relevant degree at a recognised university full time, with at least GPA/GPE 6.0 and courses equivalent to BIOSCI 107, CHEM 190, MEDSCI 142 and POPLHLTH 111. The last full-time year must be within five years of applying. Pending graduates must provide final results by 30 November in the application year.",
+          "source": {
+            "title": "University of Auckland · International Medicine graduate · degree and GPA",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2028_intl_grad_mmi",
+          "label": "International Medicine graduate · interview and ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The published international graduate route exempts Casper. Shortlisted applicants interview via Kira Talent. GPA/GPE and interview score each contribute 50% to final ranking.",
+          "source": {
+            "title": "University of Auckland · International Medicine graduate · interview and ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_medicine_2028_intl_grad_english",
+          "label": "International Medicine graduate · English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "Applicants whose prior tertiary study was conducted in another language need IELTS 7.5 overall with each band at least 7.0.",
+          "source": {
+            "title": "University of Auckland · International Medicine graduate · English evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-medicine-and-bachelor-of-surgery-mbchb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_medicine"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical admission after the first year of university study. The GPA is a university selection measure.",
+      "requirements": [
+        {
+          "key": "akl_optometry_2027_first_path",
+          "label": "2027 clinical entry · first-year course requirements",
+          "category": "academic",
+          "status": "required",
+          "details": "Auckland BSc applicants complete BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111, BIOSCI 101, BIOSCI 106 and PHYSICS 160 and WTRSCI 100. Otago Health Sciences First Year applicants take BIOC 192, CELS 191, CHEM 191, HUBS 191, HUBS 192, PHSI 191 and POPH 192 plus an optional paper. The eligibility text also refers to WTRSCI 100; confirm its application to the Otago route.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · first-year course requirements",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2027_first_gpa",
+          "label": "2027 clinical entry · interview eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The published university GPA minimum for interview consideration is 5.5 across the seven assessed courses without failing any. The listed Auckland compulsory WTR course must be passed. Interview invitations are ranked.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · interview eligibility",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2027_first_ranking",
+          "label": "2027 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "Final ranking uses 50% of the seven-course GPA and 50% of the Multiple Mini Interview score. The interview has a separate threshold.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_optometry"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical selection after the restructured 2027 first-year pathway. The listed GPA is a university result.",
+      "requirements": [
+        {
+          "key": "akl_optometry_2028_first_gpa",
+          "label": "2028 clinical entry · university GPA threshold",
+          "category": "academic",
+          "status": "required",
+          "details": "The degree page states GPA 5.5 in the four required courses and requires applicants to earn at least B in every first-year course. The interview ranking considers the core GPA and may use interim grades until official results are available.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · university GPA threshold",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2028_first_ranking",
+          "label": "2028 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The four-core-course GPA and the Multiple Mini Interview each account for 50% of final selection.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2028_otago",
+          "label": "2028 clinical entry · Otago pathway",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university also considers qualifying Health Sciences First Year students from Otago. Confirm how the published Auckland course thresholds are applied to Otago grades.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · Otago pathway",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_optometry"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_optometry_2027_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete a relevant full-time degree at a recognised university. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2027_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 5.5 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_optometry"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_optometry_2028_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete at least two years of relevant full-time study at a recognised university. Required prior coursework includes BIOSCI 107, CHEM 190, MEDSCI 142 and POPLHLTH 111 or equivalents. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2028_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 5.5 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_optometry_2028_intl_tertiary_english",
+          "label": "International tertiary pathway · English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "If prior tertiary study was conducted in another language, the programme requires IELTS 6.5 overall with every band at least 6.0.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · English evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-optometry-boptom.html?intEntryReq=yes",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_optometry"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "international",
+      "notes": "Clinical admission after the first year of university study. The GPA is a university selection measure.",
+      "requirements": [
+        {
+          "key": "akl_pharmacy_2027_first_path",
+          "label": "2027 clinical entry · first-year course requirements",
+          "category": "academic",
+          "status": "required",
+          "details": "Study full-time in Auckland BHSc or BSc. Complete BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111, three 15-point electives and either WTRMHS 100 for BHSc or WTRSCI 100 for BSc.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · first-year course requirements",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2027_first_gpa",
+          "label": "2027 clinical entry · interview eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The published university GPA minimum for interview consideration is 5.0 across the seven assessed courses. The listed Auckland compulsory WTR course must be passed. Interview invitations are ranked.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · interview eligibility",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2027_first_ranking",
+          "label": "2027 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "Final ranking uses 50% from the GPA in BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111 and 50% from the Multiple Mini Interview.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_pharmacy"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "domestic",
+      "notes": "First-year Pharmacy progression for domestic applicants, including the published Otago route.",
+      "requirements": [
+        {
+          "key": "akl_pharmacy_2027_dom_first_path",
+          "label": "2027 Pharmacy · domestic qualifying study",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 domestic route accepts full-time first year in Auckland BHSc or BSc, or University of Otago Health Sciences First Year. Auckland applicants take BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111, the eligible WTR course and three 15-point electives.",
+          "source": {
+            "title": "University of Auckland · 2027 Pharmacy · domestic qualifying study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2027_dom_first_gpa",
+          "label": "2027 Pharmacy · domestic interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The seven assessed courses require GPA 5.0 for interview consideration. The selection combines academic and Multiple Mini Interview scores, with each contributing 50%.",
+          "source": {
+            "title": "University of Auckland · 2027 Pharmacy · domestic interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_pharmacy"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical selection after the restructured 2027 first-year pathway. The listed GPA is a university result.",
+      "requirements": [
+        {
+          "key": "akl_pharmacy_2028_first_gpa",
+          "label": "2028 clinical entry · university GPA threshold",
+          "category": "academic",
+          "status": "required",
+          "details": "The degree page states GPA 5.0 in the four required courses and requires applicants to avoid fails in all eight first-year courses. The interview ranking considers the core GPA and may use interim grades until official results are available.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · university GPA threshold",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2028_first_ranking",
+          "label": "2028 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The four-core-course GPA and the Multiple Mini Interview each account for 50% of final selection.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2028_otago",
+          "label": "2028 clinical entry · Otago pathway",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university also considers qualifying Health Sciences First Year students from Otago. Confirm how the published Auckland course thresholds are applied to Otago grades.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · Otago pathway",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_pharmacy"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_pharmacy_2027_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete at least two full-time years in a relevant degree at a recognised university. Applicants with an overseas Pharmacy degree unable to register locally can also be considered. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2027_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 4.0 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_pharmacy"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_pharmacy_2028_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete at least two years of relevant full-time study at a recognised university. Required prior coursework includes BIOSCI 107, CHEM 190, MEDSCI 142 and POPLHLTH 111 or equivalents. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2028_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 4.0 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_pharmacy_2028_intl_tertiary_english",
+          "label": "International tertiary pathway · English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "If prior tertiary study was conducted in another language, the programme requires IELTS 6.5 overall with every band at least 6.0.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · English evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-pharmacy-bpharm.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_pharmacy"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical admission after the first year of university study. The GPA is a university selection measure.",
+      "requirements": [
+        {
+          "key": "akl_imaging_2027_first_path",
+          "label": "2027 clinical entry · first-year course requirements",
+          "category": "academic",
+          "status": "required",
+          "details": "Auckland BSc applicants complete BIOSCI 107, CHEM 110, MEDSCI 142 and POPLHLTH 111, BIOSCI 101, BIOSCI 106 and PHYSICS 160 and WTRSCI 100. Otago Health Sciences First Year applicants take BIOC 192, CELS 191, CHEM 191, HUBS 191, HUBS 192, PHSI 191 and POPH 192 plus an optional paper. The eligibility text also refers to WTRSCI 100; confirm its application to the Otago route.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · first-year course requirements",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2027_first_gpa",
+          "label": "2027 clinical entry · interview eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The published university GPA minimum for interview consideration is 5.0 across the seven assessed courses without failing any. The listed Auckland compulsory WTR course must be passed. Interview invitations are ranked.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · interview eligibility",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2027_first_ranking",
+          "label": "2027 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "Final ranking uses 50% of the seven-course GPA and 50% of the Multiple Mini Interview score. The interview has a separate threshold.",
+          "source": {
+            "title": "University of Auckland · 2027 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_imaging"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Clinical selection after the restructured 2027 first-year pathway. The listed GPA is a university result.",
+      "requirements": [
+        {
+          "key": "akl_imaging_2028_first_gpa",
+          "label": "2028 clinical entry · university GPA threshold",
+          "category": "academic",
+          "status": "required",
+          "details": "The degree page states GPA 5.0 in the four required courses and requires applicants to earn at least B in every first-year course. The interview ranking considers the core GPA and may use interim grades until official results are available.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · university GPA threshold",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2028_first_ranking",
+          "label": "2028 clinical entry · final ranking",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The four-core-course GPA and the Multiple Mini Interview each account for 50% of final selection.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · final ranking",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2028_otago",
+          "label": "2028 clinical entry · Otago pathway",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university also considers qualifying Health Sciences First Year students from Otago. Confirm how the published Auckland course thresholds are applied to Otago grades.",
+          "source": {
+            "title": "University of Auckland · 2028 clinical entry · Otago pathway",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2028_competing_gpas",
+          "label": "2028 Medical Imaging · official GPA discrepancy",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The central enrolment guidance lists GPA 5.5 across the four core courses. The Medical Imaging degree page lists 5.0 for interview and final eligibility. Both require at least B in the eight courses. Confirm the applicable threshold with the faculty.",
+          "source": {
+            "title": "University of Auckland · 2028 Medical Imaging · official GPA discrepancy",
+            "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/enrolment/choosing-your-courses/first-year-enrolment-for-undergraduate-health-programmes.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_imaging"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_imaging_2027_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete a relevant full-time degree at a recognised university. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2027_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 5.0 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_imaging"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "International graduate or relevant tertiary study route.",
+      "requirements": [
+        {
+          "key": "akl_imaging_2028_intl_tertiary",
+          "label": "International tertiary pathway · prior study",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete at least two years of relevant full-time study at a recognised university. Required prior coursework includes BIOSCI 107, CHEM 190, MEDSCI 142 and POPLHLTH 111 or equivalents. The most recent full-time study must fall within five years of applying. Full time requires at least 105 points in Semesters One and Two of each qualifying year.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · prior study",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2028_intl_tertiary_rank",
+          "label": "International tertiary pathway · interview and selection",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The interview consideration threshold is GPA/GPE 5.0 across the last two full-time years. Shortlisted overseas applicants interview through Kira Talent where specified. Academic results and the interview each contribute half of final ranking.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · interview and selection",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_imaging_2028_intl_tertiary_english",
+          "label": "International tertiary pathway · English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "If prior tertiary study was conducted in another language, the programme requires IELTS 6.5 overall with every band at least 6.0.",
+          "source": {
+            "title": "University of Auckland · International tertiary pathway · English evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/Medicalimaging.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_imaging"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "semester_1",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "notes": "LLB Part I from secondary school or an eligible university route.",
+      "requirements": [
+        {
+          "key": "akl_law_part1_ue",
+          "label": "Law Part I · school-leaver eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "Meet the New Zealand University Entrance standard and obtain unconditional admission to another University of Auckland programme. The programme gives separate thresholds for Law conjoints.",
+          "source": {
+            "title": "University of Auckland · Law Part I · school-leaver eligibility",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_law_part1_courses",
+          "label": "Law Part I · course plan",
+          "category": "academic",
+          "status": "required",
+          "details": "Part I includes LAW 121G, LAW 131 and LAW 141 alongside five non-Law courses across the two semesters.",
+          "source": {
+            "title": "University of Auckland · Law Part I · course plan",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "semester_1",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "notes": "English language requirement for international LLB Part I applicants.",
+      "requirements": [
+        {
+          "key": "akl_law_part1_ielts",
+          "label": "International Law Part I · English language evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "Where English evidence is required, Part I accepts IELTS Academic 6.0 overall with every band at least 5.5. The degree page links to accepted alternatives.",
+          "source": {
+            "title": "University of Auckland · International Law Part I · English language evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "semester_1",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Law Part II progression for 2027; places are subject to faculty selection.",
+      "requirements": [
+        {
+          "key": "akl_law_part2_2027_courses",
+          "label": "Law Part II · required university grades",
+          "category": "academic",
+          "status": "required",
+          "details": "Pass LAW 121G. Earn at least C+ in each of LAW 131 and LAW 141. Pass 120 points over eight courses with overall LawGPA of at least 3.00. At least 75 points must be in non-Law courses, including 60 eligible for the LawGPA.",
+          "source": {
+            "title": "University of Auckland · Law Part II · required university grades",
+            "url": "https://www.auckland.ac.nz/en/law/current-students/llb-information/apply-llb-ii.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_law_part2_2027_rank",
+          "label": "Law Part II · selection and guaranteed threshold",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The LawGPA takes LAW 121G, LAW 131 and LAW 141 plus the best 60 eligible non-Law points in the most recent academic year. Waipapa Taumata Rau and General Education courses other than LAW 121G are excluded. Eligible applicants with LawGPA 6.50 or higher have guaranteed entry, and lower eligible GPAs are subject to available places.",
+          "source": {
+            "title": "University of Auckland · Law Part II · selection and guaranteed threshold",
+            "url": "https://www.auckland.ac.nz/en/law/current-students/llb-information/apply-llb-ii.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2028",
+      "intakeTerm": "semester_1",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "notes": "Law Part II progression for 2028; places are subject to faculty selection.",
+      "requirements": [
+        {
+          "key": "akl_law_part2_2028_courses",
+          "label": "Law Part II · required university grades",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn C+ or higher in LAW 121G. Earn at least C+ in each of LAW 131 and LAW 141. Pass 120 points over eight courses with overall LawGPA of at least 3.00. At least 75 points must be in non-Law courses, including 60 eligible for the LawGPA.",
+          "source": {
+            "title": "University of Auckland · Law Part II · required university grades",
+            "url": "https://www.auckland.ac.nz/en/law/current-students/llb-information/apply-llb-ii.html",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_law_part2_2028_rank",
+          "label": "Law Part II · selection and guaranteed threshold",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The LawGPA takes LAW 121G, LAW 131 and LAW 141 plus the best 60 eligible non-Law points in the most recent academic year. Waipapa Taumata Rau and General Education courses other than LAW 121G are excluded. Eligible applicants with LawGPA 6.50 or higher have guaranteed entry, and lower eligible GPAs are subject to available places.",
+          "source": {
+            "title": "University of Auckland · Law Part II · selection and guaranteed threshold",
+            "url": "https://www.auckland.ac.nz/en/law/current-students/llb-information/apply-llb-ii.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "notes": "Graduate applicant concurrent Part I and II consideration.",
+      "requirements": [
+        {
+          "key": "akl_law_part2_graduate",
+          "label": "Graduate Law · demonstrating legal aptitude",
+          "category": "academic",
+          "status": "required",
+          "details": "Graduates may present LSAT evidence or at least three Stage III or higher Commercial Law courses with an average of B+ or better. Approved applicants take Part I and II courses together and must meet the required minimum grades.",
+          "source": {
+            "title": "University of Auckland · Graduate Law · demonstrating legal aptitude",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "notes": "English proficiency for international graduate admission to LLB Part II.",
+      "requirements": [
+        {
+          "key": "akl_law_part2_grad_ielts",
+          "label": "International graduate Law Part II · English language evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "The international graduate route specifies IELTS Academic 7.0 overall with every band at least 6.5 where evidence is required.",
+          "source": {
+            "title": "University of Auckland · International graduate Law Part II · English language evidence",
+            "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_law"
+    }
+  ]
+}
