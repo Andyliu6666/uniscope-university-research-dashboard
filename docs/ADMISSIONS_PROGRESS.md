@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Auckland overseas secondary entry — November 15
+
+1. **Baseline.** Auckland ROR `03b94tp07` had no admissions profiles. The database fingerprint matched the verified Dar es Salaam backup and local main matched `1fa9ab9` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43723760852).
+2. **Sources.** Verified the exact programme code, selected year and 600 qualification rows in 29 official catalogue tables. A second catalogue section confirmed IB, Cambridge and GCE values where finalised. The [source record](research/AUCKLAND_OVERSEAS_ENTRY_20261115.md) documents score distinctions, selection requirements and differences.
+3. **Artifacts.** Two files add 35 programme entries with one IB total each, including six named Science majors. Sixty-seven general facts carry 369 shared programme references, including A-level, AP, SAT, regional grades, IELTS and further selection rules.
+4. **Import.** Both dry runs preserved the database fingerprint. Live import added 35 programme entries, 67 general facts and 35 IB records with zero rejections. The IB importer reused all programme entries. Both repeat imports reported already completed. Prior 2,546 reviewed general facts and 778 IB rows retained their complete-row hashes.
+5. **Verification.** Live API checks matched 2,613 general facts, 813 IB records and all 369 Auckland associations. Nutrition and the Engineering single and conjoint routes retain their separate values and sources. The website showed Engineering's IB 32/45, A-level BBB, AP 12 and subject prerequisites. The workspace and data-quality checks passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 281,125 catalogue entries, 3,192 admissions profiles, 24,633 general requirements, 107,618 sources and 85 runs. Reviewed general admissions cover 27 institutions. IB research covers 39 institutions and 756 catalogue entries with published totals for 465. Archive `backups/post-auckland-20261115.ujrpCM` read completely with 192 listing entries and SHA-256 `d1de917f1dfbd822af9626091101f89dfbe1eb7c6f93356242ea38084709c2b8`.
+
+The next source batch is Auckland's 2027 and 2028 clinical progression. Its entry GPA, qualifying university courses and interview thresholds require separate year and route scopes.
+
 ## University of Dar es Salaam direct secondary entry — November 15
 
 1. **Baseline.** Local main matched GitHub at `9280d9d` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43669811311). The former checkpoint archive was read completely before the UDSM batch. UDSM ROR `0479aed98` had zero admissions profiles. The database held 2,341 reviewed general facts and 778 IB records.

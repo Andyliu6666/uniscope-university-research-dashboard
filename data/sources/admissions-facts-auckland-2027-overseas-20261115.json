@@ -1,0 +1,1706 @@
+{
+  "datasetVersion": "official-admissions-auckland-2027-overseas-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "auckland",
+      "name": "University of Auckland",
+      "provider": "ror",
+      "externalId": "03b94tp07",
+      "countryCode": "NZ",
+      "officialDomains": ["auckland.ac.nz"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "notes": "2027 overseas secondary-school first-year entry. Shared grade rules link to their verified programme scopes. See the programme’s own catalogue URL for its original table.",
+      "requirements": [
+        {
+          "key": "akl_english_language_ielts_academic_caec06b169",
+          "category": "language",
+          "label": "English language · IELTS Academic",
+          "details": "Where English-language evidence is required, IELTS Academic is 6.0 overall with every band at least 5.5. The university also lists alternative evidence.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · English language · IELTS Academic",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+          "category": "academic",
+          "label": "Cambridge International and GCE A levels · scoring",
+          "details": "Count the best three academic full A-level grades. General Studies is excluded. Singapore-Cambridge results use academic H2 subjects only.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · Cambridge International and GCE A levels · scoring",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_exam_count_and_documents_316726ab4c",
+          "category": "standardized_test",
+          "label": "US AP · exam count and documents",
+          "details": "Add the US College Board grades from 2–4 AP exams. Each exam must be at least grade 3. Submit certified exam results with the US high school diploma and transcripts from a regionally accredited school.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · US AP · exam count and documents",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ged_alternative_qualification_route_cf960d8a39",
+          "category": "standardized_test",
+          "label": "US GED · alternative qualification route",
+          "details": "The published GED route requires a recognised GED and one of AP aggregate 8, ACT composite 24 or SAT 1160. Apply any higher programme requirement stated in the catalogue.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · US GED · alternative qualification route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_b5eddaef78",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International BBC and GCE A Levels BBC.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_9884946714",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 10.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_85bc999ef7",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1200 and US high school cumulative GPA 3.0 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 85; Canada secondary diploma (excluding Quebec): 75; Fiji Year 13: 310; Norway Vitnemål: 3.8; South Africa NSC: 34.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 75; Hong Kong HKDSE: 20; India ISC/AISSC and specified state boards (%): 82; India other Higher Secondary State Boards (%): 86; Malaysia STPM: BBC; Malaysia UEC: 9; South Korea CSAT: 320; Thailand Matayom 6 GPA: 3.6; Vietnam Grade 12: 8.6.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+          "category": "academic",
+          "label": "Overseas qualifications requiring an alternative route",
+          "details": "The programme overview directs secondary-school applicants from Brazil, Chile, Colombia, Indonesia, Iran, Mexico, Oman, Papua New Guinea, Taiwan and the UAE toward foundation or prior tertiary qualifications. For other qualifications outside the table, Auckland considers the application individually.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+            "title": "University of Auckland 2027 catalogue · BA/BCom · Overseas qualifications requiring an alternative route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_english_language_ielts_academic_96cab31a6b",
+          "category": "language",
+          "label": "English language · IELTS Academic",
+          "details": "Where English-language evidence is required, IELTS Academic is 6.5 overall with every band at least 6.0. The university also lists alternative evidence.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · English language · IELTS Academic",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_a6deef8960",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International ABB and GCE A Levels ABB. Include Mathematics and Physics at A level.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_20bab30f63",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 12. Include Calculus and Physics.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_6772803917",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1300 and US high school cumulative GPA 3.5 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records. The US score rows also specify Calculus and Physics.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_3c3e1e9e5b",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 90 (including Mathematics and Physics); Canada secondary diploma (excluding Quebec): 80 (including Calculus and Physics); Fiji Year 13: 340 (including Mathematics and Physics); Norway Vitnemål: 4.2 (including Mathematics and Physics); South Africa NSC: 41 (including Mathematics and Physics).",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_b2d5e0efdf",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 80 (including Mathematics and Physics); Hong Kong HKDSE: 22 (including Mathematics and Physics); India ISC/AISSC and specified state boards (%): 85 (including at least 85% in Mathematics and Physics); India other Higher Secondary State Boards (%): 88 (including at least 85% in Mathematics and Physics); Malaysia STPM: ABB (including Mathematics and Physics); Malaysia UEC: 7 (including Mathematics and Physics); South Korea CSAT: 390 (including Mathematics and Physics); Thailand Matayom 6 GPA: 3.7 (including Mathematics and Physics); Vietnam Grade 12: 8.8 (including Mathematics and Physics).",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_law_conjoint_entry_into_part_ii_de88bfdac3",
+          "category": "academic",
+          "label": "Law conjoint · entry into Part II",
+          "details": "School results apply to entry to the conjoint degree. Law Part II has limited places and requires a further university-level selection.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FLLB",
+            "title": "University of Auckland 2027 catalogue · BA/LLB · Law conjoint · entry into Part II",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_c655b03439",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International CCC and GCE A Levels CCC.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+            "title": "University of Auckland 2027 catalogue · BA · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_890ec0819f",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 7.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+            "title": "University of Auckland 2027 catalogue · BA · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_4b2f647442",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1150 and US high school cumulative GPA 2.6 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+            "title": "University of Auckland 2027 catalogue · BA · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 74; Canada secondary diploma (excluding Quebec): 68; Fiji Year 13: 280; Norway Vitnemål: 3.2; South Africa NSC: 27.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+            "title": "University of Auckland 2027 catalogue · BA · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 67; Hong Kong HKDSE: 17; India ISC/AISSC and specified state boards (%): 75; India other Higher Secondary State Boards (%): 80; Indonesia SMA/MA: 8.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: CCC; Malaysia UEC: 15; South Korea CSAT: 270; Thailand Matayom 6 GPA: 3.3; Vietnam Grade 12: 8.2.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+            "title": "University of Auckland 2027 catalogue · BA · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_77ee2a61d8",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International BBB and GCE A Levels BBB.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_90776dc8f6",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 8.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_d59104a0c6",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1175 and US high school cumulative GPA 2.7 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_1fc06fad3d",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 80; Canada secondary diploma (excluding Quebec): 70; Fiji Year 13: 290; Norway Vitnemål: 3.4; South Africa NSC: 30.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_fd20bbfd38",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 70; Hong Kong HKDSE: 18; India ISC/AISSC and specified state boards (%): 80; India other Higher Secondary State Boards (%): 82; Indonesia SMA/MA: 9.0 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BBC; Malaysia UEC: 13; South Korea CSAT: 290; Thailand Matayom 6 GPA: 3.0; Vietnam Grade 12: 8.4.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_architecture_portfolio_and_written_statement_7c77dbb233",
+          "category": "portfolio",
+          "label": "Architecture portfolio and written statement",
+          "details": "Submit a creative portfolio and a one-page statement explaining your interest in architecture. The catalogue asks for 12–15 pages of your own work. Academic results, portfolio and statement are considered together.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+            "title": "University of Auckland 2027 catalogue · BAS · Architecture portfolio and written statement",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_5c01d232d1",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 9.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+            "title": "University of Auckland 2027 catalogue · BBiomedSc · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_415c09ed4c",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1185 and US high school cumulative GPA 2.9 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+            "title": "University of Auckland 2027 catalogue · BBiomedSc · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_12060b915b",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 82; Canada secondary diploma (excluding Quebec): 73; Fiji Year 13: 300; Norway Vitnemål: 3.6; South Africa NSC: 34.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+            "title": "University of Auckland 2027 catalogue · BBiomedSc · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_c20e88f1f3",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 73; Hong Kong HKDSE: 19; India ISC/AISSC and specified state boards (%): 81; India other Higher Secondary State Boards (%): 84; Indonesia SMA/MA: 9.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BBC; Malaysia UEC: 11; South Korea CSAT: 310; Thailand Matayom 6 GPA: 3.5; Vietnam Grade 12: 8.5.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+            "title": "University of Auckland 2027 catalogue · BBiomedSc · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_programme_selection_published_conditions_b558bfa4db",
+          "category": "application",
+          "label": "Programme selection · published conditions",
+          "details": "The catalogue describes limited entry and flags selection criteria as subject to university approval.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+            "title": "University of Auckland 2027 catalogue · BBiomedSc · Programme selection · published conditions",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_485bfec574",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International BCC and GCE A Levels BCC.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BC",
+            "title": "University of Auckland 2027 catalogue · BC · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_ba2378ba5c",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1160 and US high school cumulative GPA 2.7 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BC",
+            "title": "University of Auckland 2027 catalogue · BC · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_b497f4f657",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 77; Canada secondary diploma (excluding Quebec): 69; Fiji Year 13: 285; Norway Vitnemål: 3.3; South Africa NSC: 30.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BC",
+            "title": "University of Auckland 2027 catalogue · BC · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_16a20eb95d",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 69; Hong Kong HKDSE: 18; India ISC/AISSC and specified state boards (%): 76; India Karnataka, Maharashtra and West Bengal boards (%): 80; India other Higher Secondary State Boards (%): 81; Indonesia SMA/MA: 9.0 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BCC; Malaysia UEC: 13; South Korea CSAT: 280; Thailand Matayom 6 GPA: 3.4; Vietnam Grade 12: 8.3.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BC",
+            "title": "University of Auckland 2027 catalogue · BC · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_2b449514bf",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 73; Hong Kong HKDSE: 19; India ISC/AISSC and specified state boards (%): 81; India other Higher Secondary State Boards (%): 84; Indonesia SMA/MA: 9.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BCC; Malaysia UEC: 11; South Korea CSAT: 310; Thailand Matayom 6 GPA: 3.5; Vietnam Grade 12: 8.5.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BCom",
+            "title": "University of Auckland 2027 catalogue · BCom · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_dance_application_and_group_audition_a3a62c9c64",
+          "category": "portfolio",
+          "label": "Dance application and group audition",
+          "details": "Submit a dance CV and a 500-word statement. The audition includes a movement workshop and group discussion or interview. Prepared pieces are unnecessary.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BDanceSt",
+            "title": "University of Auckland 2027 catalogue · BDanceSt · Dance application and group audition",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_6d76df6ae0",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 70; Hong Kong HKDSE: 18; India ISC/AISSC and specified state boards (%): 80; India other Higher Secondary State Boards (%): 82; Indonesia SMA/MA: 9.0 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BCC; Malaysia UEC: 13; South Korea CSAT: 290; Thailand Matayom 6 GPA: 3.4; Vietnam Grade 12: 8.4.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BDes",
+            "title": "University of Auckland 2027 catalogue · BDes · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_1b2d766a11",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International BBB and GCE A Levels BBB. Include Mathematics and Physics at A level.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BE(Hons) · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_f91128e130",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 90; Canada secondary diploma (excluding Quebec): 80 (including Calculus and Physics); Fiji Year 13: 340 (including Mathematics and Physics); Norway Vitnemål: 4.2 (including Mathematics and Physics); South Africa NSC: 37 (including Mathematics and Physical Sciences).",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BE(Hons) · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_a614d4e12c",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 80 (including Mathematics and Physics); Hong Kong HKDSE: 22 (including Mathematics and Physics); India ISC/AISSC and specified state boards (%): 85 (including at least 85% in Physics and Mathematics); India other Higher Secondary State Boards (%): 88 (including at least 88% in Physics and Mathematics); Malaysia STPM: BBB (including Mathematics and Physics); Malaysia UEC: 7 (including Mathematics and Physics); South Korea CSAT: 390 (including Mathematics and Physics); Thailand Matayom 6 GPA: 3.7 (including Mathematics and Physics); Vietnam Grade 12: 8.8 (including Mathematics and Physics).",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BE%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BE(Hons) · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_consent_to_conviction_disclosure_27cc8724dd",
+          "category": "document",
+          "label": "Consent to conviction disclosure",
+          "details": "The overseas entry instructions require an applicant to consent to disclosure of criminal convictions. A conviction may constrain available placements.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BECSt",
+            "title": "University of Auckland 2027 catalogue · BECSt · Consent to conviction disclosure",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_9c3ac7245b",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 67; Hong Kong HKDSE: 17; India ISC/AISSC and specified state boards (%): 75; India other Higher Secondary State Boards (%): 80; Indonesia SMA/MA: 8.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: CCC; Malaysia UEC: 15; South Korea CSAT: 270; Thailand Matayom 6 GPA: 3.3; Vietnam Grade 12: programme score unstated; notes require graduation and grade 8.0/10 in each of the four best Grade 12 subjects.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BEd%28TESOL%29",
+            "title": "University of Auckland 2027 catalogue · BEd(TESOL) · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_english_language_ielts_academic_1539b0da6b",
+          "category": "language",
+          "label": "English language · IELTS Academic",
+          "details": "Where English-language evidence is required, IELTS Academic is 6.0 overall with every band at least 6.0. The university also lists alternative evidence.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BEd%28Tchg%29",
+            "title": "University of Auckland 2027 catalogue · BEd(Tchg) · English language · IELTS Academic",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_teaching_suitability_checks_0d9d0d4836",
+          "category": "interview",
+          "label": "Teaching suitability checks",
+          "details": "Admission depends on a satisfactory interview, police and safety checks, and referees’ reports.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BEd%28Tchg%29",
+            "title": "University of Auckland 2027 catalogue · BEd(Tchg) · Teaching suitability checks",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_ff583c0332",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 80; Canada secondary diploma (excluding Quebec): 75; Fiji Year 13: 290; Norway Vitnemål: 3.4; South Africa NSC: 30.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BGlobalSt",
+            "title": "University of Auckland 2027 catalogue · BGlobalSt · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_2ea7f5237f",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 70; Hong Kong HKDSE: 18; India ISC/AISSC and specified state boards (%): 80; India other Higher Secondary State Boards (%): 82; Indonesia SMA/MA: 9.0 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BBC; Malaysia UEC: 13; South Korea CSAT: 290; Thailand Matayom 6 GPA: 3.4; Vietnam Grade 12: 8.4.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BGlobalSt",
+            "title": "University of Auckland 2027 catalogue · BGlobalSt · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_fdc6a4134c",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 82; Canada secondary diploma (excluding Quebec): 73; Fiji Year 13: 300; Norway Vitnemål: 4.2; South Africa NSC: 34.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BHSc",
+            "title": "University of Auckland 2027 catalogue · BHSc · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_programme_selection_published_conditions_f9384473cd",
+          "category": "application",
+          "label": "Programme selection · published conditions",
+          "details": "The catalogue describes limited entry and flags selection criteria as subject to university approval. Applicants may need higher grades.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BHSc",
+            "title": "University of Auckland 2027 catalogue · BHSc · Programme selection · published conditions",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_6bff11510d",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International CCC and GCE A Levels CCC. The overview separately marks these scores to be confirmed.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BMus",
+            "title": "University of Auckland 2027 catalogue · BMus · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_music_audition_or_portfolio_84ddecede1",
+          "category": "portfolio",
+          "label": "Music audition or portfolio",
+          "details": "Selection uses the creative requirements of the chosen major, such as an audition or portfolio. Submit a musical-background statement and a referee report.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BMus",
+            "title": "University of Auckland 2027 catalogue · BMus · Music audition or portfolio",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_programme_selection_published_conditions_8fe4a33479",
+          "category": "application",
+          "label": "Programme selection · published conditions",
+          "details": "The table gives a score but the accompanying overseas entry text still marks IB and both A-level routes to be confirmed. Ask the faculty to confirm the threshold for the major.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BMus",
+            "title": "University of Auckland 2027 catalogue · BMus · Programme selection · published conditions",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_a_level_programme_grades_ca8ae80bfe",
+          "category": "academic",
+          "label": "Overseas A-level programme grades",
+          "details": "The 2027 table gives Cambridge International BBB and GCE A Levels BBB. The narrative lists English and one science for both routes; its GCE table specifies Biology, Chemistry or Physics.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · Overseas A-level programme grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_ap_programme_aggregate_3e8d91c567",
+          "category": "standardized_test",
+          "label": "US AP programme aggregate",
+          "details": "The 2027 programme table gives AP aggregate 10. The table calls for English and one of Biology, Chemistry or Physics. It cites AP or SAT subject tests; check current options with the university.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · US AP programme aggregate",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_us_sat_and_high_school_gpa_bd580931fa",
+          "category": "standardized_test",
+          "label": "US SAT and high school GPA",
+          "details": "The programme lists SAT 1200 and US high school cumulative GPA 3.0 on their respective routes. The catalogue assesses ACT individually when submitted with eligible US school records. Check the published English and science conditions for the applicable US route.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · US SAT and high school GPA",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_5ff55d0217",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 85 (one subject from: English, Geography, History, Classical Studies and Cultures (VIC) AND one subject from: Biology, Chemistry, Physics); Canada secondary diploma (excluding Quebec): 75 (including English and one of Biology, Chemistry, Physics); Fiji Year 13: 310 (including English and one of Biology, Chemistry, Physics); Norway Vitnemål: 3.8; South Africa NSC: 36.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_2619a5604c",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 75 (including English and one of Biology, Chemistry, Physics); Hong Kong HKDSE: 20 (including one of Biology, Chemistry, Physics); India ISC/AISSC and specified state boards (%): 82 (including one of Biology, Chemistry, Physics); India ISC/AISSC and listed state-board row (%): 85 (including one of Biology, Chemistry, Physics); India other Higher Secondary State Boards (%): 86 (including one of Biology, Chemistry, Physics); Malaysia STPM: BBB (including English and one of Biology, Chemistry, Physics); Malaysia UEC: 9 (including one English-rich subject and one of Biology, Chemistry, Physics); South Korea CSAT: 330; Thailand Matayom 6 GPA: 3.6 (including English and one of Biology, Chemistry, Physics); Vietnam Grade 12: 8.6 (including English and one of Biology, Chemistry, Physics).",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nursing_interview_a2df87eaf7",
+          "category": "interview",
+          "label": "Nursing interview",
+          "details": "Applicants must complete a satisfactory interview. The programme also publishes route-specific English and science prerequisites.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+            "title": "University of Auckland 2027 catalogue · BNurs · Nursing interview",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_28b452b9f3",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 80; Canada secondary diploma (excluding Quebec): 70; Fiji Year 13: 290; Norway Vitnemål: 3.4; South Africa NSC: 27.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_4b4ff033fc",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 70; Hong Kong HKDSE: 18; India ISC/AISSC and specified state boards (%): 80; India other Higher Secondary State Boards (%): 82; Indonesia SMA/MA: 8.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BCC; Malaysia UEC: 13; South Korea CSAT: 290; Thailand Matayom 6 GPA: 3.4; Vietnam Grade 12: 8.4.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_programme_selection_published_conditions_1023657906",
+          "category": "application",
+          "label": "Programme selection · published conditions",
+          "details": "The catalogue describes limited entry, individual assessment and possible higher selection grades. Separate published thresholds apply to six named majors.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Programme selection · published conditions",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_urban_planning_written_statement_2bfbf40f9b",
+          "category": "document",
+          "label": "Urban Planning written statement",
+          "details": "Selection considers academic achievement and a written statement.",
+          "status": "required",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BUrbPlan%28Hons%29",
+            "title": "University of Auckland 2027 catalogue · BUrbPlan(Hons) · Urban Planning written statement",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+          "category": "academic",
+          "label": "Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+          "details": "Published scores by qualification. Australia ATAR: 82; Canada secondary diploma (excluding Quebec): 82; Fiji Year 13: 300; Norway Vitnemål: 3.6; South Africa NSC: 34.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Overseas secondary grades · Australia, Americas, Pacific, Europe and Africa",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+          "category": "academic",
+          "label": "Overseas secondary grades · Asian qualifications",
+          "details": "Published scores by qualification. China Gaokao (%): 73; Hong Kong HKDSE: 19; India ISC/AISSC and specified state boards (%): 81; India other Higher Secondary State Boards (%): 84; Indonesia SMA/MA: 9.5 (the overview separately directs Indonesian school-leavers to foundation or tertiary entry; confirm eligibility); Malaysia STPM: BBC; Malaysia UEC: TBC; South Korea CSAT: 310; Thailand Matayom 6 GPA: 3.5; Vietnam Grade 12: 8.5.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Overseas secondary grades · Asian qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "notes": "The catalogue describes limited entry, individual assessment and possible higher selection grades. Separate published thresholds apply to six named majors.",
+      "requirements": [
+        {
+          "key": "akl_bsc_majors_notice",
+          "category": "academic",
+          "label": "Science majors with separate thresholds",
+          "details": "Higher requirements are published for Cell and Molecular Bioscience, Exercise Sciences, Medicinal Chemistry, Nutrition, Pharmacology, Physiology. Check the separate programme entries for these majors.",
+          "status": "conditional",
+          "source": {
+            "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+            "title": "University of Auckland 2027 catalogue · BSc · Science majors with separate thresholds",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_bsc"
+    }
+  ],
+  "programs": [
+    {
+      "key": "akl_ba_bcom",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Commerce Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBCom",
+        "title": "University of Auckland 2027 catalogue · BA/BCom · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_ba_be_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Engineering (Honours) Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_96cab31a6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_a6deef8960",
+        "akl_us_ap_programme_aggregate_20bab30f63",
+        "akl_us_sat_and_high_school_gpa_6772803917",
+        "akl_overseas_secondary_grades_australia_americas_pacific_3c3e1e9e5b",
+        "akl_overseas_secondary_grades_asian_qualifications_b2d5e0efdf",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBE%28Hons%29",
+        "title": "University of Auckland 2027 catalogue · BA/BE(Hons) · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_ba_bglobalst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Global Studies Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBGlobalSt",
+        "title": "University of Auckland 2027 catalogue · BA/BGlobalSt · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_ba_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Science Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FBSc",
+        "title": "University of Auckland 2027 catalogue · BA/BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_ba_llb",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Laws Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_law_conjoint_entry_into_part_ii_de88bfdac3"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA%2FLLB",
+        "title": "University of Auckland 2027 catalogue · BA/LLB · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_ba",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts",
+      "field": "Arts",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BA",
+        "title": "University of Auckland 2027 catalogue · BA · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bas",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Architectural Studies",
+      "field": "Architecture",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_96cab31a6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_77ee2a61d8",
+        "akl_us_ap_programme_aggregate_90776dc8f6",
+        "akl_us_sat_and_high_school_gpa_d59104a0c6",
+        "akl_overseas_secondary_grades_australia_americas_pacific_1fc06fad3d",
+        "akl_overseas_secondary_grades_asian_qualifications_fd20bbfd38",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_architecture_portfolio_and_written_statement_7c77dbb233"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BAS",
+        "title": "University of Auckland 2027 catalogue · BAS · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bbiomedsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Biomedical Science",
+      "field": "Biomedical Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_12060b915b",
+        "akl_overseas_secondary_grades_asian_qualifications_c20e88f1f3",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_b558bfa4db"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BBiomedSc",
+        "title": "University of Auckland 2027 catalogue · BBiomedSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Communication",
+      "field": "Communication",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_485bfec574",
+        "akl_us_ap_programme_aggregate_90776dc8f6",
+        "akl_us_sat_and_high_school_gpa_ba2378ba5c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_b497f4f657",
+        "akl_overseas_secondary_grades_asian_qualifications_16a20eb95d",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BC",
+        "title": "University of Auckland 2027 catalogue · BC · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bcom_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Science Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BCom%2FBSc",
+        "title": "University of Auckland 2027 catalogue · BCom/BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bcom_bsporthpe",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Sport, Health and Physical Education Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BCom%2FBSportHPE",
+        "title": "University of Auckland 2027 catalogue · BCom/BSportHPE · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bcom_llb",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Laws Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_law_conjoint_entry_into_part_ii_de88bfdac3"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BCom%2FLLB",
+        "title": "University of Auckland 2027 catalogue · BCom/LLB · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bcom",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce",
+      "field": "Business",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_12060b915b",
+        "akl_overseas_secondary_grades_asian_qualifications_2b449514bf",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BCom",
+        "title": "University of Auckland 2027 catalogue · BCom · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bdancest",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Dance Studies",
+      "field": "Dance",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_dance_application_and_group_audition_a3a62c9c64"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BDanceSt",
+        "title": "University of Auckland 2027 catalogue · BDanceSt · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bdes_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Design / Bachelor of Science Conjoint",
+      "field": "Conjoint degree",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_85bc999ef7",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fbb78abefd",
+        "akl_overseas_secondary_grades_asian_qualifications_2fbeec23f1",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BDes%2FBSc",
+        "title": "University of Auckland 2027 catalogue · BDes/BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bdes",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Design",
+      "field": "Design",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_96cab31a6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_485bfec574",
+        "akl_us_ap_programme_aggregate_90776dc8f6",
+        "akl_us_sat_and_high_school_gpa_d59104a0c6",
+        "akl_overseas_secondary_grades_australia_americas_pacific_1fc06fad3d",
+        "akl_overseas_secondary_grades_asian_qualifications_6d76df6ae0",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BDes",
+        "title": "University of Auckland 2027 catalogue · BDes · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_be_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Engineering (Honours)",
+      "field": "Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_96cab31a6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_1b2d766a11",
+        "akl_us_ap_programme_aggregate_20bab30f63",
+        "akl_us_sat_and_high_school_gpa_6772803917",
+        "akl_overseas_secondary_grades_australia_americas_pacific_f91128e130",
+        "akl_overseas_secondary_grades_asian_qualifications_a614d4e12c",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BE%28Hons%29",
+        "title": "University of Auckland 2027 catalogue · BE(Hons) · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_becst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Early Childhood Studies",
+      "field": "Education",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_consent_to_conviction_disclosure_27cc8724dd"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BECSt",
+        "title": "University of Auckland 2027 catalogue · BECSt · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bed_tesol",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Education (Teaching English to Speakers of Other Languages)",
+      "field": "Education",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_9c3ac7245b",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BEd%28TESOL%29",
+        "title": "University of Auckland 2027 catalogue · BEd(TESOL) · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bed_tchg",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Education (Teaching)",
+      "field": "Education",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_1539b0da6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_teaching_suitability_checks_0d9d0d4836"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BEd%28Tchg%29",
+        "title": "University of Auckland 2027 catalogue · BEd(Tchg) · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bfa",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Fine Arts",
+      "field": "Fine Arts",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_9c3ac7245b",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BFA",
+        "title": "University of Auckland 2027 catalogue · BFA · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bglobalst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Global Studies",
+      "field": "Global Studies",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_1539b0da6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_9884946714",
+        "akl_us_sat_and_high_school_gpa_d59104a0c6",
+        "akl_overseas_secondary_grades_australia_americas_pacific_ff583c0332",
+        "akl_overseas_secondary_grades_asian_qualifications_2ea7f5237f",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BGlobalSt",
+        "title": "University of Auckland 2027 catalogue · BGlobalSt · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bhsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Health Sciences",
+      "field": "Health Sciences",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_fdc6a4134c",
+        "akl_overseas_secondary_grades_asian_qualifications_c20e88f1f3",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_f9384473cd"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BHSc",
+        "title": "University of Auckland 2027 catalogue · BHSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bmus",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Music",
+      "field": "Music",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_6bff11510d",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_music_audition_or_portfolio_84ddecede1",
+        "akl_programme_selection_published_conditions_8fe4a33479"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BMus",
+        "title": "University of Auckland 2027 catalogue · BMus · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bnurs",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Nursing",
+      "field": "Nursing",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_96cab31a6b",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_ca8ae80bfe",
+        "akl_us_ap_programme_aggregate_3e8d91c567",
+        "akl_us_sat_and_high_school_gpa_bd580931fa",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5ff55d0217",
+        "akl_overseas_secondary_grades_asian_qualifications_2619a5604c",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_nursing_interview_a2df87eaf7"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BNurs",
+        "title": "University of Auckland 2027 catalogue · BNurs · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bprop",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Property",
+      "field": "Property",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_12060b915b",
+        "akl_overseas_secondary_grades_asian_qualifications_c20e88f1f3",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BProp",
+        "title": "University of Auckland 2027 catalogue · BProp · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_485bfec574",
+        "akl_us_ap_programme_aggregate_90776dc8f6",
+        "akl_us_sat_and_high_school_gpa_d59104a0c6",
+        "akl_overseas_secondary_grades_australia_americas_pacific_28b452b9f3",
+        "akl_overseas_secondary_grades_asian_qualifications_4b4ff033fc",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsporthpe",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Sport, Health and Physical Education",
+      "field": "Sport and Education",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_c655b03439",
+        "akl_us_ap_programme_aggregate_890ec0819f",
+        "akl_us_sat_and_high_school_gpa_4b2f647442",
+        "akl_overseas_secondary_grades_australia_americas_pacific_569e236431",
+        "akl_overseas_secondary_grades_asian_qualifications_efc5297e54",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSportHPE",
+        "title": "University of Auckland 2027 catalogue · BSportHPE · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_burbplan_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Urban Planning (Honours)",
+      "field": "Urban Planning",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_485bfec574",
+        "akl_us_ap_programme_aggregate_90776dc8f6",
+        "akl_us_sat_and_high_school_gpa_d59104a0c6",
+        "akl_overseas_secondary_grades_australia_americas_pacific_1fc06fad3d",
+        "akl_overseas_secondary_grades_asian_qualifications_2ea7f5237f",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_urban_planning_written_statement_2bfbf40f9b"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BUrbPlan%28Hons%29",
+        "title": "University of Auckland 2027 catalogue · BUrbPlan(Hons) · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_cell_and_molecular_bioscience",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Cell and Molecular Bioscience",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_exercise_sciences",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Exercise Sciences",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_medicinal_chemistry",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Medicinal Chemistry",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_nutrition",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Nutrition",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_pharmacology",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Pharmacology",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "akl_bsc_physiology",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Physiology",
+      "field": "Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "akl_english_language_ielts_academic_caec06b169",
+        "akl_cambridge_international_and_gce_a_levels_scoring_dcdbb541ac",
+        "akl_us_ap_exam_count_and_documents_316726ab4c",
+        "akl_us_ged_alternative_qualification_route_cf960d8a39",
+        "akl_overseas_a_level_programme_grades_b5eddaef78",
+        "akl_us_ap_programme_aggregate_5c01d232d1",
+        "akl_us_sat_and_high_school_gpa_415c09ed4c",
+        "akl_overseas_secondary_grades_australia_americas_pacific_5588d9542d",
+        "akl_overseas_secondary_grades_asian_qualifications_e0a30d7f92",
+        "akl_overseas_qualifications_requiring_an_alternative_rou_aeeecc2a4d",
+        "akl_programme_selection_published_conditions_1023657906"
+      ],
+      "source": {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?p0_catalogue_term=Summer&p0_catalogue_year=2027&p5_code=BSc",
+        "title": "University of Auckland 2027 catalogue · BSc · programme record",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}

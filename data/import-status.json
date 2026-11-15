@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281090,
+            "programs": 281125,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3156,
+            "admissionProfiles": 3192,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24566,
+            "admissionRequirements": 24633,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 778
+            "qualificationRequirements": 813
         },
         "ibCoverage": {
             "byCountry": [
@@ -72,9 +72,9 @@
                 },
                 {
                     "country": "New Zealand",
-                    "institutions": 2,
-                    "programs_with_reviewed_ib": 0,
-                    "programs_with_published_totals": 0
+                    "institutions": 3,
+                    "programs_with_reviewed_ib": 35,
+                    "programs_with_published_totals": 35
                 },
                 {
                     "country": "Nigeria",
@@ -119,12 +119,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 778,
-            "programsWithReviewedIb": 721,
+            "reviewedRecords": 813,
+            "programsWithReviewedIb": 756,
             "institutionWidePolicies": 15,
-            "institutionsWithReviewedIb": 38,
-            "programsWithPublishedTotals": 430,
-            "undergraduateCatalogEntries": 195417
+            "institutionsWithReviewedIb": 39,
+            "programsWithPublishedTotals": 465,
+            "undergraduateCatalogEntries": 195452
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,13 +153,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4107,
+            "programs": 4108,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1885,
+            "admissions": 1886,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24044
+            "noStructuredApplicationFacts": 24043
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -171,32 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2546,
-            "profiles": 1052,
-            "institutions": 26
+            "facts": 2613,
+            "profiles": 1054,
+            "institutions": 27
         }
     },
-    "generatedAt": "2026-11-15T14:16:21Z",
+    "generatedAt": "2026-11-15T14:25:59Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 53,
-        "provider": "official_admissions",
+        "inserted": 35,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 53,
-        "startedAt": "2026-11-15T14:15:25.70566+00:00",
-        "updatedAt": "2026-11-15T14:15:25.70566+00:00",
+        "processed": 35,
+        "startedAt": "2026-11-15T14:25:15.505036+00:00",
+        "updatedAt": "2026-11-15T14:25:15.602+00:00",
         "checkpoint": {
-            "profiles": 28,
-            "admissionFacts": 53,
-            "programsReused": 0,
-            "programsCreated": 27,
-            "priorSharedLinksAdded": 56
+            "rowIndex": 35,
+            "sourceRows": 35,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-15T14:15:25.846+00:00",
-        "artifactSha256": "10f6b5a68e3346a2ac00fa25456f11a62df302deed5187f6460f2abc11cfb26e",
-        "datasetVersion": "official-admissions-udsm-2026-2027-direct-part-3-2026-11-15-v1"
+        "finishedAt": "2026-11-15T14:25:15.602+00:00",
+        "artifactSha256": "c75a15b736ffb0ab4dacfa5e4f45822181e5f1037cd97d01009d2c9dea9149b9",
+        "datasetVersion": "official-ib-auckland-2027-overseas-2026-11-15-v1"
     },
     "schemaVersion": 2
 }
