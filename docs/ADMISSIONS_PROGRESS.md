@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Auckland New Zealand school-leaver ranks — November 15
+
+1. **Baseline.** Local main matched `f643318` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43725023173). The database matched the verified Auckland clinical and Law backup.
+2. **Sources.** Checked the corrected 2027 undergraduate prospectus and revised health faculty chart. The [source record](research/AUCKLAND_NZ_SCHOOL_LEAVER_20261115.md) documents which values apply after the Commerce and Property update and Health restructure.
+3. **Artifacts.** Two files add 35 domestic IB totals and 21 general facts with 140 shared programme links. Every record uses the same programme identity as its overseas route. New Zealand Cambridge tariff scores and overseas Cambridge grade groups retain separate scopes.
+4. **Import.** Both previews performed zero writes. The two imports added 35 qualification records and 21 general requirements without rejection, with every programme reused. Both repeat imports reported already completed. Prior 2,671 general facts and 813 IB records preserved their complete-row hashes.
+5. **Verification.** The complete API matched all 2,692 general facts, 848 IB records and all 140 new references. The website displayed the published Urban Planning scores of 27 for New Zealand school-leavers and 24 for the overseas IB route. All 293 tests and the data-quality gate passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 281,130 catalogue entries, 3,252 admission profiles, 24,712 general requirements, 107,627 sources and 88 runs. Reviewed general admissions cover 27 institutions. Published IB totals cover 465 programme entries. Archive `backups/post-auckland-nz-school-leaver-20261115.s11zKW` read completely with 192 listing entries and SHA-256 `e7f4d5c4eae3600edf038073adc96df65844aa3ee4efaf6b09a23e4ab09162fa`.
+
+The next institution is the University of Mauritius, starting with the university's nine undergraduate faculty and partner tables for 2026/2027, the general regulations and the international qualifications policy.
+
 ## University of Auckland clinical and Law progression — November 15
 
 1. **Baseline.** The database matched the prior Auckland overseas entry fingerprint. The verified preceding backup was retained. Local main matched `f44eba2` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43724489910).

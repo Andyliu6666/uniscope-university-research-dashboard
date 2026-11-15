@@ -1,0 +1,977 @@
+{
+  "datasetVersion": "official-admissions-auckland-nz-school-leaver-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "auckland",
+      "name": "University of Auckland",
+      "provider": "ror",
+      "externalId": "03b94tp07",
+      "countryCode": "NZ",
+      "officialDomains": ["auckland.ac.nz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "akl_nz_ba_bcom",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Commerce Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Arts / Bachelor of Commerce Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_ba_be_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Engineering (Honours) Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Arts / Bachelor of Engineering (Honours) Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_265_320_eng"
+      ]
+    },
+    {
+      "key": "akl_nz_ba_bglobalst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Global Studies Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Arts / Bachelor of Global Studies Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230_global"
+      ]
+    },
+    {
+      "key": "akl_nz_ba_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Science Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Arts / Bachelor of Science Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_ba_llb",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts / Bachelor of Laws Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Arts / Bachelor of Laws Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_ba",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Arts",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Arts",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bas",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Architectural Studies",
+      "level": "undergraduate",
+      "field": "Architecture",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Architectural Studies",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_230_280"
+      ]
+    },
+    {
+      "key": "akl_nz_bbiomedsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Biomedical Science",
+      "level": "undergraduate",
+      "field": "Biomedical Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Biomedical Science",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Communication",
+      "level": "undergraduate",
+      "field": "Communication",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Communication",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_165_170"
+      ]
+    },
+    {
+      "key": "akl_nz_bcom_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Science Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Commerce / Bachelor of Science Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_bcom_bsporthpe",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Sport, Health and Physical Education Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Commerce / Bachelor of Sport, Health and Physical Education Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_bcom_llb",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce / Bachelor of Laws Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Commerce / Bachelor of Laws Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_bcom",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Business",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Commerce",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bdancest",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Dance Studies",
+      "level": "undergraduate",
+      "field": "Dance",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Dance Studies",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bdes_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Design / Bachelor of Science Conjoint",
+      "level": "undergraduate",
+      "field": "Conjoint degree",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 93 · Bachelor of Design / Bachelor of Science Conjoint",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_conjoint_210_230"
+      ]
+    },
+    {
+      "key": "akl_nz_bdes",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Design",
+      "level": "undergraduate",
+      "field": "Design",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Design",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_180_190"
+      ]
+    },
+    {
+      "key": "akl_nz_be_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Engineering (Honours)",
+      "level": "undergraduate",
+      "field": "Engineering",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Engineering (Honours)",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_250_300_eng"
+      ]
+    },
+    {
+      "key": "akl_nz_becst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Early Childhood Studies",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Early Childhood Studies",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bed_tesol",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Education (Teaching English to Speakers of Other Languages)",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Education (Teaching English to Speakers of Other Languages)",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bed_tchg",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Education (Teaching)",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Education (Teaching)",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bfa",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Fine Arts",
+      "level": "undergraduate",
+      "field": "Fine Arts",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Fine Arts",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bglobalst",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Global Studies",
+      "level": "undergraduate",
+      "field": "Global Studies",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Global Studies",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_180_190_global"
+      ]
+    },
+    {
+      "key": "akl_nz_bhsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Health Sciences",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Health Sciences",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bmus",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Music",
+      "level": "undergraduate",
+      "field": "Music",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Music",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_bnurs",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Nursing",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Nursing",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_230_280_nursing"
+      ]
+    },
+    {
+      "key": "akl_nz_bprop",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Property",
+      "level": "undergraduate",
+      "field": "Property",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Property",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Science",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_165_170_science"
+      ]
+    },
+    {
+      "key": "akl_nz_bsporthpe",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Sport, Health and Physical Education",
+      "level": "undergraduate",
+      "field": "Sport and Education",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Sport, Health and Physical Education",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_150_150"
+      ]
+    },
+    {
+      "key": "akl_nz_burbplan_hons",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Urban Planning (Honours)",
+      "level": "undergraduate",
+      "field": "Urban Planning",
+      "source": {
+        "title": "Auckland 2027 undergraduate prospectus · p. 92 · Bachelor of Urban Planning (Honours)",
+        "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_single_180_190"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_cell_and_molecular_bioscience",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Cell and Molecular Bioscience",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Cell and Molecular Bioscience",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_exercise_sciences",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Exercise Sciences",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Exercise Sciences",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_medicinal_chemistry",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Medicinal Chemistry",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Medicinal Chemistry",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_nutrition",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Nutrition",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Nutrition",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_pharmacology",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Pharmacology",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Pharmacology",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    },
+    {
+      "key": "akl_nz_bsc_physiology",
+      "institutionKey": "auckland",
+      "name": "Bachelor of Science in Physiology",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "Auckland 2027 health study update · p. 17 · Bachelor of Science in Physiology",
+        "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "akl_nz_diploma_ue",
+        "akl_nz_tariff",
+        "akl_nz_cambridge_ue",
+        "akl_nz_health_200_200"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_diploma_ue",
+          "label": "IB Diploma · New Zealand University Entrance",
+          "category": "academic",
+          "status": "conditional",
+          "details": "University Entrance uses the full IB Diploma with a minimum of 24 points. English Language A1 at HL or SL and an IB Mathematics subject satisfy the literacy and numeracy components. English Language B at HL with grade 5 is also accepted for literacy.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 91 · IB Diploma · New Zealand University Entrance",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_tariff",
+          "label": "Cambridge International · New Zealand rank computation",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Use up to six units of approved subjects, capped at two units per syllabus group. A level counts as two units, and AS as one. Thinking Skills is excluded. A-level grades A* through E earn 140, 120, 100, 80, 60 and 40 points; AS grades A through E earn 60, 50, 40, 30 and 20. The rank score is capped at 420.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 91 · Cambridge International · New Zealand rank computation",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_cambridge_ue",
+          "label": "Cambridge International · University Entrance",
+          "category": "academic",
+          "status": "conditional",
+          "details": "University Entrance requires at least 120 New Zealand Cambridge tariff points and D or better from at least three eligible syllabus groups, excluding Thinking Skills, plus literacy and numeracy. Eligible A or AS English at E or above can satisfy literacy. IGCSE or GCSE Maths at D or above, or an AS Maths pass, can satisfy numeracy. The prospectus also recognises the applicable NCEA literacy and numeracy routes.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 90 · Cambridge International · University Entrance",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_conjoint_210_230",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 210; Cambridge International NZ tariff rank 230. Both component degrees’ entry requirements apply.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 93 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_conjoint_265_320_eng",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 265; Cambridge International NZ tariff rank 320. Cambridge requires Mathematics and Physics at full A Level. NCEA requires 17 external Level 3 Calculus credits and 16 external Level 3 Physics credits. Both component degrees’ entry requirements apply.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 93 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_conjoint_210_230_global",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 210; Cambridge International NZ tariff rank 230. The university encourages an additional language. Its NCEA route requires at least 16 credits in three approved subjects. Both component degrees’ entry requirements apply.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 93 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_150_150",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 150; Cambridge International NZ tariff rank 150.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_230_280",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 230; Cambridge International NZ tariff rank 280.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_health_200_200",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published programme rank thresholds. NCEA Level 3 rank 200; Cambridge International NZ tariff rank 200. The faculty does not prescribe individual school subjects for these three health entry categories. Biology, Chemistry, English or an English-rich subject, and Statistics or Calculus are recommended preparation.",
+          "source": {
+            "title": "Auckland 2027 health study update · p. 17 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/fmhs/study-with-us/docs/health-study-changes-2027.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_165_170",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 165; Cambridge International NZ tariff rank 170.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_200_200",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 200; Cambridge International NZ tariff rank 200.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_180_190",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 180; Cambridge International NZ tariff rank 190.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_250_300_eng",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 250; Cambridge International NZ tariff rank 300. Cambridge requires Mathematics and Physics at full A Level. NCEA requires 17 external Level 3 Calculus credits and 16 external Level 3 Physics credits.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_180_190_global",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 180; Cambridge International NZ tariff rank 190. The university encourages an additional language. Its NCEA route requires at least 16 credits in three approved subjects.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_230_280_nursing",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 230; Cambridge International NZ tariff rank 280. Cambridge requires full A Level in one of Classical Studies, English, Geography or History and one of Biology, Chemistry or Physics. NCEA requires 18 Level 3 credits in one of Classical Studies, English, Geography, History, History of Art, Religious Studies, Social Studies or Te Reo Māori or Te Reo Rangatira, plus 18 in Biology, Chemistry or Physics.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "akl_nz_single_165_170_science",
+          "label": "New Zealand school-leaver · NCEA and Cambridge ranks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published rank for guaranteed entry when the applicable programme requirements are met. NCEA Level 3 rank 165; Cambridge International NZ tariff rank 170. This applies to the general Science row. The health majors have their own published ranks.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · New Zealand school-leaver · NCEA and Cambridge ranks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_bas_selection",
+          "label": "Architecture portfolio",
+          "category": "portfolio",
+          "status": "required",
+          "details": "The published entry rank is subject to assessment of the creative portfolio.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · Architecture portfolio",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_nz_bas"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_bdancest_selection",
+          "label": "Dance audition",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Auckland evaluates the audition in addition to the academic route.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · Dance audition",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_nz_bdancest"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_bed_tesol_selection",
+          "label": "TESOL safety and conviction disclosure",
+          "category": "document",
+          "status": "required",
+          "details": "Disclose criminal convictions and meet the safety checks as part of admission.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · TESOL safety and conviction disclosure",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_nz_bed_tesol"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_bed_tchg_selection",
+          "label": "Teaching selection and competency checks",
+          "category": "interview",
+          "status": "required",
+          "details": "Complete a satisfactory interview, police and safety checks, referee reports, a literacy assessment and the Ministry of Education mathematics test. Applicants must also meet the Teaching Council language standard.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · Teaching selection and competency checks",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_nz_bed_tchg"
+    },
+    {
+      "institutionKey": "auckland",
+      "programId": null,
+      "level": "undergraduate",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "notes": "New Zealand secondary-school qualifications in the domestic 2027 school-leaver route.",
+      "requirements": [
+        {
+          "key": "akl_nz_bmus_selection",
+          "label": "Music · Performance and Jazz",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Entry to the Performance or Jazz route depends on evaluation of an audition portfolio.",
+          "source": {
+            "title": "Auckland 2027 undergraduate prospectus · p. 92 · Music · Performance and Jazz",
+            "url": "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UGP_2027_web_final%202.pdf",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "akl_nz_bmus"
+    }
+  ]
+}
