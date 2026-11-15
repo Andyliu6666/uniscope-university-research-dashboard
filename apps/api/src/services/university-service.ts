@@ -1,5 +1,6 @@
-import { and, asc, count, desc, eq, ilike, inArray, lte, or, sql } from 'drizzle-orm';
+import { and, asc, count, desc, eq, ilike, inArray, isNull, lte, or, sql } from 'drizzle-orm';
 import type {
+  AdmissionRequirement,
   AdmissionsQuery,
   CoverageDimension,
   CoverageSourceTier,
@@ -717,6 +718,19 @@ export const admissionsPageBounds = (query: AdmissionsQuery) => {
   return { page, pageSize, offset: (page - 1) * pageSize };
 };
 
+type AdmissionScope = Pick<
+  typeof admissionProfiles.$inferSelect,
+  'academicYear' | 'intakeTerm' | 'deliveryMode' | 'entryType' | 'level' | 'applicantType'
+>;
+
+export const matchesAdmissionScope = (shared: AdmissionScope, programme: AdmissionScope) =>
+  shared.academicYear === programme.academicYear &&
+  shared.intakeTerm === programme.intakeTerm &&
+  shared.deliveryMode === programme.deliveryMode &&
+  shared.entryType === programme.entryType &&
+  shared.level === programme.level &&
+  shared.applicantType === programme.applicantType;
+
 export const getUniversityAdmissions = async (
   db: Database,
   slug: string,
@@ -786,6 +800,31 @@ export const getUniversityAdmissions = async (
       ])
     : [[], [], [], []];
 
+  const pageProgramIds = [
+    ...new Set(profiles.flatMap(({ programId }) => (programId ? [programId] : []))),
+  ];
+  const sharedRequirements = pageProgramIds.length
+    ? await db
+        .select({ requirement: admissionRequirements, scope: admissionProfiles })
+        .from(admissionRequirements)
+        .innerJoin(
+          admissionProfiles,
+          eq(admissionRequirements.admissionProfileId, admissionProfiles.id),
+        )
+        .where(
+          and(
+            eq(admissionProfiles.universityId, university.id),
+            isNull(admissionProfiles.programId),
+            sql`${admissionRequirements.sourceFlags}->'sharedProgramIds' ?|
+              array[${sql.join(
+                pageProgramIds.map((id) => sql`${id}`),
+                sql`, `,
+              )}]::text[]`,
+          ),
+        )
+        .orderBy(asc(admissionRequirements.requirementKey))
+    : [];
+
   const costFilters = [
     eq(costSnapshots.universityId, university.id),
     query.year ? eq(costSnapshots.academicYear, query.year) : undefined,
@@ -823,6 +862,7 @@ export const getUniversityAdmissions = async (
     ...profiles.map((profile) => profile.sourceId),
     ...countRows.map((row) => row.sourceId),
     ...requirementRows.map((row) => row.sourceId),
+    ...sharedRequirements.map(({ requirement }) => requirement.sourceId),
     ...qualificationRows.map((row) => row.sourceId),
     ...testRows.map((row) => row.sourceId),
     ...costRows.map((row) => row.sourceId),
@@ -870,83 +910,99 @@ export const getUniversityAdmissions = async (
         )
     : [];
   const programNames = new Map(scopedPrograms.map((program) => [program.id, program.name]));
-  const profileResponses = profiles.map((profile) => ({
-    id: profile.id,
-    programId: profile.programId,
-    programName: profile.programId ? (programNames.get(profile.programId) ?? null) : null,
-    academicYear: profile.academicYear,
-    intakeTerm: profile.intakeTerm,
-    deliveryMode: profile.deliveryMode,
-    entryType: profile.entryType,
-    level: profile.level,
-    applicantType: profile.applicantType,
-    openAdmission: profile.openAdmission,
-    applicationUrl: profile.applicationUrl,
-    notes: profile.notes,
-    counts: countRows
-      .filter((row) => row.admissionProfileId === profile.id)
-      .map((row) => ({
-        metric: row.metric,
-        population: row.population,
-        value: row.value,
-        sourceFlags: row.sourceFlags,
-      })),
-    requirements: requirementRows
-      .filter((row) => row.admissionProfileId === profile.id)
-      .map((row) => ({
-        category: row.category,
-        requirementKey: row.requirementKey,
-        label: row.label,
-        status: row.status,
-        details: row.details,
-        sourceFlags: row.sourceFlags,
-        ...(sharedIdsFor(row).length
-          ? {
-              sharedPrograms: sharedIdsFor(row).map((id) => {
-                const program = scopedPrograms.find((item) => item.id === id);
-                if (profile.programId || !program || program.level !== profile.level)
-                  throw new Error('Shared programme is absent or outside the admission scope.');
-                return { id: program.id, name: program.name };
-              }),
-            }
-          : {}),
-        verifiedAt: row.verifiedAt.toISOString(),
-        source: requirementCitationForApi(sourceFor(row.sourceId), row.sourceFlags, row.verifiedAt),
-      })),
-    qualifications: qualificationRows
-      .filter((row) => row.admissionProfileId === profile.id)
-      .map((row) => ({
-        qualificationSystem: row.qualificationSystem,
-        qualificationName: row.qualificationName,
-        kind: row.kind,
-        subject: row.subject,
-        operator: row.operator,
-        minimumValue: numberOrNull(row.minimumValue),
-        maximumValue: numberOrNull(row.maximumValue),
-        valueText: row.valueText,
-        scale: row.scale,
-        notes: row.notes,
-        sourceFlags: row.sourceFlags,
-      })),
-    testScores: testRows
-      .filter((row) => row.admissionProfileId === profile.id)
-      .map((row) => ({
-        testName: row.testName,
-        section: row.section,
-        context: row.context,
-        submittersCount: row.submittersCount,
-        submittersPercent: numberOrNull(row.submittersPercent),
-        minimumScore: numberOrNull(row.minimumScore),
-        maximumScore: numberOrNull(row.maximumScore),
-        averageScore: numberOrNull(row.averageScore),
-        percentile25: numberOrNull(row.percentile25),
-        percentile50: numberOrNull(row.percentile50),
-        percentile75: numberOrNull(row.percentile75),
-        scoreScale: row.scoreScale,
-        sourceFlags: row.sourceFlags,
-      })),
-    source: sourceFor(profile.sourceId),
-  }));
+  const requirementForApi = (row: (typeof requirementRows)[number]): AdmissionRequirement => ({
+    category: row.category,
+    requirementKey: row.requirementKey,
+    label: row.label,
+    status: row.status,
+    details: row.details,
+    sourceFlags: row.sourceFlags,
+    verifiedAt: row.verifiedAt.toISOString(),
+    source: requirementCitationForApi(sourceFor(row.sourceId), row.sourceFlags, row.verifiedAt),
+  });
+  const profileResponses = profiles.map((profile) => {
+    const ownRequirements = requirementRows.filter((row) => row.admissionProfileId === profile.id);
+    const keys = new Set(ownRequirements.map(({ requirementKey }) => requirementKey));
+    const inherited = profile.programId
+      ? sharedRequirements
+          .filter(
+            ({ scope, requirement }) =>
+              matchesAdmissionScope(scope, profile) &&
+              sharedIdsFor(requirement).some((id) => id === profile.programId) &&
+              !keys.has(requirement.requirementKey),
+          )
+          .map(({ requirement }) => requirementForApi(requirement))
+      : [];
+    return {
+      id: profile.id,
+      programId: profile.programId,
+      programName: profile.programId ? (programNames.get(profile.programId) ?? null) : null,
+      academicYear: profile.academicYear,
+      intakeTerm: profile.intakeTerm,
+      deliveryMode: profile.deliveryMode,
+      entryType: profile.entryType,
+      level: profile.level,
+      applicantType: profile.applicantType,
+      openAdmission: profile.openAdmission,
+      applicationUrl: profile.applicationUrl,
+      notes: profile.notes,
+      counts: countRows
+        .filter((row) => row.admissionProfileId === profile.id)
+        .map((row) => ({
+          metric: row.metric,
+          population: row.population,
+          value: row.value,
+          sourceFlags: row.sourceFlags,
+        })),
+      requirements: ownRequirements.map((row) => {
+        const ids = sharedIdsFor(row);
+        const sharedPrograms = ids.map((id) => {
+          const program = scopedPrograms.find((item) => item.id === id);
+          if (profile.programId || !program || program.level !== profile.level)
+            throw new Error('Shared programme is absent or outside the admission scope.');
+          return { id: program.id, name: program.name };
+        });
+        return {
+          ...requirementForApi(row),
+          ...(sharedPrograms.length ? { sharedPrograms } : {}),
+        };
+      }),
+      ...(inherited.length ? { sharedRequirements: inherited } : {}),
+      qualifications: qualificationRows
+        .filter((row) => row.admissionProfileId === profile.id)
+        .map((row) => ({
+          qualificationSystem: row.qualificationSystem,
+          qualificationName: row.qualificationName,
+          kind: row.kind,
+          subject: row.subject,
+          operator: row.operator,
+          minimumValue: numberOrNull(row.minimumValue),
+          maximumValue: numberOrNull(row.maximumValue),
+          valueText: row.valueText,
+          scale: row.scale,
+          notes: row.notes,
+          sourceFlags: row.sourceFlags,
+        })),
+      testScores: testRows
+        .filter((row) => row.admissionProfileId === profile.id)
+        .map((row) => ({
+          testName: row.testName,
+          section: row.section,
+          context: row.context,
+          submittersCount: row.submittersCount,
+          submittersPercent: numberOrNull(row.submittersPercent),
+          minimumScore: numberOrNull(row.minimumScore),
+          maximumScore: numberOrNull(row.maximumScore),
+          averageScore: numberOrNull(row.averageScore),
+          percentile25: numberOrNull(row.percentile25),
+          percentile50: numberOrNull(row.percentile50),
+          percentile75: numberOrNull(row.percentile75),
+          scoreScale: row.scoreScale,
+          sourceFlags: row.sourceFlags,
+        })),
+      source: sourceFor(profile.sourceId),
+    };
+  });
 
   return {
     university,

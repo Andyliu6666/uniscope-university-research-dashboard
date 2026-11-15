@@ -315,6 +315,7 @@ export interface AdmissionProfile {
   notes: string | null;
   counts: AdmissionCount[];
   requirements: AdmissionRequirement[];
+  sharedRequirements?: AdmissionRequirement[];
   qualifications: QualificationRequirement[];
   testScores: AdmissionTestScore[];
   source: UniversitySource;

@@ -466,7 +466,10 @@ export function AdmissionsSection({
     data?.profiles
       .filter(
         (item) =>
-          item.counts.length > 0 || item.requirements.length > 0 || item.testScores.length > 0,
+          item.counts.length > 0 ||
+          item.requirements.length > 0 ||
+          (item.sharedRequirements?.length ?? 0) > 0 ||
+          item.testScores.length > 0,
       )
       .sort((a, b) => {
         const priority = (item: typeof a) =>
@@ -562,6 +565,7 @@ export function AdmissionsSection({
       </section>
     );
 
+  const requirements = [...profile.requirements, ...(profile.sharedRequirements ?? [])];
   const total = new Map(
     profile.counts
       .filter((item) => item.population === 'all')
@@ -657,10 +661,10 @@ export function AdmissionsSection({
           ))}
         </div>
       )}
-      {profile.requirements.length > 0 && (
+      {requirements.length > 0 && (
         <div className="admissions-subsection">
           <h3>Requirements and selection policies</h3>
-          {profile.requirements.map((requirement) => (
+          {requirements.map((requirement) => (
             <div className="list-row" key={`${requirement.category}-${requirement.requirementKey}`}>
               <div>
                 <strong>{requirement.label}</strong>

@@ -3,6 +3,7 @@ import { PgDialect } from 'drizzle-orm/pg-core';
 import {
   deriveUniversityCoverage,
   admissionsPageBounds,
+  matchesAdmissionScope,
   requirementCitationForApi,
   resolveStudentCount,
   type UniversityCoverageFacts,
@@ -98,6 +99,30 @@ describe('requirement-level source citations', () => {
       expect(requirementCitationForApi(source, { ...flags, sourceTitle }, date).title).toBe(
         source.title,
       );
+    }
+  });
+});
+
+describe('shared programme requirements', () => {
+  it('requires the same year, term, entry route, delivery mode, level and applicant group', () => {
+    const scope = {
+      academicYear: '2027',
+      intakeTerm: 'unspecified',
+      entryType: 'first_year',
+      deliveryMode: 'campus',
+      level: 'undergraduate',
+      applicantType: 'international',
+    } as const;
+    expect(matchesAdmissionScope(scope, { ...scope })).toBe(true);
+    for (const change of [
+      { academicYear: '2028' },
+      { intakeTerm: 'semester_1' },
+      { entryType: 'transfer' },
+      { deliveryMode: 'distance' },
+      { level: 'graduate' },
+      { applicantType: 'domestic' },
+    ] as const) {
+      expect(matchesAdmissionScope(scope, { ...scope, ...change })).toBe(false);
     }
   });
 });

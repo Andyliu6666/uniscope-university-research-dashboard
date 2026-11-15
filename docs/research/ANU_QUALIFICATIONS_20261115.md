@@ -1,0 +1,15 @@
+# The Australian National University 2027 undergraduate qualifications
+
+Reviewed November 15, 2026. The [ANU Programs and Courses catalogue](https://programsandcourses.anu.edu.au/catalogue) returned 99 undergraduate entries for 2027. The imported subset is 42 single-degree titles, four flexible-double-degree categories with a single published rank and three international pathway diplomas. Each of the 49 entries has a checked programme page and CRICOS code. Unranked awards, programmes without confirmed international availability and one flexible group with two component-specific ranks await separate review.
+
+## Qualification scores and eligibility
+
+- The [2027 IB conversion](https://study.anu.edu.au/apply/undergraduate-program-indicative-entry-requirements/international-baccalaureate-applications) supplies the indicative whole-number scores for IB diplomas earned overseas. The application identifies the programme's rank and uses the corresponding overseas conversion. An institution-wide IB record points to the Australian-school conversion for examinations from November 2022.
+- The [GCE A-level rank table](https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels) gives best-three and best-four aggregates. The [AP rank table](https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications) provides the first attainable listed aggregate at or above each course rank for eligible US or Chinese high-school diploma applicants. Both columns respect the minimum grade of 3 per exam. At rank 70 the listed 8 and 10 aggregates are below the possible totals under that rule, so the first eligible mapped aggregates are 9/15 and 12/20. Shared equivalent rows are recorded once and linked to the matching programmes.
+- The [International Business handbook](https://programsandcourses.anu.edu.au/2027/program/BINBS) shows IB 30 at ATAR 80. The 2027 overseas table gives 31/45 at rank 80. The programme shows the 2027 overseas reference and the separate handbook figure with their sources.
+
+## Additional review
+
+Programme-specific requirements include IB Mathematics and Chemistry, supplementary suitability forms for Health Science and selected Philosophy degrees, optional 2027 creative portfolios and the separate Music Performance course audition. Flexible groups retain the component-degree condition. The three pathway diplomas retain alternative qualifications and adjustment restrictions. Common facts include the January 2027 English test rules, documentation, Semester 2 predicted-result scope and both intake deadlines.
+
+[Programme-specific selection](https://study.anu.edu.au/apply/anu-programs-additional-selection-criteria), [English policy](https://policies.anu.edu.au/ppl/document/ANUP_000408), [Admissions procedure](https://policies.anu.edu.au/ppl/document/ANUP_007810), [International documentation](https://study.anu.edu.au/apply/international-applications/documentation-requirements), [International application dates](https://study.anu.edu.au/apply/international-applications).

@@ -1,0 +1,2388 @@
+{
+  "datasetVersion": "official-admissions-anu-2027-qualifications-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "anu",
+      "name": "The Australian National University",
+      "provider": "ror",
+      "externalId": "019wvm592",
+      "countryCode": "AU",
+      "officialDomains": ["anu.edu.au"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Shared eligibility, rank conversions and programme-linked requirements for 2027 international school-leaver entry.",
+      "requirements": [
+        {
+          "key": "anu_gce_calculation",
+          "label": "GCE A-level · score calculation",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU selects the stronger rank from the best three or four A-level subjects. Grade weights are A*=6, A=5, B=4, C=3, D=2 and E=1. Take the exams in one academic year, with up to one subject from the preceding or following year.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, aggregate and timing",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_qualification",
+          "label": "AP · direct entry evidence",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "Complete a US or Chinese high-school diploma and present three or four AP exams over a maximum of two years. Each counted result must be at least grade 3. Exclude Calculus AB subgrades. Have College Board send the official report directly to ANU.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU AP direct entry, effective from Semester 1 2026",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_application_documents",
+          "label": "International application · records and translations",
+          "category": "document",
+          "status": "required",
+          "details": "Submit academic records with the grading scale, evidence of secondary completion and proof of English proficiency. Supply applicable programme-specific documents. Include a complete authorised translation for originals in other languages.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/documentation-requirements",
+            "title": "ANU international documentation requirements",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_predicted_results",
+          "label": "Predicted IB, GCE A-level and HKDSE results",
+          "category": "document",
+          "status": "conditional",
+          "details": "The published documentation policy accepts predicted results for Semester 2 applications. Applicants using this route must provide the official final transcript for enrolment verification.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/documentation-requirements",
+            "title": "ANU international documentation, predicted-results route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_opening_deadlines",
+          "label": "2027 direct international application and offer deadlines",
+          "category": "application",
+          "status": "conditional",
+          "details": "The published Semester 1 application deadline is 15 December 2026. Accept by 15 January 2027 if overseas or 31 January 2027 if in Australia. For Semester 2, apply by 15 May 2027 and accept by 30 June if overseas or 10 July if in Australia. Special selection deadlines may differ.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications",
+            "title": "ANU international applications, 2027 key dates",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_application_preferences",
+          "label": "Direct application · preferences and fee",
+          "category": "application",
+          "status": "conditional",
+          "details": "Rank up to three programmes in the direct application. ANU considers the highest eligible preference for an offer. Each submitted application has an AUD 150 application fee.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications",
+            "title": "ANU international applications, direct submission and preferences",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_english_tests",
+          "label": "Undergraduate English tests · study commencing in 2027",
+          "category": "language",
+          "status": "conditional",
+          "details": "IELTS Academic or UKVI Academic: 6.5 overall and 6.0 in each skill. TOEFL iBT: 81 overall, Reading 16, Writing 19, Listening 16, Speaking 19. Tests from 21 January 2026 must use TOEFL iBT Australia. PTE Academic or PTE Academic UKVI: 64 overall and 60 in each skill. Cambridge C1 Advanced: 169 overall, Reading 163, Writing 170, Listening 163 and Speaking 179. Michigan English Test: 58 overall, Reading 55, Writing 57, Listening 56 and Speaking 48. LanguageCert Academic: 67 overall, Reading 60, Writing 64, Listening 57 and Speaking 70.",
+          "source": {
+            "url": "https://policies.anu.edu.au/ppl/document/ANUP_000408",
+            "title": "ANU policy ANUP_000408, undergraduate English tests in Table 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_english_validity",
+          "label": "Undergraduate English tests · test centre and validity",
+          "category": "language",
+          "status": "conditional",
+          "details": "Use an in-person test at an official centre under the policy’s test rules. The usual validity window is two years before application. A four-year window is possible with at least one full-time equivalent year of subsequent education in English within the last two years. Check the individual test rules before combining results.",
+          "source": {
+            "url": "https://policies.anu.edu.au/ppl/document/ANUP_000408",
+            "title": "ANU policy ANUP_000408, clauses 13–15",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_rank_assessment",
+          "label": "International secondary qualifications and selection rank",
+          "category": "academic",
+          "status": "required",
+          "details": "ANU uses the applicant’s qualification or study sequence to calculate a selection rank out of 99.95. Programme prerequisites, English proficiency and additional selection can affect eligibility and admission.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/assessment",
+            "title": "ANU international assessment, undergraduate selection rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_70",
+          "label": "GCE A-level · indicative equivalent for rank 70",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 10 points for the best three A-levels or 12 points for the best four at programme entrance rank 70. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_80",
+          "label": "GCE A-level · indicative equivalent for rank 80",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 13 points for the best three A-levels or 14 points for the best four at programme entrance rank 80. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_85",
+          "label": "GCE A-level · indicative equivalent for rank 85",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 14 points for the best three A-levels or 16 points for the best four at programme entrance rank 85. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_90",
+          "label": "GCE A-level · indicative equivalent for rank 90",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 15 points for the best three A-levels or 18 points for the best four at programme entrance rank 90. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_92",
+          "label": "GCE A-level · indicative equivalent for rank 92",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 16 points for the best three A-levels or 19 points for the best four at programme entrance rank 92. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_94",
+          "label": "GCE A-level · indicative equivalent for ranks 94 and 95",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 16 points for the best three A-levels or 20 points for the best four at programme entrance ranks 94 and 95. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_97",
+          "label": "GCE A-level · indicative equivalent for ranks 97 and 98",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 17 points for the best three A-levels or 21 points for the best four at programme entrance ranks 97 and 98. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_gce_rank_99",
+          "label": "GCE A-level · indicative equivalent for rank 99",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ANU lists 18 points for the best three A-levels or 22 points for the best four at programme entrance rank 99. Use the published subject and sitting rules.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/gce-levels",
+            "title": "ANU GCE A Levels, programme entrance-rank table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_70",
+          "label": "AP · indicative equivalent for rank 70",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 9/15 across 3 exams maps to rank 78 and 12/20 across 4 exams maps to rank 75. The conversion rows for aggregates 8 across three and 10 across four fall below the required grade 3 per exam.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_80",
+          "label": "AP · indicative equivalent for rank 80",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 10/15 across 3 exams maps to rank 80 and 14/20 across 4 exams maps to rank 80.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_85",
+          "label": "AP · indicative equivalent for rank 85",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 11/15 across 3 exams maps to rank 85 and 15/20 across 4 exams maps to rank 85.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_90",
+          "label": "AP · indicative equivalent for rank 90",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 13/15 across 3 exams maps to rank 94 and 17/20 across 4 exams maps to rank 90.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_92",
+          "label": "AP · indicative equivalent for ranks 92 and 94",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 13/15 across 3 exams maps to rank 94 and 18/20 across 4 exams maps to rank 94.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_95",
+          "label": "AP · indicative equivalent for ranks 95 and 97",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 14/15 across 3 exams maps to rank 97 and 19/20 across 4 exams maps to rank 97.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_ap_rank_98",
+          "label": "AP · indicative equivalent for ranks 98 and 99",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The first eligible published aggregates reaching the indicated programme rank are 15/15 across 3 exams maps to rank 99 and 20/20 across 4 exams maps to rank 99.5.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/international-applications/indicative-entry-requirement/advanced-placement-ap-applications",
+            "title": "ANU Advanced Placement, published AP aggregate table and minimum grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bacts_methods_pathway",
+          "label": "Mathematics prerequisite · recognised IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "For the IB route the programme accepts Mathematics: Applications and Interpretation HL, or Mathematics: Analysis and Approaches at SL or HL. Australian equivalents include ACT Mathematical Methods (Major) and NSW Mathematics Advanced. Programme handbooks list other equivalents.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BACTS",
+            "title": "ANU Programs and Courses 2027, BACTS: mathematics prerequisites",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bbiot_chemistry_pathway",
+          "label": "Chemistry prerequisite · recognised IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "IB Chemistry at SL or HL is accepted. Applicants without equivalent chemistry should ask ANU for academic advice. ANU advertises a February chemistry bridging course.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BBIOT",
+            "title": "ANU Programs and Courses 2027, BBIOT: chemistry prerequisite",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bcomm_assumed_math",
+          "label": "Mathematics assumed knowledge",
+          "category": "academic",
+          "status": "recommended",
+          "details": "The programme has no formal mathematics prerequisite. ANU assumes preparation comparable to ACT Mathematical Methods (Major) or NSW Mathematics Advanced.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BCOMM",
+            "title": "ANU Programs and Courses 2027, BCOMM: assumed mathematics knowledge",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bsc_science_preparation",
+          "label": "Science preparation and subject-specific prerequisites",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The degree has no general subject prerequisite. Some first-year classes and biology majors require chemistry preparation. CHEM1101 can be entered with ACT major-level Chemistry or a bridging course. Check calculus and other prerequisites of the chosen first-year subjects.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BSC",
+            "title": "ANU Programs and Courses 2027, BSC: science prerequisites",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_diploma_alternative",
+          "label": "Pathway diplomas · alternative admission credentials",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The pathway accepts an AQF Certificate IV as another entry basis. The programme guides also consider an average of at least 80% in academic subjects of the General Secondary Education Certificate (Tawjihi or Shahadat Al-Thanawaya Al-aama), alongside a qualifying SAT result. ANU procedure specifies Kuwait, the United Arab Emirates, Saudi Arabia or Qatar for the Tawjihi route.",
+          "source": {
+            "url": "https://policies.anu.edu.au/ppl/document/ANUP_007810",
+            "title": "ANU coursework admissions procedure, pathway diploma qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_diploma_adjustment",
+          "label": "Pathway diplomas · rank adjustments",
+          "category": "academic",
+          "status": "not_considered",
+          "details": "ANU excludes the pathway diplomas from all adjustment-factor schemes.",
+          "source": {
+            "url": "https://policies.anu.edu.au/ppl/document/ANUP_007810",
+            "title": "ANU coursework admissions procedure, Table 2 and pathway diploma exclusions",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_design_arts_portfolio",
+          "label": "Optional Design and Visual Arts portfolio",
+          "category": "portfolio",
+          "status": "optional",
+          "details": "For 2027, Design and Visual Arts accept an optional portfolio. Include a 300–500 word statement and six images of original work with a title, date and up to 50 words of commentary per work. A satisfactory submission may add up to 10 rank points for applicants eligible for the adjustment and with a rank of at least 70.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/anu-programs-additional-selection-criteria",
+            "title": "ANU additional selection, 2027 Design and Visual Arts portfolio",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_4855fdd_combination",
+          "label": "Flexible double degree · check both component degrees",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The listed rank is for the flexible programme category. Meet the rank and subject requirements of both chosen component degrees.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/4855FDD",
+            "title": "ANU Programs and Courses 2027, 4855FDD: flexible double degree and course requirements",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan 4050FDD, CRICOS 079093D.",
+      "requirements": [
+        {
+          "key": "anu_4050fdd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/4050FDD",
+            "title": "ANU Programs and Courses 2027, 4050FDD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_4050fdd"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BACCT, CRICOS 079653K.",
+      "requirements": [
+        {
+          "key": "anu_bacct_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BACCT",
+            "title": "ANU Programs and Courses 2027, BACCT: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bacct"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BACTS, CRICOS 028147F.",
+      "requirements": [
+        {
+          "key": "anu_bacts_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 92 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BACTS",
+            "title": "ANU Programs and Courses 2027, BACTS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bacts"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AACOM, CRICOS 077939A.",
+      "requirements": [
+        {
+          "key": "anu_aacom_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AACOM",
+            "title": "ANU Programs and Courses 2027, AACOM: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aacom"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AACRD, CRICOS 085359K.",
+      "requirements": [
+        {
+          "key": "anu_aacrd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 98 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AACRD",
+            "title": "ANU Programs and Courses 2027, AACRD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aacrd"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BADAN, CRICOS 094621D.",
+      "requirements": [
+        {
+          "key": "anu_badan_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 90 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BADAN",
+            "title": "ANU Programs and Courses 2027, BADAN: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_badan"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BARTS, CRICOS 074016B.",
+      "requirements": [
+        {
+          "key": "anu_barts_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BARTS",
+            "title": "ANU Programs and Courses 2027, BARTS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_barts"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BASIA, CRICOS 082710B.",
+      "requirements": [
+        {
+          "key": "anu_basia_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BASIA",
+            "title": "ANU Programs and Courses 2027, BASIA: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_basia"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BBIOT, CRICOS 036660M.",
+      "requirements": [
+        {
+          "key": "anu_bbiot_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BBIOT",
+            "title": "ANU Programs and Courses 2027, BBIOT: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bbiot"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BBUSA, CRICOS 062745A.",
+      "requirements": [
+        {
+          "key": "anu_bbusa_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BBUSA",
+            "title": "ANU Programs and Courses 2027, BBUSA: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bbusa"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BBISY, CRICOS 119825D.",
+      "requirements": [
+        {
+          "key": "anu_bbisy_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BBISY",
+            "title": "ANU Programs and Courses 2027, BBISY: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bbisy"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BCOMM, CRICOS 002289F.",
+      "requirements": [
+        {
+          "key": "anu_bcomm_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BCOMM",
+            "title": "ANU Programs and Courses 2027, BCOMM: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bcomm"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BCOMP, CRICOS 112692B.",
+      "requirements": [
+        {
+          "key": "anu_bcomp_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BCOMP",
+            "title": "ANU Programs and Courses 2027, BCOMP: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bcomp"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BCRIM, CRICOS 078937F.",
+      "requirements": [
+        {
+          "key": "anu_bcrim_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BCRIM",
+            "title": "ANU Programs and Courses 2027, BCRIM: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bcrim"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BDESN, CRICOS 092387C.",
+      "requirements": [
+        {
+          "key": "anu_bdesn_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BDESN",
+            "title": "ANU Programs and Courses 2027, BDESN: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bdesn"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BECON, CRICOS 002290B.",
+      "requirements": [
+        {
+          "key": "anu_becon_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BECON",
+            "title": "ANU Programs and Courses 2027, BECON: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_becon"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AENGI, CRICOS 077943E.",
+      "requirements": [
+        {
+          "key": "anu_aengi_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AENGI",
+            "title": "ANU Programs and Courses 2027, AENGI: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aengi"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AENSE, CRICOS 108316E.",
+      "requirements": [
+        {
+          "key": "anu_aense_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AENSE",
+            "title": "ANU Programs and Courses 2027, AENSE: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aense"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AENRD, CRICOS 060542F.",
+      "requirements": [
+        {
+          "key": "anu_aenrd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 98 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AENRD",
+            "title": "ANU Programs and Courses 2027, AENRD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aenrd"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BENSU, CRICOS 091180D.",
+      "requirements": [
+        {
+          "key": "anu_bensu_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BENSU",
+            "title": "ANU Programs and Courses 2027, BENSU: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bensu"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BFINN, CRICOS 039746C.",
+      "requirements": [
+        {
+          "key": "anu_bfinn_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BFINN",
+            "title": "ANU Programs and Courses 2027, BFINN: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bfinn"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AFEST, CRICOS 086222G.",
+      "requirements": [
+        {
+          "key": "anu_afest_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 98 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AFEST",
+            "title": "ANU Programs and Courses 2027, AFEST: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_afest_math",
+          "label": "Mathematics prerequisite",
+          "category": "academic",
+          "status": "required",
+          "details": "For IB applicants the programme lists Mathematics: Analysis and Approaches at SL or HL. The NSW equivalent is Mathematics Extension 1.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AFEST",
+            "title": "ANU Programs and Courses 2027, AFEST: mathematics prerequisite",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_afest"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BHLTH, CRICOS 094623B.",
+      "requirements": [
+        {
+          "key": "anu_bhlth_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 90 as the indicative rank for this programme. The supplementary selection also applies.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BHLTH",
+            "title": "ANU Programs and Courses 2027, BHLTH: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bhlth_supplementary",
+          "label": "Compulsory supplementary application",
+          "category": "document",
+          "status": "required",
+          "details": "ANU assesses suitability from the compulsory Health Science Supplementary Form. The programme handbook also records ten places prioritised for international applicants in 2027.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BHLTH",
+            "title": "ANU Programs and Courses 2027, BHLTH: admission requirements",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bhlth"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BINBS, CRICOS 047472B.",
+      "requirements": [
+        {
+          "key": "anu_binbs_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BINBS",
+            "title": "ANU Programs and Courses 2027, BINBS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_binbs_ib_source_difference",
+          "label": "IB totals shown by two official sources",
+          "category": "academic",
+          "status": "unknown",
+          "details": "The 2027 handbook shows IB 30 beside ATAR 80. ANU’s separately dated Semester 1 2027 table gives 31/45 for overseas IB at rank 80. Ask ANU which basis it will apply to your application.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BINBS",
+            "title": "ANU Programs and Courses 2027, BINBS: handbook IB score and ATAR",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_binbs"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BIR, CRICOS 073992F.",
+      "requirements": [
+        {
+          "key": "anu_bir_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BIR",
+            "title": "ANU Programs and Courses 2027, BIR: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bir"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BINSS, CRICOS 082704M.",
+      "requirements": [
+        {
+          "key": "anu_binss_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BINSS",
+            "title": "ANU Programs and Courses 2027, BINSS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_binss"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BLANG, CRICOS 073988B.",
+      "requirements": [
+        {
+          "key": "anu_blang_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BLANG",
+            "title": "ANU Programs and Courses 2027, BLANG: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_blang"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan ALLB, CRICOS 085042J.",
+      "requirements": [
+        {
+          "key": "anu_allb_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 97 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/ALLB",
+            "title": "ANU Programs and Courses 2027, ALLB: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_allb_bachelor_hold",
+          "label": "Eligibility after completing a bachelor degree",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Applicants who already hold a bachelor degree or international equivalent cannot enter the LLB Honours. ANU directs those applicants to its Juris Doctor.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/ALLB",
+            "title": "ANU Programs and Courses 2027, ALLB: admission requirements",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_allb"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BMASC, CRICOS 086223G.",
+      "requirements": [
+        {
+          "key": "anu_bmasc_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 95 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BMASC",
+            "title": "ANU Programs and Courses 2027, BMASC: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bmasc_math",
+          "label": "Mathematics prerequisite",
+          "category": "academic",
+          "status": "required",
+          "details": "For IB applicants the programme lists Mathematics: Analysis and Approaches at HL. The NSW equivalent is Mathematics Extension 2.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BMASC",
+            "title": "ANU Programs and Courses 2027, BMASC: mathematics prerequisite",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bmasc"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BMEDS, CRICOS 036662J.",
+      "requirements": [
+        {
+          "key": "anu_bmeds_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BMEDS",
+            "title": "ANU Programs and Courses 2027, BMEDS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bmeds"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BMUSI, CRICOS 073990G.",
+      "requirements": [
+        {
+          "key": "anu_bmusi_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BMUSI",
+            "title": "ANU Programs and Courses 2027, BMUSI: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_music_portfolio",
+          "label": "Optional Music portfolio and performance stream",
+          "category": "portfolio",
+          "status": "optional",
+          "details": "For 2027 Music entry, applicants can submit a 300–500 word statement and recording material totalling up to 10 minutes, with a brief statement about each work. Eligible applicants with a rank of at least 70 may receive up to 10 points. Performance stream classes have a separate audition.",
+          "source": {
+            "url": "https://study.anu.edu.au/apply/anu-programs-additional-selection-criteria",
+            "title": "ANU additional selection, 2027 Music portfolio and Performance stream",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bmusi"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BPAST, CRICOS 075274J.",
+      "requirements": [
+        {
+          "key": "anu_bpast_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPAST",
+            "title": "ANU Programs and Courses 2027, BPAST: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bpast"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan APHSC, CRICOS 043746B.",
+      "requirements": [
+        {
+          "key": "anu_aphsc_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 99 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/APHSC",
+            "title": "ANU Programs and Courses 2027, APHSC: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_aphsc_supplementary",
+          "label": "Compulsory supplementary application",
+          "category": "document",
+          "status": "required",
+          "details": "ANU assesses suitability from the compulsory Philosophy (Honours) Science Supplementary Form. The additional-selection page provides the form for Semester 1 2027.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/APHSC",
+            "title": "ANU Programs and Courses 2027, APHSC: admission requirements",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_aphsc"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan AHUSS, CRICOS 103363E.",
+      "requirements": [
+        {
+          "key": "anu_ahuss_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 99 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/AHUSS",
+            "title": "ANU Programs and Courses 2027, AHUSS: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_ahuss"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BPNP, CRICOS 114958J.",
+      "requirements": [
+        {
+          "key": "anu_bpnp_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 97 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPNP",
+            "title": "ANU Programs and Courses 2027, BPNP: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "anu_bpnp_supplementary",
+          "label": "Compulsory supplementary application",
+          "category": "document",
+          "status": "required",
+          "details": "ANU assesses suitability from the compulsory Philosophy, Neuroscience and Psychology Supplementary Form. ANU lists about 50 places in each intake.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPNP",
+            "title": "ANU Programs and Courses 2027, BPNP: admission requirements",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bpnp"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BPLSC, CRICOS 086219C.",
+      "requirements": [
+        {
+          "key": "anu_bplsc_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPLSC",
+            "title": "ANU Programs and Courses 2027, BPLSC: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bplsc"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BPPE, CRICOS 076183D.",
+      "requirements": [
+        {
+          "key": "anu_bppe_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 94 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPPE",
+            "title": "ANU Programs and Courses 2027, BPPE: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bppe"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BPPOL, CRICOS 097615M.",
+      "requirements": [
+        {
+          "key": "anu_bppol_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BPPOL",
+            "title": "ANU Programs and Courses 2027, BPPOL: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bppol"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BSC, CRICOS 000335K.",
+      "requirements": [
+        {
+          "key": "anu_bsc_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BSC",
+            "title": "ANU Programs and Courses 2027, BSC: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bsc"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan ASCAD, CRICOS 065138M.",
+      "requirements": [
+        {
+          "key": "anu_ascad_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 90 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/ASCAD",
+            "title": "ANU Programs and Courses 2027, ASCAD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_ascad"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BSPSY, CRICOS 047423M.",
+      "requirements": [
+        {
+          "key": "anu_bspsy_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BSPSY",
+            "title": "ANU Programs and Courses 2027, BSPSY: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bspsy"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BSTAT, CRICOS 061240A.",
+      "requirements": [
+        {
+          "key": "anu_bstat_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BSTAT",
+            "title": "ANU Programs and Courses 2027, BSTAT: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bstat"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan BVART, CRICOS 073991G.",
+      "requirements": [
+        {
+          "key": "anu_bvart_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 80 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/BVART",
+            "title": "ANU Programs and Courses 2027, BVART: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_bvart"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan EBUEC, CRICOS 121405F.",
+      "requirements": [
+        {
+          "key": "anu_ebuec_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 70 as the indicative rank for this pathway diploma.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/EBUEC",
+            "title": "ANU Programs and Courses 2027, EBUEC: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_ebuec"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan ECOMPU, CRICOS 121404G.",
+      "requirements": [
+        {
+          "key": "anu_ecompu_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 70 as the indicative rank for this pathway diploma.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/ECOMPU",
+            "title": "ANU Programs and Courses 2027, ECOMPU: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_ecompu"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan EPLIR, CRICOS 121406E.",
+      "requirements": [
+        {
+          "key": "anu_eplir_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 70 as the indicative rank for this pathway diploma.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/EPLIR",
+            "title": "ANU Programs and Courses 2027, EPLIR: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_eplir"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan 4850FDD, CRICOS 119191M.",
+      "requirements": [
+        {
+          "key": "anu_4850fdd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/4850FDD",
+            "title": "ANU Programs and Courses 2027, 4850FDD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_4850fdd"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan 4855FDD, CRICOS 117467D.",
+      "requirements": [
+        {
+          "key": "anu_4855fdd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 85 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/4855FDD",
+            "title": "ANU Programs and Courses 2027, 4855FDD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_4855fdd"
+    },
+    {
+      "institutionKey": "anu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "2027 international first-year entry. ANU academic plan 4350FDD, CRICOS 079095B.",
+      "requirements": [
+        {
+          "key": "anu_4350fdd_published_rank",
+          "label": "Published 2027 entrance rank",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2027 handbook lists 97 as the indicative rank for this programme.",
+          "source": {
+            "url": "https://programsandcourses.anu.edu.au/2027/program/4350FDD",
+            "title": "ANU Programs and Courses 2027, 4350FDD: 2027 entrance rank",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "anu_4350fdd"
+    }
+  ],
+  "programs": [
+    {
+      "key": "anu_4050fdd",
+      "institutionKey": "anu",
+      "name": "Flexible Double Degree - Arts, Social Sciences, Business, Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_4855fdd_combination"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/4050FDD",
+        "title": "ANU Programs and Courses 2027, 4050FDD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bacct",
+      "institutionKey": "anu",
+      "name": "Bachelor of Accounting",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BACCT",
+        "title": "ANU Programs and Courses 2027, BACCT: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bacts",
+      "institutionKey": "anu",
+      "name": "Bachelor of Actuarial Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_92", "anu_ap_rank_92", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BACTS",
+        "title": "ANU Programs and Courses 2027, BACTS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aacom",
+      "institutionKey": "anu",
+      "name": "Bachelor of Advanced Computing (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AACOM",
+        "title": "ANU Programs and Courses 2027, AACOM: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aacrd",
+      "institutionKey": "anu",
+      "name": "Bachelor of Advanced Computing (Research and Development) (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_98", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AACRD",
+        "title": "ANU Programs and Courses 2027, AACRD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_badan",
+      "institutionKey": "anu",
+      "name": "Bachelor of Applied Data Analytics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_90", "anu_ap_rank_90", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BADAN",
+        "title": "ANU Programs and Courses 2027, BADAN: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_barts",
+      "institutionKey": "anu",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BARTS",
+        "title": "ANU Programs and Courses 2027, BARTS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_basia",
+      "institutionKey": "anu",
+      "name": "Bachelor of Asian Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BASIA",
+        "title": "ANU Programs and Courses 2027, BASIA: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bbiot",
+      "institutionKey": "anu",
+      "name": "Bachelor of Biotechnology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bbiot_chemistry_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BBIOT",
+        "title": "ANU Programs and Courses 2027, BBIOT: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bbusa",
+      "institutionKey": "anu",
+      "name": "Bachelor of Business Administration",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BBUSA",
+        "title": "ANU Programs and Courses 2027, BBUSA: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bbisy",
+      "institutionKey": "anu",
+      "name": "Bachelor of Business Information Systems",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BBISY",
+        "title": "ANU Programs and Courses 2027, BBISY: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bcomm",
+      "institutionKey": "anu",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BCOMM",
+        "title": "ANU Programs and Courses 2027, BCOMM: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bcomp",
+      "institutionKey": "anu",
+      "name": "Bachelor of Computing",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BCOMP",
+        "title": "ANU Programs and Courses 2027, BCOMP: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bcrim",
+      "institutionKey": "anu",
+      "name": "Bachelor of Criminology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BCRIM",
+        "title": "ANU Programs and Courses 2027, BCRIM: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bdesn",
+      "institutionKey": "anu",
+      "name": "Bachelor of Design",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_design_arts_portfolio"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BDESN",
+        "title": "ANU Programs and Courses 2027, BDESN: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_becon",
+      "institutionKey": "anu",
+      "name": "Bachelor of Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BECON",
+        "title": "ANU Programs and Courses 2027, BECON: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aengi",
+      "institutionKey": "anu",
+      "name": "Bachelor of Engineering (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AENGI",
+        "title": "ANU Programs and Courses 2027, AENGI: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aense",
+      "institutionKey": "anu",
+      "name": "Bachelor of Engineering (Honours) in Software Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AENSE",
+        "title": "ANU Programs and Courses 2027, AENSE: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aenrd",
+      "institutionKey": "anu",
+      "name": "Bachelor of Engineering (Research and Development) (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_98", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AENRD",
+        "title": "ANU Programs and Courses 2027, AENRD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bensu",
+      "institutionKey": "anu",
+      "name": "Bachelor of Environment and Sustainability",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BENSU",
+        "title": "ANU Programs and Courses 2027, BENSU: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bfinn",
+      "institutionKey": "anu",
+      "name": "Bachelor of Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BFINN",
+        "title": "ANU Programs and Courses 2027, BFINN: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_afest",
+      "institutionKey": "anu",
+      "name": "Bachelor of Finance, Economics and Statistics (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_98"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AFEST",
+        "title": "ANU Programs and Courses 2027, AFEST: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bhlth",
+      "institutionKey": "anu",
+      "name": "Bachelor of Health Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_90", "anu_ap_rank_90"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BHLTH",
+        "title": "ANU Programs and Courses 2027, BHLTH: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_binbs",
+      "institutionKey": "anu",
+      "name": "Bachelor of International Business",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BINBS",
+        "title": "ANU Programs and Courses 2027, BINBS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bir",
+      "institutionKey": "anu",
+      "name": "Bachelor of International Relations",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BIR",
+        "title": "ANU Programs and Courses 2027, BIR: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_binss",
+      "institutionKey": "anu",
+      "name": "Bachelor of International Security Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BINSS",
+        "title": "ANU Programs and Courses 2027, BINSS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_blang",
+      "institutionKey": "anu",
+      "name": "Bachelor of Languages",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BLANG",
+        "title": "ANU Programs and Courses 2027, BLANG: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_allb",
+      "institutionKey": "anu",
+      "name": "Bachelor of Laws (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_95"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/ALLB",
+        "title": "ANU Programs and Courses 2027, ALLB: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bmasc",
+      "institutionKey": "anu",
+      "name": "Bachelor of Mathematical Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_94", "anu_ap_rank_95"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BMASC",
+        "title": "ANU Programs and Courses 2027, BMASC: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bmeds",
+      "institutionKey": "anu",
+      "name": "Bachelor of Medical Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_bbiot_chemistry_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BMEDS",
+        "title": "ANU Programs and Courses 2027, BMEDS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bmusi",
+      "institutionKey": "anu",
+      "name": "Bachelor of Music",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BMUSI",
+        "title": "ANU Programs and Courses 2027, BMUSI: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bpast",
+      "institutionKey": "anu",
+      "name": "Bachelor of Pacific Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BPAST",
+        "title": "ANU Programs and Courses 2027, BPAST: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_aphsc",
+      "institutionKey": "anu",
+      "name": "Bachelor of Philosophy (Honours) - Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_99", "anu_ap_rank_98", "anu_bsc_science_preparation"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/APHSC",
+        "title": "ANU Programs and Courses 2027, APHSC: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_ahuss",
+      "institutionKey": "anu",
+      "name": "Bachelor of Philosophy (Honours)—Humanities and Social Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_99", "anu_ap_rank_98"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/AHUSS",
+        "title": "ANU Programs and Courses 2027, AHUSS: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bpnp",
+      "institutionKey": "anu",
+      "name": "Bachelor of Philosophy, Neuroscience, and Psychology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_95"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BPNP",
+        "title": "ANU Programs and Courses 2027, BPNP: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bplsc",
+      "institutionKey": "anu",
+      "name": "Bachelor of Political Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BPLSC",
+        "title": "ANU Programs and Courses 2027, BPLSC: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bppe",
+      "institutionKey": "anu",
+      "name": "Bachelor of Politics, Philosophy and Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_94", "anu_ap_rank_92", "anu_bcomm_assumed_math"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BPPE",
+        "title": "ANU Programs and Courses 2027, BPPE: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bppol",
+      "institutionKey": "anu",
+      "name": "Bachelor of Public Policy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BPPOL",
+        "title": "ANU Programs and Courses 2027, BPPOL: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bsc",
+      "institutionKey": "anu",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bsc_science_preparation"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BSC",
+        "title": "ANU Programs and Courses 2027, BSC: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_ascad",
+      "institutionKey": "anu",
+      "name": "Bachelor of Science (Advanced) (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_90", "anu_ap_rank_90", "anu_bsc_science_preparation"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/ASCAD",
+        "title": "ANU Programs and Courses 2027, ASCAD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bspsy",
+      "institutionKey": "anu",
+      "name": "Bachelor of Science (Psychology)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BSPSY",
+        "title": "ANU Programs and Courses 2027, BSPSY: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bstat",
+      "institutionKey": "anu",
+      "name": "Bachelor of Statistics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_bacts_methods_pathway"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BSTAT",
+        "title": "ANU Programs and Courses 2027, BSTAT: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_bvart",
+      "institutionKey": "anu",
+      "name": "Bachelor of Visual Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_80", "anu_ap_rank_80", "anu_design_arts_portfolio"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/BVART",
+        "title": "ANU Programs and Courses 2027, BVART: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_ebuec",
+      "institutionKey": "anu",
+      "name": "Diploma of Business and Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": [
+        "anu_gce_rank_70",
+        "anu_ap_rank_70",
+        "anu_diploma_alternative",
+        "anu_diploma_adjustment"
+      ],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/EBUEC",
+        "title": "ANU Programs and Courses 2027, EBUEC: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_ecompu",
+      "institutionKey": "anu",
+      "name": "Diploma of Computing",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": [
+        "anu_gce_rank_70",
+        "anu_ap_rank_70",
+        "anu_bcomm_assumed_math",
+        "anu_diploma_alternative",
+        "anu_diploma_adjustment"
+      ],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/ECOMPU",
+        "title": "ANU Programs and Courses 2027, ECOMPU: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_eplir",
+      "institutionKey": "anu",
+      "name": "Diploma of Politics and International Relations",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": [
+        "anu_gce_rank_70",
+        "anu_ap_rank_70",
+        "anu_diploma_alternative",
+        "anu_diploma_adjustment"
+      ],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/EPLIR",
+        "title": "ANU Programs and Courses 2027, EPLIR: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_4850fdd",
+      "institutionKey": "anu",
+      "name": "Flexible Double Degree - Advanced Computing (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_4855fdd_combination"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/4850FDD",
+        "title": "ANU Programs and Courses 2027, 4850FDD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_4855fdd",
+      "institutionKey": "anu",
+      "name": "Flexible Double Degree - Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_85", "anu_ap_rank_85", "anu_4855fdd_combination"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/4855FDD",
+        "title": "ANU Programs and Courses 2027, 4855FDD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "anu_4350fdd",
+      "institutionKey": "anu",
+      "name": "Flexible Double Degree - Law (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "sharedRequirementKeys": ["anu_gce_rank_97", "anu_ap_rank_95", "anu_4855fdd_combination"],
+      "source": {
+        "url": "https://programsandcourses.anu.edu.au/2027/program/4350FDD",
+        "title": "ANU Programs and Courses 2027, 4350FDD: published 2027 programme",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}

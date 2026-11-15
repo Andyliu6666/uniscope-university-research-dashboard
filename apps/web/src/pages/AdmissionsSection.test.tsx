@@ -153,6 +153,31 @@ describe('general admissions scope and evidence', () => {
     expect(screen.getByText('Applies to: Biology; Chemistry')).toBeInTheDocument();
     expect(screen.getAllByText('Details shared')).toHaveLength(1);
   });
+  it('shows associated rules on a programme search with no university-wide profile on the page', () => {
+    const own = profile('stats', {
+      programId: 'stats-id',
+      programName: 'Statistics',
+    });
+    const shared = profile('ap').requirements.map((rule) => ({
+      ...rule,
+      requirementKey: 'ap-aggregate',
+      label: 'AP aggregate',
+      source: { ...source, title: 'AP policy', url: 'https://example.edu/ap' },
+    }));
+    render(
+      <AdmissionsSection
+        data={response([{ ...own, sharedRequirements: shared }])}
+        pending={false}
+        programme="Statistics"
+      />,
+    );
+    expect(screen.getByText('Requirement stats')).toBeInTheDocument();
+    expect(screen.getAllByText('AP aggregate')).toHaveLength(1);
+    expect(screen.getByRole('link', { name: /AP policy/ })).toHaveAttribute(
+      'href',
+      'https://example.edu/ap',
+    );
+  });
   it('handles a pending request and an empty response', () => {
     const { rerender } = render(<AdmissionsSection data={undefined} pending />);
     expect(screen.getByText('Loading official admissions data…')).toBeInTheDocument();
