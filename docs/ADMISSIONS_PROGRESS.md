@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Mauritius Agriculture and Engineering — November 15
+
+1. **Baseline.** Local and remote main matched `2be568a` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43725516158). The verified Auckland school-leaver archive was retained. University of Mauritius ROR `05cyprz33` had no admissions profiles.
+2. **Sources.** Verified nine 2026/2027 undergraduate faculty files from the institution’s index. The first two files supply Agriculture and Engineering prerequisites. The [source record](research/MAURITIUS_AGRICULTURE_ENGINEERING_20261115.md) distinguishes the subject requirements, general degree criteria, international rules and planning routes.
+3. **Artifacts.** Two source files add 16 programme entries, 35 facts with 56 shared programme references and one university-wide IB recognition policy without a published numerical total.
+4. **Import.** The two validations and previews passed without writes. The live imports inserted all 16 entries, 35 facts and one IB policy without rejection. Repeated imports reported already completed. Prior 2,692 general facts and 848 IB records preserved their complete-row hashes.
+5. **Verification.** The API verified 2,727 reviewed general facts, 849 IB records and the 56 new links. It confirmed the international diploma scope and the separate planning top-up route. The browser displayed the Chemical Engineering Maths, Physics and Chemistry A-level requirements with the exact faculty link. All 293 tests and the data-quality gate passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 281,146 catalogue entries, 3,272 profiles, 24,747 general requirements, 107,631 sources and 90 runs. Reviewed admissions facts cover 28 institutions and published IB totals cover 465 programme entries. Archive `backups/post-mauritius-20261115.DREq4Q` read completely with 192 listing entries and SHA-256 `d8b241a17e11db6333e54b114a2a0749c72806e0baf2382280e7802c474e7b30`.
+
+The next University of Mauritius batch starts with the Digital Technologies and Law and Management programmes. Seven remaining undergraduate files are indexed and saved with the local research checkpoint.
+
 ## University of Auckland New Zealand school-leaver ranks — November 15
 
 1. **Baseline.** Local main matched `f643318` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43725023173). The database matched the verified Auckland clinical and Law backup.

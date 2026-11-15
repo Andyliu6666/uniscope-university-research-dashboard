@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-mauritius-entry-policy-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "mauritius",
+      "name": "University of Mauritius",
+      "provider": "ror",
+      "externalId": "05cyprz33",
+      "countryCode": "MU",
+      "officialDomains": ["uom.ac.mu"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "mauritius",
+      "program": null,
+      "requirement": {
+        "recordKey": "mu-general-igcse-ib-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Undergraduate degree applicants reviewing the general 2026/2027 IGCSE and IB route",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "Section 1.4.2.1 recognises the IGCSE and IB route. The published general regulation provides no numeric diploma total. Confirm programme prerequisites and any Senate equivalence requirements.",
+        "source": {
+          "url": "https://www.uom.ac.mu/images/FILES/Regulations/2026_2027/chap1.pdf",
+          "title": "University of Mauritius 2026/2027 · general regulations §1.4.2.1",
+          "checkedOn": "2026-11-15",
+          "evidence": "The general undergraduate degree regulations recognise the IGCSE and IB route."
+        }
+      }
+    }
+  ]
+}
