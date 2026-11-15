@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Cape Town Engineering, Science and Humanities — November 15
+
+1. **Baseline.** Local and remote main matched at `6adaead`. [Both Queensland CI jobs passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43668943329). UCT ROR `03p74gp79` had zero programme entries. The database held 2,290 reviewed general facts and 731 IB records.
+2. **Sources.** The [source record](research/UCT_ENTRY_20261115.md) documents the 2027 prospectus and Matriculation Board policy. UCT's faculty points, qualifying AP exam grades and IB subject requirements retain their distinct meanings. Printed pages 37–38, 57–58 and 70 define the programme routes.
+3. **Artifacts.** Two files contain 28 general facts, 58 programme links, 22 catalogue entries and 19 IB qualification records. Shared engineering and humanities requirements are stored once.
+4. **Import.** Both validations and previews preserved the pre-import fingerprint. Live import added 22 catalogue entries, 28 general facts and 19 IB qualification records without rejections or duplicate catalogue entries. Both repeat imports reported already completed.
+5. **Verification.** All 2,290 prior general facts and 731 IB rows retained their complete-row hashes. The API matched 2,318 reviewed general facts, 750 IB records and all 58 UCT links. Browser checks confirmed the AP exemption wording and Electrical Engineering's Cambridge and IB requirements. All 293 workspace tests and the data quality gate passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 280,955 catalogue entries, 3,019 admissions profiles, 24,338 general requirements, 107,585 sources and 78 runs. Reviewed admissions facts cover 25 institutions. IB research covers 38 institutions and 693 catalogue entries, including 430 raw IB diploma total references. The broad count without structured application facts is 24,045. Archive `backups/post-uct-20261115.DxgZMo` read completely with 192 entries and SHA-256 `5b9f86574341b0db4d803bb747224abac473c89df9c019c3b7d21d50c0e3ce63`.
+
+The next UCT batch starts from the Health Sciences country-by-degree criteria, NBT bands and qualification-specific grade table. The exact prospectus pages are retained with the local checkpoint.
+
 ## University of Queensland international entry matrix — November 15
 
 1. **Baseline.** Local main matched remote `d0e4eff`. [Both ANU CI checks passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43668388683). The prior verified archive is the pre-import backup. It held 2,197 reviewed general facts and 677 IB rows. The UQ identity `ror:00rqy9422` had zero catalogue entries.

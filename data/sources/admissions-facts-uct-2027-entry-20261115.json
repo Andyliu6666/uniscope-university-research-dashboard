@@ -1,0 +1,813 @@
+{
+  "datasetVersion": "official-admissions-uct-2027-foundation-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "uct",
+      "name": "University of Cape Town",
+      "provider": "ror",
+      "externalId": "03p74gp79",
+      "countryCode": "ZA",
+      "officialDomains": ["uct.ac.za", "mb.usaf.ac.za"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International school-leaving routes for the selected Engineering, Science and Humanities programmes.",
+      "requirements": [
+        {
+          "key": "uct_dates",
+          "label": "International application and supporting documents",
+          "category": "application",
+          "status": "conditional",
+          "details": "Applications for 2027 undergraduate study closed 31 July 2026. The international supporting documents and English proof deadline was 30 September. The final CAIE, IB, NSSC and ZIMSEC results from the November 2026 session are due 15 January 2027.",
+          "source": {
+            "url": "https://undergrad.uct.ac.za/students/applications/key-dates",
+            "title": "International application and supporting documents",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_degree_exemption",
+          "label": "Matriculation exemption for international school results",
+          "category": "academic",
+          "status": "required",
+          "details": "For degree study, applicants using a non-South-African school-leaving credential must meet the Matriculation Board exemption requirements. Faculty-specific subjects and selection requirements also apply.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 16: Matriculation exemption for international school results",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_us_ap_exemption",
+          "label": "US Advanced Placement · matriculation exemption route",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The South African Matriculation Board accepts an eligible US high-school graduation diploma with two College Board AP examination subjects passed at grade 3, 4 or 5 as one qualification route for exemption. This rule specifies exemption eligibility. The faculty assesses admission separately.",
+          "source": {
+            "url": "https://mb.usaf.ac.za/united-states-of-america/",
+            "title": "US Advanced Placement · matriculation exemption route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_english_test",
+          "label": "University English evidence where applicable",
+          "category": "language",
+          "status": "conditional",
+          "details": "The general English policy lists IELTS Academic 6.5 with at least 6 each, TOEFL iBT 88 with Reading 20, Writing 19, Listening 19 and Speaking 22, PTE Academic 67 with 59 each, or a qualifying NBT Academic Literacy Test Plus report in the Upper Intermediate band. The language tests have a two-year validity period and the NBT report a three-year period. See faculty-specific conditions.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 18: University English evidence where applicable",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ebe_english",
+          "label": "Engineering and Built Environment · English and scoring",
+          "category": "academic",
+          "status": "required",
+          "details": "The faculty requires an English Language pass at the relevant school qualification level. For IGCSE English, meet the first-language condition or offer another first language. The international secondary results are assessed through subject requirements and individual review.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 37: Engineering and Built Environment · English and scoring",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_chem_civil_mech_gce",
+          "label": "Engineering · Chemistry, Civil and Mechanical group A/AS levels",
+          "category": "academic",
+          "status": "required",
+          "details": "At A-level, meet grade B in Mathematics. Add B in A-level Chemistry with at least B in IGCSE Physics, or B in A-level Physics with at least B in IGCSE Chemistry. IGCSE English must be C or higher. The AS route lists A in Mathematics and Physics plus two B grades. The alternate combination in the table is A in Mathematics, A in either Physics or Chemistry, B in the other of Physics or Chemistry, and B in one other subject.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Engineering · Chemistry, Civil and Mechanical group A/AS levels",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_electrical_gce",
+          "label": "Electrical, Computer and Mechatronics Engineering · A/AS levels",
+          "category": "academic",
+          "status": "required",
+          "details": "The A-level route requires B in both Mathematics and Physics, plus C in IGCSE English. The AS route requires A in Mathematics and Physics and B in two other AS subjects, plus C in IGCSE English.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Electrical, Computer and Mechatronics Engineering · A/AS levels",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_construction_property_ib",
+          "label": "Construction and Property Studies · IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete the full IB Diploma. For Mathematics and for either Physics or Chemistry, earn at least 5 at SL or 4 at HL. Mathematical Studies is excluded.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 37–38: Construction and Property Studies · IB subjects",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_engineering_ib_three",
+          "label": "Chemical, Civil and Mechanical Engineering · IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete the full IB Diploma. Each of Mathematics, Physics and Chemistry requires at least 6 at SL or 5 at HL. Mathematical Studies is excluded.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Chemical, Civil and Mechanical Engineering · IB subjects",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_engineering_ib_two",
+          "label": "Engineering and Geomatics · IB Mathematics and Physics",
+          "category": "academic",
+          "status": "required",
+          "details": "Complete the full IB Diploma. Mathematics and Physics each require at least 6 at SL or 5 at HL. Mathematical Studies is excluded.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Engineering and Geomatics · IB Mathematics and Physics",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_hum_english",
+          "label": "Humanities · academic English grade",
+          "category": "language",
+          "status": "required",
+          "details": "The qualification table lists minimum English as Cambridge A-level E, AS-level D, GCSE or IGCSE C, IB HL 3 or IB SL 4. Indicative likely-offer levels are A-level D, AS-level B, GCSE or IGCSE A, IB HL 4 or IB SL 6. Matriculation exemption can impose further rules.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Humanities · academic English grade",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_hum_gce",
+          "label": "Humanities · Cambridge route",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For faculty entry the prospectus calls for two A-level passes at grade C or above, with two AS-level passes potentially substituting for each A-level. For the admission-points calculation, count six relevant subjects beginning with the most senior passes and do not count any subject twice.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 57: Humanities · Cambridge route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_arts_aps",
+          "label": "Arts and Humanities · admission-points minimum",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The faculty publishes an admission-points minimum of 32 for these programmes using its non-South-African secondary qualification assessment. This is a local admission-points calculation based on school subjects and their level.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Arts and Humanities · admission-points minimum",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_hum_38",
+          "label": "Humanities · likely-offer admission points",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The published likely-offer reference is 38 UCT admission points for these programmes. Individual assessment remains competitive.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Humanities · likely-offer admission points",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_hum_portfolio",
+          "label": "Humanities creative entry · assessed work",
+          "category": "portfolio",
+          "status": "required",
+          "details": "The table requires a satisfactory evaluation of a portfolio or audition as appropriate to the subject.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Humanities creative entry · assessed work",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Engineering and the Built Environment conditions.",
+      "requirements": [
+        {
+          "key": "uct_geomatics_gce",
+          "label": "Geomatics · Cambridge qualifications",
+          "category": "academic",
+          "status": "required",
+          "details": "For A-level entry, earn C or higher in Mathematics and Physics, plus IGCSE English C. The AS route requires Mathematics B, Physics C, and B in two other AS subjects. IGCSE English C also applies.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Geomatics · Cambridge qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_geomatics"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Engineering and the Built Environment conditions.",
+      "requirements": [
+        {
+          "key": "uct_construction_gce",
+          "label": "Construction Studies · Cambridge qualifications",
+          "category": "academic",
+          "status": "required",
+          "details": "The A-level route requires two grades of D or higher, including Mathematics, and IGCSE Physics or Chemistry at C or higher. The AS route requires Mathematics D and three other AS-level subjects at B or higher, plus IGCSE Physics or Chemistry C.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 37: Construction Studies · Cambridge qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_construction"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Engineering and the Built Environment conditions.",
+      "requirements": [
+        {
+          "key": "uct_property_gce",
+          "label": "Property Studies · Cambridge qualifications",
+          "category": "academic",
+          "status": "required",
+          "details": "The A-level route requires two results at D or higher, including Mathematics. The AS route requires Mathematics D and B in three other AS-level subjects.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 38: Property Studies · Cambridge qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_property"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Engineering and the Built Environment conditions.",
+      "requirements": [
+        {
+          "key": "uct_architecture_portfolio",
+          "label": "Architecture · portfolio and written motivation",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Submit a written motivation and a creative portfolio. The 2027 prospectus sets 31 July 2026 as the portfolio deadline.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 5, 37: Architecture · portfolio and written motivation",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_architecture_gce",
+          "label": "Architecture · Cambridge qualifications",
+          "category": "academic",
+          "status": "required",
+          "details": "The A-level route requires D or better in two A-level subjects. The AS route requires C or better in four AS subjects. Both routes also require at least C in IGCSE Mathematics or Physics.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 37: Architecture · Cambridge qualifications",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_architecture"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Science conditions.",
+      "requirements": [
+        {
+          "key": "uct_science_uct_fps",
+          "label": "Science · subject-based Faculty Points Score",
+          "category": "academic",
+          "status": "required",
+          "details": "The published minimum is 34 UCT Faculty Points across the best five subjects including required subjects, using the published international grade table. Limited capacity can make the competitive score higher.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 70: Science · subject-based Faculty Points Score",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_science_subjects",
+          "label": "Science · Cambridge and IB prerequisite subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "Cambridge applicants need IGCSE English C, A or AS Mathematics B and A or AS Physical Science, Chemistry or Physics C. The IB route requires English SL 5, Mathematics Analysis and Approaches at HL 5 or SL 6, and Physical Science or Chemistry or Physics at HL 5 or SL 6. Mathematics Applications and Interpretation and Mathematical Studies are excluded.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 70: Science · Cambridge and IB prerequisite subjects",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_science_english",
+          "label": "Science · faculty English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "The faculty lists IELTS 7.0 overall with no element below 6.0, TOEFL iBT 88, PTE Academic 64 or NBT Academic Literacy 51% where proof is needed.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 70: Science · faculty English evidence",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_science"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Humanities conditions.",
+      "requirements": [
+        {
+          "key": "uct_ppe_mathematics",
+          "label": "PPE · mathematics requirement and likely-offer score",
+          "category": "academic",
+          "status": "required",
+          "details": "The published Mathematics minimum is A-level E, AS-level C, NSSC grade 3, IB HL 3 or IB SL 5. The UCT admission-points minimum is 32 and the likely-offer reference is 39.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: PPE · mathematics requirement and likely-offer score",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_ppe"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Humanities conditions.",
+      "requirements": [
+        {
+          "key": "uct_music_theory",
+          "label": "Music · theory test and interview",
+          "category": "interview",
+          "status": "required",
+          "details": "The Music degree also requires a satisfactory music theory test and interview.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Music · theory test and interview",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_music"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Humanities conditions.",
+      "requirements": [
+        {
+          "key": "uct_diploma_music_audition",
+          "label": "Diploma school qualification and audition",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Present a school-leaving qualification endorsed for diploma study and pass an audition. Music Performance also requires a satisfactory music theory test and interview.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Diploma school qualification and audition",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_diploma_music"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Humanities conditions.",
+      "requirements": [
+        {
+          "key": "uct_diploma_theatre_audition",
+          "label": "Diploma school qualification and audition",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Present a school-leaving qualification endorsed for diploma study and pass an audition.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Diploma school qualification and audition",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_diploma_theatre"
+    },
+    {
+      "institutionKey": "uct",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "First-year admission with non-South-African school qualifications. See the 2027 Humanities conditions.",
+      "requirements": [
+        {
+          "key": "uct_adult_education_transcript",
+          "label": "Higher Certificate · eligibility routes",
+          "category": "academic",
+          "status": "required",
+          "details": "The faculty lists a National Senior Certificate, Level 4 National Certificate (Vocational), an appropriate Level 4 adult, community or early childhood education certificate, or recognition of prior learning.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, printed p. 58: Higher Certificate · eligibility routes",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_adult_education"
+    }
+  ],
+  "programs": [
+    {
+      "key": "uct_chemical",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Chemical Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Chemical Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ebe_english",
+        "uct_engineering_ib_three",
+        "uct_chem_civil_mech_gce"
+      ]
+    },
+    {
+      "key": "uct_civil",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Civil Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Civil Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ebe_english",
+        "uct_engineering_ib_three",
+        "uct_chem_civil_mech_gce"
+      ]
+    },
+    {
+      "key": "uct_mechanical",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Mechanical Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ebe_english",
+        "uct_engineering_ib_three",
+        "uct_chem_civil_mech_gce"
+      ]
+    },
+    {
+      "key": "uct_mechanical_mechatronic",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Mechanical and Mechatronic Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Mechanical and Mechatronic Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ebe_english",
+        "uct_engineering_ib_three",
+        "uct_chem_civil_mech_gce"
+      ]
+    },
+    {
+      "key": "uct_electrical",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Electrical Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Electrical Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_engineering_ib_two", "uct_electrical_gce"]
+    },
+    {
+      "key": "uct_electrical_computer",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Electrical and Computer Engineering",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Electrical and Computer Engineering",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_engineering_ib_two", "uct_electrical_gce"]
+    },
+    {
+      "key": "uct_mechatronics",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Engineering in Mechatronics",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Engineering in Mechatronics",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_engineering_ib_two", "uct_electrical_gce"]
+    },
+    {
+      "key": "uct_geomatics",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Geomatics",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Geomatics",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_engineering_ib_two"]
+    },
+    {
+      "key": "uct_construction",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Construction Studies",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 37: Bachelor of Science in Construction Studies",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_construction_property_ib"]
+    },
+    {
+      "key": "uct_property",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Property Studies",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 38: Bachelor of Science in Property Studies",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english", "uct_construction_property_ib"]
+    },
+    {
+      "key": "uct_architecture",
+      "institutionKey": "uct",
+      "name": "Bachelor of Architectural Studies",
+      "level": "undergraduate",
+      "field": "Engineering and the Built Environment",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 37: Bachelor of Architectural Studies",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ebe_english"]
+    },
+    {
+      "key": "uct_science",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 70: Bachelor of Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_degree_exemption"]
+    },
+    {
+      "key": "uct_arts",
+      "institutionKey": "uct",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Arts",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english", "uct_hum_gce", "uct_arts_aps", "uct_hum_38"]
+    },
+    {
+      "key": "uct_social",
+      "institutionKey": "uct",
+      "name": "Bachelor of Social Science",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Social Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english", "uct_hum_gce", "uct_arts_aps", "uct_hum_38"]
+    },
+    {
+      "key": "uct_social_work",
+      "institutionKey": "uct",
+      "name": "Bachelor of Social Work",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Social Work",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english", "uct_hum_gce", "uct_arts_aps", "uct_hum_38"]
+    },
+    {
+      "key": "uct_ppe",
+      "institutionKey": "uct",
+      "name": "Bachelor of Social Science (Philosophy, Politics and Economics)",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Social Science (Philosophy, Politics and Economics)",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english", "uct_hum_gce"]
+    },
+    {
+      "key": "uct_fine_art",
+      "institutionKey": "uct",
+      "name": "Bachelor of Arts (Fine Art)",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Arts (Fine Art)",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_hum_english",
+        "uct_hum_gce",
+        "uct_arts_aps",
+        "uct_hum_portfolio"
+      ]
+    },
+    {
+      "key": "uct_theatre",
+      "institutionKey": "uct",
+      "name": "Bachelor of Arts (Theatre and Performance)",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Arts (Theatre and Performance)",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_hum_english",
+        "uct_hum_gce",
+        "uct_arts_aps",
+        "uct_hum_portfolio"
+      ]
+    },
+    {
+      "key": "uct_music",
+      "institutionKey": "uct",
+      "name": "Bachelor of Music",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Bachelor of Music",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_hum_english",
+        "uct_hum_gce",
+        "uct_arts_aps",
+        "uct_hum_portfolio"
+      ]
+    },
+    {
+      "key": "uct_diploma_music",
+      "institutionKey": "uct",
+      "name": "Diploma in Music Performance",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Diploma in Music Performance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english"]
+    },
+    {
+      "key": "uct_diploma_theatre",
+      "institutionKey": "uct",
+      "name": "Diploma in Theatre and Performance",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Diploma in Theatre and Performance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english"]
+    },
+    {
+      "key": "uct_adult_education",
+      "institutionKey": "uct",
+      "name": "Higher Certificate in Adult and Community Education and Training",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, printed p. 58: Higher Certificate in Adult and Community Education and Training",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_hum_english"]
+    }
+  ]
+}
