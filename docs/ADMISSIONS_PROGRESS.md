@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## Sydney and remaining Monash qualification scores — November 15
+
+1. **Baseline.** Main matched GitHub at `61a4b56` with [passing CI](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43665873593). The database held 28,171 institutions, 280,721 catalogue entries, 1,668 reviewed general facts and 518 reviewed IB records. The pre-import archive `backups/pre-australia-expansion-20261115.oUInsC` read completely with 192 listing entries and SHA-256 `65e93aadb3975dd0f29cfb6e64ab9ddd9bb31671741f9b7ceb036729a7cb40b1`.
+2. **Sources.** Checked all four Sydney course table pages and the remaining Monash faculty tables. Individual course pages confirmed selective entries and the combined architecture scores. The [source record](research/SYDNEY_MONASH_QUALIFICATIONS_20261115.md) documents the university-wide Sydney AP route, the two Medicine GCE column scopes and the Monash Fine Art exception.
+3. **Artifacts.** Five general and two IB files cover 89 Sydney and 20 new Monash course entries. They add 440 general facts and 109 IB records, of which 108 have numerical totals. Sydney's general files follow the four course pages to meet the existing per-file validation limit.
+4. **Import.** All seven previews passed and preserved the database fingerprint. Live imports added 440 general facts and 109 IB records with 109 new catalogue entries and zero rejections. The IB import reused all programme IDs. The seven repeat imports reported already completed.
+5. **Verification.** Full-row hashes matched all 1,668 prior general facts and 518 IB records. The live API matched 2,108 reviewed general facts and 627 IB records, including their sources and applicant scopes. Browser checks showed Sydney Science/Medicine at 45/45 IB and 24 points across four A2 subjects, and Monash Architecture F6003 at 26/45 IB, GCE 8 and AP 6/10. All 291 workspace tests and the data-quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 280,830 catalogue entries, 2,891 profiles, 24,128 general requirements, 107,512 sources and 71 runs. Reviewed IB covers 35 institutions and 571 catalogue entries, including 381 with published totals. The broad count without structured application facts is 24,048. The final archive `backups/post-australia-expansion-20261115.nu0Oyp` read completely with 192 listing entries and SHA-256 `a9e15490209834d9591164c90aec2e13d0844616154b22cb2caf4031ab770cc2`.
+
+Australian National University's 2027 catalogue and overseas qualification conversion tables are the next source batch.
+
 ## NUS combinations, UNSW Sydney and Monash qualification scores — November 15
 
 1. **Baseline.** Local main matched remote `3b1a643`, with [passing CI](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43664352789). The database started with 28,171 institutions, 280,601 catalogue entries, 2,659 profiles, 1,371 reviewed general facts and 398 IB records. Exact NUS, UNSW Sydney and Monash Australia ROR identities were checked.

@@ -2,25 +2,25 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280721,
+            "programs": 280830,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2781,
+            "admissionProfiles": 2891,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 23688,
+            "admissionRequirements": 24128,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 518
+            "qualificationRequirements": 627
         },
         "ibCoverage": {
             "byCountry": [
                 {
                     "country": "Australia",
-                    "institutions": 2,
-                    "programs_with_reviewed_ib": 105,
-                    "programs_with_published_totals": 105
+                    "institutions": 3,
+                    "programs_with_reviewed_ib": 214,
+                    "programs_with_published_totals": 213
                 },
                 {
                     "country": "Canada",
@@ -119,12 +119,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 518,
-            "programsWithReviewedIb": 462,
+            "reviewedRecords": 627,
+            "programsWithReviewedIb": 571,
             "institutionWidePolicies": 14,
-            "institutionsWithReviewedIb": 34,
-            "programsWithPublishedTotals": 273,
-            "undergraduateCatalogEntries": 195048
+            "institutionsWithReviewedIb": 35,
+            "programsWithPublishedTotals": 381,
+            "undergraduateCatalogEntries": 195157
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,13 +153,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4102,
+            "programs": 4103,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1880,
+            "admissions": 1881,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24049
+            "noStructuredApplicationFacts": 24048
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -171,31 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 1668,
-            "profiles": 713,
-            "institutions": 21
+            "facts": 2108,
+            "profiles": 823,
+            "institutions": 22
         }
     },
-    "generatedAt": "2026-11-15T02:01:41Z",
+    "generatedAt": "2026-11-15T02:18:12Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 15,
+        "inserted": 20,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 15,
-        "startedAt": "2026-11-15T01:57:21.45064+00:00",
-        "updatedAt": "2026-11-15T02:01:08.482491+00:00",
+        "processed": 20,
+        "startedAt": "2026-11-15T02:14:54.11965+00:00",
+        "updatedAt": "2026-11-15T02:14:54.177+00:00",
         "checkpoint": {
-            "rowIndex": 15,
-            "sourceRows": 15,
+            "rowIndex": 20,
+            "sourceRows": 20,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-15T01:57:21.497+00:00",
-        "artifactSha256": "dae4105bebc37b3656593adc36b96c711facf15b9be6d71575929bb280b41052",
-        "datasetVersion": "official-ib-nus-business-computing-combinations-2026-11-15-v1"
+        "finishedAt": "2026-11-15T02:14:54.177+00:00",
+        "artifactSha256": "8409c972611ba96f5bfaee2e6e23a40e1b1ca07aac1c3846c83f180d7250b8b8",
+        "datasetVersion": "official-ib-monash-2027-remaining-faculties-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

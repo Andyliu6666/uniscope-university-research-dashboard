@@ -1,0 +1,1355 @@
+{
+  "datasetVersion": "official-admissions-sydney-2027-qualifications-part-1-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "sydney",
+      "name": "The University of Sydney",
+      "provider": "ror",
+      "externalId": "0384j8v12",
+      "countryCode": "AU",
+      "officialDomains": ["sydney.edu.au"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Common qualification and English rules in the 2027 international guide.",
+      "requirements": [
+        {
+          "key": "sydney_gce_aggregate",
+          "label": "GCE A-level · aggregate calculation",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For a four-subject calculation use the strongest four A2 subjects. Score A*=6, A=5, B=4, C=3, D=2 and E=1. Exclude AS results and include at most one Applied A-level.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international guide, A-level aggregate, PDF p. 6",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_ap_aggregate",
+          "label": "AP · standalone qualification and high-school GPA",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "International applicants can use three or four AP exam scores alongside secondary graduation and the applicable accredited US high school GPA on a 4.0 scale. Count scores of at least 3 and exclude the Calculus AB subgrade. Each course sets its applicable admission criteria.",
+          "source": {
+            "url": "https://www.sydney.edu.au/study/applying/how-to-apply/undergraduate/recognised-qualifications.html",
+            "title": "Sydney recognised qualifications, United States AP route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_ap_adjustment",
+          "label": "AP · supporting an ACT or SAT score",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "The guide allows a lower SAT or ACT score when accompanied by AP results at grade 3 or above. The table does not publish course AP thresholds or adjustment amounts.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international guide, US test notes, PDF p. 8",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_english_validity",
+          "label": "English tests · result validity",
+          "category": "language",
+          "status": "conditional",
+          "details": "English test results used for admission must be no more than two years old at the date the course starts.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international guide, English test scores, PDF p. 6",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_58b497c56f5c968c9e",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 082879K. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_58b497c56f5c968c9e_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 13 points from three A2 subjects or 13 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_58b497c56f5c968c9e_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1250/1600 or ACT composite 24/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_58b497c56f5c968c9e_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_58b497c56f5c968c9e_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_07220dcb8ca0460b96",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 108334C. The guide lists 3 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_07220dcb8ca0460b96_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 12 points from three A2 subjects or 12 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_07220dcb8ca0460b96_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1200/1600 or ACT composite 23/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_07220dcb8ca0460b96_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_07220dcb8ca0460b96_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_0bf8eee54dcebb4c24",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 052456D. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_0bf8eee54dcebb4c24_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 15 points from three A2 subjects or 16 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0bf8eee54dcebb4c24_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1340/1600 or ACT composite 28/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0bf8eee54dcebb4c24_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0bf8eee54dcebb4c24_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_192b5533b8ff8090ed",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 090781J. The guide lists 5 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_192b5533b8ff8090ed_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 15 points from three A2 subjects or 16 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_192b5533b8ff8090ed_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1350/1600 or ACT composite 30/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_192b5533b8ff8090ed_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_192b5533b8ff8090ed_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_6b374b5841852ec9e0",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 000705M. The guide lists 3 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_6b374b5841852ec9e0_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 12 points from three A2 subjects or 12 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6b374b5841852ec9e0_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1200/1600 or ACT composite 23/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6b374b5841852ec9e0_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 6.5 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6b374b5841852ec9e0_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 85 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_4a9ff316aa9d342e39",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 000705M. The guide lists four years, two in France and two in Sydney full-time and commencement in August in France. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_4a9ff316aa9d342e39_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 13 points from three A2 subjects or 13 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a9ff316aa9d342e39_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1250/1600 or ACT composite 24/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a9ff316aa9d342e39_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 6.5 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a9ff316aa9d342e39_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 85 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a9ff316aa9d342e39_dual_degree",
+          "label": "Sciences Po · joint selection and English criteria",
+          "category": "interview",
+          "status": "required",
+          "details": "The two institutions select jointly. Attend an online panel interview if invited and meet the higher of their English language requirements. The first two years take place in France.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international guide, Sciences Po dual degree notes, PDF p. 6",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_329b3b3ad51a33c1ea",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115419F. The guide lists 3 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_329b3b3ad51a33c1ea_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 14 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_329b3b3ad51a33c1ea_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1300/1600 or ACT composite 26/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_329b3b3ad51a33c1ea_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 6.5 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_329b3b3ad51a33c1ea_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 85 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_6890ffc3195016c184",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115418G. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_6890ffc3195016c184_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 14 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6890ffc3195016c184_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1300/1600 or ACT composite 26/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6890ffc3195016c184_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 6.5 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6890ffc3195016c184_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 85 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_4a914d7d64d9b4dfa7",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115421A. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_4a914d7d64d9b4dfa7_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 15 points from three A2 subjects or 16 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a914d7d64d9b4dfa7_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1340/1600 or ACT composite 28/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a914d7d64d9b4dfa7_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.5 (7.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4a914d7d64d9b4dfa7_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 105 (23/25). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_0f8e0a3d03a5a3cc04",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115420B. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_0f8e0a3d03a5a3cc04_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 15 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0f8e0a3d03a5a3cc04_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1320/1600 or ACT composite 27/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0f8e0a3d03a5a3cc04_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_0f8e0a3d03a5a3cc04_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_a6ba7baaa128350027",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 008451G. The guide lists 3 years full-time and commencement in February. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_a6ba7baaa128350027_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 11 points from three A2 subjects or 11 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_a6ba7baaa128350027_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1130/1600 or ACT composite 22/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_a6ba7baaa128350027_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 6.5 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_a6ba7baaa128350027_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 85 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_a6ba7baaa128350027_selection",
+          "label": "Additional admission criteria",
+          "category": "application",
+          "status": "required",
+          "details": "The admissions table marks this programme for additional selection. Follow the course page for the applicable portfolio, audition or interview.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_9e79a685e8b0e842d1",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 012849G. The guide lists 3 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_9e79a685e8b0e842d1_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 17 points from three A2 subjects or 19 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9e79a685e8b0e842d1_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1380/1600 or ACT composite 32/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9e79a685e8b0e842d1_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9e79a685e8b0e842d1_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_9c6bee5e1f3be0f459",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115417H. The guide lists 4 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_9c6bee5e1f3be0f459_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 17 points from three A2 subjects or 19 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9c6bee5e1f3be0f459_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1380/1600 or ACT composite 32/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9c6bee5e1f3be0f459_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_9c6bee5e1f3be0f459_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_6322cc0e552a58b7c2",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115416J. The guide lists 4 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_6322cc0e552a58b7c2_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 17 points from three A2 subjects or 19 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6322cc0e552a58b7c2_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1380/1600 or ACT composite 32/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6322cc0e552a58b7c2_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_6322cc0e552a58b7c2_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_8a78fb01223539dac7",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 003336G. The guide lists 3 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_8a78fb01223539dac7_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 14 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_8a78fb01223539dac7_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1300/1600 or ACT composite 26/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_8a78fb01223539dac7_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_8a78fb01223539dac7_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_2890ff9f09d37227e3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 003336G. The guide lists four years, two in France and two in Sydney full-time and commencement in August in France. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_2890ff9f09d37227e3_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 14 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_2890ff9f09d37227e3_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1300/1600 or ACT composite 26/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_2890ff9f09d37227e3_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_2890ff9f09d37227e3_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_2890ff9f09d37227e3_dual_degree",
+          "label": "Sciences Po · joint selection and English criteria",
+          "category": "interview",
+          "status": "required",
+          "details": "The two institutions select jointly. Attend an online panel interview if invited and meet the higher of their English language requirements. The first two years take place in France.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international guide, Sciences Po dual degree notes, PDF p. 6",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sydney",
+      "programId": null,
+      "programKey": "sydney_4151c1ead6bec7cc1b",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Published international admissions reference for 2027. CRICOS 115414M. The guide lists 4 years full-time and commencement in February or August. Admission also depends on course criteria, English proficiency and availability.",
+      "requirements": [
+        {
+          "key": "sydney_4151c1ead6bec7cc1b_gce",
+          "label": "GCE A-level · 2027 indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The guide gives 14 points from three A2 subjects or 14 points from four A2 subjects.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4151c1ead6bec7cc1b_usa",
+          "label": "SAT or ACT · 2027 indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The guide lists SAT 1300/1600 or ACT composite 26/36 for the respective route, alongside evidence of secondary graduation.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4151c1ead6bec7cc1b_ielts",
+          "label": "IELTS Academic · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using IELTS Academic, the guide lists 7.0 (6.0). The overall score comes first, followed by section minima.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "sydney_4151c1ead6bec7cc1b_toefl",
+          "label": "TOEFL iBT · English proficiency",
+          "category": "language",
+          "status": "conditional",
+          "details": "If using TOEFL iBT, the guide lists 96 (17/19). Where only two subscores appear, the first covers each of listening, reading and speaking, and the second covers writing.",
+          "source": {
+            "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+            "title": "Sydney 2027 international admissions course table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "sydney_58b497c56f5c968c9e",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Architecture and Environments",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_07220dcb8ca0460b96",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Design (Interaction Design)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_0bf8eee54dcebb4c24",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Design in Architecture",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_192b5533b8ff8090ed",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Design in Architecture (Honours) and Master of Architecture",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_6b374b5841852ec9e0",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_4a9ff316aa9d342e39",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Arts (Dual Degree: Sciences Po, France)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_329b3b3ad51a33c1ea",
+      "institutionKey": "sydney",
+      "name": "Bachelor of International Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_6890ffc3195016c184",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Languages",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_4a914d7d64d9b4dfa7",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Media and Communications",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_0f8e0a3d03a5a3cc04",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Politics, Philosophy, and Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_a6ba7baaa128350027",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Visual Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_9e79a685e8b0e842d1",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_9c6bee5e1f3be0f459",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Commerce and Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_6322cc0e552a58b7c2",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Commerce and Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_8a78fb01223539dac7",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_2890ff9f09d37227e3",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Economics (Dual Degree: Sciences Po, France)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "sydney_4151c1ead6bec7cc1b",
+      "institutionKey": "sydney",
+      "name": "Bachelor of Economics and Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+        "title": "Sydney 2027 international admissions course table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}
