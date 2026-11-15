@@ -1,0 +1,23 @@
+# NUS combined degrees and Australian international entry scores
+
+## National University of Singapore
+
+The February 2026 table covers Singapore-Cambridge A-level, IB Diploma and NUS High School Diploma applicants. This batch reviews the Business School and School of Computing degree and major combinations on PDF pages 1–3. After removing three repeated faculty appearances, it includes 10 double degrees, one concurrent degree and 34 double-major options. The latter share four primary-programme records, with the applicable second majors listed once per group. The Business Administration and Computer Science row retains the Real Estate exclusion. The Mathematics and common Computing row retains both eligible Computing majors. The concurrent Business Artificial Intelligence Systems and MSc (Management) route has an additional selection test or interview. The table gives subject conditions and does not publish a whole-diploma IB total. [February 2026 combined programme matrix](https://www.nus.edu.sg/oam/docs/default-source/admissions/a_ib_nushs-mdp.pdf)
+
+## UNSW Sydney
+
+All 65 rows in the 2027 international undergraduate table were checked. Each retains its exact degree or named group, IB value, GCE A-level/NCUK aggregate, and SAT or ACT score. The cover calls the numbers a guide and the IB notes give 2025 entry as the basis of the published figures. The IB records display as competitive references in the 2027 guide's scope. The general A-level rubric uses all eligible, unrepeated subjects with at least two A2 subjects and A* worth 6 points. The table separately marks the Singapore-Cambridge column as based on 2025. That separate column remains outside this batch.
+
+UNSW explains two AP routes in the notes. For standalone AP it totals three or four exam scores at grade 3 or above. It may also use up to two qualifying AP grades from 4 to 5 to reduce the SAT requirement. The programme table has no AP score column. Combined Law and general Engineering keep the published grouped scope, and the Medicine, Flying and Fine Arts routes retain their special selection conditions. [2027 UNSW international undergraduate entry table, PDF pages 1–2](https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf)
+
+## Monash University, Australia
+
+Aligned the IB, A-level, AP and SAT scores across 40 international entry options in the Business, Engineering, Information Technology, Medicine/Nursing/Health Sciences and Science tables. Nursing's Clayton and Peninsula scores are separate. The engineering and accelerated master's entry paths are also separate. The general AP aggregate uses the best two eligible exam scores with a minimum grade of 3 per exam, while the GCE rubric gives an A* or A 5 points and can include one A* bonus. The eligible-subject and AS-level rules come from Monash's course guidance. Limited-place courses are interpreted using the table notes. [2027 international undergraduate guide](https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf) · [AP and GCE calculation rules](https://www.monash.edu/study/courses/find-a-course/biomedical-science-m2003?international=true) · [Faculty of Engineering guide](https://www.monash.edu/__data/assets/pdf_file/0005/4305335/2027-Monash-Engineering-UG-Course-Guide.pdf)
+
+The dedicated Medicine guide separately confirms the minimum IB total of 39/45, Chemistry and English grades, a GCE A-level aggregate of 15, AP aggregate of 10, and ISAT scores of 170 overall and 165 in each section for consideration for interview. It also provides the direct-entry time window, final-result rule and Multiple Mini Interview requirement. [2027 international direct-entry Medicine guide](https://www.monash.edu/__data/assets/pdf_file/0003/3268317/Monash-MNHS-MD-International-Course-Guide-2027.pdf)
+
+## Source checks and remaining pages
+
+The UNSW original was downloaded over HTTPS, rendered and checked against the coordinate extraction. Its SHA-256 is `be64345329d911fcaa1fab3b261f4529f39b32cd73832f4962f657f84112b0a9`. The NUS and Monash direct download requests were blocked by website responses. The programme rows were reviewed in the publishers' indexed PDF views, and no local binary checksums are claimed for those guides. Narratives paraphrase the tables while retaining the qualification values and programme titles.
+
+Further batches can cover the rest of the NUS faculty matrix and additional Monash faculties. The current Sydney guide, linked from the university's admissions page, is a candidate for a separate complete IB and A-level batch. [University of Sydney recognised qualifications](https://www.sydney.edu.au/study/applying/how-to-apply/undergraduate/recognised-qualifications.html)

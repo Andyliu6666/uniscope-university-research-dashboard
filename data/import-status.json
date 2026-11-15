@@ -2,20 +2,26 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280601,
+            "programs": 280721,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2659,
+            "admissionProfiles": 2781,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 23391,
+            "admissionRequirements": 23688,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 398
+            "qualificationRequirements": 518
         },
         "ibCoverage": {
             "byCountry": [
+                {
+                    "country": "Australia",
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 105,
+                    "programs_with_published_totals": 105
+                },
                 {
                     "country": "Canada",
                     "institutions": 2,
@@ -91,7 +97,7 @@
                 {
                     "country": "Singapore",
                     "institutions": 2,
-                    "programs_with_reviewed_ib": 141,
+                    "programs_with_reviewed_ib": 156,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -113,12 +119,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 398,
-            "programsWithReviewedIb": 342,
+            "reviewedRecords": 518,
+            "programsWithReviewedIb": 462,
             "institutionWidePolicies": 14,
-            "institutionsWithReviewedIb": 32,
-            "programsWithPublishedTotals": 168,
-            "undergraduateCatalogEntries": 194928
+            "institutionsWithReviewedIb": 34,
+            "programsWithPublishedTotals": 273,
+            "undergraduateCatalogEntries": 195048
         },
         "coreCoverage": {
             "phone": 4078,
@@ -147,13 +153,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4100,
+            "programs": 4102,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1878,
+            "admissions": 1880,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24051
+            "noStructuredApplicationFacts": 24049
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -165,31 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 1371,
-            "profiles": 591,
-            "institutions": 19
+            "facts": 1668,
+            "profiles": 713,
+            "institutions": 21
         }
     },
-    "generatedAt": "2026-11-15T01:39:51Z",
+    "generatedAt": "2026-11-15T02:01:41Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 75,
+        "inserted": 15,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 75,
-        "startedAt": "2026-11-15T01:38:36.788454+00:00",
-        "updatedAt": "2026-11-15T01:38:36.99+00:00",
+        "processed": 15,
+        "startedAt": "2026-11-15T01:57:21.45064+00:00",
+        "updatedAt": "2026-11-15T02:01:08.482491+00:00",
         "checkpoint": {
-            "rowIndex": 75,
-            "sourceRows": 75,
+            "rowIndex": 15,
+            "sourceRows": 15,
             "schemaVersion": 1,
-            "createdPrograms": 75
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-15T01:38:36.99+00:00",
-        "artifactSha256": "67b8c194e28526214deb7efdb16430185383737b89db34f3e916975266a5a2d4",
-        "datasetVersion": "official-ib-ntu-remaining-options-2026-11-15-v1"
+        "finishedAt": "2026-11-15T01:57:21.497+00:00",
+        "artifactSha256": "dae4105bebc37b3656593adc36b96c711facf15b9be6d71575929bb280b41052",
+        "datasetVersion": "official-ib-nus-business-computing-combinations-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

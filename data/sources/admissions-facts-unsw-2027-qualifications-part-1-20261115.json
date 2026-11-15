@@ -1,0 +1,1768 @@
+{
+  "datasetVersion": "official-admissions-unsw-2027-qualifications-part-1-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "unsw",
+      "name": "UNSW Sydney",
+      "provider": "ror",
+      "externalId": "03r8z3t63",
+      "countryCode": "AU",
+      "officialDomains": ["unsw.edu.au"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Common qualification rules for 2027 international undergraduate applications.",
+      "requirements": [
+        {
+          "key": "unsw_gce_calculation",
+          "label": "GCE A-level · score calculation",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present at least two A2 subjects. Provisional grades may support an application. Sum the eligible A-level grades without repeated subjects, using A*=6, A=5, B=4, C=3, D=2 and E=1.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_ap_aggregate",
+          "label": "AP · standalone qualification route",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "UNSW totals three or four AP exam scores of 3 or higher. Supply the College Board score report and evidence of completing senior secondary school, and authorise verification. The 2027 programme table supplies no AP aggregates by degree.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_ap_sat_supplement",
+          "label": "AP · possible SAT adjustment",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "AP exam grades of 4 or 5 may reduce the SAT score required. UNSW can consider up to two AP grades and excludes the Calculus AB subgrade. Authorise College Board verification.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_5f930afba98e073684",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_5f930afba98e073684_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_5f930afba98e073684_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1230/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_6b374b5841852ec9e0",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_6b374b5841852ec9e0_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_6b374b5841852ec9e0_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_92bf826bcc0b10fe56",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_92bf826bcc0b10fe56_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_92bf826bcc0b10fe56_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_2e8a445dd5f764ecf7",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_2e8a445dd5f764ecf7_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_2e8a445dd5f764ecf7_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_209398e984648ceb43",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_209398e984648ceb43_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 15 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_209398e984648ceb43_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1300/1600 or ACT 29/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_e8c36907b63443c9eb",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_e8c36907b63443c9eb_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_e8c36907b63443c9eb_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_338b67af951c338af3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_338b67af951c338af3_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_338b67af951c338af3_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_6d5f90b1106d8836a3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_6d5f90b1106d8836a3_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_6d5f90b1106d8836a3_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1230/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_8415b431923ddf6bd8",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_8415b431923ddf6bd8_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_8415b431923ddf6bd8_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_fa825b7307d6bcac0f",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_fa825b7307d6bcac0f_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_fa825b7307d6bcac0f_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_fa825b7307d6bcac0f_audition",
+          "label": "Fine Arts · Music specialisation selection",
+          "category": "portfolio",
+          "status": "conditional",
+          "details": "Music specialisation applicants must pass the UNSW musicianship test before submitting a performance audition.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_b4f2f537e94dbb6a7c",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_b4f2f537e94dbb6a7c_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_b4f2f537e94dbb6a7c_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_5abc5eb1f6c2eb63f0",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_5abc5eb1f6c2eb63f0_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_5abc5eb1f6c2eb63f0_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_0b26db3c40324a0719",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_0b26db3c40324a0719_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_0b26db3c40324a0719_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_f3b28cb68de5ec2600",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_f3b28cb68de5ec2600_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_f3b28cb68de5ec2600_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_f3b28cb68de5ec2600_audition",
+          "label": "Fine Arts · Music specialisation selection",
+          "category": "portfolio",
+          "status": "conditional",
+          "details": "Music specialisation applicants must pass the UNSW musicianship test before submitting a performance audition.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_e3e509fefdb7303839",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_e3e509fefdb7303839_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_e3e509fefdb7303839_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1230/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_d4a3bac2141020e8a4",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_d4a3bac2141020e8a4_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_d4a3bac2141020e8a4_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_a793dd38df2199913b",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_a793dd38df2199913b_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_a793dd38df2199913b_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_d2ac2176373f6489ae",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_d2ac2176373f6489ae_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 10 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_d2ac2176373f6489ae_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1150/1600 or ACT 23/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_979654062277ef1bbb",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_979654062277ef1bbb_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 17 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_979654062277ef1bbb_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1390/1600 or ACT 32/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_9e79a685e8b0e842d1",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_9e79a685e8b0e842d1_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 15 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_9e79a685e8b0e842d1_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1300/1600 or ACT 29/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_3631bdc16f05769f41",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_3631bdc16f05769f41_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 16 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_3631bdc16f05769f41_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1330/1600 or ACT 30/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_aab5342d3a0b7b59c8",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_aab5342d3a0b7b59c8_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 15 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_aab5342d3a0b7b59c8_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1300/1600 or ACT 29/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_8a78fb01223539dac7",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_8a78fb01223539dac7_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_8a78fb01223539dac7_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1230/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_5e0372ad23f9c68391",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_5e0372ad23f9c68391_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_5e0372ad23f9c68391_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1240/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_49cd2de6dd7096d3a3",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_49cd2de6dd7096d3a3_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_49cd2de6dd7096d3a3_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1240/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_63a6efcd7d78193d90",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_63a6efcd7d78193d90_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_63a6efcd7d78193d90_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1220/1600 or ACT 25/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_1ed6f777c5f05a071f",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_1ed6f777c5f05a071f_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 14 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_1ed6f777c5f05a071f_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1280/1600 or ACT 28/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_a3a39d25ea381088d8",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_a3a39d25ea381088d8_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_a3a39d25ea381088d8_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1240/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_63cad3cafcfd6d934c",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_63cad3cafcfd6d934c_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 12 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_63cad3cafcfd6d934c_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1240/1600 or ACT 26/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_10a4df34819f15c791",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_10a4df34819f15c791_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 13 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_10a4df34819f15c791_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1260/1600 or ACT 27/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_10a4df34819f15c791_variants",
+          "label": "Engineering · specialisations in this row",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The note includes Aerospace, Bioinformatics, Chemical, Chemical Product, Civil, Computer, Electrical, Environmental, Mechanical, Mechanical and Manufacturing, Mechatronic, Mining, Photovoltaics and Solar Energy, Renewable Energy, Software, Surveying, Telecommunications and Quantum.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international entry table, qualification and programme notes, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_0bf9b55403df749d0c",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_0bf9b55403df749d0c_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 13 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_0bf9b55403df749d0c_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1270/1600 or ACT 27/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_516e26702ad8e30e30",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_516e26702ad8e30e30_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 15 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_516e26702ad8e30e30_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1300/1600 or ACT 29/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_7caa2b3e92920bf576",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_7caa2b3e92920bf576_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 13 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_7caa2b3e92920bf576_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1270/1600 or ACT 27/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unsw",
+      "programId": null,
+      "programKey": "unsw_52fe0618bb9045c496",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "International undergraduate applicants using the UNSW Sydney 2027 guide. Figures are indicative and are subject to assessment, available places and further requirements. The notes say the IB figures use the 2025 entry basis.",
+      "requirements": [
+        {
+          "key": "unsw_52fe0618bb9045c496_alevel",
+          "label": "GCE A-level or NCUK · indicative entry score",
+          "category": "academic",
+          "status": "considered",
+          "details": "The 2027 international guide lists 13 points for this programme. Use the qualification-specific assessment rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "unsw_52fe0618bb9045c496_sat_act",
+          "label": "SAT or ACT · indicative entry scores",
+          "category": "standardized_test",
+          "status": "considered",
+          "details": "The 2027 international guide lists SAT 1270/1600 or ACT 27/36. Check the accepted-document and qualification rules.",
+          "source": {
+            "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+            "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "unsw_5f930afba98e073684",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Architectural Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_6b374b5841852ec9e0",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_92bf826bcc0b10fe56",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Arts / Bachelor of Education (Secondary)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_2e8a445dd5f764ecf7",
+      "institutionKey": "unsw",
+      "name": "Bachelor of City Planning (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_209398e984648ceb43",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Commerce / Bachelor of Education (Secondary)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_e8c36907b63443c9eb",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Construction Management & Property",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_338b67af951c338af3",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Design",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_6d5f90b1106d8836a3",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Economics / Bachelor of Education (Secondary)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_8415b431923ddf6bd8",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Education (Primary) (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_fa825b7307d6bcac0f",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Fine Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_b4f2f537e94dbb6a7c",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Interior Architecture (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_5abc5eb1f6c2eb63f0",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Landscape Architecture (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_0b26db3c40324a0719",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Media",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_f3b28cb68de5ec2600",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Fine Arts / Bachelor of Media",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_e3e509fefdb7303839",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Politics, Philosophy and Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_d4a3bac2141020e8a4",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Science / Bachelor of Education (Secondary)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_a793dd38df2199913b",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Social Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_d2ac2176373f6489ae",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Social Work (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_979654062277ef1bbb",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Actuarial Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_9e79a685e8b0e842d1",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_3631bdc16f05769f41",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Commerce (International)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_aab5342d3a0b7b59c8",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Commerce / Bachelor of Fine Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_8a78fb01223539dac7",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_5e0372ad23f9c68391",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Economics / Bachelor of Advanced Science (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_49cd2de6dd7096d3a3",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Economics / Bachelor of Science (Advanced Mathematics) (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_63a6efcd7d78193d90",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Information Systems",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_1ed6f777c5f05a071f",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Advanced Computer Science (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_a3a39d25ea381088d8",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Advanced Science (Honours) / Bachelor of Fine Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_63cad3cafcfd6d934c",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Cyber Security (Sydney)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_10a4df34819f15c791",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Engineering (Honours)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_0bf9b55403df749d0c",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Engineering (Honours) / Bachelor of Arts",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_516e26702ad8e30e30",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Engineering (Honours) / Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_7caa2b3e92920bf576",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Engineering (Honours) (Electrical) / Master of Engineering (Electrical)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "unsw_52fe0618bb9045c496",
+      "institutionKey": "unsw",
+      "name": "Bachelor of Engineering (Honours) (Civil with Architecture)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+        "title": "UNSW Sydney 2027 international undergraduate entry table, PDF p. 1",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}
