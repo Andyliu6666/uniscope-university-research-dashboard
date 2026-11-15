@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280955,
+            "programs": 280983,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3019,
+            "admissionProfiles": 3047,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24338,
+            "admissionRequirements": 24361,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 750
+            "qualificationRequirements": 778
         },
         "ibCoverage": {
             "byCountry": [
@@ -103,7 +103,7 @@
                 {
                     "country": "South Africa",
                     "institutions": 2,
-                    "programs_with_reviewed_ib": 19,
+                    "programs_with_reviewed_ib": 47,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -119,12 +119,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 750,
-            "programsWithReviewedIb": 693,
+            "reviewedRecords": 778,
+            "programsWithReviewedIb": 721,
             "institutionWidePolicies": 15,
             "institutionsWithReviewedIb": 38,
             "programsWithPublishedTotals": 430,
-            "undergraduateCatalogEntries": 195282
+            "undergraduateCatalogEntries": 195310
         },
         "coreCoverage": {
             "phone": 4078,
@@ -171,31 +171,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2318,
-            "profiles": 939,
+            "facts": 2341,
+            "profiles": 943,
             "institutions": 25
         }
     },
-    "generatedAt": "2026-11-15T02:45:43Z",
+    "generatedAt": "2026-11-15T02:51:16Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 19,
+        "inserted": 28,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 19,
-        "startedAt": "2026-11-15T02:45:10.041531+00:00",
-        "updatedAt": "2026-11-15T02:45:10.1+00:00",
+        "processed": 28,
+        "startedAt": "2026-11-15T02:50:39.665357+00:00",
+        "updatedAt": "2026-11-15T02:50:39.748+00:00",
         "checkpoint": {
-            "rowIndex": 19,
-            "sourceRows": 19,
+            "rowIndex": 28,
+            "sourceRows": 28,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-15T02:45:10.1+00:00",
-        "artifactSha256": "b6fcd49edf23ece6f5465eef943ca4f013155a6cb20e36bf529220329b3d60a2",
-        "datasetVersion": "official-ib-uct-2027-foundation-2026-11-15-v1"
+        "finishedAt": "2026-11-15T02:50:39.748+00:00",
+        "artifactSha256": "5724ecd7d56c60a3bc7ff7add31a04560b9c0ddc59215251f093c30c11997c8d",
+        "datasetVersion": "official-ib-uct-commerce-health-law-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

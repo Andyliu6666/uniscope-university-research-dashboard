@@ -1,0 +1,860 @@
+{
+  "datasetVersion": "official-admissions-uct-commerce-health-law-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "uct",
+      "name": "University of Cape Town",
+      "provider": "ror",
+      "externalId": "03p74gp79",
+      "countryCode": "ZA",
+      "officialDomains": ["uct.ac.za"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uct",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 international undergraduate Commerce and Health Sciences conditions linked to applicable award routes.",
+      "requirements": [
+        {
+          "key": "uct_ct_commerce_ib_diploma",
+          "label": "Commerce · IB Diploma subject mix",
+          "category": "academic",
+          "status": "required",
+          "details": "Use the full IB Diploma with six subjects, at least three at HL and three at SL. English Literature is accepted. Check the specific Mathematics and English grades for the programme.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 29: Commerce · IB Diploma subject mix",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_commerce_caie_five",
+          "label": "Commerce · Cambridge subject count",
+          "category": "academic",
+          "status": "required",
+          "details": "Count five distinct subjects. Use three A-levels plus two relevant AS-level or IGCSE subjects, or four AS-levels plus one IGCSE subject. A second-language English result requires another first language. The Cambridge route excludes English Literature.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 29: Commerce · Cambridge subject count",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_commerce_nbt",
+          "label": "Commerce · National Benchmark Tests",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "Commerce applicants must write the National Benchmark Tests wherever they reside. For the standard Commerce rows, the guide specifies Upper Intermediate in Academic Literacy and Quantitative Literacy.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 29–30: Commerce · National Benchmark Tests",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_commerce_standard_scores",
+          "label": "Commerce · standard programmes and equivalent grades",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The table lists 36 local points for the standard Commerce paths. For the IB route, Mathematics is HL 5 or SL 6 and English is HL 3 or SL 5. For Cambridge, Mathematics is A-level C or AS-level B, and English is A-level E, AS-level D or IGCSE B. For NSSC, Mathematics is grade 1 and English grade 3.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 30: Commerce · standard programmes and equivalent grades",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_commerce_high_scores",
+          "label": "Actuarial Science and Quantitative Finance · entry table",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The table lists 40 local points. IB requires Mathematics HL 7 and English HL 5 or SL 7. Cambridge Mathematics is grade A at A level, or grade A at AS level for the route without A-level subjects. Cambridge English is A-level C, AS-level B or IGCSE A. For NSSC, Mathematics is grade 1 and English grade 2.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 30: Actuarial Science and Quantitative Finance · entry table",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_commerce_high_nbt",
+          "label": "Actuarial Science and Quantitative Finance · literacy scores",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "Commerce applicants must sit the NBTs wherever they reside. The 2027 IB and NSSC rows specify Upper Intermediate in both Academic and Quantitative Literacy for English first-language applicants, or Proficient in both for English second-language applicants.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 30: Actuarial Science and Quantitative Finance · literacy scores",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_health_international",
+          "label": "Health Sciences · international entry eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The faculty applies country- and programme-specific eligibility to international school-leaver applications. It also requires degree-level school eligibility or matriculation exemption, plus the relevant National Benchmark Test results. The prospectus describes limited exceptions for some routes.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Health Sciences · international entry eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_health_nbt_dates",
+          "label": "Health Sciences · National Benchmark Tests and timing",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "Prospective Health Sciences students must write the NBTs wherever they reside. For the 2027 cycle, the early conditional-offer sitting deadline was 31 July 2026 and the last sitting date was 3 October 2026.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/ug-directions-for-applicants-2027.pdf",
+            "title": "Health Sciences · National Benchmark Tests and timing",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_rehab_points",
+          "label": "Health and rehabilitation · international school grades and NBT",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The prospectus lists 36 UCT admission points as the minimum and 44 as the likely-offer reference, with an NBT result at Higher Intermediate or greater as applicable. These figures are local admission points based on international school grades.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46–47: Health and rehabilitation · international school grades and NBT",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_rehab_ib",
+          "label": "Health and rehabilitation · IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "At least grade 4 in three HL subjects, including two of Mathematics, Chemistry, Physics or English. The remaining two of those subjects may be at SL with grade 4. Biology can substitute for Physics and Chemistry. If Mathematics is SL, Physics and Chemistry or Biology must be HL.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46–47: Health and rehabilitation · IB subjects",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_rehab_as",
+          "label": "Health and rehabilitation · Cambridge AS route",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least C in four AS subjects including two of Mathematics, Physics and Chemistry. Biology may substitute for Physics and Chemistry. English needs A at AS or IGCSE level. If Mathematics is taken at IGCSE, it requires B.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46–47: Health and rehabilitation · Cambridge AS route",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_rehab_gce",
+          "label": "Occupational Therapy, Audiology and Speech-Language Pathology · A levels",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least C in two A-level subjects. Take the applicable science or mathematics subjects from Mathematics, Physics, Chemistry and Biology. For applicable subjects not taken at A level, the table lists A at AS or IGCSE. English requires at least C and can be at AS or IGCSE level.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46–47: Occupational Therapy, Audiology and Speech-Language Pathology · A levels",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ct_speech_eligibility",
+          "label": "Audiology and Speech-Language Pathology · published country list",
+          "category": "academic",
+          "status": "required",
+          "details": "The prospectus lists the following SADC country route for these degrees: Angola, Botswana, Democratic Republic of the Congo, Lesotho, Malawi, Mauritius, Mozambique, Namibia, Seychelles, Eswatini, Tanzania, Zambia and Zimbabwe. Check the faculty’s status and nationality eligibility for the application.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Audiology and Speech-Language Pathology · published country list",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uct",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 first-year entry for international applicants. Check the Health Sciences conditions.",
+      "requirements": [
+        {
+          "key": "uct_mbchb_countries",
+          "label": "Country-specific eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The prospectus lists Comoros, Eswatini, Lesotho and Seychelles for this programme’s SADC school-leaver route. Check the faculty’s country and residency eligibility for your circumstances.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Country-specific eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_mbchb_points",
+          "label": "Medicine · selection points and NBT",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international qualification table specifies 40 UCT admission points and a Proficient NBT result as a minimum. Its likely reference is 46 or more with Proficient NBT. For the SADC route, places are restricted to applicants from eligible countries without a comparable local programme.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41, 46: Medicine · selection points and NBT",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_mbchb_gce",
+          "label": "Medicine · Cambridge alternatives",
+          "category": "academic",
+          "status": "required",
+          "details": "A-level applicants need at least C in Mathematics and either Physics or Chemistry, plus A in the remaining science and English at AS or IGCSE level or higher. The AS route requires B in four AS subjects including Mathematics, Physics and Chemistry, plus B in English, which can be taken at IGCSE.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46: Medicine · Cambridge alternatives",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_mbchb_ib",
+          "label": "Medicine · IB subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "Grade 5 in three HL subjects, including two of Mathematics, Chemistry, Physics or English. The remaining two of those subjects may be SL with grade 5. Mathematical Studies is excluded. Use the full IB Diploma.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46: Medicine · IB subjects",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_mbchb"
+    },
+    {
+      "institutionKey": "uct",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 first-year entry for international applicants. Check the Health Sciences conditions.",
+      "requirements": [
+        {
+          "key": "uct_physio_countries",
+          "label": "Country-specific eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The prospectus lists Angola, Eswatini and Lesotho for this programme’s SADC school-leaver route. Check the faculty’s country and residency eligibility for your circumstances.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Country-specific eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_physio_gce",
+          "label": "Physiotherapy · Cambridge A levels",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn A in two A-level subjects, with relevant Mathematics, Physics, Chemistry or Biology. The table also requires A at AS or IGCSE for the applicable additional science or Mathematics subject when it is absent at A level. English requires C and can be at AS or IGCSE level.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 46: Physiotherapy · Cambridge A levels",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_physio"
+    },
+    {
+      "institutionKey": "uct",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 first-year entry for international applicants. Check the Health Sciences conditions.",
+      "requirements": [
+        {
+          "key": "uct_ot_countries",
+          "label": "Country-specific eligibility",
+          "category": "academic",
+          "status": "required",
+          "details": "The prospectus lists Angola, Botswana, Comoros, Democratic Republic of the Congo, Eswatini, Lesotho, Malawi, Mozambique and Seychelles for this programme’s SADC school-leaver route. Check the faculty’s country and residency eligibility for your circumstances.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Country-specific eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_ot_exception",
+          "label": "Occupational Therapy · limited non-SADC professional route",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The prospectus allows merit review for up to two applicants per year from non-SADC African countries with an approved occupational therapy diploma, more than two years of practice and Intermediate or Proficient NBT results.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 41: Occupational Therapy · limited non-SADC professional route",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_ot"
+    },
+    {
+      "institutionKey": "uct",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 first-year entry for international applicants. Check the Law conditions.",
+      "requirements": [
+        {
+          "key": "uct_llb_points",
+          "label": "Undergraduate LLB · international admission points",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For Cambridge A-level, AS-level, NSSC or IB Diploma, the international minimum is 44 UCT admission points and the probable admission reference is 46. The faculty limits the undergraduate LLB to at most ten international admissions across international and South African qualifications.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+            "title": "UCT 2027 prospectus, p. 62: Undergraduate LLB · international admission points",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "uct_llb_nbt",
+          "label": "International undergraduate LLB · National Benchmark Test",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "The application directions specify the Academic Literacy component for international undergraduate LLB applicants. The prospectus also discusses Academic and Quantitative Literacy in its overall LLB selection description. Check the faculty’s applicable instruction for your route.",
+          "source": {
+            "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/ug-directions-for-applicants-2027.pdf",
+            "title": "International undergraduate LLB · National Benchmark Test",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "uct_undergrad_llb"
+    }
+  ],
+  "programs": [
+    {
+      "key": "uct_bbus_1",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Computer Science",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Computer Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_2",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Economics",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Economics",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_3",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Economics with Law",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Economics with Law",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_4",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Finance, Investment and Banking",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Finance, Investment and Banking",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_5",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Finance with Accounting",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Finance with Accounting",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_6",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Information Systems",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Information Systems",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_7",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Marketing",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Marketing",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_8",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Industrial and Organisational Psychology",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Industrial and Organisational Psychology",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_9",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Statistics and Data Science",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Statistics and Data Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bbus_high_1",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Actuarial Science",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Actuarial Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_high_scores",
+        "uct_ct_commerce_high_nbt"
+      ]
+    },
+    {
+      "key": "uct_bbus_high_2",
+      "institutionKey": "uct",
+      "name": "Bachelor of Business Science in Quantitative Finance",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Business Science in Quantitative Finance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_high_scores",
+        "uct_ct_commerce_high_nbt"
+      ]
+    },
+    {
+      "key": "uct_bcom_1",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Financial Accounting (General/Chartered)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Financial Accounting (General/Chartered)",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_2",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Economics with Law",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Economics with Law",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_3",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Economics with Finance",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Economics with Finance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_4",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Economics and Statistics",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Economics and Statistics",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_5",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Information Systems",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Information Systems",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_6",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Information Systems and Computer Science",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Information Systems and Computer Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_7",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Information Systems and Finance",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Information Systems and Finance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_8",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Management Studies",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Management Studies",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_9",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Philosophy, Politics and Economics",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Philosophy, Politics and Economics",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_nbt",
+        "uct_ct_commerce_standard_scores"
+      ]
+    },
+    {
+      "key": "uct_bcom_high_1",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Actuarial Science",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Actuarial Science",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_high_scores",
+        "uct_ct_commerce_high_nbt"
+      ]
+    },
+    {
+      "key": "uct_bcom_high_2",
+      "institutionKey": "uct",
+      "name": "Bachelor of Commerce in Quantitative Finance",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 30: Bachelor of Commerce in Quantitative Finance",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_commerce_ib_diploma",
+        "uct_ct_commerce_caie_five",
+        "uct_ct_commerce_high_scores",
+        "uct_ct_commerce_high_nbt"
+      ]
+    },
+    {
+      "key": "uct_mbchb",
+      "institutionKey": "uct",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 41, 46–47: Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": ["uct_ct_health_international", "uct_ct_health_nbt_dates"]
+    },
+    {
+      "key": "uct_physio",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Physiotherapy",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 41, 46–47: Bachelor of Science in Physiotherapy",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_health_international",
+        "uct_ct_health_nbt_dates",
+        "uct_ct_rehab_points",
+        "uct_ct_rehab_ib",
+        "uct_ct_rehab_as"
+      ]
+    },
+    {
+      "key": "uct_ot",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Occupational Therapy",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 41, 46–47: Bachelor of Science in Occupational Therapy",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_health_international",
+        "uct_ct_health_nbt_dates",
+        "uct_ct_rehab_points",
+        "uct_ct_rehab_ib",
+        "uct_ct_rehab_as",
+        "uct_ct_rehab_gce"
+      ]
+    },
+    {
+      "key": "uct_audiology",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Audiology",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 41, 46–47: Bachelor of Science in Audiology",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_health_international",
+        "uct_ct_health_nbt_dates",
+        "uct_ct_rehab_points",
+        "uct_ct_rehab_ib",
+        "uct_ct_rehab_as",
+        "uct_ct_rehab_gce",
+        "uct_ct_speech_eligibility"
+      ]
+    },
+    {
+      "key": "uct_speech",
+      "institutionKey": "uct",
+      "name": "Bachelor of Science in Speech-Language Pathology",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 41, 46–47: Bachelor of Science in Speech-Language Pathology",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "uct_ct_health_international",
+        "uct_ct_health_nbt_dates",
+        "uct_ct_rehab_points",
+        "uct_ct_rehab_ib",
+        "uct_ct_rehab_as",
+        "uct_ct_rehab_gce",
+        "uct_ct_speech_eligibility"
+      ]
+    },
+    {
+      "key": "uct_undergrad_llb",
+      "institutionKey": "uct",
+      "name": "Bachelor of Laws (four-year undergraduate route)",
+      "level": "undergraduate",
+      "field": "Law",
+      "source": {
+        "url": "https://mig-commerce.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+        "title": "UCT 2027 prospectus, p. 62: Bachelor of Laws (four-year undergraduate route)",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}

@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## Cape Town Commerce, Health Sciences and Law — November 15
+
+1. **Baseline.** Main matched GitHub at `2df6d5c`. [Both prior CI jobs passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43669381172). The initial UCT archive was read completely and used as the pre-import backup. The database held 2,318 reviewed general facts and 750 IB rows.
+2. **Sources.** Reviewed UCT's grade, eligibility and programme tables. The [source record](research/UCT_COMMERCE_HEALTH_LAW_20261115.md) describes Commerce plan groupings, Health Sciences eligibility and LLB applicant-specific thresholds.
+3. **Artifacts.** Two files contain 28 programme entries and 28 IB qualification records. Twenty-three general facts carry 115 verified programme associations. Local APS, subject grades and NBT requirements retain their separate scopes.
+4. **Import.** Both zero-write previews matched the baseline fingerprint. Live import added 28 catalogue entries, 23 general facts and 28 IB qualification records. The batch had zero rejections and reused all IB programme identities. Both repeat imports reported already completed.
+5. **Verification.** All pre-existing reviewed records matched their complete-row hashes. The live API matched 2,341 reviewed general facts, 778 IB records and all 115 new links. Browser checks confirmed the Commerce Actuarial Science IB Mathematics HL 7 and NBT thresholds, plus MBChB's published SADC route and local admission score. All 293 workspace tests and the data-quality gate passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 280,983 catalogue entries, 3,047 admissions profiles, 24,361 general requirements, 107,586 sources and 80 runs. Reviewed general facts cover 25 institutions. IB research covers 38 institutions and 721 catalogue entries, including 430 raw IB Diploma totals. Archive `backups/post-uct-next-20261115.NxMTyd` read completely with 192 entries and SHA-256 `055df2bb3253009cd950f9b7c90dfa05e9127f52fbfb7bfcc9486b2c8d40be1b`.
+
+The next source batch is the University of Dar es Salaam's 2026/2027 prospectus and its programme-specific subject and direct-entry conditions.
+
 ## University of Cape Town Engineering, Science and Humanities — November 15
 
 1. **Baseline.** Local and remote main matched at `6adaead`. [Both Queensland CI jobs passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43668943329). UCT ROR `03p74gp79` had zero programme entries. The database held 2,290 reviewed general facts and 731 IB records.
