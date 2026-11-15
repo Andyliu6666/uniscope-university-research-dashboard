@@ -1,0 +1,2238 @@
+{
+  "datasetVersion": "official-admissions-udsm-2026-2027-direct-part-1-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "udsm",
+      "name": "University of Dar es Salaam",
+      "provider": "ror",
+      "externalId": "0479aed98",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz", "udsm.ac.tz"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 direct secondary entry. Published Tanzanian ACSEE scores and programme subjects use the local system.",
+      "requirements": [
+        {
+          "key": "udsm_form_iv_baseline",
+          "label": "Secondary certificate and subject credits",
+          "category": "academic",
+          "status": "required",
+          "details": "For first-degree admission the UDSM prospectus requires five approved CSEE subjects or their equivalents, including three credits achieved before the advanced secondary certificate.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 48",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_acsee_scale",
+          "label": "Tanzanian ACSEE grade scale",
+          "category": "academic",
+          "status": "required",
+          "details": "The guide lists ACSEE points as A = 5, B = 4, C = 3, D = 2, E = 1 and S = 0.5 for exams from 2016 onward. Use the point minimum and subject combination shown for the programme. The guide gives a separate scale for 2014 and 2015 examinations.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_04cec44a53ae",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Language, Geography, Physics, Chemistry, Biology or Advanced Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD001",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_f2e8b0b388ea",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes, one in Economics or Advanced Mathematics. Provide an O-level Basic Mathematics credit if Advanced Mathematics is absent. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD002",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_b7fd13bba9ab",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Of two principal passes, one must be in History. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD003",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_a001c1a0ada7",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Use History at grade D or higher as one principal pass. The TCU guide lists English, Kiswahili, Kiswahili Literature, Chinese, Economics, Geography, Fine Arts, French or Arabic for the other. Verify the list with UDSM if the second subject is decisive. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD006",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_dd9075aabb22",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes. At least one must be grade C or above in English Language, Kiswahili, French, Chinese or Arabic. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD007",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_d9e9fa43171b",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes, with at least C in Kiswahili, English or French for one of them. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD008",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_da5681fb8c49",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Geography, Kiswahili, English Language, French, Arabic, Fine Arts, Economics, Commerce, Accountancy or Advanced Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274–275, UD009",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_16d6425488ea",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Geography, Kiswahili, English Language, French, Arabic, Chinese, Fine Art, Economics, Commerce, Accountancy or Advanced Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD010",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_039dcff502c9",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes, one of which must be Advanced Mathematics at grade D or higher. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD011",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_1968a4ac4a9b",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from the listed arts subjects: History, Geography, Kiswahili, English Language, French, Arabic, Chinese, Fine Arts, English Literature, Theatre Arts, Music, Textile and Garment Construction, Islamic Knowledge, Divinity, Economics or Advanced Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD012",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_4484332df7c2",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present principal passes in Advanced Mathematics and Physics. Advanced Mathematics must be D or higher. Use a subsidiary pass in Chemistry or an O-level Chemistry credit. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD013",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_95a925af0d45",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present principal passes in Advanced Mathematics and Physics. Use a subsidiary pass in Chemistry or an O-level Chemistry credit. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD014",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_480930f5cae2",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Use Advanced Mathematics plus a principal pass in Physics, Chemistry or Geography. Use a subsidiary pass in Chemistry or an O-level Chemistry credit. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD015",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_9d3d5f4cb94c",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present principal passes in Advanced Mathematics and Physics. Use a subsidiary pass in Chemistry or at least C in O-level Chemistry. The guide lists physical fitness as a special requirement. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD016",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_f3b1519992eb",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "One A-level principal pass must be in Advanced Mathematics or Physics and the other in Chemistry, Geography, Biology or Computer Science. Without subsidiary Chemistry, provide O-level Chemistry C. Without principal Advanced Mathematics, provide O-level Mathematics C. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD017",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_07c3fe769e36",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least D in two eligible A-level subjects drawn from science, Fine Art, Textile and Garment Construction, Geography, Economics or English Language. O-level Mathematics C is required if the Mathematics subsidiary grade is absent. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD018",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_cb16c7b7b0ed",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present principal passes in Advanced Mathematics and Physics. Use a subsidiary pass in Chemistry or at least C in O-level Chemistry. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 278, UD019",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_49d5b88177e1",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Combine a principal pass in Advanced Mathematics with one in Economics, Geography, Commerce, Accountancy, Physics, Chemistry, Biology or Computer Science. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 278–279, UD021",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_305eda3671e8",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present a principal pass in Biology and another in Physics, Chemistry, Geography or Advanced Mathematics. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 279, UD022",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_bd0e116b6f8d",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Use Chemistry and another appropriate subject as principal passes. O-level Chemistry must be C or higher. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 279, UD025",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_ef27986c4e01",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present three principal passes in Advanced Mathematics, Physics and Chemistry. The guide lists physical fitness as a special requirement. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 280, UD028",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_980e19cbcbde",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from Physics, Chemistry, Advanced Mathematics, Biology, Economics, Computer Science or Geography. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD032",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_ca626cb34c9b",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from Physics, Chemistry, Biology, Advanced Mathematics, Computer Science or Geography. The guide lists physical fitness as a special requirement. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD033",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_ea0cb5bdffa7",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Use Advanced Mathematics as one principal pass and either Physics or Computer Science as the other. The TCU 2026/2027 table lists a minimum of 4.0 ACSEE points.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD034",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_3c056678e159",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes at grade C or higher in any subjects. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 282, UD037",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_b75ace49caeb",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least C in two A-level principal subjects and C in O-level English. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 282, UD038",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_7ff4f72aef36",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least C in two A-level principal subjects and C in O-level English or Kiswahili. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 283, UD039",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_b780119ca3b9",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Use Kiswahili at grade D or above as one principal pass. The other may be English, French, Arabic, Chinese, Geography or History. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 283, UD040",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_af3062c53924",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Geography, Kiswahili, English Language, French, Arabic, Fine Arts, Economics, Commerce, Accountancy, Physics, Chemistry, Biology, Advanced Mathematics, Agriculture, Computer Science or Nutrition. If Advanced Mathematics is not a principal pass, show an Advanced Mathematics subsidiary pass or a C or higher in O-level Basic Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 284, UD041",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_f4fae3d570d9",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Present two principal passes in arts or science subjects. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD047",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_893bd449882e",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from Advanced Mathematics, Accountancy, Economics or Commerce. If Advanced Mathematics is not a principal pass, show an Advanced Mathematics subsidiary pass or a C or higher in O-level Basic Mathematics. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD048",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_69987f8b8989",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Geography, Kiswahili, English Language, French, Arabic, Fine Arts, Economics, Commerce, Accountancy, Physics, Chemistry, Biology, Advanced Mathematics, Agriculture, Computer Science or Nutrition. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD049",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_subjects_06d6cd86a685",
+          "label": "Direct entry · required subjects and ACSEE points",
+          "category": "academic",
+          "status": "required",
+          "details": "Choose two principal passes from History, Geography, Kiswahili, English Language, French, Arabic, Fine Arts, Economics, Commerce, Accountancy, Physics, Chemistry, Biology, Advanced Mathematics, Agriculture, Computer Science or Nutrition. Provide an O-level Biology credit if there is no principal or subsidiary Biology pass. The TCU 2026/2027 table lists a minimum of 5 ACSEE points across three subjects.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 288, UD050",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Full-time first-year international undergraduate applications.",
+      "requirements": [
+        {
+          "key": "udsm_necta_equivalence",
+          "label": "Foreign school certificates · NECTA equivalence",
+          "category": "document",
+          "status": "required",
+          "details": "Submit secondary certificates earned outside Tanzania to NECTA for equivalence grading before applying. The local programme subject and grade requirements are applied through that assessment.",
+          "source": {
+            "url": "https://www.udsm.ac.tz/internationalization/application",
+            "title": "UDSM international undergraduate qualification verification",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_apply_degree",
+          "label": "Apply for a full undergraduate degree",
+          "category": "application",
+          "status": "required",
+          "details": "Use the UDSM Online Admission System for the full-degree application. Prepare academic certificates, transcripts, qualification verification documents and identification as requested by the application.",
+          "source": {
+            "url": "https://www.udsm.ac.tz/internationalization/application",
+            "title": "UDSM international full-degree application and documents",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_english_evidence",
+          "label": "Language of instruction and English evidence",
+          "category": "language",
+          "status": "conditional",
+          "details": "Teaching is in English. Applicants from non-English-speaking countries may be asked to show English proficiency or follow language preparation guidance.",
+          "source": {
+            "url": "https://www.udsm.ac.tz/internationalization/application",
+            "title": "UDSM international language of instruction guidance",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_844_schooling",
+          "label": "8-4-4 school system route",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The 2026/2027 prospectus calls for at least one year at a university in the applicant’s own country for applicants from an 8-4-4 education system before UDSM admission consideration.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 49",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD001.",
+      "requirements": [
+        {
+          "key": "udsm_ud001_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD001. The guide lists a duration of 3 years and an admission capacity of 52 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD001",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_ud001_source_note",
+          "label": "Programme source note",
+          "category": "academic",
+          "status": "conditional",
+          "details": "UDSM gives a broader arts or science rule for this title. The corresponding TCU row gives a named list of subjects. Consult admissions if the proposed subject lies outside the TCU list.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 53",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud001"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD002.",
+      "requirements": [
+        {
+          "key": "udsm_ud002_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD002. The guide lists a duration of 3 years and an admission capacity of 270 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD002",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud002"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD003.",
+      "requirements": [
+        {
+          "key": "udsm_ud003_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD003. The guide lists a duration of 3 years and an admission capacity of 57 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 273, UD003",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud003"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD005.",
+      "requirements": [
+        {
+          "key": "udsm_ud005_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD005. The guide lists a duration of 3 years and an admission capacity of 95 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD005",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud005"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD006.",
+      "requirements": [
+        {
+          "key": "udsm_ud006_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD006. The guide lists a duration of 3 years and an admission capacity of 100 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD006",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_ud006_source_note",
+          "label": "Programme source note",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university prospectus and TCU guide render the eligible second-subject list differently. The TCU document runs “Chinese Economics” together. The university lists Chinese and Economics separately, while Geography, Fine Arts, French and Arabic appear only in this TCU row. Confirm the applicable list with UDSM.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 54",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud006"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD007.",
+      "requirements": [
+        {
+          "key": "udsm_ud007_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD007. The guide lists a duration of 3 years and an admission capacity of 100 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD007",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud007"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD008.",
+      "requirements": [
+        {
+          "key": "udsm_ud008_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD008. The guide lists a duration of 3 years and an admission capacity of 95 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274, UD008",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud008"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD009.",
+      "requirements": [
+        {
+          "key": "udsm_ud009_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD009. The guide lists a duration of 3 years and an admission capacity of 250 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 274–275, UD009",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud009"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD010.",
+      "requirements": [
+        {
+          "key": "udsm_ud010_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD010. The guide lists a duration of 3 years and an admission capacity of 198 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD010",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud010"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD011.",
+      "requirements": [
+        {
+          "key": "udsm_ud011_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD011. The guide lists a duration of 3 years and an admission capacity of 140 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD011",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud011"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD012.",
+      "requirements": [
+        {
+          "key": "udsm_ud012_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD012. The guide lists a duration of 3 years and an admission capacity of 1,386 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 275, UD012",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud012"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD013.",
+      "requirements": [
+        {
+          "key": "udsm_ud013_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD013. The guide lists a duration of 4 years and an admission capacity of 60 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD013",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud013"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD014.",
+      "requirements": [
+        {
+          "key": "udsm_ud014_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD014. The guide lists a duration of 4 years and an admission capacity of 70 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD014",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud014"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD015.",
+      "requirements": [
+        {
+          "key": "udsm_ud015_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD015. The guide lists a duration of 4 years and an admission capacity of 67 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 276, UD015",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_ud015_source_note",
+          "label": "Programme source note",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The UDSM prospectus names Advanced Mathematics and Physics as the two principal passes. The TCU row also lists Chemistry or Geography alongside the Physics option. Confirm the available combination before applying.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 51",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud015"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD016.",
+      "requirements": [
+        {
+          "key": "udsm_ud016_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD016. The guide lists a duration of 4 years and an admission capacity of 40 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD016",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud016"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD017.",
+      "requirements": [
+        {
+          "key": "udsm_ud017_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD017. The guide lists a duration of 4 years and an admission capacity of 40 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD017",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud017"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD018.",
+      "requirements": [
+        {
+          "key": "udsm_ud018_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD018. The guide lists a duration of 4 years and an admission capacity of 35 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 277, UD018",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud018"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD019.",
+      "requirements": [
+        {
+          "key": "udsm_ud019_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD019. The guide lists a duration of 4 years and an admission capacity of 70 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 278, UD019",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud019"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD021.",
+      "requirements": [
+        {
+          "key": "udsm_ud021_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD021. The guide lists a duration of 3 years and an admission capacity of 60 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 278–279, UD021",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud021"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD022.",
+      "requirements": [
+        {
+          "key": "udsm_ud022_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD022. The guide lists a duration of 3 years and an admission capacity of 50 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 279, UD022",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud022"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD025.",
+      "requirements": [
+        {
+          "key": "udsm_ud025_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD025. The guide lists a duration of 3 years and an admission capacity of 50 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 279, UD025",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud025"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD026.",
+      "requirements": [
+        {
+          "key": "udsm_ud026_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD026. The guide lists a duration of 4 years and an admission capacity of 15 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 280, UD026",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud026"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD028.",
+      "requirements": [
+        {
+          "key": "udsm_ud028_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD028. The guide lists a duration of 4 years and an admission capacity of 23 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 280, UD028",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud028"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD031.",
+      "requirements": [
+        {
+          "key": "udsm_ud031_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD031. The guide lists a duration of 3 years and an admission capacity of 50 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 280, UD031",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud031"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD032.",
+      "requirements": [
+        {
+          "key": "udsm_ud032_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD032. The guide lists a duration of 3 years and an admission capacity of 350 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD032",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud032"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD033.",
+      "requirements": [
+        {
+          "key": "udsm_ud033_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD033. The guide lists a duration of 4 years and an admission capacity of 33 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD033",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud033"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD034.",
+      "requirements": [
+        {
+          "key": "udsm_ud034_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD034. The guide lists a duration of 3 years and an admission capacity of 113 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 281, UD034",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud034"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD037.",
+      "requirements": [
+        {
+          "key": "udsm_ud037_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD037. The guide lists a duration of 3 years and an admission capacity of 40 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 282, UD037",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud037"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD038.",
+      "requirements": [
+        {
+          "key": "udsm_ud038_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD038. The guide lists a duration of 3 years and an admission capacity of 40 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 282, UD038",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud038"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD039.",
+      "requirements": [
+        {
+          "key": "udsm_ud039_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD039. The guide lists a duration of 3 years and an admission capacity of 65 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 283, UD039",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "udsm_ud039_source_note",
+          "label": "Programme source note",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university prospectus repeats the Mass Communication heading above a paragraph that permits English or Kiswahili at O level. The corresponding TCU code UD039 names Public Relations and Strategic Communication and matches that language option.",
+          "source": {
+            "url": "https://udsm.ac.tz/sites/default/files/UG_PROSPECTUS_2026-2027.pdf",
+            "title": "UDSM undergraduate prospectus 2026/2027, printed p. 69",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud039"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD040.",
+      "requirements": [
+        {
+          "key": "udsm_ud040_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD040. The guide lists a duration of 3 years and an admission capacity of 200 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 283, UD040",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud040"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD041.",
+      "requirements": [
+        {
+          "key": "udsm_ud041_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD041. The guide lists a duration of 3 years and an admission capacity of 285 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 284, UD041",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud041"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD042.",
+      "requirements": [
+        {
+          "key": "udsm_ud042_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD042. The guide lists a duration of 3 years and an admission capacity of 114 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 284–285, UD042",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud042"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD044.",
+      "requirements": [
+        {
+          "key": "udsm_ud044_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD044. The guide lists a duration of 3 years and an admission capacity of 92 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 285, UD044",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud044"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD045.",
+      "requirements": [
+        {
+          "key": "udsm_ud045_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD045. The guide lists a duration of 3 years and an admission capacity of 114 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 286, UD045",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud045"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD046.",
+      "requirements": [
+        {
+          "key": "udsm_ud046_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD046. The guide lists a duration of 3 years and an admission capacity of 69 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 286, UD046",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud046"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD047.",
+      "requirements": [
+        {
+          "key": "udsm_ud047_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD047. The guide lists a duration of 3 years and an admission capacity of 120 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD047",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud047"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD048.",
+      "requirements": [
+        {
+          "key": "udsm_ud048_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD048. The guide lists a duration of 3 years and an admission capacity of 90 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD048",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud048"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD049.",
+      "requirements": [
+        {
+          "key": "udsm_ud049_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD049. The guide lists a duration of 3 years and an admission capacity of 80 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 287, UD049",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud049"
+    },
+    {
+      "institutionKey": "udsm",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2026/2027 UDSM direct secondary entry · UD050.",
+      "requirements": [
+        {
+          "key": "udsm_ud050_official_listing",
+          "label": "Programme code, duration and published intake capacity",
+          "category": "application",
+          "status": "conditional",
+          "details": "TCU programme code UD050. The guide lists a duration of 3 years and an admission capacity of 80 for the 2026/2027 cycle.",
+          "source": {
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "title": "TCU secondary guide 2026/2027, printed p. 288, UD050",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ],
+      "programKey": "udsm_ud050"
+    }
+  ],
+  "programs": [
+    {
+      "key": "udsm_ud001",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Archaeology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 273, UD001",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_04cec44a53ae"
+      ]
+    },
+    {
+      "key": "udsm_ud002",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Economics",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 273, UD002",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_f2e8b0b388ea"
+      ]
+    },
+    {
+      "key": "udsm_ud003",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Archaeology and History",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 273, UD003",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_b7fd13bba9ab"
+      ]
+    },
+    {
+      "key": "udsm_ud005",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Heritage Management",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 274, UD005",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_b7fd13bba9ab"
+      ]
+    },
+    {
+      "key": "udsm_ud006",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in History and Archives Management",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 274, UD006",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_a001c1a0ada7"
+      ]
+    },
+    {
+      "key": "udsm_ud007",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Language Studies",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 274, UD007",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_dd9075aabb22"
+      ]
+    },
+    {
+      "key": "udsm_ud008",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Literature",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 274, UD008",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_d9e9fa43171b"
+      ]
+    },
+    {
+      "key": "udsm_ud009",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Political Science and Public Administration",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 274–275, UD009",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_da5681fb8c49"
+      ]
+    },
+    {
+      "key": "udsm_ud010",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Sociology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 275, UD010",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_16d6425488ea"
+      ]
+    },
+    {
+      "key": "udsm_ud011",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Statistics",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 275, UD011",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_039dcff502c9"
+      ]
+    },
+    {
+      "key": "udsm_ud012",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts with Education",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 275, UD012",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_1968a4ac4a9b"
+      ]
+    },
+    {
+      "key": "udsm_ud013",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Chemical and Process Engineering",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 276, UD013",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_4484332df7c2"
+      ]
+    },
+    {
+      "key": "udsm_ud014",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Computer Engineering and Information Technology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 276, UD014",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_95a925af0d45"
+      ]
+    },
+    {
+      "key": "udsm_ud015",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Electrical Engineering",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 276, UD015",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_480930f5cae2"
+      ]
+    },
+    {
+      "key": "udsm_ud016",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Mining Engineering",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 277, UD016",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_9d3d5f4cb94c"
+      ]
+    },
+    {
+      "key": "udsm_ud017",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Textile Engineering",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 277, UD017",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_f3b1519992eb"
+      ]
+    },
+    {
+      "key": "udsm_ud018",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Textile Design and Technology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 277, UD018",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_07c3fe769e36"
+      ]
+    },
+    {
+      "key": "udsm_ud019",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Telecommunications Engineering",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 278, UD019",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_cb16c7b7b0ed"
+      ]
+    },
+    {
+      "key": "udsm_ud021",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Actuarial Sciences",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 278–279, UD021",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_49d5b88177e1"
+      ]
+    },
+    {
+      "key": "udsm_ud022",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Zoology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 279, UD022",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_305eda3671e8"
+      ]
+    },
+    {
+      "key": "udsm_ud025",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Chemistry",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 279, UD025",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_bd0e116b6f8d"
+      ]
+    },
+    {
+      "key": "udsm_ud026",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Engineering Geology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 280, UD026",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_9d3d5f4cb94c"
+      ]
+    },
+    {
+      "key": "udsm_ud028",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Geology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 280, UD028",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_ef27986c4e01"
+      ]
+    },
+    {
+      "key": "udsm_ud031",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Wildlife Science and Conservation",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 280, UD031",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_305eda3671e8"
+      ]
+    },
+    {
+      "key": "udsm_ud032",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science with Education",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 281, UD032",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_980e19cbcbde"
+      ]
+    },
+    {
+      "key": "udsm_ud033",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science with Geology",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 281, UD033",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_ca626cb34c9b"
+      ]
+    },
+    {
+      "key": "udsm_ud034",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Science in Computer Science",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 281, UD034",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_ea0cb5bdffa7"
+      ]
+    },
+    {
+      "key": "udsm_ud037",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Journalism and Media Studies",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 282, UD037",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_3c056678e159"
+      ]
+    },
+    {
+      "key": "udsm_ud038",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Mass Communication and Multimedia Studies",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 282, UD038",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_b75ace49caeb"
+      ]
+    },
+    {
+      "key": "udsm_ud039",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Public Relations and Strategic Communication",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 283, UD039",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_7ff4f72aef36"
+      ]
+    },
+    {
+      "key": "udsm_ud040",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Arts in Kiswahili",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 283, UD040",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_b780119ca3b9"
+      ]
+    },
+    {
+      "key": "udsm_ud041",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce in Accounting",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 284, UD041",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_af3062c53924"
+      ]
+    },
+    {
+      "key": "udsm_ud042",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce in Banking and Financial Services",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 284–285, UD042",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_af3062c53924"
+      ]
+    },
+    {
+      "key": "udsm_ud044",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce in Human Resource Management",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 285, UD044",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_af3062c53924"
+      ]
+    },
+    {
+      "key": "udsm_ud045",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce in Marketing",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 286, UD045",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_af3062c53924"
+      ]
+    },
+    {
+      "key": "udsm_ud046",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce in Tourism Management",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 286, UD046",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_af3062c53924"
+      ]
+    },
+    {
+      "key": "udsm_ud047",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Lifelong Learning and Community Development",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 287, UD047",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_f4fae3d570d9"
+      ]
+    },
+    {
+      "key": "udsm_ud048",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Commerce with Education",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 287, UD048",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_893bd449882e"
+      ]
+    },
+    {
+      "key": "udsm_ud049",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Education in Early Childhood Education",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 287, UD049",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_69987f8b8989"
+      ]
+    },
+    {
+      "key": "udsm_ud050",
+      "institutionKey": "udsm",
+      "name": "Bachelor of Sport Sciences and Physical Education",
+      "level": "undergraduate",
+      "field": "Direct undergraduate entry",
+      "source": {
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "title": "TCU secondary guide 2026/2027, printed p. 288, UD050",
+        "checkedOn": "2026-11-15"
+      },
+      "sharedRequirementKeys": [
+        "udsm_form_iv_baseline",
+        "udsm_acsee_scale",
+        "udsm_subjects_06d6cd86a685"
+      ]
+    }
+  ]
+}

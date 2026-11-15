@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280983,
+            "programs": 281090,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3047,
+            "admissionProfiles": 3156,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24361,
+            "admissionRequirements": 24566,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 778
         },
@@ -124,7 +124,7 @@
             "institutionWidePolicies": 15,
             "institutionsWithReviewedIb": 38,
             "programsWithPublishedTotals": 430,
-            "undergraduateCatalogEntries": 195310
+            "undergraduateCatalogEntries": 195417
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,13 +153,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4106,
+            "programs": 4107,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1884,
+            "admissions": 1885,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24045
+            "noStructuredApplicationFacts": 24044
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -171,31 +171,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2341,
-            "profiles": 943,
-            "institutions": 25
+            "facts": 2546,
+            "profiles": 1052,
+            "institutions": 26
         }
     },
-    "generatedAt": "2026-11-15T02:51:16Z",
+    "generatedAt": "2026-11-15T14:16:21Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 28,
-        "provider": "official_ib",
+        "inserted": 53,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 28,
-        "startedAt": "2026-11-15T02:50:39.665357+00:00",
-        "updatedAt": "2026-11-15T02:50:39.748+00:00",
+        "processed": 53,
+        "startedAt": "2026-11-15T14:15:25.70566+00:00",
+        "updatedAt": "2026-11-15T14:15:25.70566+00:00",
         "checkpoint": {
-            "rowIndex": 28,
-            "sourceRows": 28,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 28,
+            "admissionFacts": 53,
+            "programsReused": 0,
+            "programsCreated": 27,
+            "priorSharedLinksAdded": 56
         },
-        "finishedAt": "2026-11-15T02:50:39.748+00:00",
-        "artifactSha256": "5724ecd7d56c60a3bc7ff7add31a04560b9c0ddc59215251f093c30c11997c8d",
-        "datasetVersion": "official-ib-uct-commerce-health-law-2026-11-15-v1"
+        "finishedAt": "2026-11-15T14:15:25.846+00:00",
+        "artifactSha256": "10f6b5a68e3346a2ac00fa25456f11a62df302deed5187f6460f2abc11cfb26e",
+        "datasetVersion": "official-admissions-udsm-2026-2027-direct-part-3-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

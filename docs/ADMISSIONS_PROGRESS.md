@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-15
 
+## University of Dar es Salaam direct secondary entry — November 15
+
+1. **Baseline.** Local main matched GitHub at `9280d9d` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43669811311). The former checkpoint archive was read completely before the UDSM batch. UDSM ROR `0479aed98` had zero admissions profiles. The database held 2,341 reviewed general facts and 778 IB records.
+2. **Sources.** Reconciled all 107 TCU programme identifiers against the rendered table, extracting complete subjects, minimum points, duration and capacity cells. The [source record](research/UDSM_ENTRY_20261115.md) documents the matching UDSM prospectus conditions and NECTA equivalence.
+3. **Artifacts.** The three files add 107 programme records and 205 distinct facts, with 321 programme associations. The UD108 discrepancy and the international application requirements have explicit provenance. This cycle publishes Tanzanian ACSEE values and foreign equivalence guidance.
+4. **Import.** Three validated previews performed zero writes. The live imports added all 107 programme records and 205 facts without rejections. Three repeats reported already completed. The complete-row hashes matched all 2,341 prior general facts and 778 IB records.
+5. **Verification.** The API matched all 2,546 reviewed general facts, all 778 IB records and all 321 new programme links. Browser search showed Dental Surgery's 6.0 ACSEE threshold and its three named subjects, plus both Industrial Biotechnology conditions and source links. All 293 tests and the database, API and website quality checks passed.
+6. **Coverage and backup.** The database holds 28,171 institutions, 281,090 programme entries, 3,156 admission scopes, 24,566 general requirements, 107,589 sources and 83 import runs. Reviewed admissions facts cover 26 institutions. Archive `backups/post-udsm-20261115.YLVIYS` read completely with 192 listing entries and SHA-256 `c96dfae1b402e5c9ce3d5b3c393641947f3a6e6ea1a0f07ffd0dc7a72171fcea`.
+
+The next batch covers the University of Auckland's 2027 overseas secondary-entry tables with separate IB, Cambridge International, GCE and US AP requirements.
+
 ## Cape Town Commerce, Health Sciences and Law — November 15
 
 1. **Baseline.** Main matched GitHub at `2df6d5c`. [Both prior CI jobs passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43669381172). The initial UCT archive was read completely and used as the pre-import backup. The database held 2,318 reviewed general facts and 750 IB rows.
