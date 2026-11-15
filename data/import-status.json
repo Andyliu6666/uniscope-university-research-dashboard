@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 280459,
+            "programs": 280503,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 2400,
+            "admissionProfiles": 2535,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 23179,
+            "admissionRequirements": 23287,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 209
+            "qualificationRequirements": 299
         },
         "ibCoverage": {
             "byCountry": [
@@ -43,7 +43,7 @@
                 {
                     "country": "Hong Kong",
                     "institutions": 2,
-                    "programs_with_reviewed_ib": 131,
+                    "programs_with_reviewed_ib": 132,
                     "programs_with_published_totals": 131
                 },
                 {
@@ -89,6 +89,12 @@
                     "programs_with_published_totals": 0
                 },
                 {
+                    "country": "Singapore",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 43,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "South Africa",
                     "institutions": 1,
                     "programs_with_reviewed_ib": 0,
@@ -107,12 +113,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 209,
-            "programsWithReviewedIb": 200,
-            "institutionWidePolicies": 9,
-            "institutionsWithReviewedIb": 30,
+            "reviewedRecords": 299,
+            "programsWithReviewedIb": 244,
+            "institutionWidePolicies": 13,
+            "institutionsWithReviewedIb": 31,
             "programsWithPublishedTotals": 168,
-            "undergraduateCatalogEntries": 194786
+            "undergraduateCatalogEntries": 194830
         },
         "coreCoverage": {
             "phone": 4078,
@@ -141,13 +147,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4098,
+            "programs": 4099,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1876,
+            "admissions": 1877,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24053
+            "noStructuredApplicationFacts": 24052
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -159,31 +165,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 1159,
-            "profiles": 490,
-            "institutions": 17
+            "facts": 1267,
+            "profiles": 541,
+            "institutions": 18
         }
     },
-    "generatedAt": "2026-11-13T12:02:31Z",
+    "generatedAt": "2026-11-15T01:20:25Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 132,
+        "inserted": 90,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 132,
-        "startedAt": "2026-11-13T12:02:09.66283+00:00",
-        "updatedAt": "2026-11-13T12:02:09.944+00:00",
+        "processed": 90,
+        "startedAt": "2026-11-15T01:19:22.331168+00:00",
+        "updatedAt": "2026-11-15T01:19:22.549+00:00",
         "checkpoint": {
-            "rowIndex": 132,
-            "sourceRows": 132,
+            "rowIndex": 90,
+            "sourceRows": 90,
             "schemaVersion": 1,
-            "createdPrograms": 0
+            "createdPrograms": 1
         },
-        "finishedAt": "2026-11-13T12:02:09.944+00:00",
-        "artifactSha256": "d8fc9d12e8d8b23e90d4a608b9157fd9f3e5975cc6ba3810e83432d952060731",
-        "datasetVersion": "official-ib-hong-kong-2026-11-13-v1"
+        "finishedAt": "2026-11-15T01:19:22.549+00:00",
+        "artifactSha256": "791d9a9a8b97662a73e67787924763e41d4ecbcc9aed3f4e8a9ea800341ff59d",
+        "datasetVersion": "official-ib-ntu-cuhk-2026-11-15-v1"
     },
     "schemaVersion": 2
 }

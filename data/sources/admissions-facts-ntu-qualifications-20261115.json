@@ -1,0 +1,2379 @@
+{
+  "datasetVersion": "official-admissions-ntu-qualifications-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "ntu",
+      "name": "Nanyang Technological University",
+      "provider": "ror",
+      "externalId": "02e7b5302",
+      "countryCode": "SG",
+      "officialDomains": ["ntu.edu.sg"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2027/28 undergraduate qualification routes. Each policy names the applicable credential.",
+      "requirements": [
+        {
+          "key": "ntu_ap_five",
+          "category": "academic",
+          "label": "AP · American High School Diploma route",
+          "status": "required",
+          "details": "Present strong diploma results and five College Board AP exam scores of 4 or 5. Singapore citizens and permanent residents can also apply with at least three AP tests. Scores must reach NTU by 15 July 2027. Use the programme prerequisites and qualification page to check eligibility.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/american-high-school-diploma",
+            "title": "NTU 2027 American high school diploma and AP criteria",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_ap_subjects",
+          "category": "academic",
+          "label": "AP · Calculus BC and Physics C",
+          "status": "conditional",
+          "details": "The dedicated admissions page specifies AP Calculus BC for Applied Computing in Finance, Economics and Data Science, Engineering and most Science programmes. AP Physics C applies when Physics is a minimum subject requirement. The international matrix also mentions Mathematics Level 2 in the American Diploma row. Confirm acceptable evidence with NTU where the two sources differ.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/american-high-school-diploma",
+            "title": "NTU 2027 American high school diploma and AP criteria",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_ap_alternative",
+          "category": "academic",
+          "label": "AP · supplement for other listed international qualification routes",
+          "status": "conditional",
+          "details": "For secondary qualifications marked as requiring a supplementary qualification in the international guide, one listed route is at least three AP tests with scores of 4 or 5. Choose subjects that match the proposed programme. AP Calculus BC applies to Engineering and most Science programmes under this route.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf",
+            "title": "NTU 2027 international qualifications, PDF pp. 9–10",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_al_same_sitting",
+          "category": "academic",
+          "label": "UK GCE A-level / IAL · direct qualification route",
+          "status": "required",
+          "details": "Present good passes in at least four A-level subjects from the same examination period. Recognised examination boards can be combined within that sitting. Decisions depend on the applicant pool and programme.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/uk-a-level-certificates-cambridge-pre-u",
+            "title": "NTU UK GCE A-level and International A-level eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_al_three_exception",
+          "category": "academic",
+          "label": "UK GCE A-level / IAL · three-subject exceptions",
+          "status": "conditional",
+          "details": "Singapore citizens and permanent residents with three good passes in the same sitting may apply. International applicants with three good passes and outstanding achievements, such as international Science Olympiad medals, may be considered individually. The matrix also mentions consideration for three good passes at non-subsidised fees. Confirm the fee and applicant conditions for your route.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/uk-a-level-certificates-cambridge-pre-u",
+            "title": "NTU UK GCE A-level and International A-level eligibility",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_al_augrelease",
+          "category": "academic",
+          "label": "UK GCE A-level / IAL · August 2027 results",
+          "status": "required",
+          "details": "Applicants whose actual A2 results come out in August 2027 should apply for the 2028 admissions cycle.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf",
+            "title": "NTU 2027 international qualifications, PDF pp. 9–10",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_al_supplement",
+          "category": "academic",
+          "label": "UK GCE A-level · supplement to another school qualification",
+          "status": "conditional",
+          "details": "For routes explicitly marked as needing an additional qualification, the international guide lists a UK A-level option of at least three subjects completed within 12 months in up to two sittings. Actual A-level or A2 results must be available before June. Engineering and most Science programmes require A-level Mathematics or Further Mathematics.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf",
+            "title": "NTU 2027 international qualifications, PDF pp. 9–10",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_ib_transcript",
+          "category": "document",
+          "label": "IB · direct transcript access and exam timing",
+          "status": "required",
+          "details": "Grant NTU direct access to IBO results. For November 2026 and earlier sessions the access deadline is 19 March 2027. May 2027 candidates grant access by the end of June and submit final results within three days of release where eligible. The May 2027 exception list includes Medicine and both Academic Discipline and Education degrees.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements",
+            "title": "NTU general admissions, IB Diploma section",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_6d049656ddbea8bbf7",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile · College of Science double majors",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment. NTU reports the combined group across the named double majors.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_6d049656ddbea8bbf7",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA · College of Science double majors",
+          "status": "considered",
+          "details": "10th percentile GPA 3.82. 90th percentile GPA 3.99.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_al_009cc6d02f5c74af5a",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile · School of Humanities double majors",
+          "status": "considered",
+          "details": "10th percentile AAA/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment. NTU reports the combined group across the named double majors.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_009cc6d02f5c74af5a",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA · School of Humanities double majors",
+          "status": "considered",
+          "details": "10th percentile GPA 3.51. 90th percentile GPA 3.91.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_al_b5f86ab57a67dfdf5f",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile · School of Social Sciences double majors",
+          "status": "considered",
+          "details": "10th percentile AAA/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. NTU reports the combined group across the named double majors.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_b5f86ab57a67dfdf5f",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA · School of Social Sciences double majors",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_c4d3d42ed3a4f2ba6d",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_c4d3d42ed3a4f2ba6d",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAA/A. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_c4d3d42ed3a4f2ba6d",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_6f34911dbc7afca938",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_6f34911dbc7afca938",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAA/A. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_6f34911dbc7afca938",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_6b46ecb514c2855ef5",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_6b46ecb514c2855ef5",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_6b46ecb514c2855ef5",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.72. 90th percentile GPA 3.96.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_b171b2e60f54e8310d",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_b171b2e60f54e8310d",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_b171b2e60f54e8310d",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.56. 90th percentile GPA 3.88.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_56752027a8aa680cc1",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_56752027a8aa680cc1",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_56752027a8aa680cc1",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.50. 90th percentile GPA 3.92.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_f24190d7199e7558ae",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_f24190d7199e7558ae",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile CCD/D. 90th percentile AAB/B. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_f24190d7199e7558ae",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.48. 90th percentile GPA 3.94.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_e73d26a2d59bc3ad24",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_e73d26a2d59bc3ad24",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile CCC/D. 90th percentile AAA/C. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_e73d26a2d59bc3ad24",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.48. 90th percentile GPA 3.92.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_b25ca4a3ec41d30252",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_b25ca4a3ec41d30252",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/D. 90th percentile AAA/B. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_b25ca4a3ec41d30252",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.59. 90th percentile GPA 3.87.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_2ba863a8aa1bd0d6aa",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_2ba863a8aa1bd0d6aa",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/D. 90th percentile ABC/B. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_2ba863a8aa1bd0d6aa",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.57. 90th percentile GPA 3.80.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_c56920ee8d0e044e74",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_c56920ee8d0e044e74",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/C. 90th percentile ABC/B. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_c56920ee8d0e044e74",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.59. 90th percentile GPA 3.94.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_ae843a1aeea33cc859",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_ae843a1aeea33cc859",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/D. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_ae843a1aeea33cc859",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.43. 90th percentile GPA 3.85.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_3bc77810434c4226ab",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_3bc77810434c4226ab",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile CCD/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_3bc77810434c4226ab",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.49. 90th percentile GPA 3.91.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_e7aaa6fb41c9ca15fe",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_e7aaa6fb41c9ca15fe",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_e7aaa6fb41c9ca15fe",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_721a10fd9a84f8f450",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_721a10fd9a84f8f450",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_721a10fd9a84f8f450",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.70. 90th percentile GPA 3.93.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_9e1c59c8a3d62ac8a1",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_9e1c59c8a3d62ac8a1",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_9e1c59c8a3d62ac8a1",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_7481c54b6b265354df",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_7481c54b6b265354df",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_7481c54b6b265354df",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.66. 90th percentile GPA 3.95.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_445ddaa59df684ea81",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_445ddaa59df684ea81",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_445ddaa59df684ea81",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.78. 90th percentile GPA 3.98.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_6741b0b511700c7cba",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_6741b0b511700c7cba",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_6741b0b511700c7cba",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.89. 90th percentile GPA 4.00.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_192a1c0cfd6bb55e79",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_192a1c0cfd6bb55e79",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_192a1c0cfd6bb55e79",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.64. 90th percentile GPA 3.97.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_d6003d05154b6561a1",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_d6003d05154b6561a1",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_d6003d05154b6561a1",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.50. 90th percentile GPA 3.96.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_1893c0af751276cf5c",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_1893c0af751276cf5c",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_1893c0af751276cf5c",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_45c358b8859a2827d3",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_45c358b8859a2827d3",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 2",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_45c358b8859a2827d3",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_9242e24b44e3d69d26",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_9242e24b44e3d69d26",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_9242e24b44e3d69d26",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.42. 90th percentile GPA 3.87.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_23e680c72fa88a7ab7",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_23e680c72fa88a7ab7",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile CCC/D. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_23e680c72fa88a7ab7",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.42. 90th percentile GPA 3.89.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_196264bd3842b6eae2",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_196264bd3842b6eae2",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_196264bd3842b6eae2",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.63. 90th percentile GPA 3.92.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_76f68a75f01ed76f5a",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_76f68a75f01ed76f5a",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_76f68a75f01ed76f5a",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.65. 90th percentile GPA 3.91.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_a0f338eedc556e6021",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_a0f338eedc556e6021",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_a0f338eedc556e6021",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.72. 90th percentile GPA 3.94.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_9ff0304b68a34122be",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_9ff0304b68a34122be",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile CCC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_9ff0304b68a34122be",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.43. 90th percentile GPA 3.89.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_8a9779f421280dfc90",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_8a9779f421280dfc90",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAA/C. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_8a9779f421280dfc90",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.41. 90th percentile GPA 3.72.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_a050daa56fc7a97511",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_a050daa56fc7a97511",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_a050daa56fc7a97511",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.66. 90th percentile GPA 3.91.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_5926c704d5b32b1663",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_5926c704d5b32b1663",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile ABC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_5926c704d5b32b1663",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.60. 90th percentile GPA 3.86.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_c4d7760e02181898c2",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_c4d7760e02181898c2",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_c4d7760e02181898c2",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_ba118bf7fc9c1aedc1",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_ba118bf7fc9c1aedc1",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_ba118bf7fc9c1aedc1",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.38. 90th percentile GPA 3.58.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_0e769600933790607b",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_0e769600933790607b",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/B. 90th percentile AAB/C. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_0e769600933790607b",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.41. 90th percentile GPA 3.61.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_0bb027e3ee1801b001",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_0bb027e3ee1801b001",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_0bb027e3ee1801b001",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.54. 90th percentile GPA 3.78.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_7f3d81eb0817c1bf0e",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_7f3d81eb0817c1bf0e",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAB/C. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_7f3d81eb0817c1bf0e",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.43. 90th percentile GPA 3.62.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_82bd4ca079743d7916",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_82bd4ca079743d7916",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_82bd4ca079743d7916",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_131b0658b108704d46",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_131b0658b108704d46",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_131b0658b108704d46",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.64. 90th percentile GPA 3.90.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_b3e7804e05f9eabf29",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_b3e7804e05f9eabf29",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile AAB/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_b3e7804e05f9eabf29",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.60. 90th percentile GPA 3.86.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_76d6a7830200c01c05",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_76d6a7830200c01c05",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_76d6a7830200c01c05",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.59. 90th percentile GPA 3.79.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_90deed6a56ae642d89",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_90deed6a56ae642d89",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/B. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_90deed6a56ae642d89",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_3e81ac89fd2cdeab68",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_3e81ac89fd2cdeab68",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BBC/C. 90th percentile AAA/A. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_3e81ac89fd2cdeab68",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "unknown",
+          "details": "NTU suppressed the percentile figures for this row because the sample was small.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_4e19e55659dc4f400b",
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "AY2025–26 applicants offered places. The figures include offers through aptitude-based admissions. The A-level profile uses three H2 subjects and one H1 content subject, with grade C assumed for General Paper and Project Work in this calculation. Current admission calculations and programme prerequisites may differ.",
+      "requirements": [
+        {
+          "key": "ntu_igp_al_4e19e55659dc4f400b",
+          "category": "academic",
+          "label": "Singapore-Cambridge A-level · 2025 offer profile",
+          "status": "considered",
+          "details": "10th percentile BCC/D. 90th percentile AAB/B. Format: three H2 grades / one H1 grade. The grade profile marks this route for additional assessment.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 1, PDF p. 3",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_igp_poly_4e19e55659dc4f400b",
+          "category": "academic",
+          "label": "Local polytechnic diploma · 2025 offer GPA",
+          "status": "considered",
+          "details": "10th percentile GPA 3.47. 90th percentile GPA 3.75.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/igp/ntu_igp.pdf",
+            "title": "NTU AY2025–26 indicative grade profile, Table 2, PDF p. 5",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_c4d3d42ed3a4f2ba6d",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme application requirements for IB Diploma holders.",
+      "requirements": [
+        {
+          "key": "ntu_ib_med_materials",
+          "category": "document",
+          "label": "IB Medicine · application materials",
+          "status": "required",
+          "details": "Submit academic results, a personal statement and two online references. One referee must be the civics tutor or form teacher. Exceptional talents and achievements beyond school activities may support the application.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+            "title": "NTU 2027 IB Diploma requirements, PDF p. 7",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "ntu_ib_med_ucat",
+          "category": "standardized_test",
+          "label": "IB Medicine · UCAT",
+          "status": "required",
+          "details": "For 2027/28 entry, take UCAT from 13 July to 24 September 2026 before applying. NTU lists UCAT results as required for this route.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+            "title": "NTU 2027 IB Diploma requirements, PDF p. 7",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ntu",
+      "programId": null,
+      "programKey": "ntu_9ff0304b68a34122be",
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme application requirements for IB Diploma holders.",
+      "requirements": [
+        {
+          "key": "ntu_ib_art_materials",
+          "category": "portfolio",
+          "label": "IB Art, Design & Media · submissions",
+          "status": "required",
+          "details": "Submit a portfolio, personal statement, writing samples, a creative project and an observational drawing. Follow the programme’s current submission instructions.",
+          "source": {
+            "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+            "title": "NTU 2027 IB Diploma requirements, PDF p. 4",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ntu_c4d3d42ed3a4f2ba6d",
+      "institutionKey": "ntu",
+      "name": "Medicine",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 7",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_6f34911dbc7afca938",
+      "institutionKey": "ntu",
+      "name": "Renaissance Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_6b46ecb514c2855ef5",
+      "institutionKey": "ntu",
+      "name": "Aerospace Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_b171b2e60f54e8310d",
+      "institutionKey": "ntu",
+      "name": "Bioengineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_56752027a8aa680cc1",
+      "institutionKey": "ntu",
+      "name": "Chemical & Biomolecular Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_f24190d7199e7558ae",
+      "institutionKey": "ntu",
+      "name": "Civil Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_e73d26a2d59bc3ad24",
+      "institutionKey": "ntu",
+      "name": "Electrical & Electronic Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_b25ca4a3ec41d30252",
+      "institutionKey": "ntu",
+      "name": "Environmental Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_2ba863a8aa1bd0d6aa",
+      "institutionKey": "ntu",
+      "name": "Information Engineering & Media",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_c56920ee8d0e044e74",
+      "institutionKey": "ntu",
+      "name": "Maritime Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_ae843a1aeea33cc859",
+      "institutionKey": "ntu",
+      "name": "Materials Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_3bc77810434c4226ab",
+      "institutionKey": "ntu",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 3",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_e7aaa6fb41c9ca15fe",
+      "institutionKey": "ntu",
+      "name": "Process Engineering and Synthetic Chemistry",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_721a10fd9a84f8f450",
+      "institutionKey": "ntu",
+      "name": "Robotics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_9e1c59c8a3d62ac8a1",
+      "institutionKey": "ntu",
+      "name": "Artificial Intelligence and Society",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_7481c54b6b265354df",
+      "institutionKey": "ntu",
+      "name": "Computer Engineering",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_445ddaa59df684ea81",
+      "institutionKey": "ntu",
+      "name": "Computer Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_6741b0b511700c7cba",
+      "institutionKey": "ntu",
+      "name": "Data Science & Artificial Intelligence",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 2",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_192a1c0cfd6bb55e79",
+      "institutionKey": "ntu",
+      "name": "Biological Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_d6003d05154b6561a1",
+      "institutionKey": "ntu",
+      "name": "Chemistry & Biological Chemistry",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_1893c0af751276cf5c",
+      "institutionKey": "ntu",
+      "name": "Chinese Medicine",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 6",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_45c358b8859a2827d3",
+      "institutionKey": "ntu",
+      "name": "Environmental Earth Systems Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 6",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_9242e24b44e3d69d26",
+      "institutionKey": "ntu",
+      "name": "Mathematical Sciences",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 6",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_23e680c72fa88a7ab7",
+      "institutionKey": "ntu",
+      "name": "Physics / Applied Physics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 6",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_196264bd3842b6eae2",
+      "institutionKey": "ntu",
+      "name": "Accountancy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 7",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_76f68a75f01ed76f5a",
+      "institutionKey": "ntu",
+      "name": "Business",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 7",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_a0f338eedc556e6021",
+      "institutionKey": "ntu",
+      "name": "Applied Computing in Finance",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 7",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_9ff0304b68a34122be",
+      "institutionKey": "ntu",
+      "name": "Art, Design & Media",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_8a9779f421280dfc90",
+      "institutionKey": "ntu",
+      "name": "Chinese",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_a050daa56fc7a97511",
+      "institutionKey": "ntu",
+      "name": "Communication Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_5926c704d5b32b1663",
+      "institutionKey": "ntu",
+      "name": "Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_c4d7760e02181898c2",
+      "institutionKey": "ntu",
+      "name": "Economics and Data Science",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_ba118bf7fc9c1aedc1",
+      "institutionKey": "ntu",
+      "name": "English",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_0e769600933790607b",
+      "institutionKey": "ntu",
+      "name": "History",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_0bb027e3ee1801b001",
+      "institutionKey": "ntu",
+      "name": "Linguistics & Multilingual Studies",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 4",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_7f3d81eb0817c1bf0e",
+      "institutionKey": "ntu",
+      "name": "Philosophy",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_82bd4ca079743d7916",
+      "institutionKey": "ntu",
+      "name": "Philosophy, Politics, and Economics",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_131b0658b108704d46",
+      "institutionKey": "ntu",
+      "name": "Psychology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_b3e7804e05f9eabf29",
+      "institutionKey": "ntu",
+      "name": "Public Policy & Global Affairs",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_76d6a7830200c01c05",
+      "institutionKey": "ntu",
+      "name": "Sociology",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 5",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_90deed6a56ae642d89",
+      "institutionKey": "ntu",
+      "name": "Arts (Academic Discipline & Education)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 8",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_3e81ac89fd2cdeab68",
+      "institutionKey": "ntu",
+      "name": "Science (Academic Discipline & Education)",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 8",
+        "checkedOn": "2026-11-15"
+      }
+    },
+    {
+      "key": "ntu_4e19e55659dc4f400b",
+      "institutionKey": "ntu",
+      "name": "Sport Science & Management",
+      "level": "undergraduate",
+      "field": "Undergraduate admissions",
+      "source": {
+        "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_ib.pdf",
+        "title": "NTU 2027 IB Diploma minimum subject requirements, PDF p. 8",
+        "checkedOn": "2026-11-15"
+      }
+    }
+  ]
+}

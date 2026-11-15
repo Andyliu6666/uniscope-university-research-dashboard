@@ -1,0 +1,124 @@
+{
+  "datasetVersion": "official-admissions-cuhk-qualification-context-2026-11-15-v1",
+  "reviewedOn": "2026-11-15",
+  "institutions": [
+    {
+      "key": "cuhk",
+      "name": "Chinese University of Hong Kong",
+      "provider": "ror",
+      "externalId": "00t33hh48",
+      "countryCode": "HK",
+      "officialDomains": ["cuhk.edu.hk"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 language provisions in the official IB admissions sheet.",
+      "requirements": [
+        {
+          "key": "cuhk_ib_english_2027",
+          "category": "language",
+          "label": "IB English · language threshold",
+          "status": "conditional",
+          "details": "Grade 4 or higher in IB English meets the English language threshold through this qualification route. See the general language policy for other qualifications.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/09/IB_subject_preference_2027entry.pdf",
+            "title": "CUHK 2027 IB Diploma general requirements, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        },
+        {
+          "key": "cuhk_ib_chinese_2027",
+          "category": "language",
+          "label": "IB Chinese · language threshold and waiver",
+          "status": "conditional",
+          "details": "The sheet lists grade 4 or higher in IB Chinese. The relevant faculty dean may exempt an IB Diploma holder from the Chinese language requirement.",
+          "source": {
+            "url": "https://admission.cuhk.edu.hk/wp-content/uploads/2026/09/IB_subject_preference_2027entry.pdf",
+            "title": "CUHK 2027 IB Diploma general requirements, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "academicYear": "2023",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "University-wide historical percentiles for the non-local admissions route.",
+      "requirements": [
+        {
+          "key": "cuhk_al_ucas_percentiles",
+          "category": "academic",
+          "label": "GCE A-level · 25th to 75th percentile",
+          "status": "considered",
+          "details": "144–168 UCAS Tariff points for three A-level subjects, using the tariff in force since September 2017. University-wide figures for this admissions cohort.",
+          "source": {
+            "url": "https://cuhk.edu.hk/adm/intl/adm_guide/Admissions_Score_Reference.pdf",
+            "title": "CUHK International Qualifications, 2023 cohort, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "academicYear": "2024",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "University-wide historical percentiles for the non-local admissions route.",
+      "requirements": [
+        {
+          "key": "cuhk_al_ucas_percentiles",
+          "category": "academic",
+          "label": "GCE A-level · 25th to 75th percentile",
+          "status": "considered",
+          "details": "144–168 UCAS Tariff points for three A-level subjects, using the tariff in force since September 2017. University-wide figures for this admissions cohort.",
+          "source": {
+            "url": "https://cuhk.edu.hk/adm/intl/adm_guide/Admissions_Score_Reference.pdf",
+            "title": "CUHK International Qualifications, 2024 cohort, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "cuhk",
+      "programId": null,
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "University-wide historical percentiles for the non-local admissions route.",
+      "requirements": [
+        {
+          "key": "cuhk_al_ucas_percentiles",
+          "category": "academic",
+          "label": "GCE A-level · 25th to 75th percentile",
+          "status": "considered",
+          "details": "144–168 UCAS Tariff points for three A-level subjects, using the tariff in force since September 2017. University-wide figures for this admissions cohort.",
+          "source": {
+            "url": "https://cuhk.edu.hk/adm/intl/adm_guide/Admissions_Score_Reference.pdf",
+            "title": "CUHK International Qualifications, 2025 cohort, PDF p. 1",
+            "checkedOn": "2026-11-15"
+          }
+        }
+      ]
+    }
+  ]
+}

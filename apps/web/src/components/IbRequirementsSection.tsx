@@ -156,10 +156,10 @@ export function IbRequirementsSection({ slug }: { slug: string }) {
             Search does not change these university coverage counts.
           </p>
           <details className="ib-institution" open={data.institutionPolicies.length > 0}>
-            <summary>University-wide IB policy ({data.institutionPolicies.length})</summary>
+            <summary>University-wide IB information ({data.institutionPolicies.length})</summary>
             <p>
-              These are general entry rules. Program-specific requirements below must also be
-              checked.
+              University-wide entry rules and historical scores are labelled by type. Check the
+              programme details below for subject conditions.
             </p>
             {data.institutionPolicies.map((requirement) => (
               <IbRequirementCard key={requirement.recordKey} requirement={requirement} />
