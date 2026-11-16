@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Bath 2027 computing, mathematics and natural sciences — November 16
+
+1. **Baseline.** Local and GitHub main matched `77ef905` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43788769189). Bath's ROR `002h8g185` had no structured admission scopes or IB catalogue programmes.
+2. **Sources.** The [source record](research/BATH_COMPUTING_MATHS_NATURAL_SCIENCES_20261116.md) documents the overlap between the university's course lists, the 25 UCAS codes, the target year, contextual eligibility, the AP updates and the shared conditions verified per course.
+3. **Artifacts.** Two files add 25 programme identities, 50 typical and contextual IB records, and 35 general facts with 279 programme associations. Fourteen routes have published AP grades. Eleven have a documented AP policy under review.
+4. **Import.** Both previews had zero writes. Imports completed without rejections. The IB import reused all 25 catalogue IDs. Repeat runs and prior record fingerprints confirmed the intended additions and unchanged prior records.
+5. **Verification.** The API returned 3,041 verified admissions facts across 30 institutions and 1,038 reviewed IB records. It checked both contextual filters, 51 Bath admissions scopes and all 279 linked criteria. The local site displayed the Natural Sciences AP combinations and numeracy alternatives. All 293 tests and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,395 catalogue entries, 3,581 scopes, 25,061 requirements, 107,674 sources and 104 runs. The number of programmes with published IB totals is 607. Archive `backups/post-bath-20261116.X5yeyZ` read completely with 192 listing entries and SHA-256 `be2beccaf55bc3b189b6dd82cf7eecb06c888a6117e4eb8dca1b8430582b4b09`.
+
+The next Bath batch covers Biosciences and the remaining science subjects. Continue at the faculty index with the 2027 pages for Biochemistry, Biology, Biomedical Sciences, Chemistry and Physics. Keep the admissions requirements for pharmacy and its preparatory routes distinct.
+
 ## University of Western Australia 2028 international health — November 16
 
 1. **Baseline.** Local and GitHub main matched `c88ce0c` with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43787851361). The retained pre-import archive and fingerprints matched the 2027 international entry checkpoint.

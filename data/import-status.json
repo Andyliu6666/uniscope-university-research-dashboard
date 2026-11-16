@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281370,
+            "programs": 281395,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3530,
+            "admissionProfiles": 3581,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25026,
+            "admissionRequirements": 25061,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 988
+            "qualificationRequirements": 1038
         },
         "ibCoverage": {
             "byCountry": [
@@ -120,17 +120,17 @@
                 },
                 {
                     "country": "United Kingdom",
-                    "institutions": 2,
-                    "programs_with_reviewed_ib": 12,
-                    "programs_with_published_totals": 11
+                    "institutions": 3,
+                    "programs_with_reviewed_ib": 37,
+                    "programs_with_published_totals": 36
                 }
             ],
-            "reviewedRecords": 988,
-            "programsWithReviewedIb": 873,
+            "reviewedRecords": 1038,
+            "programsWithReviewedIb": 898,
             "institutionWidePolicies": 16,
-            "institutionsWithReviewedIb": 41,
-            "programsWithPublishedTotals": 582,
-            "undergraduateCatalogEntries": 195682
+            "institutionsWithReviewedIb": 42,
+            "programsWithPublishedTotals": 607,
+            "undergraduateCatalogEntries": 195707
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4110,
+            "programs": 4111,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1888,
+            "admissions": 1889,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24041
+            "noStructuredApplicationFacts": 24040
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3006,
-            "profiles": 1270,
-            "institutions": 29
+            "facts": 3041,
+            "profiles": 1271,
+            "institutions": 30
         }
     },
-    "generatedAt": "2026-11-16T01:51:20Z",
+    "generatedAt": "2026-11-16T02:00:24Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 22,
+        "inserted": 50,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 22,
-        "startedAt": "2026-11-16T01:49:43.126538+00:00",
-        "updatedAt": "2026-11-16T01:49:43.197+00:00",
+        "processed": 50,
+        "startedAt": "2026-11-16T01:59:35.479695+00:00",
+        "updatedAt": "2026-11-16T01:59:35.627+00:00",
         "checkpoint": {
-            "rowIndex": 22,
-            "sourceRows": 22,
+            "rowIndex": 50,
+            "sourceRows": 50,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-16T01:49:43.197+00:00",
-        "artifactSha256": "c109cf6d5322bf19128b2f895fa5b06a7667810754088cc895b4133fa5014d9f",
-        "datasetVersion": "official-ib-uwa-2028-health-2026-11-16-v1"
+        "finishedAt": "2026-11-16T01:59:35.627+00:00",
+        "artifactSha256": "b65a4932027429ac024c9756f615b9a76f534868648b032a093e4083a4a592b2",
+        "datasetVersion": "official-ib-bath-2027-computing-maths-natural-sciences-2026-11-16-v1"
     },
     "schemaVersion": 2
 }
