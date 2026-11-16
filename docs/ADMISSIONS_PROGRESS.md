@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Western Australia 2028 international health — November 16
+
+1. **Baseline.** Local and GitHub main matched `c88ce0c` with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43787851361). The retained pre-import archive and fingerprints matched the 2027 international entry checkpoint.
+2. **Sources.** The [source record](research/UWA_INTERNATIONAL_HEALTH_2028_20261116.md) identifies the programme tables, subject key, graduate selection criteria, conflicting GCE examples and the dated 2028 clinical application timeline.
+3. **Artifacts.** Two files add 22 dated IB totals for existing school-leaver programmes, 15 graduate degrees and 58 general requirements. The 134 programme associations share qualification tiers, selection processes, prerequisites or English-language requirements once per applicable scope.
+4. **Import.** Validation and preview performed zero writes. Both database imports completed with zero rejected records and repeat runs left the database fingerprint unchanged. The 2027 programme IDs and the prior facts and shared links matched their snapshots.
+5. **Verification.** The API matched 3,006 general facts and 988 IB records, including 39 new admissions scopes, 37 programme identities and all 134 associations. The local website showed the Medicine pathway deadline of 30 June 2027 for 2028 entry, both ISAT sections and selection weights. The AP figure remains attached to 2027. All 293 tests and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,370 programme entries, 3,530 scopes, 25,026 general requirements, 107,648 sources and 102 runs. Archive `backups/post-uwa-health-20261116.R30Wdj` read completely with 192 listing entries and SHA-256 `391ed938def2aa656314942a1869ec8423150a817353960e4fe5b0e429542799`.
+
+The next source batch is Bath's 2027 undergraduate catalogue. Its course pages provide A-level and IB typical offers plus tailored US AP policies, with the application requirements on the same official programme page.
+
 ## University of Western Australia 2027 international entry — November 16
 
 1. **Baseline.** Local and remote main matched `5cf629d` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43787014206). ROR `047272k79` had zero admission profiles or IB course entries. The verified preceding PostgreSQL archive was retained.

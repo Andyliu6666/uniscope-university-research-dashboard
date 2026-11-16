@@ -1,0 +1,1700 @@
+{
+  "datasetVersion": "official-admissions-uwa-2028-health-2026-11-16-v1",
+  "reviewedOn": "2026-11-16",
+  "institutions": [
+    {
+      "key": "uwa",
+      "name": "The University of Western Australia",
+      "provider": "ror",
+      "externalId": "047272k79",
+      "countryCode": "AU",
+      "officialDomains": ["uwa.edu.au"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "uwa_bachelor_of_biomedical_science",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Biomedical Science",
+      "field": "Biomedical Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · pp. 13–14",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_70",
+        "uwa_health28_health_major_bridging",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_science",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Science",
+      "field": "Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · pp. 14–15",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_70",
+        "uwa_health28_health_major_bridging",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_human_sciences",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Human Sciences",
+      "field": "Health and Exercise",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 16",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_health_major_bridging",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_molecular_sciences",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Molecular Sciences",
+      "field": "Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 16",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_health_major_bridging",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_nursing_honours",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Nursing (Honours)",
+      "field": "Nursing",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 16",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_nursing_tier",
+        "uwa_health28_undergraduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_social_work_honours",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Social Work (Honours)",
+      "field": "Social Work",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_social_work_tier",
+        "uwa_health28_undergraduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_philosophy_honours",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Philosophy (Honours)",
+      "field": "Interdisciplinary",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_98",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_biomedicine_specialised_medical_science_extended_major",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Biomedicine (Specialised) - Medical Science extended major",
+      "field": "Biomedical Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 15",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_medical_science_tier",
+        "uwa_health28_chem_plus_ma",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_medicine_international_assured_pathway",
+      "institutionKey": "uwa",
+      "name": "Doctor of Medicine - International Assured Pathway",
+      "field": "School-leaver assured pathway",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · pp. 15, 19, 26",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_98",
+        "uwa_health28_chem_plus_ma",
+        "uwa_health28_assured_progression",
+        "uwa_health28_assured_application_dates",
+        "uwa_health28_isat",
+        "uwa_health28_clinical_interview_rank",
+        "uwa_health28_assured_isat_dates",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_dental_medicine_international_assured_pathway",
+      "institutionKey": "uwa",
+      "name": "Doctor of Dental Medicine - International Assured Pathway",
+      "field": "School-leaver assured pathway",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · pp. 15, 19, 26",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_98",
+        "uwa_health28_chem_plus_ma",
+        "uwa_health28_assured_progression",
+        "uwa_health28_assured_application_dates",
+        "uwa_health28_isat",
+        "uwa_health28_clinical_interview_rank",
+        "uwa_health28_assured_isat_dates",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_podiatric_medicine_international_assured_pathway",
+      "institutionKey": "uwa",
+      "name": "Doctor of Podiatric Medicine - International Assured Pathway",
+      "field": "School-leaver assured pathway",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · pp. 15, 19, 26",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_94",
+        "uwa_health28_chem_plus_ma",
+        "uwa_health28_assured_progression",
+        "uwa_health28_assured_application_dates",
+        "uwa_health28_dpm_school_selection",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_sport_and_exercise_sciences",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Sport and Exercise Sciences",
+      "field": "Health and Exercise",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 16",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_ma",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_sport_and_exercise_sciences_and_master_of_applied_h_05e11f3316e4",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Sport and Exercise Sciences and Master of Applied Human Performance Science",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 18",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_ma",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_sport_and_exercise_sciences_and_master_of_clinical_f19215a74de1",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Sport and Exercise Sciences and Master of Clinical Exercise Physiology",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 18",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_ma",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_sport_and_exercise_sciences_and_master_of_public_health",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Sport and Exercise Sciences and Master of Public Health",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 18",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_80",
+        "uwa_health28_ma",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_human_sciences_and_master_of_bioinformatics",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Human Sciences and Master of Bioinformatics",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_90",
+        "uwa_health28_mm_plus_chem",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_human_sciences_and_master_of_biomedical_science",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Human Sciences and Master of Biomedical Science",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_90",
+        "uwa_health28_mm_plus_chem",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_human_sciences_pharmaceutical_health_and_doctor_of_pharmacy",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Human Sciences (Pharmaceutical Health) and Doctor of Pharmacy",
+      "field": "Combined bachelor's and professional degree",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_85",
+        "uwa_health28_mm_plus_chem",
+        "uwa_health28_undergraduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_molecular_sciences_and_master_of_bioinformatics",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Molecular Sciences and Master of Bioinformatics",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 17",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_90",
+        "uwa_health28_molecular_combined_subjects",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_bachelor_of_molecular_sciences_and_master_of_biotechnology",
+      "institutionKey": "uwa",
+      "name": "Bachelor of Molecular Sciences and Master of Biotechnology",
+      "field": "Combined bachelor's and master's",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 18",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_90",
+        "uwa_health28_molecular_combined_subjects",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_public_health_assured_pathway_via_bachelor_of_biomedical_science",
+      "institutionKey": "uwa",
+      "name": "Master of Public Health - Assured Pathway via Bachelor of Biomedical Science",
+      "field": "School-leaver assured pathway",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 19",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_90",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_public_health_assured_pathway_via_bachelor_of_philosophy_honours",
+      "institutionKey": "uwa",
+      "name": "Master of Public Health - Assured Pathway via Bachelor of Philosophy (Honours)",
+      "field": "School-leaver assured pathway",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 19",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_undergraduate_documents",
+        "uwa_health28_rank_98",
+        "uwa_health28_undergraduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_clinical_dentistry",
+      "institutionKey": "uwa",
+      "name": "Doctor of Clinical Dentistry",
+      "field": "Dentistry",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": ["uwa_health28_graduate_documents"]
+    },
+    {
+      "key": "uwa_doctor_of_dental_medicine",
+      "institutionKey": "uwa",
+      "name": "Doctor of Dental Medicine",
+      "field": "Dentistry",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_medical_gpa",
+        "uwa_health28_gamsat_mcat",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_medicine",
+      "institutionKey": "uwa",
+      "name": "Doctor of Medicine",
+      "field": "Medicine",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_medical_gpa",
+        "uwa_health28_gamsat_mcat",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_optometry",
+      "institutionKey": "uwa",
+      "name": "Doctor of Optometry",
+      "field": "Optometry",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_optometry_pharmacy_subjects",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_pharmacy",
+      "institutionKey": "uwa",
+      "name": "Doctor of Pharmacy",
+      "field": "Pharmacy",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_optometry_pharmacy_subjects",
+        "uwa_health28_police",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_doctor_of_podiatric_medicine",
+      "institutionKey": "uwa",
+      "name": "Doctor of Podiatric Medicine",
+      "field": "Podiatry",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 21",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_master_of_bioinformatics",
+      "institutionKey": "uwa",
+      "name": "Master of Bioinformatics",
+      "field": "Bioinformatics",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_biomedical_science",
+      "institutionKey": "uwa",
+      "name": "Master of Biomedical Science",
+      "field": "Biomedical Science",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_biotechnology",
+      "institutionKey": "uwa",
+      "name": "Master of Biotechnology",
+      "field": "Biotechnology",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_clinical_audiology",
+      "institutionKey": "uwa",
+      "name": "Master of Clinical Audiology",
+      "field": "Audiology",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_police",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_master_of_clinical_exercise_physiology",
+      "institutionKey": "uwa",
+      "name": "Master of Clinical Exercise Physiology",
+      "field": "Exercise Physiology",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_master_of_industrial_and_organisational_psychology",
+      "institutionKey": "uwa",
+      "name": "Master of Industrial and Organisational Psychology",
+      "field": "Psychology",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    },
+    {
+      "key": "uwa_master_of_infectious_diseases",
+      "institutionKey": "uwa",
+      "name": "Master of Infectious Diseases",
+      "field": "Infectious Diseases",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 22",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_public_health",
+      "institutionKey": "uwa",
+      "name": "Master of Public Health",
+      "field": "Public Health",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 23",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_graduate_english_standard"
+      ]
+    },
+    {
+      "key": "uwa_master_of_social_work",
+      "institutionKey": "uwa",
+      "name": "Master of Social Work",
+      "field": "Social Work",
+      "level": "graduate",
+      "source": {
+        "title": "UWA 2028 International Health Admissions Guide · p. 23",
+        "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "uwa_health28_graduate_documents",
+        "uwa_health28_police",
+        "uwa_health28_graduate_english_clinical"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_biomedical_science_health_major_subject_prerequisites",
+          "category": "academic",
+          "status": "required",
+          "label": "Health major subject prerequisites",
+          "details": "Exercise and Health, Humanities in Health and Medicine and Public Health list MA+. Anatomy and Human Biology lists MM+. Human Genomics lists MM+ and C2. Microbiology and Immunology lists MM+, C2 and HB/B+. Neuroscience and Physiology list MM+ and C+. Pathology and Laboratory Medicine and Pharmacology and Toxicology list MA+ and C2.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–14",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_biomedical_science"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_science_health_major_subject_prerequisites",
+          "category": "academic",
+          "status": "required",
+          "label": "Health major subject prerequisites",
+          "details": "Exercise and Health and Sport Science list MA+. Anatomy and Human Biology lists MM+. Biochemistry and Molecular Biology and Genetics list MM+, C2 and HB/B+. Chemistry lists MM+ and C1, which means Chemistry or bridging, with Chemistry required for mid-year entry to finish in three years. Microbiology and Immunology lists MA+, C+ and HB/B+. Neuroscience and Physiology list MM+ and C+.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 14–15",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_science"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_human_sciences_extended_major_prerequisites",
+          "category": "academic",
+          "status": "required",
+          "label": "Extended major prerequisites",
+          "details": "Human Science and Neuroscience lists Mathematics Applications or higher. Human Sciences and Data Analytics and Human Sciences (Anatomy and Physiology) list Mathematics Methods. All three list the C2 Chemistry and HB/B+ Biology rules.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 16",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_human_sciences"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_molecular_sciences_molecular_life_sciences_subject_prerequisites",
+          "category": "academic",
+          "status": "required",
+          "label": "Molecular Life Sciences · subject prerequisites",
+          "details": "The extended major lists Mathematics Methods, C2 Chemistry and HB/B+ Biology preparation.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 16",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_molecular_sciences"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_nursing_honours_nursing_intake_quota",
+          "category": "application",
+          "status": "conditional",
+          "label": "Nursing · intake quota",
+          "details": "The Nursing extended major lists no subject prerequisite. Admission is subject to an intake quota.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 16",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_nursing_honours"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_bachelor_of_social_work_honours_social_work_school_subject_prerequisites",
+          "category": "academic",
+          "status": "not_required",
+          "label": "Social Work · school subject prerequisites",
+          "details": "The Social Work extended major has no listed subject prerequisite.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 17",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_bachelor_of_social_work_honours"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_medicine_international_assur_undergraduate_pathway_major",
+          "category": "academic",
+          "status": "required",
+          "label": "Undergraduate pathway major",
+          "details": "Enter the Bachelor of Biomedicine (Specialised) through Integrated Medical Sciences and Clinical Practice (MJD-IMSCP).",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_doctor_of_medicine_international_assur_international_intake_and_assured_pathway_places",
+          "category": "application",
+          "status": "conditional",
+          "label": "International intake and assured-pathway places",
+          "details": "The guide lists 40 international places across entry routes, with up to half available for assured pathway applicants.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 27, 30",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_medicine_international_assured_pathway"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_dental_medicine_internationa_undergraduate_pathway_major",
+          "category": "academic",
+          "status": "required",
+          "label": "Undergraduate pathway major",
+          "details": "Enter the Bachelor of Biomedicine (Specialised) through Integrated Dental Sciences (MJD-DENTS).",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_doctor_of_dental_medicine_internationa_international_intake_and_assured_pathway_places",
+          "category": "application",
+          "status": "conditional",
+          "label": "International intake and assured-pathway places",
+          "details": "The guide lists 20 international places across entry routes, with up to half available for assured pathway applicants.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 27, 30",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_dental_medicine_international_assured_pathway"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_podiatric_medicine_internati_undergraduate_pathway_major",
+          "category": "academic",
+          "status": "required",
+          "label": "Undergraduate pathway major",
+          "details": "Enter the Bachelor of Biomedicine (Specialised) through Podiatric Health and Medical Sciences (MJD-PHMSC).",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_doctor_of_podiatric_medicine_internati_international_intake_and_assured_pathway_places",
+          "category": "application",
+          "status": "conditional",
+          "label": "International intake and assured-pathway places",
+          "details": "The guide lists 5 international places across entry routes, with up to half available for assured pathway applicants. The guide schedules offers and the waitlist for early July 2027.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 27, 30",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_podiatric_medicine_international_assured_pathway"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_clinical_dentistry_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "UWA requires a recognised Bachelor of Dental Science or equivalent, two years of full-time general dentistry practice or equivalent, and current Australian dental registration maintained throughout the course.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_clinical_dentistry"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_dental_medicine_dentistry_canadian_or_us_dat_alternative",
+          "category": "standardized_test",
+          "status": "conditional",
+          "label": "Dentistry · Canadian or US DAT alternative",
+          "details": "Canadian DAT requires an academic average of 17 or higher with at least 17 in Reading Comprehension, Biology and Chemistry. US DAT requires an academic average of at least 370, Reading Comprehension at least 340, Biology at least 370 and Organic Chemistry at least 380.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_doctor_of_dental_medicine_dentistry_interview_shortlist",
+          "category": "interview",
+          "status": "conditional",
+          "label": "Dentistry · interview shortlist",
+          "details": "Shortlisting uses the Selection GPA and the eligible GAMSAT, MCAT or DAT score. Entry is competitive.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_dental_medicine"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_medicine_medicine_interview_shortlist",
+          "category": "interview",
+          "status": "conditional",
+          "label": "Medicine · interview shortlist",
+          "details": "Shortlisting uses the Selection GPA and eligible GAMSAT or MCAT score. Entry is competitive.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_medicine"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_optometry_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree in biomedical science, health science or vision science with selection WAM of at least 65. Interview shortlisting uses the selection WAM.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_optometry"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_pharmacy_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree with selection WAM of at least 65. Entry is competitive.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_pharmacy"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_doctor_of_podiatric_medicine_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Present a bachelor’s degree with selection WAM of at least 65 and tertiary-level knowledge in at least two of physiology, pharmacology, anatomy, human biology, microbiology, genetics, immunology or biological chemistry.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_doctor_of_podiatric_medicine"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_bioinformatics_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree with WAM of at least 50 and relevant previous tertiary study.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_bioinformatics"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_biomedical_science_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree with WAM of at least 50 and relevant prior tertiary study for the chosen specialisation. The guide lists Biochemistry and Molecular Biology, and Neuroscience.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_biomedical_science"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_biotechnology_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a relevant bachelor’s degree with WAM of at least 50 and prerequisites for the chosen specialisation. The listed areas are AQUAtech, Biochemistry and Molecular Biology, Environmental and Agricultural Biotechnology, Genetics and Genomics, and Synthetic Biology.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_biotechnology"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_clinical_audiology_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree with selection WAM of at least 65. Additional requirements and an admission quota apply.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_clinical_audiology"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_clinical_exercise_physiology_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "For the standard route, complete a relevant bachelor’s degree accredited by Exercise and Sport Science Australia with WAM of at least 60. Related degrees may be assessed individually. Additional requirements and intake quotas apply.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_clinical_exercise_physiology"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_industrial_and_organisationa_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete an accredited psychology honours degree with at least upper-second class honours (2A) or equivalent. Meet the Psychology Board of Australia provisional registration and English standards. Additional requirements apply.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_industrial_and_organisational_psychology"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_infectious_diseases_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a relevant bachelor’s degree with a WAM of at least 60 in Level 3 units. The course page describes possible alternative eligibility.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 22",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_infectious_diseases"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_public_health_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree or relevant graduate certificate with WAM of at least 60. Listed specialisations are Applied Public Health, Applied Health Foundations and Public Health Methodology.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 23",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_public_health"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_master_of_social_work_graduate_entry_prior_study_and_selection",
+          "category": "academic",
+          "status": "required",
+          "label": "Graduate entry · prior study and selection",
+          "details": "Complete a bachelor’s degree with WAM of at least 60. An admission quota applies.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 23",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle.",
+      "programKey": "uwa_master_of_social_work"
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "undergraduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_undergraduate_documents",
+          "category": "application",
+          "status": "required",
+          "label": "Application · academic, English and identification documents",
+          "details": "Prepare academic results, evidence of English proficiency, a passport and course-specific materials. Apply in the UWA Application Portal or through an authorised agent. The general portal application fee is AUD 150.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 24–25",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_70",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 70 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 7 (CDD), Singapore A-level score 5, CBSE score 9, Hong Kong HKDSE score 13, British Columbia CG 60 and Ontario OSSD 60.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–14",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_health_major_bridging",
+          "category": "academic",
+          "status": "required",
+          "label": "Health majors · subject and bridging key",
+          "details": "Mathematics Applications or higher (MA+), or approved bridging. For Mathematics Methods (MM+), Mathematics Applications plus bridging is available. Without ATAR mathematics UWA lists two bridging units. C+ means Chemistry or bridging. C2 requires Chemistry plus Biology or Human Biology for mid-year entry to complete in three years. HB/B+ is Biology or Human Biology, or bridging.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–16",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_undergraduate_english_standard",
+          "category": "language",
+          "status": "required",
+          "label": "English-language standard · IELTS Academic",
+          "details": "IELTS Academic overall 6.5 with each band at least 6.0.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_80",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 80 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 9 (CCC), Singapore A-level score 8, CBSE score 12, Hong Kong HKDSE score 15, British Columbia CG 70 and Ontario OSSD 70.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 16, 18",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_nursing_tier",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 70 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 7, Singapore A-level score 5, CBSE score 9, Hong Kong HKDSE score 13, British Columbia CG 70 and Ontario OSSD 70.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 16",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_undergraduate_english_clinical",
+          "category": "language",
+          "status": "required",
+          "label": "English-language standard · IELTS Academic",
+          "details": "IELTS Academic overall 7.0 with at least 7.0 in every band.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_social_work_tier",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 70 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 7 (CCD), Singapore A-level score 5, CBSE score 9, Hong Kong HKDSE score 13, British Columbia CG 60 and Ontario OSSD 60. Both values are printed in the dedicated Social Work row. The example and numeric aggregate differ under the standard GCE points scale. Confirm the applicable equivalence with UWA.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 17",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_98",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 98 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 15 (AAA), Singapore A-level score 14.5, CBSE score 19, Hong Kong HKDSE score 22, British Columbia CG 95 and Ontario OSSD 95.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 17, 19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_medical_science_tier",
+          "category": "academic",
+          "status": "required",
+          "label": "Medical Science · international qualifications",
+          "details": "The table gives ATAR 95, UK GCE A-level aggregate 14 with example ABB, Singapore A-level score 13.5, CBSE score 17.5, Hong Kong HKDSE 19.5, British Columbia CG 89 and Ontario OSSD 89. The GCE numeric score and example differ under the standard points scale. Confirm the applicable equivalence with UWA.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 15",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_chem_plus_ma",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Chemistry and Mathematics Applications preparation",
+          "details": "Meet Chemistry and Mathematics Applications or a higher mathematics level, or follow approved bridging.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 19, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_assured_progression",
+          "category": "application",
+          "status": "required",
+          "label": "Clinical assured pathways · eligibility and progression",
+          "details": "The route is limited to current or recent school leavers who have not started university or diploma-level vocational study. Complete the Bachelor of Biomedicine (Specialised) with the integrated major for the pathway. Meet the selection GPA by the end of year two to enter third year. Third year includes the first units of the postgraduate degree. The page 26 overview allows the recommended school subjects to be taken in first year.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 24, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_assured_application_dates",
+          "category": "application",
+          "status": "required",
+          "label": "2028 assured pathways · application dates",
+          "details": "For students entering in 2028, the guide opens UWA Apply on 1 January 2027 and closes it on 30 June 2027 without late applications. The Bachelor of Biomedicine (Specialised) starts on 28 February 2028 unless deferred. The guide dates this timeline to September 2026.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 30",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_isat",
+          "category": "standardized_test",
+          "status": "required",
+          "label": "Medicine and Dentistry · ISAT eligibility",
+          "details": "Submit a valid ISAT by the application deadline. Meet the 25th percentile in both sections. Only one sitting is permitted in 12 months. UWA uses the higher score if more than one valid result is held.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 19, 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_clinical_interview_rank",
+          "category": "interview",
+          "status": "conditional",
+          "label": "Medicine and Dentistry · interview and final ranking",
+          "details": "Interview invitations use ISAT plus the actual or predicted ATAR or equivalent. Final rank is 30% school rank or equivalent, 50% interview and 20% ISAT.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_assured_isat_dates",
+          "category": "application",
+          "status": "conditional",
+          "label": "2028 Medicine and Dentistry · ISAT windows and interviews",
+          "details": "ISAT registration opens in November 2026. January 2027 and April/May 2027 are the published exam windows for these pathways. The guide places interview invitations in mid-July 2027, Medicine interviews in Singapore in late July, and online interviews for both degrees in late July or early August. Offers and waitlists follow in mid-August. ISAT dates may change.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 30",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_94",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 94 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 14 (AAB), Singapore A-level score 13, CBSE score 17.5, Hong Kong HKDSE score 19, British Columbia CG 87 and Ontario OSSD 87.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 15, 19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_dpm_school_selection",
+          "category": "application",
+          "status": "conditional",
+          "label": "Podiatric Medicine · school-leaver selection",
+          "details": "Podiatric Medicine uses the ATAR or equivalent for final ranking. ISAT and an interview are not required.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 26",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_ma",
+          "category": "academic",
+          "status": "required",
+          "label": "Mathematics Applications preparation",
+          "details": "Mathematics Applications or a higher equivalent is accepted. An approved bridging unit is available.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 13–19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_90",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 90 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 12 (BBB), Singapore A-level score 12, CBSE score 16, Hong Kong HKDSE score 17.5, British Columbia CG 80 and Ontario OSSD 80.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 17–19",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_mm_plus_chem",
+          "category": "academic",
+          "status": "required",
+          "label": "Mathematics Methods and Chemistry preparation",
+          "details": "Meet Mathematics Methods or take the specified bridging route for Mathematics Applications. The guide directs students without an ATAR mathematics subject to two bridging units. Chemistry or an approved bridging unit is also listed.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 16–17",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_rank_85",
+          "category": "academic",
+          "status": "required",
+          "label": "ATAR 85 equivalent · international qualifications",
+          "details": "The guide gives UK GCE A-level aggregate 10 (BCC), Singapore A-level score 10, CBSE score 14, Hong Kong HKDSE score 16.5, British Columbia CG 75 and Ontario OSSD 75.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 17",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_molecular_combined_subjects",
+          "category": "academic",
+          "status": "required",
+          "label": "Molecular Sciences joined degrees · subject prerequisites",
+          "details": "The course rows specify Mathematics Applications or higher and Chemistry. The mathematics legend gives an approved bridging option.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 17–18",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle."
+    },
+    {
+      "academicYear": "2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "institutionKey": "uwa",
+      "programId": null,
+      "level": "graduate",
+      "requirements": [
+        {
+          "key": "uwa_health28_graduate_documents",
+          "category": "application",
+          "status": "required",
+          "label": "Application · academic, English and identification documents",
+          "details": "Prepare academic results, evidence of English proficiency, a passport and course-specific materials. Apply in the UWA Application Portal or through an authorised agent. The general portal application fee is AUD 150.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 24–25",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_graduate_medical_gpa",
+          "category": "academic",
+          "status": "required",
+          "label": "Prior bachelor’s degree and Selection GPA",
+          "details": "Hold a recognised bachelor’s degree with a UWA Selection GPA of at least 5.5.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_gamsat_mcat",
+          "category": "standardized_test",
+          "status": "conditional",
+          "label": "Graduate clinical admission tests · GAMSAT or MCAT",
+          "details": "GAMSAT requires at least 55 overall with every section at least 50. MCAT requires at least 500 overall with every section at least 124.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_graduate_english_clinical",
+          "category": "language",
+          "status": "required",
+          "label": "English-language standard · IELTS Academic",
+          "details": "IELTS Academic overall 7.0 with at least 7.0 in every band.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 21–23",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_optometry_pharmacy_subjects",
+          "category": "academic",
+          "status": "required",
+          "label": "Optometry and Pharmacy · prerequisite subjects",
+          "details": "Chemistry and Mathematics or Statistics may be met at school ATAR level or with a university unit. Pharmacology and Microbiology must each be met by university study.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · p. 21",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_police",
+          "category": "document",
+          "status": "required",
+          "label": "Police clearance · graduate clinical programme",
+          "details": "Submit a current Australian National Police Certificate or accepted equivalent indicating no criminal convictions.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 21–23",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "uwa_health28_graduate_english_standard",
+          "category": "language",
+          "status": "required",
+          "label": "English-language standard · IELTS Academic",
+          "details": "IELTS Academic overall 6.5 with each band at least 6.0.",
+          "source": {
+            "title": "UWA 2028 International Health Admissions Guide · pp. 21–23",
+            "url": "https://www.assethub.uwa.edu.au/api/public/content/5b39d57ad21941fdb9cfd14682d80a72?v=e73a9840",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "notes": "International entry criteria and selection for the 2028 admissions cycle."
+    }
+  ]
+}
