@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Mauritius Science and Medicine and Health Sciences — November 16
+
+1. **Baseline.** Local main matched `02ad505` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43786517657). The previous verified database archive was retained.
+2. **Sources.** The [source record](research/MAURITIUS_SCIENCE_HEALTH_20261116.md) identifies ten faculty codes, the shared Mathematics and Physics options and the compound Occupational Health and Safety route. The rendered Medicine table confirmed CCC and the separate interview condition.
+3. **Artifacts.** One file adds 16 programme entries, 29 facts and 60 programme associations, including 45 links to the three previously imported general rules. The international interview and professional upgrading criteria have specific admission scopes.
+4. **Import.** Validation and preview had zero writes. Live import added all 16 entries and 29 facts. The repeat already-completed result preserved the database fingerprint. All pre-existing reviewed facts and IB records were preserved; the three institutional rules gained exactly the verified new programme links.
+5. **Verification.** The API matched all 2,796 reviewed general facts and 849 reviewed IB records. All 60 new links were checked. The local page displayed Medicine's CCC, the named O-level subjects and the international applicant scope. The workspace and data-quality gates passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,193 programme entries, 3,322 scopes, 24,816 general requirements, 107,636 sources and 92 runs. Archive `backups/post-mu-science-health-20261116.EflH7Z` read completely with 192 listing entries and SHA-256 `2a0ff008823025d145761e000607924887597f0d022efaf9242104c20bbe6400`.
+
+The final archived Mauritius 2026/2027 sheets cover Social Sciences and Humanities, the Centre for Innovative and Lifelong Learning and Mahatma Gandhi Institute programmes.
+
 ## University of Mauritius Digital Technologies and Law and Management — November 16
 
 1. **Baseline.** Local and GitHub main matched `0799801` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43726018197). The pre-import database matched the verified Agriculture and Engineering archive.

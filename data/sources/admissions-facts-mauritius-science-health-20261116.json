@@ -1,0 +1,1042 @@
+{
+  "datasetVersion": "official-admissions-mauritius-science-health-2026-11-16-v1",
+  "reviewedOn": "2026-11-16",
+  "institutions": [
+    {
+      "key": "mauritius",
+      "name": "University of Mauritius",
+      "provider": "ror",
+      "externalId": "05cyprz33",
+      "countryCode": "MU",
+      "officialDomains": ["uom.ac.mu", "drive.google.com"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "mu_os300",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Marine Environmental Sciences",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · OS300 · BSc (Hons) Marine Environmental Sciences",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_os300_science"]
+    },
+    {
+      "key": "mu_sc300",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Biology",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC300 · BSc (Hons) Biology",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc300_science"]
+    },
+    {
+      "key": "mu_sc310",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Chemistry",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC310 · BSc (Hons) Chemistry",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc310_chemistry"]
+    },
+    {
+      "key": "mu_sc320",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Mathematics",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC320 · BSc (Hons) Mathematics",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc320_maths"]
+    },
+    {
+      "key": "mu_sc320stat",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Mathematics with Statistics",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC320 · BSc (Hons) Mathematics with Statistics",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc320_maths"]
+    },
+    {
+      "key": "mu_sc320fin",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Mathematics with Finance",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC320 · BSc (Hons) Mathematics with Finance",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc320_maths"]
+    },
+    {
+      "key": "mu_sce321",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Mathematics with Computer Science",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SCE321 · BSc (Hons) Mathematics with Computer Science",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc320_maths"]
+    },
+    {
+      "key": "mu_sc345",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Physics",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC345 · BSc (Hons) Physics",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc345_physics"]
+    },
+    {
+      "key": "mu_sc345astro",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Physics with Astrophysics",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC345 · BSc (Hons) Physics with Astrophysics",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc345_physics"]
+    },
+    {
+      "key": "mu_sc345comp",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Physics with Computing",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC345 · BSc (Hons) Physics with Computing",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc345_physics"]
+    },
+    {
+      "key": "mu_sc345env",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Physics with Environmental Physics",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC345 · BSc (Hons) Physics with Environmental Physics",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc345_physics"]
+    },
+    {
+      "key": "mu_sc345re",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Physics with Renewable Energy",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+        "title": "University of Mauritius 2026/2027 · SC345 · BSc (Hons) Physics with Renewable Energy",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_sc345_physics"]
+    },
+    {
+      "key": "mu_mh331",
+      "institutionKey": "mauritius",
+      "name": "Doctor of Medicine (MD) - Bachelor of Medicine and Master of Medicine",
+      "level": "undergraduate",
+      "field": "Medicine and Health Sciences",
+      "source": {
+        "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+        "title": "University of Mauritius 2026/2027 · MH331 · Doctor of Medicine (MD) - Bachelor of Medicine and Master of Medicine",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_mh331_science"]
+    },
+    {
+      "key": "mu_mh527",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Nutritional Sciences",
+      "level": "undergraduate",
+      "field": "Medicine and Health Sciences",
+      "source": {
+        "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+        "title": "University of Mauritius 2026/2027 · MH527 · BSc (Hons) Nutritional Sciences",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_mh527_science"]
+    },
+    {
+      "key": "mu_mh402",
+      "institutionKey": "mauritius",
+      "name": "BSc (Hons) Occupational Therapy",
+      "level": "undergraduate",
+      "field": "Medicine and Health Sciences",
+      "source": {
+        "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+        "title": "University of Mauritius 2026/2027 · MH402 · BSc (Hons) Occupational Therapy",
+        "checkedOn": "2026-11-16"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_alt"
+        },
+        {
+          "datasetVersion": "official-admissions-mauritius-agriculture-engineering-2026-11-15-v1",
+          "key": "mu_degree_additional"
+        }
+      ],
+      "sharedRequirementKeys": ["mu_mh402_science"]
+    },
+    {
+      "key": "mu_mh438",
+      "institutionKey": "mauritius",
+      "name": "Diploma / BSc (Hons) Occupational Health and Safety",
+      "level": "undergraduate",
+      "field": "Medicine and Health Sciences",
+      "source": {
+        "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+        "title": "University of Mauritius 2026/2027 · MH438 · Diploma / BSc (Hons) Occupational Health and Safety",
+        "checkedOn": "2026-11-16"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_os300_award",
+          "label": "OS300 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The three-year full-time degree includes coastal fieldwork and water-related activities.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · OS300 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_os300"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc300_award",
+          "label": "SC300 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The faculty lists a three-year full-time Biology degree.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC300 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc300"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc310_award",
+          "label": "SC310 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The three-year full-time degree is listed as accredited by the Royal Society of Chemistry.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC310 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc310"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc320_award",
+          "label": "SC320 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "This three-year full-time route is listed with Statistics and Finance under SC320.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC320 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc320"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc320stat_award",
+          "label": "SC320 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "This three-year full-time pathway shares the faculty's published SC320 entry row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC320 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc320stat"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc320fin_award",
+          "label": "SC320 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "This three-year full-time pathway shares the faculty's published SC320 entry row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC320 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc320fin"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sce321_award",
+          "label": "SCE321 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The SCE321 pathway takes three years full time.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SCE321 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sce321"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc345_award",
+          "label": "SC345 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "Physics is a three-year full-time route under SC345.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC345 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc345"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc345astro_award",
+          "label": "SC345 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "This three-year full-time option uses the shared SC345 admission row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC345 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc345astro"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc345comp_award",
+          "label": "SC345 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The Computing option takes three years full time and shares the published SC345 admission row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC345 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc345comp"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc345env_award",
+          "label": "SC345 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The Environmental Physics option takes three years full time and shares the published SC345 admission row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC345 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc345env"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_sc345re_award",
+          "label": "SC345 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The Renewable Energy option takes three years full time and shares the published SC345 admission row.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · SC345 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_sc345re"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh331_award",
+          "label": "MH331 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The faculty prints a full-time duration of 3/6 years for MH331.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · MH331 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_mh331_additional_2",
+          "label": "Medicine · hepatitis B immunisation",
+          "category": "other",
+          "status": "required",
+          "details": "The faculty lists immunisation against hepatitis B as an additional requirement.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Medicine · hepatitis B immunisation",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh331"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh331_additional_1",
+          "label": "Medicine · international interview",
+          "category": "interview",
+          "status": "conditional",
+          "details": "The faculty may interview international applicants.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Medicine · international interview",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh331"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh527_award",
+          "label": "MH527 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The faculty lists the degree as three years full time.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · MH527 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh527"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh402_award",
+          "label": "MH402 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The Occupational Therapy degree takes four years full time.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · MH402 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh402"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh438_award",
+          "label": "MH438 · programme structure",
+          "category": "other",
+          "status": "required",
+          "details": "The part-time listing under MH438 covers a two-year diploma and a four-year degree.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · MH438 · programme structure",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_mh438_additional_1",
+          "label": "Occupational Health and Safety · direct entry",
+          "category": "academic",
+          "status": "required",
+          "details": "In addition to the applicable university Diploma or degree requirements, hold two GCE A levels, including at least one of Physics, Chemistry or Biology.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Occupational Health and Safety · direct entry",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh438"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh438_additional_2",
+          "label": "Occupational Health and Safety · experience-based consideration",
+          "category": "experience",
+          "status": "conditional",
+          "details": "Candidates without the standard qualifications may be assessed individually with at least three years of work experience.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Occupational Health and Safety · experience-based consideration",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh438"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_mh438_additional_3",
+          "label": "Occupational Health and Safety · degree upgrade",
+          "category": "academic",
+          "status": "required",
+          "details": "Hold a Diploma in Occupational Health and Safety or an appropriate qualification that the university recognises for the upgrade route.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Occupational Health and Safety · degree upgrade",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ],
+      "programKey": "mu_mh438"
+    },
+    {
+      "institutionKey": "mauritius",
+      "programId": null,
+      "academicYear": "2026/2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "University of Mauritius 2026/2027 programme requirements from the published faculty sheets.",
+      "requirements": [
+        {
+          "key": "mu_os300_science",
+          "label": "Marine Environmental Sciences · A-level science subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "Pass at least two science A levels from Mathematics, Biology, Chemistry, Physics or Marine Science. The faculty may accept an equivalent qualification.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · Marine Environmental Sciences · A-level science subjects",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_sc300_science",
+          "label": "Biology · O-level credits and A-level science",
+          "category": "academic",
+          "status": "required",
+          "details": "Hold five O-level credits or equivalents, including Mathematics, Chemistry and Biology, or higher qualifications in those subjects. Pass at least two science A levels or equivalent.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · Biology · O-level credits and A-level science",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_sc310_chemistry",
+          "label": "Chemistry · Mathematics credit and Chemistry pass",
+          "category": "academic",
+          "status": "required",
+          "details": "Hold an O-level Mathematics credit or equivalent and pass GCE A-level Chemistry. The university's general degree requirements also apply.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · Chemistry · Mathematics credit and Chemistry pass",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_sc320_maths",
+          "label": "Mathematics degrees · A-level Mathematics grade",
+          "category": "academic",
+          "status": "required",
+          "details": "Earn at least C in GCE A-level Mathematics, alongside the university's general O-level and degree requirements.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · Mathematics degrees · A-level Mathematics grade",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_sc345_physics",
+          "label": "Physics degrees · A-level Mathematics and Physics",
+          "category": "academic",
+          "status": "required",
+          "details": "Pass both GCE A-level Mathematics and GCE A-level Physics, alongside the general O-level requirements.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1gRmeUcHk-DBK1qflQBY7hJhbIfHwBR4u/view",
+            "title": "University of Mauritius 2026/2027 · Physics degrees · A-level Mathematics and Physics",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_mh331_science",
+          "label": "Medicine · A-level CCC and O-level passes",
+          "category": "academic",
+          "status": "required",
+          "details": "Pass three science A levels with minimum grades of CCC or establish an accepted equivalent. The faculty requires at least five O-level passes or equivalents including Chemistry, Biology, Mathematics and English Language.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Medicine · A-level CCC and O-level passes",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_mh527_science",
+          "label": "Nutritional Sciences · science subjects and foundation module",
+          "category": "academic",
+          "status": "required",
+          "details": "Hold O-level credits or equivalents in at least three subjects including Biology, Chemistry and Mathematics. Pass two science A levels or equivalent. The faculty counts Food Studies and Mathematics as science subjects. If Biology or Chemistry is missing at A level, complete the corresponding Year 1 foundation module.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Nutritional Sciences · science subjects and foundation module",
+            "checkedOn": "2026-11-16"
+          }
+        },
+        {
+          "key": "mu_mh402_science",
+          "label": "Occupational Therapy · three science A levels",
+          "category": "academic",
+          "status": "required",
+          "details": "Pass three science subjects at GCE A level or equivalent and meet the university's O-level rules. The faculty counts Mathematics, Chemistry, Computing, Physics and Biology as science subjects.",
+          "source": {
+            "url": "https://drive.google.com/file/d/1ShnYfsXcPWd1Y8sHd0Ujr0jj648pOFAC/view",
+            "title": "University of Mauritius 2026/2027 · Occupational Therapy · three science A levels",
+            "checkedOn": "2026-11-16"
+          }
+        }
+      ]
+    }
+  ]
+}
