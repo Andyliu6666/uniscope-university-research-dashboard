@@ -1,0 +1,9 @@
+# University of Mauritius Humanities, Lifelong Learning and partner programmes, 2026/2027
+
+The final three archived faculty and partner sheets contain 35 published codes and 45 searchable awards or pathways. Within the shared code rows, the source titles retain the university's code and the programme names identify the named options.
+
+- [Social Sciences and Humanities](https://drive.google.com/file/d/145BKYyiHYqIxJMqIgPwYrbBb9uDBOBap/view), PDF pages 3–7. SH309 Actuarial Studies calls for three A-level passes, Mathematics at A or higher, and 26 aggregate HSC marks. SH537 calls for A-level English C; SH323 lists A-level French A or a recognised alternative. Cases for mature and nonstandard candidates have their own scope. The two Politics routes share SH356C. Each SH347 Journalism minor includes its own programme entry and level-3 Diploma progression; the Economics minor also requires O-level Mathematics.
+- [Centre for Innovative and Lifelong Learning](https://drive.google.com/file/d/17kE2ea33TAjRpPD1aSb3tEWtQZOtyheF/view), PDF page 3. LC302 lists two A-level passes and an O-level Mathematics pass for the blended Web and Multimedia Development route.
+- [Mahatma Gandhi Institute partner routes](https://drive.google.com/file/d/1TVf9_fp9SGeVPe_X_nGnbpysKuBlGN1T/view), PDF pages 3–6. This includes the A-level grades for Hindi, Urdu, Marathi, Tamil and Telugu, the five named GI352 Media Arts options and four GI353 Visual Arts options. It also includes six diploma-to-degree performing arts routes, their specific prior diplomas and the two Film Production modes.
+
+The 2026/2027 university index covers nine main undergraduate tables and a separately linked Data Science dual-degree table. Across this and the preceding imports, all 92 listed codes have reviewed entries, including 108 programme or named-option records. This is source-sheet coverage for the named cycle. Campus openings, English tests and numerical scores can vary by future intake.

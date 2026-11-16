@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Mauritius Humanities, Lifelong Learning and Mahatma Gandhi Institute — November 16
+
+1. **Baseline.** Local main matched `bcdbcf7`, [both CI checks passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43786784596) and the preceding verified database archive was available.
+2. **Sources.** The [source record](research/MAURITIUS_HUMANITIES_PARTNERS_20261116.md) documents the 35 codes from the final three tables. The PDF verified Actuarial Studies' minimum HSC aggregate and Mathematics grade. Minor, arts specialisation and existing Diploma routes remain separately searchable where listed.
+3. **Artifacts.** Two files add 45 entries and 80 facts with 148 programme associations. This completes review of the 92 codes in the nine main faculty and partner tables and one dual degree table for 2026/2027.
+4. **Import.** Both previews performed zero writes. Both batches imported successfully and repeats left the database fingerprint unchanged. Prior records kept their content and original links. The existing degree rules acquired only the 114 intended new programme associations.
+5. **Verification.** The live API matched 2,876 reviewed general facts and 849 IB records. All 314 programme associations from today's four Mauritius files were checked. The website displayed the Actuarial Studies A-level Mathematics grade A and 26 aggregate HSC marks. All 293 workspace tests and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,238 catalogue entries, 3,373 scopes, 24,896 general requirements, 107,639 sources and 94 runs. Archive `backups/post-mu-humanities-20261116.AosVrs` read completely with 192 listing entries and SHA-256 `3276ad7e9152d49913f600bc6aab949691c6ff90c33eb67179ca5e2fdd2baf26`.
+
+Next is the University of Western Australia 2027 international guide. Its course and qualification tables record numerical IB, Cambridge/GCE and AP routes.
+
 ## University of Mauritius Science and Medicine and Health Sciences — November 16
 
 1. **Baseline.** Local main matched `02ad505` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43786517657). The previous verified database archive was retained.

@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281193,
+            "programs": 281238,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3322,
+            "admissionProfiles": 3373,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24816,
+            "admissionRequirements": 24896,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 849
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 16,
             "institutionsWithReviewedIb": 40,
             "programsWithPublishedTotals": 465,
-            "undergraduateCatalogEntries": 195520
+            "undergraduateCatalogEntries": 195565
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2796,
-            "profiles": 1153,
+            "facts": 2876,
+            "profiles": 1204,
             "institutions": 28
         }
     },
-    "generatedAt": "2026-11-16T01:27:21Z",
+    "generatedAt": "2026-11-16T01:32:17Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 29,
+        "inserted": 41,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 29,
-        "startedAt": "2026-11-16T01:27:16.708577+00:00",
-        "updatedAt": "2026-11-16T01:27:16.708577+00:00",
+        "processed": 41,
+        "startedAt": "2026-11-16T01:32:13.267176+00:00",
+        "updatedAt": "2026-11-16T01:32:13.267176+00:00",
         "checkpoint": {
-            "profiles": 20,
-            "admissionFacts": 29,
+            "profiles": 26,
+            "admissionFacts": 41,
             "programsReused": 0,
-            "programsCreated": 16,
-            "priorSharedLinksAdded": 45
+            "programsCreated": 25,
+            "priorSharedLinksAdded": 57
         },
-        "finishedAt": "2026-11-16T01:27:16.807+00:00",
-        "artifactSha256": "544ccf0ed29259022775e4f2449b1a3a9f62f8396b8372cb94b89439cac60d47",
-        "datasetVersion": "official-admissions-mauritius-science-health-2026-11-16-v1"
+        "finishedAt": "2026-11-16T01:32:13.391+00:00",
+        "artifactSha256": "7e280c1b4aba0d5e41d8b4061080c65670853f66484b3b5e248c8764c4d3641b",
+        "datasetVersion": "official-admissions-mauritius-partner-arts-2026-11-16-v1"
     },
     "schemaVersion": 2
 }
