@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Bath 2027 biosciences — November 16
+
+1. **Baseline.** Local and GitHub main matched `bf2ae37`, with [both checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43789670378). The pre-import database fingerprint matched the completed computing, mathematics and natural sciences stage.
+2. **Sources.** The [source record](research/BATH_BIOSCIENCES_20261116.md) documents the 12 Biochemistry, Biology and Biomedical Sciences degree routes and source-specific course variants, A-level grades, IB Higher Level conditions, AP scores and personal-statement rules.
+3. **Artifacts.** Two files add 12 new catalogue entries, 24 IB records, 18 facts and 152 links. Forty-eight links reuse four previously verified rules.
+4. **Import.** Both previews made zero writes. Both live imports completed without rejections. The IB import reused all 12 programme IDs. Repeat runs preserved the complete database fingerprint, and the comparison verified exactly the intended prior links and no other content changes.
+5. **Verification.** The API matched 3,059 reviewed general facts and 1,062 reviewed IB records. All 152 shared associations and the different contextual IB scores were verified. The website displayed the Biomedical Sciences AP requirements and accepted statement topics. All 293 repository tests and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,407 catalogue entries, 3,605 scopes, 25,079 general requirements, 107,686 sources and 106 import runs. It has 619 programmes with published IB totals. Archive `backups/post-bath-biosciences-20261116.wAK6xD` read completely with 192 listing entries and SHA-256 `17c82ff155448e2606bfcf56c4f1e539a33d01b43a19b4e871ef29441a8bd790`.
+
+The next Bath source batch starts at the current Chemistry and Physics group in the faculty index. Eligibility and subject requirements for preparatory courses, Pharmacology and Pharmacy will need separate review.
+
 ## University of Bath 2027 computing, mathematics and natural sciences — November 16
 
 1. **Baseline.** Local and GitHub main matched `77ef905` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43788769189). Bath's ROR `002h8g185` had no structured admission scopes or IB catalogue programmes.

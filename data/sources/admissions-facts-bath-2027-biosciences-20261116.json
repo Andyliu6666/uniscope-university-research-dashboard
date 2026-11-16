@@ -1,0 +1,734 @@
+{
+  "datasetVersion": "official-admissions-bath-2027-biosciences-2026-11-16-v1",
+  "reviewedOn": "2026-11-16",
+  "institutions": [
+    {
+      "key": "bath",
+      "name": "University of Bath",
+      "provider": "ror",
+      "externalId": "002h8g185",
+      "countryCode": "GB",
+      "officialDomains": ["bath.ac.uk"]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "bath",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Supplemental qualification requirements for reviewed Bath biosciences programmes.",
+      "requirements": [
+        {
+          "key": "bath_27_bio_gcse",
+          "label": "Biosciences · GCSE Mathematics",
+          "details": "The GCSE Mathematics benchmark is grade 4/C.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_bio_supplement",
+          "label": "Supplementary qualifications · alternative GCE offers",
+          "details": "When paired with the course-specific alternative A-level grades, accepted routes include EPQ or IEPQ at A, Core Mathematics at B, AS Mathematics or Statistics at B where the subject is not already at A level, a fourth A level at B where the four include Mathematics or Statistics, or another approved project.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_ap_subjects",
+          "label": "AP subject counting and transcript review",
+          "details": "At most one Calculus AP counts. AP Seminar and AP Research are excluded. Bath can consider honours, dual enrolment or equivalent advanced classes individually and asks for a transcript when reviewing alternatives.",
+          "source": {
+            "title": "Bath 2027 · Biology BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_chem_statement",
+          "label": "Biochemistry · UCAS personal statement",
+          "details": "Show interest in Biochemistry through academic topics, reading or relevant experience. Applicants with certain qualifications, including a Level 3 BTEC Extended Diploma, are interviewed.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_btec_chem",
+          "label": "BTEC Applied Science with A levels",
+          "details": "The named route is an Applied Science Extended Diploma at DMM plus A in both A-level Biology and A-level Chemistry. Bath may individually consider the content when only one of those A levels accompanies the BTEC.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_access_33",
+          "label": "Access to HE Diploma · Biochemistry and Biology",
+          "details": "Use a Science or Science and Engineering diploma with at least 33 credits at Distinction and six at Merit or above. At least 30 Distinction credits must be in STEM. Check the course-level subject rules.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_chem_alevel",
+          "label": "GCE A levels · standard, contextual and alternative offers",
+          "details": "AAB with Biology A and Chemistry A. UK fee-eligible contextual applicants can receive BBB or ABC with both subjects at least B. The supplementary qualification route is ABB with A in either Biology or Chemistry and at least B in the other. The Welsh Baccalaureate alternative is ABBB including the required subjects and B in the Advanced Skills Baccalaureate Wales.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_chem_ap",
+          "label": "US Advanced Placement · typical offer",
+          "details": "AP grades 5/5/4, with 5 in each of Biology and Chemistry. An associate degree may be considered at GPA 3.2 with sufficient credits in Biology and Chemistry.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_chem_other",
+          "label": "Other British qualifications",
+          "details": "AB in Advanced Higher Biology and Chemistry. Bath typically assesses five Scottish Highers and prefers at least AAAAB.",
+          "source": {
+            "title": "Bath 2027 · Biochemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_biology_statement",
+          "label": "Biology · UCAS personal statement",
+          "details": "The statement should show interest in Biology. Statements centred on medicine or dentistry are not accepted for this course. The BTEC Extended Diploma and T Level routes can involve an interview.",
+          "source": {
+            "title": "Bath 2027 · Biology BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_biology_alevel",
+          "label": "GCE A levels · standard, contextual and alternative offers",
+          "details": "AAB with Biology A and A in a second science or mathematics subject. Contextual offer BBB or ABC includes Biology B and B in the second subject. The supplementary qualification route is ABB with Biology A and the second subject at B. The university also lists ABBB with these subjects and B in the Advanced Skills Baccalaureate Wales.",
+          "source": {
+            "title": "Bath 2027 · Biology BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_biology_ap",
+          "label": "US Advanced Placement · typical offer",
+          "details": "AP grades 5/5/4, including Biology at 5 and another science or mathematics subject at 5. An associate degree may be considered at GPA 3.2 with credits in those subjects.",
+          "source": {
+            "title": "Bath 2027 · Biology BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_biology_other",
+          "label": "Other British qualifications",
+          "details": "AB at Advanced Higher with Biology at A and a second science or mathematics subject at B. Bath typically assesses five Scottish Highers and prefers at least AAAAB. A BTEC Extended Diploma route lists DDD with A-level Biology at A.",
+          "source": {
+            "title": "Bath 2027 · Biology BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_med_statement",
+          "label": "Biomedical Sciences · accepted personal statement topics",
+          "details": "Bath considers statements on Biomedical Sciences, medicine, dentistry, veterinary medicine or related health subjects. Selection also considers GCSE results. Certain applicants, including Level 3 BTEC Extended Diploma applicants, are invited to interview.",
+          "source": {
+            "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_access_36",
+          "label": "Access to HE Diploma · Biomedical Sciences",
+          "details": "Use a Science or Science and Engineering diploma with at least 36 credits at Distinction and three at Merit or above. At least 30 Distinction credits must be in STEM. Check the course-level subject rules.",
+          "source": {
+            "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_medicine_alevel",
+          "label": "GCE A levels · standard, contextual and alternative offers",
+          "details": "AAA or A*AB requires A or higher in both Biology and Chemistry. The contextual offer ABB requires both, with A in at least one. The supplementary qualification route is AAB with A in both. The Welsh Baccalaureate route lists AABB with A in both and B in the Advanced Skills Baccalaureate Wales.",
+          "source": {
+            "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_medicine_ap",
+          "label": "US Advanced Placement · typical offer",
+          "details": "Three AP grades of 5 include Biology and Chemistry. An associate degree may be considered at GPA 3.4 with sufficient credits in both.",
+          "source": {
+            "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_bio_medicine_other",
+          "label": "Other British qualifications",
+          "details": "AA at Advanced Higher with Biology and Chemistry. Bath typically assesses five Scottish Highers and prefers at least AAAAB.",
+          "source": {
+            "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+            "checkedOn": "2026-11-16"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bath_g121",
+      "institutionKey": "bath",
+      "name": "Biochemistry BSc (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biochemistry",
+      "source": {
+        "title": "Bath 2027 · Biochemistry BSc (Hons) with professional placement · UCAS G121",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_chem_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_33",
+        "bath_27_bio_chem_alevel",
+        "bath_27_bio_chem_ap",
+        "bath_27_bio_chem_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g120",
+      "institutionKey": "bath",
+      "name": "Biochemistry BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Biochemistry",
+      "source": {
+        "title": "Bath 2027 · Biochemistry BSc (Hons) · UCAS G120",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biochemistry/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_chem_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_33",
+        "bath_27_bio_chem_alevel",
+        "bath_27_bio_chem_ap",
+        "bath_27_bio_chem_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g123",
+      "institutionKey": "bath",
+      "name": "Biochemistry MBiochem (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biochemistry",
+      "source": {
+        "title": "Bath 2027 · Biochemistry MBiochem (Hons) with professional placement · UCAS G123",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiochem-biochemistry-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_chem_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_33",
+        "bath_27_bio_chem_alevel",
+        "bath_27_bio_chem_ap",
+        "bath_27_bio_chem_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g122",
+      "institutionKey": "bath",
+      "name": "Biochemistry MBiochem (Hons)",
+      "level": "undergraduate",
+      "field": "Biochemistry",
+      "source": {
+        "title": "Bath 2027 · Biochemistry MBiochem (Hons) · UCAS G122",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiochem-biochemistry/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_chem_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_33",
+        "bath_27_bio_chem_alevel",
+        "bath_27_bio_chem_ap",
+        "bath_27_bio_chem_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g111",
+      "institutionKey": "bath",
+      "name": "Biology BSc (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "title": "Bath 2027 · Biology BSc (Hons) with professional placement · UCAS G111",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_biology_statement",
+        "bath_27_bio_access_33",
+        "bath_27_bio_biology_alevel",
+        "bath_27_bio_biology_ap",
+        "bath_27_bio_biology_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g110",
+      "institutionKey": "bath",
+      "name": "Biology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "title": "Bath 2027 · Biology BSc (Hons) · UCAS G110",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biology/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_biology_statement",
+        "bath_27_bio_access_33",
+        "bath_27_bio_biology_alevel",
+        "bath_27_bio_biology_ap",
+        "bath_27_bio_biology_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g113",
+      "institutionKey": "bath",
+      "name": "Biology MBiol (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "title": "Bath 2027 · Biology MBiol (Hons) with professional placement · UCAS G113",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiol-biology-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_biology_statement",
+        "bath_27_bio_access_33",
+        "bath_27_bio_biology_alevel",
+        "bath_27_bio_biology_ap",
+        "bath_27_bio_biology_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g112",
+      "institutionKey": "bath",
+      "name": "Biology MBiol (Hons)",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "title": "Bath 2027 · Biology MBiol (Hons) · UCAS G112",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiol-biology/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_biology_statement",
+        "bath_27_bio_access_33",
+        "bath_27_bio_biology_alevel",
+        "bath_27_bio_biology_ap",
+        "bath_27_bio_biology_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g131",
+      "institutionKey": "bath",
+      "name": "Biomedical Sciences BSc (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biomedical Sciences",
+      "source": {
+        "title": "Bath 2027 · Biomedical Sciences BSc (Hons) with professional placement · UCAS G131",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_med_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_36",
+        "bath_27_bio_medicine_alevel",
+        "bath_27_bio_medicine_ap",
+        "bath_27_bio_medicine_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g130",
+      "institutionKey": "bath",
+      "name": "Biomedical Sciences BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Biomedical Sciences",
+      "source": {
+        "title": "Bath 2027 · Biomedical Sciences BSc (Hons) · UCAS G130",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/bsc-biomedical-sciences/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_med_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_36",
+        "bath_27_bio_medicine_alevel",
+        "bath_27_bio_medicine_ap",
+        "bath_27_bio_medicine_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g133",
+      "institutionKey": "bath",
+      "name": "Biomedical Sciences MBiomed (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Biomedical Sciences",
+      "source": {
+        "title": "Bath 2027 · Biomedical Sciences MBiomed (Hons) with professional placement · UCAS G133",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiomed-biomedical-sciences-with-professional-placement/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_med_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_36",
+        "bath_27_bio_medicine_alevel",
+        "bath_27_bio_medicine_ap",
+        "bath_27_bio_medicine_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_g132",
+      "institutionKey": "bath",
+      "name": "Biomedical Sciences MBiomed (Hons)",
+      "level": "undergraduate",
+      "field": "Biomedical Sciences",
+      "source": {
+        "title": "Bath 2027 · Biomedical Sciences MBiomed (Hons) · UCAS G132",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/biosciences/mbiomed-biomedical-sciences/",
+        "checkedOn": "2026-11-16"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_bio_gcse",
+        "bath_27_bio_supplement",
+        "bath_27_bio_ap_subjects",
+        "bath_27_bio_med_statement",
+        "bath_27_bio_btec_chem",
+        "bath_27_bio_access_36",
+        "bath_27_bio_medicine_alevel",
+        "bath_27_bio_medicine_ap",
+        "bath_27_bio_medicine_other"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    }
+  ]
+}
