@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-16
 
+## University of Western Australia 2027 international entry — November 16
+
+1. **Baseline.** Local and remote main matched `5cf629d` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43787014206). ROR `047272k79` had zero admission profiles or IB course entries. The verified preceding PostgreSQL archive was retained.
+2. **Sources.** Confirmed pp. 116–118 of the 2027 international guide, dedicated programme rows and official qualification/clinical policies. The [source record](research/UWA_INTERNATIONAL_2027_20261116.md) documents equivalents, course-specific selection and differences between published figures.
+3. **Artifacts.** Six files add 117 programme routes, 117 raw IB totals and 72 general facts. The 816 programme associations include 543 links to previously imported UWA facts, preserving one copy of each common scores row.
+4. **Import.** Final previews had zero writes. All six imports completed with no record rejections and all repeat runs left the database unchanged. The IB imports reused the 117 programme IDs. Earlier fact content and programme links matched their fingerprints and expected additions.
+5. **Verification.** The live API matched 2,948 reviewed facts and 966 reviewed IB records. All 117 new programme IDs and 816 links matched the expected scope, source and content. Browser checks showed the international Medicine pathway's IB 40/45, GCE aggregate 15, AP aggregate 17 and ISAT conditions. All 293 tests and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,355 catalogue entries, 3,491 scopes, 24,968 general requirements, 107,647 sources and 100 runs. Archive `backups/post-uwa-international-20261116.3IRGCf` read completely with 192 listing entries and SHA-256 `869aabdba6bbc6404df10471bd99d789ed506fa4e25a13832e1c1ac9c3ac9188`.
+
+The next source batch is UWA's 2028 International Health Admissions Guide. Verify school-leaver and graduate-entry routes, first-year progression requirements, test dates and year-specific deadlines.
+
 ## University of Mauritius Humanities, Lifelong Learning and Mahatma Gandhi Institute — November 16
 
 1. **Baseline.** Local main matched `bcdbcf7`, [both CI checks passed](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43786784596) and the preceding verified database archive was available.

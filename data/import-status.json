@@ -2,25 +2,25 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281238,
+            "programs": 281355,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3373,
+            "admissionProfiles": 3491,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24896,
+            "admissionRequirements": 24968,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 849
+            "qualificationRequirements": 966
         },
         "ibCoverage": {
             "byCountry": [
                 {
                     "country": "Australia",
-                    "institutions": 5,
-                    "programs_with_reviewed_ib": 317,
-                    "programs_with_published_totals": 262
+                    "institutions": 6,
+                    "programs_with_reviewed_ib": 434,
+                    "programs_with_published_totals": 379
                 },
                 {
                     "country": "Canada",
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 11
                 }
             ],
-            "reviewedRecords": 849,
-            "programsWithReviewedIb": 756,
+            "reviewedRecords": 966,
+            "programsWithReviewedIb": 873,
             "institutionWidePolicies": 16,
-            "institutionsWithReviewedIb": 40,
-            "programsWithPublishedTotals": 465,
-            "undergraduateCatalogEntries": 195565
+            "institutionsWithReviewedIb": 41,
+            "programsWithPublishedTotals": 582,
+            "undergraduateCatalogEntries": 195682
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4109,
+            "programs": 4110,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1887,
+            "admissions": 1888,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24042
+            "noStructuredApplicationFacts": 24041
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2876,
-            "profiles": 1204,
-            "institutions": 28
+            "facts": 2948,
+            "profiles": 1244,
+            "institutions": 29
         }
     },
-    "generatedAt": "2026-11-16T01:32:17Z",
+    "generatedAt": "2026-11-16T01:41:09Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 41,
-        "provider": "official_admissions",
+        "inserted": 39,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 41,
-        "startedAt": "2026-11-16T01:32:13.267176+00:00",
-        "updatedAt": "2026-11-16T01:32:13.267176+00:00",
+        "processed": 39,
+        "startedAt": "2026-11-16T01:40:54.014732+00:00",
+        "updatedAt": "2026-11-16T01:40:54.116+00:00",
         "checkpoint": {
-            "profiles": 26,
-            "admissionFacts": 41,
-            "programsReused": 0,
-            "programsCreated": 25,
-            "priorSharedLinksAdded": 57
+            "rowIndex": 39,
+            "sourceRows": 39,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-16T01:32:13.391+00:00",
-        "artifactSha256": "7e280c1b4aba0d5e41d8b4061080c65670853f66484b3b5e248c8764c4d3641b",
-        "datasetVersion": "official-admissions-mauritius-partner-arts-2026-11-16-v1"
+        "finishedAt": "2026-11-16T01:40:54.116+00:00",
+        "artifactSha256": "c53b84ffab927eab5dbfed20ce90122ac7a7387e1f603ac3b709ede025d84a47",
+        "datasetVersion": "official-ib-uwa-2027-pathways-2026-11-16-v1"
     },
     "schemaVersion": 2
 }
