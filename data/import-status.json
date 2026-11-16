@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281146,
+            "programs": 281177,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3272,
+            "admissionProfiles": 3303,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 24747,
+            "admissionRequirements": 24787,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 849
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 16,
             "institutionsWithReviewedIb": 40,
             "programsWithPublishedTotals": 465,
-            "undergraduateCatalogEntries": 195473
+            "undergraduateCatalogEntries": 195504
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 2727,
-            "profiles": 1103,
+            "facts": 2767,
+            "profiles": 1134,
             "institutions": 28
         }
     },
-    "generatedAt": "2026-11-15T14:43:30Z",
+    "generatedAt": "2026-11-16T01:24:49Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 1,
-        "provider": "official_ib",
+        "inserted": 40,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 1,
-        "startedAt": "2026-11-15T14:42:53.235153+00:00",
-        "updatedAt": "2026-11-15T14:42:53.249+00:00",
+        "processed": 40,
+        "startedAt": "2026-11-16T01:23:53.964922+00:00",
+        "updatedAt": "2026-11-16T01:23:53.964922+00:00",
         "checkpoint": {
-            "rowIndex": 1,
-            "sourceRows": 1,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 32,
+            "admissionFacts": 40,
+            "programsReused": 0,
+            "programsCreated": 31,
+            "priorSharedLinksAdded": 90
         },
-        "finishedAt": "2026-11-15T14:42:53.249+00:00",
-        "artifactSha256": "808833c91e577ebb8cd341f6a40d67ec2f9bab83cc8a41ac72f7a5466b2130ea",
-        "datasetVersion": "official-ib-mauritius-entry-policy-2026-11-15-v1"
+        "finishedAt": "2026-11-16T01:23:54.114+00:00",
+        "artifactSha256": "e62e118f5e3cf7b8fd694a05b81f8680aad38cab748c904c20d59184be4d9588",
+        "datasetVersion": "official-admissions-mauritius-digital-law-2026-11-16-v1"
     },
     "schemaVersion": 2
 }

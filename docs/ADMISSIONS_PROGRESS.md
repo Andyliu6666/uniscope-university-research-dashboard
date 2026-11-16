@@ -1,4 +1,15 @@
-# Admissions checkpoint — 2026-11-15
+# Admissions checkpoint — 2026-11-16
+
+## University of Mauritius Digital Technologies and Law and Management — November 16
+
+1. **Baseline.** Local and GitHub main matched `0799801` with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43726018197). The pre-import database matched the verified Agriculture and Engineering archive.
+2. **Sources.** The [source record](research/MAURITIUS_DIGITAL_LAW_20261116.md) covers the two faculty sheets and the separately published Data Science dual degree, with an availability note for IC323.
+3. **Artifacts.** One file adds 31 programme entries and 40 distinct facts. It creates 106 programme associations, including 90 links to the three existing institutional rules. The two part-time award codes and Cyber Security diploma-based top-up have separate entries.
+4. **Import.** Validation and dry-run performed zero writes. The import created all 31 entries and 40 facts. The repeat reported already completed. Pre-existing fact bodies and source metadata matched their fingerprints after accounting for the 90 verified, append-only associations. All 849 IB records matched their prior complete-row hashes.
+5. **Verification.** The live API matched all 2,767 reviewed admissions facts and the 106 new links. The local site displayed the exact Computer Science subject combination and its official source. All 293 tests and the data-quality gate passed.
+6. **Coverage and backup.** The database has 28,171 institutions, 281,177 programme entries, 3,303 scopes, 24,787 general requirements, 107,634 sources and 91 import runs. Archive `backups/post-mu-digital-law-20261116.TWY5CR` read completely with 192 listing entries and SHA-256 `548c530bd627202dae20fd6ace2e20b9298fa5c9c0d59389d3e3594e67927769`.
+
+The next Mauritius batch covers Science and Medicine and Health Sciences, including published A-level grade combinations and distinct diploma progression rules.
 
 ## University of Mauritius Agriculture and Engineering — November 15
 
