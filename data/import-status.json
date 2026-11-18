@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281479,
+            "programs": 281485,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3721,
+            "admissionProfiles": 3732,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25271,
+            "admissionRequirements": 25293,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1127
+            "qualificationRequirements": 1140
         },
         "ibCoverage": {
             "byCountry": [
@@ -121,16 +121,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 3,
-                    "programs_with_reviewed_ib": 80,
-                    "programs_with_published_totals": 79
+                    "programs_with_reviewed_ib": 86,
+                    "programs_with_published_totals": 85
                 }
             ],
-            "reviewedRecords": 1127,
-            "programsWithReviewedIb": 943,
+            "reviewedRecords": 1140,
+            "programsWithReviewedIb": 949,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 43,
-            "programsWithPublishedTotals": 650,
-            "undergraduateCatalogEntries": 195791
+            "programsWithPublishedTotals": 656,
+            "undergraduateCatalogEntries": 195797
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3251,
-            "profiles": 1326,
+            "facts": 3273,
+            "profiles": 1327,
             "institutions": 62
         }
     },
-    "generatedAt": "2026-11-18T03:28:07Z",
+    "generatedAt": "2026-11-18T03:53:48Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 3,
+        "inserted": 13,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 3,
-        "startedAt": "2026-11-18T03:27:38.389902+00:00",
-        "updatedAt": "2026-11-18T03:27:38.407+00:00",
+        "processed": 13,
+        "startedAt": "2026-11-18T03:52:07.831232+00:00",
+        "updatedAt": "2026-11-18T03:52:07.879+00:00",
         "checkpoint": {
-            "rowIndex": 3,
-            "sourceRows": 3,
+            "rowIndex": 13,
+            "sourceRows": 13,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-18T03:27:38.407+00:00",
-        "artifactSha256": "fc776069191a4cd98681c6d8ed68751869049fbab1b65cc56bc9297783a99e50",
-        "datasetVersion": "official-ib-kenya-university-direct-2026-11-18-v1"
+        "finishedAt": "2026-11-18T03:52:07.879+00:00",
+        "artifactSha256": "407ec190f788f6e4bb8d266ef7586509f0710d3aa378a470a645b0591517dfd8",
+        "datasetVersion": "official-ib-bath-2027-pharmacy-pharmacology-2026-11-18-v1"
     },
     "schemaVersion": 2
 }

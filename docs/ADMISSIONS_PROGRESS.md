@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-18
 
+## Bath 2027 Pharmacy and Pharmacology — November 18
+
+1. **Baseline.** Local and GitHub main matched `b4e7911`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44230781901). The database matched the Kenya direct-entry checkpoint.
+2. **Sources.** The [source record](research/BATH_PHARMACY_PHARMACOLOGY_20261118.md) links six course routes and identifies the differing offer, English, interview and deadline conditions.
+3. **Artifacts.** Two artifacts add six course identities, 22 general facts, 13 numerical IB offers and 68 course-to-rule links. Nine links reuse previously reviewed Bath rules. The Plymouth preparatory eligibility is visible to all readers and its three IB offers retain a domestic scope.
+4. **Import.** Previews performed zero writes. The database was backed up, each artifact imported, and both rerun without changes. Prior rule and IB content hashes matched, and earlier shared links were retained.
+5. **Verification.** All six routes, 13 IB offers and 68 links matched the live API. Year and applicant filters preserved their scope, including the preparatory route and the early M100 Overseas deadline.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,485 catalogue entries, 3,732 scopes, 25,293 requirements, 107,861 sources and 113 runs. There are 3,273 reviewed admissions facts, 1,140 reviewed IB records and 656 programmes with published numerical IB totals. Archive `backups/post-bath-pharmacy-pharmacology-20261118.Ztjbhz` read completely with 192 listing entries and SHA-256 `304ee64c50fe85102d827ba63d2a5f013383d4fa38f2774eb984750aaf101da7`.
+
 ## Kenya direct university admissions — November 18
 
 1. **Baseline.** Local and remote main matched `25e7146` with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44230002577). The database fingerprint matched the national placement stage.

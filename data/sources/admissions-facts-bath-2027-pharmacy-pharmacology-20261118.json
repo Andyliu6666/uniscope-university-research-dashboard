@@ -1,0 +1,496 @@
+{
+  "datasetVersion": "official-admissions-bath-2027-pharmacy-pharmacology-2026-11-18-v1",
+  "reviewedOn": "2026-11-18",
+  "institutions": [
+    {
+      "key": "bath",
+      "name": "University of Bath",
+      "provider": "ror",
+      "externalId": "002h8g185",
+      "countryCode": "GB",
+      "officialDomains": ["bath.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bath_m111",
+      "institutionKey": "bath",
+      "name": "Pharmacology BSc (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Pharmacology",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology-with-professional-placement/",
+        "title": "Bath 2027 · Pharmacology BSc (Hons) with professional placement · UCAS M111",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacology_t_level",
+        "bath_27_rx_pharmacology_selection",
+        "bath_27_rx_alevel",
+        "bath_27_rx_alevel_alternative",
+        "bath_27_rx_ap",
+        "bath_27_rx_us_other",
+        "bath_27_rx_scottish",
+        "bath_27_rx_btec",
+        "bath_27_rx_access"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_m110",
+      "institutionKey": "bath",
+      "name": "Pharmacology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Pharmacology",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+        "title": "Bath 2027 · Pharmacology BSc (Hons) · UCAS M110",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacology_t_level",
+        "bath_27_rx_pharmacology_selection",
+        "bath_27_rx_alevel",
+        "bath_27_rx_alevel_alternative",
+        "bath_27_rx_ap",
+        "bath_27_rx_us_other",
+        "bath_27_rx_scottish",
+        "bath_27_rx_btec",
+        "bath_27_rx_access"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_m112",
+      "institutionKey": "bath",
+      "name": "Pharmacology MPharmacol (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Pharmacology",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/mpharmacol-pharmacology-with-professional-placement/",
+        "title": "Bath 2027 · Pharmacology MPharmacol (Hons) with professional placement · UCAS M112",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacology_t_level",
+        "bath_27_rx_pharmacology_selection",
+        "bath_27_rx_alevel",
+        "bath_27_rx_alevel_alternative",
+        "bath_27_rx_ap",
+        "bath_27_rx_us_other",
+        "bath_27_rx_scottish",
+        "bath_27_rx_btec",
+        "bath_27_rx_access"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_m100",
+      "institutionKey": "bath",
+      "name": "Pharmacy MPharm (Hons)",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+        "title": "Bath 2027 · Pharmacy MPharm (Hons) · UCAS M100",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacy_interview",
+        "bath_27_rx_pharmacy_suitability",
+        "bath_27_rx_alevel",
+        "bath_27_rx_alevel_alternative",
+        "bath_27_rx_ap",
+        "bath_27_rx_us_other",
+        "bath_27_rx_scottish",
+        "bath_27_rx_btec",
+        "bath_27_rx_access",
+        "bath_27_rx_pharmacy_t_level",
+        "bath_27_rx_pharmacy_btec_interview",
+        "bath_27_rx_m100_deadline"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_m103",
+      "institutionKey": "bath",
+      "name": "Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+        "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · UCAS M103",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacy_interview",
+        "bath_27_rx_pharmacy_suitability",
+        "bath_27_rx_prep_eligibility"
+      ]
+    },
+    {
+      "key": "bath_m102",
+      "institutionKey": "bath",
+      "name": "Pharmacy MPharm (Hons) at the University of Plymouth",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-at-the-university-of-plymouth/",
+        "title": "Bath 2027 · Pharmacy MPharm (Hons) at the University of Plymouth · UCAS M102",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_rx_category_b",
+        "bath_27_rx_pharmacy_interview",
+        "bath_27_rx_pharmacy_suitability",
+        "bath_27_rx_alevel",
+        "bath_27_rx_alevel_alternative",
+        "bath_27_rx_ap",
+        "bath_27_rx_us_other",
+        "bath_27_rx_scottish",
+        "bath_27_rx_btec",
+        "bath_27_rx_access",
+        "bath_27_rx_pharmacy_t_level",
+        "bath_27_rx_pharmacy_btec_interview"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "bath",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Shared entry conditions for reviewed 2027 Pharmacy and Pharmacology courses.",
+      "requirements": [
+        {
+          "key": "bath_27_rx_category_b",
+          "label": "GCSE and Category B English evidence",
+          "details": "GCSE Mathematics and English Language or Literature at grade 4/C are required. An accepted Category B qualification can meet the English condition. Examples include IELTS 7.0 with each band at least 6.5, PTE Academic 69 with each element at least 62, and TOEFL iBT 5 overall with each component at least 4.5 for tests after 21 January 2026 (older scale: 100 overall and 24 per component).",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · GCSE and English language requirements",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "language",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_rx_pharmacology_t_level",
+          "label": "Pharmacology · Science T Level",
+          "details": "Science T Level at Distinction overall with A in the core and A-level Chemistry at A. Laboratory Sciences is the required specialism. Healthcare Science T Levels are excluded. GCSE grades contribute to selection.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · T Level typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_pharmacology_selection",
+          "label": "Pharmacology · UCAS and interviews",
+          "details": "Selection is normally based on the UCAS application. Suitable applicants with an Access to HE Diploma or T Level are interviewed. Other applicants may be interviewed in exceptional circumstances.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · Selection process",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_alevel",
+          "label": "A levels · typical and contextual offers",
+          "details": "The usual offer is AAB across three A levels including Chemistry and another science or mathematics subject. Eligible contextual applicants receive BBB or ABC, including B in Chemistry and B in the second science or mathematics subject. Bath can accept the Advanced Skills Baccalaureate Wales in place of one A level for these offers.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · A level typical and contextual offers",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_alevel_alternative",
+          "label": "A levels · alternative offers",
+          "details": "ABB with B in Chemistry and B in another science or mathematics subject plus one accepted additional qualification. Examples are EPQ or IEPQ at A, Core Mathematics at B, eligible AS Mathematics or Statistics at B, or an extra A level at B where the four include Mathematics or Statistics. The separate Welsh qualification route is ABBB including B in the Advanced Skills Baccalaureate Wales.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · A level alternative offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_ap",
+          "label": "US Advanced Placement · typical offer",
+          "details": "Three AP grades of 5, 5 and 4, including Chemistry and another mathematics or science subject. Only one Calculus AP can count. AP Seminar and AP Research are excluded. Bath assesses the broader academic record and may consider SAT or ACT scores if already taken.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · US qualifications · Advanced Placement",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_us_other",
+          "label": "US honours, dual enrolment and associate degrees",
+          "details": "When the specified AP subjects are unavailable, Bath may consider appropriate advanced school or dual-enrolment classes individually, usually one such class per missing AP exam. The associate degree route uses a 3.2 GPA and sufficient high-grade Chemistry and second science or mathematics credits. For individual advice, Bath requests transcripts and pending class details.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · US qualifications · alternate routes",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_scottish",
+          "label": "Scottish Advanced Highers",
+          "details": "Typical offer AB across two Advanced Highers including Chemistry and another science or mathematics subject. Bath usually expects five Highers and prefers AAABB or better.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · Scottish Highers",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_btec",
+          "label": "BTEC Applied Science",
+          "details": "DDD in the RQF National Extended Diploma in Applied Science, excluding Physical Science, alongside A-level Chemistry at A.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · BTEC typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_access",
+          "label": "Access to HE Diploma · sciences",
+          "details": "Science or Science and Engineering diploma with 33 Distinction science or mathematics credits and 6 credits at Merit or above. At least 15 Distinction credits are in Chemistry, including at least 3 Organic Chemistry credits. Biochemistry and Chemistry in Society do not count toward the Chemistry credits.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacology/bsc-pharmacology/",
+            "title": "Bath 2027 · Pharmacology BSc (Hons) · Access to HE Diploma typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_pharmacy_interview",
+          "label": "Pharmacy · required selection interview",
+          "details": "Bath invites suitable applicants to interview, remotely for applicants outside the UK. An offer requires a successful interview. The Fitness to Practise self-declaration, including relevant health or disability information, is completed as part of the interview process.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+            "title": "Bath 2027 · Pharmacy MPharm (Hons) · Selection process",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_rx_pharmacy_suitability",
+          "label": "Pharmacy · disclosure and first-semester checks",
+          "details": "Declare relevant spent or unspent convictions on the UCAS application. An Enhanced DBS check is also required during the first semester. Findings are assessed against the university Fitness to Practise policy.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+            "title": "Bath 2027 · Pharmacy MPharm (Hons) · Selection process",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_rx_pharmacy_t_level",
+          "label": "Pharmacy · Science and Healthcare Science T Levels",
+          "details": "Distinction overall and core A in a Science or Healthcare Science T Level, with A-level Chemistry at A. Preferred specialisms are Laboratory Sciences or Metrology Sciences for Science, and Assisting with Healthcare Science for Healthcare Science. GCSE grades contribute to selection.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+            "title": "Bath 2027 · Pharmacy MPharm (Hons) · T Level typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_pharmacy_btec_interview",
+          "label": "Pharmacy · BTEC interview assessment",
+          "details": "Bath tests organic chemistry and pharmaceutical calculation skills when BTEC applicants are interviewed.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+            "title": "Bath 2027 · Pharmacy MPharm (Hons) · BTEC typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_m100_deadline",
+          "label": "UCAS · Pharmacy at Bath deadline",
+          "details": "The course page gives 13 January 2027 for Home applicants and 12 January 2027 for Overseas applicants.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy/",
+            "title": "Bath 2027 · Pharmacy MPharm (Hons) · Application information",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_rx_prep_eligibility",
+          "label": "Plymouth Preparatory Year · Home applicants",
+          "details": "For September 2027, only applicants with Home eligibility can apply. The published UCAS deadline is 13 January 2027. This route is unavailable to applicants who require a UK Student visa.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · Application information and Immigration requirements",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "required"
+        }
+      ]
+    },
+    {
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "institutionKey": "bath",
+      "programId": null,
+      "programKey": "bath_m103",
+      "level": "undergraduate",
+      "notes": "September 2027 Plymouth preparatory route for Home applicants.",
+      "requirements": [
+        {
+          "key": "bath_27_rx_prep_alevel",
+          "label": "Preparatory Year · A levels by subject mix",
+          "details": "Across three A levels the offer is CCC with Chemistry and another eligible science or mathematics subject, BCC with only Chemistry or one other eligible science or mathematics subject, or ABB without any science or mathematics. Bath normally uses the lowest applicable offer if more than three A levels are studied and can accept the Advanced Skills Baccalaureate Wales in place of one A level.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · A level typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_prep_vocational",
+          "label": "Preparatory Year · BTEC and T Levels",
+          "details": "The RQF National Extended Diploma offer is DMM in Applied Science excluding Physical Science, or DDD in another subject. Science or Healthcare Science T Levels require Merit with core B. Other T Levels require Distinction with core A. GCSE grades contribute to T Level selection.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · BTEC and T Level typical offers",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_prep_scottish",
+          "label": "Preparatory Year · Scottish Advanced Highers",
+          "details": "The Advanced Higher offer is CC with Chemistry and a second science or mathematics subject, BC with only Chemistry or one other relevant subject, or AB without these subjects. Bath normally expects five Highers and prefers CCCCC or higher.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · Scottish Highers typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_prep_access",
+          "label": "Preparatory Year · Access to HE",
+          "details": "A Science or Science and Engineering diploma can qualify with 30 Merit science or mathematics credits including 15 Chemistry credits, of which at least 3 are organic chemistry. Biochemistry and Chemistry in Society are excluded. Other Access diplomas or a route with fewer Chemistry credits require 30 Distinction credits.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · Access to HE Diploma typical offer",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_prep_gcse_selection",
+          "label": "Preparatory Year · GCSE selection profile",
+          "details": "Bath considers the wider GCSE profile and typically expects several grades at 5/C or above, with at least one grade 6/B in science or mathematics. Contextual review may allow slightly lower GCSE grades.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · GCSE requirements",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_rx_prep_progression",
+          "label": "Preparatory Year · progression to MPharm Year 1",
+          "details": "Pass every preparatory unit and achieve an overall year average of at least 60% to progress to Year 1.",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/pharmacy/mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth/",
+            "title": "Bath 2027 · Pharmacy with Preparatory Year MPharm (Hons) at the University of Plymouth · Progression from Preparatory Year to Year 1",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "required"
+        }
+      ]
+    }
+  ]
+}
