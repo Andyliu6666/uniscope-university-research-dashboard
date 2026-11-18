@@ -1,4 +1,15 @@
-# Admissions checkpoint — 2026-11-16
+# Admissions checkpoint — 2026-11-18
+
+## University of Bath 2027 Chemistry and Physics — November 18
+
+1. **Baseline.** Local and remote main matched `fd78eff` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43790133334). Docker Desktop and the existing project containers were restarted. The pre-import database matched the November 16 fingerprint.
+2. **Sources.** The [source record](research/BATH_CHEMISTRY_PHYSICS_20261118.md) links the official course directories, each qualification pattern and the N114 deadline discrepancy.
+3. **Artifacts.** The 31 catalogue entries have 62 IB records and 19 general requirements. There are 338 links, including 123 links to previously stored English, contextual and application information. Twenty-seven routes have published AP figures. Four have AP information under review.
+4. **Import.** The two previews preserved row counts and fingerprints. The IB import reused all 31 programme IDs. Both repeat imports returned already completed. Prior records preserved their contents and accepted only the expected new shared-rule links.
+5. **Verification.** The live API matched 3,078 reviewed general facts and 1,124 reviewed IB rows. Route-specific checks covered Chemistry and Physics AP grades, separate typical and contextual IB scores, the joint degree's AP review and its correct applicant/year scope. All 293 tests and the data-quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,438 catalogue entries, 3,667 scopes, 25,098 general requirements, 107,717 sources and 108 runs. It has 650 programmes with published IB totals. Archive `backups/post-bath-chemistry-physics-20261118.qkTjRi` read completely with 192 listing entries and SHA-256 `b18ff0c41237cf2edacfd08fc4129cdafb4477513017dbdca2dc4d32f9146479`.
+
+The next source batch evaluates Kenya's national programme-placement data against the existing institution identities and official admissions sources. The remaining Bath science routes are in a separate source queue.
 
 ## University of Bath 2027 biosciences — November 16
 

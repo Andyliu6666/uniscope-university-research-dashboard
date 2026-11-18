@@ -1,0 +1,1461 @@
+{
+  "datasetVersion": "official-admissions-bath-2027-chemistry-physics-2026-11-18-v1",
+  "reviewedOn": "2026-11-18",
+  "institutions": [
+    {
+      "key": "bath",
+      "name": "University of Bath",
+      "provider": "ror",
+      "externalId": "002h8g185",
+      "countryCode": "GB",
+      "officialDomains": ["bath.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bath_i111",
+      "institutionKey": "bath",
+      "name": "Chemistry BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "title": "Bath 2027 · Chemistry BSc (Hons) with professional placement or study abroad · UCAS I111",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i110",
+      "institutionKey": "bath",
+      "name": "Chemistry BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "title": "Bath 2027 · Chemistry BSc (Hons) · UCAS I110",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i112",
+      "institutionKey": "bath",
+      "name": "Chemistry MChem (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "title": "Bath 2027 · Chemistry MChem (Hons) · UCAS I112",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/mchem-chemistry/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i113",
+      "institutionKey": "bath",
+      "name": "Chemistry MChem (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "title": "Bath 2027 · Chemistry MChem (Hons) with professional placement or study abroad · UCAS I113",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/mchem-chemistry-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i121",
+      "institutionKey": "bath",
+      "name": "Chemistry for Drug Discovery BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Chemistry for Drug Discovery",
+      "source": {
+        "title": "Bath 2027 · Chemistry for Drug Discovery BSc (Hons) with professional placement or study abroad · UCAS I121",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry-for-drug-discovery-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i120",
+      "institutionKey": "bath",
+      "name": "Chemistry for Drug Discovery BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry for Drug Discovery",
+      "source": {
+        "title": "Bath 2027 · Chemistry for Drug Discovery BSc (Hons) · UCAS I120",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry-for-drug-discovery/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i122",
+      "institutionKey": "bath",
+      "name": "Chemistry for Drug Discovery MChem (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry for Drug Discovery",
+      "source": {
+        "title": "Bath 2027 · Chemistry for Drug Discovery MChem (Hons) · UCAS I122",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/mchem-chemistry-for-drug-discovery/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i123",
+      "institutionKey": "bath",
+      "name": "Chemistry for Drug Discovery MChem (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Chemistry for Drug Discovery",
+      "source": {
+        "title": "Bath 2027 · Chemistry for Drug Discovery MChem (Hons) with professional placement or study abroad · UCAS I123",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/mchem-chemistry-for-drug-discovery-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i131",
+      "institutionKey": "bath",
+      "name": "Chemistry with Management BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Chemistry with Management",
+      "source": {
+        "title": "Bath 2027 · Chemistry with Management BSc (Hons) with professional placement or study abroad · UCAS I131",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry-with-management-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i130",
+      "institutionKey": "bath",
+      "name": "Chemistry with Management BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry with Management",
+      "source": {
+        "title": "Bath 2027 · Chemistry with Management BSc (Hons) · UCAS I130",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry-with-management/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i133",
+      "institutionKey": "bath",
+      "name": "Chemistry with Management MSci (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Chemistry with Management",
+      "source": {
+        "title": "Bath 2027 · Chemistry with Management MSci (Hons) with professional placement · UCAS I133",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/msci-chemistry-with-management-with-professional-placement/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_i132",
+      "institutionKey": "bath",
+      "name": "Chemistry with Management MSci (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry with Management",
+      "source": {
+        "title": "Bath 2027 · Chemistry with Management MSci (Hons) · UCAS I132",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/msci-chemistry-with-management/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_chem_alevel",
+        "bath_27_cp_chem_subjects",
+        "bath_27_cp_chem_alt",
+        "bath_27_cp_chem_ap",
+        "bath_27_cp_chem_us_maths",
+        "bath_27_cp_chem_gcse",
+        "bath_27_cp_chem_scottish",
+        "bath_27_cp_chem_voc",
+        "bath_27_cp_chem_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n141",
+      "institutionKey": "bath",
+      "name": "Mathematics and Physics BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Mathematics and Physics",
+      "source": {
+        "title": "Bath 2027 · Mathematics and Physics BSc (Hons) with professional placement or study abroad · UCAS N141",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-mathematics-and-physics-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_joint_alevel",
+        "bath_27_cp_joint_ap",
+        "bath_27_cp_joint_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n140",
+      "institutionKey": "bath",
+      "name": "Mathematics and Physics BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Mathematics and Physics",
+      "source": {
+        "title": "Bath 2027 · Mathematics and Physics BSc (Hons) · UCAS N140",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-mathematics-and-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_joint_alevel",
+        "bath_27_cp_joint_ap",
+        "bath_27_cp_joint_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n143",
+      "institutionKey": "bath",
+      "name": "Mathematics and Physics MSci (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Mathematics and Physics",
+      "source": {
+        "title": "Bath 2027 · Mathematics and Physics MSci (Hons) with professional placement or study abroad · UCAS N143",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/msci-mathematics-and-physics-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_joint_alevel",
+        "bath_27_cp_joint_ap",
+        "bath_27_cp_joint_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n142",
+      "institutionKey": "bath",
+      "name": "Mathematics and Physics MSci (Hons)",
+      "level": "undergraduate",
+      "field": "Mathematics and Physics",
+      "source": {
+        "title": "Bath 2027 · Mathematics and Physics MSci (Hons) · UCAS N142",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/msci-mathematics-and-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_joint_alevel",
+        "bath_27_cp_joint_ap",
+        "bath_27_cp_joint_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n111",
+      "institutionKey": "bath",
+      "name": "Physics BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "title": "Bath 2027 · Physics BSc (Hons) with professional placement or study abroad · UCAS N111",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n110",
+      "institutionKey": "bath",
+      "name": "Physics BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "title": "Bath 2027 · Physics BSc (Hons) · UCAS N110",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n114",
+      "institutionKey": "bath",
+      "name": "Physics MPhys (Hons) with professional placement, research placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "title": "Bath 2027 · Physics MPhys (Hons) with professional placement, research placement or study abroad · UCAS N114",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-professional-placement-research-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection",
+        "bath_27_cp_n114_deadline"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        }
+      ]
+    },
+    {
+      "key": "bath_n112",
+      "institutionKey": "bath",
+      "name": "Physics MPhys (Hons)",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "title": "Bath 2027 · Physics MPhys (Hons) · UCAS N112",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n113",
+      "institutionKey": "bath",
+      "name": "Physics MPhys (Hons) with research placement",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "title": "Bath 2027 · Physics MPhys (Hons) with research placement · UCAS N113",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-research-placement/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n121",
+      "institutionKey": "bath",
+      "name": "Physics with Astrophysics BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics with Astrophysics",
+      "source": {
+        "title": "Bath 2027 · Physics with Astrophysics BSc (Hons) with professional placement or study abroad · UCAS N121",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics-with-astrophysics-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n120",
+      "institutionKey": "bath",
+      "name": "Physics with Astrophysics BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Physics with Astrophysics",
+      "source": {
+        "title": "Bath 2027 · Physics with Astrophysics BSc (Hons) · UCAS N120",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics-with-astrophysics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n124",
+      "institutionKey": "bath",
+      "name": "Physics with Astrophysics MPhys (Hons) with professional placement, research placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics with Astrophysics",
+      "source": {
+        "title": "Bath 2027 · Physics with Astrophysics MPhys (Hons) with professional placement, research placement or study abroad · UCAS N124",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-astrophysics-with-professional-placement-research-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n122",
+      "institutionKey": "bath",
+      "name": "Physics with Astrophysics MPhys (Hons)",
+      "level": "undergraduate",
+      "field": "Physics with Astrophysics",
+      "source": {
+        "title": "Bath 2027 · Physics with Astrophysics MPhys (Hons) · UCAS N122",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-astrophysics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n123",
+      "institutionKey": "bath",
+      "name": "Physics with Astrophysics MPhys (Hons) with research placement",
+      "level": "undergraduate",
+      "field": "Physics with Astrophysics",
+      "source": {
+        "title": "Bath 2027 · Physics with Astrophysics MPhys (Hons) with research placement · UCAS N123",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-astrophysics-with-research-placement/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n131",
+      "institutionKey": "bath",
+      "name": "Physics with Theoretical Physics BSc (Hons) with professional placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics with Theoretical Physics",
+      "source": {
+        "title": "Bath 2027 · Physics with Theoretical Physics BSc (Hons) with professional placement or study abroad · UCAS N131",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics-with-theoretical-physics-with-professional-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n130",
+      "institutionKey": "bath",
+      "name": "Physics with Theoretical Physics BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Physics with Theoretical Physics",
+      "source": {
+        "title": "Bath 2027 · Physics with Theoretical Physics BSc (Hons) · UCAS N130",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics-with-theoretical-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n134",
+      "institutionKey": "bath",
+      "name": "Physics with Theoretical Physics MPhys (Hons) with professional placement, research placement or study abroad",
+      "level": "undergraduate",
+      "field": "Physics with Theoretical Physics",
+      "source": {
+        "title": "Bath 2027 · Physics with Theoretical Physics MPhys (Hons) with professional placement, research placement or study abroad · UCAS N134",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-theoretical-physics-with-professional-placement-research-placement-or-study-abroad/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n132",
+      "institutionKey": "bath",
+      "name": "Physics with Theoretical Physics MPhys (Hons)",
+      "level": "undergraduate",
+      "field": "Physics with Theoretical Physics",
+      "source": {
+        "title": "Bath 2027 · Physics with Theoretical Physics MPhys (Hons) · UCAS N132",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-theoretical-physics/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_n133",
+      "institutionKey": "bath",
+      "name": "Physics with Theoretical Physics MPhys (Hons) with research placement",
+      "level": "undergraduate",
+      "field": "Physics with Theoretical Physics",
+      "source": {
+        "title": "Bath 2027 · Physics with Theoretical Physics MPhys (Hons) with research placement · UCAS N133",
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-theoretical-physics-with-research-placement/",
+        "checkedOn": "2026-11-18"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_cp_phys_scottish",
+        "bath_27_cp_phys_alevel",
+        "bath_27_cp_phys_alt",
+        "bath_27_cp_phys_ap",
+        "bath_27_cp_phys_voc",
+        "bath_27_cp_phys_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "bath",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Supplemental qualifications for September 2027 chemistry and physics courses.",
+      "requirements": [
+        {
+          "key": "bath_27_cp_chem_alevel",
+          "label": "A levels · Chemistry, Drug Discovery and Management",
+          "details": "The typical offer is AAB with Chemistry at A and two further science or mathematics subjects. With just one other science or mathematics subject the offer is AAA. The corresponding contextual offers are ABC and ABB, with A in Chemistry and the indicated additional subject grades. If applicants meet both subject patterns the lower offer normally applies.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_subjects",
+          "label": "Accepted science and mathematics subjects",
+          "details": "The course page lists Biology or Human Biology, Computer Science, Economics, Environmental Science, Geography, Geology, Mathematics, Further Mathematics, Physics, Psychology and Statistics. The IB Diploma section also accepts either HL Mathematics course and Sports, Exercise and Health Science as the second subject.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · Entry requirements",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_alt",
+          "label": "A levels · additional qualification routes",
+          "details": "The alternative is ABB with Chemistry A and two other science or mathematics subjects at B, or AAB with Chemistry A and one other science or mathematics subject at B. An eligible project or supporting qualification is needed. Bath lists an A in EPQ, Core Mathematics B, eligible AS Mathematics or Statistics at B, specified four-A-level maths combinations and an IEPQ at A for the three-science route. The Welsh Baccalaureate alternatives are ABBB and AABB, including B in the Advanced Skills Baccalaureate Wales and the relevant science grades.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_ap",
+          "label": "US Advanced Placement · typical offer",
+          "details": "Three AP grades of 5/5/4, including Chemistry 5 and at least 4 in another science or mathematics subject. Only one Calculus AP can count. AP Seminar and AP Research are excluded. Bath considers relevant advanced school work or an associate degree at GPA 3.2 with enough credits in Chemistry and another science or mathematics subject individually.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_us_maths",
+          "label": "US qualifications · mathematics evidence",
+          "details": "Meet one of AP Calculus AB, Calculus BC, Statistics or Precalculus at 3, SAT Mathematics 700, or ACT Mathematics 28. Bath may consider mathematics grades from the high school diploma or associate degree if those scores are unavailable.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_gcse",
+          "label": "Chemistry · GCSE Mathematics",
+          "details": "GCSE Mathematics grade 6/B applies.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · GCSE requirements",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "bath_27_cp_chem_scottish",
+          "label": "Scottish Advanced Highers",
+          "details": "The offer is AB including Chemistry at A and another science or mathematics subject, or AA including Chemistry when it is the only science or mathematics Advanced Higher. Bath expects five Highers and prefers at least AAAAB.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_voc",
+          "label": "BTEC, T Level and Access to HE",
+          "details": "BTEC Applied Science National Extended Diploma at DDD requires organic chemistry, inorganic chemistry and industrial reactions units. The Science T Level route needs Distinction overall, core A and A-level Chemistry A. The Access to HE route needs 36 Distinction and 3 Merit-or-higher credits, including 12 Distinction credits in Chemistry covering organic and inorganic chemistry, plus 12 in Mathematics, Physics or Biology. Suitable applicants on these routes are interviewed.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_chem_selection",
+          "label": "Chemistry · UCAS selection",
+          "details": "Use the personal statement to demonstrate interest through relevant study, reading or experience. Bath usually assesses the UCAS application and invites applicants on specified vocational and Access routes to interview.",
+          "source": {
+            "title": "Bath 2027 · Chemistry BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/chemistry/bsc-chemistry/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_scottish",
+          "label": "Scottish Advanced Highers · Mathematics and Physics",
+          "details": "The offer is AA in Advanced Higher Mathematics and Physics. Bath usually expects five Highers and prefers AAAAA.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_joint_alevel",
+          "label": "A levels · Mathematics and Physics joint degree",
+          "details": "The usual offer is A*AA in Mathematics, Further Mathematics and Physics, including A* and A in the two Mathematics subjects. The contextual offer is A*AB, with A* and B in the two Mathematics subjects and A in Physics. The published alternative uses the same A*AB subject pattern plus an approved project such as EPQ or IEPQ at A. The separate Welsh Baccalaureate alternative is A*ABB, including grade B in the Welsh qualification.",
+          "source": {
+            "title": "Bath 2027 · Mathematics and Physics BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-mathematics-and-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_joint_ap",
+          "label": "US Advanced Placement · published policy under review",
+          "details": "Bath says it is reviewing the typical AP requirements for this course. Applicants for September 2027 should confirm the current policy with admissions.",
+          "source": {
+            "title": "Bath 2027 · Mathematics and Physics BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-mathematics-and-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "standardized_test",
+          "status": "unknown"
+        },
+        {
+          "key": "bath_27_cp_joint_selection",
+          "label": "Joint degree · UCAS statement",
+          "details": "The personal statement should show interest in both mathematics and physics. Assessment is normally based on UCAS. An interview may be used in exceptional cases.",
+          "source": {
+            "title": "Bath 2027 · Mathematics and Physics BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-mathematics-and-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_alevel",
+          "label": "A levels · Physics, Astrophysics and Theoretical Physics",
+          "details": "The typical offer is A*AA, including Mathematics and Physics. The A* is in Mathematics, Physics or Further Mathematics. Applicants offering Further Mathematics still need at least A in both Mathematics and Physics. The contextual offer is AAB with A in Mathematics and A in Physics.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_alt",
+          "label": "A levels · alternative offers",
+          "details": "Bath lists AAA or A*AB with Mathematics and Physics at A or higher plus a qualifying project or Further Mathematics route. Examples are EPQ or IEPQ at A, eligible AS Further Mathematics at A, or a fourth A level at B where the four include Further Mathematics. The Welsh Baccalaureate route is AAAB or A*ABB including B in the Advanced Skills Baccalaureate Wales.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_ap",
+          "label": "US Advanced Placement · Mathematics and Physics",
+          "details": "The published AP route expects grade 5 in Calculus BC, Physics 1 and Physics 2. Bath may individually assess advanced school or dual-enrolment work, or an associate degree at GPA 3.5 with enough Mathematics and Physics credits.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · American qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "standardized_test",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_voc",
+          "label": "BTEC and Access to HE",
+          "details": "Applied Science BTEC National Extended Diploma at D*DD is considered with A-level Mathematics A and substantial Physical Science units. The Science or Science and Engineering Access to HE route requires 39 Distinction credits, including 12 in Mathematics and 12 in Physics. The Mathematics units must include calculus. Suitable applicants on these routes are interviewed.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · British qualifications",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_phys_selection",
+          "label": "Physics · UCAS selection and interview",
+          "details": "The personal statement should demonstrate interest in the subject. Assessment is usually based on the UCAS application. Some qualification routes require an interview.",
+          "source": {
+            "title": "Bath 2027 · Physics BSc (Hons) · Selection process",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/bsc-physics/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "bath_27_cp_n114_deadline",
+          "label": "UCAS · verify the Home deadline for N114",
+          "details": "The course lists a September 2027 start and an Overseas deadline of 13 January 2027. The Home deadline field is dated January 2028. Confirm the Home deadline with Bath or UCAS before relying on the published date.",
+          "source": {
+            "title": "Bath 2027 · Physics MPhys (Hons) with professional placement, research placement or study abroad · Application information",
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/physics/mphys-physics-with-professional-placement-research-placement-or-study-abroad/",
+            "checkedOn": "2026-11-18"
+          },
+          "category": "application",
+          "status": "conditional"
+        }
+      ]
+    }
+  ]
+}

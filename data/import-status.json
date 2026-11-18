@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281407,
+            "programs": 281438,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3605,
+            "admissionProfiles": 3667,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25079,
+            "admissionRequirements": 25098,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1062
+            "qualificationRequirements": 1124
         },
         "ibCoverage": {
             "byCountry": [
@@ -121,16 +121,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 3,
-                    "programs_with_reviewed_ib": 49,
-                    "programs_with_published_totals": 48
+                    "programs_with_reviewed_ib": 80,
+                    "programs_with_published_totals": 79
                 }
             ],
-            "reviewedRecords": 1062,
-            "programsWithReviewedIb": 910,
+            "reviewedRecords": 1124,
+            "programsWithReviewedIb": 941,
             "institutionWidePolicies": 16,
             "institutionsWithReviewedIb": 42,
-            "programsWithPublishedTotals": 619,
-            "undergraduateCatalogEntries": 195719
+            "programsWithPublishedTotals": 650,
+            "undergraduateCatalogEntries": 195750
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3059,
+            "facts": 3078,
             "profiles": 1271,
             "institutions": 30
         }
     },
-    "generatedAt": "2026-11-16T02:05:18Z",
+    "generatedAt": "2026-11-18T02:22:37Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 24,
+        "inserted": 62,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 24,
-        "startedAt": "2026-11-16T02:04:41.102723+00:00",
-        "updatedAt": "2026-11-16T02:04:41.178+00:00",
+        "processed": 62,
+        "startedAt": "2026-11-18T02:21:44.358768+00:00",
+        "updatedAt": "2026-11-18T02:21:44.516+00:00",
         "checkpoint": {
-            "rowIndex": 24,
-            "sourceRows": 24,
+            "rowIndex": 62,
+            "sourceRows": 62,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-16T02:04:41.178+00:00",
-        "artifactSha256": "4371439e0f6a27aa53ab7282ccbcffedc588523ec148deb50b892172473ceaf0",
-        "datasetVersion": "official-ib-bath-2027-biosciences-2026-11-16-v1"
+        "finishedAt": "2026-11-18T02:21:44.516+00:00",
+        "artifactSha256": "e1acd571a6f89a602cccfd494922f2460175610fe01102b174b2eec8623131ed",
+        "datasetVersion": "official-ib-bath-2027-chemistry-physics-2026-11-18-v1"
     },
     "schemaVersion": 2
 }
