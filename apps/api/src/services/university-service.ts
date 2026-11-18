@@ -1,4 +1,18 @@
-import { and, asc, count, desc, eq, ilike, inArray, isNull, lte, or, sql } from 'drizzle-orm';
+import {
+  and,
+  asc,
+  count,
+  desc,
+  eq,
+  ilike,
+  inArray,
+  isNull,
+  lte,
+  notExists,
+  or,
+  sql,
+} from 'drizzle-orm';
+import { alias } from 'drizzle-orm/pg-core';
 import type {
   AdmissionRequirement,
   AdmissionsQuery,
@@ -718,21 +732,25 @@ export const admissionsPageBounds = (query: AdmissionsQuery) => {
   return { page, pageSize, offset: (page - 1) * pageSize };
 };
 
+const admissionScopeFields = [
+  'academicYear',
+  'intakeTerm',
+  'deliveryMode',
+  'entryType',
+  'level',
+  'applicantType',
+] as const;
+
 type AdmissionScope = Pick<
   typeof admissionProfiles.$inferSelect,
-  'academicYear' | 'intakeTerm' | 'deliveryMode' | 'entryType' | 'level' | 'applicantType'
+  (typeof admissionScopeFields)[number]
 >;
 
 export const matchesAdmissionScope = (shared: AdmissionScope, programme: AdmissionScope) =>
-  shared.academicYear === programme.academicYear &&
-  shared.intakeTerm === programme.intakeTerm &&
-  shared.deliveryMode === programme.deliveryMode &&
-  shared.entryType === programme.entryType &&
-  shared.level === programme.level &&
-  shared.applicantType === programme.applicantType;
+  admissionScopeFields.every((field) => shared[field] === programme[field]);
 
 export const getUniversityAdmissions = async (
-  db: Database,
+  db: Pick<Database, 'select' | 'selectDistinct'>,
   slug: string,
   query: AdmissionsQuery,
 ): Promise<UniversityAdmissionsResponse | null> => {
@@ -747,20 +765,69 @@ export const getUniversityAdmissions = async (
 
   const profileFilters = [
     eq(admissionProfiles.universityId, university.id),
-    query.programme
-      ? sql<boolean>`exists (
-          select 1 from ${programs}
-          where ${programs.id} = ${admissionProfiles.programId}
-            and ${programs.universityId} = ${admissionProfiles.universityId}
-            and ${programs.name} ilike ${`%${escapeLike(query.programme)}%`} escape '\\'
-        )`
-      : undefined,
     query.year ? eq(admissionProfiles.academicYear, query.year) : undefined,
     query.level ? eq(admissionProfiles.level, query.level) : undefined,
     query.applicantType ? eq(admissionProfiles.applicantType, query.applicantType) : undefined,
     query.entryType ? eq(admissionProfiles.entryType, query.entryType) : undefined,
     query.deliveryMode ? eq(admissionProfiles.deliveryMode, query.deliveryMode) : undefined,
   ].filter((filter): filter is Exclude<typeof filter, undefined> => filter !== undefined);
+  const linkedOnlyMatches = new Map<string, Set<string>>();
+  if (query.programme) {
+    const pattern = `%${escapeLike(query.programme)}%`;
+    const nameMatches = ilike(programs.name, pattern);
+    const programmeScope = alias(admissionProfiles, 'programme_scope');
+    const linkedOnly = await db
+      .selectDistinct({ profileId: admissionProfiles.id, programId: programs.id })
+      .from(admissionProfiles)
+      .innerJoin(
+        admissionRequirements,
+        eq(admissionRequirements.admissionProfileId, admissionProfiles.id),
+      )
+      .innerJoin(
+        programs,
+        and(
+          eq(programs.universityId, admissionProfiles.universityId),
+          sql`${admissionRequirements.sourceFlags}->'sharedProgramIds' ? ${programs.id}::text`,
+        ),
+      )
+      .where(
+        and(
+          ...profileFilters,
+          isNull(admissionProfiles.programId),
+          nameMatches,
+          // Direct programme profiles already inherit links from their exact scope.
+          notExists(
+            db
+              .select({ id: programmeScope.id })
+              .from(programmeScope)
+              .where(
+                and(
+                  eq(programmeScope.universityId, admissionProfiles.universityId),
+                  eq(programmeScope.programId, programs.id),
+                  ...admissionScopeFields.map((field) =>
+                    eq(programmeScope[field], admissionProfiles[field]),
+                  ),
+                ),
+              ),
+          ),
+        ),
+      );
+    for (const { profileId, programId } of linkedOnly) {
+      const ids = linkedOnlyMatches.get(profileId) ?? new Set<string>();
+      ids.add(programId);
+      linkedOnlyMatches.set(profileId, ids);
+    }
+    const directMatches = db
+      .select({ id: programs.id })
+      .from(programs)
+      .where(and(eq(programs.universityId, university.id), nameMatches));
+    const programmeFilter = or(
+      inArray(admissionProfiles.programId, directMatches),
+      inArray(admissionProfiles.id, [...linkedOnlyMatches.keys()]),
+    );
+    if (programmeFilter) profileFilters.push(programmeFilter);
+  }
+
   const profiles = await db
     .select()
     .from(admissionProfiles)
@@ -779,12 +846,13 @@ export const getUniversityAdmissions = async (
     .where(and(...profileFilters));
   const totalProfiles = Number(profileCount?.value ?? 0);
   const profileIds = profiles.map((profile) => profile.id);
+  const directProfileIds = profileIds.filter((id) => !linkedOnlyMatches.has(id));
   const [countRows, requirementRows, qualificationRows, testRows] = profileIds.length
     ? await Promise.all([
         db
           .select()
           .from(admissionCounts)
-          .where(inArray(admissionCounts.admissionProfileId, profileIds)),
+          .where(inArray(admissionCounts.admissionProfileId, directProfileIds)),
         db
           .select()
           .from(admissionRequirements)
@@ -792,11 +860,11 @@ export const getUniversityAdmissions = async (
         db
           .select()
           .from(qualificationRequirements)
-          .where(inArray(qualificationRequirements.admissionProfileId, profileIds)),
+          .where(inArray(qualificationRequirements.admissionProfileId, directProfileIds)),
         db
           .select()
           .from(admissionTestScores)
-          .where(inArray(admissionTestScores.admissionProfileId, profileIds)),
+          .where(inArray(admissionTestScores.admissionProfileId, directProfileIds)),
       ])
     : [[], [], [], []];
 
@@ -921,7 +989,12 @@ export const getUniversityAdmissions = async (
     source: requirementCitationForApi(sourceFor(row.sourceId), row.sourceFlags, row.verifiedAt),
   });
   const profileResponses = profiles.map((profile) => {
-    const ownRequirements = requirementRows.filter((row) => row.admissionProfileId === profile.id);
+    const linkedIds = linkedOnlyMatches.get(profile.id);
+    const ownRequirements = requirementRows.filter(
+      (row) =>
+        row.admissionProfileId === profile.id &&
+        (!linkedIds || sharedIdsFor(row).some((id) => linkedIds.has(id))),
+    );
     const keys = new Set(ownRequirements.map(({ requirementKey }) => requirementKey));
     const inherited = profile.programId
       ? sharedRequirements
@@ -955,7 +1028,7 @@ export const getUniversityAdmissions = async (
           sourceFlags: row.sourceFlags,
         })),
       requirements: ownRequirements.map((row) => {
-        const ids = sharedIdsFor(row);
+        const ids = sharedIdsFor(row).filter((id) => !linkedIds || linkedIds.has(id));
         const sharedPrograms = ids.map((id) => {
           const program = scopedPrograms.find((item) => item.id === id);
           if (profile.programId || !program || program.level !== profile.level)

@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281438,
+            "programs": 281476,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3667,
+            "admissionProfiles": 3708,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25098,
+            "admissionRequirements": 25238,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1124
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 16,
             "institutionsWithReviewedIb": 42,
             "programsWithPublishedTotals": 650,
-            "undergraduateCatalogEntries": 195750
+            "undergraduateCatalogEntries": 195788
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4111,
+            "programs": 4138,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1889,
+            "admissions": 1916,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24040
+            "noStructuredApplicationFacts": 24013
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3078,
-            "profiles": 1271,
-            "institutions": 30
+            "facts": 3218,
+            "profiles": 1312,
+            "institutions": 61
         }
     },
-    "generatedAt": "2026-11-18T02:22:37Z",
+    "generatedAt": "2026-11-18T03:21:22Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 62,
-        "provider": "official_ib",
+        "inserted": 140,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 62,
-        "startedAt": "2026-11-18T02:21:44.358768+00:00",
-        "updatedAt": "2026-11-18T02:21:44.516+00:00",
+        "processed": 140,
+        "startedAt": "2026-11-18T02:31:00.096816+00:00",
+        "updatedAt": "2026-11-18T02:31:00.096816+00:00",
         "checkpoint": {
-            "rowIndex": 62,
-            "sourceRows": 62,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 41,
+            "admissionFacts": 140,
+            "programsReused": 0,
+            "programsCreated": 38
         },
-        "finishedAt": "2026-11-18T02:21:44.516+00:00",
-        "artifactSha256": "e1acd571a6f89a602cccfd494922f2460175610fe01102b174b2eec8623131ed",
-        "datasetVersion": "official-ib-bath-2027-chemistry-physics-2026-11-18-v1"
+        "finishedAt": "2026-11-18T02:31:00.311+00:00",
+        "artifactSha256": "9288a675e39ec8d2dad4f4a2822cb96518d501a1945511471fdc5eb648d0b5ac",
+        "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1"
     },
     "schemaVersion": 2
 }

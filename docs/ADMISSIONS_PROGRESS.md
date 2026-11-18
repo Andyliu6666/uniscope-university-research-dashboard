@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-18
 
+## Kenya national placement in Architecture, Quantity Surveying and Actuarial Science — November 18
+
+1. **Baseline.** Local and GitHub main matched `1edf351`, with [both checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44223138603). The bath Chemistry and Physics database fingerprint matched before import.
+2. **Sources.** The [source record](research/KENYA_KUCCPS_BUILT_ENVIRONMENT_ACTUARIAL_20261118.md) links the official 44-page cut-off report, cluster sheet, national cycle notices and the current programme listings. Provider identity reconciled through exact names or reviewed aliases.
+3. **Artifacts.** The first-page batch adds 38 catalogue entries, 41 dated domestic admission scopes, 140 facts and 161 links across 31 institutions. It includes 229 archived figures and 18 supplemental portal figures. One institution match remains pending.
+4. **Import.** Validation and previews performed zero writes. Live import completed and repeated unchanged. Prior admissions and IB rows retained their content and links.
+5. **Verification.** The API matched 3,218 official admissions facts across 61 institutions. Programme search now exposes linked-only requirements while retaining direct programme scopes and exact year and applicant isolation. All 38 programmes, 41 scopes and 161 links passed live checks. The new same-scope and literal wildcard integration case, data-quality gate and 293 repository tests passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,476 programme entries, 3,708 admission scopes, 25,238 requirements, 107,840 sources and 109 runs. Archive `backups/post-kenya-kuccps-20261118.riXtvE` read completely with 192 listing entries and SHA-256 `26df1ae54ac6ec4247409a7b6a439721f12396d84c4a3041c9a6bb17cc4f84b5`.
+
+Next, add university-direct criteria for the verified Kenyan courses. Qualifying A-level and IB routes, prior-study progression and foreign credential review have independent sources and scopes.
+
 ## University of Bath 2027 Chemistry and Physics — November 18
 
 1. **Baseline.** Local and remote main matched `fd78eff` with [both CI checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/43790133334). Docker Desktop and the existing project containers were restarted. The pre-import database matched the November 16 fingerprint.
