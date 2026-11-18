@@ -1,0 +1,118 @@
+{
+  "datasetVersion": "official-ib-kenya-university-direct-2026-11-18-v1",
+  "reviewedOn": "2026-11-18",
+  "schemaVersion": 1,
+  "institutions": [
+    {
+      "key": "uon",
+      "name": "University of Nairobi",
+      "provider": "ror",
+      "externalId": "02y9nww90",
+      "countryCode": "KE",
+      "officialDomains": ["uonbi.ac.ke"]
+    },
+    {
+      "key": "usiu",
+      "name": "United States International University Africa",
+      "provider": "ror",
+      "externalId": "05qj64q37",
+      "countryCode": "KE",
+      "officialDomains": ["usiu.ac.ke"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "uon",
+      "program": {
+        "name": "Bachelor of Science in Microbiology and Biotechnology",
+        "field": "Microbiology and Biotechnology",
+        "level": "undergraduate",
+        "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+        "courseCode": "I23"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "september",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "recordKey": "ke-uon-uon_i23-ib-policy",
+        "applicantContext": "Applicants presenting an International Baccalaureate Diploma",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Grade 5 or above in Biology, Chemistry and Mathematics. The source does not specify levels.",
+        "conditions": "The Department of Biology lists the IB Diploma with minimum subject grades.",
+        "source": {
+          "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+          "title": "Nairobi I23 · IB entry",
+          "checkedOn": "2026-11-18",
+          "evidence": "The programme lists minimum grades of five in Biology, Chemistry and Mathematics."
+        }
+      }
+    },
+    {
+      "institutionKey": "uon",
+      "program": {
+        "name": "Bachelor of Dental Surgery",
+        "field": "Dentistry",
+        "level": "undergraduate",
+        "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+        "courseCode": "V28"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "september",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "recordKey": "ke-uon-uon_v28-ib-policy",
+        "applicantContext": "Applicants presenting an International Baccalaureate Diploma",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Grade 5 or above in Biology, Chemistry and Physics or Mathematics.",
+        "conditions": "The dental department lists subject minima but gives no published diploma total.",
+        "source": {
+          "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+          "title": "Nairobi V28 · IB entry",
+          "checkedOn": "2026-11-18",
+          "evidence": "The department requires IB grade five or higher in the listed subjects."
+        }
+      }
+    },
+    {
+      "institutionKey": "usiu",
+      "program": null,
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "applicantType": "international",
+        "entryType": "first_year",
+        "recordKey": "ke-usiu-institution-ib-policy",
+        "applicantContext": "Applicants presenting an International Baccalaureate Diploma",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "",
+        "conditions": "A completed IB Diploma is considered. The published HL grade figures apply to credit evaluation.",
+        "source": {
+          "url": "https://www.usiu.ac.ke/international-applicants/",
+          "title": "USIU-Africa · IB Diploma policy",
+          "checkedOn": "2026-11-18",
+          "evidence": "The university describes completed Diploma consideration and separately lists academic credit."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "datasetVersion": "official-admissions-kenya-university-direct-2026-11-18-v1",
+  "reviewedOn": "2026-11-18",
+  "institutions": [
+    {
+      "key": "uon",
+      "name": "University of Nairobi",
+      "provider": "ror",
+      "externalId": "02y9nww90",
+      "countryCode": "KE",
+      "officialDomains": ["uonbi.ac.ke"]
+    },
+    {
+      "key": "jkuat",
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "provider": "ror",
+      "externalId": "015h5sy57",
+      "countryCode": "KE",
+      "officialDomains": ["jkuat.ac.ke"]
+    },
+    {
+      "key": "chuka",
+      "name": "Chuka University",
+      "provider": "ror",
+      "externalId": "05cqafq62",
+      "countryCode": "KE",
+      "officialDomains": ["chuka.ac.ke"]
+    },
+    {
+      "key": "usiu",
+      "name": "United States International University Africa",
+      "provider": "ror",
+      "externalId": "05qj64q37",
+      "countryCode": "KE",
+      "officialDomains": ["usiu.ac.ke"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "uon_b02",
+      "institutionKey": "uon",
+      "name": "Bachelor of Architectural Studies/Bachelor of Architecture",
+      "field": "Architecture",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://architecture.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+        "title": "Nairobi Architecture department · B02",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_b66",
+      "institutionKey": "uon",
+      "name": "Bachelor of Quantity Surveying",
+      "field": "Quantity Surveying",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://recmqs.uonbi.ac.ke/admission-content-type/bachelor-quantity-surveying",
+        "title": "Nairobi Quantity Surveying department · B66",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_i07",
+      "institutionKey": "uon",
+      "name": "Bachelor of Science (Actuarial Science)",
+      "field": "Actuarial Science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-actuarial-science",
+        "title": "Nairobi School of Mathematics · Actuarial Science",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_i23",
+      "institutionKey": "uon",
+      "name": "Bachelor of Science in Microbiology and Biotechnology",
+      "field": "Microbiology and Biotechnology",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+        "title": "Nairobi Biology department · I23",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_v28",
+      "institutionKey": "uon",
+      "name": "Bachelor of Dental Surgery",
+      "field": "Dentistry",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+        "title": "Nairobi Department of Dental Sciences · V28",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_c38",
+      "institutionKey": "uon",
+      "name": "Bachelor of Information Science",
+      "field": "Information Science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=C38",
+        "title": "Nairobi online application · C38",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "uon_ds",
+      "institutionKey": "uon",
+      "name": "Bachelor of Science in Data Science",
+      "field": "Data Science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-data-science",
+        "title": "Nairobi School of Mathematics · Data Science",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "jkuat_act",
+      "institutionKey": "jkuat",
+      "name": "Bachelor of Science in Actuarial Science",
+      "field": "Actuarial Science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.jkuat.ac.ke/bachelor-of-science-in-actuarial-science/",
+        "title": "JKUAT Actuarial Science · direct entry",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "jkuat_survey",
+      "institutionKey": "jkuat",
+      "name": "Bachelor of Quantity Surveying",
+      "field": "Quantity Surveying",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.jkuat.ac.ke/bachelor-of-quantity-surveying-4-years/",
+        "title": "JKUAT Quantity Surveying · direct entry",
+        "checkedOn": "2026-11-18"
+      }
+    },
+    {
+      "key": "chuka_act",
+      "institutionKey": "chuka",
+      "name": "Bachelor of Science in Actuarial Science",
+      "field": "Actuarial Science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.chuka.ac.ke/course/bachelor-of-science-in-actuarial-science/",
+        "title": "Chuka Actuarial Science · self-sponsored applications",
+        "checkedOn": "2026-11-18"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_b02",
+      "requirements": [
+        {
+          "key": "uon_arch_kcse",
+          "label": "University direct KCSE subject groups",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Mean grade C+ and at least C+ in English or Kiswahili, Mathematics, one eligible science, and one arts, technical or humanities subject listed by the department. The science group includes Physics, Chemistry, Biology, Physical Science or Biological Sciences.",
+          "source": {
+            "url": "https://architecture.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+            "title": "Nairobi Architecture · direct entry",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_arch_gce_dept",
+          "label": "Department · Advanced GCE or KACE",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The department requires three principal passes, including Mathematics and two of Physics, Chemistry, Geography, Economics, or Art and Design. It also requires a credit in English Language at KCE level or equivalent.",
+          "source": {
+            "url": "https://architecture.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+            "title": "Nairobi Architecture department · GCE route",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_arch_gce_faculty",
+          "label": "Faculty · separate A-level guidance",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The faculty lists two principal passes, in Mathematics and one of Physics, Chemistry, Geography, Economics or Art and Design, plus an English credit. Confirm with University of Nairobi admissions which requirement applies to the intended route.",
+          "source": {
+            "url": "https://built-environment.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+            "title": "Nairobi Built Environment faculty · A-level route",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_arch_diploma",
+          "label": "Recognised prior qualifications and portfolio",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Published routes include KCSE mean grade C or the specified ordinary-level qualification with an architecture diploma, relevant KNEC diplomas at Credit or higher, and relevant degrees. Depending on the prior-study route, applicants may be asked for a portfolio and interview.",
+          "source": {
+            "url": "https://architecture.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+            "title": "Nairobi Architecture · diploma and degree routes",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "other",
+      "programKey": "uon_b02",
+      "requirements": [
+        {
+          "key": "uon_arch_second_tier",
+          "label": "BAS to BArch progression",
+          "category": "application",
+          "status": "conditional",
+          "details": "Nairobi BAS with at least Lower Second Class Honours can progress directly. A Pass grade may progress after at least one year of architectural work experience. The department requires a portfolio for applicants coming from another recognised institution or readmission after the permitted break.",
+          "source": {
+            "url": "https://architecture.uonbi.ac.ke/admission-content-type/bachelor-architecturebachelor-architectural-studies",
+            "title": "Nairobi Architecture · BArch progression",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "Admission to the professional second tier after a Bachelor of Architectural Studies."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "september",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_b66",
+      "requirements": [
+        {
+          "key": "uon_survey_gce",
+          "label": "KACE A-level or equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Two principal passes at D or above, with one in Mathematics or Physics and one in Economics, Geography or Chemistry. Provide an English Language credit at KCE level or equivalent.",
+          "source": {
+            "url": "https://recmqs.uonbi.ac.ke/admission-content-type/bachelor-quantity-surveying",
+            "title": "Nairobi Quantity Surveying · A-level entry",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_survey_kcse",
+          "label": "Direct KCSE minimums",
+          "category": "academic",
+          "status": "conditional",
+          "details": "KCSE mean grade C+. At least C+ in Mathematics, Physics, English or Kiswahili, and one accepted fourth subject. The department lists Geography, Accounts, Commerce, Economics, Building Construction or Drawing and Design.",
+          "source": {
+            "url": "https://recmqs.uonbi.ac.ke/admission-content-type/bachelor-quantity-surveying",
+            "title": "Nairobi Quantity Surveying · KCSE",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_survey_portal",
+          "label": "Check accepted fourth subject and language",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The application portal lists English in its language field and also includes Business Studies among the possible fourth subjects. Confirm the planned subject set with the university when relying on such a combination.",
+          "source": {
+            "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=B66",
+            "title": "Nairobi online application · B66",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_survey_diploma",
+          "label": "Diploma and prior degree routes",
+          "category": "academic",
+          "status": "conditional",
+          "details": "KCE Division II or KCSE mean C with a relevant KNEC Diploma at Credit or equivalent can be considered. The department also lists eligible recognised degrees in built environment subjects and related disciplines.",
+          "source": {
+            "url": "https://recmqs.uonbi.ac.ke/admission-content-type/bachelor-quantity-surveying",
+            "title": "Nairobi Quantity Surveying · alternative entry",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "september",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_i07",
+      "requirements": [
+        {
+          "key": "uon_act_kcse",
+          "label": "Direct KCSE aggregate",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The School of Mathematics publishes a minimum KCSE aggregate of B for direct consideration.",
+          "source": {
+            "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-actuarial-science",
+            "title": "Nairobi Actuarial Science · entry",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_act_kace",
+          "label": "KACE or recognised equivalent",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Two principal passes in Mathematics and one of Physics, Chemistry, Geography or Economics.",
+          "source": {
+            "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-actuarial-science",
+            "title": "Nairobi Actuarial Science · advanced level",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_act_diploma",
+          "label": "Recognised diploma route",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Applicants with KCSE mean C may present a recognised diploma at Credit or higher in Computer Studies, Statistics, or Education with Mathematics as a major, or equivalent.",
+          "source": {
+            "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-actuarial-science",
+            "title": "Nairobi Actuarial Science · diploma route",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "september",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_i23",
+      "requirements": [
+        {
+          "key": "uon_micro_gce",
+          "label": "GCE A-level or KACE",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Two principal passes in Biology and Chemistry plus at least a credit in Ordinary-level Mathematics.",
+          "source": {
+            "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+            "title": "Nairobi Microbiology · advanced level",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_micro_ib",
+          "label": "IB Diploma · three subject grades",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The department requires grade 5 or above in Biology, Chemistry and Mathematics. The source gives subject grades and does not specify a diploma total or an HL/SL split.",
+          "source": {
+            "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+            "title": "Nairobi Microbiology · IB Diploma",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_micro_kcse",
+          "label": "Direct KCSE grades",
+          "category": "academic",
+          "status": "conditional",
+          "details": "KCSE mean C+ with at least C+ in Biology or Biological Sciences and C in both Chemistry and Mathematics. The university also publishes a relevant diploma route.",
+          "source": {
+            "url": "https://biology.uonbi.ac.ke/admission-content-type/bachelor-science-microbiology-and-biotechnology",
+            "title": "Nairobi Microbiology · local entry",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "september",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_v28",
+      "requirements": [
+        {
+          "key": "uon_bds_ib",
+          "label": "IB Diploma · grade 5 in the required subjects",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The department requires at least grade 5 in Biology, Chemistry and either Physics or Mathematics. The page publishes subject grades and does not specify an overall IB score.",
+          "source": {
+            "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+            "title": "Nairobi Dental Sciences · IB requirements",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_bds_alevel",
+          "label": "Department · A-level subject minimums",
+          "category": "academic",
+          "status": "conditional",
+          "details": "At least three principal passes with grades C or higher in Biology, Chemistry and either Physics or Mathematics.",
+          "source": {
+            "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+            "title": "Nairobi Dental Sciences · advanced level",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_bds_faculty",
+          "label": "Faculty · separate advanced-level guidance",
+          "category": "academic",
+          "status": "conditional",
+          "details": "A faculty overview instead lists principal passes in Biology and Chemistry with a subsidiary in Mathematics or Physics. The programme department publishes the three principal passes. Confirm the requirements for the planned cycle.",
+          "source": {
+            "url": "https://healthsciences.uonbi.ac.ke/node/26",
+            "title": "Nairobi Health Sciences faculty · BDS requirements",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_bds_kcse",
+          "label": "KCSE minimum subject grades",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Mean grade C+ and grade B or higher in Biology, Chemistry, Physics or Mathematics, and English or Kiswahili.",
+          "source": {
+            "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+            "title": "Nairobi Dental Sciences · KCSE",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_bds_apply",
+          "label": "Central and direct applications",
+          "category": "application",
+          "status": "conditional",
+          "details": "The September intake gives the national KUCCPS route for government sponsorship and the university online application portal for self-sponsored candidates.",
+          "source": {
+            "url": "https://dental.uonbi.ac.ke/programs-content-type/bachelor-dental-surgery",
+            "title": "Nairobi Dental Sciences · applying",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_c38",
+      "requirements": [
+        {
+          "key": "uon_info_options",
+          "label": "School-leaving and recognised prior study",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The application lists KCSE mean C+ or equivalent, the IB Diploma, or KACE or EACE with two principal passes. An advanced-level certificate with one principal pass plus a recognised diploma is another route.",
+          "source": {
+            "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=C38",
+            "title": "Nairobi Information Science · entry",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_info_diploma",
+          "label": "Diploma coursework",
+          "category": "academic",
+          "status": "conditional",
+          "details": "A qualifying diploma route requires at least three course units of 45 contact hours each, or 270 contact hours total as stated by the application page.",
+          "source": {
+            "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=C38",
+            "title": "Nairobi Information Science · prior study",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "uon",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "uon_ds",
+      "requirements": [
+        {
+          "key": "uon_ds_kcse",
+          "label": "KCSE· Mathematics minimum",
+          "category": "academic",
+          "status": "conditional",
+          "details": "KCSE mean C+ with at least B− in Mathematics.",
+          "source": {
+            "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-data-science",
+            "title": "Nairobi Data Science · KCSE",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "uon_ds_kace",
+          "label": "KACE · subject combination",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Two principal passes in Mathematics and one of Physics, Chemistry, Geography or Economics.",
+          "source": {
+            "url": "https://mathematics.uonbi.ac.ke/admission-content-type/bachelor-science-data-science",
+            "title": "Nairobi Data Science · advanced level",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "jkuat",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "jkuat_act",
+      "requirements": [
+        {
+          "key": "jkuat_act_school",
+          "label": "KCSE and subject thresholds",
+          "category": "academic",
+          "status": "conditional",
+          "details": "JKUAT lists KCSE mean C+ or a Senate-recognised equivalent. Its School of Mathematics lists Mathematics C+ and English C+.",
+          "source": {
+            "url": "https://www.jkuat.ac.ke/college/copas/?page_id=17319",
+            "title": "JKUAT School of Mathematics · Actuarial Science",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "jkuat",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "transfer",
+      "programKey": "jkuat_act",
+      "requirements": [
+        {
+          "key": "jkuat_act_advanced",
+          "label": "Advanced standing by diploma",
+          "category": "academic",
+          "status": "conditional",
+          "details": "A relevant diploma at Credit or higher qualifies for consideration for second-year entry. JKUAT lists third-year entry for a relevant Higher National Diploma.",
+          "source": {
+            "url": "https://www.jkuat.ac.ke/bachelor-of-science-in-actuarial-science/",
+            "title": "JKUAT Actuarial Science · diploma progression",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "Published transfer and advanced entry routes."
+    },
+    {
+      "institutionKey": "jkuat",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "jkuat_survey",
+      "requirements": [
+        {
+          "key": "jkuat_survey_direct",
+          "label": "University direct KCSE aggregate and cluster",
+          "category": "academic",
+          "status": "conditional",
+          "details": "JKUAT publishes a direct-entry aggregate of B− with a minimum of C+ across the specified four-subject cluster. It lists Mathematics, Physics and other permitted subjects or groups.",
+          "source": {
+            "url": "https://www.jkuat.ac.ke/bachelor-of-quantity-surveying-4-years/",
+            "title": "JKUAT Quantity Surveying · admission requirements",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "jkuat",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "other",
+      "programKey": "jkuat_survey",
+      "requirements": [
+        {
+          "key": "jkuat_survey_adv",
+          "label": "Mature entry by diploma",
+          "category": "academic",
+          "status": "conditional",
+          "details": "A JKUAT NIT Diploma at Distinction or Credit allows third-year entry and a Pass goes to first year. JKUAT lists first-year entry for CDACC or KNEC diploma holders at Distinction or Credit.",
+          "source": {
+            "url": "https://www.jkuat.ac.ke/bachelor-of-quantity-surveying-4-years/",
+            "title": "JKUAT Quantity Surveying · mature entry",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "Mature entry as stated by the programme."
+    },
+    {
+      "institutionKey": "chuka",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "programKey": "chuka_act",
+      "requirements": [
+        {
+          "key": "chuka_act_entry",
+          "label": "KCSE and KACE minimums",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For the self-sponsored route, KCSE mean C+ and Mathematics C+, or two KACE principal passes in Mathematics and one of Physics, Chemistry, Geography or Economics.",
+          "source": {
+            "url": "https://www.chuka.ac.ke/course/bachelor-of-science-in-actuarial-science/",
+            "title": "Chuka Actuarial Science · entry qualifications",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "chuka_act_dip",
+          "label": "Eligible diplomas and intakes",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The university lists a diploma in Statistics or Computer Studies, or a Diploma in Education with a pass in Mathematics. The course page states January, May and September full-time admissions.",
+          "source": {
+            "url": "https://www.chuka.ac.ke/course/bachelor-of-science-in-actuarial-science/",
+            "title": "Chuka Actuarial Science · programme routes",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "University direct qualification and admissions requirements."
+    },
+    {
+      "institutionKey": "usiu",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "entryType": "first_year",
+      "requirements": [
+        {
+          "key": "usiu_secondary",
+          "label": "Foreign secondary credentials and US tests",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "International applicants are assessed under equivalent entry standards and may need official credential equation. US citizens and permanent residents submit SAT or ACT scores for review with high school GPA. The published policy gives no university-wide numeric SAT or ACT cutoff.",
+          "source": {
+            "url": "https://www.usiu.ac.ke/international-applicants/",
+            "title": "USIU-Africa · international applicants",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "usiu_english",
+          "label": "English proficiency thresholds",
+          "category": "language",
+          "status": "conditional",
+          "details": "Applicants whose studies were not in English must provide proficiency evidence. USIU-Africa lists TOEFL iBT 79 or higher within two years or IELTS 6. Check language exemptions on the admissions page.",
+          "source": {
+            "url": "https://www.usiu.ac.ke/admission-requirements/",
+            "title": "USIU-Africa · English language proficiency",
+            "checkedOn": "2026-11-18"
+          }
+        },
+        {
+          "key": "usiu_ib_units",
+          "label": "IB Diploma · credit after acceptance",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international applicant page considers the completed IB Diploma and describes credit of six trimester units for each HL result from 4 to 7 and three units per passed subsidiary-level result. The ceiling is 30 units overall for examination credits. These figures refer to credit and placement after entry.",
+          "source": {
+            "url": "https://www.usiu.ac.ke/international-applicants/",
+            "title": "USIU-Africa · IB Diploma and examination credit",
+            "checkedOn": "2026-11-18"
+          }
+        }
+      ],
+      "notes": "General undergraduate international admissions and post-entry credit."
+    }
+  ]
+}

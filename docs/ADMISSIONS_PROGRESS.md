@@ -1,5 +1,16 @@
 # Admissions checkpoint — 2026-11-18
 
+## Kenya direct university admissions — November 18
+
+1. **Baseline.** Local and remote main matched `25e7146` with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44230002577). The database fingerprint matched the national placement stage.
+2. **Sources.** The [source record](research/KENYA_UNIVERSITY_DIRECT_ENTRY_20261118.md) identifies the department and application pages, conflicting guidance, direct admissions and advanced-entry routes.
+3. **Artifacts.** Two files add 33 general facts in 14 scopes and three IB policies, including two published subject-grade sets. This adds three programme identities and reuses seven. No new IB diploma totals were published by the reviewed sources.
+4. **Import.** The preview preserved the prior counts and fingerprints. Repeat import left the final checkpoint unchanged. The Information Science IB policy duplicate found during browser review was removed from the uncommitted import while keeping the previously reviewed policy.
+5. **Verification.** The live API matched 3,251 reviewed general facts across 62 institutions and 1,127 reviewed IB records. The website displayed both IB grade-5 subject sets and Nairobi's scoped Quantity Surveying placement result. All 293 tests, the admission search integration fixture and the data quality gate passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,479 catalogue entries, 3,721 scopes, 25,271 requirements, 107,855 sources and 111 runs. It has 650 programmes with published IB totals. Archive `backups/post-kenya-direct-20261118.UdX6I6` read completely with 192 listing entries and SHA-256 `94d4d9391021f91309a3989808cc37b4a3cc00b03aa773a8b469b4021630449b`.
+
+The national source queue continues with Computing and Medicine. Verify the institution identity, subject minima and exam-year columns before writing each batch. Then continue the independent Bath Pharmacology and Pharmacy queue.
+
 ## Kenya national placement in Architecture, Quantity Surveying and Actuarial Science — November 18
 
 1. **Baseline.** Local and GitHub main matched `1edf351`, with [both checks passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44223138603). The bath Chemistry and Physics database fingerprint matched before import.

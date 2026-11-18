@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281476,
+            "programs": 281479,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3708,
+            "admissionProfiles": 3721,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25238,
+            "admissionRequirements": 25271,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1124
+            "qualificationRequirements": 1127
         },
         "ibCoverage": {
             "byCountry": [
@@ -54,8 +54,8 @@
                 },
                 {
                     "country": "Kenya",
-                    "institutions": 6,
-                    "programs_with_reviewed_ib": 16,
+                    "institutions": 7,
+                    "programs_with_reviewed_ib": 18,
                     "programs_with_published_totals": 13
                 },
                 {
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 79
                 }
             ],
-            "reviewedRecords": 1124,
-            "programsWithReviewedIb": 941,
-            "institutionWidePolicies": 16,
-            "institutionsWithReviewedIb": 42,
+            "reviewedRecords": 1127,
+            "programsWithReviewedIb": 943,
+            "institutionWidePolicies": 17,
+            "institutionsWithReviewedIb": 43,
             "programsWithPublishedTotals": 650,
-            "undergraduateCatalogEntries": 195788
+            "undergraduateCatalogEntries": 195791
         },
         "coreCoverage": {
             "phone": 4078,
@@ -162,10 +162,10 @@
             "programs": 4138,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1916,
+            "admissions": 1917,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24013
+            "noStructuredApplicationFacts": 24012
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3218,
-            "profiles": 1312,
-            "institutions": 61
+            "facts": 3251,
+            "profiles": 1326,
+            "institutions": 62
         }
     },
-    "generatedAt": "2026-11-18T03:21:22Z",
+    "generatedAt": "2026-11-18T03:28:07Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 140,
-        "provider": "official_admissions",
+        "inserted": 3,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 140,
-        "startedAt": "2026-11-18T02:31:00.096816+00:00",
-        "updatedAt": "2026-11-18T02:31:00.096816+00:00",
+        "processed": 3,
+        "startedAt": "2026-11-18T03:27:38.389902+00:00",
+        "updatedAt": "2026-11-18T03:27:38.407+00:00",
         "checkpoint": {
-            "profiles": 41,
-            "admissionFacts": 140,
-            "programsReused": 0,
-            "programsCreated": 38
+            "rowIndex": 3,
+            "sourceRows": 3,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-18T02:31:00.311+00:00",
-        "artifactSha256": "9288a675e39ec8d2dad4f4a2822cb96518d501a1945511471fdc5eb648d0b5ac",
-        "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1"
+        "finishedAt": "2026-11-18T03:27:38.407+00:00",
+        "artifactSha256": "fc776069191a4cd98681c6d8ed68751869049fbab1b65cc56bc9297783a99e50",
+        "datasetVersion": "official-ib-kenya-university-direct-2026-11-18-v1"
     },
     "schemaVersion": 2
 }
