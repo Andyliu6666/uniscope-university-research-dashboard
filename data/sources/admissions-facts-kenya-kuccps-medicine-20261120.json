@@ -1,0 +1,772 @@
+{
+  "datasetVersion": "official-admissions-kenya-kuccps-medicine-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "ke_033tvp994",
+      "name": "Kenya Methodist University",
+      "provider": "ror",
+      "externalId": "033tvp994",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_01jk2zc89",
+      "name": "Egerton University",
+      "provider": "ror",
+      "externalId": "01jk2zc89",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_053stv828",
+      "name": "Kisii University",
+      "provider": "ror",
+      "externalId": "053stv828",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_02tpk0p14",
+      "name": "Masinde Muliro University of Science and Technology",
+      "provider": "ror",
+      "externalId": "02tpk0p14",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_01grm2d66",
+      "name": "Technical University of Mombasa",
+      "provider": "ror",
+      "externalId": "01grm2d66",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_05p2z3x69",
+      "name": "Kenyatta University",
+      "provider": "ror",
+      "externalId": "05p2z3x69",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_023pskh72",
+      "name": "Maseno University",
+      "provider": "ror",
+      "externalId": "023pskh72",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_04kq7tf63",
+      "name": "Mount Kenya University",
+      "provider": "ror",
+      "externalId": "04kq7tf63",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_02y9nww90",
+      "name": "University of Nairobi",
+      "provider": "ror",
+      "externalId": "02y9nww90",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_015h5sy57",
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "provider": "ror",
+      "externalId": "015h5sy57",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_02952pd71",
+      "name": "Pwani University",
+      "provider": "ror",
+      "externalId": "02952pd71",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    },
+    {
+      "key": "ke_04p6eac84",
+      "name": "Moi University",
+      "provider": "ror",
+      "externalId": "04p6eac84",
+      "countryCode": "KE",
+      "officialDomains": ["kuccps.net"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ke_1077131",
+      "institutionKey": "ke_033tvp994",
+      "name": "Bachelor of Medicine & Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1077131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_mean_cplus", "ke25_cluster13a", "ke25_kuccps_1077131"]
+    },
+    {
+      "key": "ke_1057131",
+      "institutionKey": "ke_01jk2zc89",
+      "name": "Bachelor of Medicine & Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1057131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1057131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1087131",
+      "institutionKey": "ke_053stv828",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1087131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1087131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1082131",
+      "institutionKey": "ke_02tpk0p14",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1082131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1082131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-computing-2026-11-20-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1063131",
+      "institutionKey": "ke_01grm2d66",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1063131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1063131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1111131",
+      "institutionKey": "ke_05p2z3x69",
+      "name": "Bachelor of Medicine & Bachelor of Surgery (M.B.Ch.B.)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1111131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1111131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1229131",
+      "institutionKey": "ke_023pskh72",
+      "name": "Bachelor of Medicine And Bachelor of Surgery (With It)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1229131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1229131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1279131",
+      "institutionKey": "ke_04kq7tf63",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1279131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1279131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1263131",
+      "institutionKey": "ke_02y9nww90",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1263131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1263131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1249131",
+      "institutionKey": "ke_015h5sy57",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1249131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1249131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1117131",
+      "institutionKey": "ke_02952pd71",
+      "name": "Bachelor of Medicine And Bachelor of Surgery",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1117131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1117131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-computing-2026-11-20-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    },
+    {
+      "key": "ke_1253131",
+      "institutionKey": "ke_04p6eac84",
+      "name": "Bachelor of Medicine And Bachelor of Surgery (Mbchb)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+        "title": "KUCCPS 2025/26 programme 1253131 · p. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["ke25_cluster13a", "ke25_kuccps_1253131"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-kenya-kuccps-architecture-surveying-actuarial-2026-11-18-v1",
+          "key": "ke25_mean_cplus"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ke_033tvp994",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_mean_cplus",
+          "label": "KUCCPS undergraduate placement · KCSE mean grade",
+          "details": "The 2025/2026 application cycle gives a minimum KCSE mean grade of C+ for degree placement. Subject requirements and competitive cluster scores also apply.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://kuccps.net/degree-application-20252026-placement-cycle",
+            "title": "KUCCPS · degree placement cycle 2025/2026",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1077131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1077131: 2018 39.714, 2019 42.259, 2020 43.777, 2021 43.816, 2022 38.04, 2023 42.636, 2024 43.076. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1077131 · p. 5",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_01jk2zc89",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1057131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1057131: 2018 42.743, 2019 43.706, 2020 44.207, 2021 43.749, 2022 44.079, 2023 44.563, 2024 44.504. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1057131 · p. 5",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_053stv828",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1087131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1087131: 2018 39.003, 2019 42.746, 2020 43.786, 2021 43.815, 2022 44.012, 2023 44.434, 2024 44.149. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1087131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_02tpk0p14",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1082131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1082131: 2018 41.672, 2019 43.349, 2020 43.839, 2021 43.841, 2022 44.026, 2023 44.435, 2024 44.16. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1082131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_01grm2d66",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1063131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1063131: 2024 43.734. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1063131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_05p2z3x69",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1111131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1111131: 2018 43.639, 2019 44.609, 2020 44.937, 2021 44.995, 2022 44.914, 2023 45.433, 2024 44.904. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1111131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_023pskh72",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1229131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1229131: 2018 42.259, 2019 43.586, 2020 44.083, 2021 44.143, 2022 44.463, 2023 44.787, 2024 44.602. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1229131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_04kq7tf63",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1279131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1279131: 2018 41.005, 2019 44.042, 2020 44.436, 2021 44.557, 2022 43.486, 2023 44.35, 2024 44.504. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1279131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_02y9nww90",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1263131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1263131: 2018 44.16, 2019 45.073, 2020 45.317, 2021 45.106, 2022 45.034, 2023 45.584, 2024 44.926. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1263131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_015h5sy57",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1249131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1249131: 2018 43.239, 2019 44.344, 2020 44.54, 2021 44.62, 2022 44.611, 2023 45.048, 2024 44.834. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1249131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_02952pd71",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1117131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1117131: 2023 44.434, 2024 43.048. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1117131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ke_04p6eac84",
+      "programId": null,
+      "academicYear": "2025/2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical KUCCPS central placement for the 2025/2026 cycle. Subject criteria and previous examination-year cut-offs retain their published scope.",
+      "requirements": [
+        {
+          "key": "ke25_cluster13a",
+          "label": "KUCCPS 2025/26 · Medicine subject prerequisites",
+          "details": "Minimum B in each of KCSE Biology and Chemistry, minimum B in either Mathematics Alternative A or Physics, and minimum B in either English or Kiswahili.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_PROGRAMMES_2025.pdf",
+            "title": "KUCCPS 2025/26 · Medicine programme subject grades · p. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "ke25_kuccps_1253131",
+          "label": "KUCCPS · historical KCSE placement scores",
+          "details": "The 2025/26 KUCCPS archive gives earlier KCSE cut-offs for 1253131: 2018 43.71, 2019 44.599, 2020 44.59, 2021 44.44, 2022 44.492, 2023 45.087, 2024 42.066. Only published numeric cells are shown. These are previous competitive placement results.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://statics.kuccps.net/uploads/globalFiles/DEGREE_CUTOFFS_14-07-2025.pdf",
+            "title": "KUCCPS 2025/26 archive · programme 1253131 · p. 6",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

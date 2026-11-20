@@ -1,4 +1,13 @@
-# Admissions checkpoint — 2026-11-18
+# Admissions checkpoint — 2026-11-20
+
+## Kenya Computing and Medicine — November 20
+
+1. **Baseline.** Local and remote main matched `58ba6bb` and its CI was successful. The database fingerprint matched the November 18 stop marker.
+2. **Sources.** The [source record](research/KENYA_COMPUTING_MEDICINE_20261120.md) reconciles exact programme codes across two official KUCCPS publications. The programme table provides 2025/26 subject minima, and the July archive provides historical examination-year cut-offs.
+3. **Artifacts.** Computing adds 47 courses and 112 facts. Medicine adds 12 courses and 25 facts. Across the two there are 48 institutions, 352 historical score cells and 175 course-to-rule links, including 38 links to previously stored rules. Three provider identities remain pending.
+4. **Import.** Validation passed. Read-only previews preserved counts and content hashes. After a readable backup, the two artifacts were imported in dependency order and repeated without changes. Existing admissions content and all reviewed IB records retained their fingerprints.
+5. **Verification.** All 59 courses, 137 facts and 175 links matched the live admissions API. Programme searches retained the selected course, year and applicant group. The data quality, API and website checks passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,544 programme entries, 3,753 scopes, 25,430 requirements, 107,950 sources and 115 runs. There are 3,410 reviewed general admissions facts across 83 institutions and 1,140 reviewed IB records. The fully readable archive is `backups/post-kenya-computing-medicine-20261120.nND5Rv`, SHA-256 `1f316cca9471a390ff4112bea16dde271db0d3f83fc3a37fa8ee0169bc9b8ef0`.
 
 ## Bath 2027 Pharmacy and Pharmacology — November 18
 

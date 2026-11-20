@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281485,
+            "programs": 281544,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3732,
+            "admissionProfiles": 3753,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25293,
+            "admissionRequirements": 25430,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1140
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 43,
             "programsWithPublishedTotals": 656,
-            "undergraduateCatalogEntries": 195797
+            "undergraduateCatalogEntries": 195856
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4138,
+            "programs": 4158,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1917,
+            "admissions": 1937,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 24012
+            "noStructuredApplicationFacts": 23992
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3273,
-            "profiles": 1327,
-            "institutions": 62
+            "facts": 3410,
+            "profiles": 1348,
+            "institutions": 83
         }
     },
-    "generatedAt": "2026-11-18T03:53:48Z",
+    "generatedAt": "2026-11-20T05:02:43Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 13,
-        "provider": "official_ib",
+        "inserted": 25,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 13,
-        "startedAt": "2026-11-18T03:52:07.831232+00:00",
-        "updatedAt": "2026-11-18T03:52:07.879+00:00",
+        "processed": 25,
+        "startedAt": "2026-11-20T05:01:45.351269+00:00",
+        "updatedAt": "2026-11-20T05:01:45.351269+00:00",
         "checkpoint": {
-            "rowIndex": 13,
-            "sourceRows": 13,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 12,
+            "admissionFacts": 25,
+            "programsReused": 0,
+            "programsCreated": 12,
+            "priorSharedLinksAdded": 11
         },
-        "finishedAt": "2026-11-18T03:52:07.879+00:00",
-        "artifactSha256": "407ec190f788f6e4bb8d266ef7586509f0710d3aa378a470a645b0591517dfd8",
-        "datasetVersion": "official-ib-bath-2027-pharmacy-pharmacology-2026-11-18-v1"
+        "finishedAt": "2026-11-20T05:01:45.43+00:00",
+        "artifactSha256": "b1c3f221f59d09ab86ef289f992f3978b59bc06399e8743a9ee1b86988d804df",
+        "datasetVersion": "official-admissions-kenya-kuccps-medicine-2026-11-20-v1"
     },
     "schemaVersion": 2
 }
