@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281544,
+            "programs": 281577,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3753,
+            "admissionProfiles": 3756,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25430,
+            "admissionRequirements": 25464,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1140
+            "qualificationRequirements": 1141
         },
         "ibCoverage": {
             "byCountry": [
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 85
                 }
             ],
-            "reviewedRecords": 1140,
+            "reviewedRecords": 1141,
             "programsWithReviewedIb": 949,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 43,
             "programsWithPublishedTotals": 656,
-            "undergraduateCatalogEntries": 195856
+            "undergraduateCatalogEntries": 195889
         },
         "coreCoverage": {
             "phone": 4078,
@@ -153,7 +153,7 @@
             "operatingStatus": 28171,
             "offersUndergraduate": 4080
         },
-        "rejectedRows": 147,
+        "rejectedRows": 148,
         "universities": 28171,
         "rorIdentifiers": 27107,
         "aliasedProfiles": 23827,
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3410,
-            "profiles": 1348,
+            "facts": 3444,
+            "profiles": 1350,
             "institutions": 83
         }
     },
-    "generatedAt": "2026-11-20T05:02:43Z",
+    "generatedAt": "2026-11-20T05:53:42Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 25,
-        "provider": "official_admissions",
+        "inserted": 1,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 25,
-        "startedAt": "2026-11-20T05:01:45.351269+00:00",
-        "updatedAt": "2026-11-20T05:01:45.351269+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-20T05:52:57.453382+00:00",
+        "updatedAt": "2026-11-20T05:52:57.467+00:00",
         "checkpoint": {
-            "profiles": 12,
-            "admissionFacts": 25,
-            "programsReused": 0,
-            "programsCreated": 12,
-            "priorSharedLinksAdded": 11
+            "rowIndex": 1,
+            "sourceRows": 1,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-20T05:01:45.43+00:00",
-        "artifactSha256": "b1c3f221f59d09ab86ef289f992f3978b59bc06399e8743a9ee1b86988d804df",
-        "datasetVersion": "official-admissions-kenya-kuccps-medicine-2026-11-20-v1"
+        "finishedAt": "2026-11-20T05:52:57.467+00:00",
+        "artifactSha256": "0f8ad85c0cfa79228ded6fb9083e99cf390df923768eed688e57446a51ab9adf",
+        "datasetVersion": "official-ib-kabarak-undergraduate-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

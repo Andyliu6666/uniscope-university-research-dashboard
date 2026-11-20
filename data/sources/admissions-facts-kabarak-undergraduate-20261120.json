@@ -1,0 +1,918 @@
+{
+  "datasetVersion": "official-admissions-kabarak-undergraduate-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "kabarak",
+      "name": "Kabarak University",
+      "provider": "ror",
+      "externalId": "009b5t134",
+      "countryCode": "KE",
+      "officialDomains": ["kabarak.ac.ke"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "kabarak_hospitality",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Hospitality Management",
+      "level": "undergraduate",
+      "field": "Hospitality Management",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Hospitality Management · pp. 6",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_hospitality"]
+    },
+    {
+      "key": "kabarak_bachelor_of_business_management_and_information_technology_bmit",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Business Management and Information Technology (BMIT)",
+      "level": "undergraduate",
+      "field": "Business Management and Information Technology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Business Management and Information Technology (BMIT) · pp. 6",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_business_technology"]
+    },
+    {
+      "key": "kabarak_bachelor_of_business_information_technology_bbit",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Business Information Technology (BBIT)",
+      "level": "undergraduate",
+      "field": "Business Information Technology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Business Information Technology (BBIT) · pp. 6",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_business_technology"]
+    },
+    {
+      "key": "kabarak_commerce",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Commerce · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_commerce"]
+    },
+    {
+      "key": "kabarak_management_information",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Management Information Systems",
+      "level": "undergraduate",
+      "field": "Management Information Systems",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Management Information Systems · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_management_information"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_economics",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Economics",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Economics · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_economics"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_economics_and_mathematics",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Economics and Mathematics",
+      "level": "undergraduate",
+      "field": "Economics and Mathematics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Economics and Mathematics · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_economics"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_economics_and_statistics",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Economics and Statistics",
+      "level": "undergraduate",
+      "field": "Economics and Statistics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Economics and Statistics · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_economics"]
+    },
+    {
+      "key": "kabarak_procurement",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Procurement and Logistics Management",
+      "level": "undergraduate",
+      "field": "Procurement and Logistics Management",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Procurement and Logistics Management · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_procurement"]
+    },
+    {
+      "key": "kabarak_economics_finance",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Economics & Finance",
+      "level": "undergraduate",
+      "field": "Economics & Finance",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Economics & Finance · pp. 7",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_economics_finance"]
+    },
+    {
+      "key": "kabarak_agribusiness",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Agribusiness Management",
+      "level": "undergraduate",
+      "field": "Agribusiness Management",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Agribusiness Management · pp. 8",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_agribusiness"]
+    },
+    {
+      "key": "kabarak_computer_science",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Computer Science",
+      "level": "undergraduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Computer Science · pp. 11",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_computer_science"]
+    },
+    {
+      "key": "kabarak_information_technology",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Information Technology",
+      "level": "undergraduate",
+      "field": "Information Technology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Information Technology · pp. 11",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_information_technology"]
+    },
+    {
+      "key": "kabarak_telecommunications",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Telecommunications",
+      "level": "undergraduate",
+      "field": "Telecommunications",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Telecommunications · pp. 12",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_telecommunications"]
+    },
+    {
+      "key": "kabarak_actuarial",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Actuarial Science",
+      "level": "undergraduate",
+      "field": "Actuarial Science",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Actuarial Science · pp. 12",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_actuarial"]
+    },
+    {
+      "key": "kabarak_computer_security",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Computer Security and Forensics",
+      "level": "undergraduate",
+      "field": "Computer Security and Forensics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Computer Security and Forensics · pp. 12",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_computer_security"]
+    },
+    {
+      "key": "kabarak_data_science",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Data Science and Analytics",
+      "level": "undergraduate",
+      "field": "Data Science and Analytics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Data Science and Analytics · pp. 12",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_data_science"]
+    },
+    {
+      "key": "kabarak_general_science",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science · pp. 13",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_general_science"]
+    },
+    {
+      "key": "kabarak_environmental_science",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Environmental Science",
+      "level": "undergraduate",
+      "field": "Environmental Science",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Environmental Science · pp. 13",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_environmental_science"]
+    },
+    {
+      "key": "kabarak_education_science",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Education (Science)",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Education (Science) · pp. 16",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_education_science"]
+    },
+    {
+      "key": "kabarak_education_arts",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Education (Arts)",
+      "level": "undergraduate",
+      "field": "Education",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Education (Arts) · pp. 16",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_education_arts"]
+    },
+    {
+      "key": "kabarak_counselling",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Counselling Psychology",
+      "level": "undergraduate",
+      "field": "Counselling Psychology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Counselling Psychology · pp. 16",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_counselling"]
+    },
+    {
+      "key": "kabarak_agricultural_education",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Agricultural Education and Extension",
+      "level": "undergraduate",
+      "field": "Agricultural Education and Extension",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Agricultural Education and Extension · pp. 17",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_agricultural_education"]
+    },
+    {
+      "key": "kabarak_chaplaincy",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Arts in Chaplaincy",
+      "level": "undergraduate",
+      "field": "Arts in Chaplaincy",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Arts in Chaplaincy · pp. 17",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_chaplaincy"]
+    },
+    {
+      "key": "kabarak_theology",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Theology",
+      "level": "undergraduate",
+      "field": "Theology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Theology · pp. 17",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_theology"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_nursing",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Nursing",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Nursing · pp. 20",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_health_direct", "kabu26_inservice_nursing"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_clinical_medicine",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Clinical Medicine",
+      "level": "undergraduate",
+      "field": "Clinical Medicine",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Clinical Medicine · pp. 20",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_health_direct"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_public_health",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Public Health",
+      "level": "undergraduate",
+      "field": "Public Health",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Public Health · pp. 21",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_health_direct", "kabu26_inservice_public_health"]
+    },
+    {
+      "key": "kabarak_nutrition",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Human Nutrition and Dietetics",
+      "level": "undergraduate",
+      "field": "Human Nutrition and Dietetics",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Human Nutrition and Dietetics · pp. 21",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_nutrition", "kabu26_inservice_nutrition"]
+    },
+    {
+      "key": "kabarak_bachelor_of_science_in_medical_laboratory_sciences",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Science in Medical Laboratory Sciences",
+      "level": "undergraduate",
+      "field": "Medical Laboratory Sciences",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Science in Medical Laboratory Sciences · pp. 21",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_health_direct", "kabu26_inservice_laboratory"]
+    },
+    {
+      "key": "kabarak_pharmacy",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Pharmacy",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Pharmacy · pp. 24",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_pharmacy"]
+    },
+    {
+      "key": "kabarak_law",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Laws",
+      "level": "undergraduate",
+      "field": "Laws",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Laws · pp. 24",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_law"]
+    },
+    {
+      "key": "kabarak_music_production",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Music Production Technology",
+      "level": "undergraduate",
+      "field": "Music Production Technology",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Music Production Technology · pp. 26",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_music_production"]
+    },
+    {
+      "key": "kabarak_music_composition",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Music Theory and Composition",
+      "level": "undergraduate",
+      "field": "Music Theory and Composition",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Music Theory and Composition · pp. 26",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_music_composition"]
+    },
+    {
+      "key": "kabarak_film_theatre",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Film and Theatre Production",
+      "level": "undergraduate",
+      "field": "Film and Theatre Production",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Film and Theatre Production · pp. 27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_film_theatre"]
+    },
+    {
+      "key": "kabarak_mass_communication",
+      "institutionKey": "kabarak",
+      "name": "Bachelor of Mass Communication",
+      "level": "undergraduate",
+      "field": "Mass Communication",
+      "source": {
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "title": "Kabarak prospectus 2026-2027 · Bachelor of Mass Communication · pp. 27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["kabu26_mass_communication"]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "entryType": "first_year",
+      "institutionKey": "kabarak",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Direct undergraduate entry and listed alternative qualification routes in the 2026-2027 prospectus.",
+      "requirements": [
+        {
+          "key": "kabu26_hospitality",
+          "label": "Undergraduate entry · hospitality",
+          "details": "KCSE mean C+ with C in Mathematics or Business Studies, and C in English, Kiswahili or a foreign language. A related diploma at Credit pass is an alternative.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 6",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_business_technology",
+          "label": "Undergraduate entry · business technology",
+          "details": "KCSE mean C+ with C in Mathematics and English, or two A-level principal passes, or a related diploma at Credit pass or an accepted equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 6",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_commerce",
+          "label": "Undergraduate entry · commerce",
+          "details": "KCSE mean C+ with C in Mathematics and English, or a related diploma at Credit pass or an accepted equivalent. The programme lists Accounting, Banking and Finance, Technology, Innovation and Entrepreneurship, Finance, Human Resource Management, Insurance, Marketing and Operations Management options.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_management_information",
+          "label": "Undergraduate entry · management information",
+          "details": "KCSE mean C+ with C in Mathematics and English.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_economics",
+          "label": "Undergraduate entry · economics",
+          "details": "KCSE mean C+ with C+ in Mathematics, or a related diploma at Credit pass or an accepted equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_procurement",
+          "label": "Undergraduate entry · procurement",
+          "details": "KCSE mean C+ with C in Mathematics, or a related diploma at Credit pass or an accepted equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_economics_finance",
+          "label": "Undergraduate entry · economics finance",
+          "details": "KCSE mean C+ with C in Mathematics and English, or a related diploma at Credit pass.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_agribusiness",
+          "label": "Undergraduate entry · agribusiness",
+          "details": "KCSE mean C+ with C- in Agriculture, Mathematics and English. The source also lists D+ in Mathematics with C in Commerce and Business Studies as an alternative subject pattern, or a relevant diploma recognized by the University Senate.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_computer_science",
+          "label": "Undergraduate entry · computer science",
+          "details": "KCSE mean C+ with C in Mathematics, Physics and English, or a diploma in Computer Science or Information Technology at Credit pass.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 11",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_information_technology",
+          "label": "Undergraduate entry · information technology",
+          "details": "KCSE mean C+ with C in Mathematics or Physics and C in English, or a diploma in Computer Science or Information Technology at Credit pass.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 11",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_telecommunications",
+          "label": "Undergraduate entry · telecommunications",
+          "details": "KCSE mean C+ with C+ in Mathematics and Physics and C in English, or a diploma in Computer Science or Information Technology at Credit pass.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 12",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_actuarial",
+          "label": "Undergraduate entry · actuarial",
+          "details": "KCSE mean C+ with B in Mathematics and C+ in English. KACE or an equivalent Advanced Level qualification with two principal passes, including Mathematics, is an alternative.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 12",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_computer_security",
+          "label": "Undergraduate entry · computer security",
+          "details": "KCSE mean C+ with C in Mathematics, or a Computer Science or Information Technology diploma or an accepted equivalent at Credit pass.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 12",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_data_science",
+          "label": "Undergraduate entry · data science",
+          "details": "KCSE mean C+ with C+ in Mathematics and English or Kiswahili, or a relevant recognized Data Science, Computer Science, IT or Business IT diploma. The source also accepts the specified Kabarak computing diplomas, KCE/EACE Division II with a qualifying diploma, or Division III with qualifying certificate-to-diploma progression. The KACE route requires two principal passes and one subsidiary.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 12",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_general_science",
+          "label": "Undergraduate entry · general science",
+          "details": "KCSE mean C+ with C in Mathematics, Chemistry, Physics and Biology. The degree offers Mathematics, Zoology, Botany, Chemistry and Physics specializations.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 13",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_environmental_science",
+          "label": "Undergraduate entry · environmental science",
+          "details": "KCSE mean C+ with C in Biology, Chemistry, English and either Physics or Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 13",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_education_science",
+          "label": "Undergraduate entry · education science",
+          "details": "KCSE mean C+ with C+ in two teaching subjects and C in Mathematics and English, or two A-level principal passes with one subsidiary, or an Education diploma with KCSE mean C+. Teaching subjects include Mathematics, Physics, Biology, Agriculture, Chemistry and Computer.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 16",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_education_arts",
+          "label": "Undergraduate entry · education arts",
+          "details": "KCSE mean C+ with C+ in two teaching subjects, C in English and D+ in Mathematics, or two A-level principal passes with one subsidiary, or an Education diploma with KCSE mean C+. Teaching subjects include English, Literature, History, Music, Geography, CRE and Kiswahili.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 16",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_counselling",
+          "label": "Undergraduate entry · counselling",
+          "details": "Direct-entry alternatives include KCSE mean C+, five IGCSE credits, or two A-level principal passes. A Credit diploma with KCSE mean C and at least two years of relevant practice is another route. The continued row also accepts KCSE mean C- followed by recognized certificate-to-diploma progression.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 16-17",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_agricultural_education",
+          "label": "Undergraduate entry · agricultural education",
+          "details": "KCSE mean C+ with C+ in Biology and Agriculture and C in Mathematics or Physics and Chemistry. The source also lists Biological Sciences C+, Agriculture C+ and Mathematics C or Physical Sciences C. A recognized Agricultural Education and Extension diploma or a related discipline is another route, with the stated C+ Biology and Agriculture/Biology background.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 17",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_chaplaincy",
+          "label": "Undergraduate entry · chaplaincy",
+          "details": "KCSE mean C+, or an accepted diploma or equivalent at Credit pass with GPA at least 3.0. The A-level route requires two principal passes at one sitting, or two passes at different sittings with both at grade C or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 17",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_theology",
+          "label": "Undergraduate entry · theology",
+          "details": "KCSE mean C+ or a diploma in Theology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 17",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_health_direct",
+          "label": "Undergraduate entry · health direct",
+          "details": "KCSE mean C+ and C+ in Biology, Chemistry, English or Kiswahili, and Mathematics or Physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 20",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_nutrition",
+          "label": "Undergraduate entry · nutrition",
+          "details": "KCSE mean C+ with C in Chemistry or Physical Sciences, Biology or Biological Sciences, English or Kiswahili, and one of Physics, Mathematics or Geography. An ordinary Nutrition and Dietetics or Nutrition and Food Sciences diploma at Credit pass from a recognized institution, with KNDI registration, is an alternative.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 21",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_pharmacy",
+          "label": "Undergraduate entry · pharmacy",
+          "details": "KCSE mean B- with C+ in Biology, Chemistry, English or Kiswahili, and Mathematics or Physics. A Pharmaceutical Technology diploma with KCSE mean C+ and enrolment with the Pharmacy and Poisons Board is an alternative.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 24",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_law",
+          "label": "Undergraduate entry · law",
+          "details": "KCSE mean C+ with B in English or Kiswahili.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 24",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_music_production",
+          "label": "Undergraduate entry · music production",
+          "details": "KCSE mean C+ with C+ in Music, or KCSE mean C+ with ABRSM Grade 5 Theory and/or Practical. Other routes include KCSE mean C- with a recognized Music diploma, KCSE mean D with certificate-to-diploma progression, or an accepted Music diploma. One A-level principal pass at one sitting, or two principal passes at different sittings, is another route. Applicants with KCSE mean C+ and substantial music production aptitude can qualify through standard auditions.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 26",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_music_composition",
+          "label": "Undergraduate entry · music composition",
+          "details": "KCSE mean C+ with C+ in Music, or KCSE mean C+ with ABRSM Grade 5 Theory and/or Practical. Other routes include KCSE mean C- with a recognized Music diploma, KCSE mean D with certificate-to-diploma progression, or an accepted Music diploma. The continued row adds one A-level principal pass at one sitting or two principal passes at different sittings, or KCSE mean C+ with substantial performance or composition aptitude established at a standard audition.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 26-27",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_film_theatre",
+          "label": "Undergraduate entry · film theatre",
+          "details": "KCSE mean C+ with C+ in English or Kiswahili or an equivalent in another system. Alternatives include KCSE mean C- with a recognized KNQA Level 6 diploma in Film, Theatre, Mass Media or a related area, KCSE mean D+ with recognized KNQA Level 5 certificate-to-Level 6 diploma progression, or an accepted Film or Theatre diploma.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 27",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_mass_communication",
+          "label": "Undergraduate entry · mass communication",
+          "details": "KCSE mean C+ with C+ in English or Kiswahili, or a Journalism and Mass Communication or Public Relations diploma at Credit pass. The course lists Media and Public Relations options.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · entry requirements · pp. 27",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "entryType": "other",
+      "institutionKey": "kabarak",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Professional in-service applicants to the listed health programmes.",
+      "requirements": [
+        {
+          "key": "kabu26_inservice_nursing",
+          "label": "In-service admission · Nursing",
+          "details": "KCSE mean C or KCE Division II, at least two years of relevant experience after graduation as a registered nurse, and a valid practising licence.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · in-service requirements · pp. 20",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_inservice_public_health",
+          "label": "In-service admission · Public Health",
+          "details": "KCSE mean C and a diploma in Environmental Health or Public Health.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · in-service requirements · pp. 21",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_inservice_nutrition",
+          "label": "In-service admission · Human Nutrition and Dietetics",
+          "details": "KCSE mean C, a Nutrition and Dietetics diploma and KNDI registration.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · in-service requirements · pp. 21",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "kabu26_inservice_laboratory",
+          "label": "In-service admission · Medical Laboratory Sciences",
+          "details": "A Medical Laboratory Technology diploma with KCSE mean C and C in each mandatory subject, plus KMLTTB registration.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+            "title": "Kabarak prospectus 2026-2027 · in-service requirements · pp. 21",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

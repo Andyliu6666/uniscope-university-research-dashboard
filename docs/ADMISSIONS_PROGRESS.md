@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Kabarak undergraduate admission requirements — November 20
+
+1. **Baseline.** Local and GitHub main matched `b5855e8`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44678567444). The database matched the Computing and Medicine checkpoint.
+2. **Sources.** The [source record](research/KABARAK_UNDERGRADUATE_20261120.md) identifies the 2026-2027 prospectus, programme rows, continuation pages and the distinct direct and professional routes.
+3. **Artifacts.** Thirty-six courses have 34 general facts and 40 course-to-rule links. A dated IB 24/45 record for Counselling Psychology reuses its existing identity. Thirty-three new catalogue entries were added and three existing identities reused.
+4. **Import.** Previews and backups preceded import. The draft Computer Science name was reconciled to the existing course, and the initial IB mapping rejection was corrected using its reviewed existing ID. The audit ledger retains both attempts. Final repeat imports made no changes. Earlier admissions and IB rows retained their content hashes.
+5. **Verification.** All 36 courses, 34 facts and 40 links matched the live API, including the in-service scopes and the dated IB 24 threshold. The data quality, API and website checks passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,577 catalogue entries, 3,756 scopes, 25,464 requirements, 107,951 sources and 119 runs. There are 3,444 reviewed general facts, 1,141 reviewed IB records and 656 programmes with numerical IB totals. The archive `backups/post-kabarak-undergraduate-20261120.Q9UheW` read completely with SHA-256 `8f33b11c42bb34b825ef74991b85e7ee187e5fc195d0ce268aaec4f845b98ee0`.
+
 ## Kenya Computing and Medicine — November 20
 
 1. **Baseline.** Local and remote main matched `58ba6bb` and its CI was successful. The database fingerprint matched the November 18 stop marker.

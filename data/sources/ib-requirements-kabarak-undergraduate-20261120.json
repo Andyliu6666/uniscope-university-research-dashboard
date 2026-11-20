@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-kabarak-undergraduate-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "kabarak",
+      "name": "Kabarak University",
+      "provider": "ror",
+      "externalId": "009b5t134",
+      "countryCode": "KE",
+      "officialDomains": ["kabarak.ac.ke"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "kabarak",
+      "program": {
+        "name": "Bachelor of Counselling Psychology",
+        "field": "Counselling Psychology",
+        "level": "undergraduate",
+        "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+        "courseCode": null,
+        "existingProgramId": "e0bfdef9-d727-4cf8-a8dd-760f609a108d"
+      },
+      "requirement": {
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "recordKey": "kabarak-counselling-psychology-ib-minimum-2026-2027",
+        "applicantContext": "IB applicants for Bachelor of Counselling Psychology in the 2026-2027 prospectus",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The programme row states the overall IB score.",
+        "conditions": "The published direct-entry route applies to IB qualification holders.",
+        "source": {
+          "url": "https://kabarak.ac.ke/images/downloads/docs/kabarak_university_prospectus.pdf",
+          "title": "Kabarak prospectus 2026-2027 · Counselling Psychology IB admission · pp. 16",
+          "checkedOn": "2026-11-20",
+          "evidence": "A minimum of 24 out of 45 points for International Baccalaureate (IB) holders."
+        }
+      }
+    }
+  ]
+}
