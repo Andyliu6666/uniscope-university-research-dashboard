@@ -1,0 +1,1272 @@
+{
+  "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-2-2026-11-20-v2",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "unm",
+      "name": "University of Nottingham Malaysia Campus",
+      "provider": "ror",
+      "externalId": "04mz9mt17",
+      "countryCode": "MY",
+      "officialDomains": ["nottingham.edu.my"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "unm27_computer-science-bsc-hons_dc3ea4a4",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) Computer Science",
+      "level": "undergraduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_5d1e6a9885",
+        "unm27_stpm_entry_route_0737e8bfe6",
+        "unm27_uec_entry_route_f5226b0c95",
+        "unm27_australian_year_12_entry_route_ce32eb482b",
+        "unm27_ontario_ossd_entry_route_8f04e49a16",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_db1a5ef6d7",
+        "unm27_cbse_cisce_class_xii_entry_route_298b29e4c3",
+        "unm27_us_advanced_placement_entry_route_1b7572ce27",
+        "unm27_local_diploma_entry_route_b020c5f461",
+        "unm27_external_foundation_entry_route_9dcd14c558",
+        "unm27_nottingham_foundation_entry_route_aeca214acf",
+        "unm27_additional_course_entry_conditions_abf767ef4a"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_fc9fa990a2"
+        }
+      ]
+    },
+    {
+      "key": "unm27_computer-science-with-artificial-intelligence-bsc-ho_8d8f2eab",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) Computer Science with Artificial Intelligence",
+      "level": "undergraduate",
+      "field": "Computer Science with Artificial Intelligence",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-with-artificial-intelligence-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science with Artificial Intelligence · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_5d1e6a9885",
+        "unm27_stpm_entry_route_0737e8bfe6",
+        "unm27_uec_entry_route_f5226b0c95",
+        "unm27_australian_year_12_entry_route_ce32eb482b",
+        "unm27_ontario_ossd_entry_route_8f04e49a16",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_db1a5ef6d7",
+        "unm27_cbse_cisce_class_xii_entry_route_298b29e4c3",
+        "unm27_us_advanced_placement_entry_route_1b7572ce27",
+        "unm27_local_diploma_entry_route_b020c5f461",
+        "unm27_external_foundation_entry_route_9dcd14c558",
+        "unm27_nottingham_foundation_entry_route_aeca214acf",
+        "unm27_additional_course_entry_conditions_e616a2da13"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_fc9fa990a2"
+        }
+      ]
+    },
+    {
+      "key": "unm27_mathematics-and-data-science-bsc-hons_9775ba22",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Mathematics and Data Science",
+      "level": "undergraduate",
+      "field": "Mathematics and Data Science",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_5d1e6a9885",
+        "unm27_stpm_entry_route_0737e8bfe6",
+        "unm27_uec_entry_route_f5226b0c95",
+        "unm27_australian_year_12_entry_route_ce32eb482b",
+        "unm27_ontario_ossd_entry_route_8f04e49a16",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_db1a5ef6d7",
+        "unm27_cbse_cisce_class_xii_entry_route_298b29e4c3",
+        "unm27_us_advanced_placement_entry_route_553fc30c1a",
+        "unm27_local_diploma_entry_route_2e602233e2",
+        "unm27_external_foundation_entry_route_f4e7c008a0",
+        "unm27_nottingham_foundation_entry_route_f164dc2fc6",
+        "unm27_english_language_scores_and_evidence_db565c8b0c",
+        "unm27_additional_course_entry_conditions_abf767ef4a"
+      ]
+    },
+    {
+      "key": "unm27_biomedical-science-bsc-hons_8f4a4a7a",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Biomedical Science",
+      "level": "undergraduate",
+      "field": "Biomedical Science",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_6116bd4b27",
+        "unm27_stpm_entry_route_f816f4d065",
+        "unm27_uec_entry_route_f22cd17cc3",
+        "unm27_australian_year_12_entry_route_ee02945910",
+        "unm27_ontario_ossd_entry_route_b8c9b92ea6",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_18eebd9f14",
+        "unm27_cbse_cisce_class_xii_entry_route_6fa421ae9c",
+        "unm27_us_advanced_placement_entry_route_b4573c341a",
+        "unm27_local_diploma_entry_route_1258da53b6",
+        "unm27_external_foundation_entry_route_79ec5b1197",
+        "unm27_nottingham_foundation_entry_route_3febdd1621"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_01ffd980fb"
+        }
+      ]
+    },
+    {
+      "key": "unm27_pharmaceutical-and-health-sciences-bsc-hons_a16678a6",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Pharmaceutical and Health Sciences",
+      "level": "undergraduate",
+      "field": "Pharmaceutical and Health Sciences",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_2f5104106f",
+        "unm27_stpm_entry_route_e6bdda8d76",
+        "unm27_uec_entry_route_9e03e22931",
+        "unm27_australian_year_12_entry_route_b9b9a1e7e1",
+        "unm27_ontario_ossd_entry_route_d0cc07a1dd",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_36c15493db",
+        "unm27_cbse_cisce_class_xii_entry_route_8f0d95be28",
+        "unm27_us_advanced_placement_entry_route_85efcdab5c",
+        "unm27_local_diploma_entry_route_414e16ab4d",
+        "unm27_external_foundation_entry_route_599479941e",
+        "unm27_nottingham_foundation_entry_route_3febdd1621",
+        "unm27_english_language_scores_and_evidence_a4794ef2c0",
+        "unm27_additional_course_entry_conditions_0ee30eeae8"
+      ]
+    },
+    {
+      "key": "unm27_pharmacy-bpharm-hons_9136ffa4",
+      "institutionKey": "unm",
+      "name": "Bachelor of Pharmacy (Hons)",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+        "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_559d337a89",
+        "unm27_stpm_entry_route_212ddd3727",
+        "unm27_uec_entry_route_0a34732a14",
+        "unm27_australian_year_12_entry_route_b0dabf6d13",
+        "unm27_ontario_ossd_entry_route_b728fc62fd",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_fdeb9b76af",
+        "unm27_cbse_cisce_class_xii_entry_route_be62ea19ef",
+        "unm27_us_advanced_placement_entry_route_86d929cb9d",
+        "unm27_local_diploma_year_2_eligibility_5cd1b5dacf",
+        "unm27_local_diploma_entry_route_98abcc1f03",
+        "unm27_external_foundation_entry_route_1168d35f16",
+        "unm27_nottingham_foundation_entry_route_cd2299b08b",
+        "unm27_additional_course_entry_conditions_36933289ee"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_01ffd980fb"
+        }
+      ]
+    },
+    {
+      "key": "unm27_pharmacy-mpharm-hons_9bbd6e52",
+      "institutionKey": "unm",
+      "name": "Master of Pharmacy (Hons)",
+      "level": "undergraduate",
+      "field": "Pharmacy",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+        "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_9daff96222",
+        "unm27_stpm_entry_route_1d44dbd5e0",
+        "unm27_uec_entry_route_18e5cfac0d",
+        "unm27_australian_year_12_entry_route_24cbfa883e",
+        "unm27_ontario_ossd_entry_route_7d42d11c66",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_4c1de7c3d4",
+        "unm27_cbse_cisce_class_xii_entry_route_99b6ad22e2",
+        "unm27_us_advanced_placement_entry_route_4f785d1a16",
+        "unm27_local_diploma_year_2_eligibility_5cd1b5dacf",
+        "unm27_local_diploma_entry_route_98abcc1f03",
+        "unm27_external_foundation_entry_route_38662bdde7",
+        "unm27_nottingham_foundation_entry_route_111f2b116e",
+        "unm27_english_language_scores_and_evidence_fb23625c70",
+        "unm27_additional_course_entry_conditions_36933289ee"
+      ]
+    },
+    {
+      "key": "unm27_applied-psychology-and-management-bsc-hons_dbe54126",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Applied Psychology and Management",
+      "level": "undergraduate",
+      "field": "Applied Psychology and Management",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/applied-psychology-and-management-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Applied Psychology and Management · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_2d5d521ba3",
+        "unm27_additional_course_entry_conditions_5e0cfaaaa4"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_a_levels_entry_route_4cb0079669"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_stpm_entry_route_a5e5fcb857"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_uec_entry_route_cb89528a51"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_australian_year_12_entry_route_c0c3f1f45c"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_ontario_ossd_entry_route_6800fdd7aa"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_cbse_cisce_class_xii_entry_route_684ad99ad2"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_us_advanced_placement_entry_route_c1725d9a14"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_local_diploma_entry_route_e88105a6e1"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_external_foundation_entry_route_694534a803"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_nottingham_foundation_entry_route_859c6b35ec"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_01ffd980fb"
+        }
+      ]
+    },
+    {
+      "key": "unm27_psychology-bsc-hons_36b703ac",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Psychology",
+      "level": "undergraduate",
+      "field": "Psychology",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/psychology-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Psychology · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_2f7f1a8ffa",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_b9fe77a2b6",
+        "unm27_additional_course_entry_conditions_d870767140"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_stpm_entry_route_a5e5fcb857"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_uec_entry_route_cb89528a51"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_australian_year_12_entry_route_c0c3f1f45c"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_ontario_ossd_entry_route_6800fdd7aa"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_cbse_cisce_class_xii_entry_route_684ad99ad2"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_us_advanced_placement_entry_route_c1725d9a14"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_local_diploma_entry_route_f7d4ea2109"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_external_foundation_entry_route_694534a803"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_nottingham_foundation_entry_route_e8c5466ea3"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_01ffd980fb"
+        }
+      ]
+    },
+    {
+      "key": "unm27_psychology-and-cognitive-neuroscience-bsc-hons_cc624761",
+      "institutionKey": "unm",
+      "name": "BSc (Hons) in Psychology and Cognitive Neuroscience",
+      "level": "undergraduate",
+      "field": "Psychology and Cognitive Neuroscience",
+      "source": {
+        "url": "https://www.nottingham.edu.my/ugstudy/course/psychology-and-cognitive-neuroscience-bsc-hons",
+        "title": "Nottingham Malaysia 2027 · BSc (Hons) in Psychology and Cognitive Neuroscience · Course identity",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "unm27_a_levels_entry_route_2f7f1a8ffa",
+        "unm27_gaokao_and_chinese_school_diploma_entry_ro_b9fe77a2b6",
+        "unm27_additional_course_entry_conditions_d870767140"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_stpm_entry_route_a5e5fcb857"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_uec_entry_route_cb89528a51"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_australian_year_12_entry_route_c0c3f1f45c"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_ontario_ossd_entry_route_6800fdd7aa"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_cbse_cisce_class_xii_entry_route_684ad99ad2"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_us_advanced_placement_entry_route_c1725d9a14"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_local_diploma_entry_route_f7d4ea2109"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_external_foundation_entry_route_694534a803"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_nottingham_foundation_entry_route_e8c5466ea3"
+        },
+        {
+          "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-1-2026-11-20-v2",
+          "key": "unm27_english_language_scores_and_evidence_01ffd980fb"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "unm",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "2027 programme-specific entry requirements. Year-2 local diploma consideration is scoped separately from first-year qualification and language policies.",
+      "requirements": [
+        {
+          "key": "unm27_a_levels_entry_route_5d1e6a9885",
+          "label": "A levels entry route",
+          "details": "A levels qualification. BBC, including Mathematics at grade B, excluding Critical Thinking and General Studies.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_stpm_entry_route_0737e8bfe6",
+          "label": "STPM entry route",
+          "details": "STPM qualification. BBC+, including Mathematics at grade B; excluding Pengajian Am.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · STPM entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_uec_entry_route_f5226b0c95",
+          "label": "UEC entry route",
+          "details": "UEC qualification. 5 B3s, including Mathematics, excluding Bahasa Malaysia and Chinese Language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · UEC entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_australian_year_12_entry_route_ce32eb482b",
+          "label": "Australian Year 12 entry route",
+          "details": "Australian Year 12 qualification. ATAR 82. Applicants are required to meet specific grade standards in Mathematics, aligned with A Level subject requirements. To fulfil these A Level standards, specific grade equivalents in the Senior Secondary Certificate of Education (SSCE) are required. For WACE, applicants must have studied both Mathematics Methods and Mathematics Specialist. For SACE, both Mathematical Methods and Specialist Mathematics are required. For other states and territories, the Mathematics subjects will be reviewed on a case-by-case basis.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Australian Year 12 entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_ontario_ossd_entry_route_8f04e49a16",
+          "label": "Ontario OSSD entry route",
+          "details": "Ontario OSSD qualification. 77% average based on 6 subjects, including 81% in both Advanced Functions and Calculus and Vectors. Canadian Secondary School Diplomas from other provinces are acceptable and will be assessed based on the University’s requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Ontario OSSD entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_db1a5ef6d7",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 70% average in the Gaokao, including 75% in Mathematics. In addition, a minimum of 78% overall in the Senior High School Diploma, with at least 80% in Mathematics and at least 70% in one of the Science, Technology, or Engineering subjects. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_cbse_cisce_class_xii_entry_route_298b29e4c3",
+          "label": "CBSE/CISCE Class XII entry route",
+          "details": "CBSE/CISCE Class XII qualification. 78% average from the best four subjects, including 80% in Mathematics (CBSE Applied Mathematics is not accepted). Excludes local language, Environmental Education, General Studies, and Physical Education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · CBSE/CISCE Class XII entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_1b7572ce27",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. 4, 4, 3, including AP Calculus with a score of 4.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_9dcd14c558",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion and requires a minimum GPA of 3.10 out of 4.0 and good grades in all mathematics modules, including at least a grade B.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_nottingham_foundation_entry_route_aeca214acf",
+          "label": "Nottingham foundation entry route",
+          "details": "Nottingham foundation qualification. Successful completion is required, with an overall minimum average of 50% and at least 50% in all Mathematics modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Nottingham foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_abf767ef4a",
+          "label": "Additional course-entry conditions",
+          "details": "In addition to the entry requirements listed above, applicants must have a grade C in Additional Mathematics at the SPM level or in Mathematics. Those with a grade C in Mathematics must also have at least a grade C in one of the Science, Technology, or Engineering subjects at SPM/GCSE/IGCSE/High School Diploma, or an equivalent qualification. This requirement may be waived for applicants with an appropriate science background.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_e616a2da13",
+          "label": "Additional course-entry conditions",
+          "details": "In addition to the entry requirements listed above, applicants must have a credit in Additional Mathematics at the SPM level or a grade B in Mathematics. Those with a grade B in Mathematics must also have at least a credit in one of the Science, Technology, or Engineering subjects at SPM/GCSE/IGCSE/High School Diploma or equivalent. This requirement may be waived for applicants with an appropriate science background.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-with-artificial-intelligence-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science with Artificial Intelligence · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_553fc30c1a",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. 4, 4, 3, including AP Calculus BC with a score of 4.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_f4e7c008a0",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion and requires a minimum GPA of 3.10 out of 4.0 and good grades in relevant subjects, including all Mathematics modules at grade B.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_nottingham_foundation_entry_route_f164dc2fc6",
+          "label": "Nottingham foundation entry route",
+          "details": "Nottingham foundation qualification. Successful completion is required, with a minimum score of 50% in all Mathematics modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · Nottingham foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_english_language_scores_and_evidence_db565c8b0c",
+          "label": "English language scores and evidence",
+          "details": "IELTS (Academic) 6.0 (with no less than 5.5 in each element) TOEFL (iBT) For tests taken up to January 2026 80 (minimum 17 in Writing and Listening, 18 in Reading and 20 in Speaking) TOEFL (iBT) For tests taken from February 2026 4.5 (with no less than 4.0 in each element) PTE (Academic) 65 (with no less than 59 in each element) GCE A Level English Language or English Literature Grade C GCE AS Level English Language or English Literature Grade C SPM CEFR level B2 (including B2 in each element) GCSE O-Level Grade C / 4 IGCSE (first language) Grade C / 4 IGCSE (first second) Grade B / 6 MUET Brand 4 UEC Grade B3 IB English A1 or A2 (Standard or Higher Level) 4 points IB English B (Higher Level) 4 points IB English B (Standard Level) 5 points OSSD English (ENG3U/ENG4U) (No fast-track route) 75% CBSE/CISCE Class XII 70% overall (confirmation that English was the medium of instruction is required) IELTS (Academic), TOEFL iBT, and PTE (Academic) test results must be less than two years old. IELTS One Skill Retake is accepted. IELTS Academic Online, TOEFL iBT Home Edition, and PTE Academic Online are not accepted. MUET results are valid for five years from the release date. OSSD English (ENG3U/ENG4U) with the required grades will only be accepted if applicants have completed all 30 credits from standard OSSD courses, not through credit exemptions. Fast-track routes are not accepted. CBSE/CISCE Class XII or Class X English with the required grades will only be accepted if applicants provide a confirmation letter stating that English was the medium of instruction throughout schooling from Class X to Class XII.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · English language scores and evidence",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_a_levels_entry_route_6116bd4b27",
+          "label": "A levels entry route",
+          "details": "A levels qualification. BBC, including Biology and Chemistry. One of these subjects must be at grade B, excluding Critical Thinking and General Studies.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_stpm_entry_route_f816f4d065",
+          "label": "STPM entry route",
+          "details": "STPM qualification. BBC+, including both Biology and Chemistry. One of these subjects must be at grade B, excluding Pengajian Am.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · STPM entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_uec_entry_route_f22cd17cc3",
+          "label": "UEC entry route",
+          "details": "UEC qualification. 5 B3s, including both Biology and Chemistry. One of these subjects must be at grade B3, excluding Bahasa Malaysia and Chinese Language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · UEC entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_australian_year_12_entry_route_ee02945910",
+          "label": "Australian Year 12 entry route",
+          "details": "Australian Year 12 qualification. ATAR 82. Applicants are required to meet specific grade standards in Biology and Chemistry, aligned with A Level subject requirements. To fulfil these A Level standards, specific grade equivalents in the Senior Secondary Certificate of Education (SSCE) are required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Australian Year 12 entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_ontario_ossd_entry_route_b8c9b92ea6",
+          "label": "Ontario OSSD entry route",
+          "details": "Ontario OSSD qualification. 77% average based on 6 subjects, including both Biology and Chemistry. Specific grade requirements must be met if subjects are required at A Level: 75% for C and 81% for B. Canadian Secondary School Diplomas from other provinces are acceptable and will be assessed based on the University’s requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Ontario OSSD entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_18eebd9f14",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 70% average in the Gaokao, including two required subjects (Biology and Chemistry) at 75% and 73%, respectively. In addition, a minimum of 78% overall in the Senior High School Diploma, including two required subjects (Biology and Chemistry) at 80% and 70%, respectively. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_cbse_cisce_class_xii_entry_route_6fa421ae9c",
+          "label": "CBSE/CISCE Class XII entry route",
+          "details": "CBSE/CISCE Class XII qualification. 78% average from the best four subjects, including Biology and Chemistry as required subjects, with at least one of these subjects at a minimum of 80% and the other at 70%. Excludes local language, Environmental Education, General Studies, and Physical Education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · CBSE/CISCE Class XII entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_b4573c341a",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. 4, 4, 3, including AP Biology and AP Chemistry, with one of these subjects at score of 4.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_79ec5b1197",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion and requires a minimum GPA of 3.10 out of 4.0 and good grades in relevant subjects, including both Biology and Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_nottingham_foundation_entry_route_3febdd1621",
+          "label": "Nottingham foundation entry route",
+          "details": "Nottingham foundation qualification. Successful completion is required with an overall minimum average of 50%, including at least 50% in all Biology and Chemistry modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Nottingham foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_a_levels_entry_route_2f5104106f",
+          "label": "A levels entry route",
+          "details": "A levels qualification. BBC in two science subjects, with Chemistry at grade B. Biology is preferred as the second science subject; however, Mathematics or Physics may be considered on a case-by-case basis. Critical Thinking and General Studies are excluded.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_stpm_entry_route_e6bdda8d76",
+          "label": "STPM entry route",
+          "details": "STPM qualification. BBC+ in two science subjects, including Chemistry at grade B. Biology is preferred as the second science subject; however, Mathematics or Physics may be considered on a case-by-case basis. Excludes Pengajian Am.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · STPM entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_uec_entry_route_9e03e22931",
+          "label": "UEC entry route",
+          "details": "UEC qualification. 5 B3s in two science subjects, including Chemistry. Biology is preferred as the second science subject; however, Mathematics or Physics may be considered on a case-by-case basis. Excludes Bahasa Malaysia and Chinese Language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · UEC entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_australian_year_12_entry_route_b9b9a1e7e1",
+          "label": "Australian Year 12 entry route",
+          "details": "Australian Year 12 qualification. ATAR 82. Chemistry is required, with specific grade standards aligned with A Level subject requirements. A second science subject is also required; Biology is preferred, but Physics or Mathematics may be accepted as a substitute on a case-by-case basis. To fulfil these A Level standards, specific grade equivalents in the Senior Secondary Certificate of Education (SSCE) are required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Australian Year 12 entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_ontario_ossd_entry_route_d0cc07a1dd",
+          "label": "Ontario OSSD entry route",
+          "details": "Ontario OSSD qualification. 77% average based on 6 subjects, including Chemistry at 81%. Biology is preferred as the second science subject; however, Mathematics or Physics may be accepted on a case-by-case basis. Specific grade requirements must be met if subjects are required at A Level: 75% for C and 81% for B. Canadian Secondary School Diplomas from other provinces are acceptable and will be assessed based on the University’s requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Ontario OSSD entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_36c15493db",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 70% average in the Gaokao, including two science subjects, with Chemistry required at a minimum of 75%. The second science subject should be Biology at a minimum of 73%; however, Mathematics or Physics may be considered on a case-by-case basis. In addition, a minimum of 78% overall in the Senior High School Diploma is required, with at least 80% in Chemistry and 70% in another science subject. Biology is preferred as the second science subject, though Mathematics or Physics may also be considered. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_cbse_cisce_class_xii_entry_route_8f0d95be28",
+          "label": "CBSE/CISCE Class XII entry route",
+          "details": "CBSE/CISCE Class XII qualification. 78% average from the best four subjects, including Chemistry at 80%. Biology is preferred as the second science subject at 70%; however, Mathematics or Physics may be considered on a case-by-case basis. Excludes local language, Environmental Education, General Studies, and Physical Education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · CBSE/CISCE Class XII entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_85efcdab5c",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. 4, 4, 3, including 4 in Chemistry. AP Biology is preferred as the second science subject; however, AP Physics or AP Calculus may be considered on a case-by-case basis.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_599479941e",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion and typically requires a minimum GPA of 3.10 out of 4.0 and good grades in Chemistry (a grade equivalent to B required). Biology is preferred as the second science subject; however, Mathematics or Physics may be considered on a case-by-case basis.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_english_language_scores_and_evidence_a4794ef2c0",
+          "label": "English language scores and evidence",
+          "details": "IELTS (Academic) IELTS 6.0 (with no less than 5.5 in each element) TOEFL (iBT) For tests taken up to January 2026 80 (minimum 17 in Writing and Listening, 18 in Reading and 20 in Speaking) TOEFL (iBT) For tests taken from February 2026 4.5 (with no less than 4.0 in each element) PTE (Academic) 65 (with no less than 59 in each element) GCE A Level English Language & Literature Grade C GCE AS Level English Language & Literature Grade C SPM CEFR level B2 (including B2 in each element) GCSE O-Level Grade C / 4 IGCSE (first language) Grade C / 4 IGCSE (second language) Grade B / 6 MUET Band 4 UEC Grade B3 IB English A1 or A2 (SL or HL) 4 points IB English B HL 4 points IB English B SL 5 points OSSD English (ENG3U/ENG4U) (No fast-track route) 75% CBSE/CISCE Class XII 70% overall (confirmation that English was the medium of instruction is required) IELTS (Academic), TOEFL iBT, and PTE (Academic) test results must be less than two years old. IELTS One Skill Retake is accepted. IELTS Academic Online, TOEFL iBT Home Edition, and PTE Academic Online are not accepted. MUET results are valid for five years from the release date. OSSD English (ENG3U/ENG4U) with the required grades will only be accepted if applicants have completed all 30 credits from standard OSSD courses, not through credit exemptions. Fast-track routes are not accepted. CBSE/CISCE Class XII English with the required grades will only be accepted if applicants provide a confirmation letter stating that English was the medium of instruction in Class XII. English language tests must be taken at a test centre situated in the applicant’s country of residence. International applicants who meet the University’s requirements may also need to submit extra documents or an approved English test for MOHE, if required.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · English language scores and evidence",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_0ee30eeae8",
+          "label": "Additional course-entry conditions",
+          "details": "Applicants who have been accepted without Biology at A Level or its equivalent must have obtained at least a grade B in Biology at SPM, GCSE, IGCSE, High School Diploma, or an equivalent qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_a_levels_entry_route_559d337a89",
+          "label": "A levels entry route",
+          "details": "A levels qualification. BBB, including Biology, Chemistry, and either Physics or Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_stpm_entry_route_212ddd3727",
+          "label": "STPM entry route",
+          "details": "STPM qualification. BBB, including Biology, Chemistry, and either Physics or Mathematics, excluding Pengajian Am.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · STPM entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_uec_entry_route_0a34732a14",
+          "label": "UEC entry route",
+          "details": "UEC qualification. 2 As, including Biology and Chemistry, plus grade B3 in Advanced Mathematics, Physics and 1 other academic subject, excluding Bahasa Malaysia and Chinese language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · UEC entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_australian_year_12_entry_route_b0dabf6d13",
+          "label": "Australian Year 12 entry route",
+          "details": "Australian Year 12 qualification. ATAR 86. Applicants are required to meet specific grade standards in Biology, Chemistry, and either Physics or Mathematics, aligned with A Level subject requirements. To fulfil these A Level standards, specific grade equivalents in the Senior Secondary Certificate of Education (SSCE) are required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Australian Year 12 entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_ontario_ossd_entry_route_b728fc62fd",
+          "label": "Ontario OSSD entry route",
+          "details": "Ontario OSSD qualification. 80% average based on 6 subjects, including 81% in Biology, Chemistry, and either Physics or Mathematics. Canadian Secondary School Diplomas from other provinces are acceptable and will be assessed based on the University’s requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Ontario OSSD entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_fdeb9b76af",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 73% average in the Gaokao, with 75% in Biology, Chemistry, and either Physics or Mathematics. Additionally, a minimum of 80% overall in the Senior High School Diploma, with 80% in Biology, Chemistry, and either Mathematics or Physics. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_cbse_cisce_class_xii_entry_route_be62ea19ef",
+          "label": "CBSE/CISCE Class XII entry route",
+          "details": "CBSE/CISCE Class XII qualification. 80% average from the best four subjects, including 80% in Biology, Chemistry, and either Physics or Mathematics. Excludes local language, Environmental Education, General Studies, and Physical Education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · CBSE/CISCE Class XII entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_86d929cb9d",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. Not acceptable.",
+          "category": "standardized_test",
+          "status": "not_considered",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_local_diploma_entry_route_98abcc1f03",
+          "label": "Local diploma entry route",
+          "details": "Local diploma qualification. Entry to Year 1 will be considered on a case-by-case basis, typically requiring a minimum GPA of 3.50 out of 4.0 in a Diploma in Pharmacy, Diploma in Health Sciences, or an equivalent qualification. Applicants must have achieved good grades (equivalent to at least a grade B) in Biology, Chemistry, and either Physics or Mathematics. The Diploma must be of 2.5 years' duration and must be fully completed at a single institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Local diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_1168d35f16",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion, requiring a GPA of 3.20 out of 4.0 and good grades (equivalent to at least a grade B) in Biology, Chemistry, and either Physics or Mathematics. The programme must be a one-year foundation programme completed at a single accredited institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_nottingham_foundation_entry_route_cd2299b08b",
+          "label": "Nottingham foundation entry route",
+          "details": "Nottingham foundation qualification. 65% in Mathematics, 65% across all Biology modules taken, and 65% across all Chemistry modules taken; and 40% in each individual non-Science module. All individual modules must be passed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Nottingham foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_36933289ee",
+          "label": "Additional course-entry conditions",
+          "details": "In addition to the entry requirements listed above: All applicants with a Matriculation, Foundation, or Diploma qualification must have obtained 5 Bs, including Biology, Chemistry, Physics, and either Mathematics or Additional Mathematics, in their SPM, GCSE, IGCSE, High School Diploma, or an equivalent qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_a_levels_entry_route_9daff96222",
+          "label": "A levels entry route",
+          "details": "A levels qualification. AAB, including Biology, Chemistry, and either Physics or Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_stpm_entry_route_1d44dbd5e0",
+          "label": "STPM entry route",
+          "details": "STPM qualification. AAB, including Biology, Chemistry, and either Physics or Mathematics, excluding Pengajian Am.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · STPM entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_uec_entry_route_18e5cfac0d",
+          "label": "UEC entry route",
+          "details": "UEC qualification. 4 As and 1 B3, including Biology, Chemistry, Advanced Mathematics, Physics, and one other academic subject, excluding Bahasa Malaysia and Chinese Language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · UEC entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_australian_year_12_entry_route_24cbfa883e",
+          "label": "Australian Year 12 entry route",
+          "details": "Australian Year 12 qualification. ATAR 92. Applicants are required to meet specific grade standards in Biology, Chemistry, and either Physics or Mathematics, aligned with A Level subject requirements. To fulfil these A Level standards, specific grade equivalents in the Senior Secondary Certificate of Education (SSCE) are required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · Australian Year 12 entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_ontario_ossd_entry_route_7d42d11c66",
+          "label": "Ontario OSSD entry route",
+          "details": "Ontario OSSD qualification. 83% average based on 6 subjects, including Biology, Chemistry, and either Physics or Mathematics. Applicants must also meet specific grade requirements for subjects required at A Level: 81% for a B and 85% for an A. Canadian Secondary School Diplomas from other provinces are acceptable and will be assessed based on the University’s requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · Ontario OSSD entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_4c1de7c3d4",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 77% average in the Gaokao, with 80% in two subjects and 75% in one other subject, including Biology, Chemistry, and either Physics or Mathematics. Additionally, a minimum of 90% overall in the Senior High School Diploma, with 90% in two subjects and 80% in one other subject, including Biology, Chemistry, and either Physics or Mathematics. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_cbse_cisce_class_xii_entry_route_99b6ad22e2",
+          "label": "CBSE/CISCE Class XII entry route",
+          "details": "CBSE/CISCE Class XII qualification. 87% average from the best four subjects, including 90% in two subjects and 80% in one other subject, with required subjects including Biology, Chemistry, and either Physics or Mathematics. Excludes local language, Environmental Education, General Studies, and Physical Education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · CBSE/CISCE Class XII entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_us_advanced_placement_entry_route_4f785d1a16",
+          "label": "US Advanced Placement entry route",
+          "details": "US Advanced Placement qualification. 5, 5, 4, including AP Biology, AP Chemistry, and either AP Physics or AP Calculus.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · US Advanced Placement entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_external_foundation_entry_route_38662bdde7",
+          "label": "External foundation entry route",
+          "details": "External foundation qualification. Acceptance is at the School’s discretion, requiring a GPA of 3.50 out of 4.0 and good grades (equivalent to at least a grade B) in Biology, Chemistry, and either Physics or Mathematics. The programme must be a one-year foundation programme completed at a single accredited institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · External foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_nottingham_foundation_entry_route_111f2b116e",
+          "label": "Nottingham foundation entry route",
+          "details": "Nottingham foundation qualification. 70% in Mathematics, 70% across all Biology modules taken, and 70% across all Chemistry modules taken; and 50% in each individual non-Science module. All individual modules must be passed. Only first-sit results will be considered.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · Nottingham foundation entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_english_language_scores_and_evidence_fb23625c70",
+          "label": "English language scores and evidence",
+          "details": "IELTS (Academic) 7.0 (with no less than 6.0 in each element) TOEFL (iBT) For tests taken up to January 2026 100 (minimum 19 in Writing and Listening, 20 in Reading and 22 in Speaking) TOEFL (iBT) For tests taken from February 2026 5.0 (with no less than 4.5 in each element) PTE (Academic) 76 (with no less than 65 in each element) GCE A Level English Language or English Literature Grade B GCE AS Level English Language or English Literature Grade B SPM CEFR level C1 (including C1 in each element) GCSE O-Level Grade B / 6 IGCSE (first language) Grade B / 6 IGCSE (second language) Grade A / 7 IB English A1 or A2 (Standard or Higher Level) 5 points IB English B (Higher Level) 5 points IB English B (Standard Level) 6 points OSSD English (ENG3U/ENG4U) (No fast-track route) 81% CBSE/CISCE Class XII 80% overall (confirmation that English was the medium of instruction is required) IELTS (Academic), TOEFL iBT, and PTE (Academic) test results must be less than two years old. IELTS One Skill Retake is accepted. IELTS Academic Online, TOEFL iBT Home Edition, and PTE Academic Online are not accepted. MUET results are valid for five years from the release date. OSSD English (ENG3U/ENG4U) with the required grades will only be accepted if applicants have completed all 30 credits from standard OSSD courses, not through credit exemptions. Fast-track routes are not accepted. CBSE/CISCE Class XII English with the required grades will only be accepted if applicants provide a confirmation letter stating that English was the medium of instruction in Class XII. English language tests must be taken at a test centre situated in the applicant’s country of residence. International applicants who meet the University’s requirements may also need to submit extra documents or an approved English test for MOHE, if required.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-mpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Master of Pharmacy (Hons) · English language scores and evidence",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_2d5d521ba3",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 68% average in the Gaokao, and a minimum of 75% overall, including 70% in Mathematics in the Senior High School Diploma. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/applied-psychology-and-management-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Applied Psychology and Management · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_5e0cfaaaa4",
+          "label": "Additional course-entry conditions",
+          "details": "In addition to the entry requirements listed above, applicants must have a grade C in Mathematics at SPM/GCSE/IGCSE/High School Diploma level or equivalent. This requirement may be waived if applicants have a pass in mathematics at a higher level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/applied-psychology-and-management-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Applied Psychology and Management · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_a_levels_entry_route_2f7f1a8ffa",
+          "label": "A levels entry route",
+          "details": "A levels qualification. BCC in either arts or science subjects, excluding Critical Thinking and General Studies. Psychology A Level is not required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/psychology-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Psychology · A levels entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_gaokao_and_chinese_school_diploma_entry_ro_b9fe77a2b6",
+          "label": "Gaokao and Chinese school diploma entry route",
+          "details": "Gaokao and Chinese school diploma qualification. 68% average in the Gaokao, and a minimum overall score of 75% in the Senior High School Diploma, including 70% in Mathematics and 70% in one other science subject. Gaokao scores are converted from 750 to a percentage scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/psychology-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Psychology · Gaokao and Chinese school diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_additional_course_entry_conditions_d870767140",
+          "label": "Additional course-entry conditions",
+          "details": "In addition to the entry requirements listed above, applicants must have a grade C in Mathematics and in a science subject at SPM, GCSE, IGCSE, High School Diploma, or an equivalent qualification. This requirement may be waived if applicants have obtained similar or equivalent grades at a higher level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/psychology-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Psychology · Additional course-entry conditions",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "institutionKey": "unm",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "Published Year-2 local diploma consideration. Review the programme language evidence requirements alongside this qualification route.",
+      "requirements": [
+        {
+          "key": "unm27_local_diploma_entry_route_b020c5f461",
+          "label": "Local diploma entry route",
+          "details": "Local diploma qualification. Entry to Year 2 is assessed on a case-by-case basis, typically requiring a minimum GPA of 3.10 out of 4.0 in a Diploma in Computer Science, Software Engineering, Information Technology, Information Systems, Science and Technology, or other related disciplines. Applicants must also have at least a grade B in all mathematics modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/computer-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) Computer Science · Local diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_local_diploma_entry_route_2e602233e2",
+          "label": "Local diploma entry route",
+          "details": "Local diploma qualification. Entry to Year 2 is assessed on a case-by-case basis, typically requiring a minimum GPA of 3.10 out of 4.0 and good grades in relevant subjects, including all Mathematics modules at grade B.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/mathematics-and-data-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Mathematics and Data Science · Local diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_local_diploma_entry_route_1258da53b6",
+          "label": "Local diploma entry route",
+          "details": "Local diploma qualification. Entry to Year 2 is assessed on a case-by-case basis, typically requiring a minimum GPA of 3.10 out of 4.0 and good grades in relevant subjects, including both Biology and Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/biomedical-science-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Biomedical Science · Local diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_local_diploma_entry_route_414e16ab4d",
+          "label": "Local diploma entry route",
+          "details": "Local diploma qualification. Entry to Year 2 is assessed on a case-by-case basis, typically requiring a minimum GPA of 3.10 out of 4.0 and good grades in Chemistry (grade equivalent to B required). Biology is preferred as the second science subject; however, Mathematics or Physics may be considered on a case-by-case basis.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmaceutical-and-health-sciences-bsc-hons",
+            "title": "Nottingham Malaysia 2027 · BSc (Hons) in Pharmaceutical and Health Sciences · Local diploma entry route",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "unm27_local_diploma_year_2_eligibility_5cd1b5dacf",
+          "label": "Local diploma Year-2 eligibility",
+          "details": "Year-2 entry using a local diploma is not permitted.",
+          "category": "academic",
+          "status": "not_considered",
+          "source": {
+            "url": "https://www.nottingham.edu.my/ugstudy/course/pharmacy-bpharm-hons",
+            "title": "Nottingham Malaysia 2027 · Bachelor of Pharmacy (Hons) · Local diploma Year-2 eligibility",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281643,
+            "programs": 281679,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3794,
+            "admissionProfiles": 3832,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25580,
+            "admissionRequirements": 25731,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1176
+            "qualificationRequirements": 1212
         },
         "ibCoverage": {
             "byCountry": [
@@ -66,9 +66,9 @@
                 },
                 {
                     "country": "Malaysia",
-                    "institutions": 5,
-                    "programs_with_reviewed_ib": 19,
-                    "programs_with_published_totals": 19
+                    "institutions": 6,
+                    "programs_with_reviewed_ib": 55,
+                    "programs_with_published_totals": 55
                 },
                 {
                     "country": "Mauritius",
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 96
                 }
             ],
-            "reviewedRecords": 1176,
-            "programsWithReviewedIb": 973,
+            "reviewedRecords": 1212,
+            "programsWithReviewedIb": 1009,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 44,
-            "programsWithPublishedTotals": 680,
-            "undergraduateCatalogEntries": 195955
+            "institutionsWithReviewedIb": 45,
+            "programsWithPublishedTotals": 716,
+            "undergraduateCatalogEntries": 195991
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4161,
+            "programs": 4162,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1940,
+            "admissions": 1941,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23989
+            "noStructuredApplicationFacts": 23988
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3560,
-            "profiles": 1353,
-            "institutions": 86
+            "facts": 3711,
+            "profiles": 1355,
+            "institutions": 87
         }
     },
-    "generatedAt": "2026-11-20T10:06:34Z",
+    "generatedAt": "2026-11-20T13:23:28Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 13,
-        "provider": "official_ib",
+        "inserted": 70,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 13,
-        "startedAt": "2026-11-20T10:05:40.317516+00:00",
-        "updatedAt": "2026-11-20T10:05:40.36+00:00",
+        "processed": 70,
+        "startedAt": "2026-11-20T13:21:37.71306+00:00",
+        "updatedAt": "2026-11-20T13:21:37.71306+00:00",
         "checkpoint": {
-            "rowIndex": 13,
-            "sourceRows": 13,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 2,
+            "admissionFacts": 70,
+            "programsReused": 10,
+            "programsCreated": 0,
+            "priorSharedLinksAdded": 35
         },
-        "finishedAt": "2026-11-20T10:05:40.36+00:00",
-        "artifactSha256": "b730ef2c74053002bb5d8cbe1b5a40ab3fccaa81f0b7fc588cd70c0a843dc672",
-        "datasetVersion": "official-ib-southampton-malaysia-2026-11-20-v1"
+        "finishedAt": "2026-11-20T13:21:37.811+00:00",
+        "artifactSha256": "43918fdada3c7da617d5b3f7e263fa59930c15dca48a850479ec3443b31d0b3f",
+        "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-2-2026-11-20-v2"
     },
     "schemaVersion": 2
 }

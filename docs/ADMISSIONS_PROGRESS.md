@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## University of Nottingham Malaysia 2027 — November 20
+
+1. **Baseline.** Local and GitHub main matched `5359683`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44716656879). The database matched the Southampton Malaysia checkpoint. The separate Nottingham Malaysian institution had no existing catalogue or reviewed admission records.
+2. **Sources.** The [source record](research/NOTTINGHAM_MALAYSIA_20261120.md) links all 36 official course pages. Each states 2027 entry. Programme-specific IB, A-level, AP, other qualifications, English evidence and additional school subjects were checked against each source. Intake remains unspecified.
+3. **Artifacts.** Three files add 36 courses, 36 numerical IB records and 151 distinct general facts with 453 links. Thirty-five links reuse part-1 facts from part 2. Six redundant draft facts were merged before publication. Actual course and language differences, AP refusal and first-year/transfer boundaries remain distinct.
+4. **Import and backup.** Validation, no-rejection previews and a verified full archive preceded import. The two initial general draft runs remain in the ledger with supersession notes; the bounded correction replaced only this batch's general facts. The 36 course IDs and IB records were retained. Final imports and repeats were unchanged, with earlier fact and IB fingerprints preserved.
+5. **Verification.** The live API matched all 36 courses and IB records, 151 facts and 453 links. Every qualification table matched its source. Programme search, year/applicant filters, BPharm AP refusal and Year-2 denial, Calculus BC and language-minor scope passed. Data quality, API and website checks passed.
+6. **Coverage and archive.** The database contains 28,171 institutions, 281,679 courses, 3,832 profiles, 25,731 requirements, 108,016 sources and 129 runs. There are 3,711 reviewed general facts across 87 institutions and 1,212 reviewed IB records. A total of 716 courses have numerical IB totals; 23,988 institutions still lack structured application facts. The complete readable archive is `backups/post-nottingham-malaysia-20261120.ucnsFp`, SHA-256 `bbbf6b557307a614e241b31c362e3984c60e3afbb680971cf7b8b402c9f8e52f`.
+
 ## University of Southampton Malaysia — November 20
 
 1. **Baseline.** Local and remote main matched `33f6875`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44693650704). The database matched the saved health checkpoint. The Malaysian institution had no catalogue or admission entries before this batch.
