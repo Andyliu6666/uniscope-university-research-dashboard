@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## UTech current citations and shared course links — November 20
+
+1. **Baseline.** Local and remote main matched `2a5300d`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44746781889). UTech had 49 courses and 102 reviewed facts. The November remaining-programmes batch and its full archive were complete.
+2. **Sources.** The [review record](research/UTECH_CITATIONS_SHARED_LINKS_20261120.md) independently checks all 51 older conditions against the current official booklet. Full pages and the Architecture footnote support the existing texts. The October URL returns 404. The 2027/2028 entry cycle remains separate from 2026/2027 tuition.
+3. **Artifacts.** A guarded 51-record citation manifest preserves academic content, IDs, scope and original source artifacts. A separate shared-link file adds five course identities, reuses three and links four existing rules 18 times. It adds zero facts and zero IB records.
+4. **Import and backup.** Validation, previews and a verified archive preceded changes. All 51 citations, 29 profile references and 22 programme source/provenance references were refreshed. The old source was archived in the new ledger and retired after reference checks. Both imports repeated unchanged. Final whole-database comparisons preserved all unrelated rows and earlier academic/IB fingerprints.
+5. **Verification.** API verification covers all citations, eight courses, 18 links, searches and route/year/applicant isolation. Safeguard tests, typecheck, lint and the isolated PostgreSQL rollback/repeat/provenance fixture passed. The live quality gate also caught and resolved 22 stale programme URL flags before publication; the new regression test prevents recurrence. The API Docker image includes both source and correction artifacts.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,711 courses, 3,832 profiles, 25,774 requirements, 108,016 sources and 132 runs. UTech has 54 courses and 102 reviewed facts; global reviewed facts remain 3,754 across 87 institutions, with 1,212 IB records and 716 numerical-IB courses. Complete readable archive `backups/post-utech-citations-links-final-20261120.1n51myck` has SHA-256 `ab11a3588b60cb2a6ee723cd80dac8f8ffba1cc6bf45533fe162d9eb10358c17`. Continue official admissions research beyond UTech; retain the five ambiguous Southampton Malaysia A-level cells as pending.
+
 ## UTech Jamaica additional programme routes — November 20
 
 1. **Baseline.** Local and remote main matched `21eaf2a`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44744420066). Docker and the database matched the Nottingham Malaysia checkpoint. UTech had 22 courses, 59 reviewed general facts and no reviewed IB rows.

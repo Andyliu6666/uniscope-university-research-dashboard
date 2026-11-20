@@ -22,6 +22,8 @@ docker compose exec -T api pnpm --filter @urd/api run import:admissions-facts /a
 
 Dry runs never write. The reviewed dataset has at most 200 facts; an applied batch and its ledger commit in one transaction. This is not an automated web scraper or proof of complete institution coverage. See the checkpoint for deduplication limitations and unresolved sources.
 
+When an official document moves, use the separate [reviewed citation maintenance workflow](docs/ADMISSIONS_CITATIONS.md) to preserve academic content and identities while updating source metadata. The [UTech review](docs/research/UTECH_CITATIONS_SHARED_LINKS_20261120.md) includes a complete reviewed replacement manifest and shared-course links that reuse existing rules.
+
 An open-source, non-profit university research website built by students. UniScope helps applicants discover, compare, and verify university information without turning the project into a large application.
 
 ## What is included

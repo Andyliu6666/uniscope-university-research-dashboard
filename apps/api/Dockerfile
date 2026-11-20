@@ -8,6 +8,7 @@ RUN pnpm install --frozen-lockfile
 COPY apps/api apps/api
 COPY packages/shared packages/shared
 COPY data/sources data/sources
+COPY data/corrections data/corrections
 RUN pnpm --filter @urd/api build
 
 FROM node:26-alpine

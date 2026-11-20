@@ -62,6 +62,6 @@ The live API matched every new fact, citation page title, check date, all 27 cat
 
 Complete readable post-import archive: `backups/post-utech-remaining-20261120.uwbdwp`, SHA-256 `f8164603bdce7b170b58e2118ed7d0f0013a8715da5a031871a9c14f2afbcee6`. Local raw captures, rendered pages, table-to-fact mapping, preview/import logs and independent API verification remain in `backups/research-utech-jamaica-20261120/` and the adjoining verification files. Raw booklet assets are not republished in the repository.
 
-## Next exact work
+## Follow-up completed
 
-Audit the older 51 UTech PDF-backed facts against the new source and reconcile the old 404 citation only where the current text independently supports the same condition. Preserve keys, course IDs, values, scopes and original import history. Shared-only Nursing/Midwifery/computing course identities and their older references must be reconciled before adding or linking them; do not create copies of prior shared rules. The remaining worldwide qualification and admissions research continues after this provenance repair.
+The [subsequent citation and shared-link review](UTECH_CITATIONS_SHARED_LINKS_20261120.md) completed the 51-fact audit, retired the inactive source safely and reconciled the Nursing/Midwifery/computing identities without duplicating rules. This document retains the original remaining-programmes batch's counts and evidence; use the later review and admissions checkpoint for current totals and next work.

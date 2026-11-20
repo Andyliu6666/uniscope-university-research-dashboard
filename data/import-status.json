@@ -2,7 +2,7 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281706,
+            "programs": 281711,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196018
+            "undergraduateCatalogEntries": 196023
         },
         "coreCoverage": {
             "phone": 4078,
@@ -182,26 +182,27 @@
             "institutions": 87
         }
     },
-    "generatedAt": "2026-11-20T13:39:52Z",
+    "generatedAt": "2026-11-20T14:59:59Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 43,
+        "inserted": 0,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 43,
-        "startedAt": "2026-11-20T13:37:56.096991+00:00",
-        "updatedAt": "2026-11-20T13:37:56.096991+00:00",
+        "processed": 0,
+        "startedAt": "2026-11-20T14:46:45.117941+00:00",
+        "updatedAt": "2026-11-20T14:46:45.117941+00:00",
         "checkpoint": {
-            "profiles": 3,
-            "admissionFacts": 43,
-            "programsReused": 0,
-            "programsCreated": 27
+            "profiles": 0,
+            "admissionFacts": 0,
+            "programsReused": 3,
+            "programsCreated": 5,
+            "priorSharedLinksAdded": 18
         },
-        "finishedAt": "2026-11-20T13:37:56.189+00:00",
-        "artifactSha256": "5b3b789e77355de42559580320e5afdb08a5ec6b8d43c18717aafece91cc0e00",
-        "datasetVersion": "official-admissions-utech-remaining-programmes-2027-2026-11-20-v1"
+        "finishedAt": "2026-11-20T14:46:45.153+00:00",
+        "artifactSha256": "18d02d6270416b01f8f688a10374eca0d087da464ebfbff37914b1a72df1df2f",
+        "datasetVersion": "official-admissions-utech-shared-course-links-2027-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

@@ -76,3 +76,5 @@ jobs:
         run: pnpm db:migrate
       - name: Verify independent admission delivery scopes
         run: pnpm db:test
+      - name: Verify reviewed citation transactions
+        run: pnpm --filter @urd/api db:test-citations
