@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281731,
+            "programs": 281735,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3835,
+            "admissionProfiles": 3836,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25868,
+            "admissionRequirements": 25881,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196043
+            "undergraduateCatalogEntries": 196047
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3848,
-            "profiles": 1358,
+            "facts": 3861,
+            "profiles": 1359,
             "institutions": 88
         }
     },
-    "generatedAt": "2026-11-20T16:41:41Z",
+    "generatedAt": "2026-11-20T16:54:44Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 43,
+        "inserted": 13,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 43,
-        "startedAt": "2026-11-20T16:39:22.199975+00:00",
-        "updatedAt": "2026-11-20T16:39:22.199975+00:00",
+        "processed": 13,
+        "startedAt": "2026-11-20T16:53:59.301294+00:00",
+        "updatedAt": "2026-11-20T16:53:59.301294+00:00",
         "checkpoint": {
-            "profiles": 2,
-            "admissionFacts": 43,
-            "programsReused": 1,
-            "programsCreated": 10,
-            "priorSharedLinksAdded": 146
+            "profiles": 3,
+            "admissionFacts": 13,
+            "programsReused": 0,
+            "programsCreated": 4,
+            "priorSharedLinksAdded": 11
         },
-        "finishedAt": "2026-11-20T16:39:22.328+00:00",
-        "artifactSha256": "24b030a3aab8a59f8aa101ac065203a317cfb646ec9952b910ebad3d2ad0d38e",
-        "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1"
+        "finishedAt": "2026-11-20T16:53:59.355+00:00",
+        "artifactSha256": "fad90caf680ca6901a1aab6b17f43be68921ca791ab48a2275427fa69c7c3ceb",
+        "datasetVersion": "official-admissions-stellenbosch-music-awards-2027-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

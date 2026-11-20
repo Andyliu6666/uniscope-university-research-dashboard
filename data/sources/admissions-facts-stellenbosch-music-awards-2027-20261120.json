@@ -1,0 +1,332 @@
+{
+  "datasetVersion": "official-admissions-stellenbosch-music-awards-2027-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "su",
+      "name": "Stellenbosch University",
+      "provider": "ror",
+      "externalId": "05bk57929",
+      "countryCode": "ZA",
+      "officialDomains": ["su.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bmus",
+      "institutionKey": "su",
+      "name": "BMus",
+      "level": "undergraduate",
+      "field": "Music",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+        "title": "Stellenbosch 2027 Arts yearbook · PDF 54–55",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27music_bmus_nsc_average_math",
+        "su27music_bmus_classical_audition",
+        "su27music_bmus_supplementary_routes",
+        "su27music_bmus_no_ecp",
+        "su27music_bmus_specialisation_selection",
+        "su27music_higher_certificate_progression",
+        "su27music_diploma_to_bmus_year_two"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_selection"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_complete_application"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_nbt"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_language_50_40"
+        }
+      ]
+    },
+    {
+      "key": "higher_certificate_music",
+      "institutionKey": "su",
+      "name": "Higher Certificate in Music",
+      "level": "undergraduate",
+      "field": "Music (Higher Certificate)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+        "title": "Stellenbosch 2027 Arts yearbook · PDF 77–78",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27music_certificate_diploma_nsc",
+        "su27music_certificate_practical_theory",
+        "su27music_certificate_diploma_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_selection"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_complete_application"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_nbt"
+        }
+      ]
+    },
+    {
+      "key": "diploma_practical_music",
+      "institutionKey": "su",
+      "name": "Diploma (Practical Music)",
+      "level": "undergraduate",
+      "field": "Practical Music (Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+        "title": "Stellenbosch 2027 Arts yearbook · PDF 79",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27music_certificate_diploma_nsc",
+        "su27music_diploma_practical_theory",
+        "su27music_certificate_diploma_selection",
+        "su27music_higher_certificate_progression"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_selection"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_complete_application"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_faculty_nbt"
+        }
+      ]
+    },
+    {
+      "key": "advanced_diploma_practical_music",
+      "institutionKey": "su",
+      "name": "Advanced Diploma (Practical Music)",
+      "level": "undergraduate",
+      "field": "Practical Music (Advanced Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+        "title": "Stellenbosch 2027 Arts yearbook · PDF 82",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27music_advanced_diploma_qualification",
+        "su27music_advanced_diploma_audition"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Separate 2027 Music awards. Certificate/diploma award names are explicit; undergraduate is the faculty catalogue grouping, not a claim that these are bachelor degrees. Advanced Diploma and internal progression use other; Diploma-to-BMus Year 2 uses transfer. No unpublished IB, A-level or AP score is inferred.",
+      "requirements": [
+        {
+          "key": "su27music_bmus_nsc_average_math",
+          "category": "academic",
+          "label": "BMus: NSC/IEB average and conditional Mathematics",
+          "status": "required",
+          "details": "BMus requires a final NSC/IEB average of at least 60%, excluding Life Orientation. Mathematics code 6 (70%) is required only when taking Mathematics 114 and 144. The separate four-approved-subject and language requirements also apply; this NSC/IEB percentage is not a published IB, A-level or AP threshold.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 54",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_bmus_classical_audition",
+          "category": "interview",
+          "label": "BMus: Grade 7 practical, Grade 5 theory and selection",
+          "status": "required",
+          "details": "BMus entrants must demonstrate a standard equivalent to Grade 7 practical on the principal instrument or voice and Grade 5 music theory of a recognised music examination body. A selection audition and theory test, during Grade 12 or the year before first registration, must demonstrate these standards in classical music. Selection is additional to school results.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 54",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_bmus_supplementary_routes",
+          "category": "academic",
+          "label": "BMus: supplementary work and alternative preparation",
+          "status": "conditional",
+          "details": "Applicants with potential but insufficient skills may be admitted subject to departmental supplementary work. If required to take Musicology (Music Skills) 271, they must pass it before proceeding to Theory of Music 174 the next year. The department may instead recommend the complete Higher Certificate year before reapplication, or the three-year Practical Music Diploma where practical standard is adequate but academic/theory preparation is insufficient. These are conditional alternatives, not automatic admission.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 54",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_bmus_no_ecp",
+          "category": "application",
+          "label": "BMus: no extended curriculum option",
+          "status": "not_required",
+          "details": "The BMus entry expressly states that this degree has no extended curriculum programme option. This does not remove its selection audition, theory test or other admission conditions.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 55",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_certificate_diploma_nsc",
+          "category": "academic",
+          "label": "Music certificate/diploma: four NSC subjects at code 3",
+          "status": "required",
+          "details": "The Higher Certificate in Music and Diploma (Practical Music) each require an Umalusi-certified NSC with at least code 3 (40–49%) in each of four approved school subjects, excluding Life Orientation. This is a four-subject condition, not a 40% overall average, and differs from the bachelor-degree certificate rule.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 77, 79",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_certificate_practical_theory",
+          "category": "academic",
+          "label": "Higher Certificate: practical/theory standards",
+          "status": "required",
+          "details": "For the Higher Certificate in Music, the published practical standard on the main instrument or voice is equivalent to Grade V/VI and theoretical knowledge to Grade III/IV of a music examination body. Bowed-string applicants specifically need at least Grade VI practical. The paired grades are preserved as printed, rather than turned into one invented universal grade.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 77",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_diploma_practical_theory",
+          "category": "academic",
+          "label": "Practical Music Diploma: Grade 7 practical, Grade 3/4 theory",
+          "status": "required",
+          "details": "For the Diploma (Practical Music), the main instrument or voice standard must be equivalent to Grade VII practical and theoretical knowledge to Grade III/IV of a music examination body. These are music examination standards, not school-leaving examination or IB grades.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 79",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_certificate_diploma_selection",
+          "category": "interview",
+          "label": "Music certificate/diploma: audition and theory test",
+          "status": "required",
+          "details": "The Higher Certificate in Music and Diploma (Practical Music) are selection programmes requiring an audition and theory test in the year before registration. Applicants with insufficient skills but suitable potential may be accepted conditionally with departmental supplementary work. Meeting the school-subject minimum alone does not secure admission.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 78–79",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Separate 2027 Music awards. Certificate/diploma award names are explicit; undergraduate is the faculty catalogue grouping, not a claim that these are bachelor degrees. Advanced Diploma and internal progression use other; Diploma-to-BMus Year 2 uses transfer. No unpublished IB, A-level or AP score is inferred.",
+      "requirements": [
+        {
+          "key": "su27music_bmus_specialisation_selection",
+          "category": "interview",
+          "label": "BMus: later specialisation selection",
+          "status": "conditional",
+          "details": "Specialisation within BMus starts in the third year. All practical specialisation routes, Composition and Music Technology require selection and/or an audition. This is internal progression after admission to the parent degree, not a new school-leaver qualification or a separate parent-course identity.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 55",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_higher_certificate_progression",
+          "category": "academic",
+          "label": "After Higher Certificate: new programme requirements still apply",
+          "status": "conditional",
+          "details": "After completing the Higher Certificate in Music, applicants may seek the Diploma in Practical Music or a Music Department degree, but must meet that destination programme's entrance requirements and prescribed selection process. The certificate does not automatically confer admission. The Diploma entry separately confirms both conditions for certificate holders.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 78–79",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_advanced_diploma_qualification",
+          "category": "academic",
+          "label": "Advanced Practical Music Diploma: prior qualification",
+          "status": "required",
+          "details": "The Advanced Diploma (Practical Music) requires the Diploma (Practical Music), or another music qualification approved by Senate. This is a prior-tertiary qualification route, not direct first-year admission on school-leaving scores.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 82",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27music_advanced_diploma_audition",
+          "category": "interview",
+          "label": "Advanced Practical Music Diploma: selection audition",
+          "status": "required",
+          "details": "Selection for the Advanced Diploma (Practical Music) is based on an audition. A candidate lacking the necessary qualifications may be accepted subject to supplementary work. This conditional exception does not establish an unconditional school-leaver route.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 82",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Separate 2027 Music awards. Certificate/diploma award names are explicit; undergraduate is the faculty catalogue grouping, not a claim that these are bachelor degrees. Advanced Diploma and internal progression use other; Diploma-to-BMus Year 2 uses transfer. No unpublished IB, A-level or AP score is inferred.",
+      "requirements": [
+        {
+          "key": "su27music_diploma_to_bmus_year_two",
+          "category": "academic",
+          "label": "Practical Music Diploma to BMus Year 2: two 70% results",
+          "status": "conditional",
+          "details": "In exceptional cases, a completed Diploma in Practical Music can support registration in BMus Year 2 when both General Music Study 391 and Theory of Music 371 have final marks of at least 70% each. Applicants must still satisfy all BMus admission requirements and the prescribed selection process. This is a tertiary progression condition, not a school-leaver or IB minimum.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 Arts yearbook · PDF 55, 79",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

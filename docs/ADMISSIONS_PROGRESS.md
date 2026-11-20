@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Stellenbosch separate Music awards — November 20
+
+1. **Baseline.** Local and remote main matched `b562098`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44776321000). The database matched the completed Arts checkpoint: 20 Stellenbosch courses and 94 reviewed facts.
+2. **Sources.** The [source record](research/STELLENBOSCH_MUSIC_AWARDS_20261120.md) identifies the official November 2027 yearbook and complete reviewed admission/continuation pages. BMus, certificate, diploma and advanced diploma are distinct from BA Music.
+3. **Artifact.** Four new identities and 13 distinct facts have 16 associations. Eleven further associations reuse existing faculty, certificate and language rules. First-year, internal/professional progression and exceptional second-year entry remain separate. No IB, A-level or AP threshold is invented.
+4. **Import and backup.** Validation and zero-write preview passed. The Arts archive was verified before import. All 13 facts and four courses were added; repeat made no changes. Prior university/course/profile/source/import rows, earlier facts/links and all 1,212 IB rows retained their fingerprints.
+5. **Verification.** API checks matched all facts and 27 associations. All 24 course/route/cohort searches passed, with substring search unions accounted for. Checks cover the two 70% tertiary marks, bowed-string practical grade, school-subject counts and the Advanced Diploma's separate route. Data quality checks passed.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,735 courses, 3,836 profiles, 25,881 requirements, 108,020 sources and 135 runs. Reviewed general facts total 3,861 across 88 institutions; Stellenbosch has 24 courses and 107 facts. Numerical IB coverage remains 716 courses. Complete readable archive `backups/post-stellenbosch-music-20261120.drzk1_80` has SHA-256 `a2f1b917dd6a8fe5f7b6ce0bf8aea3f740e39897eb1bd7616a2969b777eb394d`. Next inspect Economic and Management Sciences PDF 18–21, reusing existing identities/rules after checking each column and faculty policy.
+
 ## Stellenbosch Arts and Social Sciences — November 20
 
 1. **Baseline.** Local and remote main matched `8705be2`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44764957751). The database matched the complete Agrisciences checkpoint: ten Stellenbosch courses and 51 reviewed facts.
