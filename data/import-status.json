@@ -2,7 +2,7 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281679,
+            "programs": 281706,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
@@ -10,7 +10,7 @@
             "admissionProfiles": 3832,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25731,
+            "admissionRequirements": 25774,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 195991
+            "undergraduateCatalogEntries": 196018
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3711,
+            "facts": 3754,
             "profiles": 1355,
             "institutions": 87
         }
     },
-    "generatedAt": "2026-11-20T13:23:28Z",
+    "generatedAt": "2026-11-20T13:39:52Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 70,
+        "inserted": 43,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 70,
-        "startedAt": "2026-11-20T13:21:37.71306+00:00",
-        "updatedAt": "2026-11-20T13:21:37.71306+00:00",
+        "processed": 43,
+        "startedAt": "2026-11-20T13:37:56.096991+00:00",
+        "updatedAt": "2026-11-20T13:37:56.096991+00:00",
         "checkpoint": {
-            "profiles": 2,
-            "admissionFacts": 70,
-            "programsReused": 10,
-            "programsCreated": 0,
-            "priorSharedLinksAdded": 35
+            "profiles": 3,
+            "admissionFacts": 43,
+            "programsReused": 0,
+            "programsCreated": 27
         },
-        "finishedAt": "2026-11-20T13:21:37.811+00:00",
-        "artifactSha256": "43918fdada3c7da617d5b3f7e263fa59930c15dca48a850479ec3443b31d0b3f",
-        "datasetVersion": "official-admissions-nottingham-malaysia-2027-part-2-2026-11-20-v2"
+        "finishedAt": "2026-11-20T13:37:56.189+00:00",
+        "artifactSha256": "5b3b789e77355de42559580320e5afdb08a5ec6b8d43c18717aafece91cc0e00",
+        "datasetVersion": "official-admissions-utech-remaining-programmes-2027-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

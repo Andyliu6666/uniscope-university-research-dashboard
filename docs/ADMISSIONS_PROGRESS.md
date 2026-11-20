@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## UTech Jamaica additional programme routes — November 20
+
+1. **Baseline.** Local and remote main matched `21eaf2a`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44744420066). Docker and the database matched the Nottingham Malaysia checkpoint. UTech had 22 courses, 59 reviewed general facts and no reviewed IB rows.
+2. **Sources.** The [source record](research/UTECH_REMAINING_PROGRAMMES_20261120.md) identifies the current official 31-page PDF, complete reviewed pages, 2027/2028 entry cycle and the separate 2026/2027 tuition column. The older October PDF URL returns 404 and has a separate pending citation audit.
+3. **Artifact.** One file adds 27 course identities, 43 distinct facts and 66 associations. Shared school/selection policies are stored once. Professional, accelerated and transfer branches keep their conditions. No IB/AP minimum is manufactured from missing information or academic credit.
+4. **Import and backup.** Validation and the no-write preview passed with zero skips. The complete pre-import archive was verified. All 43 facts and 27 courses were inserted, and repeat import was unchanged. Earlier admissions facts, UTech course identities and all 1,212 IB rows retained their fingerprints.
+5. **Verification.** The API matched all new names, facts, page citations, review dates and associations. All 27 course searches, year and exact applicant-cohort filtering, certificate subject counts, professional routes, clinical experience and the associate GPA passed. Data quality, API and website checks passed.
+6. **Coverage and archive.** The database contains 28,171 institutions, 281,706 courses, 3,832 profiles, 25,774 requirements, 108,017 sources and 130 runs. Reviewed general facts total 3,754 across 87 institutions; UTech has 49 courses and 102 reviewed facts. Numerical IB coverage remains 716 courses. Complete readable archive: `backups/post-utech-remaining-20261120.uwbdwp`, SHA-256 `f8164603bdce7b170b58e2118ed7d0f0013a8715da5a031871a9c14f2afbcee6`.
+
 ## University of Nottingham Malaysia 2027 — November 20
 
 1. **Baseline.** Local and GitHub main matched `5359683`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44716656879). The database matched the Southampton Malaysia checkpoint. The separate Nottingham Malaysian institution had no existing catalogue or reviewed admission records.

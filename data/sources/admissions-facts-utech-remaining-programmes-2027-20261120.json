@@ -1,0 +1,1002 @@
+{
+  "datasetVersion": "official-admissions-utech-remaining-programmes-2027-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "utech",
+      "name": "University of Technology, Jamaica",
+      "provider": "ror",
+      "externalId": "02w1kdc51",
+      "countryCode": "JM",
+      "officialDomains": ["utech.edu.jm"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bba",
+      "institutionKey": "utech",
+      "name": "Bachelor of Business Administration",
+      "level": "undergraduate",
+      "field": "Business Administration",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 7 (PDF 9)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_bba_advanced_standing"
+      ]
+    },
+    {
+      "key": "accounting",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Accounting",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 7 (PDF 9)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_business_land_school_subjects"]
+    },
+    {
+      "key": "finance_technology",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Finance and Technology",
+      "level": "undergraduate",
+      "field": "Finance and Technology",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 7 (PDF 9)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_business_land_school_subjects"]
+    },
+    {
+      "key": "food_service",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Food Service Management",
+      "level": "undergraduate",
+      "field": "Food Service Management",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 8 (PDF 10)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_optional_first_year_interview",
+        "utech27_hospitality_language_asset",
+        "utech27_food_service_subject_asset"
+      ]
+    },
+    {
+      "key": "hospitality",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Hospitality & Tourism Management",
+      "level": "undergraduate",
+      "field": "Hospitality and Tourism",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 8 (PDF 10)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_optional_first_year_interview",
+        "utech27_hospitality_language_asset"
+      ]
+    },
+    {
+      "key": "entrepreneurship",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Entrepreneurship",
+      "level": "undergraduate",
+      "field": "Entrepreneurship",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 8 (PDF 10)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_business_land_school_subjects"]
+    },
+    {
+      "key": "medical_technology",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Medical Technology",
+      "level": "undergraduate",
+      "field": "Medical Technology",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_health_school_chemistry_biology",
+        "utech27_required_first_year_interview",
+        "utech27_medical_technology_topup"
+      ]
+    },
+    {
+      "key": "child_development",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Child and Adolescent Development",
+      "level": "undergraduate",
+      "field": "Child and Adolescent Development",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_required_first_year_interview",
+        "utech27_child_bachelor_school_subjects",
+        "utech27_child_bachelor_psychometric",
+        "utech27_child_bachelor_police"
+      ]
+    },
+    {
+      "key": "dietetics",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Dietetics and Nutrition",
+      "level": "undergraduate",
+      "field": "Dietetics and Nutrition",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_required_first_year_interview",
+        "utech27_dietetics_school_subjects"
+      ]
+    },
+    {
+      "key": "health_sciences",
+      "institutionKey": "utech",
+      "name": "Bachelor of Health Sciences",
+      "level": "undergraduate",
+      "field": "Health Sciences",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_health_sciences_prior_qualification",
+        "utech27_health_sciences_experience"
+      ]
+    },
+    {
+      "key": "midwifery",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Midwifery",
+      "level": "undergraduate",
+      "field": "Midwifery",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_midwifery_rn_route",
+        "utech27_midwifery_rn_module_review",
+        "utech27_midwifery_rm_route",
+        "utech27_midwifery_rm_portfolio",
+        "utech27_midwifery_qualified_interview"
+      ]
+    },
+    {
+      "key": "critical_care_certificate",
+      "institutionKey": "utech",
+      "name": "Certificate in Critical Care Nursing (Post RN)",
+      "level": "undergraduate",
+      "field": "Critical Care Nursing",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_critical_care_rn_conditions"]
+    },
+    {
+      "key": "midwifery_certificate",
+      "institutionKey": "utech",
+      "name": "Certificate in Midwifery",
+      "level": "undergraduate",
+      "field": "Midwifery",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_midwifery_certificate_rn"]
+    },
+    {
+      "key": "dentistry",
+      "institutionKey": "utech",
+      "name": "Doctor of Medical Dentistry",
+      "level": "undergraduate",
+      "field": "Dentistry",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_required_first_year_interview",
+        "utech27_dentistry_school_route",
+        "utech27_dentistry_prior_degree"
+      ]
+    },
+    {
+      "key": "dental_lab",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Dental Laboratory Technology",
+      "level": "undergraduate",
+      "field": "Dental Laboratory Technology",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_required_first_year_interview",
+        "utech27_dental_lab_school_subjects"
+      ]
+    },
+    {
+      "key": "dental_hygiene",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Dental Hygiene (Accelerated)",
+      "level": "undergraduate",
+      "field": "Dental Hygiene",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_health_school_chemistry_biology",
+        "utech27_required_first_year_interview"
+      ]
+    },
+    {
+      "key": "dental_assisting",
+      "institutionKey": "utech",
+      "name": "Diploma in Dental Assisting (Expanded function) (Accelerated)",
+      "level": "undergraduate",
+      "field": "Dental Assisting",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_required_first_year_interview",
+        "utech27_dental_assisting_school_subjects"
+      ]
+    },
+    {
+      "key": "environmental_health",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Environmental Health",
+      "level": "undergraduate",
+      "field": "Environmental Health",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_health_school_chemistry_biology",
+        "utech27_environmental_health_selection"
+      ]
+    },
+    {
+      "key": "occupational_health",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Occupational Health, Safety & Environmental Management",
+      "level": "undergraduate",
+      "field": "Occupational Health and Safety",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_occupational_health_school_subjects",
+        "utech27_occupational_health_interview"
+      ]
+    },
+    {
+      "key": "food_inspection",
+      "institutionKey": "utech",
+      "name": "Diploma in Meats & Other Foods Inspection (Post-Basic)",
+      "level": "undergraduate",
+      "field": "Public Health Inspection",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["utech27_food_inspection_professional_route"]
+    },
+    {
+      "key": "apparel",
+      "institutionKey": "utech",
+      "name": "Bachelor of Arts in Apparel Design, Production & Management",
+      "level": "undergraduate",
+      "field": "Apparel Design",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 14 (PDF 16)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_apparel_other_route_ambiguity"
+      ]
+    },
+    {
+      "key": "sport_sciences",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Sport Sciences",
+      "level": "undergraduate",
+      "field": "Sport Sciences",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 21 (PDF 23)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_sport_sciences_school_subjects",
+        "utech27_sport_sciences_cape",
+        "utech27_sport_sciences_pla"
+      ]
+    },
+    {
+      "key": "construction",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Construction Management",
+      "level": "undergraduate",
+      "field": "Construction Management",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_construction_school_subjects",
+        "utech27_construction_cape_three_year",
+        "utech27_construction_post_diploma"
+      ]
+    },
+    {
+      "key": "land_surveying",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Land Surveying and Geographic Information Sciences",
+      "level": "undergraduate",
+      "field": "Land Surveying",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_land_surveying_preferences",
+        "utech27_land_surveying_associate"
+      ]
+    },
+    {
+      "key": "quantity_surveying",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Quantity Surveying",
+      "level": "undergraduate",
+      "field": "Quantity Surveying",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_optional_first_year_interview",
+        "utech27_quantity_surveying_preferences"
+      ]
+    },
+    {
+      "key": "real_estate",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Real Estate Management & Valuation",
+      "level": "undergraduate",
+      "field": "Real Estate",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_optional_first_year_interview",
+        "utech27_real_estate_preferences"
+      ]
+    },
+    {
+      "key": "spatial_planning",
+      "institutionKey": "utech",
+      "name": "Bachelor of Science in Sustainable Spatial Planning and Land Development",
+      "level": "undergraduate",
+      "field": "Spatial Planning",
+      "source": {
+        "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+        "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "utech27_business_land_school_subjects",
+        "utech27_optional_first_year_interview",
+        "utech27_spatial_planning_preferences",
+        "utech27_spatial_planning_accelerated",
+        "utech27_spatial_planning_accelerated_interview"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-linked 2027/2028 qualification and selection conditions. Professional, prior-study and accelerated routes are explicitly identified; read alternatives as alternatives.",
+      "requirements": [
+        {
+          "key": "utech27_business_land_school_subjects",
+          "label": "Listed business, apparel and land degrees: five school subjects",
+          "details": "For the linked courses, the school-leaver route requires five accepted CSEC/GCE O-level subjects including English Language, Mathematics and three other approved subjects. Course-specific preferences and additional selection conditions remain separate. This rule is not assigned to three-/four-subject certificates, professional top-up routes or degrees with specific science combinations.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed pages 7-8, 14, 23-24 (PDF 9-10, 16, 25-26)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_optional_first_year_interview",
+          "label": "Possible interview for the linked courses",
+          "details": "An interview may be required for the linked Food Service Management, Hospitality & Tourism Management, Quantity Surveying, Real Estate Management & Valuation, and Sustainable Spatial Planning and Land Development courses. It is a conditional selection step, not an interview mandate for every university applicant.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed pages 8, 23-24 (PDF 10, 25-26)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_hospitality_language_asset",
+          "label": "Food Service and Hospitality: foreign language is an asset",
+          "details": "A foreign language is an asset for the Food Service Management and Hospitality & Tourism Management courses. The source does not make a foreign-language qualification compulsory or give a required grade.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 8 (PDF 10)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_food_service_subject_asset",
+          "label": "Food Service: Food, Nutrition and Health subject advantage",
+          "details": "Food and Nutrition and Health is an asset for Food Service Management. This is a subject advantage rather than an additional compulsory school subject.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 8 (PDF 10)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_health_school_chemistry_biology",
+          "label": "Medical Technology, Dental Hygiene and Environmental Health: school sciences",
+          "details": "The linked Medical Technology, accelerated Dental Hygiene and Environmental Health courses require five accepted CSEC/GCE O-level passes including English Language, Mathematics, Chemistry, Biology or Human and Social Biology, and one other approved subject. Interview conditions are recorded separately.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed pages 9, 13 (PDF 11, 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_required_first_year_interview",
+          "label": "Interview required for the linked health courses",
+          "details": "An interview is required for the linked first-year Medical Technology, Child and Adolescent Development, Dietetics and Nutrition, Doctor of Medical Dentistry, Dental Laboratory Technology, accelerated Dental Hygiene and accelerated Dental Assisting courses. No numerical interview pass mark is published in these rows.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed pages 9, 13 (PDF 11, 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_child_bachelor_school_subjects",
+          "label": "Child Development bachelor: five school subjects",
+          "details": "For the Child and Adolescent Development bachelor degree, five accepted CSEC/GCE O-level passes must include English Language, Mathematics, Biology or Human and Social Biology, and two other approved subjects. The certificate in the same field has a different subject count.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_child_bachelor_psychometric",
+          "label": "Child Development bachelor: psychometric test pass",
+          "details": "Applicants to the Child and Adolescent Development bachelor degree must pass the Psychometric Test. No numerical pass threshold is given. The separate interview requirement also applies.",
+          "category": "standardized_test",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_child_bachelor_police",
+          "label": "Child Development bachelor: clean police record",
+          "details": "Applicants to the Child and Adolescent Development bachelor degree must provide a clean Police Record. This document condition is not extended to unrelated courses.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_dietetics_school_subjects",
+          "label": "Dietetics: Biology plus another science",
+          "details": "Dietetics and Nutrition requires five accepted CSEC/GCE O-level passes including English Language, Mathematics, Biology or Human and Social Biology, one other science subject and one other approved subject. Chemistry is preferred for the other science; it is not stated as compulsory.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_dentistry_school_route",
+          "label": "Dentistry: school subjects plus CAPE or three A-levels",
+          "details": "For the school-leaver route to Doctor of Medical Dentistry, five accepted CSEC/GCE O-level passes must include English Language, Mathematics, Chemistry, Biology and another science. The row additionally lists CAPE Units 1 and 2 in Pure Mathematics or Physics, Biology and Chemistry, or three GCE A-levels. It does not specify the three GCE subject grades; do not infer a numeric grade pattern or an IB equivalent.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_dental_lab_school_subjects",
+          "label": "Dental Laboratory Technology: Chemistry among five subjects",
+          "details": "Dental Laboratory Technology requires five accepted CSEC/GCE O-level passes including English Language, Mathematics, Chemistry and two other subjects. An interview also applies.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_dental_assisting_school_subjects",
+          "label": "Dental Assisting diploma: three school subjects",
+          "details": "The accelerated Expanded-function Dental Assisting diploma requires three accepted CSEC/GCE O-level passes: English Language, Mathematics, and Biology or Integrated Science or Human and Social Biology. An interview also applies; this is not the five-subject dental bachelor route.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_environmental_health_selection",
+          "label": "Environmental Health: pass final selection interview",
+          "details": "For Environmental Health with the Public Health Inspection major, applicants must pass a final selection interview. No numerical pass mark is supplied. The linked school-subject requirement also applies.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_occupational_health_school_subjects",
+          "label": "Occupational Health: Biology and Chemistry among five subjects",
+          "details": "Occupational Health, Safety & Environmental Management requires five accepted CSEC/GCE O-level passes including English Language, Mathematics, Biology, Chemistry and one other approved subject. Unlike the neighbouring Environmental Health row, this row does not name Human and Social Biology as an alternative to Biology.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_occupational_health_interview",
+          "label": "Occupational Health: interview required",
+          "details": "An interview is required for Occupational Health, Safety & Environmental Management. The source does not publish a numerical interview score.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_sport_sciences_school_subjects",
+          "label": "Sport Sciences: two sciences within five subjects",
+          "details": "Sport Sciences requires five accepted CSEC/GCE O-level passes including English Language, Mathematics and two science subjects selected from Biology, Integrated Science, Physics, Chemistry or Physical Education. The fifth subject may be any subject chosen by the applicant. The same published rule covers Art & Science of Coaching, Athletic Training and Sport Management.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 21 (PDF 23)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_sport_sciences_cape",
+          "label": "Sport Sciences: CAPE subjects considered",
+          "details": "CAPE subjects at Unit 1 and/or Unit 2 are also considered for Sport Sciences. No CAPE grade minimum or universal requirement to complete both units is specified in this row.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 21 (PDF 23)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_construction_school_subjects",
+          "label": "Construction: five subjects including two technical subjects",
+          "details": "Construction Management requires five accepted CXC/GCE O-level subjects including English Language, Mathematics or City and Guilds Stage 3 Mathematics, two technical subjects and one other subject. Industrial Technology, Technical Drawing and Building Technology are preferred technical subjects, not an instruction to take all three.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_land_surveying_preferences",
+          "label": "Land Surveying: preferred school subjects",
+          "details": "Preferred subjects for Land Surveying and Geographic Information Sciences are Physics, Geography, Information Technology, Technical Drawing, Additional Mathematics and Elementary Surveying where offered as a CSEC-level subject. These are preferences alongside the linked five-subject requirement, not six additional compulsory subjects.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_quantity_surveying_preferences",
+          "label": "Quantity Surveying: preferred school subjects",
+          "details": "Preferred subjects for Quantity Surveying are Building Technology, Electrical Installations, Chemistry, Physics, Additional Mathematics, Information Technology, Principles of Accounts, Technical Drawing and Geography. The linked five-subject requirement applies; the preference list is not a demand to take every subject.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_real_estate_preferences",
+          "label": "Real Estate: preferred school subjects",
+          "details": "Preferred subjects for Real Estate Management & Valuation are Geography, Economics, Accounts, Information Technology, Social Studies and Principles of Business. These are subject preferences alongside the linked school-subject requirement.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_spatial_planning_preferences",
+          "label": "Spatial Planning: preferred school subjects",
+          "details": "Preferred school subjects for Sustainable Spatial Planning and Land Development are Geography, Social Studies, Technical Drawing, Art and Information Technology. The same preferences are printed for the regular and accelerated rows; they are recorded once.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-linked 2027/2028 qualification and selection conditions. Professional, prior-study and accelerated routes are explicitly identified; read alternatives as alternatives.",
+      "requirements": [
+        {
+          "key": "utech27_medical_technology_topup",
+          "label": "Medical Technology: post-diploma clinical laboratory route",
+          "details": "The post-diploma Medical Technology route requires a CAST/UTech Jamaica Diploma in Medical Technology or an equivalent diploma from a recognized institution, plus two years of post-diploma work experience in a clinical laboratory. This is distinct from the four-year school-leaver route.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_health_sciences_prior_qualification",
+          "label": "Health Sciences: diploma or equivalent prior-study routes",
+          "details": "For the Health Sciences degree, UTech Jamaica graduates with a Health Science Diploma, an Associate Degree in Health Information Technology, or equivalent-level training are considered. A diploma or equivalent academic certification in General Business Education is considered specifically for Health Services Administration. The programme title lists Health Administration and Health Information Management majors; confirm the Administration naming variation with the school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_health_sciences_experience",
+          "label": "Health Sciences: other health qualification requires three years",
+          "details": "Applicants who do not hold a Health Science Diploma but hold another acceptable health-discipline qualification must additionally have at least three years of professional working experience. This condition does not automatically apply to the named Health Science Diploma route.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 9 (PDF 11)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_rn_route",
+          "label": "Midwifery RN route: licence and approved nursing qualification",
+          "details": "For the Registered Nurse entry route to the Midwifery bachelor degree, provide a current nursing licence in the country of practice and Nursing Council of Jamaica approval of graduation from an approved general nursing programme. RNs meeting these qualification/licence conditions are exempted from years 1 and 2 to complete years 3 and 4; university-module exemptions depend on transcript assessment.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_rn_module_review",
+          "label": "Midwifery RN route: transcript-module assessment ambiguity",
+          "details": "The RN route requires assessment of university-module exemptions, with additional modules if exemption is denied. The row refers to exemptions of up to 20 credits but does not fully explain that limit. Confirm its application rather than treating it as a universal maximum on the separate two-year exemption.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_rm_route",
+          "label": "Midwifery RM route: accredited award and current registration",
+          "details": "For the Registered Midwife entry route, applicants must have completed an accredited midwifery programme and obtained a midwifery Certificate, Diploma or Associate Degree. They must be registered midwives, whether direct-entry or registered-nurse midwives, with a current licence in the country of practice.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_rm_portfolio",
+          "label": "Midwifery RM route: clinical practice-hours portfolio",
+          "details": "Registered Midwife entrants must provide a compiled portfolio of their clinical practice hours as a midwife. The source does not specify a minimum number of hours or a portfolio piece count.",
+          "category": "portfolio",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_qualified_interview",
+          "label": "Midwifery RN/RM routes: successful interview",
+          "details": "Acceptance to either the Registered Nurse or Registered Midwife route of the Midwifery bachelor degree requires a successful interview. These professional routes do not borrow the separate direct-entry pre-entrance test condition.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_critical_care_rn_conditions",
+          "label": "Critical Care certificate: licensed BLS-certified practising nurse",
+          "details": "The post-RN Critical Care Nursing certificate requires a licensed, BLS-certified practising Registered Nurse with at least six months of relevant experience. The listed areas are Medical Surgical Nursing, Post Anaesthetic Care, Accident and Emergency, and Operating Theatre nursing; the row does not specify a separate six-month minimum per area. No ordinary school-leaver route is stated in this row.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_midwifery_certificate_rn",
+          "label": "Midwifery certificate: accredited nursing and active practice",
+          "details": "The Midwifery certificate requires Registered Nurses who completed an accredited nursing programme and are actively working in a health facility. Its entry conditions are distinct from the Midwifery bachelor degree routes. The examination taken after programme completion is not treated as an entrance test.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 11 (PDF 13)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_dentistry_prior_degree",
+          "label": "Dentistry: science-degree alternative",
+          "details": "A BSc in Dental Sciences, another Biological degree or a Chemistry degree is listed as an alternative entry qualification for Doctor of Medical Dentistry. This is a prior-degree route, not an additional degree demanded from school-leavers. An interview remains required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_food_inspection_professional_route",
+          "label": "Food Inspection diploma: qualified inspector with two years",
+          "details": "The Post-Basic Meats & Other Foods Inspection diploma is for Public Health Inspectors holding a Diploma in Public Health Inspection or a degree in Environmental Health. Applicants must additionally have two years of working experience as a Public Health Inspector.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 13 (PDF 15)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_apparel_other_route_ambiguity",
+          "label": "Apparel: other listed qualifications need route clarification",
+          "details": "The Apparel Design, Production & Management row lists an Associate Degree/Certificate in Fashion Designing, a Diploma in Garment Construction, and operators of apparel businesses after the school-subject route. It does not clearly say whether these are alternatives or additional qualifications. Confirm the applicable route; no compulsory prior award, operating experience or portfolio is inferred.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 14 (PDF 16)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_sport_sciences_pla",
+          "label": "Sport Sciences: relevant-experience PLA route",
+          "details": "The Prior Learning Assessment route for Sport Sciences is available to applicants with experience in appropriate subject areas. The university-wide PLA assessment conditions remain separate; no fixed number of working years or automatic admission is stated.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 21 (PDF 23)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_construction_cape_three_year",
+          "label": "Construction: CAPE credit and three-year-track consideration",
+          "details": "The three-year Construction Management track accepts CAPE passes at Units 1 or 2 in Law, Accounting, Economics, Entrepreneurship, or Building and Mechanical Engineering Drawing for 18 transferable credits. The source does not give a CAPE grade or state how many of the listed subjects must be offered. This credit/track policy is not an AP score or a numerical first-year admission threshold.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_construction_post_diploma",
+          "label": "Construction: post-diploma qualification route",
+          "details": "For the post-diploma Construction Management route, accepted UTech Jamaica diplomas are Construction Management, Structural Engineering, Quantity Surveying, Architectural Technology, Land Economy and Valuation Surveying, Real Estate Management and Valuation, or equivalent. An interview may be required. The ordinary first-year five-subject rule is not imposed on this separate top-up route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_spatial_planning_accelerated",
+          "label": "Spatial Planning: accelerated CAPE and prior-study routes",
+          "details": "The three-year accelerated Spatial Planning row lists the school-subject requirement plus three CAPE units at Levels 1 and 2. Recommended CAPE subjects are Geography, Economics, Pure and Applied Mathematics, Sociology, Caribbean Studies, Environmental Science, Law and Entrepreneurship. It also lists holders of a relevant diploma or associate degree from UTech Jamaica or another accredited institution, for example Environmental Studies, Architectural & Construction Technology or Land Management. No CAPE grade or unit-to-subject pattern is specified. These route-specific conditions do not apply to the ordinary four-year row.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_spatial_planning_accelerated_interview",
+          "label": "Spatial Planning accelerated route: possible interview",
+          "details": "An interview may be required for the accelerated Spatial Planning route, including applicants using relevant prior tertiary qualifications. An interview is not guaranteed for every applicant.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 24 (PDF 26)",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utech",
+      "programId": null,
+      "academicYear": "2027/2028",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-linked 2027/2028 qualification and selection conditions. Professional, prior-study and accelerated routes are explicitly identified; read alternatives as alternatives.",
+      "requirements": [
+        {
+          "key": "utech27_bba_advanced_standing",
+          "label": "Business Administration: prior diploma/associate consideration",
+          "details": "For advanced standing in the BBA, applicants with the UTech Jamaica Diploma in Business Administration, UTech Diploma in Administrative Management, an Associate Degree in Business Studies or equivalent qualification may be considered. No automatic credit award or minimum GPA is specified in this row.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 7 (PDF 9)",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "utech27_land_surveying_associate",
+          "label": "Land Surveying: associate GPA 2.70 for Year 2",
+          "details": "Graduates of the Associate Degree in Surveying and Geographic Information Technology with a minimum GPA of 2.70 may be considered for advanced standing into the second year of Land Surveying and Geographic Information Sciences. The 2.70 is a prior-degree GPA, not a school-leaver examination score.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utech.edu.jm/storage/2026/11/Undergraduate-International-SOCOS-Booklet-Sept-2026.pdf",
+            "title": "UTech Jamaica 2027/2028 international undergraduate entry · printed page 23 (PDF 25)",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}
