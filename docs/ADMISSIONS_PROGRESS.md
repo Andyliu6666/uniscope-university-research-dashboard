@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## University of Southampton Malaysia — November 20
+
+1. **Baseline.** Local and remote main matched `33f6875`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44693650704). The database matched the saved health checkpoint. The Malaysian institution had no catalogue or admission entries before this batch.
+2. **Sources.** The [source record](research/SOUTHAMPTON_MALAYSIA_20261120.md) identifies the official campus tables and their course-specific columns. Five Business A-level cells require clarification. The source gives no entry year or intake.
+3. **Artifacts.** Two files add thirteen courses, thirteen numerical IB records and sixteen shared general facts with 47 links. IB totals, combined HL points, HL Mathematics variants and Physics minima retain their published meanings. The existing Malaysian ROR identity is used.
+4. **Import.** Validation and zero-write previews passed with zero IB rejections. The previous complete archive was verified before import. Sixteen general facts and thirteen IB records were imported, then repeated without changes. Earlier facts, links and IB rows retained their content fingerprints.
+5. **Verification.** The live API matched all thirteen courses, thirteen IB records, sixteen general facts and 47 links. Every total and HL sum matched the correct source column. Unspecified years and international-applicant scope filtering passed. Data quality, API and website checks passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,643 courses, 3,794 profiles, 25,580 requirements, 107,980 sources and 124 runs. There are 3,560 reviewed general facts across 86 institutions and 1,176 reviewed IB records. A total of 680 courses have numerical IB totals. The complete readable archive is `backups/post-southampton-malaysia-20261120.Rs1JUq`, SHA-256 `1c2fd8ab1d01876699cad58c22048d9dbeb425b1bd2ecddf2d3dc713d1b4b94b`.
+
 ## Kenya Nursing, Pharmacy and Dentistry — November 20
 
 1. **Baseline.** Local and remote main matched `37dcf2b`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44684830815). The database matched the Bath Civil Engineering and Architecture checkpoint.

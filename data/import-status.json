@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281630,
+            "programs": 281643,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3780,
+            "admissionProfiles": 3794,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25564,
+            "admissionRequirements": 25580,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1163
+            "qualificationRequirements": 1176
         },
         "ibCoverage": {
             "byCountry": [
@@ -66,9 +66,9 @@
                 },
                 {
                     "country": "Malaysia",
-                    "institutions": 4,
-                    "programs_with_reviewed_ib": 6,
-                    "programs_with_published_totals": 6
+                    "institutions": 5,
+                    "programs_with_reviewed_ib": 19,
+                    "programs_with_published_totals": 19
                 },
                 {
                     "country": "Mauritius",
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 96
                 }
             ],
-            "reviewedRecords": 1163,
-            "programsWithReviewedIb": 960,
+            "reviewedRecords": 1176,
+            "programsWithReviewedIb": 973,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 43,
-            "programsWithPublishedTotals": 667,
-            "undergraduateCatalogEntries": 195942
+            "institutionsWithReviewedIb": 44,
+            "programsWithPublishedTotals": 680,
+            "undergraduateCatalogEntries": 195955
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4160,
+            "programs": 4161,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1939,
+            "admissions": 1940,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23990
+            "noStructuredApplicationFacts": 23989
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3544,
-            "profiles": 1352,
-            "institutions": 85
+            "facts": 3560,
+            "profiles": 1353,
+            "institutions": 86
         }
     },
-    "generatedAt": "2026-11-20T07:14:25Z",
+    "generatedAt": "2026-11-20T10:06:34Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 82,
-        "provider": "official_admissions",
+        "inserted": 13,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 82,
-        "startedAt": "2026-11-20T07:12:37.324082+00:00",
-        "updatedAt": "2026-11-20T07:12:37.324082+00:00",
+        "processed": 13,
+        "startedAt": "2026-11-20T10:05:40.317516+00:00",
+        "updatedAt": "2026-11-20T10:05:40.36+00:00",
         "checkpoint": {
-            "profiles": 35,
-            "admissionFacts": 82,
-            "programsReused": 3,
-            "programsCreated": 42,
-            "priorSharedLinksAdded": 45
+            "rowIndex": 13,
+            "sourceRows": 13,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-20T07:12:37.513+00:00",
-        "artifactSha256": "db9b5a8d782e1163dc4af3c03faeff51b895ea80353dcb1ef565fc65967a2641",
-        "datasetVersion": "official-admissions-kenya-kuccps-nursing-pharmacy-dentistry-2026-11-20-v1"
+        "finishedAt": "2026-11-20T10:05:40.36+00:00",
+        "artifactSha256": "b730ef2c74053002bb5d8cbe1b5a40ab3fccaa81f0b7fc588cd70c0a843dc672",
+        "datasetVersion": "official-ib-southampton-malaysia-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

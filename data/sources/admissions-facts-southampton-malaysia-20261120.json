@@ -1,0 +1,431 @@
+{
+  "datasetVersion": "official-admissions-southampton-malaysia-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "uosm",
+      "name": "University of Southampton Malaysia",
+      "provider": "ror",
+      "externalId": "04vxw9c34",
+      "countryCode": "MY",
+      "officialDomains": ["southampton.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "uosm_accounting_and_finance",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Accounting and Finance",
+      "level": "undergraduate",
+      "field": "Accounting and Finance",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Accounting and Finance",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["uosm_english", "uosm_business_stpm", "uosm_business_uec"]
+    },
+    {
+      "key": "uosm_business_analytics",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Business Analytics",
+      "level": "undergraduate",
+      "field": "Business Analytics",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Business Analytics",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["uosm_english", "uosm_business_stpm", "uosm_business_uec"]
+    },
+    {
+      "key": "uosm_business_entrepreneurship",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Business Entrepreneurship",
+      "level": "undergraduate",
+      "field": "Business Entrepreneurship",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Business Entrepreneurship",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["uosm_english", "uosm_business_stpm", "uosm_business_uec"]
+    },
+    {
+      "key": "uosm_business_management",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Business Management",
+      "level": "undergraduate",
+      "field": "Business Management",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Business Management",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["uosm_english", "uosm_business_stpm", "uosm_business_uec"]
+    },
+    {
+      "key": "uosm_marketing",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Marketing",
+      "level": "undergraduate",
+      "field": "Marketing",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Marketing",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["uosm_english", "uosm_business_stpm", "uosm_business_uec"]
+    },
+    {
+      "key": "uosm_finance",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Finance",
+      "level": "undergraduate",
+      "field": "Finance",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Business · Bachelor of Science in Finance",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_finance_alevel",
+        "uosm_stpm_maths_b",
+        "uosm_uec_maths"
+      ]
+    },
+    {
+      "key": "uosm_computer_science",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Computer Science",
+      "level": "undergraduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Computer Science · Bachelor of Science in Computer Science",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_cs_alevel",
+        "uosm_stpm_maths_a",
+        "uosm_cs_uec"
+      ]
+    },
+    {
+      "key": "uosm_economics",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Economics",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Economics · Bachelor of Science in Economics",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_economics_alevel",
+        "uosm_stpm_maths_b",
+        "uosm_uec_maths"
+      ]
+    },
+    {
+      "key": "uosm_economics_finance",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Economics and Finance",
+      "level": "undergraduate",
+      "field": "Economics and Finance",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Economics · Bachelor of Science in Economics and Finance",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_economics_alevel",
+        "uosm_stpm_maths_b",
+        "uosm_uec_maths"
+      ]
+    },
+    {
+      "key": "uosm_economics_actuarial",
+      "institutionKey": "uosm",
+      "name": "Bachelor of Science in Economics and Actuarial Science",
+      "level": "undergraduate",
+      "field": "Economics and Actuarial Science",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Economics · Bachelor of Science in Economics and Actuarial Science",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_actuarial_alevel",
+        "uosm_stpm_maths_a",
+        "uosm_actuarial_uec"
+      ]
+    },
+    {
+      "key": "uosm_aeronautics_astronautics",
+      "institutionKey": "uosm",
+      "name": "Master of Engineering in Aeronautics and Astronautics",
+      "level": "undergraduate",
+      "field": "Aeronautics and Astronautics",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Engineering · Master of Engineering in Aeronautics and Astronautics",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_engineering_alevel",
+        "uosm_engineering_stpm",
+        "uosm_engineering_uec"
+      ]
+    },
+    {
+      "key": "uosm_electrical_electronic_engineering",
+      "institutionKey": "uosm",
+      "name": "Master of Engineering in Electrical and Electronic Engineering",
+      "level": "undergraduate",
+      "field": "Electrical and Electronic Engineering",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Engineering · Master of Engineering in Electrical and Electronic Engineering",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_electrical_alevel",
+        "uosm_engineering_stpm",
+        "uosm_engineering_uec"
+      ]
+    },
+    {
+      "key": "uosm_mechanical_engineering",
+      "institutionKey": "uosm",
+      "name": "Master of Engineering in Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Mechanical Engineering",
+      "source": {
+        "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+        "title": "Southampton Malaysia · Engineering · Master of Engineering in Mechanical Engineering",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "uosm_english",
+        "uosm_engineering_alevel",
+        "uosm_engineering_stpm",
+        "uosm_engineering_uec"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "uosm",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "University of Southampton Malaysia programme-specific international entry requirements. The source does not state an entry cycle. Integrated MEng courses are undergraduate first-entry programmes.",
+      "requirements": [
+        {
+          "key": "uosm_english",
+          "label": "English language entry evidence",
+          "details": "IELTS 6.5 overall with each component at least 6.0, or GCE O-Level (1119) English at C, UEC English at B3, or an accepted equivalent.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · English language entry evidence",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "language",
+          "status": "required"
+        },
+        {
+          "key": "uosm_business_stpm",
+          "label": "STPM · business course group",
+          "details": "AAB excluding General Studies, with Mathematics at grade 6/B in GCSE or SPM.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · STPM · business course group",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_business_uec",
+          "label": "UEC · business course group",
+          "details": "AAAAA with Mathematics at grade 6/B in GCSE or SPM.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · UEC · business course group",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_finance_alevel",
+          "label": "A levels · Finance",
+          "details": "AAB including Mathematics at B or above. General Studies and Critical Thinking are excluded.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Finance",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_stpm_maths_b",
+          "label": "STPM · Mathematics at B",
+          "details": "AAB including Mathematics at B or above, excluding General Studies.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · STPM · Mathematics at B",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_uec_maths",
+          "label": "UEC · Mathematics",
+          "details": "AAAAA including Mathematics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · UEC · Mathematics",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_cs_alevel",
+          "label": "A levels · Computer Science",
+          "details": "A*AA including Mathematics at A or above, A*A*B including Mathematics at A*, or AAAA including Mathematics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Computer Science",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_stpm_maths_a",
+          "label": "STPM · Mathematics at A",
+          "details": "AAA with A in Mathematics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · STPM · Mathematics at A",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_cs_uec",
+          "label": "UEC · Computer Science",
+          "details": "AAAAA with A in Advanced Mathematics I and II.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · UEC · Computer Science",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_economics_alevel",
+          "label": "A levels · Economics and Economics with Finance",
+          "details": "AAB or ABBB including Mathematics at B or above. General Studies and Critical Thinking are excluded.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Economics and Economics with Finance",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_actuarial_alevel",
+          "label": "A levels · Economics and Actuarial Science",
+          "details": "The source lists AAA with Mathematics at A and Further Mathematics at B, or AAA with Mathematics at A.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Economics and Actuarial Science",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_actuarial_uec",
+          "label": "UEC · Economics and Actuarial Science",
+          "details": "AAAAA with A in Mathematics, or AAAAB with A in Mathematics and B in Advanced Mathematics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · UEC · Economics and Actuarial Science",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_engineering_alevel",
+          "label": "A levels · Aeronautics and Mechanical Engineering",
+          "details": "A*AA including A* and A in Mathematics and Physics in either order, with a pass in the Physics Practical.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Aeronautics and Mechanical Engineering",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_electrical_alevel",
+          "label": "A levels · Electrical and Electronic Engineering",
+          "details": "A*AA including Mathematics and Physics at A or above, A*A*B including Mathematics and Physics at A*, or AAAA including Mathematics and Physics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · A levels · Electrical and Electronic Engineering",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_engineering_stpm",
+          "label": "STPM · Engineering",
+          "details": "AAA with A in Mathematics and Physics.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · STPM · Engineering",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "uosm_engineering_uec",
+          "label": "UEC · Engineering",
+          "details": "AAAAA with A in Advanced Mathematics I and II, Physics and two other STEM subjects. Computing can count as a STEM subject.",
+          "source": {
+            "url": "https://www.southampton.ac.uk/my/undergraduate/apply/entry_requirements.page",
+            "title": "Southampton Malaysia · UEC · Engineering",
+            "checkedOn": "2026-11-20"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    }
+  ]
+}
