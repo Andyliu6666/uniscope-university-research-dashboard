@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Stellenbosch Economic and Management Sciences — November 20 UTC
+
+1. **Baseline.** Local and remote main matched `897a9e4`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44778701696). The database matched the completed Music-awards checkpoint: 24 Stellenbosch catalogue entries and 107 reviewed facts.
+2. **Sources.** The [source review](research/STELLENBOSCH_ECONOMIC_20261120.md) records the official 2027 international tables, all eight selection-policy pages and complete November yearbook admission/continuation pages. Two policy copies have the same academic text after explicit reference/footer normalisation.
+3. **Artifact.** Fourteen new identities and the reused Data Science parent have 64 distinct new facts, 213 new-fact associations and 161 prior-rule associations. NSC minima, higher selection criteria, international conversions, diploma alternatives, ECP and transfer routes remain separate. Two source differences stay unresolved. No IB total is fabricated.
+4. **Import and backup.** Validation and zero-write preview passed. The previous Music archive was verified before import. All 64 facts were inserted with zero skips; repeat added nothing. Prior university/course/profile/source/import rows, earlier facts/links and all 1,212 IB records retained their fingerprints.
+5. **Verification.** The API matched every new fact and all 374 associations. All 135 course/route/cohort queries passed, including substring search unions, academic-year and entry-route boundaries. The completed verifier respected the normal API rate limit. Final data quality, API and website checks passed.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,749 courses, 3,837 profiles, 25,945 requirements, 108,022 sources and 136 runs. Reviewed general facts total 3,925 across 88 institutions; Stellenbosch has 38 catalogue entries and 171 facts. Numerical IB coverage remains 716 courses. Complete readable archive `backups/post-stellenbosch-economic-20261120.4x2shcf_` has SHA-256 `46a7fd3881259dade175615a6be59732d8f77a517aa864448006a20457791fd5`. Next review Engineering's actual 2027 policies and November yearbook; some official navigation links labelled 2027 return older documents, so retain the document's real year.
+
 ## Stellenbosch separate Music awards — November 20
 
 1. **Baseline.** Local and remote main matched `b562098`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44776321000). The database matched the completed Arts checkpoint: 20 Stellenbosch courses and 94 reviewed facts.

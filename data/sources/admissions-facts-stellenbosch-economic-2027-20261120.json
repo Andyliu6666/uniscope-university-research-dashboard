@@ -1,0 +1,1919 @@
+{
+  "datasetVersion": "official-admissions-stellenbosch-economic-2027-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "su",
+      "name": "Stellenbosch University",
+      "provider": "ror",
+      "externalId": "05bk57929",
+      "countryCode": "ZA",
+      "officialDomains": ["su.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "management",
+      "institutionKey": "su",
+      "name": "BCom (Management Sciences)",
+      "level": "undergraduate",
+      "field": "Management Sciences",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_65",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_nsc_group_minimum",
+        "su27ems_nsc_group_selection",
+        "su27ems_nsc_language_standard",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_ecp_minimum",
+        "su27ems_ecp_eligibility",
+        "su27ems_ecp_ses",
+        "su27ems_ecp_offer_only",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "economics",
+      "institutionKey": "su",
+      "name": "BCom (Economic Sciences)",
+      "level": "undergraduate",
+      "field": "Economic Sciences",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_65",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_nsc_group_minimum",
+        "su27ems_nsc_group_selection",
+        "su27ems_nsc_language_standard",
+        "su27ems_economics_focal_math",
+        "su27ems_economics_focal_math_converted",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "industrial",
+      "institutionKey": "su",
+      "name": "BCom (Industrial Psychology)",
+      "level": "undergraduate",
+      "field": "Industrial Psychology",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18, footnote",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_65",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_nsc_group_minimum",
+        "su27ems_nsc_group_selection",
+        "su27ems_nsc_language_standard",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "financial",
+      "institutionKey": "su",
+      "name": "BCom (Financial Accounting)",
+      "level": "undergraduate",
+      "field": "Financial Accounting",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18, footnote",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_65",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_nsc_group_minimum",
+        "su27ems_nsc_group_selection",
+        "su27ems_nsc_language_standard",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "management_accounting",
+      "institutionKey": "su",
+      "name": "BCom (Management Accounting)",
+      "level": "undergraduate",
+      "field": "Management Accounting",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18, footnote",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_65",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_nsc_group_minimum",
+        "su27ems_nsc_group_selection",
+        "su27ems_nsc_language_standard",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "mathematical",
+      "institutionKey": "su",
+      "name": "BCom (Mathematical Sciences)",
+      "level": "undergraduate",
+      "field": "Mathematical Sciences",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_70",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_al_math_d",
+        "su27ems_as_math_b",
+        "su27ems_abitur_mathematical_math",
+        "su27ems_namibia_mathematical_math",
+        "su27ems_nsc_language_standard",
+        "su27ems_nsc_mathematical_minimum",
+        "su27ems_nsc_mathematical_selection",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "international",
+      "institutionKey": "su",
+      "name": "BCom (International Business)",
+      "level": "undergraduate",
+      "field": "International Business",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_85",
+        "su27ems_ib_english_high",
+        "su27ems_al_math_d",
+        "su27ems_as_math_b",
+        "su27ems_abitur_international",
+        "su27ems_namibia_international",
+        "su27ems_international_english_al",
+        "su27ems_international_english_as",
+        "su27ems_nsc_international_minimum",
+        "su27ems_nsc_international_selection",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        }
+      ]
+    },
+    {
+      "key": "actuarial",
+      "institutionKey": "su",
+      "name": "BCom (Actuarial Science)",
+      "level": "undergraduate",
+      "field": "Actuarial Science",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 18",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_85",
+        "su27ems_ib_english_high",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_actuarial_math",
+        "su27ems_abitur_actuarial_english",
+        "su27ems_namibia_actuarial_english",
+        "su27ems_nsc_actuarial_minimum",
+        "su27ems_nsc_actuarial_selection",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        }
+      ]
+    },
+    {
+      "key": "accounting",
+      "institutionKey": "su",
+      "name": "BAccounting",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 19",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_international_average_70",
+        "su27ems_ib_english_standard",
+        "su27ems_as_english_standard",
+        "su27ems_al_english_standard",
+        "su27ems_namibia_english_standard",
+        "su27ems_accounting_math_alternatives",
+        "su27ems_nsc_language_standard",
+        "su27ems_nsc_accounting_minimum",
+        "su27ems_nsc_accounting_selection",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_language"
+        }
+      ]
+    },
+    {
+      "key": "data",
+      "institutionKey": "su",
+      "name": "B Data Science (BDatSci)",
+      "level": "undergraduate",
+      "field": "Data Science",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 EMS · book PDF 19",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_data_english_variation",
+        "su27ems_data_no_extra_selection",
+        "su27ems_application_results",
+        "su27ems_degree_complete_documents",
+        "su27ems_conditional_offer",
+        "su27ems_final_offer",
+        "su27ems_waitlist",
+        "su27ems_selection_adjustment",
+        "su27ems_nbt_sat",
+        "su27ems_school_tomorrow_nbt_conflict",
+        "su27ems_transfer_external",
+        "su27ems_transfer_internal_higher",
+        "su27ems_transfer_internal_lower",
+        "su27ems_data_transfer_approval"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+          "key": "su27arts_nsc_certificate_four_subjects"
+        }
+      ]
+    },
+    {
+      "key": "public_diploma",
+      "institutionKey": "su",
+      "name": "Diploma in Public Accountability",
+      "level": "undergraduate",
+      "field": "Public Accountability (Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+        "title": "Stellenbosch 2027 EMS · year PDF 25",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_public_diploma_school",
+        "su27ems_public_diploma_closing",
+        "su27ems_public_diploma_prior_qualification",
+        "su27ems_public_other_closing",
+        "su27ems_public_diploma_cat"
+      ]
+    },
+    {
+      "key": "sustainable_diploma",
+      "institutionKey": "su",
+      "name": "Diploma in Sustainable Development",
+      "level": "undergraduate",
+      "field": "Sustainable Development (Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+        "title": "Stellenbosch 2027 EMS · year PDF 26",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_sustainable_diploma_school",
+        "su27ems_sustainable_diploma_selection"
+      ]
+    },
+    {
+      "key": "public_advanced",
+      "institutionKey": "su",
+      "name": "Advanced Diploma in Public Accountability",
+      "level": "undergraduate",
+      "field": "Public Accountability (Advanced Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+        "title": "Stellenbosch 2027 EMS · year PDF 28",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_public_advanced_qualification",
+        "su27ems_public_other_closing",
+        "su27ems_public_advanced_cat"
+      ]
+    },
+    {
+      "key": "sustainable_advanced",
+      "institutionKey": "su",
+      "name": "Advanced Diploma in Sustainable Development",
+      "level": "undergraduate",
+      "field": "Sustainable Development (Advanced Diploma)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+        "title": "Stellenbosch 2027 EMS · year PDF 29",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27ems_sustainable_advanced_qualification",
+        "su27ems_sustainable_advanced_equipment",
+        "su27ems_sustainable_advanced_selection"
+      ]
+    },
+    {
+      "key": "bcom_articulation",
+      "institutionKey": "su",
+      "name": "BCom",
+      "level": "undergraduate",
+      "field": "Commerce (Articulation)",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+        "title": "Stellenbosch 2027 EMS · year PDF 30",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": ["su27ems_bcom_articulation"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Economic and Management Sciences admissions. Qualification-specific NSC/IEB minima, higher selection criteria and international converted percentages remain distinct. Data Science faculty rules apply to its EMS focal areas; ECP is a separate South-African-citizen route. Diploma, advanced-diploma, internal articulation and transfer conditions are not school-leaver IB totals. Award names and source-specific delivery conditions remain explicit.",
+      "requirements": [
+        {
+          "key": "su27ems_international_average_65",
+          "label": "EMS international curricula: 65% converted average",
+          "category": "academic",
+          "status": "required",
+          "details": "The linked international-curriculum rows require matriculation exemption and an SU-converted average of at least 65%, together with their separately stated subject and language conditions. This is an SU percentage conversion, not a published IB diploma total. NSC/IEB minimum and selection percentages are separately scoped.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_international_average_70",
+          "label": "EMS international curricula: 70% converted average",
+          "category": "academic",
+          "status": "required",
+          "details": "The linked international-curriculum rows require matriculation exemption and an SU-converted average of at least 70%, together with their separately stated subject and language conditions. This is an SU percentage conversion, not a published IB diploma total. NSC/IEB minimum and selection percentages are separately scoped.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_international_average_85",
+          "label": "EMS international curricula: 85% converted average",
+          "category": "academic",
+          "status": "required",
+          "details": "The linked international-curriculum rows require matriculation exemption and an SU-converted average of at least 85%, together with their separately stated subject and language conditions. This is an SU percentage conversion, not a published IB diploma total. NSC/IEB minimum and selection percentages are separately scoped.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_ib_english_standard",
+          "label": "EMS: IB English alternatives",
+          "category": "language",
+          "status": "required",
+          "details": "The linked rows require English First Language grade 4 at HL, OR English as a Second Language grade 4 at HL or SL. No SL First Language alternative is printed. These programme-specific subjects are additional to the matriculation-exemption combination.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_ib_english_high",
+          "label": "International Business/Actuarial Science: IB English",
+          "category": "language",
+          "status": "required",
+          "details": "For these two programmes, English First Language requires HL 4; English Second Language requires HL 5 or SL 6. These are subject grades rather than a whole-diploma minimum. The separate Data Science record already stores the same numerical English choices for that parent.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_as_english_standard",
+          "label": "EMS: AS/GCSE English alternatives",
+          "category": "language",
+          "status": "required",
+          "details": "For the linked course rows, English First Language is C at AS-level/GCSE/O-level, OR English Second Language is C at AS-level or A at GCSE/O-level. The matriculation header separately distinguishes Cambridge and NSSCAS language/exemption rules.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_al_english_standard",
+          "label": "EMS: A-level/GCSE First Language English",
+          "category": "language",
+          "status": "required",
+          "details": "For these linked rows, English First Language is E at A-level OR C at GCSE/O-level. No additional Second Language alternative is printed in these EMS rows; the matriculation-exemption header remains additional.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_namibia_english_standard",
+          "label": "EMS: Namibian HL/OL English alternatives",
+          "category": "language",
+          "status": "required",
+          "details": "The linked rows require English First Language grade 3 at HL, OR English Second Language grade 3 at HL or A at OL. These are Namibian HL/OL grades, not IB grades. The header also requires another First Language if English is Second Language.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18–19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_al_math_d",
+          "label": "Mathematical Sciences/International Business: A-level Mathematics D",
+          "category": "academic",
+          "status": "required",
+          "details": "These two rows require Mathematics D at A-level, in addition to their respective language, exemption and converted-average conditions. The higher Actuarial Science Mathematics requirement is not replaced by this rule.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_as_math_b",
+          "label": "Mathematical Sciences/International Business: AS Mathematics B",
+          "category": "academic",
+          "status": "required",
+          "details": "These two rows require Mathematics B at AS-level, together with their separate language, exemption and converted-average requirements.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_abitur_mathematical_math",
+          "label": "Mathematical Sciences: German-school Mathematics",
+          "category": "academic",
+          "status": "required",
+          "details": "BCom (Mathematical Sciences) requires Mathematics 10 in the Abitur column; the stated Namibian German-school equivalent is 11. These differ from both its IB subject grades and its Namibian HL/OL column.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_actuarial_math",
+          "label": "Actuarial Science: qualification-specific Mathematics",
+          "category": "academic",
+          "status": "required",
+          "details": "Actuarial Science requires Mathematics IB HL 5 OR SL 6; A-level C; AS-level A; German Abitur 11 (Namibian German-school equivalent 12); or Namibian HL 1, according to the applicant's curriculum. Its 85% SU-converted average is separately required; neither that percentage nor these subject grades is an IB total.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_abitur_international",
+          "label": "International Business: German-school English and Mathematics",
+          "category": "academic",
+          "status": "required",
+          "details": "In the German Abitur column, International Business requires English First Language 8 (Namibian German-school equivalent 10) and Mathematics 8 (Namibian equivalent 10). The source additionally describes strict academic-merit selection of the top candidates.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_abitur_actuarial_english",
+          "label": "Actuarial Science: German-school English",
+          "category": "language",
+          "status": "required",
+          "details": "The Actuarial Science row requires English First Language 6 in the German Abitur column, with Namibian German-school equivalent 8. Mathematics is separately stated.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_namibia_mathematical_math",
+          "label": "Mathematical Sciences: Namibian HL Mathematics 2",
+          "category": "academic",
+          "status": "required",
+          "details": "BCom (Mathematical Sciences) requires Mathematics grade 2 at Namibian HL, alongside its separate English, exemption and converted-average requirements. This is not IB HL.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_namibia_international",
+          "label": "International Business: Namibian HL English and Mathematics",
+          "category": "academic",
+          "status": "required",
+          "details": "In the Namibia HL/OL column, International Business requires English First Language 2 at HL and Mathematics 2 at HL. The strict academic-merit selection and 85% converted-average rule remain additional.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_namibia_actuarial_english",
+          "label": "Actuarial Science: Namibian English alternatives",
+          "category": "language",
+          "status": "required",
+          "details": "Actuarial Science requires English First Language 3 at Namibian HL OR A at OL, OR English Second Language 2 at HL. Its separate Namibian Mathematics requirement is HL 1.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_accounting_math_alternatives",
+          "label": "BAccounting: Mathematics/Accounting alternatives by curriculum",
+          "category": "academic",
+          "status": "required",
+          "details": "The international BAccounting table gives: IB Mathematics HL 4 OR SL 5; alternatively Mathematics SL 4 together with Accounting HL 4 OR SL 5. A-level Mathematics D, OR Mathematics E together with Accounting D. AS-level Mathematics B, OR Mathematics C together with Accounting B. German Abitur Mathematics 8 (Namibian German-school equivalent 10), OR Mathematics 6 (Namibian equivalent 8) together with Accounting 8 (Namibian equivalent 10). Namibia HL Mathematics 2, OR HL Mathematics 3 together with HL Accounting 2. These are curriculum-specific alternatives; Accounting is not imposed on the higher-Mathematics branch.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_international_english_al",
+          "label": "International Business: A-level English alternatives",
+          "category": "language",
+          "status": "required",
+          "details": "International Business requires English First Language D at A-level OR B at GCSE/O-level. Its A-level Mathematics D and exemption conditions are additional.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_international_english_as",
+          "label": "International Business: AS/GCSE English B",
+          "category": "language",
+          "status": "required",
+          "details": "International Business requires English First Language B at AS-level/GCSE/O-level. The table gives no Second Language branch here. Mathematics B at AS-level and exemption requirements remain additional.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_data_english_variation",
+          "label": "Data Science: EMS international language-table variation",
+          "category": "language",
+          "status": "unknown",
+          "details": "For the EMS Data Science row, German-school English is 6 (Namibian German-school equivalent 8), unlike the Agrisciences row's First Language 6 (Namibian 6)/Second Language 9 (Namibian 7) and the Arts row. EMS AS English Second Language is C at AS-level or B at GCSE/O-level, while Agrisciences prints A at GCSE/O-level. EMS A-level English prints only First Language E or GCSE/O-level C and omits the Agrisciences Second Language branch. IB English and Mathematics numerical choices agree. Faculty/focal-area applicability of the differing language columns needs confirmation; earlier facts are preserved rather than silently overridden.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 19 compared with 13 and 17",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_group_minimum",
+          "label": "Five EMS degrees: NSC/IEB average 65%, Mathematics 60%",
+          "category": "academic",
+          "status": "required",
+          "details": "For the five linked degrees, minimum NSC/IEB admission requires overall average at least 65%, excluding Life Orientation, and Mathematics 60%. The separate EMS language rule and any focal-area-specific Mathematics condition also apply. The higher 2027 selection thresholds are distinct.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 30, 51, 78, 80–81",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_group_selection",
+          "label": "Five EMS degrees: 2027 selection average 70%, Mathematics 63%",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 selection table sets NSC average 70% and Mathematics 63% for these five degrees, beyond their 65%/60% admission floor. Economics Econometrics and Financial Sector still require Mathematics 70%. These are the highest selection thresholds for this cycle, subject to the separately stated faculty adjustment policy; meeting minimum admission alone does not secure an offer.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 6",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_language_standard",
+          "label": "EMS NSC/IEB language alternatives: Home 50% or Additional 70%",
+          "category": "language",
+          "status": "required",
+          "details": "The linked degree rows require Afrikaans OR English Home Language 50%, OR Afrikaans OR English First Additional Language 70%. International Business, Actuarial Science and Data Science have different language conditions and are not attached to this shared rule.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_economics_focal_math",
+          "label": "Economics: NSC Mathematics 70% for two focal areas",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Only the Econometrics and Financial Sector focal areas require NSC Mathematics 70% (not the standard 60% minimum or 63% selection grade). This is not a universal requirement for every Economic Sciences focal area.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 6",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_economics_focal_math_converted",
+          "label": "Economics international curricula: two focal-area Mathematics conditions",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The international-booklet footnote requires an SU-converted Mathematics result equivalent to 70% for the Econometrics and Financial Sector focal areas, where Actuarial Science 112 is compulsory. This international-curriculum conversion is separate from the NSC subject-grade record and does not define a new IB diploma total.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 EMS · book PDF 18 footnote",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_mathematical_minimum",
+          "label": "Mathematical Sciences: NSC/IEB average 70%, Mathematics 75%",
+          "category": "academic",
+          "status": "required",
+          "details": "Minimum admission requires NSC/IEB average 70%, excluding Life Orientation, Mathematics 75%, and the separate standard EMS language alternatives. This is distinct from the higher 2027 selection criteria.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 61",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_mathematical_selection",
+          "label": "Mathematical Sciences: selection average 75%, Mathematics 80%",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 selection criteria are NSC average 75% and Mathematics 80%, beyond the 70%/75% admission minimum. The faculty's annually scoped adjustment policy applies.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 6",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_accounting_minimum",
+          "label": "BAccounting: NSC/IEB average and Mathematics/Accounting alternatives",
+          "category": "academic",
+          "status": "required",
+          "details": "BAccounting (BAcc in the yearbook) requires NSC/IEB average 70%, excluding Life Orientation, and Mathematics 70% OR Mathematics 60% together with Accounting 70%, plus the standard EMS language condition. Accounting is conditional on the lower-Mathematics alternative.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 19, 82",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_accounting_selection",
+          "label": "BAccounting: 2027 selection alternatives",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 BAcc selection table requires NSC average 73%, and Mathematics 73% without Accounting OR Mathematics 63% together with Accounting 70%. These selection values are separate from its published admission minima and international subject alternatives.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 6–7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_international_minimum",
+          "label": "International Business: NSC average, Mathematics and English",
+          "category": "academic",
+          "status": "required",
+          "details": "Minimum NSC admission requires average 80%, excluding Life Orientation; Mathematics 70%; and English Home Language 70% OR English First Additional Language 80%. The programme is a four-year selection degree. Its separate international-curriculum converted average is 85%, not this NSC admission floor.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 67",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_international_selection",
+          "label": "International Business: 2027 NSC selection average 85%",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 selection table requires NSC average 85% and Mathematics 70%, in addition to the programme's language admission requirements. Applicants meeting only the admission minimum can be waitlisted. These NSC selection conditions are not an IB total.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 3, 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_actuarial_minimum",
+          "label": "Actuarial Science: NSC average, Mathematics and languages",
+          "category": "academic",
+          "status": "required",
+          "details": "Minimum NSC admission requires overall average 80%, excluding Life Orientation; Mathematics 80%; and Home Language 60%. If that Home Language is not English, English First Additional Language 75% is also required. The higher 2027 selection thresholds remain separate.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 77",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nsc_actuarial_selection",
+          "label": "Actuarial Science: selection average and Mathematics 85%",
+          "category": "academic",
+          "status": "required",
+          "details": "The 2027 selection criteria require NSC average 85% and Mathematics 85%, in addition to the programme language conditions. The published admission floor is 80%/80%; the two meanings are not merged.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_data_no_extra_selection",
+          "label": "Data Science: no additional EMS numerical selection criteria",
+          "category": "application",
+          "status": "not_required",
+          "details": "For the EMS Data Science focal areas, Table 1 states no additional selection criteria beyond the separately recorded NSC average 80%, Mathematics 80% and programme language minima. This does not remove matriculation exemption or other applicable offer/document conditions. The existing parent and NSC fact are reused.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_application_results",
+          "label": "EMS degree applications: opening, closing and school results",
+          "category": "application",
+          "status": "required",
+          "details": "For 2027 EMS degree entry, apply through the standard process between 1 April and 31 July of the preceding year; late applications are not considered. Applicants still in Grade 12 use final Grade 11 results. Those who completed Grade 12, including applicants from other faculties/universities, use final Grade 12 results. This degree deadline is not attached to the separate diploma exceptions.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 1",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_degree_complete_documents",
+          "label": "EMS degree closing: complete application and documents",
+          "category": "document",
+          "status": "required",
+          "details": "For these linked degree routes, the yearbook requires the application to be finalised and all documentation submitted by 31 July before the intended study year; applications reaching the university after closing are not accepted. Programme-specific diploma exceptions are separately recorded and are not attached to this degree rule.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 20",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_conditional_offer",
+          "label": "EMS conditional offers: criteria and timely acceptance",
+          "category": "application",
+          "status": "required",
+          "details": "Applicants applying in Grade 12 need both minimum admission requirements and selection criteria on final Grade 11 results. Accept a conditional offer within the time stated in the official emailed offer letter; otherwise it expires. Only accepted conditional offers can proceed to final evaluation. This EMS policy does not import Arts' fixed September acceptance date.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 2",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_final_offer",
+          "label": "EMS final offers: final results and acceptance",
+          "category": "application",
+          "status": "required",
+          "details": "For Grade 11-based applications, a final offer follows the Grade 12 results in January and requires both admission minima and selection criteria for the accepted programme to be met with final results. Applicants already applying with final Grade 12 results can receive a final offer directly. Accept final offers within the specified limited period and monitor the application portal.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 2",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_waitlist",
+          "label": "EMS waiting lists: three specified groups",
+          "category": "application",
+          "status": "conditional",
+          "details": "The EMS policy identifies waiting lists for Grade 12 applicants who later improved marks until updated results arrive; students at another institution pending current-year final results; and International Business applicants meeting admission minima but not its selection criteria. The last branch applies only to International Business, not every linked degree.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 2–3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_selection_adjustment",
+          "label": "EMS selection: annually scoped thresholds and possible adjustment",
+          "category": "application",
+          "status": "considered",
+          "details": "The 2027 Table 1 selection values are the highest thresholds for this cycle. If final-offer-stage intake/diversity targets are not reached, criteria may be lowered first for diversity and then overall intake, while admission minima must still be met. This mainly NSC/SACAI/IEB policy refers other curricula to the international prospectus; NSC selection percentages are not automatically imposed on IB/A-level/AP results.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 1, 3–4",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_nbt_sat",
+          "label": "EMS: NBT or SAT for specified school systems",
+          "category": "standardized_test",
+          "status": "required",
+          "details": "For conditional offers, AHSD, IEB International Secondary Certificate, School of Tomorrow and all online-schooling applicants are listed as needing NBTs OR SATs. Final offers also depend on final results, matriculation exemption and Senate's discretionary admission criteria. For School of Tomorrow, the later yearbook specifically requires all NBTs before the preceding year-end; that potential SAT-alternative conflict is recorded separately and not treated as resolved.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_school_tomorrow_nbt_conflict",
+          "label": "School of Tomorrow: yearbook NBT requirement and SAT ambiguity",
+          "category": "standardized_test",
+          "status": "unknown",
+          "details": "The November yearbook requires School of Tomorrow applicants to write all NBTs before the end of the year preceding intended enrolment. The March 2027 selection policy instead lists NBTs OR SATs for this group. Confirm whether SAT can replace all NBTs for this applicant system; the source difference is preserved, and the Arts faculty's September NBT deadline is not substituted.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 20 compared with selection PDF 3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_public_diploma_school",
+          "label": "Public Accountability Diploma: two NSC entry alternatives",
+          "category": "academic",
+          "status": "required",
+          "details": "The NSC route requires English at least code 3 (40%) AND three other NSC subjects at code 3, excluding Life Orientation; OR English code 2 (30%) AND four other NSC subjects at code 3 (40%), excluding Life Orientation, PLUS three years' relevant work experience. The experience condition belongs to the second alternative. A successfully completed higher-education qualification is a separate alternative recorded under other entry.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 25",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_public_diploma_closing",
+          "label": "Public Accountability Diploma: 15 December closing",
+          "category": "application",
+          "status": "required",
+          "details": "For the school-leaver Diploma in Public Accountability route, complete the application and all documents by 15 December before the intended study year. This programme-specific exception replaces the faculty's general July closing.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 20",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_sustainable_diploma_school",
+          "label": "Sustainable Development Diploma: school results and alternatives",
+          "category": "academic",
+          "status": "required",
+          "details": "Minimum NSC admission requires overall average 55%, excluding Life Orientation; Mathematics 50% OR Mathematical Literacy 60%; alternatively Mathematics 40% OR Mathematical Literacy 50% together with 60% in Business Studies OR Economics OR Accounting. English Home Language 50% OR English First Additional Language 60% is also required. These diploma rules differ from the bachelor-degree certificate and language requirements.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 17–18, 26",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_sustainable_diploma_selection",
+          "label": "Sustainable Development Diploma: departmental form and closing",
+          "category": "application",
+          "status": "required",
+          "details": "A committee combines NSC/IEB aggregate with demonstrated interests/experience in the departmental application form, including sustainable development, social/environmental justice, entrepreneurial mindset, creativity and leadership. The programme-specific table closes applications on 30 September. The general July deadline is not silently substituted.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 17–18",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Economic and Management Sciences admissions. Qualification-specific NSC/IEB minima, higher selection criteria and international converted percentages remain distinct. Data Science faculty rules apply to its EMS focal areas; ECP is a separate South-African-citizen route. Diploma, advanced-diploma, internal articulation and transfer conditions are not school-leaver IB totals. Award names and source-specific delivery conditions remain explicit.",
+      "requirements": [
+        {
+          "key": "su27ems_public_diploma_prior_qualification",
+          "label": "Public Accountability Diploma: completed higher-education alternative",
+          "category": "academic",
+          "status": "required",
+          "details": "A successfully completed higher certificate, diploma or degree is an alternative entry qualification for the Diploma in Public Accountability. This is separate from its NSC subject/work-experience branches; those branches are not imposed as additional conjunctive requirements on this alternative.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 25",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_public_advanced_qualification",
+          "label": "Advanced Public Accountability: three prior-qualification routes",
+          "category": "academic",
+          "status": "required",
+          "details": "Admission requires a 240-credit Diploma in Public Accountability PLUS 120 credits of work-integrated learning; OR any public-sector-related diploma or degree; OR a diploma/degree in another field together with relevant public-sector work experience/training assessed through recognition of prior learning. These are alternatives, not a universal WIL requirement for every prior qualification.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 28",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_public_other_closing",
+          "label": "Public Accountability prior-qualification routes: 15 December",
+          "category": "application",
+          "status": "required",
+          "details": "Complete applications and all documents by 15 December of the preceding year for the Advanced Diploma in Public Accountability and the completed-higher-education entry alternative to the Diploma. This other-entry deadline is separately scoped from the school-leaver record.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 20",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_sustainable_advanced_qualification",
+          "label": "Advanced Sustainable Development: aligned NQF 6/7 qualification",
+          "category": "academic",
+          "status": "required",
+          "details": "A recognised tertiary diploma at NQF level 6 OR bachelor's degree at NQF level 7 is required in a field aligned with the advanced diploma, such as sustainable development, entrepreneurship, business studies, economics or innovation. This is a prior-tertiary route, not first-year school admission.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_sustainable_advanced_equipment",
+          "label": "Advanced Sustainable Development: computer and internet",
+          "category": "other",
+          "status": "required",
+          "details": "Applicants need access to a computer and stable internet for the programme's online learning. The source describes hybrid delivery with compulsory face-to-face blocks; this is not represented as an entirely remote course.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_sustainable_advanced_selection",
+          "label": "Advanced Sustainable Development: selection form and 30 September",
+          "category": "application",
+          "status": "required",
+          "details": "Apply by 30 September before the intended study year. The programme-specific table describes a committee score combining aggregate and departmental-form interests/experience in sustainability, social/environmental justice, entrepreneurship, creativity and leadership. Its academic qualification floor remains the separate aligned NQF 6/7 condition, not the undergraduate diploma's school marks.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 18, 29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_bcom_articulation",
+          "label": "General BCom: articulation only, no first-year registration",
+          "category": "application",
+          "status": "conditional",
+          "details": "The unspecialised BCom is an articulation award for students from another EMS programme; first-year applicants cannot register for it. The yearbook tells second/third-year students to consult the faculty academic adviser before July. The award requires 120 credits in each of Years 1–3, passing the Management Sciences first-year compulsory modules and a third-year major. This specific internal articulation entry is not a new school-leaver programme.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 30",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Economic and Management Sciences admissions. Qualification-specific NSC/IEB minima, higher selection criteria and international converted percentages remain distinct. Data Science faculty rules apply to its EMS focal areas; ECP is a separate South-African-citizen route. Diploma, advanced-diploma, internal articulation and transfer conditions are not school-leaver IB totals. Award names and source-specific delivery conditions remain explicit.",
+      "requirements": [
+        {
+          "key": "su27ems_public_diploma_cat",
+          "label": "Public Accountability Diploma: assessed prior-credit transfer",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Applicants who completed accredited courses such as the Municipal Minimum Competence Programme may seek credit accumulation/transfer up to 50% of this diploma's credit value. A successful application may reduce minimum duration by one year. This is conditional credit recognition, not an IB/AP school-entry score or an automatic admission offer.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 25",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_public_advanced_cat",
+          "label": "Advanced Public Accountability: assessed prior-credit transfer",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Applicants who completed a Middle Management Development Programme may apply for transfer of those credits, up to 50% of the Advanced Diploma's credits. This is assessed tertiary credit recognition, not a school-leaving score threshold.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 28",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_transfer_external",
+          "label": "EMS transfer from another faculty/university: credits and conduct",
+          "category": "academic",
+          "status": "required",
+          "details": "For the linked EMS degree destinations, non-EMS applicants are waitlisted pending final academic results and conduct record. They must meet Table 1 admission/selection criteria, submit satisfactory conduct, pass at least 70% of previously registered credits, and use formal readmission if academically excluded. The 70% figure is a tertiary credit-pass proportion, not an IB total or school average. Data Science policies here concern its EMS focal areas.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 5",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_transfer_internal_higher",
+          "label": "EMS internal transfer to higher-requirement programmes",
+          "category": "academic",
+          "status": "conditional",
+          "details": "At the start of the next academic year, internal EMS transfer to a higher-requirement degree needs the destination's Grade 12 admission minima (selection criteria do not apply), all prior-year registered modules passed, and any additional Actuarial Science/BAccounting/ECP requirements confirmed with the programme. The policy prohibits in-year transfers. The separately named generic BCom articulation entry is not attached to this policy fact.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 4",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_transfer_internal_lower",
+          "label": "EMS internal transfer to lower-requirement programmes",
+          "category": "academic",
+          "status": "conditional",
+          "details": "At the next academic-year start, internal transfer to a lower-requirement degree needs the destination's Grade 12 minima and permission from both SU and the faculty to continue. Students with fewer than 50% of credits passed who were not readmitted through the formal appeal process may not continue in any faculty programme. This is a progression/readmission condition, not a school-leaver exam grade.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 4–5",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_data_transfer_approval",
+          "label": "Data Science transfer: programme committee approval",
+          "category": "application",
+          "status": "required",
+          "details": "To articulate into BDatSci from another academic programme, submit a request to the BDatSci Programme Committee at datascience@sun.ac.za for approval. The degree is shared across four faculties; a focal area is recorded on the academic transcript and does not create a separate parent degree. The source refers focal-area changes to Appendix C.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 71",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2027 Economic and Management Sciences admissions. Qualification-specific NSC/IEB minima, higher selection criteria and international converted percentages remain distinct. Data Science faculty rules apply to its EMS focal areas; ECP is a separate South-African-citizen route. Diploma, advanced-diploma, internal articulation and transfer conditions are not school-leaver IB totals. Award names and source-specific delivery conditions remain explicit.",
+      "requirements": [
+        {
+          "key": "su27ems_ecp_minimum",
+          "label": "Management Sciences ECP: NSC 60%, Mathematics 50%",
+          "category": "academic",
+          "status": "required",
+          "details": "For the four-year ECP route, minimum NSC average is 60%, excluding Life Orientation; Mathematics 50%; and Afrikaans OR English Home Language 50% OR Afrikaans OR English First Additional Language 70%. The mainstream programme's 65%/60% floor is not substituted for this separate route.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 19, 88",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_ecp_eligibility",
+          "label": "Management Sciences ECP: citizenship and previous schooling",
+          "category": "application",
+          "status": "required",
+          "details": "Only South African citizens can register for this ECP. Applicants must have been enrolled full-time at school in the year immediately before registration and completed a full school-leaving examination. The table excludes applicants who repeated any Grade 12 subject or were not in school in that preceding year. Domestic cohort here does not mean every resident is eligible. The separately recorded socioeconomic selection condition also applies.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 19–20, 88",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_ecp_ses",
+          "label": "Management Sciences ECP: socioeconomic status at least 2",
+          "category": "application",
+          "status": "required",
+          "details": "The 2027 selection table requires socioeconomic status (SES) of at least 2. The SES factor is assessed from application information concerning educational disadvantage, economic disadvantage and first-generation-student status. It is an additional ECP selection condition rather than a school-exam score or an automatic offer.",
+          "source": {
+            "url": "https://files.su.ac.za/public/economic-and-management-sciences/documents/2026-04/2027-emsselectionprocessengpdf.pdf",
+            "title": "Stellenbosch 2027 EMS · policy PDF 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27ems_ecp_offer_only",
+          "label": "Management Sciences ECP: faculty offer, not direct application",
+          "category": "application",
+          "status": "considered",
+          "details": "Applicants cannot apply directly for the ECP. Educationally/socioeconomically disadvantaged applicants who miss mainstream selection may be considered for an offer to change to the four-year ECP. Eligibility and academic minima do not guarantee that offer.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part10-ems.pdf",
+            "title": "Stellenbosch 2027 EMS · year PDF 88",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}
