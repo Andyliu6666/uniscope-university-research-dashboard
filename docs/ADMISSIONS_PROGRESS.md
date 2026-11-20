@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Kenya Nursing, Pharmacy and Dentistry — November 20
+
+1. **Baseline.** Local and remote main matched `37dcf2b`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44684830815). The database matched the Bath Civil Engineering and Architecture checkpoint.
+2. **Sources.** The [source record](research/KENYA_NURSING_PHARMACY_DENTISTRY_20261120.md) reconciles course codes across the official July cut-off report, individual subject rows and the national 13A/13B cluster rules. Three later Nursing listings rely on the national cluster source for subject grades. One institution identity remains pending.
+3. **Artifacts.** The dataset covers 45 courses at 35 institutions, with 82 facts, 269 historical score cells and 135 course-to-rule links. Forty-five links reuse reviewed rules. Three existing course identities are retained and 42 catalogue entries added.
+4. **Import.** Validation and the read-only preview passed with zero writes. The preview matched the saved baseline and the existing readable backup. Live import inserted 82 facts with zero skips and repeat import made no changes. Previous admissions content, shared links and every reviewed IB row retained their fingerprints.
+5. **Verification.** The API matched all 45 courses, 82 facts, 135 links and 269 source score cells. Programme search, applicant and academic-year isolation passed. Data quality, API and website checks passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,630 courses, 3,780 profiles, 25,564 requirements, 107,979 sources and 122 runs. There are 3,544 reviewed general facts across 85 institutions and 1,163 reviewed IB records. The complete readable archive is `backups/post-kenya-health-20261120.gzXuSs`, SHA-256 `8e597fbbc7f3972507701b7a8f3ef9f42942c09101bc4f1859ae0492abf62969`.
+
 ## Bath Civil Engineering and Architecture — November 20
 
 1. **Baseline.** Local and remote main matched `89d4fa6`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44684255279). The database matched the Kabarak checkpoint and its fully readable archive.
