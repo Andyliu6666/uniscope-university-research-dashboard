@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Stellenbosch Arts and Social Sciences — November 20
+
+1. **Baseline.** Local and remote main matched `8705be2`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44764957751). The database matched the complete Agrisciences checkpoint: ten Stellenbosch courses and 51 reviewed facts.
+2. **Sources.** The [source review](research/STELLENBOSCH_ARTS_20261120.md) records the official 2027 international tables, four-page faculty policy, November yearbook and dated portfolio instructions. Complete relevant pages were visually checked. NSC/IEB, international qualification and ECP routes retain their separate meanings.
+3. **Artifact.** One file adds ten courses, reuses the Data Science parent and stores 43 distinct facts with 146 associations. Another 146 associations reuse existing reviewed rules. Faculty-specific language variation remains unresolved, Music branches stay distinct, and the specific Visual Arts deadline is reconciled. No course IB total is manufactured.
+4. **Import and backup.** Validation and zero-write preview passed. The previous full archive was verified. All 43 facts were inserted with zero skips; repeat added nothing. Prior university/course/profile/source/import rows, earlier fact content and shared links were preserved. All 1,212 prior IB rows retained their fingerprint.
+5. **Verification.** The API matched every new fact and all 292 associations. All 44 course/route/applicant queries and year/cohort boundaries passed. Portfolio date, police clearance, Music audition scopes and Data Science variation passed specific checks. Data quality checks passed.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,731 courses, 3,835 profiles, 25,868 requirements, 108,020 sources and 134 runs. Reviewed general facts total 3,848 across 88 institutions; Stellenbosch has 20 courses and 94 facts. Numerical IB coverage remains 716 courses. Complete readable archive `backups/post-stellenbosch-arts-20261120.7_6kuiyu` has SHA-256 `c411d7b837bab7377665a68e4aed5f173e90c855fec8172028db873573fa4f88`. Next review the separate Music awards on yearbook PDF 54–55, 77–79 and 82, then remaining faculties and worldwide sources. Global coverage is unfinished.
+
 ## Stellenbosch Agrisciences and international qualifications — November 20
 
 1. **Baseline.** Local and remote main matched `8408b3a`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44759021053). The database matched the final UTech citation/shared-link checkpoint. Stellenbosch's exact ROR identity had no course or reviewed admissions rows.

@@ -1,0 +1,1462 @@
+{
+  "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "su",
+      "name": "Stellenbosch University",
+      "provider": "ror",
+      "externalId": "05bk57929",
+      "countryCode": "ZA",
+      "officialDomains": ["su.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "humanities",
+      "institutionKey": "su",
+      "name": "BA (Humanities)",
+      "level": "undergraduate",
+      "field": "Humanities",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 14, printed 24–25",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_nsc_language_50_40",
+        "su27arts_humanities_nsc_optional_math",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_discretionary",
+        "su27arts_ecp_variable_cutoff",
+        "su27arts_ecp_reconsideration"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "culture",
+      "institutionKey": "su",
+      "name": "BA (Language and Culture)",
+      "level": "undergraduate",
+      "field": "Language and Culture",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 14, printed 24–25",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_culture_nsc_language",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_discretionary",
+        "su27arts_ecp_variable_cutoff",
+        "su27arts_ecp_reconsideration"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "development",
+      "institutionKey": "su",
+      "name": "BA (Development and Environment)",
+      "level": "undergraduate",
+      "field": "Development and Environment",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 14, printed 24–25",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_development_economics_math",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_nsc_language_50_40",
+        "su27arts_development_nsc_optional_math",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_discretionary",
+        "su27arts_ecp_variable_cutoff",
+        "su27arts_ecp_reconsideration"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "drama",
+      "institutionKey": "su",
+      "name": "BA (Drama and Theatre)",
+      "level": "undergraduate",
+      "field": "Drama and Theatre",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_drama_nsc",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_no_route",
+        "su27arts_drama_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "hrm",
+      "institutionKey": "su",
+      "name": "BA (Human Resource Management)",
+      "level": "undergraduate",
+      "field": "Human Resource Management",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_hrm_math_alternatives",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_nsc_language_50_40",
+        "su27arts_hrm_nsc_math",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_discretionary",
+        "su27arts_ecp_variable_cutoff",
+        "su27arts_ecp_reconsideration"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        }
+      ]
+    },
+    {
+      "key": "international",
+      "institutionKey": "su",
+      "name": "BA (International Studies)",
+      "level": "undergraduate",
+      "field": "International Studies",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_international_nsc_english",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_discretionary",
+        "su27arts_ecp_variable_cutoff",
+        "su27arts_ecp_reconsideration"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "music",
+      "institutionKey": "su",
+      "name": "BA (Music)",
+      "level": "undergraduate",
+      "field": "Music",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_60",
+        "su27arts_international_language_exemption",
+        "su27arts_music_optional_math",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_60",
+        "su27arts_nsc_language_50_40",
+        "su27arts_music_nsc_optional_math",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_no_route",
+        "su27arts_music_production_audition",
+        "su27arts_music_practical_audition"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "ppe",
+      "institutionKey": "su",
+      "name": "BA (Political, Philosophical and Economic Studies)",
+      "level": "undergraduate",
+      "field": "Political, Philosophical and Economic Studies",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 16, printed 28–29",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_nsc_language_50_40",
+        "su27arts_ppe_nsc_math",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_no_route"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_math_e"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_math_c"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_math_6"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_math_3"
+        }
+      ]
+    },
+    {
+      "key": "social",
+      "institutionKey": "su",
+      "name": "B Social Work",
+      "level": "undergraduate",
+      "field": "Social Work",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 16, printed 28–29",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_65",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_63",
+        "su27arts_social_nsc_language",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_no_route",
+        "su27arts_social_selection_priority",
+        "su27arts_social_police_clearance"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "visual",
+      "institutionKey": "su",
+      "name": "BA (Visual Arts)",
+      "level": "undergraduate",
+      "field": "Visual Arts",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 16, printed 28–29",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_international_average_60",
+        "su27arts_international_language_exemption",
+        "su27arts_nsc_certificate_four_subjects",
+        "su27arts_nsc_average_60",
+        "su27arts_nsc_language_50_40",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue",
+        "su27arts_ecp_no_route",
+        "su27arts_visual_deadline",
+        "su27arts_visual_originality",
+        "su27arts_visual_format",
+        "su27arts_visual_drawing",
+        "su27arts_visual_sculpture_story",
+        "su27arts_visual_logo_and_additional",
+        "su27arts_visual_statement",
+        "su27arts_visual_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_calendar_fee"
+        }
+      ]
+    },
+    {
+      "key": "data_science",
+      "institutionKey": "su",
+      "name": "B Data Science (BDatSci)",
+      "level": "undergraduate",
+      "field": "Data Science",
+      "source": {
+        "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+        "title": "Stellenbosch 2027 · international prospectus PDF 17, printed 30–31",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "su27arts_data_science_nsc",
+        "su27arts_data_science_international_language_difference",
+        "su27arts_faculty_selection",
+        "su27arts_faculty_complete_application",
+        "su27arts_faculty_nbt",
+        "su27arts_faculty_conditional_offers",
+        "su27arts_faculty_offer_reissue"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Arts/Social Sciences first-year and separately identified ECP route. NSC/IEB conditions are qualification-specific; international converted averages and IB/A-level alternatives retain their source meaning. Data Science faculty policies apply only to its Arts/Geoinformatics branch.",
+      "requirements": [
+        {
+          "key": "su27arts_international_average_65",
+          "category": "academic",
+          "label": "Arts international curricula: 65% converted average",
+          "status": "required",
+          "details": "For these linked Arts/Social Sciences rows, university exemption with a 65% SU-converted average is required. This is the international-curriculum table, not the NSC/IEB 63% average in the separate yearbook and not an IB diploma total.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 14–16, printed 24–29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_international_average_60",
+          "category": "academic",
+          "label": "Music and Visual Arts: 60% converted average",
+          "status": "required",
+          "details": "For BA (Music) and BA (Visual Arts), the international-curriculum table requires university exemption with a 60% SU-converted average, together with the applicable selection process. This percentage is not an IB total.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 15–16, printed 26–29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_international_language_exemption",
+          "category": "language",
+          "label": "Arts international curricula: language through exemption",
+          "status": "conditional",
+          "details": "The ten linked Arts/Music/Social Work rows state that their language requirements are satisfied by meeting matriculation-exemption requirements. This does not import the Agrisciences programme-specific language minima; qualification-specific exemption conditions still apply.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 14–16, printed 24–29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_development_economics_math",
+          "category": "academic",
+          "label": "Development and Environment: Mathematics if taking Economics",
+          "status": "conditional",
+          "details": "Only if Economics is taken as a university subject, the international table requires Mathematics: IB HL 4 or SL 5; A-level E; AS-level C; German Abitur 6 (Namibian German-school equivalent 8); or Namibian HL 3, according to the qualification presented. It is not an unconditional extra subject requirement for every applicant.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 14, printed 24–25",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_music_optional_math",
+          "category": "academic",
+          "label": "Music: Mathematics if taking Mathematics at university",
+          "status": "conditional",
+          "details": "Only if Mathematics is taken as a university subject, the international table requires Mathematics: IB HL 4 or SL 5; A-level D; AS-level B; German Abitur 8 (Namibian German-school equivalent 10); or Namibian HL 2. These are qualification-specific alternatives.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_hrm_math_alternatives",
+          "category": "academic",
+          "label": "Human Resource Management: non-IB Mathematics alternatives",
+          "status": "conditional",
+          "details": "For Human Resource Management the table requires Mathematics: A-level E OR GCSE/O-level C; AS-level D OR GCSE/O-level C; German Abitur 4 (Namibian German-school equivalent 6); or Namibia HL 3 OR OL B. These alternatives do not all have to be presented. Its IB Mathematics HL 4/SL 5 rule is linked separately.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 15, printed 26–27",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_data_science_nsc",
+          "category": "academic",
+          "label": "Data Science: NSC average, Mathematics and language",
+          "status": "required",
+          "details": "The general BDatSci yearbook entry requires NSC average at least 80%, excluding Life Orientation; Mathematics 80%; and one of Afrikaans Home Language 60%, English Home Language 60%, Afrikaans First Additional Language 75%, or English First Additional Language 75%. These are NSC percentages, not IB or A-level conversions. The yearbook explicitly says its focal areas are not separate programmes.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 37, printed 29",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_data_science_international_language_difference",
+          "category": "language",
+          "label": "Data Science: faculty-table English variation",
+          "status": "unknown",
+          "details": "The Arts/Geoinformatics international-table row prints German-school English 9 (Namibian German-school equivalent 7), whereas the Agrisciences row separately lists First Language 6 (Namibian equivalent 6) or Second Language 9 (Namibian equivalent 7). The Arts AS-level column states English First Language C at AS/GCSE/O-level and omits the separate second-language options visible in the Agrisciences row. Confirm the applicable faculty/qualification language condition; neither row is used as an unqualified replacement for the other.",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 · international prospectus PDF 13 and 17, printed 22–23 and 30–31",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_nsc_certificate_four_subjects",
+          "category": "academic",
+          "label": "NSC/IEB certificate: four approved subjects at 50%",
+          "status": "required",
+          "details": "For the linked degree entries, present an NSC or IEB school-leaving certificate certified by Umalusi, with at least code 4 (50%) in each of four subjects from the yearbook's approved school-subject list. This is a certificate/subject condition, separate from the programme average and other named subjects.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 21,30,40,42,45–46,63,66,75",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_nsc_average_63",
+          "category": "academic",
+          "label": "NSC/IEB mainstream average: 63%",
+          "status": "required",
+          "details": "The linked mainstream degree entries require a final NSC/IEB average of at least 63%, excluding Life Orientation. Any listed language, Mathematics, selection and document requirements are additional. The international-curriculum table's 65% converted average is a separate qualification route.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 21,30,40,42,45,63,66",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_nsc_average_60",
+          "category": "academic",
+          "label": "NSC/IEB Music and Visual Arts average: 60%",
+          "status": "required",
+          "details": "BA (Music) and BA in Visual Arts require an NSC/IEB final average of at least 60%, excluding Life Orientation. Their auditions/portfolio and other stated conditions remain additional.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 46 and 75",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_nsc_language_50_40",
+          "category": "language",
+          "label": "NSC/IEB: Home Language 50%, First Additional 40%",
+          "status": "conditional",
+          "details": "For the linked degree entries, Home Language must be at least code 4 (50%) and First Additional Language at least code 3 (40%). Other programmes with different language choices are not covered by this shared rule.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 21,45–46,63,66,75",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_culture_nsc_language",
+          "category": "language",
+          "label": "Language and Culture: NSC/IEB languages",
+          "status": "conditional",
+          "details": "For Language and Culture, Home Language and First Additional Language each require at least code 4 (50%). This differs from the 40% First Additional Language rule in some other Arts degrees.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 30",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_drama_nsc",
+          "category": "academic",
+          "label": "Drama: NSC/IEB average and languages",
+          "status": "required",
+          "details": "Drama and Theatre Studies requires a final NSC/IEB average of at least 65%, excluding Life Orientation; Home Language code 5 (60%); and First Additional Language code 4 (50%).",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 38",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_international_nsc_english",
+          "category": "language",
+          "label": "International Studies: NSC/IEB English alternatives",
+          "status": "conditional",
+          "details": "International Studies requires English Home Language code 4 (50%) OR English First Additional Language code 5 (60%), alongside its other NSC/IEB admission conditions.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 40",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_social_nsc_language",
+          "category": "language",
+          "label": "Social Work: NSC/IEB language choices",
+          "status": "conditional",
+          "details": "Social Work requires at least code 5 (60–69%) in one of Afrikaans Home Language, English Home Language, Afrikaans First Additional Language or English First Additional Language.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 42",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_humanities_nsc_optional_math",
+          "category": "academic",
+          "label": "Humanities: Mathematics for Organisational Informatics",
+          "status": "conditional",
+          "details": "Only if taking Organisational Informatics, the Humanities NSC/IEB route requires Mathematics code 4 (50%) OR Mathematical Literacy code 6 (70%).",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 21",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_hrm_nsc_math",
+          "category": "academic",
+          "label": "Human Resource Management: NSC/IEB Mathematics",
+          "status": "conditional",
+          "details": "Human Resource Management requires Mathematics code 4 (50%) OR Mathematical Literacy code 6 (70%).",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 45",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_development_nsc_optional_math",
+          "category": "academic",
+          "label": "Development and Environment: NSC/IEB Economics Mathematics",
+          "status": "conditional",
+          "details": "Mathematics code 5 (60%) is required only if taking Economics 114 or 144 in Development and Environment.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 63",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_ppe_nsc_math",
+          "category": "academic",
+          "label": "PPE: NSC/IEB Mathematics",
+          "status": "conditional",
+          "details": "Political, Philosophical and Economic Studies requires Mathematics code 5 (60%) under its NSC/IEB route.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 66",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_music_nsc_optional_math",
+          "category": "academic",
+          "label": "Music: NSC/IEB Mathematics option",
+          "status": "conditional",
+          "details": "BA (Music) requires Mathematics code 6 (70%) if taking Mathematics 114 and 144; the condition is not imposed on all Music subject choices.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 46",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_faculty_selection",
+          "category": "application",
+          "label": "Arts faculty: selection and grade processing",
+          "status": "considered",
+          "details": "For Arts and Social Sciences applications, including Data Science's Geoinformatics faculty branch, selection considers school subjects/results, programme choices, socioeconomic context and faculty diversity/capacity. International and nonstandard Grade 12 certificates are referred for comparable-average conversion. The minimum is the starting point for selection, not a guaranteed offer.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 1–2",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_faculty_complete_application",
+          "category": "application",
+          "label": "Arts faculty: application and supporting-document closing",
+          "status": "required",
+          "details": "For 2027 entry, the faculty requires electronic submission by 31 July in the preceding year, including supporting documents; documents supplied later make the application late. The faculty policy allows exceptional late consideration only after on-time applications and if places remain. The broader international booklet says no late applications: this faculty exception is not an automatic extension, especially for international applicants. For Data Science this record concerns the Arts/Geoinformatics application branch.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_faculty_nbt",
+          "category": "standardized_test",
+          "label": "Arts faculty: qualification-specific NBT requirement",
+          "status": "conditional",
+          "details": "NBTs must be written before 30 September in the year before entry for applicants with AHSD, IEB International Secondary Certificate, School of Tomorrow or any online schooling system. NSC/SACAI applicants normally do not need NBT results unless their programme requires them. For Data Science this is the Arts/Geoinformatics faculty branch; it is additional to, and not a replacement for, qualification-exemption alternatives.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 2",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_faculty_conditional_offers",
+          "category": "application",
+          "label": "Arts faculty: provisional selection and offer acceptance",
+          "status": "conditional",
+          "details": "The faculty's general-selection route sets a yearly provisional-offer cutoff, assesses Grade 11 results, and requires conditional-offer acceptance by 30 September. Final Grade 12 results support the final decision. Applicants already holding qualifying NSC results follow the final-offer branch and the date in their letter. Programmes with their own selection can initially yield a conditional offer to another qualifying general-selection programme; a later specific-selection offer may be chosen by 30 September. Arts/Geoinformatics only for Data Science.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_faculty_offer_reissue",
+          "category": "application",
+          "label": "Arts faculty: changing and requesting an offer again",
+          "status": "conditional",
+          "details": "Before accepting an offer from another faculty, an accepted Arts offer must be declined. A request to return to that original Arts programme must be submitted by 31 October before the registration year and depends on places. The faculty states it has no waiting list. This concerns the Arts/Geoinformatics branch of Data Science.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 3–4",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_ecp_no_route",
+          "category": "application",
+          "label": "No extended curriculum option for these degrees",
+          "status": "not_considered",
+          "details": "The yearbook excludes Social Work, Drama and Theatre Studies, BA (Music), Visual Arts and PPE from the extended curriculum programme option. This is not a statement that all applicants to other degrees qualify for an ECP.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 19,38,47,66,75",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_drama_selection",
+          "category": "interview",
+          "label": "Drama: personal audition/interview",
+          "status": "required",
+          "details": "Final selection for Drama and Theatre Studies uses a personal audition/interview. The yearbook emphasises fluency in spoken English or Afrikaans for the course. This is the undergraduate programme, not postgraduate auditions.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 38",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_social_selection_priority",
+          "category": "application",
+          "label": "Social Work: published selection priorities",
+          "status": "considered",
+          "details": "The yearbook states 100 new first-year places in Social Work. NSC/IEB averages excluding Life Orientation above 70% are considered first, then 65–70% if places remain, then 63–65% if further places remain. These are ordered consideration bands, not guaranteed offers or IB conversion values; endpoints are retained as the source phrases them.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 42",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_social_police_clearance",
+          "category": "document",
+          "label": "Social Work: police clearance at registration",
+          "status": "required",
+          "details": "Social Work students must submit a police clearance certificate at registration that is not older than six months.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 42",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_music_production_audition",
+          "category": "interview",
+          "label": "Music Production: audition and prior training",
+          "status": "required",
+          "details": "For BA (Music) entrants first registering in 2027 or later, Music Production auditions assess technological literacy and general creativity; previous formal music education is not required. A basic skills assessment advises advanced or foundational Music Theory/Aural Training placement. This branch does not inherit Practical Music Study's Grade 7/5 standards.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 49",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_music_practical_audition",
+          "category": "interview",
+          "label": "Practical Music Study: Grade 7 practical, Grade 5 theory",
+          "status": "conditional",
+          "details": "For BA (Music)'s Practical Music Study focal area, applicants audition at a standard equivalent to Grade 7 practical instrument and Grade 5 music theory of a music examination body. Candidates showing potential may be accepted with departmental supplementary work. A required Musicology (Music Skills) 271 bridge must be passed before Theory of Music 222/252; alternatively the department may recommend a Higher Certificate year before reapplication, or the Practical Music diploma where practical standard is sufficient but academic/theoretical preparation is not.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 51",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_deadline",
+          "category": "application",
+          "label": "Visual Arts: 31 August 2026 portfolio deadline",
+          "status": "required",
+          "details": "For admission in 2027, the programme-specific portfolio document requires receipt by 31 August 2026 at visualartapplication@sun.ac.za. It refuses late or incomplete submissions. The general international booklet's 1 September statement is superseded here by the dated 2027 programme instruction; the dates are not two interchangeable deadlines.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 2–3",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_originality",
+          "category": "portfolio",
+          "label": "Visual Arts: originality and signed declaration",
+          "status": "required",
+          "details": "Submit original, unassisted work and the signed declaration confirming accurate information and ownership. The 2027 instructions prohibit others' help with interpreting/executing projects and prohibit AI assistance. These conditions govern the applicant's portfolio work.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 1–2",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_format",
+          "category": "portfolio",
+          "label": "Visual Arts: complete submission and format",
+          "status": "required",
+          "details": "Submit the completed first three form pages and all required portfolio projects. The preferred electronic format is one PDF of high-quality artwork scans/photos, labelled with applicant name, chosen field and project number, with a project list; email subject must contain the full applicant name. Do not send duplicate or updated portfolios. Physical submission is allowed if electronic submission is impossible: A4 plastic flip file, original 2D works and photographs of 3D works, to the Visual Arts building. The statement recording can be sent separately.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 2–4 and 8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_drawing",
+          "category": "portfolio",
+          "label": "Visual Arts Project 1: two observational drawings",
+          "status": "required",
+          "details": "Provide two drawings from direct observation: a self-portrait, figure or animal study, and a three-object study. Use charcoal/pencil (2B or softer) for one and fineliner/pen-and-ink/brush-and-ink for the other. Photographic or other 2D source copying/tracing is not allowed for these drawings.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 5",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_sculpture_story",
+          "category": "portfolio",
+          "label": "Visual Arts Project 2: sculpture and visual sequence",
+          "status": "required",
+          "details": "Project 2 requires a construction using two found objects and clay, photographed from at least four angles with a materials description, plus a four-to-eight-frame visual narrative. Use the source's complete creative brief and assessment criteria; no size is inferred from its malformed printed panel-dimension text.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 6–7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_logo_and_additional",
+          "category": "portfolio",
+          "label": "Visual Arts Projects 3–4: design process and additional works",
+          "status": "required",
+          "details": "Provide the symbolic initials/animal logo project, including investigative drawings and a 50 × 50 mm final mark, and photographs of three additional original works of the applicant's choice. Digital captures or the prescribed physical originals are accepted under the document's submission instructions. Refer to the official brief for the full project/assessment directions.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 7",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_statement",
+          "category": "document",
+          "label": "Visual Arts Project 5: personal statement",
+          "status": "required",
+          "details": "Provide a personal video or audio statement no longer than two minutes identifying the applicant/course and explaining motivation, fit with the programme and inspirations. It may be sent separately from the artwork PDF to visualartapplication@sun.ac.za; a written narrative is allowed if the applicant lacks the recording technology.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 7–8",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_visual_selection",
+          "category": "portfolio",
+          "label": "Visual Arts: panel and specialisation selection",
+          "status": "considered",
+          "details": "The same required projects apply to Fine Art, Visual Communication Design and Creative Jewellery/Metal Design applicants. A limited-capacity expert panel assesses the portfolio and may refer it to another specialisation where the first choice is full and evidence supports another field. Acceptance depends on panel selection, not academic minima alone.",
+          "source": {
+            "url": "https://files.su.ac.za/public/department-visual-arts/documents/2026-04/2027-portfolio-requirementspdf.pdf",
+            "title": "Stellenbosch 2027 · Visual Arts portfolio 2027 PDF 3–4",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Arts/Social Sciences first-year and separately identified ECP route. NSC/IEB conditions are qualification-specific; international converted averages and IB/A-level alternatives retain their source meaning. Data Science faculty policies apply only to its Arts/Geoinformatics branch.",
+      "requirements": [
+        {
+          "key": "su27arts_ecp_discretionary",
+          "category": "application",
+          "label": "Extended curriculum: separate discretionary route",
+          "status": "conditional",
+          "details": "For these five Arts degrees, an ECP extends the programme from three to four years, with first-year study spread across two years. Selection is discretionary, considering socioeconomic status and places. Entry at the start of the second semester is not allowed.",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbookpart4-artsandsocialsciences.pdf",
+            "title": "Stellenbosch 2027 · Arts yearbook PDF 19",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_ecp_variable_cutoff",
+          "category": "application",
+          "label": "ECP: variable threshold and mainstream restriction",
+          "status": "conditional",
+          "details": "ECP places are allocated to applicants whose final Grade 12 averages fall immediately below the mainstream cutoff. The cutoff changes with mainstream selection and is not a fixed published minimum. Accepting ECP admission cannot be changed to mainstream solely because final results are higher.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 4",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "su27arts_ecp_reconsideration",
+          "category": "application",
+          "label": "ECP: reconsideration after final Grade 12 results",
+          "status": "conditional",
+          "details": "A candidate conditionally admitted to a mainstream programme whose final Grade 12 marks fall short may request ECP consideration by 25 January of the registration year, emailing askfass@sun.ac.za with subject “FASS: Reconsideration for ECP”. Consideration depends on remaining places after the initially accepted students register.",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-arts-and-social-sciences/documents/2026-03/fass-admissions-document-2027.pdf",
+            "title": "Stellenbosch 2027 · Faculty selection 2027 PDF 4",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

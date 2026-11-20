@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281721,
+            "programs": 281731,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3834,
+            "admissionProfiles": 3835,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25825,
+            "admissionRequirements": 25868,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196033
+            "undergraduateCatalogEntries": 196043
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3805,
-            "profiles": 1357,
+            "facts": 3848,
+            "profiles": 1358,
             "institutions": 88
         }
     },
-    "generatedAt": "2026-11-20T15:34:08Z",
+    "generatedAt": "2026-11-20T16:41:41Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 51,
+        "inserted": 43,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 51,
-        "startedAt": "2026-11-20T15:33:34.927227+00:00",
-        "updatedAt": "2026-11-20T15:33:34.927227+00:00",
+        "processed": 43,
+        "startedAt": "2026-11-20T16:39:22.199975+00:00",
+        "updatedAt": "2026-11-20T16:39:22.199975+00:00",
         "checkpoint": {
             "profiles": 2,
-            "admissionFacts": 51,
-            "programsReused": 0,
-            "programsCreated": 10
+            "admissionFacts": 43,
+            "programsReused": 1,
+            "programsCreated": 10,
+            "priorSharedLinksAdded": 146
         },
-        "finishedAt": "2026-11-20T15:33:34.991+00:00",
-        "artifactSha256": "d204f3ba006fe6c334b55e2314e7c8f4429d7a9a5dcc389e81d6ec9a78bd959f",
-        "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1"
+        "finishedAt": "2026-11-20T16:39:22.328+00:00",
+        "artifactSha256": "24b030a3aab8a59f8aa101ac065203a317cfb646ec9952b910ebad3d2ad0d38e",
+        "datasetVersion": "official-admissions-stellenbosch-arts-2027-2026-11-20-v1"
     },
     "schemaVersion": 2
 }
