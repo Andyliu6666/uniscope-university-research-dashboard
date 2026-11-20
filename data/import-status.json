@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281577,
+            "programs": 281588,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3756,
+            "admissionProfiles": 3778,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25464,
+            "admissionRequirements": 25482,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1141
+            "qualificationRequirements": 1163
         },
         "ibCoverage": {
             "byCountry": [
@@ -121,16 +121,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 3,
-                    "programs_with_reviewed_ib": 86,
-                    "programs_with_published_totals": 85
+                    "programs_with_reviewed_ib": 97,
+                    "programs_with_published_totals": 96
                 }
             ],
-            "reviewedRecords": 1141,
-            "programsWithReviewedIb": 949,
+            "reviewedRecords": 1163,
+            "programsWithReviewedIb": 960,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 43,
-            "programsWithPublishedTotals": 656,
-            "undergraduateCatalogEntries": 195889
+            "programsWithPublishedTotals": 667,
+            "undergraduateCatalogEntries": 195900
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3444,
+            "facts": 3462,
             "profiles": 1350,
             "institutions": 83
         }
     },
-    "generatedAt": "2026-11-20T05:53:42Z",
+    "generatedAt": "2026-11-20T05:59:26Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 1,
+        "inserted": 22,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 1,
-        "startedAt": "2026-11-20T05:52:57.453382+00:00",
-        "updatedAt": "2026-11-20T05:52:57.467+00:00",
+        "processed": 22,
+        "startedAt": "2026-11-20T05:58:01.488825+00:00",
+        "updatedAt": "2026-11-20T05:58:01.553+00:00",
         "checkpoint": {
-            "rowIndex": 1,
-            "sourceRows": 1,
+            "rowIndex": 22,
+            "sourceRows": 22,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-20T05:52:57.467+00:00",
-        "artifactSha256": "0f8ad85c0cfa79228ded6fb9083e99cf390df923768eed688e57446a51ab9adf",
-        "datasetVersion": "official-ib-kabarak-undergraduate-2026-11-20-v1"
+        "finishedAt": "2026-11-20T05:58:01.553+00:00",
+        "artifactSha256": "d6113cd457950b278fbe6ee677c7e7891b0621b85269d7c07a1e9419a88234c0",
+        "datasetVersion": "official-ib-bath-2027-civil-architecture-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

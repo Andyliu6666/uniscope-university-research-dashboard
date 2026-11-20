@@ -1,0 +1,668 @@
+{
+  "datasetVersion": "official-admissions-bath-2027-civil-architecture-2026-11-20-v1",
+  "reviewedOn": "2026-11-20",
+  "institutions": [
+    {
+      "key": "bath",
+      "name": "University of Bath",
+      "provider": "ror",
+      "externalId": "002h8g185",
+      "countryCode": "GB",
+      "officialDomains": ["bath.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "bath_s101",
+      "institutionKey": "bath",
+      "name": "Civil Engineering BEng (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+        "title": "Bath 2027 · UCAS S101",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s100",
+      "institutionKey": "bath",
+      "name": "Civil Engineering BEng (Hons)",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering/",
+        "title": "Bath 2027 · UCAS S100",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s103",
+      "institutionKey": "bath",
+      "name": "Civil Engineering MEng (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/meng-civil-engineering-with-professional-placement/",
+        "title": "Bath 2027 · UCAS S103",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s102",
+      "institutionKey": "bath",
+      "name": "Civil Engineering MEng (Hons)",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/meng-civil-engineering/",
+        "title": "Bath 2027 · UCAS S102",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s111",
+      "institutionKey": "bath",
+      "name": "Structural and Architectural Engineering BEng (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Structural and Architectural Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-structural-and-architectural-engineering-with-professional-placement/",
+        "title": "Bath 2027 · UCAS S111",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s110",
+      "institutionKey": "bath",
+      "name": "Structural and Architectural Engineering BEng (Hons)",
+      "level": "undergraduate",
+      "field": "Structural and Architectural Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-structural-and-architectural-engineering/",
+        "title": "Bath 2027 · UCAS S110",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s113",
+      "institutionKey": "bath",
+      "name": "Structural and Architectural Engineering MEng (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Structural and Architectural Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/meng-structural-and-architectural-engineering-with-professional-placement/",
+        "title": "Bath 2027 · UCAS S113",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_s112",
+      "institutionKey": "bath",
+      "name": "Structural and Architectural Engineering MEng (Hons)",
+      "level": "undergraduate",
+      "field": "Structural and Architectural Engineering",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/meng-structural-and-architectural-engineering/",
+        "title": "Bath 2027 · UCAS S112",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_engineering_alevel",
+        "bath_27_ca_engineering_alternative",
+        "bath_27_ca_engineering_ap",
+        "bath_27_ca_engineering_btec",
+        "bath_27_ca_engineering_t_level",
+        "bath_27_ca_engineering_access",
+        "bath_27_ca_engineering_scottish",
+        "bath_27_ca_engineering_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_english_gcse"
+        }
+      ]
+    },
+    {
+      "key": "bath_k110",
+      "institutionKey": "bath",
+      "name": "Architecture BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Architecture",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+        "title": "Bath 2027 · UCAS K110",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_architecture_alevel",
+        "bath_27_ca_architecture_alternative",
+        "bath_27_ca_architecture_ap",
+        "bath_27_ca_architecture_btec",
+        "bath_27_ca_architecture_t_level",
+        "bath_27_ca_architecture_access",
+        "bath_27_ca_architecture_scottish",
+        "bath_27_ca_architecture_gcse",
+        "bath_27_ca_architecture_english",
+        "bath_27_ca_architecture_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_k113",
+      "institutionKey": "bath",
+      "name": "Architecture MArch (Hons) with professional placement",
+      "level": "undergraduate",
+      "field": "Architecture",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/march-architecture-with-professional-placement/",
+        "title": "Bath 2027 · UCAS K113",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_architecture_alevel",
+        "bath_27_ca_architecture_alternative",
+        "bath_27_ca_architecture_ap",
+        "bath_27_ca_architecture_btec",
+        "bath_27_ca_architecture_t_level",
+        "bath_27_ca_architecture_access",
+        "bath_27_ca_architecture_scottish",
+        "bath_27_ca_architecture_gcse",
+        "bath_27_ca_architecture_english",
+        "bath_27_ca_architecture_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    },
+    {
+      "key": "bath_k112",
+      "institutionKey": "bath",
+      "name": "Architecture MArch (Hons)",
+      "level": "undergraduate",
+      "field": "Architecture",
+      "source": {
+        "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/march-architecture/",
+        "title": "Bath 2027 · UCAS K112",
+        "checkedOn": "2026-11-20"
+      },
+      "sharedRequirementKeys": [
+        "bath_27_ca_architecture_alevel",
+        "bath_27_ca_architecture_alternative",
+        "bath_27_ca_architecture_ap",
+        "bath_27_ca_architecture_btec",
+        "bath_27_ca_architecture_t_level",
+        "bath_27_ca_architecture_access",
+        "bath_27_ca_architecture_scottish",
+        "bath_27_ca_architecture_gcse",
+        "bath_27_ca_architecture_english",
+        "bath_27_ca_architecture_selection"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_contextual"
+        },
+        {
+          "datasetVersion": "official-admissions-bath-2027-computing-maths-natural-sciences-2026-11-16-v1",
+          "key": "bath_27_ucas_deadline"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "institutionKey": "bath",
+      "programId": null,
+      "level": "undergraduate",
+      "notes": "September 2027 first-year Architecture, Civil Engineering and Structural and Architectural Engineering routes.",
+      "requirements": [
+        {
+          "key": "bath_27_ca_engineering_alevel",
+          "label": "A levels · civil and structural engineering",
+          "details": "A*AA across three A levels including Mathematics. The contextual offer is AAB with A in Mathematics. Bath can accept the Advanced Skills Baccalaureate Wales in place of an A level, with an exception where it is studied only alongside Mathematics and Further Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · A level offers",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_alternative",
+          "label": "A levels · engineering alternative offers",
+          "details": "AAA or A*AB with A in Mathematics plus an approved additional qualification. The listed examples are EPQ or IEPQ at A, eligible AS Further Mathematics at A, or an additional A level at B where the four include Further Mathematics. The separate Welsh qualification alternatives are AAAB or A*ABB including B in the Advanced Skills Baccalaureate Wales.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · A level alternative offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_ap",
+          "label": "US Advanced Placement · engineering",
+          "details": "Three AP grades of 5, including Calculus BC. Calculus AB, AP Seminar and AP Research cannot count toward these three. Bath assesses the wider academic record individually. Relevant honours or dual-enrolment courses may be considered if the specified AP exams are unavailable, and an associate degree at GPA 3.5 with sufficient Mathematics credits is considered individually.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · US qualifications",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_btec",
+          "label": "BTEC · engineering",
+          "details": "RQF National Extended Diploma D*DD plus A-level Mathematics at A. Construction and the Built Environment or Building Services is preferred. Engineering and Applied Science can also be considered.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · BTEC typical offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_t_level",
+          "label": "T Level · engineering",
+          "details": "Distinction* overall with core A* plus A-level Mathematics at A. Accepted T Levels are Design, Surveying and Planning for Construction, or Building Services Engineering for Construction. The former prefers the Surveying and Design or Civil Engineering specialisms. Suitable T Level applicants are interviewed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · T Level typical offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_access",
+          "label": "Access to HE · engineering",
+          "details": "At least 39 credits at Distinction, including 12 Distinction Mathematics credits covering Calculus. Suitable Access applicants are interviewed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · Access to HE Diploma",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_scottish",
+          "label": "Scottish Advanced Highers · engineering",
+          "details": "AA in two Advanced Highers including Mathematics. Bath normally expects five Highers and prefers AAAAA.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · Scottish Highers",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_engineering_selection",
+          "label": "Engineering · UCAS selection",
+          "details": "Selection usually uses the UCAS application. Suitable applicants with Access to HE or T Level qualifications are invited to interview.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/civil-engineering/beng-civil-engineering-with-professional-placement/",
+            "title": "Bath 2027 · Civil Engineering BEng (Hons) with professional placement · Selection process",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_alevel",
+          "label": "A levels · Architecture",
+          "details": "A*AA across three A levels including A in Mathematics or Physics. The contextual offer is AAB including A in Mathematics or Physics. Bath can accept the Advanced Skills Baccalaureate Wales in place of an A level, with an exception where it is studied only alongside Mathematics and Further Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · A level offers",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_alternative",
+          "label": "A levels · Architecture alternative offers",
+          "details": "AAA or A*AB with A in Mathematics or Physics plus an approved qualification, such as EPQ or IEPQ at A or an additional A level at B where the four include Mathematics or Statistics. Applicants without A-level Mathematics or Statistics can also use the specified Core Mathematics or eligible AS Mathematics or Statistics qualification at B. The Welsh qualification alternatives are AAAB or A*ABB including B in the Advanced Skills Baccalaureate Wales.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · A level alternative offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_ap",
+          "label": "US Advanced Placement · Architecture",
+          "details": "Three AP grades of 5, including Calculus AB, Calculus BC or any Physics AP. At most one Calculus AP can count. AP Seminar and AP Research are excluded. Relevant honours or dual-enrolment study may be considered individually if the specified AP exams are unavailable. The associate degree route requires GPA 3.5 and sufficient Mathematics or Physics credits.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · US qualifications",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_btec",
+          "label": "BTEC · Architecture",
+          "details": "RQF National Extended Diploma D*DD with A-level Mathematics at A. Art and Design is preferred. Engineering can be considered with evidence of substantial art and design thinking through structured extracurricular activities.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · BTEC typical offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_t_level",
+          "label": "T Level · Architecture",
+          "details": "Design, Surveying and Planning for Construction at Distinction* with core A* and A-level Mathematics or Physics at A. Surveying and Design or Civil Engineering specialisms are preferred. Relevant placement experience and substantial art and design activity also contribute to assessment, and suitable applicants are interviewed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · T Level typical offer",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_access",
+          "label": "Access to HE · Architecture",
+          "details": "Mature applicants need significant relevant work experience and recent study demonstrating numerical and art/design skills. The typical Access offer is 39 credits at Distinction, potentially in specified units. Level 3 mathematical ability can be shown through A-level Mathematics or Physics at A, or suitable Access units at Distinction. Suitable applicants are interviewed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · Access to HE Diploma",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_scottish",
+          "label": "Scottish Advanced Highers · Architecture",
+          "details": "AA in two Advanced Highers including Mathematics or Physics. Bath normally expects five Highers and prefers AAAAA.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · Scottish Highers",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_gcse",
+          "label": "Architecture · GCSE and selection profile",
+          "details": "GCSE Mathematics and English Language or Literature are required at grade 6/B. An accepted Category A qualification can meet the English condition. Bath considers the wider GCSE profile, usually including a strong Mathematics or Physics grade, Art or Design, and a humanities subject. The T Level guidance says most offer-holders have at least five GCSEs at grades 8, 9 or A*.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · GCSE and T Level requirements",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_english",
+          "label": "Architecture · Category A English",
+          "details": "Where an accepted English language qualification is needed, examples include IELTS 7.0 with every component at least 6.5, PTE Academic 69 with each element at least 62, and TOEFL iBT 5 with each component at least 4.5 for tests after 21 January 2026. Bath does not accept PTE Academic Online.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · English language requirements",
+            "checkedOn": "2026-11-20"
+          }
+        },
+        {
+          "key": "bath_27_ca_architecture_selection",
+          "label": "Architecture · UCAS assessment and portfolio policy",
+          "details": "Bath normally assesses the UCAS application and does not consider portfolios. Relevant qualification routes, including Access to HE and T Levels, can require an interview.",
+          "category": "portfolio",
+          "status": "not_considered",
+          "source": {
+            "url": "https://www.bath.ac.uk/courses/undergraduate-2027/architecture/bsc-architecture/",
+            "title": "Bath 2027 · Architecture BSc (Hons) · Selection process",
+            "checkedOn": "2026-11-20"
+          }
+        }
+      ]
+    }
+  ]
+}

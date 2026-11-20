@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Bath Civil Engineering and Architecture — November 20
+
+1. **Baseline.** Local and remote main matched `89d4fa6`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44684255279). The database matched the Kabarak checkpoint and its fully readable archive.
+2. **Sources.** The [source record](research/BATH_CIVIL_ARCHITECTURE_20261120.md) identifies eleven first-year routes and their subject, language, vocational and selection requirements. The separate two-year MArch is pending review.
+3. **Artifacts.** The two files contain eleven course identities, 22 numerical IB offers, 18 distinct general facts and 132 course-to-rule links. Thirty-eight links reuse earlier reviewed Bath rules.
+4. **Import.** Validation and previews passed with zero writes and no IB rejections. The completed Kabarak archive was the pre-import backup. Both artifacts were imported and repeated without changes. Previous admissions content, IB rows and shared links were preserved.
+5. **Verification.** All eleven courses, 22 IB offers, 18 new facts and 132 links matched the live API. Year and applicant filtering passed. The browser displayed Kabarak's dated and undated IB records and Bath Architecture's actual course search with IB, AP and selection conditions. Data quality, API and website checks passed.
+6. **Coverage and backup.** The database contains 28,171 institutions, 281,588 catalogue entries, 3,778 scopes, 25,482 requirements, 107,962 sources and 121 runs. There are 3,462 reviewed admissions facts and 1,163 reviewed IB records. A total of 667 programmes have published numerical IB totals. The fully readable archive `backups/post-bath-civil-architecture-20261120.qU5lGB` has SHA-256 `3dfec38dca0951dbe0c4045342e3fad5a879e3edeec9d1d00754e6bcd424c90c`.
+
 ## Kabarak undergraduate admission requirements — November 20
 
 1. **Baseline.** Local and GitHub main matched `b5855e8`, with [CI passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44678567444). The database matched the Computing and Medicine checkpoint.
