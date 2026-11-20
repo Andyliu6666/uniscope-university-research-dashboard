@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281711,
+            "programs": 281721,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3832,
+            "admissionProfiles": 3834,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25774,
+            "admissionRequirements": 25825,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196023
+            "undergraduateCatalogEntries": 196033
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4162,
+            "programs": 4163,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1941,
+            "admissions": 1942,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23988
+            "noStructuredApplicationFacts": 23987
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3754,
-            "profiles": 1355,
-            "institutions": 87
+            "facts": 3805,
+            "profiles": 1357,
+            "institutions": 88
         }
     },
-    "generatedAt": "2026-11-20T14:59:59Z",
+    "generatedAt": "2026-11-20T15:34:08Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 0,
+        "inserted": 51,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 0,
-        "startedAt": "2026-11-20T14:46:45.117941+00:00",
-        "updatedAt": "2026-11-20T14:46:45.117941+00:00",
+        "processed": 51,
+        "startedAt": "2026-11-20T15:33:34.927227+00:00",
+        "updatedAt": "2026-11-20T15:33:34.927227+00:00",
         "checkpoint": {
-            "profiles": 0,
-            "admissionFacts": 0,
-            "programsReused": 3,
-            "programsCreated": 5,
-            "priorSharedLinksAdded": 18
+            "profiles": 2,
+            "admissionFacts": 51,
+            "programsReused": 0,
+            "programsCreated": 10
         },
-        "finishedAt": "2026-11-20T14:46:45.153+00:00",
-        "artifactSha256": "18d02d6270416b01f8f688a10374eca0d087da464ebfbff37914b1a72df1df2f",
-        "datasetVersion": "official-admissions-utech-shared-course-links-2027-2026-11-20-v1"
+        "finishedAt": "2026-11-20T15:33:34.991+00:00",
+        "artifactSha256": "d204f3ba006fe6c334b55e2314e7c8f4429d7a9a5dcc389e81d6ec9a78bd959f",
+        "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1"
     },
     "schemaVersion": 2
 }

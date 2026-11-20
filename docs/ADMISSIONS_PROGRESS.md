@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-20
 
+## Stellenbosch Agrisciences and international qualifications — November 20
+
+1. **Baseline.** Local and remote main matched `8408b3a`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44759021053). The database matched the final UTech citation/shared-link checkpoint. Stellenbosch's exact ROR identity had no course or reviewed admissions rows.
+2. **Sources.** The [source review](research/STELLENBOSCH_AGRISCIENCES_20261120.md) identifies the current official 2027 prospectus, complete reviewed pages and all ten course/campus rows. The USA and within-South-Africa AHSD branches, exemption alternatives and faculty averages retain their different meanings.
+3. **Artifact.** One file adds ten courses, 51 distinct records and 285 shared associations. It includes actual IB subject, A-level, AS-level, Abitur, Namibian and AP exemption values. Five source uncertainties remain explicit. No converted percentage or 24-point exemption alternative becomes an invented course IB total.
+4. **Import and backup.** Validation and a zero-write preview passed with zero skips. The prior full archive's checksum and complete read were verified. Ten courses and 51 facts were imported; repeat was unchanged. All prior university/course/profile/requirement/source/import rows and all 1,212 IB rows retained their fingerprints.
+5. **Verification.** API comparisons matched all facts, citations, course names and 285 links. Every course search passed for both cohorts, with year/route/applicant isolation. Data Science and Forestry score differences, five unresolved entries and the exemption alternative passed specific checks. Data quality, API and website checks passed.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,721 courses, 3,834 profiles, 25,825 requirements, 108,017 sources and 133 runs. Reviewed general facts total 3,805 across 88 institutions; numerical IB coverage remains 716 courses. Complete readable archive `backups/post-stellenbosch-agrisciences-20261120.oqr8514e` has SHA-256 `af8ab42c02a19674610fe260e4f3fcbc7712c4fe8f79cce208f29c04c2418de8`. Next inspect Arts/Social Sciences PDF 14–17 and its selection policy, reusing Data Science and existing shared rules.
+
 ## UTech current citations and shared course links — November 20
 
 1. **Baseline.** Local and remote main matched `2a5300d`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44746781889). UTech had 49 courses and 102 reviewed facts. The November remaining-programmes batch and its full archive were complete.
