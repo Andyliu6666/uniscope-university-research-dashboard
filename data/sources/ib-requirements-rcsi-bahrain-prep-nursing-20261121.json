@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-rcsi-bahrain-prep-nursing-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "rcsibahrain",
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "provider": "ror",
+      "externalId": "01h4bh480",
+      "countryCode": "BH",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "rcsibahrain",
+      "program": {
+        "name": "Medical Commencement Programme (Certificate in Biomedical Sciences)",
+        "field": "Pre-medical studies",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements"
+      },
+      "requirement": {
+        "recordKey": "rcsibahrain-prep-2027-ib",
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 entry to Medical Commencement Programme (Certificate in Biomedical Sciences) using the IB Diploma.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "An applicant below the six-year Medicine IB threshold may be individually considered for the preparatory programme. The committee publishes no separate diploma points threshold here.",
+        "conditions": "The general selection and English entry requirements still apply. Completion and the separate progression English test are assessed before the Medicine Foundation Year.",
+        "source": {
+          "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+          "title": "RCSI Bahrain · Medical Commencement Programme · IB Diploma",
+          "checkedOn": "2026-11-21",
+          "evidence": "on a case by case basis"
+        }
+      }
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "program": {
+        "name": "BSc (Hons) Nursing",
+        "field": "Nursing",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements"
+      },
+      "requirement": {
+        "recordKey": "rcsibahrain-nurse-2027-ib",
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 entry to BSc (Hons) Nursing using the IB Diploma.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Pass English, mathematics and a science among the six HL or SL subjects. Every subject must be at least grade 3.",
+        "conditions": "Every accepted Nursing applicant must also meet the Aptis requirement. The course does not specify how core points are counted.",
+        "source": {
+          "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+          "title": "RCSI Bahrain · BSc (Hons) Nursing · IB Diploma",
+          "checkedOn": "2026-11-21",
+          "evidence": "24 points with no subject grade less than 3"
+        }
+      }
+    }
+  ]
+}

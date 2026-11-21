@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281942,
+            "programs": 281944,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3935,
+            "admissionProfiles": 3939,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26400,
+            "admissionRequirements": 26433,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1279
+            "qualificationRequirements": 1281
         },
         "ibCoverage": {
             "byCountry": [
@@ -25,8 +25,8 @@
                 {
                     "country": "Bahrain",
                     "institutions": 1,
-                    "programs_with_reviewed_ib": 2,
-                    "programs_with_published_totals": 2
+                    "programs_with_reviewed_ib": 4,
+                    "programs_with_published_totals": 3
                 },
                 {
                     "country": "Canada",
@@ -131,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1279,
-            "programsWithReviewedIb": 1076,
+            "reviewedRecords": 1281,
+            "programsWithReviewedIb": 1078,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 47,
-            "programsWithPublishedTotals": 783,
-            "undergraduateCatalogEntries": 196232
+            "programsWithPublishedTotals": 784,
+            "undergraduateCatalogEntries": 196234
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,12 +183,12 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4380,
-            "profiles": 1391,
+            "facts": 4413,
+            "profiles": 1395,
             "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T16:15:38Z",
+    "generatedAt": "2026-11-21T17:03:07Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
@@ -197,17 +197,17 @@
         "provider": "official_ib",
         "rejected": 0,
         "processed": 2,
-        "startedAt": "2026-11-21T16:15:36.118901+00:00",
-        "updatedAt": "2026-11-21T16:15:36.135+00:00",
+        "startedAt": "2026-11-21T17:03:04.597242+00:00",
+        "updatedAt": "2026-11-21T17:03:04.612+00:00",
         "checkpoint": {
             "rowIndex": 2,
             "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T16:15:36.135+00:00",
-        "artifactSha256": "949a0560986d1a18d4248088ca1b27862f04627a4ce13907730f3f709748465f",
-        "datasetVersion": "official-ib-rcsi-bahrain-medicine-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T17:03:04.612+00:00",
+        "artifactSha256": "c81dd0784813bea3a23df1c6cbfa816f0746c1c68c5337b388d53c232b013f94",
+        "datasetVersion": "official-ib-rcsi-bahrain-prep-nursing-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

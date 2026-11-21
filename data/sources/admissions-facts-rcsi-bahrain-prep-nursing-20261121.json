@@ -1,0 +1,538 @@
+{
+  "datasetVersion": "official-admissions-rcsi-bahrain-prep-nursing-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "rcsibahrain",
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "provider": "ror",
+      "externalId": "01h4bh480",
+      "countryCode": "BH",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "prep",
+      "institutionKey": "rcsibahrain",
+      "name": "Medical Commencement Programme (Certificate in Biomedical Sciences)",
+      "level": "undergraduate",
+      "field": "Pre-medical studies",
+      "source": {
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+        "title": "RCSI Bahrain · Medical Commencement Programme · September 2027 entry",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+          "key": "rcsibh_med_school"
+        },
+        {
+          "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+          "key": "rcsibh_med_india"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "rcsibh_pn_unlisted",
+        "rcsibh_pn_selection",
+        "rcsibh_pn_portal",
+        "rcsibh_pn_decision"
+      ]
+    },
+    {
+      "key": "nurse",
+      "institutionKey": "rcsibahrain",
+      "name": "BSc (Hons) Nursing",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+        "title": "RCSI Bahrain · BSc (Hons) Nursing · September 2027 entry",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+          "key": "rcsibh_med_school"
+        },
+        {
+          "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+          "key": "rcsibh_med_good_conduct"
+        },
+        {
+          "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+          "key": "rcsibh_med_id"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "rcsibh_pn_unlisted",
+        "rcsibh_pn_selection",
+        "rcsibh_pn_portal",
+        "rcsibh_pn_decision"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-linked rules for September 2027 entry.",
+      "requirements": [
+        {
+          "key": "rcsibh_pn_unlisted",
+          "category": "academic",
+          "label": "Other school-leaving curricula",
+          "status": "considered",
+          "details": "The admissions committee assesses qualifications outside the published curriculum list individually.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · other curricula",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_pn_selection",
+          "category": "application",
+          "label": "How the committee selects applicants",
+          "status": "considered",
+          "details": "Applicants compete for places. The committee considers the academic and English requirements, references, extracurricular activities, relevant work or volunteering, and interview performance. Meeting the minimum allows consideration; the committee makes the decision.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · selection criteria",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_pn_portal",
+          "category": "application",
+          "label": "Application and correspondence",
+          "status": "required",
+          "details": "Apply through the online portal linked on the course application page. Include your full name and unique application reference in correspondence.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/apply",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · online applications",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_pn_decision",
+          "category": "application",
+          "label": "Admission decisions",
+          "status": "considered",
+          "details": "After reviewing the application and interview, the committee may offer a place outright or with conditions, waitlist the applicant pending availability, or decline the application.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · application outcomes",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "programKey": "prep",
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 admission to Medical Commencement Programme (Certificate in Biomedical Sciences). Curriculum-specific alternatives apply only to applicants using that route.",
+      "requirements": [
+        {
+          "key": "rcsibh_prep_tawjihiya",
+          "category": "academic",
+          "label": "Tawjihiya science stream",
+          "status": "conditional",
+          "details": "The MENA secondary school-leaving certificate route requires the science stream and a cumulative average of at least 94%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_us",
+          "category": "standardized_test",
+          "label": "US or private high school diploma and SAT",
+          "status": "conditional",
+          "details": "Across Grades 10–12, the minimum cumulative GPA is 90% or 3.50/4.00. The accompanying SAT must reach 1050/1600, including at least 500/800 in both Math and Evidence-Based Reading and Writing.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_india",
+          "category": "academic",
+          "label": "Indian Standard XII grades",
+          "status": "conditional",
+          "details": "For the Indian senior school science route, the minimum Standard XII average is 70%, with at least 65% in every subject. The board, subjects and mathematics prerequisites are listed alongside this rule.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_pakistan",
+          "category": "academic",
+          "label": "Pakistan Higher Secondary Certificate",
+          "status": "conditional",
+          "details": "Use the pre-medical or pre-engineering stream. Earn at least 70% overall and at least 65% in each subject. Grades 11 and 12 must include at least three of biology, chemistry, mathematics and physics. Mathematics is required through Grade 10. Supply the certificate from a recognised Pakistani secondary and intermediate board.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_as",
+          "category": "academic",
+          "label": "Four AS levels and GCSE subjects",
+          "status": "conditional",
+          "details": "Present four AS levels at AABB or better. Take at least three of biology, chemistry, mathematics and physics at AS level. Include at least five GCSE subjects with English and a mathematics result of C/4 or better.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_assessment",
+          "category": "academic",
+          "label": "AP or full A-level applicants below the six-year threshold",
+          "status": "considered",
+          "details": "The committee can consider applicants for the preparatory course individually if their AP or full A-level results fall below the six-year Medicine entry standard. The preparatory course publishes no separate numerical cutoff for these applicants.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_english",
+          "category": "language",
+          "label": "English proficiency at the point of entry",
+          "status": "conditional",
+          "details": "Applicants whose first language is not English or whose education was not entirely in a native English-speaking country must provide qualifying evidence. Test options are IELTS Academic 5.5 overall with 5.0 in every band, or TOEFL iBT 3.5 overall with 3.0 in every band. Sit the test at a recognised centre; online IELTS and at-home TOEFL iBT are excluded.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_english_school",
+          "category": "language",
+          "label": "School-based English qualification alternatives",
+          "status": "conditional",
+          "details": "Education entirely in an English curriculum in a native English-speaking country meets the language condition. Other routes include IB English 5 at SL or HL, (I)GCSE/GCE English C/4, or Irish Leaving Certificate Ordinary Level English O6. For GCSE English as a second language, earn A/7 plus the applicable speaking endorsement of Distinction, 1 on the five-point scale or 7 on the nine-point scale.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_documents",
+          "category": "document",
+          "label": "Academic records and English evidence",
+          "status": "required",
+          "details": "Upload certified school transcripts and certificates from Grades 9–12 to date, records from any university attended, the school or university academic evaluation form and applicable English proficiency evidence. The team processes complete applications.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · application checklist",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_identity",
+          "category": "document",
+          "label": "Identity evidence",
+          "status": "required",
+          "details": "Upload a passport scan showing your identification and photograph, plus a CPR or GCC identity card where applicable.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · application checklist",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_essay",
+          "category": "document",
+          "label": "Personal statement for Medicine",
+          "status": "required",
+          "details": "Submit your own statement explaining your motivation and preparation for a medical career. Plagiarism disqualifies the applicant. The preparatory programme application does not specify a word limit.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · personal statement",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_interview",
+          "category": "interview",
+          "label": "Online interview for eligible applicants",
+          "status": "conditional",
+          "details": "After all documentation has been submitted, eligible applicants are invited to an online interview with academic staff about communication, maturity, motivation and suitability for medicine. Early application is encouraged. Decisions are communicated by email.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · selection interview",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_fee",
+          "category": "financial",
+          "label": "Application fee",
+          "status": "required",
+          "details": "Pay the non-refundable USD 100 or BHD 40 application fee by credit card at the end of the application, or through the Student Fees department.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/apply",
+            "title": "RCSI Bahrain · Medical Commencement Programme · application fee",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "programKey": "prep",
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 admission to Medical Commencement Programme (Certificate in Biomedical Sciences). Curriculum-specific alternatives apply only to applicants using that route.",
+      "requirements": [
+        {
+          "key": "rcsibh_prep_progress",
+          "category": "academic",
+          "label": "Progression to the Medicine Foundation Year",
+          "status": "conditional",
+          "details": "Successful completion of this one-year preparatory programme leads to the Foundation Year of undergraduate Medicine. The university also specifies a valid English test certificate for progression.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/why-rcsi-bahrain",
+            "title": "RCSI Bahrain · Medical Commencement Programme · progression after successful completion",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_prep_progress_language",
+          "category": "language",
+          "label": "English test for progression to Foundation Year",
+          "status": "required",
+          "details": "For progression, hold an IELTS certificate at 6.5 overall and 6.0 in each band, or TOEFL iBT at 4.5 overall and 4.0 in each band. Both certificates are valid for two years. These are the progression thresholds after the preparatory year.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medical-commencement-programme/entry-requirements",
+            "title": "RCSI Bahrain · Medical Commencement Programme · English for progression",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "programKey": "nurse",
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 admission to BSc (Hons) Nursing. Curriculum-specific alternatives apply only to applicants using that route.",
+      "requirements": [
+        {
+          "key": "rcsibh_nurse_tawjihiya",
+          "category": "academic",
+          "label": "Tawjihiya route",
+          "status": "conditional",
+          "details": "The science or commercial stream is accepted with a cumulative average of at least 85%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_alevel",
+          "category": "academic",
+          "label": "A-level and AS-level routes",
+          "status": "conditional",
+          "details": "Present two A levels at C or higher in each, or four AS levels at C or higher in each. Both routes also require at least five GCSE subjects.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_us",
+          "category": "academic",
+          "label": "US or private high school diploma",
+          "status": "conditional",
+          "details": "Use the science or commerce stream and achieve a cumulative GPA of at least 80% across Grades 10, 11 and 12.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_india",
+          "category": "academic",
+          "label": "Indian senior school certificate",
+          "status": "conditional",
+          "details": "The Indian certificate route requires a 70% average at Standard XII, mathematics through at least Standard X and a board-issued certificate of completion. The course identifies the boards as CBSE and ICSE in its curriculum heading.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_phil",
+          "category": "academic",
+          "label": "Philippine Senior High School Diploma",
+          "status": "conditional",
+          "details": "Use either STEM or ABM and achieve at least 80% cumulatively over Grades 10–12.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_aptis",
+          "category": "language",
+          "label": "Aptis English examination",
+          "status": "required",
+          "details": "Every accepted applicant takes Aptis, with no exemptions. Achieve CEFR B1 or higher overall and at least A2 in each component.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_shortlist",
+          "category": "interview",
+          "label": "Interview and English examination after shortlisting",
+          "status": "conditional",
+          "details": "Following document review, shortlisted applicants are scheduled for the interview and English examination, subject to availability. The interview assesses communication, maturity, motivation and suitability for nursing.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/apply",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · shortlisting",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_fee",
+          "category": "financial",
+          "label": "Application fee",
+          "status": "required",
+          "details": "Pay the non-refundable USD 50 or BHD 20 fee by credit card at the end of the online application.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/apply",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · application fee",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_records",
+          "category": "document",
+          "label": "School records and university records",
+          "status": "required",
+          "details": "The IB, US/private diploma, Philippine, Indian and Tawjihiya checklists request Grades 9–12 transcripts or certificates to date. The GCE checklist specifies IGCSE certificates. All six routes request any applicable university transcripts or certificates.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · six linked curriculum document checklists",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_evaluation",
+          "category": "document",
+          "label": "School or university academic evaluation form",
+          "status": "conditional",
+          "details": "The US/private diploma, Philippine, Indian, GCE and IB checklists request an evaluation completed, signed and stamped by the school or university. The Tawjihiya checklist does not list this form.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · linked curriculum evaluation forms",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_pred_ib",
+          "category": "document",
+          "label": "Predicted IB grades",
+          "status": "conditional",
+          "details": "Submit predicted IB grades with the IB Diploma route application.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/nursing/2025-26/international-baccalaureate-diploma---ib.pdf",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · IB application documents",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_pred_gce",
+          "category": "document",
+          "label": "Predicted GCE results",
+          "status": "conditional",
+          "details": "The GCE checklist requests predicted grades for the final AS or A-level exams, as applicable.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/nursing/2025-26/a-levels-and-as-levels.pdf",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · GCE application documents",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsibh_nurse_pred_india",
+          "category": "document",
+          "label": "Predicted final-year results for the Indian certificate",
+          "status": "conditional",
+          "details": "Submit predicted final-year grades with the Indian senior school certificate application.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/nursing/2025-26/the-cbse-and-icse.pdf",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · Indian certificate application documents",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "programKey": "nurse",
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 admission to BSc (Hons) Nursing. Curriculum-specific alternatives apply only to applicants using that route.",
+      "requirements": [
+        {
+          "key": "rcsibh_nurse_exempt",
+          "category": "academic",
+          "label": "Credit from previous qualifications",
+          "status": "not_considered",
+          "details": "Prior coursework does not exempt entrants from any portion of this four-year Nursing programme.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/undergraduate-nursing/entry-requirements",
+            "title": "RCSI Bahrain · BSc (Hons) Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
