@@ -1,4 +1,13 @@
-# Admissions checkpoint — 2026-11-20
+# Admissions checkpoint — 2026-11-21
+
+## Stellenbosch Engineering — November 21 UTC
+
+1. **Baseline.** Local and remote main matched `5d84ad9`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44786842287). Database fingerprints matched the completed Economic stage; 38 Stellenbosch courses and 171 facts were already complete.
+2. **Sources.** The [source review](research/STELLENBOSCH_ENGINEERING_20261121.md) records the 2027 booklet's full Engineering spread, every page of the actual 2027 selection policy and complete November yearbook admissions continuations. Older documents behind misleading 2027 navigation labels were excluded.
+3. **Artifact.** Six parent programmes receive 60 distinct facts, 313 new-fact links and 96 prior-rule links. IB/A-level subjects, international conversions, mainstream/ECP minima, selection scores, transfer, RPL and readmission keep their own scopes. Four official ambiguities remain explicit; no new IB total is fabricated.
+4. **Import and backup.** Validation and the preview made zero writes. The preceding full archive was verified before all 60 facts were inserted without skips; repeat changed nothing. Existing university/course/profile/source/import rows, earlier content and shared-link prefixes, and all 1,212 reviewed IB rows were preserved.
+5. **Verification.** Every new fact, source/date and all 409 associations matched the API. All 72 programme/route/cohort queries and year/readmission boundaries passed. The data-quality gate and website checks passed; the rebuilt API contains the identical artifact, and website-proxy queries expose mainstream and ECP conditions.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,755 programmes, 3,838 profiles, 26,005 requirements, 108,024 sources and 137 runs. Reviewed general facts total 3,985 across 88 institutions; Stellenbosch has 44 courses and 231 facts. Numerical IB coverage remains 716 programmes. Archive `backups/post-stellenbosch-engineering-20261121.lno3outn` is fully readable, SHA-256 `7833fc07de5644b3cc55ff2b0f7e08062514f4a86f555e9ae0d1e7f03446459f`. Next rotate to the officially linked UNAM 2027 all-programmes brochure; preserve the six-step checkpoint and reconcile existing rules before import. Worldwide coverage remains unfinished.
 
 ## Stellenbosch Economic and Management Sciences — November 20 UTC
 

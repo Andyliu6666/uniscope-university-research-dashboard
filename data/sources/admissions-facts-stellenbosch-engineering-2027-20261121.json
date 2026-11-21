@@ -1,0 +1,1591 @@
+{
+  "datasetVersion": "official-admissions-stellenbosch-engineering-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "su",
+      "name": "Stellenbosch University",
+      "provider": "ror",
+      "externalId": "05bk57929",
+      "countryCode": "ZA",
+      "officialDomains": ["su.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "chemical",
+      "institutionKey": "su",
+      "name": "BEng (Chemical Engineering)",
+      "level": "undergraduate",
+      "field": "Chemical Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_chemical",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_chemical_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_640",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    },
+    {
+      "key": "civil",
+      "institutionKey": "su",
+      "name": "BEng (Civil Engineering)",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_physics",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_physics_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_600",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    },
+    {
+      "key": "electrical",
+      "institutionKey": "su",
+      "name": "BEng (Electrical and Electronic Engineering)",
+      "level": "undergraduate",
+      "field": "Electrical and Electronic Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_either",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_either_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_620",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_electrical_focal",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    },
+    {
+      "key": "industrial",
+      "institutionKey": "su",
+      "name": "BEng (Industrial Engineering)",
+      "level": "undergraduate",
+      "field": "Industrial Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_either",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_either_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_620",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    },
+    {
+      "key": "mechanical",
+      "institutionKey": "su",
+      "name": "BEng (Mechanical Engineering)",
+      "level": "undergraduate",
+      "field": "Mechanical Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_physics",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_physics_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_660",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    },
+    {
+      "key": "mechatronic",
+      "institutionKey": "su",
+      "name": "BEng (Mechatronic Engineering)",
+      "level": "undergraduate",
+      "field": "Mechatronic Engineering",
+      "source": {
+        "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+        "title": "Stellenbosch 2027 Engineering · year PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "su27eng_international_average",
+        "su27eng_ib_english",
+        "su27eng_cambridge_language",
+        "su27eng_al_as_mathematics",
+        "su27eng_cambridge_physics",
+        "su27eng_abitur",
+        "su27eng_namibia_math_language",
+        "su27eng_nsc_certificate",
+        "su27eng_nsc_minimum",
+        "su27eng_nsc_language",
+        "su27eng_legacy_school",
+        "su27eng_tests_by_board",
+        "su27eng_nbt_marks",
+        "su27eng_sat_unclear",
+        "su27eng_ace_letter",
+        "su27eng_ahsd_exemption",
+        "su27eng_nsc_score",
+        "su27eng_international_score",
+        "su27eng_physics_score",
+        "su27eng_ib_level_alignment",
+        "su27eng_provisional_660",
+        "su27eng_deferred_selection",
+        "su27eng_post_closing_selection",
+        "su27eng_closing",
+        "su27eng_offer_results",
+        "su27eng_final_score_conflict",
+        "su27eng_preference_change",
+        "su27eng_reconsider_lapse",
+        "su27eng_exceptional_interview",
+        "su27eng_ecp_offer",
+        "su27eng_ecp_minimum",
+        "su27eng_ecp_language",
+        "su27eng_ecp_indicative",
+        "su27eng_ecp_final_conflict",
+        "su27eng_tertiary_records_waitlist",
+        "su27eng_cat_residence",
+        "su27eng_cat_request",
+        "su27eng_cat_limits",
+        "su27eng_internal_bsc",
+        "su27eng_completed_bsc",
+        "su27eng_internal_ecp_second",
+        "su27eng_internal_apply",
+        "su27eng_external_sa",
+        "su27eng_external_apply",
+        "su27eng_diploma_entry",
+        "su27eng_foreign_tertiary",
+        "su27eng_other_rpl",
+        "su27eng_rpl_assessment",
+        "su27eng_change_semester",
+        "su27eng_change_year",
+        "su27eng_change_deadlines",
+        "su27eng_interrupted"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_selection_not_guaranteed"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_international_curriculum_exemption"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_matriculation_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_a_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_as_level_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_abitur_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_ol_matriculation"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_converted_averages"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_gpa_and_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ahsd_sa_exemption_alternatives"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_diploma_and_ap_option"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_sat_source_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_usa_exemption_certificate_timing"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_math_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_ib_physics_chemistry_4_hl_5_sl"
+        },
+        {
+          "datasetVersion": "official-admissions-stellenbosch-agrisciences-2027-2026-11-20-v1",
+          "key": "su27_namibia_hl_physics_chemistry_3"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Engineering requirements: six BEng parent degrees, with focal areas and four-year/extended routes kept explicit. NSC minima, provisional selection scores, international subject grades and converted averages have different meanings. Faculty/yearbook discrepancies are retained for clarification. ECP, prior-tertiary entry, internal programme changes and interrupted-study readmission have separate scopes; no invented IB diploma total.",
+      "requirements": [
+        {
+          "key": "su27eng_international_average",
+          "label": "Engineering international curricula: 70% converted average",
+          "details": "The Engineering international-curriculum columns require matriculation exemption and an SU-converted average of at least 70%, plus the applicable subject and language conditions. This percentage is not a published IB diploma total. Faculty selection criteria also apply.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21 (printed 38–39)",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ib_english",
+          "label": "Engineering: IB English HL 4 or SL 5",
+          "details": "The Engineering IB column requires English grade 4 at Higher Level OR grade 5 at Standard Level. It does not offer Afrikaans as a substitute in this row. Mathematics, Physics/Chemistry and matriculation exemption are separate conditions.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cambridge_language",
+          "label": "Engineering Cambridge language alternatives",
+          "details": "The language note explicitly names the Cambridge International examination board: Afrikaans OR English, First OR Second Language, grade E at A-level OR D at AS-level OR C at GCSE/O-level. Matriculation-exemption language combinations are additional; this note is not extended to other boards without evidence.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_al_as_mathematics",
+          "label": "Engineering: A-level Mathematics D or AS Mathematics B",
+          "details": "The Engineering international table requires Mathematics grade D at A-level OR grade B at AS-level, according to the applicant curriculum. The separate science amendment determines the advanced Physics/Chemistry subject for each programme.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cambridge_chemical",
+          "label": "Chemical Engineering: advanced Chemistry and IGCSE Physics",
+          "details": "For Cambridge International and Pearson Edexcel applicants presenting Physics and Chemistry separately, the amendment requires Chemistry D at A-level OR C at AS-level, together with Physics C at IGCSE. Do not replace this programme-specific amendment with a requirement that both sciences be advanced-level subjects.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cambridge_physics",
+          "label": "Civil/Mechanical/Mechatronic: advanced Physics and IGCSE Chemistry",
+          "details": "For Cambridge International and Pearson Edexcel applicants presenting separate sciences, these three programmes require Physics D at A-level OR C at AS-level, together with Chemistry C at IGCSE.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cambridge_either",
+          "label": "Industrial/Electrical: either advanced science plus the other at IGCSE",
+          "details": "For Cambridge International and Pearson Edexcel applicants with separate sciences, Industrial Engineering and Electrical and Electronic Engineering (General and Data) require either Physics OR Chemistry D at A-level OR C at AS-level, and the other science C at IGCSE. This is an alternative choice of advanced science, not permission to omit the second science.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_abitur",
+          "label": "Engineering: German Abitur subjects and Namibian equivalents",
+          "details": "The German Abitur column requires Mathematics 8 (Namibian German-school equivalent 10), English 5 (Namibian equivalent 7), and Physical Science/Physics AND Chemistry 6 (Namibian equivalent 8). These are German-school subject grades, distinct from Namibia HL/OL and IB.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_namibia_math_language",
+          "label": "Engineering: Namibian HL Mathematics 2 and English 3",
+          "details": "The Namibia HL/OL column requires Mathematics grade 2 at HL and English First OR Second Language grade 3 at HL. The separate Physics AND Chemistry HL grade-3 rule and the matriculation-exemption language combination also apply. Namibian HL is not IB HL.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/undergraduate-maties/documents/2026-03/2027su-international-booklet.pdf",
+            "title": "Stellenbosch 2027 Engineering · book PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_nsc_certificate",
+          "label": "Engineering NSC/IEB: bachelor admission or exemption",
+          "details": "Applicants require an NSC/IEB pass allowing bachelor studies OR a Matriculation Board exemption certificate. Meeting this qualification and the subject minima only makes an applicant eligible for selection.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 2",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_nsc_minimum",
+          "label": "Four-year Engineering: average 70%, Mathematics 70%, Physical Sciences 60%",
+          "details": "The four-year BEng floor is a school-final average of at least 70%, Mathematics 70% and Physical Sciences 60%. The yearbook calculates the average from the six best matric subjects excluding Life Orientation and Mathematical Literacy. The separate provisional selection threshold uses higher subject marks.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_nsc_language",
+          "label": "Engineering NSC/IEB: four language alternatives",
+          "details": "Meet one of: English Home Language 50% (no Afrikaans requirement); English First Additional Language 60% (no Afrikaans requirement); English First Additional Language 50% AND Afrikaans Home Language 50%; OR English First Additional Language 50% AND Afrikaans Second Additional Language 60%. The last branch is Second Additional Language, as printed.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 2",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_legacy_school",
+          "label": "Engineering: pre-2008 Senior Certificate science alternatives",
+          "details": "For the Senior Certificate Examination taken in or before 2007, the four-year yearbook permits Mathematics Higher Grade B and Physical Science Higher Grade C as the specified legacy subject alternatives. These are not current A-level letter grades.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_tests_by_board",
+          "label": "Engineering: AHSD NBT/SAT choice; ISC and online NBT",
+          "details": "Applicants with an American High School Diploma may take NBT OR SAT. IEB International Secondary Certificate applicants and online-school applicants, including ACE School of Tomorrow, must take NBT; the policy does not offer SAT as their alternative.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 2–3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_nbt_marks",
+          "label": "Engineering applicable NBT minima: AL 60%, QL 60%, MAT 65%",
+          "details": "Where the policy requires or permits NBT for AHSD, IEB International Secondary Certificate or online-school applicants, the minima are Academic Literacy 60%, Quantitative Literacy 60% and Mathematics 65%. This is not stated as a universal NBT obligation for all IB/A-level applicants.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 2–3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_sat_unclear",
+          "label": "Engineering AHSD SAT: inconsistent printed total and sections",
+          "details": "The 2027 Engineering policy prints an overall SAT score of 1130, Evidence-based Reading and Writing 610 and Mathematics 670. The section minima add to 1280, inconsistent with the stated overall figure. Retain the printed tuple pending faculty clarification; do not silently change the total or substitute the general international-booklet Mathematics value. The SAT option is for the AHSD branch.",
+          "category": "standardized_test",
+          "status": "unknown",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 2–3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ace_letter",
+          "label": "ACE School of Tomorrow: Head Office support letter",
+          "details": "ACE applicants must submit a support letter from ACE Schools Head Office in addition to meeting the applicable NBT requirements.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ahsd_exemption",
+          "label": "Engineering AHSD: USAf exemption before final offer",
+          "details": "The AHSD branch requires a matriculation-exemption certificate issued by Universities South Africa before a final offer can be made, in addition to the applicable NBT/SAT conditions.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_nsc_score",
+          "label": "Engineering NSC/IEB selection: Mathematics + science + six times average",
+          "details": "The selection score is Mathematics percentage plus Physical Sciences percentage plus six times the average, with a maximum of 800. The six-best-subject average excludes Life Orientation and includes Mathematics and Physical Sciences; the yearbook also excludes Mathematical Literacy. This selection score is not an IB score.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_international_score",
+          "label": "Engineering international selection: converted subject percentages",
+          "details": "International results are converted to percentages for the Engineering selection formula. For school systems offering only five subjects, use their five converted percentages for the average. When Physics and Chemistry are separate subjects, their average replaces Physical Science. At least one science must be A-level, AS-level or HL; the other may be IGCSE, OL or SL as specified for the programme.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3–4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_chemical_score",
+          "label": "Chemical Engineering international selection: advanced Chemistry",
+          "details": "The converted selection formula uses Mathematics, the average of Chemistry at A/AS/HL and Physics at A/AS/HL/IGCSE/OL/SL, plus six times the applicable average. Chemistry is the advanced science in this programme-specific formula; the numerical Cambridge/Pearson grade amendment is separately recorded.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3–4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_physics_score",
+          "label": "Civil/Mechanical/Mechatronic selection: advanced Physics",
+          "details": "For these programmes, selection uses converted Mathematics, the average of Physics at A/AS/HL and Chemistry at A/AS/HL/IGCSE/OL/SL, plus six times the applicable average. Physics is the advanced science; board-specific grades remain separate.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_either_score",
+          "label": "Industrial/Electrical selection: either science at advanced level",
+          "details": "For Industrial and Electrical and Electronic Engineering, including General and Data, selection uses converted Mathematics, the average of one science at A/AS/HL and the other at A/AS/HL/IGCSE/OL/SL, plus six times the applicable average. Both Physics and Chemistry are represented.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ib_level_alignment",
+          "label": "Engineering IB subject eligibility versus selection formula needs confirmation",
+          "details": "The international booklet permits Mathematics HL 4 OR SL 5 and lists Chemistry/Physics HL 4 OR SL 5. The Engineering selection policy instead writes Mathematics at A/AS/HL and requires at least one science at A/AS/HL, with programme-specific advanced-science choices. The documents do not explain how an eligible SL Mathematics result enters that formula or fully align the science-level alternatives. Confirm with the faculty; do not infer an HL-only Mathematics admission rule or guarantee an all-SL science route.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 3–4 (compare international booklet PDF 21)",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_provisional_640",
+          "label": "2027 provisional Engineering selection score 640",
+          "details": "For complete applications received before 31 July, the linked four-year programme(s) have provisional selection score at least 640, average 70%, Mathematics 75% and Physical Sciences 65%. Both Electrical and Electronic General and Data entries use 620. These provisional figures differ from the 70%/70%/60% school-entry floor and are not final guaranteed or IB thresholds.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_provisional_600",
+          "label": "2027 provisional Engineering selection score 600",
+          "details": "For complete applications received before 31 July, the linked four-year programme(s) have provisional selection score at least 600, average 70%, Mathematics 75% and Physical Sciences 65%. Both Electrical and Electronic General and Data entries use 620. These provisional figures differ from the 70%/70%/60% school-entry floor and are not final guaranteed or IB thresholds.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_provisional_620",
+          "label": "2027 provisional Engineering selection score 620",
+          "details": "For complete applications received before 31 July, the linked four-year programme(s) have provisional selection score at least 620, average 70%, Mathematics 75% and Physical Sciences 65%. Both Electrical and Electronic General and Data entries use 620. These provisional figures differ from the 70%/70%/60% school-entry floor and are not final guaranteed or IB thresholds.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_provisional_660",
+          "label": "2027 provisional Engineering selection score 660",
+          "details": "For complete applications received before 31 July, the linked four-year programme(s) have provisional selection score at least 660, average 70%, Mathematics 75% and Physical Sciences 65%. Both Electrical and Electronic General and Data entries use 620. These provisional figures differ from the 70%/70%/60% school-entry floor and are not final guaranteed or IB thresholds.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_deferred_selection",
+          "label": "Engineering deferred consideration: above 570, or above 540 with ECP eligibility",
+          "details": "Before the application closing date, applications with selection scores above 570, or above 540 together with extended-programme admission eligibility, remain for consideration after 31 July. These are strict above-threshold conditions and do not guarantee an offer; they are not the indicative ECP selection score of 560.",
+          "category": "application",
+          "status": "considered",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_post_closing_selection",
+          "label": "Engineering after closing: final thresholds, waiting lists and available places",
+          "details": "Final selection after 31 July normally takes six to eight weeks. Programme thresholds depend on applicant numbers and places; pending applicants meeting final thresholds can receive offers, while others are waitlisted. Late applications and further waitlist consideration depend on available places. Selection into one BEng does not secure selection into another.",
+          "category": "application",
+          "status": "considered",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 4–5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_closing",
+          "label": "Engineering applications: 31 July before entry",
+          "details": "Submit a complete BEng application by 31 July in the year before intended entry. Faculty permission for a late application is conditional on available places; do not treat this deadline as an unconditional late-entry entitlement.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 1, 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_offer_results",
+          "label": "Engineering offers: Grade 11 assessment, final results and timely acceptance",
+          "details": "For applicants currently in Grade 12, final Grade 11 results are used for conditional selection. Accept offers before they expire and provide final Grade 12 evidence meeting the programme minima before final admission. Applicants who have already finished Grade 12 are assessed on final results. The documents disagree about the additional score-reference condition, recorded separately.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 1–2, 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_final_score_conflict",
+          "label": "Engineering final-offer score reference: policy/yearbook discrepancy",
+          "details": "Policy section 2.2 allows no more than a 40-point drop below the Grade 11 programme selection threshold; section 5.3 instead refers to the Grade 11 selection score for the programme. The November 2027 yearbook PDF 24 requires Grade 12 scores at least as good as Grade 11 OR meeting the programme admission threshold, without that tolerance. The reference and precedence need faculty clarification. Meeting school minima alone must not be presented as an unconditional final offer.",
+          "category": "application",
+          "status": "unknown",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 1, 5 (compare 2027 yearbook PDF 24)",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_preference_change",
+          "label": "Engineering application preference changes",
+          "details": "An applicant can request a change to one of the three BEng preferences by emailing info@sun.ac.za, stating the APP/ application number and the preference to replace. The new preference is reconsidered under its own admission and selection process.",
+          "category": "application",
+          "status": "optional",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_reconsider_lapse",
+          "label": "Engineering reconsideration and unused admission",
+          "details": "An unsuccessful on-time Grade 11 applicant may submit Grade 12 results to the Faculty Administrator for reconsideration if places remain. Admission lapses if the applicant does not register in the admitted year; a later-year application requires selection again.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_exceptional_interview",
+          "label": "Engineering selection: exceptional interview",
+          "details": "Alongside the selection score, school results and other relevant information, the faculty may use a personal interview in exceptional circumstances. The yearbook does not make interviews compulsory for every BEng applicant.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_electrical_focal",
+          "label": "Electrical and Electronic Engineering: Data Engineering starts in Year 1",
+          "details": "Data Engineering is a focal area within the Electrical and Electronic Engineering parent degree and must be chosen from the first year. The other focal areas are chosen in the second semester of the third year and share a first year. General/Data selection entries are not separate parent awards.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 37, 39",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "2027 Engineering requirements: six BEng parent degrees, with focal areas and four-year/extended routes kept explicit. NSC minima, provisional selection scores, international subject grades and converted averages have different meanings. Faculty/yearbook discrepancies are retained for clarification. ECP, prior-tertiary entry, internal programme changes and interrupted-study readmission have separate scopes; no invented IB diploma total.",
+      "requirements": [
+        {
+          "key": "su27eng_ecp_offer",
+          "label": "Engineering ECP: faculty offer and normal applicant eligibility",
+          "details": "Applicants apply to a four-year BEng, not directly to ECP. A limited number who are not selected for mainstream and meet ECP conditions may be offered the extended route; educationally disadvantaged applicants are prioritised. Normally only South African applicants in matric during their application year are considered. The document does not say that every domestic resident qualifies or use a citizens-only rule.",
+          "category": "application",
+          "status": "considered",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ecp_minimum",
+          "label": "Engineering ECP school minima: 60% average, 60% Mathematics, 50% science",
+          "details": "The five-year ECP requires an NSC/IEB bachelor pass or Matriculation Board exemption, average at least 60%, Mathematics 60% and Physical Sciences 50%. The yearbook six-best-subject average excludes Life Orientation and Mathematical Literacy. These admission minima differ from the higher indicative ECP selection subject marks.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ecp_language",
+          "label": "Engineering ECP: four language alternatives",
+          "details": "For ECP meet English Home Language 50%; OR English First Additional Language 60%; OR English First Additional Language 50% with Afrikaans Home Language 50%; OR English First Additional Language 50% with Afrikaans Second Additional Language 60%. No Afrikaans is required in the first two branches.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 6–7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ecp_indicative",
+          "label": "Engineering ECP indicative selection: 560 and socioeconomic score 3",
+          "details": "Indicative ECP thresholds are selection score 560, average 60%, Mathematics 65%, Physical Sciences 55% and socioeconomic score at least 3. Final thresholds are determined after closing. These are indicative selection figures, not replacement school-entry minima or IB totals.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_ecp_final_conflict",
+          "label": "Engineering ECP: conditional final score and reconsideration",
+          "details": "The ECP policy requires final school minima and no more than a 40-point drop below the Grade 11 selection score for the programme. The yearbook final/provisional section covers both routes but gives the different same-or-better/threshold formulation. Confirm that reference and precedence. Applicants whose Grade 12 performance improves may be reconsidered for a four-year offer.",
+          "category": "application",
+          "status": "unknown",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 7 (compare yearbook PDF 24)",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Engineering requirements: six BEng parent degrees, with focal areas and four-year/extended routes kept explicit. NSC minima, provisional selection scores, international subject grades and converted averages have different meanings. Faculty/yearbook discrepancies are retained for clarification. ECP, prior-tertiary entry, internal programme changes and interrupted-study readmission have separate scopes; no invented IB diploma total.",
+      "requirements": [
+        {
+          "key": "su27eng_tertiary_records_waitlist",
+          "label": "Prior tertiary applicants: school results, complete record and waitlist",
+          "details": "Applicants currently or previously enrolled at another tertiary institution must provide final school results and the full academic record. They are waitlisted until September/October and assessed on school and tertiary performance; current students remain pending until that academic year record is available and uploaded.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/faculty-engineering/documents/2026-03/admission-requirements-beng-2027-eng.pdf",
+            "title": "Stellenbosch 2027 Engineering · policy PDF 5–6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cat_residence",
+          "label": "BEng credit transfer: final two academic years and 50% at SU",
+          "details": "Regardless of prior tertiary study, a Stellenbosch BEng requires passing at least the final two academic years at SU and completing at least 50% of the programme credits there. This is a tertiary credit/residency requirement, not a school-leaving qualification score.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cat_request",
+          "label": "Engineering credit recognition: five-year window, 3 January and documents",
+          "details": "Normally only credits earned in the preceding five years can transfer. Apply to the Faculty Administrator before 3 January of the intended first BEng year, including the full academic record and the content and outcomes of each module for recognition. Admission application deadlines are separately scoped.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_cat_limits",
+          "label": "Engineering credit recognition: whole modules and 50% limits",
+          "details": "The home-department RPL/CAT committee compares module curricula, outcomes and credits with the target. Recognition applies to whole modules whose requirements are largely met or exceeded, up to 50% of target-programme credits and up to 50% of credits from a completed qualification. Recognition is assessed, not automatic.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_internal_bsc",
+          "label": "SU BSc to four-year BEng: module and performance alternatives",
+          "details": "Internal applicants need the normal language requirements; Mathematics 114 and 144 OR Engineering Mathematics 115 and 145; and the normal Physical Sciences requirement OR first-year BSc Physics and Chemistry. They must pass all modules of an appropriate first-year BSc within one year with credit-weighted average at least 65%, OR be selected by the home department. The module codes are tertiary courses, not exam scores.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 25–26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_completed_bsc",
+          "label": "Completed SU BSc: normally first-year BEng admission",
+          "details": "A completed BSc normally permits consideration for the first BEng year rather than automatic later-year entry; module recognition can be requested. Applicants who took longer than the normal BSc duration or performed poorly are normally not admitted.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_internal_ecp_second",
+          "label": "Other SU ECP to Engineering Year 2: one-year completion and above 65%",
+          "details": "For admission to the second BEng ECP year, complete the first year of another appropriate ECP within one year and meet the Engineering ECP first-to-second-year performance standard. That standard requires all first-year modules passed with a weighted average above 65%, strictly greater than 65 rather than the at-least-65 internal BSc criterion.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 26, 29",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_internal_apply",
+          "label": "Prior SU study: apply after final marks and before 13 December",
+          "details": "Apply through SunStudent in the year before Engineering entry, after final marks are released and before 13 December. The relevant home-department RPL/CAT committee decides admission and module recognition and the Faculty Administrator supplies written feedback.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_external_sa",
+          "label": "Other South African BEng/BScEng/BSc: subjects and departmental selection",
+          "details": "Applicants from these science/engineering programmes need normal language requirements; normal school Mathematics OR the equivalent of Engineering Mathematics 115 and 145; normal school Physical Sciences OR first-year BSc/BEng Physics and Chemistry; eligibility to continue at the previous university; and home-department selection. The internal-SU 65% average is not a universal minimum for this external route.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_external_apply",
+          "label": "External South African degree/diploma routes: July application and records",
+          "details": "For prior BEng/BScEng/BSc or applicable ND/NHD/Advanced Diploma/BEngTech/BTech from another South African university, apply in writing to the Faculty Administrator before 31 July of the preceding year with complete academic records and content/outcomes of modules for recognition. Departmental RPL/CAT assessment determines admission and recognition.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_diploma_entry",
+          "label": "ND/NHD/Advanced Diploma/BEngTech/BTech: first-year BEng consideration",
+          "details": "Applicants with an applicable National Diploma, National Higher Diploma, Advanced Diploma, BEngTech or BTech and good academic performance can apply for first-year BEng admission and assessed module recognition. The yearbook gives no universal numeric diploma average or automatic second-year entitlement.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_foreign_tertiary",
+          "label": "Foreign tertiary study: July deadline and qualification assessment",
+          "details": "Apply in writing before 31 July of the preceding year, with full records and module content/outcomes. The International Office and/or Human Sciences Research Council assessment guides recognition. Where standards are comparable to South African universities the external BEng/BScEng/BSc process applies; otherwise individual modules are not recognised, though mainstream assessments may be offered.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Engineering requirements: six BEng parent degrees, with focal areas and four-year/extended routes kept explicit. NSC minima, provisional selection scores, international subject grades and converted averages have different meanings. Faculty/yearbook discrepancies are retained for clarification. ECP, prior-tertiary entry, internal programme changes and interrupted-study readmission have separate scopes; no invented IB diploma total.",
+      "requirements": [
+        {
+          "key": "su27eng_other_rpl",
+          "label": "Other prior learning: 1 April application and assessed evidence",
+          "details": "For RPL not covered by the listed SU/external degree or diploma routes, apply before 1 April of the preceding year. Include programme name, learning content/scope/outcomes, assessment criteria and types, institution accreditation and when learning occurred. Incomplete evidence cannot be processed. Experience alone is insufficient; the learning must have been assessed recognisably.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 27–28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_rpl_assessment",
+          "label": "Other RPL: possible mainstream assessment or oral interview",
+          "details": "The departmental RPL/CAT committee can refuse, recognise modules, recommend mainstream assessments or request an oral-assessment interview attended by at least two academic staff. These are conditional assessment methods for otherwise unlisted prior learning, not universal first-year interviews.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_change_semester",
+          "label": "Internal BEng change after first semester: automatic branches or selection",
+          "details": "After the first semester, a change within the same department qualifies automatically; another automatic route is passing all first-semester first-year modules on the first attempt with credit-weighted average at least 65%. The equivalent ECP condition is its second-year first semester. Otherwise selection into the new programme is required. Extra modules are normally unnecessary except changes to/from Electrical Data Engineering.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_change_year",
+          "label": "Internal BEng change after first year: complete passes or selection",
+          "details": "Automatic change after the first year requires all first-year four-year BEng modules passed during that first year; the ECP equivalent is all second-year modules passed in the second year. Otherwise destination selection is required. Additional modules may extend degree duration, particularly for later changes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "su27eng_change_deadlines",
+          "label": "Internal BEng changes: before 31 May or 13 December",
+          "details": "Apply online to the Faculty Administrator before 31 May for a mid-year programme change, OR before 13 December in the preceding year for a change in the next academic year. Obtain the application link from the administrator.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 28",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "su",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "readmission",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Engineering requirements: six BEng parent degrees, with focal areas and four-year/extended routes kept explicit. NSC minima, provisional selection scores, international subject grades and converted averages have different meanings. Faculty/yearbook discrepancies are retained for clarification. ECP, prior-tertiary entry, internal programme changes and interrupted-study readmission have separate scopes; no invented IB diploma total.",
+      "requirements": [
+        {
+          "key": "su27eng_interrupted",
+          "label": "Interrupted BEng study: reapply after one year; reassess credits after three",
+          "details": "If BEng registration is interrupted for one or more years, apply anew and be selected before continuing. After an interruption of three years or longer, previous credits do not transfer automatically; applicants may request recognition of earlier modules.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://files.su.ac.za/public/registrars-division/documents/2026-11/2027-yearbook-part-11-engineering.pdf",
+            "title": "Stellenbosch 2027 Engineering · year PDF 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}

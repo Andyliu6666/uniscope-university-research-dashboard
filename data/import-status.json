@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281749,
+            "programs": 281755,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3837,
+            "admissionProfiles": 3838,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 25945,
+            "admissionRequirements": 26005,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196061
+            "undergraduateCatalogEntries": 196067
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3925,
-            "profiles": 1360,
+            "facts": 3985,
+            "profiles": 1361,
             "institutions": 88
         }
     },
-    "generatedAt": "2026-11-20T17:46:32Z",
+    "generatedAt": "2026-11-21T00:31:37Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 64,
+        "inserted": 60,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 64,
-        "startedAt": "2026-11-20T17:39:06.440158+00:00",
-        "updatedAt": "2026-11-20T17:39:06.440158+00:00",
+        "processed": 60,
+        "startedAt": "2026-11-21T00:30:54.130158+00:00",
+        "updatedAt": "2026-11-21T00:30:54.130158+00:00",
         "checkpoint": {
-            "profiles": 4,
-            "admissionFacts": 64,
-            "programsReused": 1,
-            "programsCreated": 14,
-            "priorSharedLinksAdded": 161
+            "profiles": 5,
+            "admissionFacts": 60,
+            "programsReused": 0,
+            "programsCreated": 6,
+            "priorSharedLinksAdded": 96
         },
-        "finishedAt": "2026-11-20T17:39:06.546+00:00",
-        "artifactSha256": "cbea71ce7c4b063bf5941393aaac9cb155ba927c5d317853d0ac3a6e06883a52",
-        "datasetVersion": "official-admissions-stellenbosch-economic-2027-2026-11-20-v1"
+        "finishedAt": "2026-11-21T00:30:54.242+00:00",
+        "artifactSha256": "e91a78bb222f448335ebb464e0540b4cabef315d451b7316e61bdbad013b5690",
+        "datasetVersion": "official-admissions-stellenbosch-engineering-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }
