@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281801,
+            "programs": 281807,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3845,
+            "admissionProfiles": 3858,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26095,
+            "admissionRequirements": 26130,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1212
+            "qualificationRequirements": 1218
         },
         "ibCoverage": {
             "byCountry": [
@@ -120,17 +120,17 @@
                 },
                 {
                     "country": "United Kingdom",
-                    "institutions": 3,
-                    "programs_with_reviewed_ib": 97,
-                    "programs_with_published_totals": 96
+                    "institutions": 4,
+                    "programs_with_reviewed_ib": 103,
+                    "programs_with_published_totals": 102
                 }
             ],
-            "reviewedRecords": 1212,
-            "programsWithReviewedIb": 1009,
+            "reviewedRecords": 1218,
+            "programsWithReviewedIb": 1015,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 45,
-            "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196113
+            "institutionsWithReviewedIb": 46,
+            "programsWithPublishedTotals": 722,
+            "undergraduateCatalogEntries": 196119
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4165,
+            "programs": 4166,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1943,
+            "admissions": 1944,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23986
+            "noStructuredApplicationFacts": 23985
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4075,
-            "profiles": 1368,
-            "institutions": 89
+            "facts": 4110,
+            "profiles": 1375,
+            "institutions": 90
         }
     },
-    "generatedAt": "2026-11-21T13:07:30Z",
+    "generatedAt": "2026-11-21T13:56:52Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 38,
-        "provider": "official_admissions",
+        "inserted": 6,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 38,
-        "startedAt": "2026-11-21T13:06:41.226956+00:00",
-        "updatedAt": "2026-11-21T13:06:41.226956+00:00",
+        "processed": 6,
+        "startedAt": "2026-11-21T13:56:31.330711+00:00",
+        "updatedAt": "2026-11-21T13:56:31.368+00:00",
         "checkpoint": {
-            "profiles": 4,
-            "admissionFacts": 38,
-            "programsReused": 0,
-            "programsCreated": 14
+            "rowIndex": 6,
+            "sourceRows": 6,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T13:06:41.315+00:00",
-        "artifactSha256": "8f79922d945a091ab44d5dbdcd4b20edd1353c1a2df0d7f4b59b862b19c3b43d",
-        "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T13:56:31.368+00:00",
+        "artifactSha256": "22de126c0c9d301360d182cd5a0d77f254569ef5f8c2f59b43f60a87d2dec463",
+        "datasetVersion": "official-ib-chester-english-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

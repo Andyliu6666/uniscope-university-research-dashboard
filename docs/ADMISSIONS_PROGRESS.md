@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## University of Chester English and Creative Writing — November 21 UTC
+
+1. The starting database matched the Fiji checkpoint at `8637b96`. Chester had no catalogue or reviewed admissions entries.
+2. Chester publishes two September 2027 study options for each of [English Language](https://www.chester.ac.uk/study/course-search/english-language-ba-hons/), [English Literature](https://www.chester.ac.uk/study/course-search/english-literature-ba-hons/) and [Creative Writing](https://www.chester.ac.uk/study/course-search/creative-writing-ba-hons/). Each option has a separate UCAS code.
+3. Six programme records carry the Home table's published IB total and HL English grade. Direct entry requires 28 points with HL English 5. Foundation entry requires 24 with HL English 4. The typical direct A-level offer is BCC–BBC with an essay-based humanities subject. Creative Writing has a higher Irish Higher requirement for its Foundation Year than the other two courses.
+4. The 35 general records include shared subject, advanced-entry and language rules. The [US entry policy](https://www.chester.ac.uk/international/countries/united-states/) allows the GPA 3.0 diploma route plus two relevant AP tests at grade 3 or above. It also lists a separate alternative using AP or Honours class grades. The US policy has an unspecified intake year.
+5. The two previews wrote zero rows. Both imports succeeded without rejections and repeat imports added zero rows. The rebuilt website API returned all six IB records and the expected 35 general facts, citations, applicant scopes and 75 programme associations.
+6. Reviewed coverage reached 4,110 general facts across 90 institutions and 722 programmes with published numerical IB totals. The fully readable archive is `backups/post-chester-english-20261121.dump` with SHA-256 `2bc9bcd70c86833ca8e5cad528e3a19f7737b9b78f8b491d2e432101ff56c6ac`. The next queue uses Chester's official undergraduate directory and checks entry tables by course and study option.
+
 ## Fiji National University CAFF — November 21 UTC
 
 1. **Baseline.** Local and remote main matched `4b2135d`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44901832904). The database matched the completed UNAM FAENS fingerprint. FNU had no programme or admissions records.
