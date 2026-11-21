@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281787,
+            "programs": 281801,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3841,
+            "admissionProfiles": 3845,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26057,
+            "admissionRequirements": 26095,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196099
+            "undergraduateCatalogEntries": 196113
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4164,
+            "programs": 4165,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1942,
+            "admissions": 1943,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23987
+            "noStructuredApplicationFacts": 23986
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4037,
-            "profiles": 1364,
-            "institutions": 88
+            "facts": 4075,
+            "profiles": 1368,
+            "institutions": 89
         }
     },
-    "generatedAt": "2026-11-21T11:58:13Z",
+    "generatedAt": "2026-11-21T13:07:30Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 19,
+        "inserted": 38,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 19,
-        "startedAt": "2026-11-21T11:57:08.492452+00:00",
-        "updatedAt": "2026-11-21T11:57:08.492452+00:00",
+        "processed": 38,
+        "startedAt": "2026-11-21T13:06:41.226956+00:00",
+        "updatedAt": "2026-11-21T13:06:41.226956+00:00",
         "checkpoint": {
-            "profiles": 2,
-            "admissionFacts": 19,
+            "profiles": 4,
+            "admissionFacts": 38,
             "programsReused": 0,
-            "programsCreated": 17,
-            "priorSharedLinksAdded": 195
+            "programsCreated": 14
         },
-        "finishedAt": "2026-11-21T11:57:08.57+00:00",
-        "artifactSha256": "63aca0e9f27355d53a75eccc4d4d108eb1c6fbdebdc6f9200f79d421ff2a6dbc",
-        "datasetVersion": "official-admissions-unam-faens-remaining-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T13:06:41.315+00:00",
+        "artifactSha256": "8f79922d945a091ab44d5dbdcd4b20edd1353c1a2df0d7f4b59b862b19c3b43d",
+        "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

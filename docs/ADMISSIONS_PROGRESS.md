@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## Fiji National University CAFF — November 21 UTC
+
+1. **Baseline.** Local and remote main matched `4b2135d`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44901832904). The database matched the completed UNAM FAENS fingerprint. FNU had no programme or admissions records.
+2. **Sources.** The [review](research/FNU_CAFF_20261121.md) records the official 2027 prospectus-to-embed-to-PDF chain, full CAFF tables and document matrix. The first-party landing remains citation authority; generic hosting domains were not whitelisted. Full pages were visually checked.
+3. **Artifact.** Fourteen pre-degree/diploma/bachelor programmes receive 38 independent facts, 159 associations and one university-only Semester 1 announcement. Actual Fiji school scores, subject lists, Foundation, mature/prior-study and advanced-standing routes remain distinct. Nonstandard IB-GPA, ATAR-letter and inconsistent document cells remain unresolved. No IB total or AP/A-level score is fabricated.
+4. **Import and backup.** Validation and preview made zero writes. The prior complete archive was verified; all 38 facts inserted without skips and repeat changed nothing. Prior metadata/content and all 1,212 IB rows were retained.
+5. **Verification.** Every fact, citation/date, all 159 associations and the unbound announcement matched the API. All 42 programme/route queries and applicant/year/readmission/delivery boundaries passed. The quality/API/website gate passed; the rebuilt API contains the identical artifact, and four website-proxy queries confirmed the key route distinctions.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,801 programmes, 3,845 profiles, 26,095 requirements, 108,028 sources and 140 runs. Reviewed general facts total 4,075 across 89 institutions; FNU has 14 programmes and 38 facts. Numerical IB coverage remains 716 programmes. Archive `backups/post-fnu-caff-20261121.en_0i8ye` is fully readable, SHA-256 `8511be417cdfdb270428f91f17ea6a957c6238644e864968ad01ca656ba9a579`. FNU's other colleges and a UK programme-offer source queue remain pending; 23,986 institutions still lack structured application facts and the global task is unfinished.
+
 ## University of Namibia Agriculture, Engineering and Military — November 21 UTC
 
 1. **Baseline.** Local and remote main matched `8d6959f`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44897332459). The database matched the completed Science fingerprint; UNAM had 15 programmes and 51 reviewed facts.

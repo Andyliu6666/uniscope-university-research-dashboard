@@ -1,0 +1,881 @@
+{
+  "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "fnu",
+      "name": "Fiji National University",
+      "provider": "ror",
+      "externalId": "00qk2nf71",
+      "countryCode": "FJ",
+      "officialDomains": ["fnu.ac.fj"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "agric_cert",
+      "institutionKey": "fnu",
+      "name": "Certificate in Agriculture (Level 3)",
+      "level": "undergraduate",
+      "field": "Agriculture, pre-degree certificate",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 21",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_certificate_agriculture",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "hort_cert",
+      "institutionKey": "fnu",
+      "name": "Certificate in Horticulture (Level 4)",
+      "level": "undergraduate",
+      "field": "Horticulture, pre-degree certificate",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 21",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_certificate_horticulture",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_horticulture_campus",
+        "fnu27caff_mature_horticulture",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "husbandry",
+      "institutionKey": "fnu",
+      "name": "Diploma in Animal Husbandry (Level 5)",
+      "level": "undergraduate",
+      "field": "Animal Husbandry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 21",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_husbandry_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_husbandry_certificate",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "agric_dip",
+      "institutionKey": "fnu",
+      "name": "Diploma in Agriculture (Level 5)",
+      "level": "undergraduate",
+      "field": "Agriculture, diploma",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_standard_diploma_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_agric_year2",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "agroforestry",
+      "institutionKey": "fnu",
+      "name": "Diploma in Agroforestry (Level 5)",
+      "level": "undergraduate",
+      "field": "Agroforestry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 22",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_standard_diploma_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_advanced_cert_diplomas",
+        "fnu27caff_forestry_agro_year2",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "applied_fisheries",
+      "institutionKey": "fnu",
+      "name": "Diploma in Applied Fisheries (Level 5)",
+      "level": "undergraduate",
+      "field": "Applied Fisheries",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 23",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_fisheries_diploma_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_tropical_agriculture",
+        "fnu27caff_fisheries_diploma_qualifications",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "aquaculture",
+      "institutionKey": "fnu",
+      "name": "Diploma in Aquaculture (Level 5)",
+      "level": "undergraduate",
+      "field": "Aquaculture",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 23",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_fisheries_diploma_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_tropical_agriculture",
+        "fnu27caff_fisheries_diploma_qualifications",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "forestry_dip",
+      "institutionKey": "fnu",
+      "name": "Diploma in Forestry (Level 5)",
+      "level": "undergraduate",
+      "field": "Forestry, diploma",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 24",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_standard_diploma_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_advanced_cert_diplomas",
+        "fnu27caff_forestry_agro_year2",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "wood",
+      "institutionKey": "fnu",
+      "name": "Diploma in Wood Processing and Value Adding (Level 5)",
+      "level": "undergraduate",
+      "field": "Wood Processing and Value Adding",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 24",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_wood_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_advanced_cert_diplomas",
+        "fnu27caff_wood_year2",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "animal_health",
+      "institutionKey": "fnu",
+      "name": "Diploma in Animal Health (Level 6)",
+      "level": "undergraduate",
+      "field": "Animal Health",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 25",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_animal_health_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_foundation_health_agric",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "animal_bsc",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Animal Science",
+      "level": "undergraduate",
+      "field": "Animal Science",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 25",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_animal_bsc_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_foundation_animal",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "agric_bsc",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Agriculture",
+      "level": "undergraduate",
+      "field": "Agriculture",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 26",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_agric_bsc_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_foundation_health_agric",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_tropical_agriculture",
+        "fnu27caff_agric_bsc_diplomas",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "fisheries_bsc",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Fisheries",
+      "level": "undergraduate",
+      "field": "Fisheries",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 26",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_fisheries_bsc_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_foundation_fisheries",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_tropical_agriculture",
+        "fnu27caff_fisheries_bsc_diplomas",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    },
+    {
+      "key": "forestry_bsc",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Forestry (Honours)",
+      "level": "undergraduate",
+      "field": "Forestry Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 CAFF prospectus · PDF 27",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27caff_forestry_bsc_school",
+        "fnu27caff_ib_gpa_unclear",
+        "fnu27caff_atar_unclear",
+        "fnu27caff_australian_act_gpa",
+        "fnu27caff_koronivia",
+        "fnu27caff_foundation_forestry",
+        "fnu27caff_mature_prior_learning",
+        "fnu27caff_dean_assessment",
+        "fnu27caff_forestry_advanced_work",
+        "fnu27caff_forestry_honours_year2",
+        "fnu27caff_secondary_result_documents",
+        "fnu27caff_parental_consent",
+        "fnu27caff_document_matrix_unclear"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 source-backed admissions: pre-degree certificates, diplomas and first-entry bachelor awards retain their own levels and subject rules; each rule applies only to its named programmes. Blended delivery is represented as hybrid. Fiji Year 12/13 marks are not IB totals. Nonstandard IB-GPA/ATAR wording remains unresolved; Australian Capital Territory ACT is not the US ACT test. Foundation, prior-qualification/mature and advanced-standing entry are separate from school entry. The generic Semester 1 announcement is university-level, not a verified individual course deadline.",
+      "requirements": [
+        {
+          "key": "fnu27caff_certificate_agriculture",
+          "label": "Agriculture Certificate L3: schooling and prior training",
+          "details": "The entry row lists successful completion of 11 years of education or equivalent, Certificate II in Agriculture or a related field from a Technical College, and agriculture vocational studies from registered centres. It does not explicitly join those prior-training items as AND/OR alternatives; confirm that grouping. The separately recorded discretionary mature/prior-learning route can consider applicants outside normal continuous progression.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_certificate_horticulture",
+          "label": "Horticulture Certificate L4: Year 12 English and two sciences",
+          "details": "Complete Year 12 with a pass in the external Form 6/FSLC examination in English and two other science subjects. This row does not specify a 200-mark aggregate or subject percentage, so the diploma thresholds are not borrowed.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_husbandry_school",
+          "label": "Animal Husbandry Diploma: Year 12 aggregate 200 and three subject passes",
+          "details": "Pass Fiji Year 12 Certificate/Form 6 or equivalent with aggregate at least 200, with 50% passes in Mathematics, English and either Biology, Agriculture or Chemistry. The row does not name an additional fourth-subject list; do not attach the broader Agriculture/Forestry list.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_standard_diploma_school",
+          "label": "Agriculture/Agroforestry/Forestry diplomas: Year 12 subjects",
+          "details": "Pass Fiji Year 12 Certificate or equivalent with aggregate at least 200 and 50% passes in Mathematics, English, the Biology/Agriculture/Chemistry group and one further subject from: Biology, Agriculture, Chemistry, Food and Nutrition and Technology, Physics, Computer Science, Economics or Introduction to Technology. These three rows share this exact list; Geography and Accounting from the fisheries diploma rows are not silently added.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 22, 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_fisheries_diploma_school",
+          "label": "Applied Fisheries/Aquaculture diplomas: Year 12 subject list",
+          "details": "Pass Fiji Year 12 Certificate/Form 6 FSLC or equivalent with aggregate at least 200 and 50% passes in Mathematics, English, the Biology/Agriculture/Chemistry group and one further subject from: Biology, Agriculture, Chemistry, Geography, Food and Nutrition and Technology, Physics, Computer Science, Economics, Introduction to Technology or Accounting. Geography and Accounting are explicitly listed for these two diplomas.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_wood_school",
+          "label": "Wood Processing Diploma: Year 12 aggregate and distinct subjects",
+          "details": "Pass Fiji Year 12 Certificate or equivalent with aggregate at least 200 in English, Mathematics, one science from Biology/Agriculture/Chemistry/Home Economics/Physics/Computer Studies/Applied Technology/Technical Drawing, and another listed subject from that group or Geography, Economics, Accounting or History. The printed list omits a comma between Technical Drawing and Geography; both subject names are preserved. No explicit 50% per-subject floor is printed in this row.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_animal_health_school",
+          "label": "Animal Health Diploma: 2015 qualification-system distinction",
+          "details": "Fiji Year 13 Certificate taken from 2015 onward without scaling requires aggregate at least 200; the pre-2015 scaled Fiji Seventh Form examination requires at least 250. Both branches require 50% passes in English, Mathematics, the Biology/Agriculture/Chemistry group and one further listed subject from: Biology, Agriculture, Chemistry, Geography, Food and Nutrition Technology, Physics, Computer Science, Economics or Introduction to Technology. These dates identify examination systems, not separate 2027 application intakes.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_animal_bsc_school",
+          "label": "Animal Science BSc: Year 13 aggregate 200 and subjects",
+          "details": "Pass Fiji Year 13 Certificate or equivalent with aggregate at least 200 and 50% passes in English, Mathematics, Biology OR Agriculture, and one of Chemistry, Food and Nutrition Technology, Physics or Computer Science. The Foundation alternative has its own separately recorded subject combination.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_agric_bsc_school",
+          "label": "Agriculture BSc: Year 13 and extended fourth-subject choice",
+          "details": "Pass Fiji Year 13 Certificate or equivalent with aggregate at least 200 and 50% passes in English, Mathematics, Biology OR Agriculture and one further subject from Chemistry, Geography, Food and Nutrition Technology, Physics, Computer Science, Economics, Accounting or Introduction to Technology. This list differs from Animal Science.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_fisheries_bsc_school",
+          "label": "Fisheries BSc: Seventh Form aggregate 200 and subject alternatives",
+          "details": "The row names the Fiji Seventh Form examination or equivalent, aggregate at least 200, and 50% passes in Mathematics, English, the Biology/Agriculture/Chemistry group and one further subject from Biology, Agriculture, Chemistry, Geography, Food and Nutrition Technology, Physics, Computer Science, Economics, Introduction to Technology, Technical Drawing or Accounting. It does not state Animal Health's separate pre-2015 250-mark rule.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_forestry_bsc_school",
+          "label": "Forestry Honours: Year 13 aggregate 200/400 and subject choice",
+          "details": "Pass Fiji Year 13 or equivalent with English passed and aggregate at least 200 out of 400, including Biology and/or Agriculture Science, plus completion of a subject from Mathematics (Pure or Life), Chemistry, Geography, Food and Nutrition Technology, Physics, Computer Science, Economics, Accounting or Introduction to Technology. Mathematics is one option in this list, not a universally compulsory extra subject. No explicit 50% subject floor is added from other rows.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_ib_gpa_unclear",
+          "label": "CAFF IB route: printed GPA wording needs scale clarification",
+          "details": "All fourteen reviewed CAFF rows name the IB Diploma but express it as unweighted GPA 2.29 and weighted GPA 2.86. Complete-page review confirms the text is inside the entry column, not an extraction shift. No IB 45/42-point total, core-point convention, HL pattern or conversion definition is supplied in these rows. Preserve the printed policy while seeking FNU clarification; neither GPA is recorded as an IB diploma total or silently converted into an offer.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_atar_unclear",
+          "label": "CAFF Australian ATAR route: letter-grade wording unresolved",
+          "details": "The reviewed entry rows print Australian Tertiary Admission Rank (ATAR) Grade C, without a numerical rank or conversion definition. The letter is retained as source wording needing confirmation; no ATAR percentile, IB total or A-level equivalence is inferred.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_australian_act_gpa",
+          "label": "CAFF Australian Capital Territory qualification: GPA 2.0",
+          "details": "The reviewed rows specify Australian Capital Territory (ACT) GPA 2.0. ACT is explicitly an Australian qualification label here, not the US ACT standardized test. The source does not give a GPA denominator or weighting convention, so none is invented. This is a separate qualification route from the IB-GPA wording.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_koronivia",
+          "label": "CAFF programme locations: Koronivia and Forestry additional campus",
+          "details": "The linked programme rows list Koronivia Campus with blended delivery. Forestry Honours additionally lists Labasa. Horticulture Certificate is excluded because its campus is marked TBC. No duration or unprinted programme code is fabricated.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_horticulture_campus",
+          "label": "Horticulture Certificate: campus to be confirmed",
+          "details": "The Horticulture Certificate Level 4 row marks campus TBC and delivery Blended. Do not assign Koronivia merely because adjacent CAFF rows use it.",
+          "category": "other",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_secondary_result_documents",
+          "label": "New-student application checklist: school results and examination index",
+          "details": "The enrolment guide marks secondary-school results with an examination index number as required across its fresh-school-leaver, mature and regional/international columns. This is document evidence, not an additional invented Year 12/13 academic minimum for every certificate or discretionary entrant.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 160",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_parental_consent",
+          "label": "Applicants under 18: parental-consent affidavit",
+          "details": "The new-student checklist requires an Affidavit of Parental Consent for students under 18 years of age. It is conditional on age rather than a document imposed on every adult applicant.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 160",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_document_matrix_unclear",
+          "label": "Application document matrix: unresolved cells and category labels",
+          "details": "The checklist labels the birth-certificate BRN mandatory but shows unkeyed white cells; passport biodata refers to regional/international students while cells use Not indicated; employer references are marked required even for fresh school leavers but have an unkeyed white international cell. The local-student TIN/FRCS label also matters despite broad green cells. Confirm the relevant applicant checklist rather than treating Not indicated/blank as Not required or imposing every document on all groups.",
+          "category": "document",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 160",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 source-backed admissions: pre-degree certificates, diplomas and first-entry bachelor awards retain their own levels and subject rules; each rule applies only to its named programmes. Blended delivery is represented as hybrid. Fiji Year 12/13 marks are not IB totals. Nonstandard IB-GPA/ATAR wording remains unresolved; Australian Capital Territory ACT is not the US ACT test. Foundation, prior-qualification/mature and advanced-standing entry are separate from school entry. The generic Semester 1 announcement is university-level, not a verified individual course deadline.",
+      "requirements": [
+        {
+          "key": "fnu27caff_foundation_health_agric",
+          "label": "Animal Health/Agriculture: Foundation science wording",
+          "details": "These two rows list a Foundation course with English, Mathematics and Biology, Agriculture Biology (Trade Diploma Agriculture unit), Forest Biology (Trade Diploma Forestry unit) and the printed unit/Chemistry wording. The linkage around Chemistry is not explicit, so preserve the alternatives and confirm the combination rather than importing Animal Science's clearly additional Chemistry requirement.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 25–26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_foundation_animal",
+          "label": "Animal Science: Foundation passes and additional Chemistry",
+          "details": "The row specifies a Foundation Course pass (50%) with English, Mathematics, Biology OR Agriculture Biology OR Forest Biology, and Chemistry. The percentage is printed against the Foundation Course rather than a separate per-module grade table. Chemistry is additional in this row, distinct from the less explicit wording in Animal Health and Agriculture.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_foundation_fisheries",
+          "label": "Fisheries BSc: Foundation and specialist biology alternatives",
+          "details": "Applicants with Foundation English and Mathematics can use Biology at Foundation College, Aquatic Biology from the Aquaculture/Applied Fisheries trade diploma, Agriculture Biology from the Agriculture diploma, Forest Biology from the Forestry diploma, or Chemistry from CAFF as the printed science alternatives. The row supplies no new numerical Foundation percentage.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_foundation_forestry",
+          "label": "Forestry Honours: Foundation Science alternative",
+          "details": "Applicants who passed a Foundation Science Programme or equivalent are eligible under this alternative. The row does not impose the other BSc programmes' explicit Foundation subject pattern or 50% marks.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_mature_prior_learning",
+          "label": "CAFF discretionary entry outside normal educational progression",
+          "details": "For these twelve programmes, applicants outside the usual continuous educational progression can be considered where maturity, relevant work experience or prior learning demonstrates the ability to succeed. This is discretionary consideration, not an automatic waiver or an invented universal age minimum. Horticulture and Animal Health are not attached to this particular shared statement.",
+          "category": "experience",
+          "status": "considered",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_mature_horticulture",
+          "label": "Horticulture Certificate: relevant mature-applicant experience",
+          "details": "The row separately permits consideration of mature applicants with relevant experience. It does not print a minimum age, years of experience or the Dean examination powers found in several other CAFF rows.",
+          "category": "experience",
+          "status": "considered",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_dean_assessment",
+          "label": "CAFF discretionary entry: possible assessment or restricted enrolment",
+          "details": "For these eleven programme rows, the Dean may require specific or general examinations, impose relevant prerequisites, or restrict initial enrolment to prescribed courses/units that must be passed before progression. This concerns the discretionary mature/prior-learning route; it is not a universal school-leaver entrance examination.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21–27",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_husbandry_certificate",
+          "label": "Animal Husbandry Diploma: Certificate IV alternative",
+          "details": "Applicants with Certificate IV in Animal Husbandry can use the prior-qualification alternative. Relevant mature animal-husbandry experience/practical skills are separately mentioned. The row does not promise automatic second-year admission or specify a credit exemption.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_tropical_agriculture",
+          "label": "Tropical Agriculture Diploma: CAFF alternative qualification",
+          "details": "A Diploma in Tropical Agriculture is explicitly an eligible prior qualification for the linked Applied Fisheries and Aquaculture diplomas and Agriculture and Fisheries BSc programmes. This eligibility statement does not itself confer a universal later-year place or automatic transfer credits.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 23, 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_fisheries_diploma_qualifications",
+          "label": "Two fisheries diplomas: certificate routes and first-year entry",
+          "details": "For Applied Fisheries and Aquaculture diplomas, Certificate IV in Horticulture, Agriculture, Forestry, Agroforestry, Wood Processing and Value Adding or Animal Husbandry permits application to the first year, first trimester. Certificate III in Commercial Agriculture is also eligible. These are not the automatic second-year branches of some other CAFF diplomas.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 23",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_advanced_cert_diplomas",
+          "label": "Agroforestry/Forestry/Wood diplomas: advanced-certificate alternative",
+          "details": "Advanced Certificate in Wood Craft Technology OR Advanced Certificate in Forest Management is an eligible prior qualification for these three diplomas. The five-year relevant-work condition belongs to the Forestry Honours advanced-certificate branch and is not imposed here.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 22, 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_agric_bsc_diplomas",
+          "label": "Agriculture BSc: named trade-diploma alternatives",
+          "details": "Eligible prior qualifications include Trade Diploma in Agriculture, Forestry, Agroforestry, Tropical Forestry, Wood Processing and Value Adding, Animal Husbandry, Applied Fisheries, Aquaculture or Agricultural Engineering. The separate Tropical Agriculture Diploma rule also applies. These alternatives confer eligibility for admission, not an unprinted blanket Year 2 exemption.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_fisheries_bsc_diplomas",
+          "label": "Fisheries BSc: fisheries and other diploma alternatives",
+          "details": "Eligible prior qualifications include Trade Diploma in Applied Fisheries or Aquaculture; Diploma in Applied Fisheries Technology; trade diplomas in Agriculture, Forestry, Agroforestry, Wood Processing and Value Adding or Animal Husbandry; Diploma in Tropical Forestry, Ocean Resources Management and Policy or Industrial Technology. Tropical Agriculture is separately shared. No universal entry year or credit waiver is invented.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 26",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_forestry_advanced_work",
+          "label": "Forestry Honours: advanced certificate plus at least five years relevant work",
+          "details": "Advanced Certificate in Forest Management OR Advanced Certificate in Wood Craft Technology, together with five or more years of relevant work experience, is an admission alternative. This branch does not itself state Year 2 entry; the separate Level-5-diploma branch does.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 source-backed admissions: pre-degree certificates, diplomas and first-entry bachelor awards retain their own levels and subject rules; each rule applies only to its named programmes. Blended delivery is represented as hybrid. Fiji Year 12/13 marks are not IB totals. Nonstandard IB-GPA/ATAR wording remains unresolved; Australian Capital Territory ACT is not the US ACT test. Foundation, prior-qualification/mature and advanced-standing entry are separate from school entry. The generic Semester 1 announcement is university-level, not a verified individual course deadline.",
+      "requirements": [
+        {
+          "key": "fnu27caff_agric_year2",
+          "label": "Agriculture Diploma: Certificate IV to Year 2",
+          "details": "Certificate IV in Agriculture permits second-year admission. Its units are cross-credited against first-year Trade Diploma Agriculture units except Industrial Attachment. The row does not specify a first-trimester or first-semester start for this branch.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 22",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_forestry_agro_year2",
+          "label": "Agroforestry/Forestry diplomas: Year 2 first trimester",
+          "details": "Certificate IV in Agroforestry or Forestry, respectively, permits entry to the first trimester of the corresponding diploma's second year. Certificate units are cross-credited against the first year except Educational Tour and Industrial Attachment. The two qualifications are not interchangeable across destination programmes.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 22, 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_wood_year2",
+          "label": "Wood Processing Diploma: Year 2 first semester",
+          "details": "Certificate IV in Wood Processing permits entry to the first semester of Year 2, with its courses cross-credited against first-year Wood Processing and Value Adding Diploma units except Industrial Attachment. The trimester wording of Forestry/Agroforestry is not copied into this route.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27caff_forestry_honours_year2",
+          "label": "Forestry Honours: Level 5 diploma to Year 2",
+          "details": "Diploma Level 5 in Forestry, Agroforestry, Wood Processing or Tropical Forestry permits admission to the programme's second year. No course-by-course exemption schedule is printed in this row; it is not an IB/AP school-entry score.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 CAFF prospectus · PDF 27",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "semester1",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 source-backed admissions: pre-degree certificates, diplomas and first-entry bachelor awards retain their own levels and subject rules; each rule applies only to its named programmes. Blended delivery is represented as hybrid. Fiji Year 12/13 marks are not IB totals. Nonstandard IB-GPA/ATAR wording remains unresolved; Australian Capital Territory ACT is not the US ACT test. Foundation, prior-qualification/mature and advanced-standing entry are separate from school entry. The generic Semester 1 announcement is university-level, not a verified individual course deadline.",
+      "requirements": [
+        {
+          "key": "fnu27caff_semester1_announcement",
+          "label": "University-level Semester 1 2027 application closing",
+          "details": "The 24 September 2026 announcement says Semester 1, 2027 applications close on 5 February 2027. This is retained as a university-level announcement, without linking it as a verified individual CAFF programme deadline. Special college/intake deadlines can differ; the separately published CMNHS November deadline is not overwritten.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.fnu.ac.fj/blog/news/fnu-opens-applications-for-semester-1-2027/",
+            "title": "FNU: Semester 1 2027 application announcement, 24 September 2026",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
