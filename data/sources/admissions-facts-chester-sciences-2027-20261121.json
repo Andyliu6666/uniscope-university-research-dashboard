@@ -1,0 +1,1835 @@
+{
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "chester",
+      "name": "University of Chester",
+      "provider": "ror",
+      "externalId": "01drpwb22",
+      "countryCode": "GB",
+      "officialDomains": ["chester.ac.uk"]
+    }
+  ],
+  "datasetVersion": "official-admissions-chester-sciences-2027-2026-11-21-v1",
+  "programs": [
+    {
+      "key": "d326",
+      "institutionKey": "chester",
+      "name": "Animal Behaviour BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Animal Behaviour",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+        "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d326_a_level_entry_and_ucas_tariff",
+        "chester_sci_d326_t_level_route",
+        "chester_sci_d326_gcse_english_and_mathematics",
+        "chester_sci_d326_irish_and_scottish_higher_alternatives",
+        "chester_sci_d326_access_to_higher_education_route",
+        "chester_sci_d326_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "d329",
+      "institutionKey": "chester",
+      "name": "Animal Behaviour BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Animal Behaviour",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+        "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d329_a_level_entry_and_ucas_tariff",
+        "chester_sci_d329_t_level_route",
+        "chester_sci_d326_gcse_english_and_mathematics",
+        "chester_sci_d329_irish_and_scottish_higher_alternatives",
+        "chester_sci_d329_access_to_higher_education_route",
+        "chester_sci_d329_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "d390",
+      "institutionKey": "chester",
+      "name": "Animal Welfare Science BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Animal Welfare Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+        "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d390_a_level_entry_and_ucas_tariff",
+        "chester_sci_d390_t_level_route",
+        "chester_sci_d390_irish_and_scottish_higher_alternatives",
+        "chester_sci_d326_access_to_higher_education_route",
+        "chester_sci_d390_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "d391",
+      "institutionKey": "chester",
+      "name": "Animal Welfare Science BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Animal Welfare Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+        "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d391_a_level_entry_and_ucas_tariff",
+        "chester_sci_d391_t_level_route",
+        "chester_sci_d391_irish_and_scottish_higher_alternatives",
+        "chester_sci_d329_access_to_higher_education_route",
+        "chester_sci_d391_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c100",
+      "institutionKey": "chester",
+      "name": "Biology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+        "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_c100_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_c100_vaccination_and_placement_access",
+        "chester_sci_c100_as_level_tariff_contribution",
+        "chester_sci_c100_irish_and_scottish_higher_alternatives",
+        "chester_sci_c100_access_to_higher_education_route",
+        "chester_sci_c100_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c101",
+      "institutionKey": "chester",
+      "name": "Biology BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+        "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_c101_a_level_entry_and_ucas_tariff",
+        "chester_sci_c101_t_level_route",
+        "chester_sci_c100_vaccination_and_placement_access",
+        "chester_sci_c100_as_level_tariff_contribution",
+        "chester_sci_c101_irish_and_scottish_higher_alternatives",
+        "chester_sci_c101_access_to_higher_education_route",
+        "chester_sci_c101_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "b940",
+      "institutionKey": "chester",
+      "name": "Biomedical Science BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Biomedical Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+        "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_b940_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_c100_irish_and_scottish_higher_alternatives",
+        "chester_sci_c100_access_to_higher_education_route",
+        "chester_sci_b940_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        }
+      ]
+    },
+    {
+      "key": "b950",
+      "institutionKey": "chester",
+      "name": "Biomedical Science BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Biomedical Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+        "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_b950_a_level_entry_and_ucas_tariff",
+        "chester_sci_b950_t_level_route",
+        "chester_sci_b950_irish_and_scottish_higher_alternatives",
+        "chester_sci_c101_access_to_higher_education_route",
+        "chester_sci_b950_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        }
+      ]
+    },
+    {
+      "key": "d303",
+      "institutionKey": "chester",
+      "name": "Bioveterinary Science BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Bioveterinary Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+        "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d303_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_d303_occupational_health",
+        "chester_sci_c100_irish_and_scottish_higher_alternatives",
+        "chester_sci_d303_access_to_higher_education_route",
+        "chester_sci_d326_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        }
+      ]
+    },
+    {
+      "key": "d304",
+      "institutionKey": "chester",
+      "name": "Bioveterinary Science BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Bioveterinary Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+        "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_d304_a_level_entry_and_ucas_tariff",
+        "chester_sci_c101_t_level_route",
+        "chester_sci_d304_irish_and_scottish_higher_alternatives",
+        "chester_sci_c101_access_to_higher_education_route",
+        "chester_sci_d329_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        }
+      ]
+    },
+    {
+      "key": "f100",
+      "institutionKey": "chester",
+      "name": "Chemistry BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+        "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_f100_a_level_entry_and_ucas_tariff",
+        "chester_sci_f100_vocational_qualifications_alongside_a_level_chemistry",
+        "chester_sci_f100_irish_and_scottish_higher_alternatives",
+        "chester_sci_f100_access_to_higher_education_route"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "f1j8",
+      "institutionKey": "chester",
+      "name": "Chemistry BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+        "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_f1j8_a_level_entry_and_ucas_tariff",
+        "chester_sci_f100_vocational_qualifications_alongside_a_level_chemistry",
+        "chester_sci_f1j8_irish_and_scottish_higher_alternatives",
+        "chester_sci_f1j8_access_to_higher_education_route"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "g400",
+      "institutionKey": "chester",
+      "name": "Computer Science BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+        "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_g400_a_level_entry_and_ucas_tariff",
+        "chester_sci_g400_t_level_route",
+        "chester_sci_g400_gcse_english_and_mathematics",
+        "chester_sci_g400_entry_through_relevant_work_experience",
+        "chester_sci_g400_irish_and_scottish_higher_alternatives",
+        "chester_sci_g400_access_to_higher_education_route",
+        "chester_sci_g400_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "g405",
+      "institutionKey": "chester",
+      "name": "Computer Science BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+        "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_g405_a_level_entry_and_ucas_tariff",
+        "chester_sci_b950_t_level_route",
+        "chester_sci_g400_gcse_english_and_mathematics",
+        "chester_sci_g400_entry_through_relevant_work_experience",
+        "chester_sci_g405_irish_and_scottish_higher_alternatives",
+        "chester_sci_g405_access_to_higher_education_route",
+        "chester_sci_g405_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c190",
+      "institutionKey": "chester",
+      "name": "Forensic Biology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Forensic Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/forensic-biology-bsc-hons/",
+        "title": "Chester · Forensic Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_c100_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_c100_vaccination_and_placement_access",
+        "chester_sci_c100_as_level_tariff_contribution",
+        "chester_sci_c100_irish_and_scottish_higher_alternatives",
+        "chester_sci_c100_access_to_higher_education_route",
+        "chester_sci_c100_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c191",
+      "institutionKey": "chester",
+      "name": "Forensic Biology BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Forensic Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/forensic-biology-bsc-hons/",
+        "title": "Chester · Forensic Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_b950_a_level_entry_and_ucas_tariff",
+        "chester_sci_c101_t_level_route",
+        "chester_sci_c100_vaccination_and_placement_access",
+        "chester_sci_c100_as_level_tariff_contribution",
+        "chester_sci_d304_irish_and_scottish_higher_alternatives",
+        "chester_sci_c101_access_to_higher_education_route",
+        "chester_sci_c191_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "g100",
+      "institutionKey": "chester",
+      "name": "Mathematics BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Mathematics",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/mathematics-bsc-hons/",
+        "title": "Chester · Mathematics BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_g100_a_level_entry_and_ucas_tariff",
+        "chester_sci_g100_irish_and_scottish_higher_alternatives",
+        "chester_sci_g100_access_to_higher_education_route",
+        "chester_sci_g100_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        }
+      ]
+    },
+    {
+      "key": "5c18",
+      "institutionKey": "chester",
+      "name": "Zoology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Zoology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+        "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_b940_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_d326_gcse_english_and_mathematics",
+        "chester_sci_5c18_irish_and_scottish_higher_alternatives",
+        "chester_sci_5c18_access_to_higher_education_route",
+        "chester_sci_d326_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        }
+      ]
+    },
+    {
+      "key": "5c28",
+      "institutionKey": "chester",
+      "name": "Zoology BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Zoology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+        "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_b950_a_level_entry_and_ucas_tariff",
+        "chester_sci_c101_t_level_route",
+        "chester_sci_d326_gcse_english_and_mathematics",
+        "chester_sci_5c28_irish_and_scottish_higher_alternatives",
+        "chester_sci_5c28_access_to_higher_education_route",
+        "chester_sci_d329_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        }
+      ]
+    },
+    {
+      "key": "c160",
+      "institutionKey": "chester",
+      "name": "Marine Biology BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Marine Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+        "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_c160_a_level_entry_and_ucas_tariff",
+        "chester_sci_c100_t_level_route",
+        "chester_sci_c160_irish_and_scottish_higher_alternatives",
+        "chester_sci_d303_access_to_higher_education_route",
+        "chester_sci_c160_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c161",
+      "institutionKey": "chester",
+      "name": "Marine Biology BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Marine Biology",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+        "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_c161_a_level_entry_and_ucas_tariff",
+        "chester_sci_c101_t_level_route",
+        "chester_sci_c161_irish_and_scottish_higher_alternatives",
+        "chester_sci_c101_access_to_higher_education_route",
+        "chester_sci_c161_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c600",
+      "institutionKey": "chester",
+      "name": "Sport and Exercise Sciences BSc (Hons)",
+      "level": "undergraduate",
+      "field": "Sport and Exercise Sciences",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/sport-and-exercise-sciences-bsc-hons/",
+        "title": "Chester · Sport and Exercise Sciences BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_g400_a_level_entry_and_ucas_tariff",
+        "chester_sci_g400_t_level_route",
+        "chester_sci_g400_irish_and_scottish_higher_alternatives",
+        "chester_sci_g400_access_to_higher_education_route",
+        "chester_sci_g400_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_college"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_act_sat"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_sat_current"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_ielts_course"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    },
+    {
+      "key": "c601",
+      "institutionKey": "chester",
+      "name": "Sport and Exercise Sciences BSc (Hons) with Foundation Year",
+      "level": "undergraduate",
+      "field": "Sport and Exercise Sciences",
+      "source": {
+        "url": "https://www.chester.ac.uk/study/course-search/sport-and-exercise-sciences-bsc-hons/",
+        "title": "Chester · Sport and Exercise Sciences BSc Hons · September 2027 entry tables",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "chester_sci_g405_a_level_entry_and_ucas_tariff",
+        "chester_sci_b950_t_level_route",
+        "chester_sci_g405_irish_and_scottish_higher_alternatives",
+        "chester_sci_g405_access_to_higher_education_route",
+        "chester_sci_g405_btec_and_vocational_diploma_routes"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_us_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-chester-english-2026-11-21-v1",
+          "key": "chester_mixed_qualifications"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "chester",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "September 2027 programme entry conditions. Each rule identifies its study options and an official course table.",
+      "requirements": [
+        {
+          "key": "chester_sci_d326_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology, Psychology or Applied Science at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d326_t_level_route",
+          "label": "T Level route",
+          "details": "Science, or Animal Management and Science / Animal Management and Behaviour at Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d326_gcse_english_and_mathematics",
+          "label": "GCSE English and Mathematics",
+          "details": "Pass English and Mathematics at grade 4/C.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d326_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Biology or Psychology. Scottish Higher grades BBBB including Biology or Psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d326_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present a Science Access to HE Diploma with 45 Level 3 credits including 30 at Merit. An Access diploma with sufficient Psychology credits can also be considered.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d326_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science or Animal Management at DMM. The OCR Extended Diploma in Applied Science route lists DMM.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d329_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology, Psychology or Applied Science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d329_t_level_route",
+          "label": "T Level route",
+          "details": "Science, or Animal Management and Science / Animal Management and Behaviour at Pass with D or E on the core.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d329_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including H3 in Biology or Psychology. Scottish Higher grades CCDD including Biology or Psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d329_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Pass a Science Access to HE Diploma overall. An Access diploma with sufficient Psychology credits can also be considered.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d329_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science or Animal Management at MMP. The OCR Extended Diploma in Applied Science route lists MMP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-behaviour-bsc-hons/",
+            "title": "Chester · Animal Behaviour BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d390_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology or Psychology at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d390_t_level_route",
+          "label": "T Level route",
+          "details": "Science, or Animal Management and Science at Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d390_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including H3 in Biology or Psychology. Scottish Higher grades BBBB including Biology or Psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d390_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Animal Care/Management or Applied Science at DMM. The OCR Extended Diploma in Applied Science route lists DMM.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d391_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology or Psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d391_t_level_route",
+          "label": "T Level route",
+          "details": "Science, or Animal Management and Science at Pass with D or E on the core.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d391_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Biology or Psychology. Scottish Higher grades CCDD including Biology or Psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d391_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Animal Care/Management or Applied Science at MMP. The OCR Extended Diploma in Applied Science route lists MMP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/animal-welfare-science-bsc-hons/",
+            "title": "Chester · Animal Welfare Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_t_level_route",
+          "label": "T Level route",
+          "details": "Science at Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_as_level_tariff_contribution",
+          "label": "AS-level tariff contribution",
+          "details": "A maximum of eight UCAS points can come from GCE AS levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including H3 in Biology or Chemistry. Scottish Higher grades BBBB including Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present a Science Access to HE Diploma with 45 Level 3 credits including 30 at Merit or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c100_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science or Animal Management at DMM. The OCR Extended Diploma in Applied Science route lists DMM. BTEC and OCR Extended Certificates in Applied Human Biology also appear in the entry table.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c101_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology, Human Biology or Applied Science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c101_t_level_route",
+          "label": "T Level route",
+          "details": "Science at Pass with D or E on the core.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c101_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 including Biology. Scottish Higher grades CCCC including Biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c101_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Pass a Science Access to HE Diploma overall.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c101_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science or Animal Management at MMP. Chester also lists a BTEC Diploma at MM and considers other Level 3 vocational qualifications.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b940_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology or Chemistry at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b940_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science or Medical Science at DMM. The OCR Extended Diploma in Applied Science route lists DMM.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b950_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b950_t_level_route",
+          "label": "T Level route",
+          "details": "The entry table lists a Pass with D or E on the core.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b950_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 including Biology or Chemistry. Scottish Higher grades CCCC including Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_b950_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science at MMP. Chester also lists a BTEC Diploma at MM and considers other Level 3 vocational qualifications.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biomedical-science-bsc-hons/",
+            "title": "Chester · Biomedical Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d303_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology, Chemistry or Applied Science at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+            "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d303_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present a Science Access to HE Diploma with 45 Level 3 credits including 30 at Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+            "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d304_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology, Chemistry or Applied Science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+            "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d304_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Biology or Chemistry. Scottish Higher grades CCDD including Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+            "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f100_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Chemistry at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f100_vocational_qualifications_alongside_a_level_chemistry",
+          "label": "Vocational qualifications alongside A-level Chemistry",
+          "details": "Chester can consider BTEC, OCR Extended Diploma or a T Level together with A-level Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f100_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including chemistry. Scottish Higher grades BBBB including chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f100_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Earn 45 Level 3 credits including 30 at Merit or higher, with 15 of those credits in Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f1j8_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f1j8_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Chemistry. Scottish Higher grades CCDD including Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_f1j8_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Pass a Science Access diploma with Level 3 Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/chemistry-bsc-hons/",
+            "title": "Chester · Chemistry BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and A-level grades BCC to BBC.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_t_level_route",
+          "label": "T Level route",
+          "details": "The entry table lists Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_gcse_english_and_mathematics",
+          "label": "GCSE English and Mathematics",
+          "details": "English Language must reach C/4 and Mathematics C/5 or above, using the grade pairs printed by Chester.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4. Scottish Higher grades BBBB.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present an Access to HE Diploma with 45 Level 3 credits including 30 at Merit or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC at DMM. The OCR Cambridge Technical route lists DMM.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g405_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g405_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4. Scottish Higher grades CCDD.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g405_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Pass an Access to HE Diploma overall.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g405_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC at MMP. The OCR Cambridge Technical route lists MMP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c191_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Applied Science at MMP. The OCR Extended Diploma in Applied Science route lists MMP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/forensic-biology-bsc-hons/",
+            "title": "Chester · Forensic Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g100_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Mathematics at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/mathematics-bsc-hons/",
+            "title": "Chester · Mathematics BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g100_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including H3 in Mathematics. Scottish Higher grades BBBB including Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/mathematics-bsc-hons/",
+            "title": "Chester · Mathematics BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g100_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present a Mathematics Access to HE Diploma with 45 Level 3 credits, including 30 at Merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/mathematics-bsc-hons/",
+            "title": "Chester · Mathematics BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g100_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "An appropriate BTEC Extended Diploma or Diploma needs a Merit/Distinction profile plus A-level Mathematics. An OCR National Extended/Diploma needs a Merit profile plus A-level Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/mathematics-bsc-hons/",
+            "title": "Chester · Mathematics BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_5c18_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including H3 in Biology or Chemistry. Scottish Higher grades BBBB including Biology or Human Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+            "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_5c18_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Present a Science Access to HE Diploma with 45 Level 3 credits including 30 at Merit. Chester may consider another Access diploma with sufficient credits.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+            "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_5c28_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Biology or Chemistry. Scottish Higher grades CCDD including Biology or Human Biology or Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+            "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_5c28_access_to_higher_education_route",
+          "label": "Access to Higher Education route",
+          "details": "Pass a Science Access to HE Diploma overall. Chester may consider another Access diploma with sufficient credits.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/zoology-bsc-hons/",
+            "title": "Chester · Zoology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c160_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The direct-entry table lists 112 UCAS points and a typical A-level offer of BCC to BBC. Include Biology or Applied Science at A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c160_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H3 / H3 / H3 / H3 / H4 including Biology. Scottish Higher grades BBBB including Biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c160_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Marine Biology, Applied Science or Animal Management at DMM. The OCR Extended Diploma in Applied Science route lists DMM.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c161_a_level_entry_and_ucas_tariff",
+          "label": "A-level entry and UCAS tariff",
+          "details": "The Foundation Year lists 72 UCAS points and an A level at grade D in Biology or Applied Science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c161_irish_and_scottish_higher_alternatives",
+          "label": "Irish and Scottish Higher alternatives",
+          "details": "Irish Higher grades H4 / H4 / H4 / H4 / H4 including Biology. Scottish Higher grades CCDD including Biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_c161_btec_and_vocational_diploma_routes",
+          "label": "BTEC and vocational diploma routes",
+          "details": "BTEC Extended Diploma in Marine Biology, Applied Science or Animal Management at MMP. The OCR Extended Diploma in Applied Science route lists MMP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/marine-biology-bsc-hons/",
+            "title": "Chester · Marine Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "chester",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 programme entry conditions. Each rule identifies its study options and an official course table.",
+      "requirements": [
+        {
+          "key": "chester_sci_c100_vaccination_and_placement_access",
+          "label": "Vaccination and placement access",
+          "details": "Chester advises successful applicants to be vaccinated against hepatitis B and tetanus. Students may enrol without vaccination, though access to learning activities and placements involving blood can be limited.",
+          "category": "other",
+          "status": "recommended",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/biology-bsc-hons/",
+            "title": "Chester · Biology BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_d303_occupational_health",
+          "label": "Occupational health",
+          "details": "Chester requires an occupational health check for this entry option.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/bioveterinary-science-bsc-hons/",
+            "title": "Chester · Bioveterinary Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "chester_sci_g400_entry_through_relevant_work_experience",
+          "label": "Entry through relevant work experience",
+          "details": "Applicants below the UCAS tariff may be considered on relevant work experience. They would normally submit a portfolio and attend an interview.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.chester.ac.uk/study/course-search/computer-science-bsc-hons/",
+            "title": "Chester · Computer Science BSc Hons · September 2027 entry tables",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}

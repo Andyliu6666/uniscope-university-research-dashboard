@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## University of Chester science programmes — November 21 UTC
+
+1. The English and Creative Writing batch reached [main with passing checks](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44911483082). Both imports started from its verified database snapshot.
+2. Twelve September 2027 science course pages in [Chester’s undergraduate directory](https://www.chester.ac.uk/study/undergraduate/a-z/) supplied 23 study options with distinct UCAS codes. The selection includes Biology, Biomedical Science, Chemistry, Mathematics, Computer Science and animal sciences.
+3. The course tables supply 23 IB totals, 75 general requirements and 129 links from these requirements to study options. Another 99 links reuse previously recorded policies, including US AP entry alternatives. Where a course names a subject without an IB level or grade, its record retains that distinction. Computer Science placement entry (G404) needs separate confirmation.
+4. Both previews recorded zero writes. All 75 general requirements and 23 IB records were inserted without rejections. Repeating the imports added zero records. Prior general and IB facts matched their saved fingerprints after accounting for the authorised new programme links.
+5. Website API checks compared the combined 29 Chester options against both batches. All 29 IB records, 110 general requirements, source citations, 303 programme associations and course search results matched.
+6. The database now has 4,185 reviewed general facts and 745 programmes with published IB totals across the catalogue. The complete database archive `backups/post-chester-sciences-20261121.dump` was read through and has SHA-256 `65bfe4e0467e8ec47dabebf7bfa2c538c4e049cb511ced05242483f982363683`. Chester’s directory lists 130 distinct course pages across 256 study-option links in this snapshot. Later batches can reuse the directory inventory and existing country policies.
+
 ## University of Chester English and Creative Writing — November 21 UTC
 
 1. The starting database matched the Fiji checkpoint at `8637b96`. Chester had no catalogue or reviewed admissions entries.
