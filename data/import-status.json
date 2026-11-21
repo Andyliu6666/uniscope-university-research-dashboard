@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281930,
+            "programs": 281940,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3918,
+            "admissionProfiles": 3930,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26314,
+            "admissionRequirements": 26347,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1267
+            "qualificationRequirements": 1277
         },
         "ibCoverage": {
             "byCountry": [
@@ -67,8 +67,8 @@
                 {
                     "country": "Malaysia",
                     "institutions": 6,
-                    "programs_with_reviewed_ib": 55,
-                    "programs_with_published_totals": 55
+                    "programs_with_reviewed_ib": 65,
+                    "programs_with_published_totals": 65
                 },
                 {
                     "country": "Mauritius",
@@ -125,12 +125,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1267,
-            "programsWithReviewedIb": 1064,
+            "reviewedRecords": 1277,
+            "programsWithReviewedIb": 1074,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 46,
-            "programsWithPublishedTotals": 771,
-            "undergraduateCatalogEntries": 196220
+            "programsWithPublishedTotals": 781,
+            "undergraduateCatalogEntries": 196230
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4294,
-            "profiles": 1386,
-            "institutions": 91
+            "facts": 4327,
+            "profiles": 1388,
+            "institutions": 92
         }
     },
-    "generatedAt": "2026-11-21T16:02:19Z",
+    "generatedAt": "2026-11-21T16:07:02Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 52,
-        "provider": "official_admissions",
+        "inserted": 10,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 52,
-        "startedAt": "2026-11-21T16:02:17.909185+00:00",
-        "updatedAt": "2026-11-21T16:02:17.909185+00:00",
+        "processed": 10,
+        "startedAt": "2026-11-21T16:06:59.520883+00:00",
+        "updatedAt": "2026-11-21T16:06:59.562+00:00",
         "checkpoint": {
-            "profiles": 10,
-            "admissionFacts": 52,
-            "programsReused": 0,
-            "programsCreated": 31,
-            "priorSharedLinksAdded": 88
+            "rowIndex": 10,
+            "sourceRows": 10,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T16:02:18.046+00:00",
-        "artifactSha256": "2acb4bf6812f1ca0901180b4495e7d842217a1be4fbf7da329c624441dddcdce",
-        "datasetVersion": "official-admissions-baisago-remaining-faculties-2026-11-21-v1"
+        "finishedAt": "2026-11-21T16:06:59.562+00:00",
+        "artifactSha256": "264576462652a7ed956d0fc468c3f2d8114b6e9978d36a9ff3a90d1e593fc741",
+        "datasetVersion": "official-ib-sunway-engineering-computing-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

@@ -1,0 +1,731 @@
+{
+  "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "sunway",
+      "name": "Sunway University",
+      "provider": "ror",
+      "externalId": "04mjt7f73",
+      "countryCode": "MY",
+      "officialDomains": ["sunwayuniversity.edu.my"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "chemical",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Chemical Engineering with Honours",
+      "field": "Chemical engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+        "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_engineering",
+        "sunway_eng_stpm",
+        "sunway_eng_atar",
+        "sunway_eng_can",
+        "sunway_eng_monash",
+        "sunway_eng_foundation",
+        "sunway_eng_uec",
+        "sunway_eng_diploma",
+        "sunway_eng_other",
+        "sunway_sci_choice",
+        "sunway_prefer_chem",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal"
+      ]
+    },
+    {
+      "key": "civil",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Civil Engineering with Honours",
+      "field": "Civil engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-civil-engineering-honours",
+        "title": "Sunway University · Bachelor of Civil Engineering with Honours · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_engineering",
+        "sunway_a_tally",
+        "sunway_eng_stpm",
+        "sunway_eng_atar",
+        "sunway_eng_can",
+        "sunway_eng_monash",
+        "sunway_eng_foundation",
+        "sunway_eng_uec",
+        "sunway_eng_diploma",
+        "sunway_eng_other",
+        "sunway_sci_choice",
+        "sunway_prefer_phys",
+        "sunway_principal",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal"
+      ]
+    },
+    {
+      "key": "electrical",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Electronic and Electrical Engineering with Honours",
+      "field": "Electronic and electrical engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-electronic-and-electrical-engineering",
+        "title": "Sunway University · Bachelor of Electronic and Electrical Engineering with Honours · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_two",
+        "sunway_a_tally",
+        "sunway_eng_stpm",
+        "sunway_eng_atar",
+        "sunway_eng_can",
+        "sunway_eng_monash",
+        "sunway_eng_foundation",
+        "sunway_eng_uec",
+        "sunway_eng_diploma",
+        "sunway_eng_other",
+        "sunway_sci_choice",
+        "sunway_prefer_phys",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal"
+      ]
+    },
+    {
+      "key": "data",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Information Systems (Honours) (Data Analytics)",
+      "field": "Information systems and data analytics",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+        "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_computing",
+        "sunway_a_tally",
+        "sunway_comp_stpm",
+        "sunway_comp_atar",
+        "sunway_comp_can",
+        "sunway_comp_monash",
+        "sunway_comp_foundation",
+        "sunway_comp_uec",
+        "sunway_comp_diploma",
+        "sunway_comp_other",
+        "sunway_math_data",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal",
+        "sunway_english_waiver"
+      ]
+    },
+    {
+      "key": "mechanical",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Mechanical Engineering with Honours",
+      "field": "Mechanical engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-mechanical-engineering-honours",
+        "title": "Sunway University · Bachelor of Mechanical Engineering with Honours · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_two",
+        "sunway_a_tally",
+        "sunway_eng_stpm",
+        "sunway_eng_atar",
+        "sunway_eng_can",
+        "sunway_eng_monash",
+        "sunway_eng_foundation",
+        "sunway_eng_uec",
+        "sunway_eng_diploma",
+        "sunway_eng_other",
+        "sunway_sci_choice",
+        "sunway_prefer_phys",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal"
+      ]
+    },
+    {
+      "key": "robotics",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Mechatronic Engineering (Robotics) with Honours",
+      "field": "Mechatronic engineering and robotics",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-mechatronic-engineering-robotics-honours",
+        "title": "Sunway University · Bachelor of Mechatronic Engineering (Robotics) with Honours · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_engineering",
+        "sunway_a_tally",
+        "sunway_eng_stpm",
+        "sunway_eng_atar",
+        "sunway_eng_can",
+        "sunway_eng_monash",
+        "sunway_eng_foundation",
+        "sunway_eng_uec",
+        "sunway_eng_diploma",
+        "sunway_eng_other",
+        "sunway_sci_choice",
+        "sunway_prefer_phys",
+        "sunway_principal",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal"
+      ]
+    },
+    {
+      "key": "ai",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Artificial Intelligence",
+      "field": "Artificial intelligence",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-artificial-intelligence",
+        "title": "Sunway University · Bachelor of Science (Honours) in Artificial Intelligence · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_computing",
+        "sunway_ai_stpm",
+        "sunway_comp_atar",
+        "sunway_comp_can",
+        "sunway_comp_monash",
+        "sunway_comp_foundation",
+        "sunway_comp_uec",
+        "sunway_comp_diploma",
+        "sunway_math_advanced",
+        "sunway_math_bridge",
+        "sunway_english_tests",
+        "sunway_english_internal",
+        "sunway_english_waiver"
+      ]
+    },
+    {
+      "key": "cs",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Computer Science",
+      "field": "Computer science",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-computer-science",
+        "title": "Sunway University · Bachelor of Science (Honours) in Computer Science · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_computing",
+        "sunway_a_tally",
+        "sunway_comp_stpm",
+        "sunway_comp_atar",
+        "sunway_comp_can",
+        "sunway_comp_monash",
+        "sunway_comp_foundation",
+        "sunway_comp_uec",
+        "sunway_comp_diploma",
+        "sunway_comp_other",
+        "sunway_math_advanced",
+        "sunway_math_bridge",
+        "sunway_math_exempt",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal",
+        "sunway_english_waiver"
+      ]
+    },
+    {
+      "key": "it",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Information Technology",
+      "field": "Information technology",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-information-technology",
+        "title": "Sunway University · Bachelor of Science (Honours) in Information Technology · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_computing",
+        "sunway_a_tally",
+        "sunway_comp_stpm",
+        "sunway_comp_atar",
+        "sunway_comp_can",
+        "sunway_comp_monash",
+        "sunway_comp_foundation",
+        "sunway_comp_uec",
+        "sunway_comp_diploma",
+        "sunway_comp_other",
+        "sunway_math_data",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal",
+        "sunway_english_waiver"
+      ]
+    },
+    {
+      "key": "software",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Software Engineering (Hons)",
+      "field": "Software engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-software-engineering-hons",
+        "title": "Sunway University · Bachelor of Software Engineering (Hons) · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_a_computing",
+        "sunway_a_tally",
+        "sunway_comp_stpm",
+        "sunway_comp_atar",
+        "sunway_comp_can",
+        "sunway_comp_monash",
+        "sunway_comp_foundation",
+        "sunway_comp_uec",
+        "sunway_comp_diploma",
+        "sunway_comp_other",
+        "sunway_math_advanced",
+        "sunway_math_bridge",
+        "sunway_math_exempt",
+        "sunway_apel",
+        "sunway_english_tests",
+        "sunway_english_internal",
+        "sunway_english_waiver"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme entry routes from official Sunway University course pages. Each course link was checked against its own qualifying table.",
+      "requirements": [
+        {
+          "key": "sunway_a_engineering",
+          "label": "A levels including mathematics and a natural science",
+          "details": "Reach at least 12 A-level points, including Mathematics and one natural science with a minimum grade of D.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_a_two",
+          "label": "A-level points for the two required subjects",
+          "details": "The A-level route specifies at least 12 points for Mathematics and one natural science, with a minimum grade of D.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-electronic-and-electrical-engineering",
+            "title": "Sunway University · Bachelor of Electronic and Electrical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_a_computing",
+          "label": "A-level entry for computing",
+          "details": "Reach at least 12 A-level points and earn D or higher in at least two subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_a_tally",
+          "label": "How Sunway calculates A-level points",
+          "details": "For this entry calculation Sunway counts each A as 10 points, B as 8, C as 6, D as 4 and E as 2.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-civil-engineering-honours",
+            "title": "Sunway University · Bachelor of Civil Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_stpm",
+          "label": "STPM route for engineering",
+          "details": "The Malaysian STPM route lists a CGPA of 2.00 and Mathematics plus one natural science, with a minimum grade of C.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_stpm",
+          "label": "STPM route for computing",
+          "details": "The STPM route lists a C average or CGPA of 2.00, with at least two principal passes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_ai_stpm",
+          "label": "STPM subjects for Artificial Intelligence",
+          "details": "Pass the STPM with at least grade C in mathematics and one science or ICT subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-artificial-intelligence",
+            "title": "Sunway University · Bachelor of Science (Honours) in Artificial Intelligence · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_atar",
+          "label": "Australian matriculation for engineering",
+          "details": "Reach ATAR 65 with Mathematical Methods and one natural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_atar",
+          "label": "Australian matriculation for computing",
+          "details": "The Australian matriculation entry threshold is ATAR 60.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_can",
+          "label": "Canadian matriculation for engineering",
+          "details": "The Canadian matriculation threshold is 65%, including Advanced Functions, Calculus and Vectors, and one natural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_can",
+          "label": "Canadian matriculation for computing",
+          "details": "Achieve 60% in the Canadian matriculation qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_monash",
+          "label": "Monash University Foundation Year",
+          "details": "Reach 65% in the Monash foundation year and include mathematics and one natural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_monash",
+          "label": "Monash University Foundation Year",
+          "details": "The Monash foundation-year route requires 60%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_foundation",
+          "label": "Science foundation and matriculation entry",
+          "details": "Sunway’s Science and Technology foundation and the listed matriculation or foundation route require CGPA 2.50, including mathematics and one natural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_foundation",
+          "label": "Sunway foundation entry",
+          "details": "The Sunway Foundation in Arts and the Science and Technology foundation routes require CGPA 2.30.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_uec",
+          "label": "Unified Examination Certificate for engineering",
+          "details": "Use five UEC subjects, all at grade B, including mathematics and one natural science. Their aggregate must be 26 points or lower.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_uec",
+          "label": "Unified Examination Certificate for computing",
+          "details": "The five-subject UEC aggregate must be 28 points or lower, with B grades in all five subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_eng_other",
+          "label": "Assessment of other qualifications",
+          "details": "The university gives an equivalent CGPA of 2.50 and assesses other qualifications individually.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_other",
+          "label": "Assessment of other qualifications",
+          "details": "The university reviews qualifications outside the listed routes individually.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_sci_choice",
+          "label": "Natural science subjects",
+          "details": "The accepted natural sciences are Physics, Biology and Chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_prefer_chem",
+          "label": "Preferred natural science",
+          "details": "Chemical Engineering gives preference to Chemistry.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_prefer_phys",
+          "label": "Preferred natural science",
+          "details": "The course gives preference to Physics.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-civil-engineering-honours",
+            "title": "Sunway University · Bachelor of Civil Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_principal",
+          "label": "Natural science principal passes",
+          "details": "The programme also asks for good principal passes in natural sciences. Its specific-requirements section gives no numerical grade for this condition.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-civil-engineering-honours",
+            "title": "Sunway University · Bachelor of Civil Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_math_data",
+          "label": "School mathematics for information systems and IT",
+          "details": "The specific entry rule is a credit in SPM Mathematics, B in UEC Mathematics, or an equivalent qualification. For STPM, A levels, matriculation or foundation and a Level 4 non-computing diploma or equivalent, an applicant with only a mathematics pass must enrol in and pass a mathematics enhancement course at the beginning.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_math_advanced",
+          "label": "Additional Mathematics for computing",
+          "details": "Present a credit in SPM Additional Mathematics, B in UEC Advanced Mathematics, or an equivalent qualification. The programme also lists a bridging route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-artificial-intelligence",
+            "title": "Sunway University · Bachelor of Science (Honours) in Artificial Intelligence · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_math_bridge",
+          "label": "Mathematics bridging route",
+          "details": "Applicants with arts-stream STPM, A levels, matriculation or foundation, or an MQF Level 4 science and technology diploma (or equivalent) who lack SPM Additional Mathematics may qualify with credits in mathematics and a science, technology or engineering subject at SPM level or equivalent. They must enrol in and pass the mathematics enhancement subject at the start.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-artificial-intelligence",
+            "title": "Sunway University · Bachelor of Science (Honours) in Artificial Intelligence · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_math_exempt",
+          "label": "Qualifications exempt from specific mathematics conditions",
+          "details": "The published exemptions cover science-stream STPM, a computing diploma, DKM or DVM in a computing field, and DLKM in a computing field.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-science-honours-computer-science",
+            "title": "Sunway University · Bachelor of Science (Honours) in Computer Science · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_english_tests",
+          "label": "English language tests and school qualifications",
+          "details": "English evidence can include IELTS 6.0 or equivalent, MUET Band 4, SPM English at B, UEC English at B6, or a credit in O-Level English (1119).",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_english_internal",
+          "label": "Sunway and pre-university English routes",
+          "details": "Sunway accepts Level 4 of its Intensive English Programme with at least 65%, or satisfactory ESL or English results in an English-medium pre-university programme.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_english_waiver",
+          "label": "English evidence exemptions",
+          "details": "The course waives English language evidence for applicants from countries where English is an official language, or for applicants whose prior institution taught fully in English.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme entry routes from official Sunway University course pages. Each course link was checked against its own qualifying table.",
+      "requirements": [
+        {
+          "key": "sunway_eng_diploma",
+          "label": "Entry with an engineering, science or technology diploma",
+          "details": "The listed diploma route requires CGPA 2.50 in engineering, science or technology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_comp_diploma",
+          "label": "Entry with a computing diploma",
+          "details": "A Sunway Diploma in Information Technology or a Diploma in Computer Science can support entry with CGPA 2.50 or equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-information-systems-honours-data",
+            "title": "Sunway University · Bachelor of Information Systems (Honours) (Data Analytics) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_apel",
+          "label": "Recognition of prior learning",
+          "details": "An APEL.A T-6 certificate is listed as a prior-learning entry route.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-engineering-and-technology/courses/bachelor-of-chemical-engineering-honours",
+            "title": "Sunway University · Bachelor of Chemical Engineering with Honours · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
