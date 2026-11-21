@@ -1,0 +1,2252 @@
+{
+  "datasetVersion": "official-admissions-fnu-business-degrees-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "fnu",
+      "name": "Fiji National University",
+      "provider": "ror",
+      "externalId": "00qk2nf71",
+      "countryCode": "FJ",
+      "officialDomains": ["fnu.ac.fj"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "cbhts_35",
+      "institutionKey": "fnu",
+      "name": "Bachelor in Border Management",
+      "level": "undergraduate",
+      "field": "Border Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_border", "fnu27cb_border_dip"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_customs_head"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_36",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Industrial Relations and Human Resource Management and Information Systems)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_37",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Industrial Relations and Human Resource Management and Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 41",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_38",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Industrial Relations and Human Resource Management and Marketing)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 41",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_39",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Law and Industrial Relations and Human Resource Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 41",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_40",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Law and Marketing)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 41",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_41",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Marketing and Information Systems)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 42",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_42",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Management and Marketing)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 42",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_43",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Law and Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 42",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_44",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Banking",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 42, 43",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_46",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Economics",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 43",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_47",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Finance",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 43",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_48",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Human Resources and Industrial Relations and Accounting",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 43, 44, 49",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_50",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Information Systems",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 44",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_51",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Management",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 44",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_52",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Marketing",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 44",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_53",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Economics)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 45",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_54",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Finance)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 45",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_55",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Industrial Relations and Human Resource Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 45",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_56",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Information System)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 45",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_57",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 46",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_58",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Banking and Marketing)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 46",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_59",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Finance)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 46",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_econ_prior"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_60",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Industrial Relations and Human Resource Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 46",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_econ_prior"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_61",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Information System)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 47",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_econ_prior"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_62",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 47",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_63",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Marketing)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 47",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_econ_prior"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_64",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Finance and Industrial Relations and Human Resource Management)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 47",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_65",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Finance and Information Systems)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 48",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_66",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Finance and Law)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 48",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_67",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Finance and Management",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 48",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_68",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Finance and Marketing",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 48",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_70",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Professional Accounting)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 49",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_71",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce in Accounting and Law",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 49",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13math"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_foundation"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_72",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Commerce (Economics and Law)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 49",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_econ_prior"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_dean2"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_73",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Hospitality and Hotel Management",
+      "level": "undergraduate",
+      "field": "Hospitality and Hotel Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_hotel13", "fnu27cb_hotel_dip"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_supervise"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_74",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Library and Information Systems",
+      "level": "undergraduate",
+      "field": "Library and Information Systems",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_site"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_english"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_yr13pass"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+          "key": "fnu27cb_library"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_75",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Accounting",
+      "level": "graduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_gr_site", "fnu27cb_pgacct"]
+    },
+    {
+      "key": "cbhts_76",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Economics",
+      "level": "graduate",
+      "field": "Economics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_gr_site", "fnu27cb_pgecon", "fnu27cb_pgeconmat"]
+    },
+    {
+      "key": "cbhts_77",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Entrepreneurship and Management",
+      "level": "graduate",
+      "field": "Entrepreneurship and Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_gr_site",
+        "fnu27cb_pgeb",
+        "fnu27cb_pgeres",
+        "fnu27cb_pgemat"
+      ]
+    },
+    {
+      "key": "cbhts_78",
+      "institutionKey": "fnu",
+      "name": "Master of Commerce in Entrepreneurship and Management",
+      "level": "graduate",
+      "field": "Commerce in Entrepreneurship and Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_gr_site", "fnu27cb_mcent", "fnu27cb_mcentmat"]
+    },
+    {
+      "key": "cbhts_79",
+      "institutionKey": "fnu",
+      "name": "Master of Business Administration (Executive)",
+      "level": "graduate",
+      "field": "Business Administration (Executive",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_gr_site",
+        "fnu27cb_emba",
+        "fnu27cb_emba10",
+        "fnu27cb_embas"
+      ]
+    },
+    {
+      "key": "cbhts_80",
+      "institutionKey": "fnu",
+      "name": "Master of Business Hospitality and Tourism Studies by Research",
+      "level": "graduate",
+      "field": "Business Hospitality and Tourism Studies by Research",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_gr_site", "fnu27cb_research_m", "fnu27cb_research_prof"]
+    },
+    {
+      "key": "cbhts_81",
+      "institutionKey": "fnu",
+      "name": "Doctor of Philosophy (Business, Hospitality and Tourism Studies)",
+      "level": "graduate",
+      "field": "Business, Hospitality and Tourism Studies",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_gr_site", "fnu27cb_research_prof", "fnu27cb_phd"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_gr_site",
+          "category": "application",
+          "label": "Published campuses and delivery",
+          "status": "considered",
+          "details": "The graduate programme entries list blended delivery at Nasinu, Namaka, Ba and Labasa. Campus offerings may change before enrolment.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50, 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_pgacct",
+          "category": "academic",
+          "label": "Postgraduate accounting background",
+          "status": "conditional",
+          "details": "Normally complete a relevant bachelor’s degree, graduate certificate or diploma in the subject or a related area. Appropriate work or professional experience can establish equivalent advanced knowledge and skills.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_pgecon",
+          "category": "academic",
+          "label": "Degree for postgraduate Economics",
+          "status": "conditional",
+          "details": "Applicants need a completed relevant degree with GPA 3.0.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_pgeb",
+          "category": "academic",
+          "label": "Business degree or head of school consent",
+          "status": "conditional",
+          "details": "Present a good bachelor’s degree in business or a related discipline with GPA at least 3.0 in Level 6 and 7 courses, or obtain special consent from the head of school.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_pgeres",
+          "category": "academic",
+          "label": "Research skills and theoretical knowledge",
+          "status": "considered",
+          "details": "The postgraduate entrepreneurship entry criteria also recognise exceptional research skills and theoretical knowledge in the relevant field.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_mcent",
+          "category": "academic",
+          "label": "Qualifications for the entrepreneurship master’s",
+          "status": "conditional",
+          "details": "Complete the Postgraduate Diploma in Entrepreneurship and Management, or hold a bachelor’s degree at GPA 3.0 or equivalent.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_emba",
+          "category": "experience",
+          "label": "Executive MBA management experience",
+          "status": "conditional",
+          "details": "The degree route requires a good bachelor’s degree in any field and at least three years in a middle management position.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_embas",
+          "category": "application",
+          "label": "Executive MBA selection and alternative entry",
+          "status": "considered",
+          "details": "The programme states that selection is first come, first served, with no cut-off on the number of new students. Alternative applications are assessed by the Executive MBA director and college dean.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_research_m",
+          "category": "academic",
+          "label": "Academic entry to the research master’s",
+          "status": "conditional",
+          "details": "The listed routes are a postgraduate diploma with GPA at least 3.00 or a recognised equivalent, a bachelor’s degree with GPA 3.5, an honours bachelor’s degree with GPA 3.00 from a recognised institution, or a master’s by coursework.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_phd",
+          "category": "academic",
+          "label": "Research, coursework and honours routes to the doctorate",
+          "status": "conditional",
+          "details": "Present a research master’s, a coursework master’s at GPA 4.0 or higher plus a research methods course, or an honours bachelor’s at GPA 4.0 or above or with first- or upper-second-class honours. The prerequisites must be attained at a recognised institution.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_border",
+          "category": "academic",
+          "label": "Border Management school-leaver marks",
+          "status": "conditional",
+          "details": "Pass Year 13 with 250/400 and at least 50% in English.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_hotel13",
+          "category": "academic",
+          "label": "Year 13 for Hospitality and Hotel Management",
+          "status": "conditional",
+          "details": "Pass the Fiji Year 13 Certificate Examination for the school-leaver route.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_border_dip",
+          "category": "academic",
+          "label": "Customs progression and OCO/CCES applicants",
+          "status": "conditional",
+          "details": "The Level 5 Diploma in Customs is a listed qualification. Special consideration is offered to applicants who completed Certificate IV through OCO and graduated from CCES.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_econ_prior",
+          "category": "academic",
+          "label": "Prior diplomas for the commerce degree",
+          "status": "conditional",
+          "details": "Prior learning through a diploma or a similar qualification may qualify the applicant for this combination of majors.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 46, 47, 49",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_hotel_dip",
+          "category": "academic",
+          "label": "Relevant diploma for Hospitality and Hotel Management",
+          "status": "conditional",
+          "details": "A diploma in the relevant field with GPA 2.8 is accepted. Applicants with a lower diploma GPA need three years of work experience.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "other",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_pgeconmat",
+          "category": "experience",
+          "label": "Economics entry from another discipline",
+          "status": "conditional",
+          "details": "Mature applicants holding a degree in another field need at least two years of relevant industrial experience and approval from the college dean.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_pgemat",
+          "category": "experience",
+          "label": "Mature entrepreneurship applicants",
+          "status": "conditional",
+          "details": "Demonstrated ability to succeed can support mature admission under the award regulations or special consent of the dean.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_mcentmat",
+          "category": "experience",
+          "label": "Discretionary master’s admission and progression",
+          "status": "conditional",
+          "details": "Maturity, work experience or prior learning can demonstrate readiness. The dean can set prerequisites, require specific or general examinations before enrolment, or prescribe courses that must be passed for further progression.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_emba10",
+          "category": "experience",
+          "label": "CEO or manager route",
+          "status": "conditional",
+          "details": "A chief executive or manager with ten years of managerial experience in a successful business may apply through the experience route. Submit a job description, employment letter or contract, and a CV.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_research_prof",
+          "category": "experience",
+          "label": "Evidence of professional research capability",
+          "status": "conditional",
+          "details": "The dean may assess qualifications or professional experience supported by research reports, dissertations, publications or other professional work demonstrating the knowledge and ability to undertake research and write a thesis.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 51",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}

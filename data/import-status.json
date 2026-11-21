@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281956,
+            "programs": 282034,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3952,
+            "admissionProfiles": 4020,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26458,
+            "admissionRequirements": 26513,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1293
+            "qualificationRequirements": 1359
         },
         "ibCoverage": {
             "byCountry": [
@@ -42,8 +42,8 @@
                 },
                 {
                     "country": "Fiji",
-                    "institutions": 1,
-                    "programs_with_reviewed_ib": 0,
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 66,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -131,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1293,
-            "programsWithReviewedIb": 1090,
+            "reviewedRecords": 1359,
+            "programsWithReviewedIb": 1156,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 47,
+            "institutionsWithReviewedIb": 48,
             "programsWithPublishedTotals": 796,
-            "undergraduateCatalogEntries": 196246
+            "undergraduateCatalogEntries": 196317
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,31 +183,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4438,
-            "profiles": 1396,
+            "facts": 4493,
+            "profiles": 1398,
             "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T17:08:51Z",
+    "generatedAt": "2026-11-21T18:01:01Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 12,
+        "inserted": 35,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 12,
-        "startedAt": "2026-11-21T17:08:48.735038+00:00",
-        "updatedAt": "2026-11-21T17:08:48.778+00:00",
+        "processed": 35,
+        "startedAt": "2026-11-21T18:00:54.764068+00:00",
+        "updatedAt": "2026-11-21T18:00:54.861+00:00",
         "checkpoint": {
-            "rowIndex": 12,
-            "sourceRows": 12,
+            "rowIndex": 35,
+            "sourceRows": 35,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T17:08:48.778+00:00",
-        "artifactSha256": "2e101e79ee802f9a06cd2907ea92ead87e0477f0280d97b98ca9c56371d075bb",
-        "datasetVersion": "official-ib-sunway-maths-business-2026-11-21-v1"
+        "finishedAt": "2026-11-21T18:00:54.861+00:00",
+        "artifactSha256": "8a60ff70093ed968260811539f326ebc9060e86470cff1f2d2838bdf25c6663c",
+        "datasetVersion": "official-ib-fnu-business-degrees-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

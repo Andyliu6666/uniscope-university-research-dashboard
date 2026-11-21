@@ -1,0 +1,1738 @@
+{
+  "datasetVersion": "official-admissions-fnu-business-certificates-diplomas-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "fnu",
+      "name": "Fiji National University",
+      "provider": "ror",
+      "externalId": "00qk2nf71",
+      "countryCode": "FJ",
+      "officialDomains": ["fnu.ac.fj"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "cbhts_0",
+      "institutionKey": "fnu",
+      "name": "Certificate in Baking and Patisserie (Level 3)",
+      "level": "undergraduate",
+      "field": "Baking and Patisserie",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr11pass", "fnu27cb_food_mature"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_1",
+      "institutionKey": "fnu",
+      "name": "Certificate in Cookery (Level 3)",
+      "level": "undergraduate",
+      "field": "Cookery",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr11pass", "fnu27cb_kitchen"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_2",
+      "institutionKey": "fnu",
+      "name": "Certificate in Contact Centre Operations (Level 3)",
+      "level": "undergraduate",
+      "field": "Contact Centre Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr11complete",
+        "fnu27cb_english",
+        "fnu27cb_mature11"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_3",
+      "institutionKey": "fnu",
+      "name": "Certificate in Food and Beverage Services (Level 3)",
+      "level": "undergraduate",
+      "field": "Food and Beverage Services",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr11pass",
+        "fnu27cb_food_mature",
+        "fnu27cb_food_voc"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_4",
+      "institutionKey": "fnu",
+      "name": "Certificate in Front Office Operations (Level 3)",
+      "level": "undergraduate",
+      "field": "Front Office Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr11complete",
+        "fnu27cb_mature_hod",
+        "fnu27cb_voc"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_5",
+      "institutionKey": "fnu",
+      "name": "Certificate in Housekeeping and Accommodation Operations (Level 3)",
+      "level": "undergraduate",
+      "field": "Housekeeping and Accommodation Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr11complete",
+        "fnu27cb_mature_hod",
+        "fnu27cb_voc"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_6",
+      "institutionKey": "fnu",
+      "name": "Certificate in Office Assistance (Level 3)",
+      "level": "undergraduate",
+      "field": "Office Assistance",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr11complete",
+        "fnu27cb_english",
+        "fnu27cb_mature11"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_7",
+      "institutionKey": "fnu",
+      "name": "Certificate in Baking and Patisserie (Level 4)",
+      "level": "undergraduate",
+      "field": "Baking and Patisserie",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 36",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr12complete", "fnu27cb_bakery"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_8",
+      "institutionKey": "fnu",
+      "name": "Certificate in Banking (Level 4)",
+      "level": "undergraduate",
+      "field": "Banking",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_yr12pass",
+        "fnu27cb_mature12"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_9",
+      "institutionKey": "fnu",
+      "name": "Certificate in Cookery (Level 4)",
+      "level": "undergraduate",
+      "field": "Cookery",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr12complete", "fnu27cb_cookery"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_10",
+      "institutionKey": "fnu",
+      "name": "Certificate in Customs (Level 4)",
+      "level": "undergraduate",
+      "field": "Customs",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_customs12", "fnu27cb_customs_office"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_11",
+      "institutionKey": "fnu",
+      "name": "Certificate in Food and Beverage Services (Level 4)",
+      "level": "undergraduate",
+      "field": "Food and Beverage Services",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_food_mature", "fnu27cb_yr12complete"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_12",
+      "institutionKey": "fnu",
+      "name": "Certificate in Front Office Operations (Level 4)",
+      "level": "undergraduate",
+      "field": "Front Office Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_mature_hod",
+        "fnu27cb_voc",
+        "fnu27cb_yr12eq",
+        "fnu27cb_front3"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_13",
+      "institutionKey": "fnu",
+      "name": "Certificate in Housekeeping and Accommodation Operations (Level 4)",
+      "level": "undergraduate",
+      "field": "Housekeeping and Accommodation Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_mature_hod",
+        "fnu27cb_yr12eq",
+        "fnu27cb_house3"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_14",
+      "institutionKey": "fnu",
+      "name": "Certificate in Office Administration (Level 4)",
+      "level": "undergraduate",
+      "field": "Office Administration",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_yr12eq",
+        "fnu27cb_mature12"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_16",
+      "institutionKey": "fnu",
+      "name": "Certificate in Accounting (Level 5)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr13", "fnu27cb_dean2"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_17",
+      "institutionKey": "fnu",
+      "name": "Certificate in Economics (Level 5)",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr13", "fnu27cb_dean2"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_18",
+      "institutionKey": "fnu",
+      "name": "Certificate in Library and Information Systems (Level 5)",
+      "level": "undergraduate",
+      "field": "Library and Information Systems",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_yr13pass",
+        "fnu27cb_library"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_19",
+      "institutionKey": "fnu",
+      "name": "Certificate in Management (Level 5)",
+      "level": "undergraduate",
+      "field": "Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_20",
+      "institutionKey": "fnu",
+      "name": "Diploma in Accounting (Level 5)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_math",
+        "fnu27cb_yr12pass",
+        "fnu27cb_mature12"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_21",
+      "institutionKey": "fnu",
+      "name": "Diploma in Baking and Patisserie (Level 5)",
+      "level": "undergraduate",
+      "field": "Baking and Patisserie",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr12_field", "fnu27cb_bakery"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_22",
+      "institutionKey": "fnu",
+      "name": "Diploma in Culinary Arts (Level 5)",
+      "level": "undergraduate",
+      "field": "Culinary Arts",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr12_field", "fnu27cb_cookery"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_23",
+      "institutionKey": "fnu",
+      "name": "Diploma in Customs (Level 5)",
+      "level": "undergraduate",
+      "field": "Customs",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_customs12dip", "fnu27cb_customs_head"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_24",
+      "institutionKey": "fnu",
+      "name": "Diploma in Front Office Operations (Level 5)",
+      "level": "undergraduate",
+      "field": "Front Office Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_y12hot",
+        "fnu27cb_certivhot",
+        "fnu27cb_supervise"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_25",
+      "institutionKey": "fnu",
+      "name": "Diploma in Hospitality and Hotel Management (Level 5)",
+      "level": "undergraduate",
+      "field": "Hospitality and Hotel Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 38",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_y12hot",
+        "fnu27cb_certivhot",
+        "fnu27cb_supervise"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_26",
+      "institutionKey": "fnu",
+      "name": "Diploma in Office Administration (Level 5)",
+      "level": "undergraduate",
+      "field": "Office Administration",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 38",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_yr12pass",
+        "fnu27cb_mature12"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_27",
+      "institutionKey": "fnu",
+      "name": "Diploma in Restaurant Operations (Level 5)",
+      "level": "undergraduate",
+      "field": "Restaurant Operations",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 38",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_food_mature", "fnu27cb_yr12_field"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_28",
+      "institutionKey": "fnu",
+      "name": "Diploma in Accounting (Level 6)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 38",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_yr13math",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_29",
+      "institutionKey": "fnu",
+      "name": "Diploma in Banking (Level 6)",
+      "level": "undergraduate",
+      "field": "Banking",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_30",
+      "institutionKey": "fnu",
+      "name": "Diploma in Economics (Level 6)",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": ["fnu27cb_site", "fnu27cb_yr13", "fnu27cb_dean2", "fnu27cb_econdip"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_31",
+      "institutionKey": "fnu",
+      "name": "Diploma in Finance (Level 6)",
+      "level": "undergraduate",
+      "field": "Finance",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_english",
+        "fnu27cb_yr13pass",
+        "fnu27cb_finance"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_32",
+      "institutionKey": "fnu",
+      "name": "Diploma in Industrial Relations and Human Resource Management (Level 6)",
+      "level": "undergraduate",
+      "field": "Industrial Relations and Human Resource Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_33",
+      "institutionKey": "fnu",
+      "name": "Diploma in Management (Level 6)",
+      "level": "undergraduate",
+      "field": "Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    },
+    {
+      "key": "cbhts_34",
+      "institutionKey": "fnu",
+      "name": "Diploma in Marketing (Level 6)",
+      "level": "undergraduate",
+      "field": "Marketing",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 40",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cb_site",
+        "fnu27cb_yr13",
+        "fnu27cb_dean2",
+        "fnu27cb_foundation"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_secondary_result_documents"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_parental_consent"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_document_matrix_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_atar_unclear"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-caff-2027-2026-11-21-v1",
+          "key": "fnu27caff_australian_act_gpa"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_site",
+          "category": "application",
+          "label": "Published campuses and delivery",
+          "status": "considered",
+          "details": "The 2027 prospectus lists blended study at Nasinu, Namaka, Ba and Labasa for these awards. Confirm campus availability for the intended intake.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr11pass",
+          "category": "academic",
+          "label": "Fiji Year 11 examination",
+          "status": "conditional",
+          "details": "The school-leaver route requires a pass in the Fiji Year 11 Certificate Examination.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr11complete",
+          "category": "academic",
+          "label": "Fiji Year 11 or equivalent",
+          "status": "conditional",
+          "details": "Complete Fiji Year 11 or an equivalent qualification.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_english",
+          "category": "academic",
+          "label": "School English pass",
+          "status": "conditional",
+          "details": "The school qualification route requires a pass in English.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34, 35, 36, 37, 38, 39, 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_math",
+          "category": "academic",
+          "label": "Mathematics for the accounting diploma",
+          "status": "conditional",
+          "details": "A mathematics pass is required alongside the English pass for the Level 5 accounting diploma.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr12complete",
+          "category": "academic",
+          "label": "Fiji Year 12 or a related field certificate",
+          "status": "conditional",
+          "details": "Complete the Fiji Year 12 Certificate Examination or hold a certificate in the relevant field.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 35, 36",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr12_field",
+          "category": "academic",
+          "label": "Fiji Year 12 pass or relevant certificate",
+          "status": "conditional",
+          "details": "Pass Fiji Year 12 or hold a certificate in the corresponding field of study.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37, 38",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr12pass",
+          "category": "academic",
+          "label": "Fiji Year 12 pass or equivalent",
+          "status": "conditional",
+          "details": "The school-leaver route calls for a Fiji Year 12 Certificate Examination pass, or equivalent.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 37, 38",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr12eq",
+          "category": "academic",
+          "label": "Fiji Year 12 completion or equivalent",
+          "status": "conditional",
+          "details": "Complete the Fiji Year 12 examination or equivalent.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_customs12",
+          "category": "academic",
+          "label": "Year 12 aggregate for Customs Level 4",
+          "status": "conditional",
+          "details": "Pass Fiji Year 12 with 200/400 and at least 50% in English.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_customs12dip",
+          "category": "academic",
+          "label": "Year 12 aggregate for the Customs diploma",
+          "status": "conditional",
+          "details": "Pass Fiji Year 12 with 250/400 and at least 50% in English.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr13",
+          "category": "academic",
+          "label": "Fiji Year 13 total and English",
+          "status": "conditional",
+          "details": "The Fiji Year 13 Certificate Examination route requires a pass with at least 200/400 overall and 50% in English.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr13math",
+          "category": "academic",
+          "label": "Additional Year 13 mathematics minimum",
+          "status": "conditional",
+          "details": "The Year 13 school-leaver route also requires at least 50% in mathematics.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 38, 42, 43, 44, 49",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_yr13pass",
+          "category": "academic",
+          "label": "Year 13 pass or equivalent",
+          "status": "conditional",
+          "details": "The school-leaver route requires a Fiji Year 13 Certificate Examination pass or an equivalent qualification.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36, 39, 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_y12hot",
+          "category": "academic",
+          "label": "School entry to the hospitality and front office diplomas",
+          "status": "conditional",
+          "details": "The school qualification route requires a Fiji Year 12 Certificate Examination pass.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37, 38",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Fiji National University 2027 prospectus. Follow the named award, qualification and entry route.",
+      "requirements": [
+        {
+          "key": "fnu27cb_food_mature",
+          "category": "experience",
+          "label": "Food and beverage experience",
+          "status": "conditional",
+          "details": "Mature applicants upgrading their qualifications need two years of food and beverage industry experience for this route. The head of school or department assesses their work and approves admission.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 35, 38",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_kitchen",
+          "category": "experience",
+          "label": "Kitchen experience for mature entry",
+          "status": "conditional",
+          "details": "The mature upgrade route accepts applicants with kitchen industry experience. This entry gives no minimum duration.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_food_voc",
+          "category": "academic",
+          "label": "Vocational food and beverage certificate",
+          "status": "conditional",
+          "details": "A vocational school Certificate I or II in Food and Beverage is listed for entry to Level 3 Food and Beverage Services.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_mature11",
+          "category": "experience",
+          "label": "Experience and prior learning in place of Year 11 progression",
+          "status": "conditional",
+          "details": "Mature applicants without eleven years of continuous schooling may be considered on relevant work experience and prior learning.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_mature_hod",
+          "category": "experience",
+          "label": "Mature applicants and industry experience",
+          "status": "conditional",
+          "details": "The head of department decides on admission for mature applicants or those with industry experience.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34, 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_voc",
+          "category": "academic",
+          "label": "Vocational training graduates",
+          "status": "conditional",
+          "details": "Applicants who have completed and graduated from a vocational training programme may enter by this route.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 33, 34, 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_bakery",
+          "category": "experience",
+          "label": "Bakery and patisserie experience",
+          "status": "conditional",
+          "details": "Applicants seeking to upgrade through industry experience need work in bakery and patisserie. The head of school or department reviews the level of work.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 36, 37",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_cookery",
+          "category": "experience",
+          "label": "Cookery experience",
+          "status": "conditional",
+          "details": "For the mature upgrade route, the head of school or department reviews the applicant’s level of work and industry experience in cookery.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 37",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_mature12",
+          "category": "experience",
+          "label": "Experience and prior learning in place of Year 12 progression",
+          "status": "conditional",
+          "details": "Relevant work experience and prior learning can be considered for mature entrants who lack twelve years of continuous schooling.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 34, 35, 37, 38",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_customs_office",
+          "category": "experience",
+          "label": "Discretionary admission to the Customs certificate",
+          "status": "conditional",
+          "details": "For mature or prior-learning entry, the school head, department head or centre coordinator can assess professional work experience.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_customs_head",
+          "category": "experience",
+          "label": "Discretionary customs or border entry",
+          "status": "conditional",
+          "details": "The school or department head can consider mature entry, recognition of prior learning and professional work experience.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37, 40",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_front3",
+          "category": "academic",
+          "label": "Progression from Front Office Level 3",
+          "status": "conditional",
+          "details": "Completion of the Level 3 Certificate in Front Office is listed for entry to the Level 4 course.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_house3",
+          "category": "academic",
+          "label": "Housekeeping Level 3 progression",
+          "status": "conditional",
+          "details": "The Level 4 entry includes a prior Certificate III with GPA at least 2.5. The vocational training clause ends before specifying its full conditions; check that alternative with the department.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 35",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_dean2",
+          "category": "experience",
+          "label": "Mature entry with two years in industry",
+          "status": "conditional",
+          "details": "An applicant who lacks the usual thirteen years of continuous progression may enter with at least two years of relevant industrial experience, subject to approval by the college dean.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_foundation",
+          "category": "academic",
+          "label": "Foundation Studies route",
+          "status": "conditional",
+          "details": "Completed Foundation Studies with GPA 2.0 is an alternative to the school-leaver route.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_library",
+          "category": "experience",
+          "label": "Mature library studies entry",
+          "status": "conditional",
+          "details": "Relevant work experience can qualify a mature applicant who lacks the standard thirteen years of continuous progression.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 36, 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_finance",
+          "category": "experience",
+          "label": "Finance diploma mature entry",
+          "status": "conditional",
+          "details": "Mature applicants without thirteen years of continuous schooling can be considered on relevant work experience and prior learning.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_certivhot",
+          "category": "academic",
+          "label": "Certificate IV route to the hospitality and front office diplomas",
+          "status": "conditional",
+          "details": "The prospectus accepts a Certificate IV pass and specifies GPA 2.8. With a lower GPA it asks for three years of work experience. Its row mentions both “any discipline” and the relevant field; applicants should confirm how their field is assessed.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37, 38",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_supervise",
+          "category": "experience",
+          "label": "Hospitality supervisory experience",
+          "status": "conditional",
+          "details": "A supervisor in the industry may enter after the head of school or department reviews the level of work and experience and gives approval.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 37, 38, 50",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "fnu27cb_econdip",
+          "category": "academic",
+          "label": "Prior certificate for the economics diploma",
+          "status": "conditional",
+          "details": "Prior learning through a certificate or a similar qualification can be considered for admission.",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Business, Hospitality and Tourism Studies · pp. 39",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
