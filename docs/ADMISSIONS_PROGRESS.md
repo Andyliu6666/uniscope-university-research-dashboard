@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## University of Namibia Science — November 21 UTC
+
+1. **Baseline.** Local and remote main matched `643324e`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44844679869). The database matched the completed Engineering stage. UNAM had 18 reviewed general facts and no catalogue programmes.
+2. **Sources.** The [source review](research/UNAM_SCIENCE_20261121.md) records the officially linked 2027 all-programmes brochure and FAENS guide, complete admission/qualification/table pages and standalone-copy corroboration. Career columns were excluded.
+3. **Artifact.** Fifteen first-entry identities (13 NQF7 BSc degrees and two NQF6 diplomas) have 33 distinct facts and 272 shared links. IB/A-level evaluation columns, precise AS/Ordinary subject grades, indicative points, campus/code identities, application windows, MAE/RPL and prior-study routes remain distinct. Two source-omitted courses stay pending; duplicate Quantitative Finance rows create one identity.
+4. **Import and backup.** Final validation and the preview made zero writes. A draft attendance/delivery mismatch was caught before writes and corrected. The preceding archive was verified; all 33 facts inserted without skips, and repeat changed nothing. Prior metadata, earlier facts and all 1,212 IB records retained their fingerprints.
+5. **Verification.** Every fact, citation/date and all 272 associations matched the API. All 45 programme/route searches and year/applicant/readmission boundaries passed. The data-quality/API/website gate passed, and the rebuilt API contains the same artifact. No new numerical IB total is invented.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,770 programmes, 3,841 profiles, 26,038 requirements, 108,026 sources and 138 runs. Reviewed general facts total 4,018 across 88 institutions; UNAM has 15 courses and 51 facts. Numerical IB coverage remains 716 programmes. Archive `backups/post-unam-science-20261121.7oaci04p` is fully readable, SHA-256 `038fdcd6ec8d0818c30529982b5c82a95dab051ed6cb99b6974f1a7d8e7dbdb3`. Next continue the current FAENS guide's Agriculture/Engineering/Military admissions, then FEHS, keeping qualification levels, years and routes distinct. Global coverage remains unfinished.
+
 ## Stellenbosch Engineering — November 21 UTC
 
 1. **Baseline.** Local and remote main matched `5d84ad9`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44786842287). Database fingerprints matched the completed Economic stage; 38 Stellenbosch courses and 171 facts were already complete.

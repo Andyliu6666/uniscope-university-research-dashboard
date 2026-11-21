@@ -1,0 +1,41 @@
+# University of Namibia Science — 2027 entry
+
+Reviewed November 21, 2026 (UTC). Existing institution: University of Namibia, ROR `016xje988`, Namibia. It had 18 reviewed general facts and no programme catalogue entries before this batch. Earlier undated and 2026 general profiles remain unchanged.
+
+## Official evidence
+
+| Source                                                                                                                         | Complete pages reviewed               | SHA-256                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------ |
+| [2027 all-programmes brochure](https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf)                     | PDF 2–3, 5 and 7                      | `3e33c5ebe82f33de368f0952205b781a9d9875ce669129489cfa292577cef33f` |
+| [2027 FAENS guide](https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf)                          | PDF 2 and 10–12                       | `dd758adf8039cbee47e37d5b218ad5c26ce386dcc19b70a729cfd5a346ca247f` |
+| [Standalone 2027 undergraduate brochure](https://www.unam.edu.na/wp-content/uploads/2026/07/2027-Undergraduate-Programmes.pdf) | PDF 5, evaluation-table corroboration | `25b3cb995bc4147e902c2545a2341e2310ef4c3198189f47292c91e929b07897` |
+
+The [official prospectus index](https://www.unam.edu.na/prospectuses/) links the all-programmes brochure. The [faculty page](https://www.unam.edu.na/faculty-of-agriculture-natural-resources/) exposes the FAENS guide URL in its HTML even though its text presentation shows broken snippet markers. Primary files were downloaded over verified HTTPS when the web PDF fetch timed out. Every page was extracted, and complete relevant pages were rendered and reviewed. Some decorative/table-header/evaluation-point-column glyphs render as boxes in both official brochure copies; numerical extraction, row/column positions and the standalone copy were cross-checked. Blank cells were not invented. Raw files and images remain in local evidence backups.
+
+## Programme identities and information
+
+`data/sources/admissions-facts-unam-science-2027-20261121.json` creates **15** full-time, three-year first-entry programmes: two NQF6 diplomas and 13 NQF7 BSc degrees. Canonical names, programme codes and campuses come from the dated catalogue. One-year Honours continuations are distinct awards and are not imported as first-year degrees.
+
+There are **33 independent facts and 272 shared associations**. Scope counts are 27 first-year/all, five other-entry/all and one transfer/all. Shared information is stored once within its 2027 scope. The previous undated and 2026 policies are preserved, rather than silently changing their academic year or overwriting their contents.
+
+- The two diplomas use Ordinary Mathematics D and English D. Computing, Data Science, Statistics, Population Studies and Quantitative Finance use AS Mathematics d and Ordinary English C. Uppercase and lowercase grades denote different qualification levels.
+- Geology preserves its Physical Science/Physics alternative while retaining Chemistry and Mathematics. Chemistry does not inherit an unsupported combined-science alternative. Biochemistry/Microbiology use Biology, Chemistry and Mathematics d; Physics requires the higher Physics c. Wildlife/Tourism explicitly includes Geography d, while Ecology and Environmental/Geographical Sciences retain their distinct Ordinary Mathematics C combinations.
+- The guide prints diploma 24+ and BSc 27+ evaluation points, but expressly labels points **indicative for 2027**. Strong applications slightly below can still be considered. They are stored as consideration guidance alongside mandatory subjects, not as guaranteed or IB thresholds.
+- The current brochure separately states pre-2021 and post-2021 Namibian five-subject combinations. Its post-2021 diploma section omits the five-Ordinary/24-point alternative on the older undated webpage. That difference remains **unknown** pending current-cycle confirmation, with the legacy-before-2022 note preserved.
+- IB HL/SL, GCE A-level/AS/O-level, Namibian AS/Higher/Ordinary, Cambridge HIGCSE/IGCSE and South African Senior Certificate columns retain their own published conversion values. Other recognised school certificates require individual assessment. **UNAM evaluation points are not IB diploma totals**, and no programme-specific IB total or AP admission score is manufactured.
+- The undergraduate application window, application-fee categories and proof-of-payment document come from the 2027 brochure. MAE/RPL uses its own earlier closing window. MAE age, schooling, relevant work, examination averages/paper floors and conditional interview are separate from school entry. RPL requires the relevant NQF level and assessed experience portfolio. Prior tertiary NQF qualifications permit consideration without promising transfer credit or later-year entry.
+- Programme context preserves Windhoek Main, Oshakati, Southern and Katima Mulilo campuses and the exact programme codes. Attendance is described as full-time in source context; it is not misused as a value in the application's separate delivery-mode field.
+
+The guide duplicates Quantitative Finance with identical subject/point figures. It is one programme, code `33BSQF`, and its repeated conditions are stored once. The first duplicate row is not relabelled Mathematics from its narrative. BSc Mathematics (`33BSMM`) and Forestry/Rangeland Management (`33BSFR`) remain pending specific verified subject sources. Employment and career-description columns were not imported.
+
+## Verification and coverage
+
+Baseline commit `643324e` passed [quality and database-migration CI](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44844679869). An initial draft used an invalid attendance value as delivery mode; validation rejected it before writes. The draft was corrected to retain attendance in context and use the existing unspecified delivery scope. Final validation and the zero-write preview passed: 15 new identities, 33 facts and zero skips. The complete Engineering archive was verified by checksum and full restore-stream read before mutation.
+
+All 33 facts were inserted with zero skips. Repeat made no changes. Whole-database comparisons preserved all old universities/programmes/profiles/sources/import metadata, earlier admissions content and all 1,212 reviewed IB records. Live API comparisons matched every new source, review date, fact and all 272 programme associations. All 45 programme/route searches passed, with separate exact applicant, year and readmission boundaries. Qualification-grade cases, the higher Physics grade, different Mathematics levels, campus identity and source ambiguity passed focused checks. Quality/API/website checks passed; the API image was rebuilt with the identical source artifact.
+
+Counts are **28,171 institutions, 281,770 programmes, 3,841 admission profiles, 26,038 requirements, 108,026 sources and 138 import runs**. Reviewed general admissions facts total **4,018 across 88 institutions**. UNAM now has **15 courses and 51 reviewed general facts**. The 1,212 reviewed IB records and **716 programmes with published numerical IB totals** are unchanged. There are still **23,987 institutions without structured application facts** under the export definition; worldwide coverage remains incomplete.
+
+Complete readable archive: `backups/post-unam-science-20261121.7oaci04p`, SHA-256 `038fdcd6ec8d0818c30529982b5c82a95dab051ed6cb99b6974f1a7d8e7dbdb3`. Source captures, page images, comparison notes, preview/import/repeat logs, metadata/fact fingerprints and API results are retained in backups.
+
+Next, continue the same FAENS guide's Agriculture, Engineering and Military first-entry rows, checking the full source pages and catalogue codes. Extended Engineering and standalone Honours cannot inherit an unsupported mainstream entry condition. Then use the separate FEHS guide. School-specific 2026 prospectuses must not be relabelled 2027.

@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281755,
+            "programs": 281770,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3838,
+            "admissionProfiles": 3841,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26005,
+            "admissionRequirements": 26038,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196067
+            "undergraduateCatalogEntries": 196082
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,7 +159,7 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4163,
+            "programs": 4164,
             "research": 27018,
             "deadlines": 1,
             "admissions": 1942,
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 3985,
-            "profiles": 1361,
+            "facts": 4018,
+            "profiles": 1364,
             "institutions": 88
         }
     },
-    "generatedAt": "2026-11-21T00:31:37Z",
+    "generatedAt": "2026-11-21T11:02:46Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 60,
+        "inserted": 33,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 60,
-        "startedAt": "2026-11-21T00:30:54.130158+00:00",
-        "updatedAt": "2026-11-21T00:30:54.130158+00:00",
+        "processed": 33,
+        "startedAt": "2026-11-21T11:02:04.832052+00:00",
+        "updatedAt": "2026-11-21T11:02:04.832052+00:00",
         "checkpoint": {
-            "profiles": 5,
-            "admissionFacts": 60,
+            "profiles": 3,
+            "admissionFacts": 33,
             "programsReused": 0,
-            "programsCreated": 6,
-            "priorSharedLinksAdded": 96
+            "programsCreated": 15
         },
-        "finishedAt": "2026-11-21T00:30:54.242+00:00",
-        "artifactSha256": "e91a78bb222f448335ebb464e0540b4cabef315d451b7316e61bdbad013b5690",
-        "datasetVersion": "official-admissions-stellenbosch-engineering-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T11:02:04.903+00:00",
+        "artifactSha256": "582616ce25c5283b37c2e4caf45b40e8c358cceb19de094aa6ac55b0b8938c2d",
+        "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

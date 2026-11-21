@@ -1,0 +1,932 @@
+{
+  "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "unam",
+      "name": "University of Namibia",
+      "provider": "ror",
+      "externalId": "016xje988",
+      "countryCode": "NA",
+      "officialDomains": ["unam.edu.na"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "dip_stats",
+      "institutionKey": "unam",
+      "name": "Diploma in Applied Statistics",
+      "level": "undergraduate",
+      "field": "Applied Statistics",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33DSST · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_ordinary_diploma_subjects",
+        "unam27sci_diploma_indicative_points",
+        "unam27sci_diploma_legacy",
+        "unam27sci_diploma_current",
+        "unam27sci_diploma_ordinary_conflict",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "dip_computing",
+      "institutionKey": "unam",
+      "name": "Diploma in Computing",
+      "level": "undergraduate",
+      "field": "Computing",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33DCMP · Oshakati Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_ordinary_diploma_subjects",
+        "unam27sci_diploma_indicative_points",
+        "unam27sci_diploma_legacy",
+        "unam27sci_diploma_current",
+        "unam27sci_diploma_ordinary_conflict",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_dip_computing",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "computing",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Computing",
+      "level": "undergraduate",
+      "field": "Computing",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BCMP · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_as_math_degree_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "data",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Data Science",
+      "level": "undergraduate",
+      "field": "Data Science",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSDS · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_as_math_degree_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "statistics",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Statistics",
+      "level": "undergraduate",
+      "field": "Statistics",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSST · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_as_math_degree_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "population",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Population Studies",
+      "level": "undergraduate",
+      "field": "Population Studies",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSPO · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_as_math_degree_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "quantitative",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Quantitative Finance",
+      "level": "undergraduate",
+      "field": "Quantitative Finance",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSQF · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_as_math_degree_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "geology",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Geology",
+      "level": "undergraduate",
+      "field": "Geology",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSGY · Southern Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_geology_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_geology",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "biochemistry",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Biochemistry",
+      "level": "undergraduate",
+      "field": "Biochemistry",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSBY · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_bio_micro_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "chemistry",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Chemistry",
+      "level": "undergraduate",
+      "field": "Chemistry",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BCHM · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_chemistry_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "physics",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Physics",
+      "level": "undergraduate",
+      "field": "Physics",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BPHY · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_physics_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "microbiology",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Microbiology",
+      "level": "undergraduate",
+      "field": "Microbiology",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSMB · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_bio_micro_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "wildlife",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Wildlife and Tourism Management",
+      "level": "undergraduate",
+      "field": "Wildlife and Tourism Management",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSWM · Katima Mulilo Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_wildlife_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_wildlife",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "ecology",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Ecology and Biodiversity Conservation",
+      "level": "undergraduate",
+      "field": "Ecology and Biodiversity Conservation",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BSEB · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_ecology_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    },
+    {
+      "key": "environment",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Environmental and Geographical Sciences",
+      "level": "undergraduate",
+      "field": "Environmental and Geographical Sciences",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 7 · 33BEGS · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27sci_environment_subjects",
+        "unam27sci_degree_indicative_points",
+        "unam27sci_degree_legacy",
+        "unam27sci_degree_current",
+        "unam27sci_foreign_assessment",
+        "unam27sci_ib_scale",
+        "unam27sci_gce_scale",
+        "unam27sci_namibia_scale",
+        "unam27sci_cambridge_scale",
+        "unam27sci_south_african_scale",
+        "unam27sci_campus_main",
+        "unam27sci_application_window",
+        "unam27sci_mae_eligibility",
+        "unam27sci_mae_test",
+        "unam27sci_mae_interview",
+        "unam27sci_rpl_evidence",
+        "unam27sci_mae_rpl_window",
+        "unam27sci_prior_qualification"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 School of Science: 13 three-year NQF7 bachelor programmes and two three-year NQF6 diplomas. Programme codes/campuses are checked against the official catalogue. Career-guide points are indicative, not guaranteed minima. Lowercase symbols denote AS and uppercase Ordinary Level; UNAM evaluation points are not IB diploma points. Foreign certificates are assessed on merit. First-year, MAE/RPL and prior-tertiary routes remain separate. No employment information is imported.",
+      "requirements": [
+        {
+          "key": "unam27sci_ordinary_diploma_subjects",
+          "label": "Science diplomas: Ordinary Mathematics D and English D",
+          "details": "The two diploma rows specify Mathematics D and English D at Ordinary Level. Uppercase D is not AS grade d. General qualification combinations and the separately labelled indicative 24+ evaluation points remain additional.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 10",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_as_math_degree_subjects",
+          "label": "Computing/Data/Statistics/Population/Quantitative Finance: Mathematics d",
+          "details": "These five BSc rows specify Mathematics d at Advanced Subsidiary level and English C at Ordinary Level. Preserve the different level and case for each subject. General qualification combinations and indicative 27+ UNAM points are additional.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 10–11",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_geology_subjects",
+          "label": "Geology: science alternatives and Mathematics",
+          "details": "The Geology row specifies Physical Science d OR Physics d; Chemistry d AND Mathematics d; and English C. Lowercase symbols are AS-level and uppercase English C is Ordinary Level. Chemistry and Mathematics are not removed by choosing the Physical Science branch.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 11",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_bio_micro_subjects",
+          "label": "Biochemistry/Microbiology: Biology, Chemistry and Mathematics d",
+          "details": "Both rows require Biology d, Chemistry d and Mathematics d at AS-level, plus English C at Ordinary Level. Microbiology has a missing closing parenthesis after English C in the PDF, but the subject/grade is present; no additional subject alternative is inferred.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 11–12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_chemistry_subjects",
+          "label": "Chemistry: Mathematics, Physics and Chemistry d",
+          "details": "The Chemistry row requires Mathematics d, Physics d and Chemistry d at AS-level, plus English C at Ordinary Level. Unlike Geology, this row does not print a Physical Science alternative.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 11",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_physics_subjects",
+          "label": "Physics: Physics c, Mathematics/Chemistry d",
+          "details": "The Physics row requires Physics c at AS-level, Mathematics d and Chemistry d at AS-level, and English C at Ordinary Level. Physics c is a higher subject condition than the d printed for several other science degrees.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_wildlife_subjects",
+          "label": "Wildlife/Tourism: three AS subjects and Ordinary Chemistry/English",
+          "details": "The row requires Biology d, Mathematics d and Geography d at AS-level, together with Chemistry C and English C at Ordinary Level. Geography is explicitly present and must not disappear when reusing general science rules.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_ecology_subjects",
+          "label": "Ecology/Biodiversity: AS Biology c and three Ordinary C subjects",
+          "details": "The row requires Biology c at AS-level, plus Mathematics C, Physical Science C and English C at Ordinary Level. Its Mathematics C is not silently changed into the AS d required by other BSc rows.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_environment_subjects",
+          "label": "Environmental/Geographical Sciences: AS Geography/Biology d",
+          "details": "The row requires Geography d and Biology d at AS-level, plus Mathematics C, Chemistry C and English C at Ordinary Level. The all-programmes catalogue gives the canonical plural Sciences name and code 33BEGS; the guide shortens the title without creating another award.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_degree_indicative_points",
+          "label": "2027 Science BSc: indicative 27+ UNAM evaluation points",
+          "details": "The linked BSc rows print 27+ points. The guide introduction explicitly calls its points indicative for 2027 and says strong applications slightly below can still be considered. This is an evaluation-scale guideline, not a guaranteed admission threshold, an IB diploma total or permission to ignore subject/qualification requirements.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 2, 10–12",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_diploma_indicative_points",
+          "label": "2027 Science diplomas: indicative 24+ UNAM evaluation points",
+          "details": "The two diploma rows print 24+ evaluation points. The guide labels points indicative for 2027, allowing consideration of strong applications slightly below. The subject and qualification requirements remain separate. This number must not be published as an IB diploma minimum.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 · guide PDF 2, 10",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_degree_legacy",
+          "label": "2027 degree qualification: pre-2021 Namibian certificates",
+          "details": "For the pre-2021 system, five different subjects comprise either two NSSCH at grade 4 or better plus three NSSCO C or better, OR three NSSCH at grade 4 or better plus two NSSCO D or better. Both alternatives require NSSCO English at least C and school-specific requirements. This dated 2027 statement does not overwrite the earlier undated general policy.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_degree_current",
+          "label": "2027 degree qualification: Namibian certificates from 2021",
+          "details": "For certificates from 2021 onward, pass five different subjects: either two NSSCAS averaging d or better plus three NSSCO C or better, OR three NSSCAS averaging d or better plus two NSSCO D or better. Both require NSSCO English at least C, and school-specific subject requirements also apply. The average d wording is preserved rather than requiring every AS subject to be d in this general combination.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_diploma_legacy",
+          "label": "2027 diploma qualification: pre-2021 Namibian certificates",
+          "details": "For the pre-2021 system, pass five different subjects at NSSCO Ordinary Level or in a combination of NSSCO and NSSCH, with at least 24 UNAM evaluation points and NSSCO English at least D. School-specific rules remain additional.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_diploma_current",
+          "label": "2027 diploma qualification: two AS and three Ordinary subjects",
+          "details": "For certificates from 2021 onward, the 2027 brochure gives five different subjects: two NSSCAS at e or better and three NSSCO D or better, with NSSCO English at least D. The existing undated web policy also gives a five-NSSCO/24-point alternative that this brochure does not print; its 2027 applicability is separately flagged for confirmation.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_diploma_ordinary_conflict",
+          "label": "2027 diploma five-Ordinary alternative: brochure/web difference",
+          "details": "The earlier general requirements webpage accepts five NSSCO subjects totalling 24 points for post-2021 diplomas. The 2027 brochure only prints the two-NSSCAS plus three-NSSCO branch. It separately mentions legacy Grade-12 NSSCO certificates before 2022. Confirm whether a current all-Ordinary applicant can use the webpage alternative for 2027; do not assume either universal acceptance or exclusion.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3 compared with general requirements webpage",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_foreign_assessment",
+          "label": "2027 other school certificates: individual evaluation",
+          "details": "Other recognised school-leaving qualifications can be accepted on their own merits and evaluated on UNAM's published scale. The listed Namibian subject requirements are not automatically converted into promised IB/A-level offers; the university must assess the curriculum and school-specific conditions.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_ib_scale",
+          "label": "UNAM 2027 IB subject evaluation: separate HL and SL columns",
+          "details": "The evaluation table awards IB HL grades 7, 6, 5 and 4 respectively 10, 9, 8 and 7 UNAM points. IB SL grades 7, 6, 5, 4, 3 and 2 respectively receive 8, 7, 6, 5, 4 and 3 points. Blank cells are not invented as zeroes. These are subject conversions for assessment, not an IB diploma-total offer or a guaranteed equivalence to the Namibian AS entry combinations.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_gce_scale",
+          "label": "UNAM 2027 GCE A-level, AS and O-level evaluation",
+          "details": "GCE A-level A/B/C/D/E receive 10/9/8/7/6 UNAM points; the printed N/O/Subsidiary category receives 4. GCE AS a/b/c/d/e receive 9/8/7/6/5. GCE O-level A/1, B/2, C/3, D/4 and E/5 receive 7/6/5/4/3. These are the distinct published columns, not invented programme offers or direct IB grade equivalents.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_namibia_scale",
+          "label": "UNAM 2027 Namibian school evaluation scale",
+          "details": "NSSC AS a/b/c/d/e receive 9/8/7/6/5 points. NSSC Higher 1/2/3/4 receive 9/8/7/6. NSSC Ordinary A*/A/B/C/D/E receive 8/7/6/5/4/3. Subject-grade case and qualification level remain distinct; programme requirements and general five-subject combinations remain additional.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_cambridge_scale",
+          "label": "UNAM 2027 Cambridge HIGCSE/IGCSE evaluation",
+          "details": "Cambridge HIGCSE grades 1/2/3/4 receive 9/8/7/6 UNAM points. IGCSE A*/A/B/C/D/E receive 8/7/6/5/4/3 points. The table labels are preserved; this evaluation alone is not a new programme-specific international offer.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_south_african_scale",
+          "label": "UNAM 2027 Senior Certificate evaluation columns",
+          "details": "The Senior Certificate NSC levels 7/6/5/4/3/2 receive 9/8/7/6/5/4 UNAM points; HG A/B/C/D/E/F receive 9/8/7/6/5/4; SG A/B/C/D/E receive 7/6/5/4/3. These are separate qualification columns and not IB totals.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_campus_main",
+          "label": "2027 Science: three-year full-time Windhoek programmes",
+          "details": "The catalogue lists the following at Windhoek Main Campus, full-time for three years: Applied Statistics Diploma 33DSST (NQF6); BSc Computing 33BCMP, Data Science 33BSDS, Statistics 33BSST, Population Studies 33BSPO, Quantitative Finance 33BSQF, Biochemistry 33BSBY, Chemistry 33BCHM, Physics 33BPHY, Microbiology 33BSMB, Ecology/Biodiversity 33BSEB and Environmental/Geographical Sciences 33BEGS (all NQF7). One-year Honours continuation awards are separate and not imported as first-year degrees.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_campus_dip_computing",
+          "label": "2027 Computing Diploma: programme code, campus and mode",
+          "details": "The catalogue identifies Computing Diploma as code 33DCMP, NQF level 6, at Oshakati Campus, full-time for three years. This campus belongs to this named programme, not every UNAM science course.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_campus_geology",
+          "label": "2027 Geology: programme code, campus and mode",
+          "details": "The catalogue identifies Geology as code 33BSGY, NQF level 7, at Southern Campus, full-time for three years. This campus belongs to this named programme, not every UNAM science course.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_campus_wildlife",
+          "label": "2027 Wildlife and Tourism Management: programme code, campus and mode",
+          "details": "The catalogue identifies Wildlife and Tourism Management as code 33BSWM, NQF level 7, at Katima Mulilo Campus, full-time for three years. This campus belongs to this named programme, not every UNAM science course.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_application_window",
+          "label": "2027 undergraduate application window and fee evidence",
+          "details": "The 2027 brochure gives the undergraduate application window as 22 May to 30 September, using the online application process. Its non-refundable application fee is N$150 for Namibian applicants and N$300 for international applicants; include proof of payment with application documents. The separate MAE/RPL window closes in July. The dates are retained as the brochure publishes them, without inventing a later intake deadline.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 2",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 School of Science: 13 three-year NQF7 bachelor programmes and two three-year NQF6 diplomas. Programme codes/campuses are checked against the official catalogue. Career-guide points are indicative, not guaranteed minima. Lowercase symbols denote AS and uppercase Ordinary Level; UNAM evaluation points are not IB diploma points. Foreign certificates are assessed on merit. First-year, MAE/RPL and prior-tertiary routes remain separate. No employment information is imported.",
+      "requirements": [
+        {
+          "key": "unam27sci_mae_eligibility",
+          "label": "2027 Science mature-age entry: age, schooling and experience",
+          "details": "The catalogue marks these routes MAE/RPL. For MAE, applicants must be at least 25 on the first day of the academic year and document at least five years of relevant work experience. Degree entry needs completed senior-secondary education; diploma entry needs completed junior-secondary education. Programme-specific conditions still apply.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3, 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_mae_test",
+          "label": "2027 MAE examination: degree 50%, diploma 40%, no paper below 40%",
+          "details": "MAE tests English proficiency, general knowledge, numerical ability and, where applicable, a faculty-specific paper. Subject to programme regulations, degree entry requires an average at least 50%, diploma entry at least 40%, with no paper below 40%. Passing these conditions permits consideration rather than guaranteeing a place.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_mae_interview",
+          "label": "2027 mature-age selection: possible additional interview",
+          "details": "Applicants who meet the MAE eligibility conditions and pass its examination may be called for an additional interview before final selection. This is not a universal interview requirement for school-leaver applicants.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_rpl_evidence",
+          "label": "2027 Science RPL: age 25, relevant work, NQF and portfolio",
+          "details": "RPL applicants must be at least 25 on the first day of the academic year and show at least five years of relevant work experience. Diploma entry requires NQF level 3; degree entry NQF level 4. Successful candidates must provide an Evidence Learning Experience Portfolio for assessment. These alternatives are not normal school-leaver grades.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3, 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27sci_mae_rpl_window",
+          "label": "2027 mature-age/RPL applications: 22 May to 31 July",
+          "details": "The 2027 brochure gives MAE and RPL applications a 22 May to 31 July window with no late applications, using the dedicated mature-age-entry or recognition-of-prior-learning online routes. This is separate from the general undergraduate September closing.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 2",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 School of Science: 13 three-year NQF7 bachelor programmes and two three-year NQF6 diplomas. Programme codes/campuses are checked against the official catalogue. Career-guide points are indicative, not guaranteed minima. Lowercase symbols denote AS and uppercase Ordinary Level; UNAM evaluation points are not IB diploma points. Foreign certificates are assessed on merit. First-year, MAE/RPL and prior-tertiary routes remain separate. No employment information is imported.",
+      "requirements": [
+        {
+          "key": "unam27sci_prior_qualification",
+          "label": "2027 prior-tertiary admission: NQF qualification and credits",
+          "details": "Completion at another tertiary institution of a registered NQF level-4 qualification of at least 120 credits permits consideration for diploma admission; an NQF level-5 qualification of at least 240 credits permits consideration for undergraduate degree admission. This does not guarantee credit transfer, advanced standing or automatic acceptance.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 · book PDF 3",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
