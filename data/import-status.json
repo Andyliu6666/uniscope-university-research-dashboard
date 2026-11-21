@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282074,
+            "programs": 282079,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4064,
+            "admissionProfiles": 4071,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26614,
+            "admissionRequirements": 26648,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1397
+            "qualificationRequirements": 1402
         },
         "ibCoverage": {
             "byCountry": [
@@ -57,6 +57,12 @@
                     "institutions": 2,
                     "programs_with_reviewed_ib": 132,
                     "programs_with_published_totals": 131
+                },
+                {
+                    "country": "Ireland",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 5,
+                    "programs_with_published_totals": 5
                 },
                 {
                     "country": "Kenya",
@@ -131,12 +137,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1397,
-            "programsWithReviewedIb": 1194,
+            "reviewedRecords": 1402,
+            "programsWithReviewedIb": 1199,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 48,
-            "programsWithPublishedTotals": 801,
-            "undergraduateCatalogEntries": 196357
+            "institutionsWithReviewedIb": 49,
+            "programsWithPublishedTotals": 806,
+            "undergraduateCatalogEntries": 196362
         },
         "coreCoverage": {
             "phone": 4078,
@@ -165,13 +171,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4168,
+            "programs": 4169,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1946,
+            "admissions": 1947,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23983
+            "noStructuredApplicationFacts": 23982
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -183,31 +189,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4594,
-            "profiles": 1404,
-            "institutions": 93
+            "facts": 4628,
+            "profiles": 1406,
+            "institutions": 94
         }
     },
-    "generatedAt": "2026-11-21T23:50:43Z",
+    "generatedAt": "2026-11-21T23:57:06Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 33,
+        "inserted": 5,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 33,
-        "startedAt": "2026-11-21T23:50:36.193598+00:00",
-        "updatedAt": "2026-11-21T23:50:36.286+00:00",
+        "processed": 5,
+        "startedAt": "2026-11-21T23:56:59.365525+00:00",
+        "updatedAt": "2026-11-21T23:56:59.392+00:00",
         "checkpoint": {
-            "rowIndex": 33,
-            "sourceRows": 33,
+            "rowIndex": 5,
+            "sourceRows": 5,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T23:50:36.286+00:00",
-        "artifactSha256": "91d4366b33cef2bca77f2a4727508738f1d1e8c2e440bf4ab738de325477dbc5",
-        "datasetVersion": "official-ib-fnu-engineering-certificates-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T23:56:59.392+00:00",
+        "artifactSha256": "f1c870b15f98b3a4f5c4d7c43aca152d1643e231891c426aa558d58fc80e17e0",
+        "datasetVersion": "official-ib-rcsi-dublin-international-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

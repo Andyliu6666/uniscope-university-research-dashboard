@@ -1,0 +1,583 @@
+{
+  "datasetVersion": "official-admissions-rcsi-dublin-international-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "rcsi-dublin",
+      "name": "Royal College of Surgeons in Ireland",
+      "provider": "ror",
+      "externalId": "01hxy9878",
+      "countryCode": "IE",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "medicine",
+      "institutionKey": "rcsi-dublin",
+      "name": "Medicine (MB, BCh, BAO Honours)",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+        "title": "RCSI Dublin · Medicine · non-EU school leavers · September 2027",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsid27_gcse",
+        "rcsid27_gce_period",
+        "rcsid27_a5",
+        "rcsid27_a6",
+        "rcsid27_sg5",
+        "rcsid27_sg6",
+        "rcsid27_ca85",
+        "rcsid27_us35",
+        "rcsid27_us_test",
+        "rcsid27_md_na_ap",
+        "rcsid27_med_science",
+        "rcsid27_sabis5",
+        "rcsid27_sabis6",
+        "rcsid27_tr90",
+        "rcsid27_tr_ap554",
+        "rcsid27_tr_year1m",
+        "rcsid27_tr_found"
+      ]
+    },
+    {
+      "key": "dentistry",
+      "institutionKey": "rcsi-dublin",
+      "name": "Dentistry (BDS Honours)",
+      "field": "Dentistry",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+        "title": "RCSI Dublin · Dentistry · non-EU school leavers · September 2027",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsid27_gcse",
+        "rcsid27_gce_period",
+        "rcsid27_a5",
+        "rcsid27_a6",
+        "rcsid27_sg5",
+        "rcsid27_sg6",
+        "rcsid27_ca85",
+        "rcsid27_us35",
+        "rcsid27_us_test",
+        "rcsid27_den_science",
+        "rcsid27_sabis5",
+        "rcsid27_sabis6"
+      ]
+    },
+    {
+      "key": "pharmacy",
+      "institutionKey": "rcsi-dublin",
+      "name": "Pharmacy (BSc Honours and MPharm)",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+        "title": "RCSI Dublin · Pharmacy · non-EU school leavers · September 2027",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsid27_gcse",
+        "rcsid27_gce_period",
+        "rcsid27_a_ph",
+        "rcsid27_sg_ph",
+        "rcsid27_ca85",
+        "rcsid27_us35",
+        "rcsid27_sabis_ph",
+        "rcsid27_tr90",
+        "rcsid27_tr_ap554",
+        "rcsid27_tr_year1",
+        "rcsid27_tr_found"
+      ]
+    },
+    {
+      "key": "physiotherapy",
+      "institutionKey": "rcsi-dublin",
+      "name": "Physiotherapy (BSc Honours)",
+      "field": "Physiotherapy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+        "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · September 2027",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsid27_gcse",
+        "rcsid27_gce_period",
+        "rcsid27_a_pt",
+        "rcsid27_sg_pt",
+        "rcsid27_ca_pt",
+        "rcsid27_us_pt",
+        "rcsid27_sabis_pt",
+        "rcsid27_tr90",
+        "rcsid27_tr_ap444",
+        "rcsid27_tr_year1",
+        "rcsid27_tr_found"
+      ]
+    },
+    {
+      "key": "advanced-therapeutic-technologies",
+      "institutionKey": "rcsi-dublin",
+      "name": "Advanced Therapeutic Technologies (BSc Honours)",
+      "field": "Advanced Therapeutic Technologies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+        "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · September 2027",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsid27_gcse",
+        "rcsid27_gce_period",
+        "rcsid27_a_at",
+        "rcsid27_sg_at",
+        "rcsid27_ca_at",
+        "rcsid27_us_at",
+        "rcsid27_tr_math",
+        "rcsid27_tr_apmath",
+        "rcsid27_tr_year1",
+        "rcsid27_tr_found"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "rcsi-dublin",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "September 2027 entry in Dublin. These qualification routes are for applicants classified as non-EU under RCSI’s nationality and residency criteria. The named school system or track limits each requirement.",
+      "requirements": [
+        {
+          "key": "rcsid27_gcse",
+          "label": "GCSE subjects with GCE A levels",
+          "details": "The GCE route also requires at least six GCSE subjects, with grade 4/C or higher in English and mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_gce_period",
+          "label": "Timing of A-level examinations",
+          "details": "Complete the A-level subject examinations within two consecutive school years. RCSI excludes repeats taken outside those years.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_a5",
+          "label": "GCE A levels for the five-year track",
+          "details": "Present AAB from three A levels. Include chemistry, biology or physics, and another subject drawn from biology, physics, mathematics or psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_a6",
+          "label": "GCE A levels for the six-year track",
+          "details": "Applicants with AAB across three subjects who lack the five-year science combination may be considered for the six-year course if at least one subject is chemistry, physics or biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_a_ph",
+          "label": "GCE A levels for Pharmacy",
+          "details": "Across three A levels, achieve ABB with chemistry and one of mathematics, biology, physics or psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+            "title": "RCSI Dublin · Pharmacy · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_a_pt",
+          "label": "GCE A levels for Physiotherapy",
+          "details": "Earn BBB in three A-level subjects. At least one must be biology, physics or chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_a_at",
+          "label": "GCE A levels for Advanced Therapeutic Technologies",
+          "details": "Earn BBC in three A levels. Mathematics requires at least B. Also include biology, chemistry or physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sg5",
+          "label": "Singapore-Cambridge H2 subjects for five-year entry",
+          "details": "Present three H2 subjects at AAA: chemistry, biology or physics, and a further subject from biology, physics, mathematics or psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Singapore-Cambridge A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sg6",
+          "label": "Singapore-Cambridge H2 subjects for six-year entry",
+          "details": "If the applicant reaches AAA in three H2 subjects but misses the five-year subject combination, the six-year track may consider them with at least one of chemistry, physics or biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Singapore-Cambridge A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sg_ph",
+          "label": "Singapore-Cambridge H2 entry for Pharmacy",
+          "details": "Present at least three H2 subjects at ABB, with chemistry and one of mathematics, biology, physics or psychology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+            "title": "RCSI Dublin · Pharmacy · non-EU school leavers · Singapore-Cambridge A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sg_pt",
+          "label": "Singapore-Cambridge H2 entry for Physiotherapy",
+          "details": "Three or more H2 subjects must reach BBB and include biology, physics or chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · Singapore-Cambridge A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sg_at",
+          "label": "Singapore-Cambridge H2 entry for therapeutics",
+          "details": "Three H2 grades of BBB must include mathematics and one of chemistry, biology or physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · Singapore-Cambridge A levels",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_ca85",
+          "label": "Canadian Grade 12 science grades",
+          "details": "Average at least 85% in the top five Grade 12 academic subjects. Biology, chemistry and one of physics, mathematics or calculus each require at least 80%. For Medicine and Dentistry this is the six-year high-school route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Canada",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_us35",
+          "label": "United States high school science grades",
+          "details": "Present a high school diploma with cumulative GPA of at least 3.5 and a GPA of 3.0 or higher in biology, chemistry and one of physics, mathematics or calculus. For Medicine and Dentistry this is the six-year route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_us_test",
+          "label": "SAT or ACT for US-resident high school applicants",
+          "details": "High school applicants residing in the USA in their application year who apply through Atlantic Bridge must submit SAT 1200 or ACT 25 or higher.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_md_na_ap",
+          "label": "US or Canadian AP route to five-year Medicine",
+          "details": "Meet the six-year entry requirements for the corresponding US or Canadian diploma. For consideration without the foundation year, submit AP Biology, AP Chemistry and one of AP Calculus, Physics or Psychology, with grades 5, 5 and 4 in any order.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Canada and United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_ca_pt",
+          "label": "Canadian diploma for Physiotherapy",
+          "details": "Average at least 80% in Grade 12, with at least 75% in two subjects from the published groups: chemistry or biology, and physics, mathematics or calculus.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · Canada",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_us_pt",
+          "label": "US diploma for Physiotherapy",
+          "details": "Present a cumulative GPA of at least 3.0 and at least 3.0 in two subjects from the listed groups: chemistry or biology, and physics, mathematics or calculus.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_ca_at",
+          "label": "Canadian diploma for therapeutics",
+          "details": "Grade 12 requires an 80% average and 80% in mathematics. Achieve 75% or better in two of chemistry, biology, physics or calculus.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · Canada",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_us_at",
+          "label": "US diploma for therapeutics",
+          "details": "Present a cumulative GPA of at least 3.0, with 3.0 or higher in mathematics and two of chemistry, biology, physics or calculus.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sabis5",
+          "label": "SABIS–Choueifat mixed qualifications, five-year track",
+          "details": "Choose chemistry, one of biology or physics, and another of biology, physics, mathematics or psychology. RCSI accepts combinations across systems and gives grade patterns AAB at A level, 6/6/5 at IB HL or 5/5/4 at AP.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · SABIS–Choueifat",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sabis6",
+          "label": "SABIS–Choueifat six-year consideration",
+          "details": "Applicants meeting the five-year grades across three A-level, IB or AP subjects but missing its subject combination may be considered for six years.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · SABIS–Choueifat",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sabis_ph",
+          "label": "SABIS–Choueifat subject grades for Pharmacy",
+          "details": "For chemistry present A at A level, 6 at IB HL or 5 at AP. For one additional subject in biology, physics or mathematics present B at A level, 5 at IB HL or 4 at AP. The two qualifications may come from different systems.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+            "title": "RCSI Dublin · Pharmacy · non-EU school leavers · SABIS–Choueifat",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_sabis_pt",
+          "label": "SABIS–Choueifat subject grades for Physiotherapy",
+          "details": "Present at least two subjects among chemistry, mathematics, biology and physics. For each, reach B at A level, 5 at IB HL or 4 at AP. Mixed qualifications are accepted.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · SABIS–Choueifat",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr90",
+          "label": "Turkish high school diploma and science",
+          "details": "Earn at least 90% overall and 80% in one of biology, chemistry or physics in the Lise Diplomasi. The diploma needs an additional qualifying route. For Medicine these alternatives are for six-year entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_math",
+          "label": "Turkish high school diploma and mathematics",
+          "details": "For Advanced Therapeutic Technologies, obtain 90% overall in the Lise Diplomasi and at least 80% in mathematics, plus one of the additional qualifying routes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_ap554",
+          "label": "Turkish diploma with AP science scores",
+          "details": "Alongside the Turkish diploma requirements, AP Biology, AP Chemistry and one of AP Calculus, Physics or Psychology must reach 5, 5 and 4 in any order.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_ap444",
+          "label": "Turkish diploma with AP science scores",
+          "details": "Alongside the Turkish diploma requirements, present AP Biology, AP Chemistry and one of AP Calculus, Physics or Psychology, each at 4 or above.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_apmath",
+          "label": "Turkish diploma with AP mathematics and sciences",
+          "details": "Present AP Calculus and two of AP Chemistry, Biology, Physics or Psychology with scores of at least 4, 4 and 4, in addition to the Turkish diploma requirements.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_year1m",
+          "label": "Turkish diploma and one university year for Medicine",
+          "details": "Instead of AP exams, the six-year track accepts competitive first-year grades in an accredited bachelor’s degree in biomedical science or a laboratory science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_year1",
+          "label": "Turkish diploma and one university year",
+          "details": "Instead of AP exams, present competitive grades from year one of an accredited bachelor’s in biomedical science, a laboratory science or mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+            "title": "RCSI Dublin · Pharmacy · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_tr_found",
+          "label": "Turkish diploma and a foundation route",
+          "details": "RCSI also considers the Turkish diploma alongside a recognised pre-university or foundation programme. The course page lists eligible providers and results.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Türkiye",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsi-dublin",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "September 2027 entry in Dublin. These qualification routes are for applicants classified as non-EU under RCSI’s nationality and residency criteria. The named school system or track limits each requirement.",
+      "requirements": [
+        {
+          "key": "rcsid27_med_science",
+          "label": "US and Canadian university science route",
+          "details": "After meeting the six-year criteria, applicants with one or two years in an undergraduate science degree may apply. Submit competitive GPAs for all completed years. General chemistry and biology coursework supports five-year consideration. Insufficient coverage leads to six-year consideration.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · non-EU school leavers · Canada and United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "rcsid27_den_science",
+          "label": "US and Canadian university science route",
+          "details": "Applicants completing at least one year of a science degree may apply with competitive university biology and chemistry results. The admissions committee decides between the five- and six-year tracks.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+            "title": "RCSI Dublin · Dentistry · non-EU school leavers · Canada and United States of America",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
