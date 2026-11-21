@@ -1,0 +1,1038 @@
+{
+  "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "sunway",
+      "name": "Sunway University",
+      "provider": "ror",
+      "externalId": "04mjt7f73",
+      "countryCode": "MY",
+      "officialDomains": ["sunwayuniversity.edu.my"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "stats",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Statistical Data Modelling",
+      "level": "undergraduate",
+      "field": "Statistical data modelling",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+        "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_a_stat",
+        "sunway_mb_stpm",
+        "sunway_mb_f20",
+        "sunway_mb_uec26",
+        "sunway_mb_dip50",
+        "sunway_mb_advance",
+        "sunway_mb_math_credit",
+        "sunway_mb_eng_bplus"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        }
+      ]
+    },
+    {
+      "key": "actuarial",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Hons) in Actuarial Studies",
+      "level": "undergraduate",
+      "field": "Actuarial studies",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-hons-actuarial-studies",
+        "title": "Sunway University · Bachelor of Science (Hons) in Actuarial Studies · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_stpm",
+        "sunway_mb_f20",
+        "sunway_mb_uec26",
+        "sunway_mb_dip50",
+        "sunway_mb_advance",
+        "sunway_mb_math_credit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "finance",
+      "institutionKey": "sunway",
+      "name": "Bachelor (Honours) in Finance",
+      "level": "undergraduate",
+      "field": "Finance",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+        "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_a_fin",
+        "sunway_mb_stpm",
+        "sunway_mb_f25",
+        "sunway_mb_uec28",
+        "sunway_mb_dip25",
+        "sunway_mb_math_fin",
+        "sunway_mb_eng_fin",
+        "sunway_mb_toefl",
+        "sunway_mb_pte"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        }
+      ]
+    },
+    {
+      "key": "entrepreneurship",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Arts (Honours) Entrepreneurship",
+      "level": "undergraduate",
+      "field": "Entrepreneurship",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+        "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "analytics",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Business Analytics (Honours)",
+      "level": "undergraduate",
+      "field": "Business analytics",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-business-analytics-honours",
+        "title": "Sunway University · Bachelor of Business Analytics (Honours) · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec28",
+        "sunway_mb_dip50",
+        "sunway_mb_advance",
+        "sunway_mb_math_credit",
+        "sunway_mb_eng_bplus",
+        "sunway_mb_toefl"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        }
+      ]
+    },
+    {
+      "key": "management",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Business Management",
+      "level": "undergraduate",
+      "field": "Business management",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-business-management",
+        "title": "Sunway University · Bachelor of Science (Honours) in Business Management · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "studies",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Business Studies",
+      "level": "undergraduate",
+      "field": "Business studies",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-business-studies",
+        "title": "Sunway University · Bachelor of Science (Honours) in Business Studies · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "analysis",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) Financial Analysis",
+      "level": "undergraduate",
+      "field": "Financial analysis",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-financial-analysis",
+        "title": "Sunway University · Bachelor of Science (Honours) Financial Analysis · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_a14",
+        "sunway_mb_stpm",
+        "sunway_mb_f25",
+        "sunway_mb_uec28",
+        "sunway_mb_dip25",
+        "sunway_mb_math_credit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "economics",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) Financial Economics",
+      "level": "undergraduate",
+      "field": "Financial economics",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-financial-economics",
+        "title": "Sunway University · Bachelor of Science (Honours) Financial Economics · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_a14",
+        "sunway_mb_stpm",
+        "sunway_mb_f25",
+        "sunway_mb_uec28",
+        "sunway_mb_dip25",
+        "sunway_mb_math_credit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "supply",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) Global Supply Chain Management",
+      "level": "undergraduate",
+      "field": "Supply chain management",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-global-supply-chain-management",
+        "title": "Sunway University · Bachelor of Science (Honours) Global Supply Chain Management · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "global",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in International Business",
+      "level": "undergraduate",
+      "field": "International business",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-international-business",
+        "title": "Sunway University · Bachelor of Science (Honours) in International Business · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_intake_change",
+        "sunway_mb_atar",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "marketing",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) Marketing",
+      "level": "undergraduate",
+      "field": "Marketing",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-marketing",
+        "title": "Sunway University · Bachelor of Science (Honours) Marketing · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_can",
+        "sunway_mb_monash",
+        "sunway_mb_f20",
+        "sunway_mb_uec30",
+        "sunway_mb_dip20",
+        "sunway_mb_math_pass",
+        "sunway_mb_pte"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    },
+    {
+      "key": "accounting",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Hons) in Accounting and Finance",
+      "level": "undergraduate",
+      "field": "Accounting and finance",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-hons-accounting-and-finance",
+        "title": "Sunway University · Bachelor of Science (Hons) in Accounting and Finance · course entry and intakes",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_mb_intakes",
+        "sunway_mb_a14",
+        "sunway_mb_stpm",
+        "sunway_mb_f25",
+        "sunway_mb_uec28",
+        "sunway_mb_dip25",
+        "sunway_mb_advance",
+        "sunway_mb_math_credit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_tests"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Shared programme rules from the selected Sunway University course pages.",
+      "requirements": [
+        {
+          "key": "sunway_mb_intakes",
+          "label": "Published undergraduate intake months",
+          "details": "The course page lists February, May and September intakes. It does not associate the entry requirements with a particular admissions year.",
+          "category": "application",
+          "status": "considered",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_intake_change",
+          "label": "International Business intake calendar revision",
+          "details": "The September 2026 IB review recorded the earlier January, April and September schedule. For applications, use the intake months from the newer course calendar above.",
+          "category": "application",
+          "status": "considered",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-international-business",
+            "title": "Sunway University · Bachelor of Science (Honours) in International Business · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_a_stat",
+          "label": "A levels for Statistical Data Modelling",
+          "details": "Achieve at least 12 Sunway A-level points from two or three subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_a_fin",
+          "label": "A levels for Finance",
+          "details": "Earn at least 14 Sunway points from two or three A-level subjects. The course gives BC and CDD as grade combinations.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_a14",
+          "label": "A-level points and grade floors",
+          "details": "Earn at least 14 Sunway points, with D or higher in at least two A-level subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-science-honours-financial-analysis",
+            "title": "Sunway University · Bachelor of Science (Honours) Financial Analysis · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_stpm",
+          "label": "STPM entry grades",
+          "details": "Present an average of C+ or CGPA 2.33 and at least two STPM principal passes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_atar",
+          "label": "Australian matriculation",
+          "details": "The course lists an ATAR of at least 55 for Australian matriculation.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_can",
+          "label": "Canadian matriculation",
+          "details": "The Canadian matriculation entry threshold is 55%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_monash",
+          "label": "Monash University Foundation Year",
+          "details": "The Monash University Foundation Year route requires 55%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_f20",
+          "label": "Sunway foundation routes at CGPA 2.00",
+          "details": "The Foundation in Arts and the Foundation in Science and Technology each require a CGPA of 2.00.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_f25",
+          "label": "Sunway foundation routes at CGPA 2.50",
+          "details": "Applicants from Sunway’s Foundation in Arts or Foundation in Science and Technology need a CGPA of 2.50.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_uec26",
+          "label": "Unified Examination Certificate",
+          "details": "Five B-grade subjects must give a UEC aggregate of 26 points or fewer.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_uec28",
+          "label": "Unified Examination Certificate including mathematics",
+          "details": "Present five subjects at grade B, including mathematics, with a total of no more than 28 UEC points.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_uec30",
+          "label": "Unified Examination Certificate and mathematics pass",
+          "details": "The UEC aggregate must be no more than 30 points from five B-grade subjects. A pass in mathematics is also required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_dip50",
+          "label": "Sunway diploma route",
+          "details": "The Sunway diploma route accepts CAVG 50% or CGPA 2.00.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_dip20",
+          "label": "Sunway diploma grade",
+          "details": "A Sunway diploma with CGPA 2.00 or equivalent meets the listed diploma threshold.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_dip25",
+          "label": "Sunway diploma grade",
+          "details": "The Sunway diploma route requires CGPA 2.50. Finance, Financial Analysis and Financial Economics also explicitly allow an equivalent grade.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_math_credit",
+          "label": "School mathematics credit",
+          "details": "A credit in SPM mathematics or equivalent is required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_math_fin",
+          "label": "School mathematics for Finance",
+          "details": "Mathematics must be at credit level in SPM, O level or an equivalent qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_math_pass",
+          "label": "School mathematics pass",
+          "details": "Pass SPM mathematics or its equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-of-arts-honours-entrepreneurship",
+            "title": "Sunway University · Bachelor of Arts (Honours) Entrepreneurship · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_eng_bplus",
+          "label": "English evidence with the SPM B+ alternative",
+          "details": "Options include IELTS 6.0 or equivalent, MUET Band 4, SPM English B+, UEC English B6, or a credit in O-Level English (1119).",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_eng_fin",
+          "label": "English evidence for Finance",
+          "details": "Finance accepts IELTS 6.0 or equivalent, MUET Band 4, SPM English B, UEC English B6 or an O-level English credit.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_toefl",
+          "label": "TOEFL route",
+          "details": "The published TOEFL alternatives are 550 paper-based, 213 computer-based or 80 internet-based.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_mb_pte",
+          "label": "PTE Academic route",
+          "details": "Achieve at least 50 overall in PTE Academic and at least 46 in each skill.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/sunway-business-school/courses/bachelor-honours-finance",
+            "title": "Sunway University · Bachelor (Honours) in Finance · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Shared programme rules from the selected Sunway University course pages.",
+      "requirements": [
+        {
+          "key": "sunway_mb_advance",
+          "label": "Advanced standing after a Sunway diploma",
+          "details": "Students entering through the identified Sunway diploma route may receive advanced standing if they satisfy credit-transfer requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/courses/bachelor-of-science-honours-statistical-data-modelling",
+            "title": "Sunway University · Bachelor of Science (Honours) in Statistical Data Modelling · course entry and intakes",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}

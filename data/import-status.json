@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281944,
+            "programs": 281956,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3939,
+            "admissionProfiles": 3952,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26433,
+            "admissionRequirements": 26458,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1281
+            "qualificationRequirements": 1293
         },
         "ibCoverage": {
             "byCountry": [
@@ -73,8 +73,8 @@
                 {
                     "country": "Malaysia",
                     "institutions": 6,
-                    "programs_with_reviewed_ib": 65,
-                    "programs_with_published_totals": 65
+                    "programs_with_reviewed_ib": 77,
+                    "programs_with_published_totals": 77
                 },
                 {
                     "country": "Mauritius",
@@ -131,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1281,
-            "programsWithReviewedIb": 1078,
+            "reviewedRecords": 1293,
+            "programsWithReviewedIb": 1090,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 47,
-            "programsWithPublishedTotals": 784,
-            "undergraduateCatalogEntries": 196234
+            "programsWithPublishedTotals": 796,
+            "undergraduateCatalogEntries": 196246
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,31 +183,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4413,
-            "profiles": 1395,
+            "facts": 4438,
+            "profiles": 1396,
             "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T17:03:07Z",
+    "generatedAt": "2026-11-21T17:08:51Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
+        "inserted": 12,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-21T17:03:04.597242+00:00",
-        "updatedAt": "2026-11-21T17:03:04.612+00:00",
+        "processed": 12,
+        "startedAt": "2026-11-21T17:08:48.735038+00:00",
+        "updatedAt": "2026-11-21T17:08:48.778+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
+            "rowIndex": 12,
+            "sourceRows": 12,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T17:03:04.612+00:00",
-        "artifactSha256": "c81dd0784813bea3a23df1c6cbfa816f0746c1c68c5337b388d53c232b013f94",
-        "datasetVersion": "official-ib-rcsi-bahrain-prep-nursing-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T17:08:48.778+00:00",
+        "artifactSha256": "2e101e79ee802f9a06cd2907ea92ead87e0477f0280d97b98ca9c56371d075bb",
+        "datasetVersion": "official-ib-sunway-maths-business-2026-11-21-v1"
     },
     "schemaVersion": 2
 }
