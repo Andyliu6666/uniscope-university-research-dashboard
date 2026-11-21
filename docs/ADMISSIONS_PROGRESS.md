@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## University of Chester, UK · business, finance, marketing, events and tourism
+
+1. The BA ISAGO law milestone passed [both checks on main](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44917308869). Its complete database fingerprint matched the preview baseline.
+2. Fourteen official course pages in [Chester’s directory](https://www.chester.ac.uk/study/undergraduate/a-z/) provide separate September 2027 options and Home qualification tables. Degree title, UCAS code, start date and entry panel were matched for each option. The separate [US admissions policy](https://www.chester.ac.uk/international/countries/united-states/) documents US diploma, AP and other alternative routes.
+3. Fourteen direct-entry options list 28 IB points and twelve Foundation Year options list 24. The direct A-level tables give BCC–BBC, usually as a typical offer; the foundation tables give 72 UCAS points including an A level at D. [Accounting and Finance](https://www.chester.ac.uk/study/course-search/accounting-and-finance-bsc-hons/) also requires GCSE Mathematics at C/4. Economics and FinTech is subject to approval. Thirteen placement codes have no separately identified entry table and remain pending.
+4. The batch created 26 programme options, 26 structured IB scores and nine general requirements. Its 272 general programme associations include 237 references to previously stored rules. For example, two relevant AP tests at grade 3 or higher are one US Year 1 option alongside a high school diploma with GPA 3.0. Both previews wrote zero rows. Repeats added zero records or links and prior fact content survived the imports.
+5. After rebuilding the API, the bundled source files matched their workspace hashes. The website proxy returned all 55 Chester IB records, 119 general requirements and 575 course associations, including filtered programme searches. All 43 BA ISAGO programme searches also passed. The full data quality check passed after API readiness.
+6. The database has 4,242 reviewed general admissions facts across 91 institutions, plus 1,267 official IB records and 771 programmes with published IB totals. The complete database archive `backups/post-chester-business-20261121.dump` passed the full restore-stream check with SHA-256 `4c34faa4f35dc8299694fa133976f12779dbd285615548126701a3b2c259f4fe`. Resume the remaining BA ISAGO faculties and continue alternating with programmes that publish qualification-specific scores.
+
 ## BA ISAGO University, Botswana · Law and Paralegal Studies
 
 1. The Commerce milestone passed both GitHub jobs on commit `2e656e4`. Its full database fingerprint matched the baseline for this batch.

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281873,
+            "programs": 281899,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3891,
+            "admissionProfiles": 3917,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26253,
+            "admissionRequirements": 26262,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1241
+            "qualificationRequirements": 1267
         },
         "ibCoverage": {
             "byCountry": [
@@ -121,16 +121,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 4,
-                    "programs_with_reviewed_ib": 126,
-                    "programs_with_published_totals": 125
+                    "programs_with_reviewed_ib": 152,
+                    "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1241,
-            "programsWithReviewedIb": 1038,
+            "reviewedRecords": 1267,
+            "programsWithReviewedIb": 1064,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 46,
-            "programsWithPublishedTotals": 745,
-            "undergraduateCatalogEntries": 196174
+            "programsWithPublishedTotals": 771,
+            "undergraduateCatalogEntries": 196200
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,32 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4233,
+            "facts": 4242,
             "profiles": 1385,
             "institutions": 91
         }
     },
-    "generatedAt": "2026-11-21T15:05:24Z",
+    "generatedAt": "2026-11-21T15:09:32Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 12,
-        "provider": "official_admissions",
+        "inserted": 26,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 12,
-        "startedAt": "2026-11-21T15:04:42.283836+00:00",
-        "updatedAt": "2026-11-21T15:04:42.283836+00:00",
+        "processed": 26,
+        "startedAt": "2026-11-21T15:09:18.422361+00:00",
+        "updatedAt": "2026-11-21T15:09:18.494+00:00",
         "checkpoint": {
-            "profiles": 8,
-            "admissionFacts": 12,
-            "programsReused": 0,
-            "programsCreated": 9,
-            "priorSharedLinksAdded": 25
+            "rowIndex": 26,
+            "sourceRows": 26,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T15:04:42.351+00:00",
-        "artifactSha256": "5e4bfab61cd52524b9bda25749f0908aa6142dfa7e4c4eed9a1322b3ef194318",
-        "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1"
+        "finishedAt": "2026-11-21T15:09:18.494+00:00",
+        "artifactSha256": "31f4fe29cc53e73ec5f05623581c2d8b576ba73e513d8fadc8cce8696a8245cd",
+        "datasetVersion": "official-ib-chester-business-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }
