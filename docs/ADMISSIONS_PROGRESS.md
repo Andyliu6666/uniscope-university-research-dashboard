@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## BA ISAGO University, Botswana · Built Environment and Education
+
+1. The database matched the Chester business checkpoint on `245c9b2`, including the prior general and IB row fingerprints. The preceding full backup matched its saved checksum.
+2. Reviewed both columns of the [2026 programme guide](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf) on printed pages 20–22 and 24–25, the [award list](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-List-2026-.pdf) and 28 official programme pages. Matched the duplicate Real Estate Finance and Investment table, Housing Administration listing and Curriculum Design certificate pages by award.
+3. Added 31 awards, 52 admissions requirements and 149 programme associations. These include 26 awards on the 2026 list and five further education awards with undated admissions pages. Those five carry explicit intake confirmation notices. Botswana school results, NCQF qualifications, postgraduate entry, work experience and transfer have distinct scopes. The 2026 and undated Real Estate rules differ, with the discrepancies recorded against the affected degree and certificate. No programme-level IB, A-level or AP threshold was verified for this batch.
+4. Validation and dry run wrote zero rows. The import created all 31 programmes, inserted 52 facts and linked 88 previously stored rules to programmes. The repeat wrote no additional facts or links. Earlier fact content and IB rows matched their baseline fingerprints.
+5. The local website returned all 74 BA ISAGO awards in programme-specific admissions searches. Its 100 distinct facts and 360 associations matched the datasets, including citations, levels, intakes and applicant scope. Database, API and website quality checks passed. The rebuilt API contains the matching source artifact.
+6. Reviewed general admissions now total 4,294 facts across 91 institutions. The complete database archive `backups/post-baisago-remaining-faculties-20261121.dump` passed a full read through the restore stream and has SHA-256 `5feed9c8cbdd9c38a875151450dfec3874a8909265a1c76af0b2c97247d6df5f`. The Malaysian Sunway University computing and engineering tables supply the next source of programme-specific scores.
+
 ## University of Chester, UK · business, finance, marketing, events and tourism
 
 1. The BA ISAGO law milestone passed [both checks on main](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44917308869). Its complete database fingerprint matched the preview baseline.

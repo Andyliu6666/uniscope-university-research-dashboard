@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281899,
+            "programs": 281930,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3917,
+            "admissionProfiles": 3918,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26262,
+            "admissionRequirements": 26314,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1267
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 46,
             "programsWithPublishedTotals": 771,
-            "undergraduateCatalogEntries": 196200
+            "undergraduateCatalogEntries": 196220
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4242,
-            "profiles": 1385,
+            "facts": 4294,
+            "profiles": 1386,
             "institutions": 91
         }
     },
-    "generatedAt": "2026-11-21T15:09:32Z",
+    "generatedAt": "2026-11-21T16:02:19Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 26,
-        "provider": "official_ib",
+        "inserted": 52,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 26,
-        "startedAt": "2026-11-21T15:09:18.422361+00:00",
-        "updatedAt": "2026-11-21T15:09:18.494+00:00",
+        "processed": 52,
+        "startedAt": "2026-11-21T16:02:17.909185+00:00",
+        "updatedAt": "2026-11-21T16:02:17.909185+00:00",
         "checkpoint": {
-            "rowIndex": 26,
-            "sourceRows": 26,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 10,
+            "admissionFacts": 52,
+            "programsReused": 0,
+            "programsCreated": 31,
+            "priorSharedLinksAdded": 88
         },
-        "finishedAt": "2026-11-21T15:09:18.494+00:00",
-        "artifactSha256": "31f4fe29cc53e73ec5f05623581c2d8b576ba73e513d8fadc8cce8696a8245cd",
-        "datasetVersion": "official-ib-chester-business-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T16:02:18.046+00:00",
+        "artifactSha256": "2acb4bf6812f1ca0901180b4495e7d842217a1be4fbf7da329c624441dddcdce",
+        "datasetVersion": "official-admissions-baisago-remaining-faculties-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

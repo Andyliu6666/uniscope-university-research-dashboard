@@ -1,0 +1,1612 @@
+{
+  "datasetVersion": "official-admissions-baisago-remaining-faculties-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "baisago",
+      "name": "Ba Isago University",
+      "provider": "ror",
+      "externalId": "04ramkt35",
+      "countryCode": "BW",
+      "officialDomains": ["baisago.ac.bw"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "eco",
+      "institutionKey": "baisago",
+      "name": "Master of Science in Ecotourism",
+      "field": "Ecotourism",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_rpl_cat"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_eco"]
+    },
+    {
+      "key": "climate",
+      "institutionKey": "baisago",
+      "name": "Master of Science in Climate Change and Sustainable Development",
+      "field": "Climate change and sustainable development",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_climate", "bai_fac_climate_credit"]
+    },
+    {
+      "key": "construction",
+      "institutionKey": "baisago",
+      "name": "Master of Science in Construction Project Management",
+      "field": "Construction project management",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_construction", "bai_fac_grad_rpl", "bai_fac_grad_credit"]
+    },
+    {
+      "key": "environment",
+      "institutionKey": "baisago",
+      "name": "Master of Science in Environmental Health",
+      "field": "Environmental health",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_rpl_cat"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_environment"]
+    },
+    {
+      "key": "urban",
+      "institutionKey": "baisago",
+      "name": "Master of Urban Planning and Design",
+      "field": "Urban planning and design",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_rpl_cat"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_urban"]
+    },
+    {
+      "key": "propertyfinance",
+      "institutionKey": "baisago",
+      "name": "Master of Science in Real Estate Finance and Investment",
+      "field": "Real estate finance and investment",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 20",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_investment", "bai_fac_grad_rpl", "bai_fac_grad_credit"]
+    },
+    {
+      "key": "housing",
+      "institutionKey": "baisago",
+      "name": "Postgraduate Diploma in Housing Administration",
+      "field": "Housing administration",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 21",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_rpl_cat"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_housing"]
+    },
+    {
+      "key": "property",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Commerce in Real Estate",
+      "field": "Real estate",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 21",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1",
+          "key": "bai_law_rpl"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1",
+          "key": "bai_law_credit"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_property", "bai_fac_property_web"]
+    },
+    {
+      "key": "she",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Science in Safety, Health and Environmental Management",
+      "field": "Safety, health and environmental management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 21",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_she", "bai_fac_she_special", "bai_fac_she_exempt"]
+    },
+    {
+      "key": "facilities",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Science in Facilities Management",
+      "field": "Facilities management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 21",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_english_d"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_ovc"
+        }
+      ]
+    },
+    {
+      "key": "landscape",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Arts in Landscape Architecture",
+      "field": "Landscape architecture",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_ovc"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_landscape"]
+    },
+    {
+      "key": "survey",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Science Honours in Quantity Surveying",
+      "field": "Quantity surveying",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1",
+          "key": "bai_law_rpl"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1",
+          "key": "bai_law_credit"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_survey"]
+    },
+    {
+      "key": "safety",
+      "institutionKey": "baisago",
+      "name": "Diploma in Occupational Health and Safety",
+      "field": "Occupational health and safety",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate_to_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ]
+    },
+    {
+      "key": "real_dip",
+      "institutionKey": "baisago",
+      "name": "Diploma in Real Estate",
+      "field": "Real estate",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate_to_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ]
+    },
+    {
+      "key": "real_cert",
+      "institutionKey": "baisago",
+      "name": "Certificate in Real Estate",
+      "field": "Real estate",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_real_cert",
+        "bai_fac_real_cert_rpl",
+        "bai_fac_real_cert_web"
+      ]
+    },
+    {
+      "key": "land_cert",
+      "institutionKey": "baisago",
+      "name": "Certificate in Landscape Design and Construction",
+      "field": "Landscape design and construction",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 22",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ]
+    },
+    {
+      "key": "child_master",
+      "institutionKey": "baisago",
+      "name": "Master of Education in Early Childhood Development",
+      "field": "Early childhood development",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 24",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_child_master", "bai_fac_child_master_exp"]
+    },
+    {
+      "key": "lead_master",
+      "institutionKey": "baisago",
+      "name": "Master of Educational Leadership and Management",
+      "field": "Educational leadership and management",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 24",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_lead_master", "bai_fac_lead_exp", "bai_fac_lead_fast"]
+    },
+    {
+      "key": "special",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education in Special and Inclusive Education",
+      "field": "Special and inclusive education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 24",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_english_d"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_ovc"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_inclusive_block"]
+    },
+    {
+      "key": "general",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education (General)",
+      "field": "Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 24",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_general",
+        "bai_fac_general_dip",
+        "bai_fac_general_mature",
+        "bai_fac_general_block"
+      ]
+    },
+    {
+      "key": "counsel",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Arts in Counselling",
+      "field": "Counselling",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 25",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_english_d"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_ovc"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_inclusive_block"]
+    },
+    {
+      "key": "child_dip",
+      "institutionKey": "baisago",
+      "name": "Diploma in Early Childhood Education",
+      "field": "Early childhood education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 25",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate_to_diploma"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_child_dip_normal",
+        "bai_fac_child_dip_credits",
+        "bai_fac_child_mature"
+      ]
+    },
+    {
+      "key": "child_cert",
+      "institutionKey": "baisago",
+      "name": "Certificate in Early Childhood Education",
+      "field": "Early childhood education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 25",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ]
+    },
+    {
+      "key": "cvet",
+      "institutionKey": "baisago",
+      "name": "Certificate in Vocational Education and Training",
+      "field": "Vocational education and training",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · p. 25",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_vocational", "bai_fac_vocational_rpl"]
+    },
+    {
+      "key": "child_bed",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education in Early Childhood Education",
+      "field": "Early childhood education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-early-childhood-education/",
+        "title": "BA ISAGO · Bachelor of Education in Early Childhood Education · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_early_bed",
+        "bai_fac_early_bed_exp",
+        "bai_fac_early_bed_dip",
+        "bai_fac_early_bed_ovc"
+      ]
+    },
+    {
+      "key": "curriculum",
+      "institutionKey": "baisago",
+      "name": "Postgraduate Certificate in Curriculum Design and Development",
+      "field": "Curriculum design and development",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/postgraduate-certificate-in-curriculum-design-and-development/",
+        "title": "BA ISAGO · Postgraduate Certificate in Curriculum Design and Development · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_curriculum"]
+    },
+    {
+      "key": "teach_math",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education in Mathematics",
+      "field": "Mathematics education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-mathematics/",
+        "title": "BA ISAGO · Bachelor of Education in Mathematics · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_math_bed",
+        "bai_fac_math_prog",
+        "bai_fac_math_mature",
+        "bai_fac_intake_undergrad"
+      ]
+    },
+    {
+      "key": "teach_eng",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education in English Language",
+      "field": "English language education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-english-language/",
+        "title": "BA ISAGO · Bachelor of Education in English Language · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_subject_bed",
+        "bai_fac_subject_bed_dip",
+        "bai_fac_subject_bed_mature",
+        "bai_fac_intake_undergrad"
+      ]
+    },
+    {
+      "key": "teach_soc",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Education in Social Studies",
+      "field": "Social studies education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-social-studies/",
+        "title": "BA ISAGO · Bachelor of Education in Social Studies · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_subject_bed",
+        "bai_fac_subject_bed_dip",
+        "bai_fac_subject_bed_mature",
+        "bai_fac_intake_undergrad"
+      ]
+    },
+    {
+      "key": "npde",
+      "institutionKey": "baisago",
+      "name": "National Professional Diploma in Education",
+      "field": "Professional teacher education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/national-professional-diploma-in-education-n/",
+        "title": "BA ISAGO · National Professional Diploma in Education (NPDE) · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_fac_npde",
+        "bai_fac_npde_rpl",
+        "bai_fac_npde_letter",
+        "bai_fac_intake_undergrad"
+      ]
+    },
+    {
+      "key": "pg_lead",
+      "institutionKey": "baisago",
+      "name": "Postgraduate Diploma in Educational Leadership and Management",
+      "field": "Educational leadership and management",
+      "level": "graduate",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/post-graduate-diploma-in-educational-leadership-management/",
+        "title": "BA ISAGO · Post Graduate Diploma in Educational Leadership & Management · admissions",
+        "checkedOn": "2026-11-21"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_fac_pg_lead", "bai_fac_intake_grad"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_eco",
+          "label": "Prior degree for Ecotourism",
+          "details": "The academic route requires a Level 8 science honours qualification in environmental science, environmental management, life sciences or a related field.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_climate",
+          "label": "Prior qualification for Climate Change and Sustainable Development",
+          "details": "The programme lists an honours bachelor’s degree or postgraduate diploma at NCQF Level 8. Accepted fields include environmental management, environmental science, social sciences, life sciences and related disciplines.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_construction",
+          "label": "Academic entry to Construction Project Management",
+          "details": "The academic route starts at NCQF Level 7, a bachelor’s degree or an equivalent qualification. The table gives no compulsory first-degree discipline.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_urban",
+          "label": "Previous study for Urban Planning and Design",
+          "details": "Present a Level 7 bachelor’s degree in urban planning and design or a related field.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_environment",
+          "label": "Previous study for Environmental Health",
+          "details": "Present an NCQF Level 7 bachelor’s degree in environmental health or a related field.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_investment",
+          "label": "Previous study for Real Estate Finance and Investment",
+          "details": "Hold a bachelor’s degree at NCQF Level 7 or higher from a recognised institution in real estate, property studies, finance and investment, or a related discipline.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_housing",
+          "label": "Previous study for Housing Administration",
+          "details": "Present a Level 7 bachelor’s degree from a recognised, fully accredited institution. A built environment or related degree is preferred.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_child_master",
+          "label": "Prior degree for Early Childhood Development",
+          "details": "The academic route requires a Level 7 bachelor’s degree in early childhood or infant education from a recognised education and training provider.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_lead_exp",
+          "label": "Educational leadership experience",
+          "details": "The master’s entry table specifies at least two years of relevant work in an educational setting.",
+          "status": "required",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_climate_credit",
+          "label": "Credit transfer and prior learning",
+          "details": "Eligible applicants can use the university’s processes for assessment of prior learning or the accumulation and transfer of credit.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_grad_rpl",
+          "label": "Graduate entry through prior learning",
+          "details": "Candidates below the standard academic threshold can have prior learning assessed under national policy.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_child_master_exp",
+          "label": "Alternative graduate entry with experience",
+          "details": "Applicants with a degree in another subject and at least five years of relevant work experience may be considered by the Academic Affairs Board, which may require an entrance interview.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_lead_fast",
+          "label": "Accelerated graduate progression",
+          "details": "Holders of the postgraduate diploma in Educational Leadership and Management may complete the master’s programme in two semesters (12 months).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_grad_credit",
+          "label": "Graduate transfer credit",
+          "details": "Applicants transferring from another institution can seek to carry forward credits under the national credit accumulation and transfer policy.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 20",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_property",
+          "label": "School qualifications for Real Estate",
+          "details": "For the BCom, the 2026 guide lists NCQF Level 4 (for example BGCSE), or equivalent, including a pass in English.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_she",
+          "label": "Science subjects for Safety, Health and Environmental Management",
+          "details": "The school route requires at least 36 BGCSE points or equivalent, English at D or higher and a credit at C in science, mathematics or statistics.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 21",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_landscape",
+          "label": "School subjects for Landscape Architecture",
+          "details": "The BGCSE route requires at least 36 points or equivalent with an English pass at grade D and a Mathematics credit at grade C.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 22",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_survey",
+          "label": "School or vocational certificate for Quantity Surveying Honours",
+          "details": "Present at least Certificate IV at NCQF Level 4 in technical and vocational education and training or general education, or an equivalent qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 22",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_real_cert",
+          "label": "Qualification for the Real Estate certificate",
+          "details": "The 2026 programme table lists Certificate IV at NCQF Level 4, in either general education or technical and vocational education and training.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 22",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_general",
+          "label": "School results for Education (General)",
+          "details": "The school-leaver route requires at least five BGCSE credits or equivalent, including a pass in English.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_child_dip_normal",
+          "label": "Certificate IV and Certificate V pathways",
+          "details": "The normal routes list a Level 4 Certificate IV in general education with English (or equivalent), and a recognised Level 5 Certificate V in Early Childhood Education. The official programme page describes a different credit load for each entry qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_vocational",
+          "label": "Qualifications for vocational teacher training",
+          "details": "Applicants may enter with a diploma or degree in a vocational subject. A vocational certificate is another route when accompanied by at least three years of teaching or training experience.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 25",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_property_web",
+          "label": "Confirm which Real Estate degree entry rules apply",
+          "details": "The undated course page lists 36 BGCSE points including English D, a relevant diploma alternative, or two years of relevant work subject to board approval. It also lists 31 points for orphans, vulnerable children and other qualifying groups. The 2026 guide instead describes Level 4 with an English pass and prior-learning or transfer provisions. Confirm the applicable route for the intended intake.",
+          "status": "unknown",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-commerce-in-real-estate/",
+            "title": "BA ISAGO · Bachelor of Commerce in Real Estate · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_she_special",
+          "label": "Consideration for designated applicant groups",
+          "details": "The separate programme page gives 31 BGCSE points for orphans and vulnerable children and other qualifying special-interest groups. Its intake year is unspecified.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-science-in-safety-health-and-environmental-management-2-2/",
+            "title": "BA ISAGO · Bachelor of Science in Safety, Health and Environmental Management · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_real_cert_web",
+          "label": "Confirm the Real Estate certificate entry route",
+          "details": "The undated course page gives two BGCSE credits plus subject passes, or at least two years of relevant work experience subject to Academic Affairs Board review. The 2026 guide specifies Certificate IV or access under prior-learning and transfer policies. Confirm the rule for the chosen intake.",
+          "status": "unknown",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/certificate-in-real-estate/",
+            "title": "BA ISAGO · Certificate in Real Estate · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_early_bed",
+          "label": "Early Childhood Education degree entry",
+          "details": "The programme page specifies 36 BGCSE points or equivalent, including at least D in English and the applicable subject passes.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-early-childhood-education/",
+            "title": "BA ISAGO · Bachelor of Education in Early Childhood Education · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_early_bed_ovc",
+          "label": "Designated applicant groups in Early Childhood Education",
+          "details": "The entry page gives 31 BGCSE points for orphans and vulnerable children and other eligible special-interest groups.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-early-childhood-education/",
+            "title": "BA ISAGO · Bachelor of Education in Early Childhood Education · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_subject_bed",
+          "label": "School results for subject teacher education",
+          "details": "The school route calls for five or more BGCSE credits or equivalent, including an English pass.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-english-language/",
+            "title": "BA ISAGO · Bachelor of Education in English Language · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_math_bed",
+          "label": "School results for Mathematics Education",
+          "details": "Present five or more BGCSE credits or their equivalent, including an English pass and a mathematics credit.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-mathematics/",
+            "title": "BA ISAGO · Bachelor of Education in Mathematics · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_npde",
+          "label": "Practising teacher qualifications for the professional diploma",
+          "details": "Applicants must be practising teachers with at least three years of teaching experience and a Junior Certificate, BGCSE or equivalent. A Primary School Teacher’s Certificate or equivalent is normally needed.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/national-professional-diploma-in-education-n/",
+            "title": "BA ISAGO · National Professional Diploma in Education (NPDE) · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_npde_letter",
+          "label": "Evidence of current teaching employment",
+          "details": "All applicants must submit an official letter from their head of school confirming their current employment.",
+          "status": "required",
+          "category": "document",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/national-professional-diploma-in-education-n/",
+            "title": "BA ISAGO · National Professional Diploma in Education (NPDE) · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_intake_undergrad",
+          "label": "Confirm the available intake",
+          "details": "The university publishes a dedicated programme page, but the award is absent from its short 2026 programme list. Confirm availability directly before applying.",
+          "status": "unknown",
+          "category": "application",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-List-2026-.pdf",
+            "title": "BA ISAGO 2026 Programme List · Faculty of Education, p. 2",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_she_exempt",
+          "label": "Exemption from individual courses",
+          "details": "Students may receive exemptions for selected courses if approved under institutional regulations.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 21",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_real_cert_rpl",
+          "label": "Alternative entry to the Real Estate certificate",
+          "details": "Applicants missing the usual certificate can be considered under prior-learning and credit-transfer policies at the training provider or national level.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 22",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_general_dip",
+          "label": "Entry with a Secondary Education diploma",
+          "details": "A Diploma in Secondary Education or its equivalent from a recognised institution in the SADC region or elsewhere is an alternative qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_general_mature",
+          "label": "Mature entry to Education (General)",
+          "details": "Applicants with at least three years of relevant work experience may be considered. Prior learning may be assessed for mature entry.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_general_block",
+          "label": "Block release with a diploma",
+          "details": "The guide gives a two- to three-year block-release route for diploma holders.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 24",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_inclusive_block",
+          "label": "Diploma-holder progression",
+          "details": "The guide gives a 30-month block-release or part-time route for diploma holders.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · pp. 24–25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_child_mature",
+          "label": "Mature entry with employment evidence",
+          "details": "Applicants using mature entry need NCQF Level 4, at least three years of relevant work and a reference letter confirming that experience.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 25",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_vocational_rpl",
+          "label": "Recognition of vocational competence",
+          "details": "Applicants can demonstrate competence in a vocational field through approved assessment of prior learning or recognition of current competence under BA ISAGO regulations.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · p. 25",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_lead_master",
+          "label": "Qualifications for Educational Leadership and Management",
+          "details": "The school lists a recognised first degree in a teaching-related subject (arts, science or technology). Its programme page also allows the postgraduate diploma in Educational Leadership and Management as an alternative.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/master-of-educational-leadership-and-management/",
+            "title": "BA ISAGO · Master of Educational Leadership and Management · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_curriculum",
+          "label": "Degree for Curriculum Design and Development",
+          "details": "Present a completed degree in education, social sciences, business studies, science or humanities.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/postgraduate-certificate-in-curriculum-design-and-development/",
+            "title": "BA ISAGO · Postgraduate Certificate in Curriculum Design and Development · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_pg_lead",
+          "label": "Prior qualification for the leadership diploma",
+          "details": "Applicants need a completed education degree or an equivalent qualification.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/post-graduate-diploma-in-educational-leadership-management/",
+            "title": "BA ISAGO · Post Graduate Diploma in Educational Leadership & Management · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_intake_grad",
+          "label": "Confirm the available intake",
+          "details": "The university publishes a dedicated programme page, but the award is absent from its short 2026 programme list. Confirm availability directly before applying.",
+          "status": "unknown",
+          "category": "application",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-List-2026-.pdf",
+            "title": "BA ISAGO 2026 Programme List · Faculty of Education, p. 2",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_child_dip_credits",
+          "label": "Credit loads by entry qualification",
+          "details": "The programme page assigns 360 study credits to entry with Level 4 general education and a pass in English, and 240 credits to entry with Level 5 Early Childhood Education or its equivalent.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/diploma-in-early-childhood-education/",
+            "title": "BA ISAGO · Diploma in Early Childhood Education · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_early_bed_exp",
+          "label": "Non-standard entry to Early Childhood Education",
+          "details": "Applicants without the usual academic qualifications may be considered by the board with at least two years of relevant work.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-early-childhood-education/",
+            "title": "BA ISAGO · Bachelor of Education in Early Childhood Education · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_early_bed_dip",
+          "label": "Early Childhood Education entry with a diploma",
+          "details": "A completed relevant diploma or equivalent supplies an alternative route to the degree.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-early-childhood-education/",
+            "title": "BA ISAGO · Bachelor of Education in Early Childhood Education · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_subject_bed_dip",
+          "label": "Secondary teacher-training diploma route",
+          "details": "A Secondary Education diploma or equivalent from a recognised institution in the SADC region or elsewhere can support entry.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-english-language/",
+            "title": "BA ISAGO · Bachelor of Education in English Language · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_subject_bed_mature",
+          "label": "Experience-based entry for subject teachers",
+          "details": "Applicants missing the academic qualifications may be considered with at least three years of relevant experience. The university may assess prior learning.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-english-language/",
+            "title": "BA ISAGO · Bachelor of Education in English Language · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_math_mature",
+          "label": "Mature entry to Mathematics Education",
+          "details": "Applicants below standard entry need at least three years of relevant experience for consideration by the Academic Affairs Board. Mature-entry assessment uses the university’s prior-learning policy.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-mathematics/",
+            "title": "BA ISAGO · Bachelor of Education in Mathematics · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_fac_npde_rpl",
+          "label": "Prior learning in place of the Primary School Teacher’s Certificate",
+          "details": "Applicants without this teaching certificate may seek recognition of prior learning, subject to the Academic Affairs Board’s approval.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/national-professional-diploma-in-education-n/",
+            "title": "BA ISAGO · National Professional Diploma in Education (NPDE) · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_fac_math_prog",
+          "label": "Advanced standing in Mathematics Education",
+          "details": "The university lists Year 2 for applicants with a relevant primary education diploma in mathematics and Year 3 with a relevant secondary education diploma in mathematics, from a tertiary teacher education institution or equivalent.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/bachelor-of-education-in-mathematics/",
+            "title": "BA ISAGO · Bachelor of Education in Mathematics · admissions",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
