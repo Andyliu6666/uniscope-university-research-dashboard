@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282040,
+            "programs": 282074,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4027,
+            "admissionProfiles": 4064,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26558,
+            "admissionRequirements": 26614,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1364
+            "qualificationRequirements": 1397
         },
         "ibCoverage": {
             "byCountry": [
@@ -43,7 +43,7 @@
                 {
                     "country": "Fiji",
                     "institutions": 2,
-                    "programs_with_reviewed_ib": 66,
+                    "programs_with_reviewed_ib": 99,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -131,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1364,
-            "programsWithReviewedIb": 1161,
+            "reviewedRecords": 1397,
+            "programsWithReviewedIb": 1194,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 48,
             "programsWithPublishedTotals": 801,
-            "undergraduateCatalogEntries": 196323
+            "undergraduateCatalogEntries": 196357
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,31 +183,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4538,
-            "profiles": 1400,
+            "facts": 4594,
+            "profiles": 1404,
             "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T18:10:48Z",
+    "generatedAt": "2026-11-21T23:50:43Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 5,
+        "inserted": 33,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 5,
-        "startedAt": "2026-11-21T18:10:41.311359+00:00",
-        "updatedAt": "2026-11-21T18:10:41.337+00:00",
+        "processed": 33,
+        "startedAt": "2026-11-21T23:50:36.193598+00:00",
+        "updatedAt": "2026-11-21T23:50:36.286+00:00",
         "checkpoint": {
-            "rowIndex": 5,
-            "sourceRows": 5,
+            "rowIndex": 33,
+            "sourceRows": 33,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T18:10:41.337+00:00",
-        "artifactSha256": "ed187de49d793c84d9f734cb73f6e4822756d25688c191818910b7821b09ccca",
-        "datasetVersion": "official-ib-sunway-health-sciences-2026-11-21-v1"
+        "finishedAt": "2026-11-21T23:50:36.286+00:00",
+        "artifactSha256": "91d4366b33cef2bca77f2a4727508738f1d1e8c2e440bf4ab738de325477dbc5",
+        "datasetVersion": "official-ib-fnu-engineering-certificates-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## Fiji National University · 2027 science entry and technical certificates
+
+1. The local database matched the Sunway health checkpoint on `b448ca8`. The preceding backup passed its checksum. The 2027 [official FNU prospectus](https://www.fnu.ac.fj/study/2027-fnu-prospectus/) linked to the same PDF as the previous Fiji import (SHA-256 `a19f80339d34c8ce55fb69843e079eb094727008b45a0387b0300fae4270e9d8`).
+2. Reviewed the printed programme and campus columns on pages 55–62. These contain two science entry programmes, eleven Level 3 certificates and 21 Level 4 certificates. The Geology row prints qualification text twice, including in the award-name column. Automotive Engineering Level 3 lists only the ATAR alternative and has no IB requirement in its row.
+3. The mechanical and avionics Aircraft Maintenance certificates list 280/400 in Fiji Year 12, at least 50% in English, maths, physics and one additional science or technology subject, quota-based selection and an IB route with unweighted GPA 2.86 and weighted GPA 3.57. For 31 other awards the published IB figures are 2.29 and 2.86 respectively. The source gives no IB Diploma points or AP or A-level conversion. Joinery Level III admits applicants directly to quarter three of Level 4. The indentured machining route specifies at least five years in industry, while welding specifies two to three.
+4. Added 34 programmes, 56 general facts and 33 IB policies. The 222 programme associations include 21 links to earlier blended-entry facts. Campus-only and mixed-mode programmes retain their own scope. Both previews wrote zero rows, both repeat imports added zero records, and the previous general fact content and IB records passed their fingerprint comparisons.
+5. Website searches checked all 34 new and 92 previous Fiji course entries. Every new general association and all 33 IB policies matched the evidence records. Rendered searches verified the higher aviation GPAs, the geology GPAs, the aviation school grades and the quarter-three joinery route. The rebuilt API, website and database quality checks passed.
+6. There are 4,594 reviewed general facts and 1,397 IB records, with 801 programmes having published IB totals. Restore-stream verification passed for `backups/post-fnu-engineering-certificates-20261121.dump` (SHA-256 `a6bd79ea5085e3f70dcad5d2aad17d8ce360fc24fe5cc6641fd301873995949b`). Fiji’s next table starts on page 63. The next rotation covers course-specific AP, IB and A-level routes at RCSI Dublin.
+
 ## Sunway University, Malaysia · medical and life sciences
 
 1. The database fingerprint and full backup checksum matched the Fiji business checkpoint on `5aba3b5`. The six course pages belong to Sunway University (ROR `04mjt7f73`). The faculty sitemap contained 31 entries. The medical doctorate, medical biotechnology degree and nursing diploma use URL patterns that the earlier bachelor’s-only search missed.
