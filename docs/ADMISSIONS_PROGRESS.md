@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## BA ISAGO University, Botswana · Law and Paralegal Studies
+
+1. The Commerce milestone passed both GitHub jobs on commit `2e656e4`. Its full database fingerprint matched the baseline for this batch.
+2. The [2026 programme guide](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf) gives award-specific entries on pages 28–29. The [2026 programme list](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-List-2026-.pdf) also lists the Certificate in Law. Its [separate admissions page](https://marketing.baisago.ac.bw/certificate-in-law/) has no intake year. Gender and Transformation has a guide entry but is absent from the short list. Its intake availability needs confirmation.
+3. Nine awards add 12 distinct requirements and 42 programme associations, including 25 associations to previously recorded requirements. The Court Administration diploma accepts Certificate IV in general education or TVET. The Court Administration certificate has a separate BGCSE route. BGCSE points and NCQF levels retain their original meaning.
+4. Schema validation and preview wrote zero rows. The import added all 12 facts and all nine awards. Repeating it added zero rows or links. Earlier fact content and IB records matched their baseline fingerprints.
+5. The website API returned the expected requirements for all 43 BA ISAGO programme searches, comprising 48 facts and 211 associations across Commerce and Law. Citations, dates, route and level matched the reviewed files. Database, API and website checks passed.
+6. The database contains 4,233 reviewed general admissions facts across 91 institutions. The complete archive `backups/post-baisago-law-20261121.dump` passed the full restore-stream check with SHA-256 `2a42910ac6e9d051ddb0bf9d7c970c037f23078f89d5591ecf2612edb3a43898`. Built Environment and Education remain in the source queue.
+
 ## BA ISAGO University, Botswana · Commerce
 
 1. Chester commit `9d74327` and its database fingerprint supplied the baseline. BA ISAGO had zero programmes and zero admissions profiles.

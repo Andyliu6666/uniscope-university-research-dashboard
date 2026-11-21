@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281864,
+            "programs": 281873,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3889,
+            "admissionProfiles": 3891,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26241,
+            "admissionRequirements": 26253,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1241
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 46,
             "programsWithPublishedTotals": 745,
-            "undergraduateCatalogEntries": 196167
+            "undergraduateCatalogEntries": 196174
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4221,
-            "profiles": 1383,
+            "facts": 4233,
+            "profiles": 1385,
             "institutions": 91
         }
     },
-    "generatedAt": "2026-11-21T14:58:56Z",
+    "generatedAt": "2026-11-21T15:05:24Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 36,
+        "inserted": 12,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 36,
-        "startedAt": "2026-11-21T14:58:24.498301+00:00",
-        "updatedAt": "2026-11-21T14:58:24.498301+00:00",
+        "processed": 12,
+        "startedAt": "2026-11-21T15:04:42.283836+00:00",
+        "updatedAt": "2026-11-21T15:04:42.283836+00:00",
         "checkpoint": {
             "profiles": 8,
-            "admissionFacts": 36,
+            "admissionFacts": 12,
             "programsReused": 0,
-            "programsCreated": 34
+            "programsCreated": 9,
+            "priorSharedLinksAdded": 25
         },
-        "finishedAt": "2026-11-21T14:58:24.622+00:00",
-        "artifactSha256": "1dedfc26475c17af5e129a8dbf6ee42aa4cb83c7ff3eb812271819313c6b78d2",
-        "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1"
+        "finishedAt": "2026-11-21T15:04:42.351+00:00",
+        "artifactSha256": "5e4bfab61cd52524b9bda25749f0908aa6142dfa7e4c4eed9a1322b3ef194318",
+        "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

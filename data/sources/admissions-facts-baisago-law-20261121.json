@@ -1,0 +1,500 @@
+{
+  "datasetVersion": "official-admissions-baisago-law-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "baisago",
+      "name": "Ba Isago University",
+      "provider": "ror",
+      "externalId": "04ramkt35",
+      "countryCode": "BW",
+      "officialDomains": ["baisago.ac.bw"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "publiclaw",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Arts in Law and Public Administration",
+      "field": "Law and public administration",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_english_d"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma_to_degree"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_ovc"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ]
+    },
+    {
+      "key": "gender",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Arts in Gender and Transformation",
+      "field": "Gender studies and social transformation",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_ncqf4", "bai_law_rpl", "bai_law_credit"]
+    },
+    {
+      "key": "criminology",
+      "institutionKey": "baisago",
+      "name": "Bachelor of Arts in Criminology and Security Management",
+      "field": "Criminology and security management",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_ncqf4", "bai_law_rpl", "bai_law_credit"]
+    },
+    {
+      "key": "violence",
+      "institutionKey": "baisago",
+      "name": "Master of Arts in Gender-Based Violence",
+      "field": "Gender-based violence",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "graduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_violence_degree"]
+    },
+    {
+      "key": "labour",
+      "institutionKey": "baisago",
+      "name": "Postgraduate Diploma in Labour Law",
+      "field": "Labour law",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "graduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_grad_docs"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_law_labour_degree",
+        "bai_law_labour_rpl",
+        "bai_law_labour_credit"
+      ]
+    },
+    {
+      "key": "diplaw",
+      "institutionKey": "baisago",
+      "name": "Diploma in Law",
+      "field": "Law",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate_to_diploma"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_overview"]
+    },
+    {
+      "key": "dipcourt",
+      "institutionKey": "baisago",
+      "name": "Diploma in Court Administration",
+      "field": "Court administration",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_court_iv", "bai_law_court_rpl"]
+    },
+    {
+      "key": "certcourt",
+      "institutionKey": "baisago",
+      "name": "Certificate in Court Administration",
+      "field": "Court administration",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+        "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_certificate"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_work"
+        }
+      ],
+      "sharedRequirementKeys": ["bai_law_overview"]
+    },
+    {
+      "key": "certlaw",
+      "institutionKey": "baisago",
+      "name": "Certificate in Law",
+      "field": "Law",
+      "source": {
+        "url": "https://marketing.baisago.ac.bw/certificate-in-law/",
+        "title": "BA ISAGO · Certificate in Law entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "level": "undergraduate",
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_school_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1",
+          "key": "bai_progression"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "bai_law_certificate_web",
+        "bai_law_certificate_work",
+        "bai_law_overview"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_ncqf4",
+          "label": "National qualifications framework Level 4",
+          "details": "For these degrees the guide specifies at least Level 4 on Botswana’s National Credit and Qualifications Framework, or an equivalent qualification. The Gender and Transformation entry names the BGCSE as an example.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_law_court_iv",
+          "label": "Prior certificate for the Court Administration diploma",
+          "details": "The diploma accepts Certificate IV at NCQF Level 4 in general education or technical and vocational education and training (TVET), or an equivalent qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_rpl",
+          "label": "Prior learning in place of the standard qualification",
+          "details": "Applicants who fall short of the published academic entry qualification can have prior learning assessed under the national recognition of prior learning policy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_law_court_rpl",
+          "label": "Alternative entry to the Court Administration diploma",
+          "details": "An applicant missing the standard qualification can be considered under BA ISAGO’s prior-learning and credit-transfer policies, in line with Botswana Qualifications Authority and national policy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_credit",
+          "label": "Credit for studies at another institution",
+          "details": "Applicants transferring from another institution can seek credit for prior study under the national credit accumulation and transfer policy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_violence_degree",
+          "label": "Prior degree for Gender-Based Violence",
+          "details": "Hold a recognised bachelor’s degree or equivalent in Gender Studies, Social Work, Sociology, Counselling or a related field.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 28",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_law_labour_degree",
+          "label": "Prior degree for the Labour Law postgraduate diploma",
+          "details": "The academic route requires a bachelor’s degree at NCQF Level 7 or an equivalent qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_labour_rpl",
+          "label": "Prior learning for entry to the postgraduate diploma",
+          "details": "Applicants who lack the standard degree qualification may have prior learning assessed under national policy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "transfer",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_labour_credit",
+          "label": "Transfer credit for the postgraduate diploma",
+          "details": "An applicant transferring from another institution can request credit under the national credit accumulation and transfer policy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf",
+            "title": "BA ISAGO 2026 Programme Guide · Law and Paralegal Studies, p. 29",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_certificate_web",
+          "label": "School results for the Certificate in Law",
+          "details": "The programme page requires at least two BGCSE credits or their equivalent and the subject passes specified for the programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/certificate-in-law/",
+            "title": "BA ISAGO · Certificate in Law entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "bai_law_overview",
+          "label": "Confirm the applicable credit count with admissions",
+          "details": "The general overview lists four credits for diplomas and three for certificates. The specific entries for the Diploma in Law, Certificate in Court Administration and Certificate in Law list two credits. Ask admissions which rule applies to the chosen award and intake.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.baisago.ac.bw/admissions/university-admissions",
+            "title": "BA ISAGO · University Admissions, general credit requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "baisago",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement identifies its applicable qualifications, applicant group and official source.",
+      "requirements": [
+        {
+          "key": "bai_law_certificate_work",
+          "label": "Experienced applicants to the Certificate in Law",
+          "details": "Applicants who lack the usual qualifications can be considered with at least two years of relevant work experience if they meet the Academic Affairs Board’s conditions.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://marketing.baisago.ac.bw/certificate-in-law/",
+            "title": "BA ISAGO · Certificate in Law entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
