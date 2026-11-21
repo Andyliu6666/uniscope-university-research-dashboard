@@ -1,0 +1,37 @@
+# University of Namibia: Agriculture, Engineering and Military — 2027
+
+Reviewed November 21, 2026 (UTC). Existing institution: University of Namibia, ROR `016xje988`, Namibia. The prior Science batch is complete and its original artifact is unchanged.
+
+## Evidence and identities
+
+The [official 2027 FAENS guide](https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf), SHA-256 `dd758adf8039cbee47e37d5b218ad5c26ce386dcc19b70a729cfd5a346ca247f`, supplies the complete admissions tables on PDF 4–5, 7 and 8. Full PDF 2 and 6 provide the indicative-points and examination-level context. These pages were visually reviewed, including the Military Geography cells whose text extraction has a corrupt font mapping. The [official 2027 catalogue](https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf), SHA-256 `3e33c5ebe82f33de368f0952205b781a9d9875ce669129489cfa292577cef33f`, full PDF 6, confirms codes, campuses, duration, NQF level and alternative-entry offerings. General admissions and evaluation pages 2–3 and 5 were reviewed in the Science batch. No raw PDF is redistributed.
+
+The artifact `data/sources/admissions-facts-unam-faens-remaining-2027-20261121.json` adds **17 parent programmes**: eight Agriculture, six mainstream Engineering and three Military first-entry awards. It contains **19 new facts**, **65 new-fact links** and **195 prior-rule links**, or **260 associations**. Eighteen facts have first-year/all scope; one has other-entry/all scope. Existing matching 2027 qualification combinations, IB/A-level/other evaluation scales, application dates and applicable indicative-point and MAE policies are linked by dataset/key rather than copied.
+
+Integrated four-year NQF8 Agricultural Engineering, Animal Science, Food Science/Technology and Aeronautical Science Honours are first-entry degrees. They are distinct from standalone one-year Honours. The six mainstream Engineering titles omit Honours in the catalogue but include it in the guide; matching codes reconcile them to one identity each. The Sustainable Crop Production diploma's shortened guide name is reconciled to code `31DCPT`. Separate five-year Extended Engineering codes are not assigned unsupported mainstream entry criteria.
+
+## Subject and route distinctions
+
+- The two Agriculture diplomas preserve their Agriculture/Biology AS e group, Physical Science AS e **or** Physics/Chemistry Ordinary D group, and Ordinary Mathematics/English D. Agricultural Economics uses AS Mathematics d, its agriculture/biology group d and Ordinary English C.
+- Crop Production retains AS biology/agriculture d, the AS Physical Science d **or** Ordinary science-group C alternative, and Ordinary Mathematics/English C. Fisheries requires AS Biology d and its advanced science group d with Ordinary Mathematics/English C. Food Science uses advanced Biology, Mathematics and its science group d; Animal Science instead has its science group at Ordinary C.
+- The guide does not define every Agriculture/Biology or Physics/Chemistry slash as AND, OR or a combined subject. Exact groups and grades are retained with a separate **unknown** grouping record. No named subject is silently dropped or made universally compulsory by guesswork.
+- Agricultural Engineering and all six mainstream Engineering programmes require AS Mathematics c, Physics c and Chemistry c, plus Ordinary English C. Their **32+ indicative UNAM evaluation points** are separate from the **27+** guidance independently confirmed for the eight other degrees and **24+** for the two diplomas. Existing matching explanations are reused after checking the new rows. None is an IB diploma-total threshold or guaranteed admission.
+- Nautical and Aeronautical Science share AS Mathematics d/Physical Science d and Ordinary English C. Military Geography instead requires AS Geography c/History c and Ordinary Mathematics, English and Physical Science C. The source image confirms Geography c despite the corrupted extracted label.
+- Ten programmes advertise **MAE**, without advertising RPL. Their age, schooling, relevant experience, applicable MAE examination, possible interview and application calendar retain that limitation. General MAE/RPL dates do not confer RPL eligibility. The seven Engineering entries instead show **N/A** in the alternative-entry column; no MAE/RPL route or universal prior-tertiary entitlement is inferred for them.
+- Campus/code facts distinguish Ogongo, Neudamm, Sam Nujoma, Windhoek Main and Josè Eduardo dos Santos. Full-time attendance and three/four-year duration remain in context rather than being misused as delivery-mode enum values. No employment descriptions are imported.
+
+## Validation, import and verification
+
+Baseline `8d6959f` passed [both CI jobs](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44897332459). The database matched the completed Science fingerprints. Validation and preview reported 17 new identities, 19 facts, zero skips, 195 prior links and zero preview writes. The Science archive's checksum and complete restore stream were verified before import.
+
+All 19 records inserted with zero skips; repeat added nothing. Comparisons preserved all earlier university/programme/profile/source/import rows, prior admissions content, shared-link prefixes and all 1,212 reviewed IB rows. No new profiles or sources were needed because the already reviewed 2027 scopes and documents were reused.
+
+The API matched every new source, date, fact and all 260 associations. All 51 programme/route searches passed, including empty alternative-entry results for unadvertised Engineering routes, exact applicant/year/readmission boundaries and the absence of RPL or prior-qualification rules not attached to these programmes. Focused checks preserve the AS c versus d marks, Ordinary Mathematics alternatives, science-group levels, 32/27/24 indicative points and programme identities.
+
+The quality, API and website gate passed. The API image was rebuilt with an artifact hash identical to the repository. Website-proxy queries checked Civil Engineering entry, the Livestock diploma, Nautical MAE and Civil Engineering's empty other-entry result. Application code and schema are unchanged.
+
+Counts: **28,171 institutions, 281,787 programmes, 3,841 profiles, 26,057 requirements, 108,026 sources and 139 import runs**. Reviewed general facts total **4,037 across 88 institutions**. UNAM now has **32 programmes and 70 reviewed general facts**. IB records remain **1,212**, and numerical IB-total coverage **716 programmes**. No new IB total or AP score is invented; **23,987 institutions still lack structured application facts** under the export definition. Global coverage remains unfinished.
+
+Complete readable archive: `backups/post-unam-faens-remaining-20261121._2v0ad6x`, SHA-256 `bb36ea9766cf5904e8cc9a86523ac365ff7d3c832775a75bee283f5fef8ac279`. Local captures, full-page renders, validation/import/repeat logs, preservation snapshots and API results remain in backups.
+
+The next institution queue rotates to **Fiji National University**, an existing ROR identity with no programme or admissions facts. Its officially linked 2027 CMNHS list and current prospectus require full source/year/route review before import. The CMNHS list's 30 November 2026 closing differs from the general February closing and warns of programme/MER review. UNAM FEHS, the two missing Science course-specific sources and the unverified Extended Engineering requirements remain separate pending queues.

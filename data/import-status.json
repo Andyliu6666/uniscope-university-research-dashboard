@@ -2,7 +2,7 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281770,
+            "programs": 281787,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
@@ -10,7 +10,7 @@
             "admissionProfiles": 3841,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26038,
+            "admissionRequirements": 26057,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1212
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 45,
             "programsWithPublishedTotals": 716,
-            "undergraduateCatalogEntries": 196082
+            "undergraduateCatalogEntries": 196099
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,31 +177,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4018,
+            "facts": 4037,
             "profiles": 1364,
             "institutions": 88
         }
     },
-    "generatedAt": "2026-11-21T11:02:46Z",
+    "generatedAt": "2026-11-21T11:58:13Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 33,
+        "inserted": 19,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 33,
-        "startedAt": "2026-11-21T11:02:04.832052+00:00",
-        "updatedAt": "2026-11-21T11:02:04.832052+00:00",
+        "processed": 19,
+        "startedAt": "2026-11-21T11:57:08.492452+00:00",
+        "updatedAt": "2026-11-21T11:57:08.492452+00:00",
         "checkpoint": {
-            "profiles": 3,
-            "admissionFacts": 33,
+            "profiles": 2,
+            "admissionFacts": 19,
             "programsReused": 0,
-            "programsCreated": 15
+            "programsCreated": 17,
+            "priorSharedLinksAdded": 195
         },
-        "finishedAt": "2026-11-21T11:02:04.903+00:00",
-        "artifactSha256": "582616ce25c5283b37c2e4caf45b40e8c358cceb19de094aa6ac55b0b8938c2d",
-        "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T11:57:08.57+00:00",
+        "artifactSha256": "63aca0e9f27355d53a75eccc4d4d108eb1c6fbdebdc6f9200f79d421ff2a6dbc",
+        "datasetVersion": "official-admissions-unam-faens-remaining-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

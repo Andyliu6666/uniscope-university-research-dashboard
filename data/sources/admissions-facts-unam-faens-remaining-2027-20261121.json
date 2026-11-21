@@ -1,0 +1,1387 @@
+{
+  "datasetVersion": "official-admissions-unam-faens-remaining-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "unam",
+      "name": "University of Namibia",
+      "provider": "ror",
+      "externalId": "016xje988",
+      "countryCode": "NA",
+      "officialDomains": ["unam.edu.na"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "livestock",
+      "institutionKey": "unam",
+      "name": "Diploma in Livestock Production",
+      "level": "undergraduate",
+      "field": "Livestock Production",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31DLP · Ogongo Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_agric_diploma_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_ogongo_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_ordinary_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "crop_diploma",
+      "institutionKey": "unam",
+      "name": "Diploma in Sustainable Crop Production and Technologies",
+      "level": "undergraduate",
+      "field": "Sustainable Crop Production",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31DCPT · Ogongo Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_agric_diploma_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_ogongo_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_ordinary_conflict"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_diploma_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "agric_economics",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Agricultural Economics",
+      "level": "undergraduate",
+      "field": "Agricultural Economics",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BSAE · Neudamm Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_agric_economics_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_neudamm_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "fisheries",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Fisheries and Ocean Sciences",
+      "level": "undergraduate",
+      "field": "Fisheries and Ocean Sciences",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BFOS · Sam Nujoma Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_fisheries_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_fisheries_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "food",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Food Science and Technology Honours",
+      "level": "undergraduate",
+      "field": "Food Science and Technology",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BHFT · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_food_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_food_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "crop",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Crop Production",
+      "level": "undergraduate",
+      "field": "Crop Production",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BSCP · Ogongo Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_crop_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_ogongo_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "agric_engineering",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Agricultural Engineering Honours",
+      "level": "undergraduate",
+      "field": "Agricultural Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BHAE · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "animal",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Animal Science Honours",
+      "level": "undergraduate",
+      "field": "Animal Science",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 31BSAS · Neudamm Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_animal_subjects",
+        "unam27faens_agric_slash_unclear",
+        "unam27faens_neudamm_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "civil",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Civil Engineering",
+      "level": "undergraduate",
+      "field": "Civil Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHVI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "electrical",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Electrical Engineering",
+      "level": "undergraduate",
+      "field": "Electrical Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHEI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "electronics",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Electronics and Computer Engineering",
+      "level": "undergraduate",
+      "field": "Electronics and Computer Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHCI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "mechanical",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Mechanical Engineering",
+      "level": "undergraduate",
+      "field": "Mechanical Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHNI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "metallurgical",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Metallurgical Engineering",
+      "level": "undergraduate",
+      "field": "Metallurgical Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHTI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "mining",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Mining Engineering",
+      "level": "undergraduate",
+      "field": "Mining Engineering",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 32BHMI · Josè Eduardo dos Santos Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_engineering_subjects",
+        "unam27faens_engineering_indicative32",
+        "unam27faens_mae_catalogue",
+        "unam27faens_engineering_context"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        }
+      ]
+    },
+    {
+      "key": "nautical",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Nautical Science",
+      "level": "undergraduate",
+      "field": "Nautical Science",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 34BSNS · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_military_science_subjects",
+        "unam27faens_military_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "military_geography",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Military Geography",
+      "level": "undergraduate",
+      "field": "Military Geography",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 34BMGH · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_military_geography_subjects",
+        "unam27faens_military_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    },
+    {
+      "key": "aeronautical",
+      "institutionKey": "unam",
+      "name": "Bachelor of Science in Aeronautical Science Honours",
+      "level": "undergraduate",
+      "field": "Aeronautical Science",
+      "source": {
+        "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+        "title": "UNAM 2027 catalogue PDF 6 · 34BSAS · Windhoek Main Campus",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "unam27faens_military_science_subjects",
+        "unam27faens_military_context",
+        "unam27faens_mae_only_eligibility"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_foreign_assessment"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_ib_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_gce_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_namibia_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_cambridge_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_south_african_scale"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_legacy"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_current"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_degree_indicative_points"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_test"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_interview"
+        },
+        {
+          "datasetVersion": "official-admissions-unam-science-2027-2026-11-21-v1",
+          "key": "unam27sci_mae_rpl_window"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Agriculture, mainstream Engineering and Military first-entry programme conditions. Lowercase grades denote AS and uppercase grades Ordinary Level. Indicative UNAM points do not define IB diploma totals. Preserve slash groups until clarified. Catalogue codes, campuses and integrated four-year Honours distinguish these awards from Extended and standalone Honours. MAE-only and catalogue N/A routes do not inherit Science RPL eligibility.",
+      "requirements": [
+        {
+          "key": "unam27faens_agric_diploma_subjects",
+          "label": "Agriculture diplomas: AS agriculture/science and Ordinary Mathematics/English",
+          "details": "Both diploma rows print Agriculture/Biology e at AS-level; Physical Science e at AS-level OR the literal Physics/Chemistry D group at Ordinary Level; Mathematics D and English D at Ordinary Level. The slash groups are retained without inventing whether one or both named subjects satisfy them; a separate source-grouping clarification applies.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_agric_economics_subjects",
+          "label": "Agricultural Economics: AS Mathematics and agriculture/biology d",
+          "details": "The row requires Mathematics d at AS-level, English C at Ordinary Level and the literal Agriculture/Biology d group at AS-level. Its separate 27+ indicative-point guidance does not replace these subjects. The slash grouping is not silently interpreted as AND or OR.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 4",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_crop_subjects",
+          "label": "Crop Production: AS biology/agriculture and science alternative",
+          "details": "The row prints Biology/Agriculture d at AS-level, Physical Science d at AS-level OR the literal Chemistry/Physics C group at Ordinary Level, and Mathematics C and English C at Ordinary Level. Preserve the stated Physical Science alternative and the unexpanded slash groups; Mathematics is Ordinary C here, not AS d.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_fisheries_subjects",
+          "label": "Fisheries/Ocean Sciences: Biology d, science group d, Mathematics/English C",
+          "details": "The row prints Biology d and the literal Physics/Chemistry d group at AS-level, with Mathematics C and English C at Ordinary Level. The advanced science slash group is not assumed to mean either one or both sciences without programme clarification.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_food_subjects",
+          "label": "Food Science/Technology: Biology, Mathematics and science group d",
+          "details": "The row requires Biology d and Mathematics d at AS-level, the literal Chemistry/Physics d group at AS-level, and English C at Ordinary Level. The group interpretation remains flagged; no new IB offer is calculated from these Namibian subject grades.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_animal_subjects",
+          "label": "Animal Science: AS agriculture/biology, Mathematics d and Ordinary science group",
+          "details": "The row prints Biology/Agriculture d and Mathematics d at AS-level; the literal Chemistry/Physics C group and English C at Ordinary Level. Its Ordinary science grade differs from Food Science/Technology's AS d science group.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_engineering_subjects",
+          "label": "Seven Engineering degrees: AS Mathematics/Physics/Chemistry c",
+          "details": "Agricultural Engineering and the six mainstream Engineering rows each require Mathematics c, Physics c and Chemistry c at AS-level, and English C at Ordinary Level. All three advanced subjects remain required; the capital English C is a different level. The 32+ indicative-point record is additional, not a course IB diploma-total minimum.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 5, 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_military_science_subjects",
+          "label": "Nautical/Aeronautical Science: AS Mathematics and Physical Science d",
+          "details": "The two rows require Mathematics d and Physical Science d at AS-level, with English C at Ordinary Level. Nautical Science is the three-year NQF7 award and Aeronautical Science Honours is the integrated four-year NQF8 award; their shared subject set does not merge their identities.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 8",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_military_geography_subjects",
+          "label": "Military Geography: AS Geography/History c and three Ordinary C subjects",
+          "details": "The row requires Geography c and History c at AS-level, plus Mathematics C, English C and Physical Science C at Ordinary Level. The complete rendered page confirms Geography c where extracted font text is corrupted. It is not the same subject set as Nautical or Aeronautical Science.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 8",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_engineering_indicative32",
+          "label": "2027 Engineering: indicative 32+ UNAM points",
+          "details": "Agricultural Engineering and all six mainstream Engineering rows print 32+ UNAM evaluation points. The guide labels its points indicative for 2027 and allows consideration of strong applications slightly below. The specific AS c science/mathematics and Ordinary English conditions remain additional. This guideline is not a guaranteed offer, an IB total, or the 27+ guidance of the other linked faculty degrees.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 2, 5, 7",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_agric_slash_unclear",
+          "label": "Agriculture subject slash groups need programme confirmation",
+          "details": "The guide prints Agriculture/Biology (or Biology/Agriculture) and Physics/Chemistry (or Chemistry/Physics) without defining every slash as AND, OR or a named combined subject. It separately uses an explicit OR for the Physical Science alternative in the two diplomas and Crop Production. The individual grades/levels are preserved, but those slash-group meanings need faculty confirmation before advising that one named subject can be omitted.",
+          "category": "academic",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/Career-Guidance-FAENS-2027.pdf",
+            "title": "UNAM 2027 FAENS · guide PDF 4–5",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_mae_catalogue",
+          "label": "2027 Engineering catalogue: MAE/RPL not advertised",
+          "details": "The MAE/RPL column reads N/A for Agricultural Engineering and all six mainstream Engineering programmes. No alternative MAE or RPL eligibility is inferred for these entries from the general university policy. Any exceptional alternative entry would need a specific faculty source; this catalogue entry is not converted into an unsupported universal ban on all prior-tertiary applicants.",
+          "category": "application",
+          "status": "unknown",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_ogongo_context",
+          "label": "2027 Ogongo: Agriculture diploma and Crop Production codes",
+          "details": "Ogongo Campus offers Livestock Production Diploma 31DLP and Sustainable Crop Production and Technologies Diploma 31DCPT, both three-year NQF6, and BSc Crop Production 31BSCP, three-year NQF7. All are full-time and the catalogue lists MAE. The guide's shortened Sustainable Production and Technologies title is reconciled with the canonical crop-diploma code, not a second award.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_neudamm_context",
+          "label": "2027 Neudamm: Agricultural Economics and Animal Science",
+          "details": "At Neudamm Campus the catalogue lists Agricultural Economics 31BSAE as a full-time three-year NQF7 BSc and Animal Science Honours 31BSAS as a full-time four-year integrated NQF8 degree. Both list MAE. The latter is not one of the separate one-year Honours continuation programmes.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_fisheries_context",
+          "label": "2027 Fisheries/Ocean Sciences: 31BFOS at Sam Nujoma",
+          "details": "The three-year full-time NQF7 BSc Fisheries and Ocean Sciences is code 31BFOS at Sam Nujoma Campus, with MAE listed. It is distinct from the separate Fisheries and Ocean Sciences Honours continuation award 31BFOH.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_food_context",
+          "label": "2027 Food Science/Technology: four-year Honours at Windhoek Main",
+          "details": "Food Science and Technology Honours is code 31BHFT at Windhoek Main Campus, full-time for four years at NQF8, with MAE listed. It is an integrated first-entry degree, not a one-year Honours requiring an invented prior BSc qualification.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_engineering_context",
+          "label": "2027 Engineering code/campus and four-year identities",
+          "details": "At Josè Eduardo dos Santos Campus, the full-time four-year NQF8 programmes are Agricultural Engineering Honours 31BHAE, Civil 32BHVI, Electrical 32BHEI, Electronics and Computer 32BHCI, Mechanical 32BHNI, Metallurgical 32BHTI and Mining 32BHMI. The six non-agricultural catalogue titles omit Honours while the career guide includes it; they are reconciled to the same codes. Separate five-year Extended codes are not assigned these mainstream entry requirements.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "unam27faens_military_context",
+          "label": "2027 Military Science: three first-entry programme identities",
+          "details": "At Windhoek Main Campus, Nautical Science 34BSNS and Military Geography 34BMGH are full-time three-year NQF7 BSc degrees, while Aeronautical Science Honours 34BSAS is a full-time four-year integrated NQF8 degree. The catalogue lists MAE for these three. One-year Nautical/Military Honours continuation awards are separate and are not merged with them.",
+          "category": "other",
+          "status": "required",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 6",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unam",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "2027 Agriculture, mainstream Engineering and Military first-entry programme conditions. Lowercase grades denote AS and uppercase grades Ordinary Level. Indicative UNAM points do not define IB diploma totals. Preserve slash groups until clarified. Catalogue codes, campuses and integrated four-year Honours distinguish these awards from Extended and standalone Honours. MAE-only and catalogue N/A routes do not inherit Science RPL eligibility.",
+      "requirements": [
+        {
+          "key": "unam27faens_mae_only_eligibility",
+          "label": "Agriculture/Military MAE: advertised routes and eligibility",
+          "details": "The catalogue advertises MAE for these ten linked first-entry programmes; it does not advertise RPL for them. MAE applicants must be at least 25 on the first academic day and show at least five years of work experience relevant to the proposed programme. Degree entry needs completed senior-secondary schooling, diploma entry junior-secondary schooling. Programme-specific MAE conditions, examination and possible interview remain applicable. A shared MAE/RPL calendar does not grant an unadvertised RPL route.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unam.edu.na/wp-content/uploads/2026/07/2027-All-Programmes.pdf",
+            "title": "UNAM 2027 FAENS · book PDF 3, 6",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## University of Namibia Agriculture, Engineering and Military — November 21 UTC
+
+1. **Baseline.** Local and remote main matched `8d6959f`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44897332459). The database matched the completed Science fingerprint; UNAM had 15 programmes and 51 reviewed facts.
+2. **Sources.** The [source review](research/UNAM_FAENS_REMAINING_20261121.md) identifies the complete official 2027 admission tables and catalogue page. Full-page review confirms the advanced/Ordinary grade cases, codes, campuses, integrated Honours and MAE/N/A distinctions.
+3. **Artifact.** Seventeen first-entry identities have 19 new facts, 65 new-fact links and 195 links to earlier reviewed rules. Seven Engineering entries use AS c subject requirements and indicative 32+; eight other degrees use verified 27+ and two diplomas 24+. Slash groups remain unresolved. MAE-only and N/A routes do not inherit Science RPL. No IB total is invented.
+4. **Import and backup.** Validation and the preview made zero writes. The previous complete archive was verified; all 19 facts inserted without skips, and repeat changed nothing. Earlier university/programme/profile/source/import metadata, admissions content/shared prefixes and all 1,212 IB records were retained.
+5. **Verification.** All facts, citations/dates and 260 associations matched the API. All 51 programme/route searches and scope boundaries passed. The quality/API/website gate passed; the rebuilt API contains the identical artifact and four website-proxy queries checked mainstream, diploma, MAE and empty unadvertised-route results.
+6. **Coverage and archive.** Counts are 28,171 institutions, 281,787 programmes, 3,841 profiles, 26,057 requirements, 108,026 sources and 139 runs. Reviewed general facts total 4,037 across 88 institutions; UNAM has 32 courses and 70 facts. Numerical IB coverage remains 716 programmes. Archive `backups/post-unam-faens-remaining-20261121._2v0ad6x` is fully readable, SHA-256 `bb36ea9766cf5904e8cc9a86523ac365ff7d3c832775a75bee283f5fef8ac279`. Next rotate to Fiji National University's actual 2027 sources; its current CMNHS list has a separate November closing and warns of entry-requirement review. Preserve the remaining UNAM queues and worldwide goal.
+
 ## University of Namibia Science — November 21 UTC
 
 1. **Baseline.** Local and remote main matched `643324e`, with [both CI jobs passing](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44844679869). The database matched the completed Engineering stage. UNAM had 18 reviewed general facts and no catalogue programmes.
