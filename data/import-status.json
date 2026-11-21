@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282034,
+            "programs": 282040,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4020,
+            "admissionProfiles": 4027,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26513,
+            "admissionRequirements": 26558,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1359
+            "qualificationRequirements": 1364
         },
         "ibCoverage": {
             "byCountry": [
@@ -73,8 +73,8 @@
                 {
                     "country": "Malaysia",
                     "institutions": 6,
-                    "programs_with_reviewed_ib": 77,
-                    "programs_with_published_totals": 77
+                    "programs_with_reviewed_ib": 82,
+                    "programs_with_published_totals": 82
                 },
                 {
                     "country": "Mauritius",
@@ -131,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1359,
-            "programsWithReviewedIb": 1156,
+            "reviewedRecords": 1364,
+            "programsWithReviewedIb": 1161,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 48,
-            "programsWithPublishedTotals": 796,
-            "undergraduateCatalogEntries": 196317
+            "programsWithPublishedTotals": 801,
+            "undergraduateCatalogEntries": 196323
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,31 +183,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4493,
-            "profiles": 1398,
+            "facts": 4538,
+            "profiles": 1400,
             "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T18:01:01Z",
+    "generatedAt": "2026-11-21T18:10:48Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 35,
+        "inserted": 5,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 35,
-        "startedAt": "2026-11-21T18:00:54.764068+00:00",
-        "updatedAt": "2026-11-21T18:00:54.861+00:00",
+        "processed": 5,
+        "startedAt": "2026-11-21T18:10:41.311359+00:00",
+        "updatedAt": "2026-11-21T18:10:41.337+00:00",
         "checkpoint": {
-            "rowIndex": 35,
-            "sourceRows": 35,
+            "rowIndex": 5,
+            "sourceRows": 5,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T18:00:54.861+00:00",
-        "artifactSha256": "8a60ff70093ed968260811539f326ebc9060e86470cff1f2d2838bdf25c6663c",
-        "datasetVersion": "official-ib-fnu-business-degrees-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T18:10:41.337+00:00",
+        "artifactSha256": "ed187de49d793c84d9f734cb73f6e4822756d25688c191818910b7821b09ccca",
+        "datasetVersion": "official-ib-sunway-health-sciences-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

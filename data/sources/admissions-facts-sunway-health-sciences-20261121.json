@@ -1,0 +1,874 @@
+{
+  "datasetVersion": "official-admissions-sunway-health-sciences-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "sunway",
+      "name": "Sunway University",
+      "provider": "ror",
+      "externalId": "04mjt7f73",
+      "countryCode": "MY",
+      "officialDomains": ["sunwayuniversity.edu.my"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nursing",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Nursing (Honours)",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+        "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_oct",
+        "sunway_health_age",
+        "sunway_health_interview",
+        "sunway_health_apply_bsc",
+        "sunway_health_n_a",
+        "sunway_health_n_au",
+        "sunway_health_n_ca",
+        "sunway_health_n_mon",
+        "sunway_health_n_stpm",
+        "sunway_health_n_uec",
+        "sunway_health_n_reg",
+        "sunway_health_n_dip",
+        "sunway_health_n_lang",
+        "sunway_health_n_malay"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_f25"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        }
+      ]
+    },
+    {
+      "key": "biomedicine",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) Biomedicine",
+      "level": "undergraduate",
+      "field": "Biomedicine",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+        "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_b_a",
+        "sunway_health_b_pre",
+        "sunway_health_b_fdn",
+        "sunway_health_b_english",
+        "sunway_health_b_register"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_intakes"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_uec26"
+        }
+      ]
+    },
+    {
+      "key": "psychology",
+      "institutionKey": "sunway",
+      "name": "Bachelor of Science (Honours) in Psychology",
+      "level": "undergraduate",
+      "field": "Psychology",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-psychology",
+        "title": "Sunway University · Bachelor of Science (Honours) in Psychology · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_p_a",
+        "sunway_health_p_uec",
+        "sunway_health_p_math",
+        "sunway_health_p_english"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_intakes"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_advance"
+        }
+      ]
+    },
+    {
+      "key": "biotechnology",
+      "institutionKey": "sunway",
+      "name": "BSc (Hons) Medical Biotechnology",
+      "level": "undergraduate",
+      "field": "Medical biotechnology",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bsc-hons-medical-biotechnology",
+        "title": "Sunway University · BSc (Hons) Medical Biotechnology · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_b_fdn",
+        "sunway_health_b_english",
+        "sunway_health_t_spm"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_intakes"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_stpm"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_tally"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_atar"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_can"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_monash"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_apel"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_english_internal"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_a_computing"
+        },
+        {
+          "datasetVersion": "official-admissions-sunway-maths-business-2026-11-21-v1",
+          "key": "sunway_mb_uec26"
+        }
+      ]
+    },
+    {
+      "key": "nursing-diploma",
+      "institutionKey": "sunway",
+      "name": "Diploma in Nursing",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+        "title": "Sunway University · Diploma in Nursing · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_jun_oct",
+        "sunway_health_apply_dip",
+        "sunway_health_dip_spm",
+        "sunway_health_dip_olevel",
+        "sunway_health_dip_uec",
+        "sunway_health_dip_foreign",
+        "sunway_health_dip_malay",
+        "sunway_health_dip_english",
+        "sunway_health_dip_spm_eng",
+        "sunway_health_dip_equiv",
+        "sunway_health_dip_interview",
+        "sunway_health_dip_fitness"
+      ]
+    },
+    {
+      "key": "medicine",
+      "institutionKey": "sunway",
+      "name": "Doctor of Medicine (MD)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+        "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "sunway_health_oct",
+        "sunway_health_age",
+        "sunway_health_interview",
+        "sunway_health_m_a",
+        "sunway_health_m_stpm",
+        "sunway_health_m_school",
+        "sunway_health_m_fdn",
+        "sunway_health_m_au",
+        "sunway_health_m_ca",
+        "sunway_health_m_mon",
+        "sunway_health_m_uec",
+        "sunway_health_m_eng"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-sunway-engineering-computing-2026-11-21-v1",
+          "key": "sunway_comp_other"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Course-specific health and medical admissions at Sunway University.",
+      "requirements": [
+        {
+          "key": "sunway_health_oct",
+          "category": "application",
+          "label": "October intake",
+          "status": "considered",
+          "details": "The course lists one annual intake, in October.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_jun_oct",
+          "category": "application",
+          "label": "Nursing diploma intake months",
+          "status": "considered",
+          "details": "The diploma lists two intakes, in June and October.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_age",
+          "category": "application",
+          "label": "Age at entry",
+          "status": "required",
+          "details": "Applicants must be at least 18 when the programme starts.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_interview",
+          "category": "interview",
+          "label": "Interview and medical assessment",
+          "status": "required",
+          "details": "Applicants must pass both an interview and a medical check-up.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_apply_bsc",
+          "category": "application",
+          "label": "Nursing degree application",
+          "status": "required",
+          "details": "Submit the degree application to the Bachelor of Nursing programme leader listed on the linked course page.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_apply_dip",
+          "category": "application",
+          "label": "Nursing diploma application",
+          "status": "required",
+          "details": "Submit the diploma application to the Diploma in Nursing programme leader listed on the linked course page.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_a",
+          "category": "academic",
+          "label": "A levels for Nursing",
+          "status": "conditional",
+          "details": "Present at least three A-level subjects at grade C or above.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_au",
+          "category": "academic",
+          "label": "Australian matriculation",
+          "status": "conditional",
+          "details": "The Nursing degree lists an ATAR of 65.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_ca",
+          "category": "academic",
+          "label": "Canadian matriculation",
+          "status": "conditional",
+          "details": "The Nursing degree lists 65% for Canadian matriculation.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_mon",
+          "category": "academic",
+          "label": "Monash University Foundation Year",
+          "status": "conditional",
+          "details": "The Nursing degree lists 65% for the Monash foundation year.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_stpm",
+          "category": "academic",
+          "label": "STPM entry",
+          "status": "conditional",
+          "details": "Pass STPM with a CGPA of at least 2.00.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_uec",
+          "category": "academic",
+          "label": "UEC grades with SPM credits",
+          "status": "conditional",
+          "details": "Earn B6 or better in each of five UEC subjects and three SPM credits: Bahasa Melayu, elementary, additional or modern mathematics, and one science. The science may be general science, biology, chemistry, physics, applied science or additional science.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_reg",
+          "category": "academic",
+          "label": "Registered nurse entry",
+          "status": "conditional",
+          "details": "A nursing diploma from an MQA-recognised institution must carry a CGPA of at least 2.50. Also provide a current Annual Practicing Certificate or Retention of Name from the Malaysian Nursing Board.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_dip",
+          "category": "academic",
+          "label": "Other diploma route",
+          "status": "conditional",
+          "details": "Another diploma can support admission with CGPA 2.50 or above. No credit transfers on this route.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_n_lang",
+          "category": "language",
+          "label": "English proficiency for Nursing",
+          "status": "required",
+          "details": "Meet one threshold: MUET Band 3, IELTS 5.5, TOEFL 453 paper / 133 computer / 46 internet, or Pearson 51. Sunway also accepts 160 in Cambridge A2 Key, B1 Preliminary, B2 First, C1 Advanced, C2 Proficiency or Linguaskill, or 200 in OET.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_b_a",
+          "category": "academic",
+          "label": "A-level subjects for Biomedicine",
+          "status": "conditional",
+          "details": "Two subjects at grade D or higher must come from the groups biology, physics/mathematics and chemistry.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+            "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_b_pre",
+          "category": "academic",
+          "label": "Pre-university science subjects",
+          "status": "conditional",
+          "details": "Present two principal passes from biology, physics/mathematics and chemistry at STPM, pre-university or matriculation level.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+            "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_b_fdn",
+          "category": "academic",
+          "label": "Science and technology foundation",
+          "status": "conditional",
+          "details": "Entry through Sunway’s Foundation in Science and Technology requires CGPA 2.30.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+            "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_b_english",
+          "category": "language",
+          "label": "English qualification alternatives",
+          "status": "conditional",
+          "details": "Accepted results include IELTS 6.0 or equivalent, MUET Band 4, SPM English B+, UEC English B4 or O-level English (1119) B3.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+            "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_p_a",
+          "category": "academic",
+          "label": "A-level points for Psychology",
+          "status": "conditional",
+          "details": "Earn a minimum of 12 points on the university’s A-level scale.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-psychology",
+            "title": "Sunway University · Bachelor of Science (Honours) in Psychology · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_p_uec",
+          "category": "academic",
+          "label": "UEC subjects for Psychology",
+          "status": "conditional",
+          "details": "Five B-grade subjects must total 26 UEC points or fewer and include mathematics and one science.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-psychology",
+            "title": "Sunway University · Bachelor of Science (Honours) in Psychology · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_p_math",
+          "category": "academic",
+          "label": "School mathematics and science",
+          "status": "required",
+          "details": "Earn a credit in mathematics and one science at SPM or an equivalent level.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-psychology",
+            "title": "Sunway University · Bachelor of Science (Honours) in Psychology · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_p_english",
+          "category": "language",
+          "label": "English qualification alternatives",
+          "status": "conditional",
+          "details": "Accepted results include IELTS 6.0 or equivalent, MUET Band 5, SPM English B3, UEC English B4 or O-level English (1119) B3.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-psychology",
+            "title": "Sunway University · Bachelor of Science (Honours) in Psychology · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_t_spm",
+          "category": "academic",
+          "label": "School credits and published waiver",
+          "status": "conditional",
+          "details": "Present three SPM or equivalent credits in mathematics, one science and one other subject. Sunway allows the SPM credit requirement to be waived for equivalent or higher pre-university grades.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bsc-hons-medical-biotechnology",
+            "title": "Sunway University · BSc (Hons) Medical Biotechnology · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_english",
+          "category": "language",
+          "label": "Nursing diploma English evidence",
+          "status": "conditional",
+          "details": "Sunway lists IELTS 5.5, TOEFL 515 paper / 215 computer / 80 internet, Cambridge Advanced or Proficiency English, and Pearson PTE. Its international entry route requires one of these qualifications. No Cambridge or PTE score is given.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_equiv",
+          "category": "academic",
+          "label": "Alternative diploma qualifications",
+          "status": "conditional",
+          "details": "An overseas alternative must be recognised by MQA as equivalent to SPM. Sunway assesses applicants without a standard qualification individually.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_interview",
+          "category": "interview",
+          "label": "Interview and health assessment",
+          "status": "required",
+          "details": "Attend the interview and pass the medical examination.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_fitness",
+          "category": "document",
+          "label": "Medical certification for nursing training",
+          "status": "required",
+          "details": "A registered medical practitioner must certify fitness within one month of starting the diploma. The published entry policy lists serious physical or mental illness, serious communicable disease and physical or sensory limitations that hinder nursing dexterity as disqualifying conditions.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_a",
+          "category": "academic",
+          "label": "A-level grades and subject combination",
+          "status": "conditional",
+          "details": "Accepted combinations are ABC, AAC or BBB in biology, chemistry and either physics or mathematics.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_stpm",
+          "category": "academic",
+          "label": "STPM for Medicine",
+          "status": "conditional",
+          "details": "Achieve CGPA 3.00 and grades BBB, ABC or AAC in biology, chemistry and either physics or mathematics.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_school",
+          "category": "academic",
+          "label": "School grades for the designated routes",
+          "status": "conditional",
+          "details": "IB Diploma, Sunway Foundation in Science and Technology, Australian matriculation, Canadian International Matriculation Programme and Monash foundation-year applicants need five Bs at SPM, O-level or equivalent: biology, chemistry, physics, mathematics or additional mathematics, and one other subject.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_fdn",
+          "category": "academic",
+          "label": "Science and technology foundation for Medicine",
+          "status": "conditional",
+          "details": "Earn CGPA 3.00, with at least C in biology, chemistry and either physics or mathematics.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_au",
+          "category": "academic",
+          "label": "Australian matriculation for Medicine",
+          "status": "conditional",
+          "details": "Achieve ATAR 80 including biology, chemistry and either physics or mathematics, or an aggregate equivalent to B in those three subjects.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_ca",
+          "category": "academic",
+          "label": "Canadian International Matriculation Programme",
+          "status": "conditional",
+          "details": "Achieve an aggregate of 80% over six subjects and an average of 80% in biology, chemistry and either physics or mathematics.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_mon",
+          "category": "academic",
+          "label": "Monash University Foundation Year",
+          "status": "conditional",
+          "details": "Achieve 80% including biology, chemistry and either physics or mathematics.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_uec",
+          "category": "academic",
+          "label": "UEC for Medicine",
+          "status": "conditional",
+          "details": "Earn B4 in each of five subjects: biology, chemistry, physics, mathematics or Advanced Mathematics I, and Advanced Mathematics or Advanced Mathematics II.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_m_eng",
+          "category": "language",
+          "label": "English evidence for Medicine",
+          "status": "conditional",
+          "details": "Options include MUET Band 4, IELTS 6.0 or equivalent, SPM English B+, O-level English (1119) credit, UEC English B4, or an English-medium pre-university, diploma, foundation or equivalent programme.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/doctor-of-medicine",
+            "title": "Sunway University · Doctor of Medicine (MD) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Course-specific health and medical admissions at Sunway University.",
+      "requirements": [
+        {
+          "key": "sunway_health_n_malay",
+          "category": "language",
+          "label": "Bahasa Melayu for Malaysian applicants",
+          "status": "required",
+          "details": "Malaysian applicants need an SPM credit in Bahasa Melayu or grade C at SVM.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-nursing-honours",
+            "title": "Sunway University · Bachelor of Nursing (Honours) · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_b_register",
+          "category": "language",
+          "label": "English qualification for registration",
+          "status": "conditional",
+          "details": "Malaysian applicants whose entry qualification was taught in a language other than English need MUET or an international English proficiency qualification to register.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/bachelor-of-science-honours-biomedicine",
+            "title": "Sunway University · Bachelor of Science (Honours) Biomedicine · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_spm",
+          "category": "academic",
+          "label": "Malaysian SPM route",
+          "status": "conditional",
+          "details": "Earn SPM credits in Bahasa Melayu, mathematics and one science, and pass English and a further subject.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_olevel",
+          "category": "academic",
+          "label": "Malaysian O-level route",
+          "status": "conditional",
+          "details": "Earn five O-level credits including English, mathematics and one science. Local O-level applicants must also hold a credit in Malay as a first language.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_uec",
+          "category": "academic",
+          "label": "Malaysian UEC route",
+          "status": "conditional",
+          "details": "Present five B grades including English, mathematics and one science, plus a Bahasa Melayu credit for local UEC applicants.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_spm_eng",
+          "category": "language",
+          "label": "School English evidence",
+          "status": "conditional",
+          "details": "The general English table lists an SPM English credit as a further option. Overseas applicants should use the international English qualification route.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sunway",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Course-specific health and medical admissions at Sunway University.",
+      "requirements": [
+        {
+          "key": "sunway_health_dip_foreign",
+          "category": "academic",
+          "label": "International school grades",
+          "status": "conditional",
+          "details": "Pass SPM or its equivalent with at least C in each of five subjects: mathematics (elementary, additional or modern), one of science, biology, chemistry, physics or applied science, and three other subjects.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        },
+        {
+          "key": "sunway_health_dip_malay",
+          "category": "language",
+          "label": "Spoken Bahasa Melayu",
+          "status": "required",
+          "details": "International diploma applicants must be able to converse in Bahasa Melayu.",
+          "source": {
+            "url": "https://sunwayuniversity.edu.my/faculty-of-medical-and-life-sciences/courses/diploma-nursing",
+            "title": "Sunway University · Diploma in Nursing · entry requirements",
+            "checkedOn": "2026-11-21"
+          }
+        }
+      ]
+    }
+  ]
+}
