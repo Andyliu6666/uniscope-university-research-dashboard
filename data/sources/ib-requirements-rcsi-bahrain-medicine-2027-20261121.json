@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "rcsibahrain",
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "provider": "ror",
+      "externalId": "01h4bh480",
+      "countryCode": "BH",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "rcsibahrain",
+      "program": {
+        "name": "Medicine MB, BCh, BAO (5-Year Direct Entry)",
+        "level": "undergraduate",
+        "field": "Medicine",
+        "courseCode": null,
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements"
+      },
+      "requirement": {
+        "recordKey": "rcsibahrain-medicine-direct-2027-ib",
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 school-leaver IB Diploma route for Medicine MB, BCh, BAO (5-Year Direct Entry).",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 36,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": true,
+        "hlGrades": [5],
+        "subjectNotes": "Present three HL and three SL subjects including English and Mathematics. HL Chemistry must reach 5. Include HL Biology, Physics or Mathematics (AA or AI). If Chemistry and Mathematics are both at HL, include an additional science at SL as specified in the entry table.",
+        "conditions": "The minimum is for consideration. The offer and entry point depend on assessment of the complete application. The course’s English-language requirement also applies.",
+        "source": {
+          "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+          "title": "RCSI Bahrain · undergraduate medicine · IB Diploma",
+          "checkedOn": "2026-11-21",
+          "evidence": "36 IB Diploma points (inclusive of bonus points)"
+        }
+      }
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "program": {
+        "name": "Medicine MB, BCh, BAO (6-Year Foundation Entry)",
+        "level": "undergraduate",
+        "field": "Medicine",
+        "courseCode": null,
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements"
+      },
+      "requirement": {
+        "recordKey": "rcsibahrain-medicine-foundation-2027-ib",
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 school-leaver IB Diploma route for Medicine MB, BCh, BAO (6-Year Foundation Entry).",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 31,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": true,
+        "hlGrades": [],
+        "subjectNotes": "Present three HL and three SL subjects including English and Mathematics. Mathematics may be Analysis and Approaches or Applications and Interpretation. At least one laboratory science must be at HL.",
+        "conditions": "The minimum is for consideration. The offer and entry point depend on assessment of the complete application. The course’s English-language requirement also applies.",
+        "source": {
+          "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+          "title": "RCSI Bahrain · undergraduate medicine · IB Diploma",
+          "checkedOn": "2026-11-21",
+          "evidence": "31 IB Diploma points (inclusive of bonus points)"
+        }
+      }
+    }
+  ]
+}

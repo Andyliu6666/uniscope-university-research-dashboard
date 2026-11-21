@@ -56,6 +56,28 @@ const response = (profiles: AdmissionProfile[]): UniversityAdmissionsResponse =>
 });
 afterEach(cleanup);
 describe('general admissions scope and evidence', () => {
+  it('opens the programme scope for a search while keeping shared routes selectable', () => {
+    const data = response([
+      profile('shared', { entryType: 'transfer' }),
+      profile('medicine', { programId: 'medicine', programName: 'Medicine' }),
+    ]);
+    const props = { data, pending: false, onProgrammeSearch: vi.fn() };
+    const { rerender } = render(<AdmissionsSection {...props} />);
+    expect(screen.getByText('Details shared')).toBeInTheDocument();
+    rerender(<AdmissionsSection {...props} programme="Medicine" />);
+    expect(screen.getByText('Details medicine')).toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText('Choose admission scope'), {
+      target: { value: 'shared' },
+    });
+    expect(screen.getByText('Details shared')).toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText('Find programme admissions'), {
+      target: { value: 'Medicine' },
+    });
+    fireEvent.click(screen.getByRole('button', { name: 'Search admissions' }));
+    expect(props.onProgrammeSearch).toHaveBeenCalledWith('Medicine');
+    expect(screen.getByText('Details medicine')).toBeInTheDocument();
+  });
+
   it('labels distance study explicitly and switches between same-course modes without mixing facts', () => {
     const base = {
       programId: 'same-course',

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281940,
+            "programs": 281942,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3930,
+            "admissionProfiles": 3935,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26347,
+            "admissionRequirements": 26400,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1277
+            "qualificationRequirements": 1279
         },
         "ibCoverage": {
             "byCountry": [
@@ -21,6 +21,12 @@
                     "institutions": 6,
                     "programs_with_reviewed_ib": 434,
                     "programs_with_published_totals": 379
+                },
+                {
+                    "country": "Bahrain",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 2,
+                    "programs_with_published_totals": 2
                 },
                 {
                     "country": "Canada",
@@ -125,12 +131,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1277,
-            "programsWithReviewedIb": 1074,
+            "reviewedRecords": 1279,
+            "programsWithReviewedIb": 1076,
             "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 46,
-            "programsWithPublishedTotals": 781,
-            "undergraduateCatalogEntries": 196230
+            "institutionsWithReviewedIb": 47,
+            "programsWithPublishedTotals": 783,
+            "undergraduateCatalogEntries": 196232
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +165,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4167,
+            "programs": 4168,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1945,
+            "admissions": 1946,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23984
+            "noStructuredApplicationFacts": 23983
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +183,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4327,
-            "profiles": 1388,
-            "institutions": 92
+            "facts": 4380,
+            "profiles": 1391,
+            "institutions": 93
         }
     },
-    "generatedAt": "2026-11-21T16:07:02Z",
+    "generatedAt": "2026-11-21T16:15:38Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 10,
+        "inserted": 2,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 10,
-        "startedAt": "2026-11-21T16:06:59.520883+00:00",
-        "updatedAt": "2026-11-21T16:06:59.562+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-21T16:15:36.118901+00:00",
+        "updatedAt": "2026-11-21T16:15:36.135+00:00",
         "checkpoint": {
-            "rowIndex": 10,
-            "sourceRows": 10,
+            "rowIndex": 2,
+            "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-21T16:06:59.562+00:00",
-        "artifactSha256": "264576462652a7ed956d0fc468c3f2d8114b6e9978d36a9ff3a90d1e593fc741",
-        "datasetVersion": "official-ib-sunway-engineering-computing-2026-11-21-v1"
+        "finishedAt": "2026-11-21T16:15:36.135+00:00",
+        "artifactSha256": "949a0560986d1a18d4248088ca1b27862f04627a4ce13907730f3f709748465f",
+        "datasetVersion": "official-ib-rcsi-bahrain-medicine-2027-2026-11-21-v1"
     },
     "schemaVersion": 2
 }

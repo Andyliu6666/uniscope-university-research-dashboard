@@ -1,0 +1,792 @@
+{
+  "datasetVersion": "official-admissions-rcsi-bahrain-medicine-2027-2026-11-21-v1",
+  "reviewedOn": "2026-11-21",
+  "institutions": [
+    {
+      "key": "rcsibahrain",
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "provider": "ror",
+      "externalId": "01h4bh480",
+      "countryCode": "BH",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "direct",
+      "institutionKey": "rcsibahrain",
+      "name": "Medicine MB, BCh, BAO (5-Year Direct Entry)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+        "title": "RCSI Bahrain · undergraduate medicine · September 2027 entry pathways",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsibh_med_school",
+        "rcsibh_med_apply",
+        "rcsibh_med_kuwait",
+        "rcsibh_med_selection",
+        "rcsibh_med_interview",
+        "rcsibh_med_casper",
+        "rcsibh_med_ap_gpa",
+        "rcsibh_med_ap5",
+        "rcsibh_med_gcse",
+        "rcsibh_med_as",
+        "rcsibh_med_a5",
+        "rcsibh_med_sabis",
+        "rcsibh_med_sabis5",
+        "rcsibh_med_india",
+        "rcsibh_med_india5",
+        "rcsibh_med_english_test",
+        "rcsibh_med_english_school",
+        "rcsibh_med_english_esl",
+        "rcsibh_med_prior_degree",
+        "rcsibh_med_path_abbey_direct",
+        "rcsibh_med_path_bath_game_direct",
+        "rcsibh_med_path_cats_direct",
+        "rcsibh_med_path_ifg_direct",
+        "rcsibh_med_path_kcl_direct",
+        "rcsibh_med_path_kings_direct",
+        "rcsibh_med_path_oncampus_direct",
+        "rcsibh_med_statement",
+        "rcsibh_med_records",
+        "rcsibh_med_evaluation",
+        "rcsibh_med_good_conduct",
+        "rcsibh_med_id",
+        "rcsibh_med_exempt",
+        "rcsibh_med_esl_confirm"
+      ]
+    },
+    {
+      "key": "foundation",
+      "institutionKey": "rcsibahrain",
+      "name": "Medicine MB, BCh, BAO (6-Year Foundation Entry)",
+      "level": "undergraduate",
+      "field": "Medicine",
+      "source": {
+        "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+        "title": "RCSI Bahrain · undergraduate medicine · September 2027 entry pathways",
+        "checkedOn": "2026-11-21"
+      },
+      "sharedRequirementKeys": [
+        "rcsibh_med_school",
+        "rcsibh_med_apply",
+        "rcsibh_med_kuwait",
+        "rcsibh_med_selection",
+        "rcsibh_med_interview",
+        "rcsibh_med_casper",
+        "rcsibh_med_ap_gpa",
+        "rcsibh_med_ap6",
+        "rcsibh_med_gcse",
+        "rcsibh_med_as",
+        "rcsibh_med_a6",
+        "rcsibh_med_a6_excluded",
+        "rcsibh_med_sabis",
+        "rcsibh_med_sabis6",
+        "rcsibh_med_sabis_diploma",
+        "rcsibh_med_us",
+        "rcsibh_med_sat",
+        "rcsibh_med_india",
+        "rcsibh_med_india6",
+        "rcsibh_med_tawjihiya",
+        "rcsibh_med_english_test",
+        "rcsibh_med_english_school",
+        "rcsibh_med_english_esl",
+        "rcsibh_med_path_abbey_foundation",
+        "rcsibh_med_path_bath_game_foundation",
+        "rcsibh_med_path_cats_foundation",
+        "rcsibh_med_path_ifg_foundation",
+        "rcsibh_med_path_kcl_foundation",
+        "rcsibh_med_path_kings_foundation",
+        "rcsibh_med_path_ncuk_foundation",
+        "rcsibh_med_path_oncampus_foundation",
+        "rcsibh_med_path_oncampus_life_foundation",
+        "rcsibh_med_path_into_foundation",
+        "rcsibh_med_path_malaysia_foundation",
+        "rcsibh_med_statement",
+        "rcsibh_med_records",
+        "rcsibh_med_evaluation",
+        "rcsibh_med_good_conduct",
+        "rcsibh_med_id",
+        "rcsibh_med_exempt",
+        "rcsibh_med_esl_confirm"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 entry to undergraduate Medicine in Bahrain. Each rule names the curriculum or candidate group to which it applies.",
+      "requirements": [
+        {
+          "key": "rcsibh_med_school",
+          "label": "Prior schooling",
+          "details": "Applicants must have finished at least twelve years of school by the end of secondary education.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Requirements by Curriculum",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_apply",
+          "label": "Application route and deadline",
+          "details": "Use the School of Medicine online portal for September 2027 entry by 31 January 2027, subject to the separate arrangements for Kuwaiti nationals. The university encourages early completion.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/apply",
+            "title": "RCSI Bahrain · undergraduate medicine · application instructions",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "application"
+        },
+        {
+          "key": "rcsibh_med_kuwait",
+          "label": "Application route for Kuwaiti nationals",
+          "details": "Kuwaiti nationals must contact the Kuwait Ministry of Higher Education about the process, scholarship criteria and eligibility. RCSI Bahrain says it will not process their direct applications.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/apply",
+            "title": "RCSI Bahrain · undergraduate medicine · Kuwaiti applicants",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "application"
+        },
+        {
+          "key": "rcsibh_med_selection",
+          "label": "Selection evidence",
+          "details": "The admissions review considers academic results, English proficiency, up to three healthcare experiences and relevant extracurricular, employment or voluntary activities. The complete application is used to decide the entry point.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · selection criteria",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "considered",
+          "category": "application"
+        },
+        {
+          "key": "rcsibh_med_interview",
+          "label": "Structured interview",
+          "details": "Only shortlisted candidates receive an interview invitation. Performance at the structured interview contributes to selection.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/apply",
+            "title": "RCSI Bahrain · undergraduate medicine · shortlisting and interviews",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "considered",
+          "category": "interview"
+        },
+        {
+          "key": "rcsibh_med_casper",
+          "label": "Casper situational judgement test",
+          "details": "After applying, schedule and complete Casper. The listed test dates are 17 January and 12 February 2027. The test supplies evidence about social judgement for the admissions review.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Casper test",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "standardized_test"
+        },
+        {
+          "key": "rcsibh_med_ap_gpa",
+          "label": "High school record for the AP route",
+          "details": "AP applicants also need a competitive cumulative high school diploma GPA. The AP panel does not give a numerical GPA cutoff.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Advanced Placement",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_ap5",
+          "label": "Advanced Placement for five-year entry",
+          "details": "Present Chemistry and Biology AP plus Calculus, Physics or Psychology AP. Across these three subjects the combined minimum is 14, and each individual score must be at least 4.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Advanced Placement",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "standardized_test"
+        },
+        {
+          "key": "rcsibh_med_ap6",
+          "label": "Advanced Placement for six-year entry",
+          "details": "Present three AP subjects drawn from Biology, Chemistry, Physics, Calculus and Psychology. The three scores must total at least 11 and none may be below 3.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Advanced Placement",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "standardized_test"
+        },
+        {
+          "key": "rcsibh_med_gcse",
+          "label": "GCSEs alongside A levels",
+          "details": "The GCE route lists at least five GCSEs or equivalent including English and Mathematics, with Mathematics at C/4 or higher. Applicants presenting A levels without GCSEs must document corresponding schooling in another system.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level and AS-level entry",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_as",
+          "label": "School-leaving status for AS levels",
+          "details": "The AS-level route is for applicants who left school after AS levels and did not continue to full A levels. The linked leaflet puts its four-AS-subject route under the separate one-year Medical Commencement Programme. The five- and six-year entries give full A-level combinations.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level and AS-level entry",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_a5",
+          "label": "A levels for five-year entry",
+          "details": "Achieve ABB or AAC in three A levels. Chemistry and one further laboratory science (Biology or Physics) are compulsory. Choose the third subject from Biology, Physics, Mathematics or Psychology.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level and AS-level entry",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_a6",
+          "label": "A levels for six-year entry",
+          "details": "With three subjects from Biology, Chemistry, Mathematics and Physics the minimum is BCC. With only two from that group the minimum is BBC or ACC and one of those two subjects must be at least B.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level and AS-level entry",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_a6_excluded",
+          "label": "Third A-level subject restrictions",
+          "details": "For the six-year course, General Studies, Critical Thinking, Thinking Skills and Global Perspectives cannot supply the third A level. This restriction also appears in the mixed SABIS pathway.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level and SABIS subject restrictions",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_sabis",
+          "label": "Mixed qualifications at SABIS–Choueifat schools",
+          "details": "The mixed-system option is for three subjects drawn from biology, chemistry, physics and mathematics/calculus. Applicants using just one system follow the university’s separate full A-level, AP or IB rules.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · SABIS / Choueifat International Schools",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_sabis5",
+          "label": "Mixed A-level, AP and IB grades for five-year entry",
+          "details": "For SABIS mixed entry, present one A level at A and two other subjects each at A-level B, AP 4 or IB HL 5 or higher. Without an A level at A, one subject must instead reach AP 5 or IB HL 6; the other two still need A-level B, AP 4 or IB HL 5.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · SABIS / Choueifat International Schools",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_sabis6",
+          "label": "Mixed A-level, AP and IB grades for six-year entry",
+          "details": "For SABIS mixed entry, present one A level at B or higher and two other subjects each at A-level C, AP 3 or IB HL 4 or higher. Without an A level at B or higher, one subject must reach AP 4 or IB HL 5; the other two still need A-level C, AP 3 or IB HL 4.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · SABIS / Choueifat International Schools",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_sabis_diploma",
+          "label": "Choueifat high school diploma route",
+          "details": "Alternatively, average at least 90% over the final three diploma years and submit SAT 1200/1600 or higher, including at least 550/800 in each of Evidence-Based Reading and Writing and Math.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · SABIS / Choueifat International Schools",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_us",
+          "label": "American or private high school diploma",
+          "details": "For the six-year route, present competitive mathematics and science grades in Grades 10–12 and a cumulative GPA across those years of 92% or 3.60 or higher.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · American or private high school diploma",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_sat",
+          "label": "SAT for the American or private school diploma route",
+          "details": "Score at least 1200/1600 overall and 550/800 in each of Evidence-Based Reading and Writing and Math. Submit results before the 31 January 2027 application deadline. Kuwaiti applicants using this route must instead submit the Kuwait National Aptitude Test and meet ministry requirements.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · American or private high school diploma",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "standardized_test"
+        },
+        {
+          "key": "rcsibh_med_india",
+          "label": "Indian senior school certificate subject pattern",
+          "details": "For the Indian senior school certificate route the university identifies the CBSE and a second board spelled “ISCE” in the web panel and “ICSE” in the linked leaflet title. Applicants need the Science stream, mathematics through at least Grade 10 and three Grade 12 subjects from biology, biotechnology, chemistry, mathematics and physics. An authentic board-issued completion certificate is required.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Indian senior school certificate",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_india5",
+          "label": "Indian Grade 12 results for direct entry",
+          "details": "The Grade 12 aggregate must be 90% or above, with at least 80% in each subject.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Indian senior school certificate",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_india6",
+          "label": "Indian Grade 12 results for foundation entry",
+          "details": "The Grade 12 aggregate must be 80% or above, with at least 75% in each subject.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Indian senior school certificate",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_tawjihiya",
+          "label": "Tawjihiya secondary certificate",
+          "details": "For the six-year course, complete the science stream and earn at least 97% cumulative GPA.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Tawjihiya",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_english_test",
+          "label": "English proficiency test scores",
+          "details": "Where an English test is required, IELTS Academic needs 6.5 overall and 6.0 per band. The TOEFL iBT option uses the published thresholds of 4.5 overall and 4.0 per band. Test results are valid for two years and the test must be taken at an officially recognised centre. IELTS Online and TOEFL iBT Home Edition are excluded.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · English language entry requirements",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "language"
+        },
+        {
+          "key": "rcsibh_med_english_school",
+          "label": "School-based English evidence",
+          "details": "The English panel accepts IB English 5 at SL or HL, (I)GCSE/GCE English C/4, Irish Leaving Certificate English O6 or HKDSE English Level 5. It also accepts applicants educated solely through an English curriculum in a native English-speaking country.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · English language entry requirements",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "language"
+        },
+        {
+          "key": "rcsibh_med_english_esl",
+          "label": "GCSE English as a Second Language",
+          "details": "For GCSE English as a Second Language the minimum is A/7 with the applicable speaking endorsement: Distinction, 1–2 on the five-point scale or 7–9 on the nine-point scale.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · English language entry requirements",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "language"
+        },
+        {
+          "key": "rcsibh_med_statement",
+          "label": "Personal statement length",
+          "details": "Include a personal statement of 500 to 1,000 words.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · application checklist, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "document"
+        },
+        {
+          "key": "rcsibh_med_records",
+          "label": "Transcripts and English evidence",
+          "details": "Provide secondary school records for Grades 9–12 and any applicable university transcripts or certificates. The checklist calls for an English proficiency certificate or test booking confirmation where relevant.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · application checklist, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "document"
+        },
+        {
+          "key": "rcsibh_med_evaluation",
+          "label": "Academic evaluation and predictions",
+          "details": "Provide the university’s academic evaluation form signed and stamped by the school or university, or other references with predicted grades where applicable.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · application checklist, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "document"
+        },
+        {
+          "key": "rcsibh_med_good_conduct",
+          "label": "Good conduct letter for applicants finishing school in Bahrain",
+          "details": "Applicants completing high school in Bahrain must provide a letter of good conduct.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · application checklist, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "document"
+        },
+        {
+          "key": "rcsibh_med_id",
+          "label": "Identity documents",
+          "details": "Provide a passport-style photograph and a scan including the photo page of every passport held. Include a CPR, GCC or other national identity card if applicable.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · application checklist, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "required",
+          "category": "document"
+        },
+        {
+          "key": "rcsibh_med_esl_confirm",
+          "label": "Confirm the GCSE ESL speaking endorsement",
+          "details": "The live English requirements give speaking grades 1–2 or 7–9, depending on the scale. The September 2026 A-level leaflet instead prints 1 or 7 (it also identifies Distinction). Applicants relying on the wider range should confirm their result with admissions.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/a-levels-and--as-levels.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · A-level leaflet, p. 1",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "unknown",
+          "category": "language"
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 entry to undergraduate Medicine in Bahrain. Each rule names the curriculum or candidate group to which it applies.",
+      "requirements": [
+        {
+          "key": "rcsibh_med_prior_degree",
+          "label": "Bachelor’s-degree applicants",
+          "details": "Applicants with a completed science or health-professions bachelor’s degree and competitive GPA may be considered. Other disciplines are reviewed individually when accompanied by post-degree science study and MCAT or GAMSAT results. The prior degree programme must have entry standards equivalent to A levels or IB under UK ENIC guidance.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Bachelor’s degree applicants",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_abbey_direct",
+          "label": "Abbey College Cambridge or Manchester biomedicine and science foundation · five-year entry",
+          "details": "Achieve an overall average of at least 80%, 75% in chemistry and 70% or higher in every other module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_abbey_foundation",
+          "label": "Abbey College Cambridge or Manchester biomedicine and science foundation · six-year entry",
+          "details": "Achieve an overall average of at least 70%, 70% in chemistry and at least 60% in each other module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_bath_game_direct",
+          "label": "Bath Academy Medical Foundation or David Game College UFP Medicine · five-year entry",
+          "details": "Across three major modules, achieve at least A in chemistry, B in biology and B in the optional major module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_bath_game_foundation",
+          "label": "Bath Academy Medical Foundation or David Game College UFP Medicine · six-year entry",
+          "details": "Earn at least B in each of three major modules.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_cats_direct",
+          "label": "CATS Global Schools University Foundation Programme · five-year entry",
+          "details": "Present at least three subjects with AAB or higher. Include chemistry, a second laboratory science (biology or physics) and one other from biology, physics, mathematics and psychology.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_cats_foundation",
+          "label": "CATS Global Schools University Foundation Programme · six-year entry",
+          "details": "Present at least three subjects at AAB or higher and include biology, chemistry or physics.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_ifg_direct",
+          "label": "International Foundation Group Medical Foundation · five-year entry",
+          "details": "Average at least 80%. Chemistry-based modules must reach 80% and every other module must reach 75%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_ifg_foundation",
+          "label": "International Foundation Group Medical Foundation · six-year entry",
+          "details": "Average at least 70%, with no module below 65%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_kcl_direct",
+          "label": "King’s College London biology and chemistry foundation · five-year entry",
+          "details": "Achieve at least 75% overall and at least 70% in every module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_kcl_foundation",
+          "label": "King’s College London biology and chemistry foundation · six-year entry",
+          "details": "Achieve at least 70% overall and at least 65% in every module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_kings_direct",
+          "label": "King’s Degree Pathway Programme for Medicine · five-year entry",
+          "details": "Achieve at least 75% overall, at least 70% in chemistry and at least 65% in each other module.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_kings_foundation",
+          "label": "King’s Degree Pathway Programme for Medicine · six-year entry",
+          "details": "Achieve at least 65% overall with each module at 60% or higher.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_ncuk_foundation",
+          "label": "NCUK International Foundation Year · six-year entry",
+          "details": "The published grades are AAAB in English for Academic Purposes, Maths for Science, Biology and Chemistry.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_oncampus_direct",
+          "label": "OnCampus UK North Medicine University Foundation · five-year entry",
+          "details": "An average of at least 70% across three modules is required, and no module may be lower than 65%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_oncampus_foundation",
+          "label": "OnCampus UK North Medicine University Foundation · six-year entry",
+          "details": "An average of at least 65% across three modules is required, and no module may be lower than 60%.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_oncampus_life_foundation",
+          "label": "OnCampus UK North Life Sciences University Programme · six-year entry",
+          "details": "Average at least 70% across three modules with at least 65% in each.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_into_foundation",
+          "label": "INTO Level 3 medicine and health professions foundation · six-year entry",
+          "details": "Average at least 80% overall, with every 30-credit module at 70% or above. Satisfactorily complete Professional Skills and Contemporary Issues in Medicine. The listed modules cover chemistry, biology or physics, mathematics or mathematics and data handling, and English for Academic Purposes or Research Project with Skills Enhancement.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        },
+        {
+          "key": "rcsibh_med_path_malaysia_foundation",
+          "label": "Malaysian science foundation pathways · six-year entry",
+          "details": "The named Sunway FIST, Taylor’s College, INTI and HELP University science foundation routes require at least 80% overall, with no module below 70%. Present modules in English and chemistry, plus the biology and/or physics/mathematics combination listed by RCSI.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Bahrain · undergraduate medicine · Access by foundation programmes",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "conditional",
+          "category": "academic"
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsibahrain",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "september",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "September 2027 entry to undergraduate Medicine in Bahrain. Each rule names the curriculum or candidate group to which it applies.",
+      "requirements": [
+        {
+          "key": "rcsibh_med_exempt",
+          "label": "Prior coursework and advanced standing",
+          "details": "Prior coursework does not grant exemption from any part of the medicine programme.",
+          "source": {
+            "url": "https://www.rcsi.com/bahrain/-/media/feature/media/download-document/bahrain/undergraduate/programmes/medicine/2023-24/advanced-placements---ap.pdf",
+            "title": "RCSI Bahrain · undergraduate medicine · previous qualifications, p. 2",
+            "checkedOn": "2026-11-21"
+          },
+          "status": "not_considered",
+          "category": "academic"
+        }
+      ]
+    }
+  ]
+}

@@ -429,11 +429,13 @@ export function AdmissionsSection({
   onProgrammeSearch?: (name: string) => void;
 }) {
   const [search, setSearch] = useState('');
+  const [selectedId, setSelectedId] = useState('');
   const searchForm = onProgrammeSearch && (
     <form
       className="ib-filters"
       onSubmit={(event) => {
         event.preventDefault();
+        setSelectedId('');
         onProgrammeSearch(search.trim());
       }}
     >
@@ -452,6 +454,7 @@ export function AdmissionsSection({
           type="button"
           onClick={() => {
             setSearch('');
+            setSelectedId('');
             onProgrammeSearch('');
           }}
         >
@@ -460,7 +463,6 @@ export function AdmissionsSection({
       )}
     </form>
   );
-  const [selectedId, setSelectedId] = useState('');
   // IB-only profiles retain their dedicated programme browser below.
   const profiles =
     data?.profiles
@@ -472,6 +474,9 @@ export function AdmissionsSection({
           item.testScores.length > 0,
       )
       .sort((a, b) => {
+        if (programme && Boolean(a.programId) !== Boolean(b.programId)) {
+          return a.programId ? -1 : 1;
+        }
         const priority = (item: typeof a) =>
           (item.programId ? 20 : 0) +
           (item.entryType === 'first_year' ? 0 : 10) +
