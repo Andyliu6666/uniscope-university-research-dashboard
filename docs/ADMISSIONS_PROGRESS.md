@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-21
 
+## BA ISAGO University, Botswana · Commerce
+
+1. Chester commit `9d74327` and its database fingerprint supplied the baseline. BA ISAGO had zero programmes and zero admissions profiles.
+2. The university’s [2026 programme guide](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-Guide-2026.pdf), pages 8–16, was checked against its [2026 award list](https://marketing.baisago.ac.bw/wp-content/uploads/2026/04/BA-ISAGO-Programme-List-2026-.pdf) and Commerce directory. Two Fiscal Studies links describe one degree. Chartered Accountancy also appears twice in the guide. Undated web requirements retain an unspecified year.
+3. The batch adds 34 awards from certificate to doctorate and 36 admission rules with 169 course associations. Actuarial Science includes the Advanced Level Mathematics pathway. The 31-point provision is restricted to designated groups on the listed degrees. The graduate Banking and Finance entry and conflicting central diploma/certificate credit counts are explicitly marked for confirmation.
+4. Validation and dry run wrote zero rows. The verified Chester archive preceded the import. All 36 records were inserted, and the repeat import added zero. Earlier general facts and IB records passed their preservation checks.
+5. The website API returned the expected requirements for all 34 course searches, including the source, review date, level, entry route and associations. The database, API and website quality checks passed.
+6. Reviewed general coverage reached 4,221 facts across 91 institutions. The database archive `backups/post-baisago-commerce-20261121.dump` was verified by reading the full restore stream. The next section of the same guide covers the built environment, education and law.
+
 ## University of Chester science programmes — November 21 UTC
 
 1. The English and Creative Writing batch reached [main with passing checks](https://github.com/Andyliu6666/uniscope-university-research-dashboard/actions/runs/44911483082). Both imports started from its verified database snapshot.

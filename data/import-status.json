@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 281830,
+            "programs": 281864,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 3881,
+            "admissionProfiles": 3889,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26205,
+            "admissionRequirements": 26241,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1241
         },
@@ -130,7 +130,7 @@
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 46,
             "programsWithPublishedTotals": 745,
-            "undergraduateCatalogEntries": 196142
+            "undergraduateCatalogEntries": 196167
         },
         "coreCoverage": {
             "phone": 4078,
@@ -159,13 +159,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4166,
+            "programs": 4167,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1944,
+            "admissions": 1945,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23985
+            "noStructuredApplicationFacts": 23984
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -177,31 +177,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4185,
-            "profiles": 1375,
-            "institutions": 90
+            "facts": 4221,
+            "profiles": 1383,
+            "institutions": 91
         }
     },
-    "generatedAt": "2026-11-21T14:01:04Z",
+    "generatedAt": "2026-11-21T14:58:56Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 23,
-        "provider": "official_ib",
+        "inserted": 36,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 23,
-        "startedAt": "2026-11-21T14:00:44.328943+00:00",
-        "updatedAt": "2026-11-21T14:00:44.396+00:00",
+        "processed": 36,
+        "startedAt": "2026-11-21T14:58:24.498301+00:00",
+        "updatedAt": "2026-11-21T14:58:24.498301+00:00",
         "checkpoint": {
-            "rowIndex": 23,
-            "sourceRows": 23,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 8,
+            "admissionFacts": 36,
+            "programsReused": 0,
+            "programsCreated": 34
         },
-        "finishedAt": "2026-11-21T14:00:44.396+00:00",
-        "artifactSha256": "5327726c913f6de595f81fe69aaa7710f1e36a4a7360c8551b80055fbc931602",
-        "datasetVersion": "official-ib-chester-sciences-2027-2026-11-21-v1"
+        "finishedAt": "2026-11-21T14:58:24.622+00:00",
+        "artifactSha256": "1dedfc26475c17af5e129a8dbf6ee42aa4cb83c7ff3eb812271819313c6b78d2",
+        "datasetVersion": "official-admissions-baisago-commerce-2026-11-21-v1"
     },
     "schemaVersion": 2
 }
