@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282487,
+            "programs": 282496,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4325,
+            "admissionProfiles": 4328,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27644,
+            "admissionRequirements": 27670,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1575
         },
@@ -190,7 +190,7 @@
             "institutionWidePolicies": 21,
             "institutionsWithReviewedIb": 60,
             "programsWithPublishedTotals": 884,
-            "undergraduateCatalogEntries": 196699
+            "undergraduateCatalogEntries": 196708
         },
         "coreCoverage": {
             "phone": 4078,
@@ -219,13 +219,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4189,
+            "programs": 4190,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1966,
+            "admissions": 1967,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23963
+            "noStructuredApplicationFacts": 23962
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -237,31 +237,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5624,
-            "profiles": 1494,
-            "institutions": 114
+            "facts": 5650,
+            "profiles": 1497,
+            "institutions": 115
         }
     },
-    "generatedAt": "2026-11-22T06:31:33Z",
+    "generatedAt": "2026-11-22T06:38:38Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 27,
-        "provider": "official_ib",
+        "inserted": 26,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 27,
-        "startedAt": "2026-11-22T06:31:19.883683+00:00",
-        "updatedAt": "2026-11-22T06:31:19.96+00:00",
+        "processed": 26,
+        "startedAt": "2026-11-22T06:38:36.635574+00:00",
+        "updatedAt": "2026-11-22T06:38:36.635574+00:00",
         "checkpoint": {
-            "rowIndex": 27,
-            "sourceRows": 27,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 3,
+            "admissionFacts": 26,
+            "programsReused": 0,
+            "programsCreated": 9
         },
-        "finishedAt": "2026-11-22T06:31:19.96+00:00",
-        "artifactSha256": "8bc94ee6f44c5cd60e09dbac3cd41195ca3400dfdeff2e78777fbd616149a20d",
-        "datasetVersion": "official-ib-requirements-wollongong-australia-2026-11-22-v1"
+        "finishedAt": "2026-11-22T06:38:36.686+00:00",
+        "artifactSha256": "16d43ac505b4757ad022bb177fb0d8aa922065e43deb7ff7d76cf2e56f1595bb",
+        "datasetVersion": "official-admissions-facts-water-institute-tanzania-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

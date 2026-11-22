@@ -1,0 +1,607 @@
+{
+  "datasetVersion": "official-admissions-facts-water-institute-tanzania-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "wi",
+      "name": "Water Institute, Tanzania",
+      "provider": "ror",
+      "externalId": "00jway472",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz", "waterinstitute.ac.tz"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "wi",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "notes": "2026/27 direct entry using Tanzanian secondary qualifications or a formally assessed equivalent.",
+      "requirements": [
+        {
+          "key": "wi_secondary_science",
+          "label": "ACSEE · science subject combination",
+          "details": "Earn principal passes in two of these subjects: chemistry, geography, physics and advanced mathematics.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 356, 357, 358, 359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_sanitation",
+          "label": "ACSEE · sanitation engineering subjects",
+          "details": "Choose two principal passes from advanced mathematics, biology, chemistry, geography and physics.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_maths",
+          "label": "Mathematics when neither principal pass is advanced mathematics",
+          "details": "The guide requires a subsidiary pass in Basic Applied Mathematics at A level or Basic Mathematics at O level when advanced mathematics is absent from the qualifying principal passes. It does not give a numerical O-level grade.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 356, 357, 358, 359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_community",
+          "label": "ACSEE · community development",
+          "details": "Two principal passes may come from any two subjects other than religious subjects.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_lab",
+          "label": "ACSEE · laboratory technology",
+          "details": "Earn two principal passes from mathematics, physics, biology, geography and chemistry. At least one must be biology, chemistry or physics.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_points",
+          "label": "ACSEE · 4.0 points and examination cohort",
+          "details": "For the two qualifying subjects, reach 4.0 points in total. For school leavers before 2014 or from 2016 onwards, each principal pass must be E or above and grades A, B, C, D, E and S carry 5, 4, 3, 2, 1 and 0.5 points. For 2014–15 leavers, the minimum is C in each, with A, B+, B, C, D and E worth 5, 4, 3, 2, 1 and 0.5.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 13, 356–359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_secondary_foreign",
+          "label": "Recognition of overseas secondary qualifications",
+          "details": "Water Institute assesses an international applicant’s overseas pre-university qualification against the Tanzanian ACSEE. Tanzanian applicants educated abroad obtain the applicable NECTA or NACTVET equivalence, index number and award verification number before applying through the domestic route.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "wi_secondary_capacity_100",
+          "label": "2026/27 capacity and study length · secondary-school entry",
+          "details": "The secondary-school guide lists 100 places and 4 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 356, 357, 358, 359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "wi_secondary_capacity_40",
+          "label": "2026/27 capacity and study length · secondary-school entry",
+          "details": "The secondary-school guide lists 40 places and 4 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "wi_secondary_capacity_50",
+          "label": "2026/27 capacity and study length · secondary-school entry",
+          "details": "The secondary-school guide lists 50 places and 4 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 358, 359",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "wi",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "notes": "2026/27 admission based on a diploma, technician certificate or equivalent qualification.",
+      "requirements": [
+        {
+          "key": "wi_diploma_national",
+          "label": "National school-leaving and award standards",
+          "details": "The diploma route requires four O-level passes at D or above, NVA Level III with fewer than four passes, or a recognised foreign equivalent. The national minimum is GPA 3.0 on an NTA Level 6 ordinary diploma, or a C average on a Full Technician Certificate (FTC). The programme must accept the particular award and field.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_foreign",
+          "label": "Recognition of foreign awards",
+          "details": "The receiving institution obtains TCU recognition for an international applicant’s foreign university award. A Tanzanian applicant using a foreign university award submits its TCU recognition and follows the domestic equivalence process.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "wi_diploma_common",
+          "label": "Eligible diploma or FTC disciplines · water engineering",
+          "details": "These programmes accept qualifications in civil engineering, hydrology and meteorology, hydrogeology and water-well drilling, water supply engineering, sanitation engineering, irrigation engineering, or operation and maintenance of water systems.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 556, 557, 558",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_land",
+          "label": "Additional diploma or FTC disciplines · land planning",
+          "details": "Land use planning and agricultural land use planning also qualify for this programme.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 556, 557, 558",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_related",
+          "label": "Additional diploma or FTC disciplines · laboratory and related water fields",
+          "details": "The programme also accepts water quality and laboratory technology or another water-related programme.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 556, 558",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_sanitary",
+          "label": "Eligible diploma or FTC disciplines · sanitation",
+          "details": "Eligible fields are environmental health science, hydrology and meteorology, hydrogeology and water-well drilling, irrigation engineering, sanitation engineering, water supply engineering, water systems operation and maintenance, or water quality and laboratory technology.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 557",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_community",
+          "label": "Community development · eligible diplomas and grades",
+          "details": "Hold a diploma in anthropology, sociology, social work, public administration, tourism, community development, development studies or a water-related field, with at least a B average or GPA 3.0.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 557",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_quality",
+          "label": "Laboratory technology · eligible diploma or FTC",
+          "details": "An ordinary diploma at NTA Level 6 or an FTC may be in environmental health science, general laboratory technology, water quality and laboratory technology, or water resources engineering.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 559",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_survey",
+          "label": "Quantity surveying · eligible diploma or FTC",
+          "details": "Eligible fields include quantity surveying, metrology, mechanical or electrical engineering, civil or irrigation engineering, hydrology and meteorology, hydrogeology and water-well drilling, water supply and sanitation engineering, water quality laboratory technology and related fields.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 559",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "wi_diploma_capacity_140",
+          "label": "2026/27 capacity and study length · diploma entry",
+          "details": "The diploma/equivalent guide lists 140 places and 3 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 556",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "wi_diploma_capacity_100",
+          "label": "2026/27 capacity and study length · diploma entry",
+          "details": "The diploma/equivalent guide lists 100 places and 3 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 556, 557, 558, 559",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "wi_diploma_capacity_60",
+          "label": "2026/27 capacity and study length · diploma entry",
+          "details": "The diploma/equivalent guide lists 60 places and 3 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 557",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "wi_diploma_capacity_50",
+          "label": "2026/27 capacity and study length · diploma entry",
+          "details": "The diploma/equivalent guide lists 50 places and 3 years of study for each linked degree.",
+          "source": {
+            "title": "Tanzania Commission for Universities · diploma and equivalent admission 2026/27 · PDF pp. 558",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "wi",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "September",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "notes": "September 2026/27 intake. These registration conditions apply after a bachelor’s degree place has been offered, regardless of the original qualification.",
+      "requirements": [
+        {
+          "key": "wi_joining_originals",
+          "label": "Registration · original documents and certified copies",
+          "details": "Bring the relevant secondary, advanced secondary and certificate or diploma awards, plus the birth certificate. Supply both originals and certified copies. Bring three recent colour passport photographs.",
+          "source": {
+            "title": "Water Institute · bachelor’s joining instructions for 2026/27 · PDF pp. 1",
+            "url": "https://www.waterinstitute.ac.tz/docs/740591joining%20instructions%20for%20bachelor%20degree%202026-2027%20final.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "required"
+        },
+        {
+          "key": "wi_joining_forms",
+          "label": "Registration · signed forms and payment",
+          "details": "Submit the completed acceptance and declaration, the signed medical report and proof of payment when registering.",
+          "source": {
+            "title": "Water Institute · bachelor’s joining instructions for 2026/27 · PDF pp. 1–2",
+            "url": "https://www.waterinstitute.ac.tz/docs/740591joining%20instructions%20for%20bachelor%20degree%202026-2027%20final.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "required"
+        },
+        {
+          "key": "wi_joining_date",
+          "label": "2026/27 September intake · reporting dates",
+          "details": "Orientation and registration started on 26 October 2026, and classes began on 2 November. The institute states that arriving more than two weeks after the semester begins cancels the admission.",
+          "source": {
+            "title": "Water Institute · bachelor’s joining instructions for 2026/27 · PDF pp. 1, 6",
+            "url": "https://www.waterinstitute.ac.tz/docs/740591joining%20instructions%20for%20bachelor%20degree%202026-2027%20final.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "required"
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "wd001",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Water Resources and Irrigation Engineering",
+      "field": "Water Resources and Irrigation Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 356 · WD001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_common",
+        "wi_diploma_land",
+        "wi_diploma_related",
+        "wi_diploma_capacity_140",
+        "wi_secondary_capacity_100",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd002",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Hydrogeology and Drilling",
+      "field": "Hydrogeology and Drilling",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 356 · WD002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_common",
+        "wi_diploma_capacity_100",
+        "wi_secondary_capacity_100",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd003",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Engineering Hydrology",
+      "field": "Engineering Hydrology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357 · WD003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_common",
+        "wi_diploma_land",
+        "wi_diploma_capacity_60",
+        "wi_secondary_capacity_40",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd004",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Sanitation Engineering",
+      "field": "Sanitation Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357 · WD004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_sanitation",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_sanitary",
+        "wi_diploma_capacity_60",
+        "wi_secondary_capacity_40",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd005",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Community Development for Water Supply and Sanitation",
+      "field": "Community Development for Water Supply and Sanitation",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 357 · WD005",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_community",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_community",
+        "wi_diploma_capacity_100",
+        "wi_secondary_capacity_100",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd006",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Water Supply Engineering",
+      "field": "Water Supply Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 358 · WD006",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_common",
+        "wi_diploma_land",
+        "wi_diploma_related",
+        "wi_diploma_capacity_100",
+        "wi_secondary_capacity_100",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd007",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Plumbing and Service Engineering",
+      "field": "Plumbing and Service Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 358 · WD007",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_common",
+        "wi_diploma_land",
+        "wi_diploma_capacity_50",
+        "wi_secondary_capacity_50",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd008",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Water Quality and Laboratory Technology",
+      "field": "Water Quality and Laboratory Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 359 · WD008",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_lab",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_quality",
+        "wi_diploma_capacity_100",
+        "wi_secondary_capacity_100",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    },
+    {
+      "key": "wd009",
+      "institutionKey": "wi",
+      "name": "Bachelor's Degree in Quantity Surveying for Water and Sanitation",
+      "field": "Quantity Surveying for Water and Sanitation",
+      "level": "undergraduate",
+      "source": {
+        "title": "Tanzania Commission for Universities · secondary school admission 2026/27 · PDF pp. 359 · WD009",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wi_secondary_science",
+        "wi_secondary_maths",
+        "wi_secondary_points",
+        "wi_secondary_foreign",
+        "wi_diploma_national",
+        "wi_diploma_foreign",
+        "wi_diploma_survey",
+        "wi_diploma_capacity_100",
+        "wi_secondary_capacity_50",
+        "wi_joining_originals",
+        "wi_joining_forms",
+        "wi_joining_date"
+      ]
+    }
+  ]
+}
