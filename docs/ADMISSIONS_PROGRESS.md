@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-22
 
+## International University of Management, Namibia · six joint specialist medical qualifications
+
+1. Matched the Twente database checkpoint and the checksum of IUM's official 2027 booklet. A search for the Master of Medicine programmes returned no admissions before import.
+2. Reviewed pages 60–64. Page 60 points applicants to a separate CIIP brochure for short-course requirements. Pages 61–62 list distance options and direct readers to faculty sections for entry rules. Pages 63–64 name six Master of Medicine specialties jointly offered with the University of Zimbabwe, which awards the qualifications. [2027 admissions booklet, pp. 63–64](https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf#page=63)
+3. Added all six specialties with eight shared facts and 48 programme associations. Eligibility includes an MBChB or equivalent, a completed medical internship, two years of registered practice, eligibility for registration in both countries and financial evidence covering training. A relevant postgraduate diploma helps an application, and the selection process may include an interview or knowledge test.
+4. Recorded four years of full-time training, limits for both stages and the dissertation defence. The booklet places Part II in Zimbabwe on page 63 and in Namibia on page 64. Each programme flags this for confirmation. Undergraduate qualification scores do not apply to these graduate-entry records.
+5. Both the preview and repeat import wrote zero data. Previous general and IB records retained their fingerprints. Verified all 48 associations, intake and delivery filters, the undergraduate IB coverage and the six rendered graduate programme searches. The image checksum and quality checks passed. The full archive passed its restore-stream check (SHA-256 `1171b35afe6a559c3c148529d266dddcd10ec9d7b1cc820ee02f0e87b89590c8`).
+6. The database contains 282,280 programmes, 4,171 admissions profiles and 27,059 general requirements. Reviewed coverage is 5,039 general facts across 99 institutions and 1,470 IB records, with 810 programmes carrying a published numeric total. Next is Chile's Universidad de La Frontera. Its 2027 special IB route booklet lists 44 programme rows, distinguishes faculty-wide pools from individual programme vacancies and identifies programmes with zero places.
+
 ## University of Twente, Netherlands · September 2027 undergraduate entry
 
 1. Confirmed the Namibia checkpoint and captured the empty Twente admissions and IB pages before importing. The university had no listed programmes. Matched its Dutch ROR identifier and official catalogue to the programme headings on all three qualification pages.

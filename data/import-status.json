@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282274,
+            "programs": 282280,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4170,
+            "admissionProfiles": 4171,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27051,
+            "admissionRequirements": 27059,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1470
         },
@@ -213,31 +213,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5031,
-            "profiles": 1441,
+            "facts": 5039,
+            "profiles": 1442,
             "institutions": 99
         }
     },
-    "generatedAt": "2026-11-22T03:20:38Z",
+    "generatedAt": "2026-11-22T03:26:19Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 19,
-        "provider": "official_ib",
+        "inserted": 8,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 19,
-        "startedAt": "2026-11-22T03:20:35.330202+00:00",
-        "updatedAt": "2026-11-22T03:20:35.391+00:00",
+        "processed": 8,
+        "startedAt": "2026-11-22T03:26:18.145015+00:00",
+        "updatedAt": "2026-11-22T03:26:18.145015+00:00",
         "checkpoint": {
-            "rowIndex": 19,
-            "sourceRows": 19,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 1,
+            "admissionFacts": 8,
+            "programsReused": 0,
+            "programsCreated": 6
         },
-        "finishedAt": "2026-11-22T03:20:35.391+00:00",
-        "artifactSha256": "97fed232c77b5ef57f90ff462d9cf81aff4d6c854186f50969d06be597bf8b5d",
-        "datasetVersion": "official-ib-twente-qualifications-2026-11-22-v1"
+        "finishedAt": "2026-11-22T03:26:18.186+00:00",
+        "artifactSha256": "b68d96ce2f71e4cb5537285ba51442a47cbb22b04a1f965b291ab56858a04334",
+        "datasetVersion": "official-admissions-ium-namibia-joint-medicine-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
