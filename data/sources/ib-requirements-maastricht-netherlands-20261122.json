@@ -1,0 +1,473 @@
+{
+  "datasetVersion": "official-ib-requirements-maastricht-netherlands-2027-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "um",
+      "name": "Maastricht University",
+      "provider": "ror",
+      "externalId": "02jz4aj89",
+      "countryCode": "NL",
+      "officialDomains": ["maastrichtuniversity.nl"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "um",
+      "program": null,
+      "requirement": {
+        "recordKey": "um27-ib-diploma",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Applicants presenting the full IB Diploma for undergraduate admission.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The full diploma must include at least three Higher Level subjects.",
+        "conditions": "Published diploma equivalence establishes general eligibility. Individual programmes have additional subject requirements.",
+        "source": {
+          "title": "Maastricht University · IB Diploma equivalence 2027/28",
+          "url": "https://www.maastrichtuniversity.nl/non-Dutch-diplomas-equivalent-VWO",
+          "checkedOn": "2026-11-22",
+          "evidence": "at least 3 Higher Level (HL) subjects"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Biomedical Sciences",
+        "field": "Biomedical Sciences",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/biomedical-sciences"
+      },
+      "requirement": {
+        "recordKey": "um27-biomedical-sciences",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Biomedical Sciences.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "HL biology, SL physics and SL chemistry. Take Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Biomedical Sciences",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Biology HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Medicine (Geneeskunde)",
+        "field": "Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/medicine"
+      },
+      "requirement": {
+        "recordKey": "um27-medicine",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Medicine (Geneeskunde).",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "HL biology, SL physics and SL chemistry. Take Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Geneeskunde",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Biology HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Brain Science",
+        "field": "Brain Science",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/brain-science"
+      },
+      "requirement": {
+        "recordKey": "um27-brain-science",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Brain Science.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "HL biology, SL physics and SL chemistry. Take Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Brain Science",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Biology HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Regenerative Medicine and Technology",
+        "field": "Regenerative Medicine and Technology",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/regenerative-medicine-and-technology"
+      },
+      "requirement": {
+        "recordKey": "um27-regenerative-medicine-and-technology",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Regenerative Medicine and Technology.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "HL biology, SL physics and SL chemistry, with Mathematics: Analysis and Approaches at SL or HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Regenerative Medicine and Technology",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Biology HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Circular Engineering",
+        "field": "Circular Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/circular-engineering"
+      },
+      "requirement": {
+        "recordKey": "um27-circular-engineering",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Circular Engineering.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "SL physics and Mathematics: Analysis and Approaches at SL or HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Circular Engineering",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Physics SL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Sustainable Bioscience",
+        "field": "Sustainable Bioscience",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/sustainable-bioscience"
+      },
+      "requirement": {
+        "recordKey": "um27-sustainable-bioscience",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Sustainable Bioscience.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "HL biology, SL chemistry and Mathematics: Analysis and Approaches at SL or HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Sustainable Bioscience",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Biology HL"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Business Analytics",
+        "field": "Business Analytics",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/business-analytics"
+      },
+      "requirement": {
+        "recordKey": "um27-business-analytics",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Business Analytics.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Business Analytics",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Business Engineering",
+        "field": "Business Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/business-engineering"
+      },
+      "requirement": {
+        "recordKey": "um27-business-engineering",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Business Engineering.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Business Engineering",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Econometrics & Operations Research",
+        "field": "Econometrics & Operations Research",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/econometrics-operations-research"
+      },
+      "requirement": {
+        "recordKey": "um27-econometrics-operations-research",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Econometrics & Operations Research.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches at SL or HL, or Mathematics: Applications and Interpretation at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Econometrics and Operations Research",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Economics and Business Economics",
+        "field": "Economics and Business Economics",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/economics-and-business-economics"
+      },
+      "requirement": {
+        "recordKey": "um27-economics-and-business-economics",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Economics and Business Economics.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Either Mathematics: Analysis and Approaches or Mathematics: Applications and Interpretation at SL or HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Economics and Business Economics",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "International Business",
+        "field": "International Business",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/international-business"
+      },
+      "requirement": {
+        "recordKey": "um27-international-business",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for International Business.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Either Mathematics: Analysis and Approaches or Mathematics: Applications and Interpretation at SL or HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · International Business",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Data Science and Artificial Intelligence",
+        "field": "Data Science and Artificial Intelligence",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/data-science-and-artificial-intelligence"
+      },
+      "requirement": {
+        "recordKey": "um27-data-science-and-artificial-intelligence",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Data Science and Artificial Intelligence.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Data Science and Artificial Intelligence",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    },
+    {
+      "institutionKey": "um",
+      "program": {
+        "name": "Computer Science",
+        "field": "Computer Science",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/computer-science"
+      },
+      "requirement": {
+        "recordKey": "um27-computer-science",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "First-year applicants using the full International Baccalaureate Diploma for Computer Science.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches at HL.",
+        "conditions": "The programme table specifies subjects and levels without publishing an overall numerical score.",
+        "source": {
+          "title": "Maastricht University · IB Diploma subject requirements 2027/28 · Computer Science",
+          "url": "https://www.maastrichtuniversity.nl/additional-subject-requirements",
+          "checkedOn": "2026-11-22",
+          "evidence": "Mathematics Analysis and Approaches"
+        }
+      }
+    }
+  ]
+}

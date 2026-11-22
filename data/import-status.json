@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282496,
+            "programs": 282509,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4328,
+            "admissionProfiles": 4343,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27670,
+            "admissionRequirements": 27740,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1575
+            "qualificationRequirements": 1589
         },
         "ibCoverage": {
             "byCountry": [
@@ -162,8 +162,8 @@
                 },
                 {
                     "country": "The Netherlands",
-                    "institutions": 1,
-                    "programs_with_reviewed_ib": 19,
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 32,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -185,12 +185,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1575,
-            "programsWithReviewedIb": 1363,
-            "institutionWidePolicies": 21,
-            "institutionsWithReviewedIb": 60,
+            "reviewedRecords": 1589,
+            "programsWithReviewedIb": 1376,
+            "institutionWidePolicies": 22,
+            "institutionsWithReviewedIb": 61,
             "programsWithPublishedTotals": 884,
-            "undergraduateCatalogEntries": 196708
+            "undergraduateCatalogEntries": 196721
         },
         "coreCoverage": {
             "phone": 4078,
@@ -219,13 +219,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4190,
+            "programs": 4191,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1967,
+            "admissions": 1968,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23962
+            "noStructuredApplicationFacts": 23961
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -237,31 +237,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5650,
-            "profiles": 1497,
-            "institutions": 115
+            "facts": 5720,
+            "profiles": 1499,
+            "institutions": 116
         }
     },
-    "generatedAt": "2026-11-22T06:38:38Z",
+    "generatedAt": "2026-11-22T06:48:42Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 26,
-        "provider": "official_admissions",
+        "inserted": 14,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 26,
-        "startedAt": "2026-11-22T06:38:36.635574+00:00",
-        "updatedAt": "2026-11-22T06:38:36.635574+00:00",
+        "processed": 14,
+        "startedAt": "2026-11-22T06:48:39.81314+00:00",
+        "updatedAt": "2026-11-22T06:48:39.861+00:00",
         "checkpoint": {
-            "profiles": 3,
-            "admissionFacts": 26,
-            "programsReused": 0,
-            "programsCreated": 9
+            "rowIndex": 14,
+            "sourceRows": 14,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T06:38:36.686+00:00",
-        "artifactSha256": "16d43ac505b4757ad022bb177fb0d8aa922065e43deb7ff7d76cf2e56f1595bb",
-        "datasetVersion": "official-admissions-facts-water-institute-tanzania-2026-11-22-v1"
+        "finishedAt": "2026-11-22T06:48:39.861+00:00",
+        "artifactSha256": "7af2186e70e84a5b9460cbc183c446e667731075cd5005b31372d5a1a2017eed",
+        "datasetVersion": "official-ib-requirements-maastricht-netherlands-2027-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
