@@ -1,0 +1,757 @@
+{
+  "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ium-na",
+      "name": "International University of Management",
+      "provider": "ror",
+      "externalId": "011d6dm60",
+      "countryCode": "NA",
+      "officialDomains": ["ium.edu.na", "ws-be-1.ongwediva.app"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 IUM booklet lists the applicable school-leaving, prior qualification or mature-age conditions for each named programme. Local points use the Namibian evaluation scale.",
+      "requirements": [
+        {
+          "key": "ium27_gce",
+          "label": "Cambridge GCE · subject-grade conversion",
+          "details": "For a school-leaving points assessment, the university lists A-level A, B, C, D and E as 10, 9, 8, 7 and 6 Namibian points per subject. For AS grades a–e the respective values are 9, 8, 7, 6 and 5. The table also gives 5 for an A-level N, O or subsidiary result. At O level, A*, A, B, C, D, E, F and G give 8 through 1 respectively. The total uses five subjects. Specific subject and English conditions still apply.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6, Annexure A",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_nssc",
+          "label": "Namibian senior secondary grades · evaluation scale",
+          "details": "NSSCAS grades a–e earn 9, 8, 7, 6 and 5 local points. Higher Level/HIGCSE grades 1–4 earn 9, 8, 7 and 6. Ordinary Level/IGCSE grades A*, A, B, C, D, E, F and G earn 8 through 1 respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6, Annexure A",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_senior",
+          "label": "Senior Certificate · grade scale",
+          "details": "High Grade A through F earn 9 through 4 local points. Standard Grade A through F earn 7 through 2. Low Grade A, B, C and D earn 5, 4, 3 and 2, while either E or F earns 1.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6, Annexure A",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_abitur",
+          "label": "Abitur · subject result conversion",
+          "details": "In the Abitur column, the grade pairs 14–15, 12–13, 10–11, 8–9, 6–7 and 4–5 earn 10, 9, 8, 7, 6 and 5 local points respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6, Annexure A",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_nurse_school",
+          "label": "Nursing · school subjects and local points",
+          "details": "Earn at least 32 Namibian admission points across at least five subjects at the listed Ordinary and Advanced Subsidiary levels or equivalent. English requires D as a first language or C as a second language. At NSSAS, biology requires c and mathematics d. The programme is full time.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_eng_school",
+          "label": "Electronics engineering · school subjects and local points",
+          "details": "Earn at least 30 Namibian points across five different subjects including English. Combine NSSCH with NSSCO, or NSSCAS with NSSCO. English requires at least C at NSSCO. The four-year honours course lists telecommunications, instrumentation, control systems and electrical specialisation areas.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 49",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_cert_school",
+          "label": "Certificate entry · five Ordinary Level subjects",
+          "details": "Earn at least 18 Namibian points in five different NSSCO subjects including English at G or higher.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 44, 46",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_b_school",
+          "label": "Bachelor entry · five Ordinary Level subjects",
+          "details": "Earn at least 25 Namibian points in five different NSSCO subjects, with English at D or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 45–47",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_bis_dip",
+          "label": "Business information systems diploma · prerequisite certificate",
+          "details": "Hold the IUM Certificate in Business Information Systems or an equivalent NQF Level 5 certificate from another recognised institution.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 46",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_bis_hons",
+          "label": "Software or information systems honours · prerequisite degree",
+          "details": "For these one-year honours routes, IUM specifies a bachelor’s degree in Business Information Systems at NQF Level 7 or equivalent. The published prerequisite is the same for Software Development Honours and Business Information Systems Honours.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 47",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_hw_dip",
+          "label": "Health and wellness diploma · prerequisite certificate",
+          "details": "Hold the Level 5 Certificate in Health and Wellness Studies or an equivalent qualification.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 44",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_hw_b",
+          "label": "Health and wellness bachelor · prerequisite diploma",
+          "details": "Applicants must hold the NQF Level 6 Diploma in Health and Wellness Studies or equivalent.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_hw_h",
+          "label": "Health and wellness honours · prerequisite degree",
+          "details": "Hold the NQF Level 7 Bachelor of Health and Wellness Studies or an equivalent degree to progress to honours.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_hw_sites",
+          "label": "Full-time admission sites · health and wellness",
+          "details": "The certificate, diploma and ordinary bachelor in Health and Wellness Studies are offered full time at Windhoek and Eenhana only.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 44–45",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_pharm",
+          "label": "Pharmacist assistant certificate · intended applicants",
+          "details": "The two-year qualification is intended for NSSCO/H or equivalent and mature-age learners already working in a pharmacy and seeking further training.",
+          "category": "experience",
+          "status": "considered",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "all",
+      "applicantType": "all",
+      "notes": "University-wide application procedures from the 2027 admissions standards.",
+      "requirements": [
+        {
+          "key": "ium27_nqa",
+          "label": "Assessment of qualifications issued outside Namibia",
+          "details": "Applicants using non-Namibian qualifications must obtain an evaluation by the Namibia Qualifications Authority.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_copies",
+          "label": "Certified application documents",
+          "details": "Submit certified copies of the documents accompanying the application form.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_exemption",
+          "label": "Applications for exemptions",
+          "details": "Applicants seeking exemptions for previous study should apply as early as possible.",
+          "category": "application",
+          "status": "recommended",
+          "source": {
+            "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+            "title": "IUM · 2027 Admission Requirements · p. 6",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 IUM booklet lists the applicable school-leaving, prior qualification or mature-age conditions for each named programme. Local points use the Namibian evaluation scale.",
+      "requirements": [
+        {
+          "key": "ium27_cert_prior",
+          "label": "Certificate entry · prior qualification",
+          "details": "The certificate lists a recognised NQF Level 4 qualification as a prior-qualification entry route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 44, 46",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_b_prior",
+          "label": "Recognised Level 6 qualification",
+          "details": "The programme lists a recognised NQF Level 6 qualification or equivalent as a prior-qualification route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 46–47, 49",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_mature",
+          "label": "Mature-age entry · experience, schooling and aptitude",
+          "details": "Reach age 25 during the admission year, have at least three years of relevant work experience and have passed the Grade 10 Certificate. IUM also specifies its entry aptitude test for mature-age applicants.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 6, 44, 46–47, 49",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 IUM booklet lists the applicable school-leaving, prior qualification or mature-age conditions for each named programme. Local points use the Namibian evaluation scale.",
+      "requirements": [
+        {
+          "key": "ium27_paed_acad",
+          "label": "Paediatric nursing · prior nursing qualification",
+          "details": "Hold a Level 7 or 8 bachelor’s degree in nursing, or a four-year Level 7 Diploma in Comprehensive Nursing and Midwifery Science.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_paed_practice",
+          "label": "Paediatric nursing · professional registration and experience",
+          "details": "Be registered as both a nurse and a midwife with the Nursing Council of Namibia, with at least two years of experience as a registered nurse and midwife.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_nursing_rpl",
+          "label": "Nursing · recognition of prior learning",
+          "details": "The paediatric nursing postgraduate diploma and nursing science master’s consider recognition of prior learning where applicable.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_msn",
+          "label": "Nursing science master’s · degree and experience",
+          "details": "Hold an NQF Level 8 honours bachelor’s degree in nursing and have two years of work experience in nursing.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_phdn",
+          "label": "Nursing doctorate · master’s results and subsequent experience",
+          "details": "Hold a Level 9 Master in Nursing Science, have a master’s average of 60% and at least two years of work experience after the master’s degree.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 43",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_pg_base",
+          "label": "Postgraduate ICT diplomas · prior degree",
+          "details": "Applicants must hold a relevant NQF Level 7 or higher bachelor’s degree from a recognised institution. The two programmes publish separate lists of relevant fields.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_data_fields",
+          "label": "Data Science diploma · qualifying fields",
+          "details": "Examples include business information systems, software development, electronic engineering, information technology, computer science, statistics and related disciplines.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_security_fields",
+          "label": "Cybersecurity diploma · qualifying fields",
+          "details": "Examples include cybersecurity, business information systems, software development, electronic engineering, information technology, computer science and related disciplines.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_it_masters",
+          "label": "Information technology master’s · prior degree",
+          "details": "Hold an honours bachelor’s degree in information technology at Level 8 or an equivalent qualification.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ict_phd",
+          "label": "ICT doctorate · prior degree",
+          "details": "Hold a master’s degree registered at NQF Level 9 in information communication technology or a relevant discipline.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "nursing",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Nursing Honours",
+      "field": "Nursing",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_nurse_school"
+      ]
+    },
+    {
+      "key": "paediatric",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Paediatric Nursing",
+      "field": "Nursing",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_paed_acad", "ium27_paed_practice", "ium27_nursing_rpl"]
+    },
+    {
+      "key": "msn",
+      "institutionKey": "ium-na",
+      "name": "Master of Nursing Science",
+      "field": "Nursing",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 42",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_nursing_rpl", "ium27_msn"]
+    },
+    {
+      "key": "phdn",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Nursing",
+      "field": "Nursing",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 43",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_phdn"]
+    },
+    {
+      "key": "cert_hw",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Health and Wellness Studies",
+      "field": "Health and Wellness Studies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 44",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_cert_school",
+        "ium27_cert_prior",
+        "ium27_mature",
+        "ium27_hw_sites"
+      ]
+    },
+    {
+      "key": "dip_hw",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Health and Wellness Studies",
+      "field": "Health and Wellness Studies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 44",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_hw_dip", "ium27_hw_sites"]
+    },
+    {
+      "key": "b_hw",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Health and Wellness Studies",
+      "field": "Health and Wellness Studies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_b_school",
+        "ium27_hw_b",
+        "ium27_hw_sites"
+      ]
+    },
+    {
+      "key": "h_hw",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Health and Wellness Studies Honours",
+      "field": "Health and Wellness Studies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_hw_h"]
+    },
+    {
+      "key": "pharm",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Pharmacist Assistant",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 45",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_pharm"]
+    },
+    {
+      "key": "cert_bis",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Business Information Systems",
+      "field": "Business Information Systems",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 46",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_cert_school",
+        "ium27_cert_prior",
+        "ium27_mature"
+      ]
+    },
+    {
+      "key": "dip_bis",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Business Information Systems",
+      "field": "Business Information Systems",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 46",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_bis_dip"]
+    },
+    {
+      "key": "b_soft",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Software Development",
+      "field": "Software Development",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · pp. 46–47",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_b_school",
+        "ium27_b_prior",
+        "ium27_mature"
+      ]
+    },
+    {
+      "key": "h_soft",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Software Development Honours",
+      "field": "Software Development",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · pp. 46–47",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_bis_hons"]
+    },
+    {
+      "key": "b_bis",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Business Information Systems",
+      "field": "Business Information Systems",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 47",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_b_school",
+        "ium27_b_prior",
+        "ium27_mature"
+      ]
+    },
+    {
+      "key": "h_bis",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Business Information Systems Honours",
+      "field": "Business Information Systems",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 47",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_bis_hons"]
+    },
+    {
+      "key": "pg_ds",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Data Science",
+      "field": "Data Science",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_pg_base", "ium27_data_fields"]
+    },
+    {
+      "key": "pg_cs",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Cybersecurity",
+      "field": "Cybersecurity",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_pg_base", "ium27_security_fields"]
+    },
+    {
+      "key": "msc_it",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Information Technology",
+      "field": "Information Technology",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_it_masters"]
+    },
+    {
+      "key": "phd_ict",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Information Communication Technology",
+      "field": "Information Communication Technology",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 48",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ict_phd"]
+    },
+    {
+      "key": "eng",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Electronics Engineering Honours",
+      "field": "Electronics Engineering",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 49",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "ium27_gce",
+        "ium27_nssc",
+        "ium27_senior",
+        "ium27_abitur",
+        "ium27_eng_school",
+        "ium27_b_prior",
+        "ium27_mature"
+      ]
+    }
+  ]
+}

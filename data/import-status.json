@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282136,
+            "programs": 282156,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4131,
+            "admissionProfiles": 4135,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26798,
+            "admissionRequirements": 26829,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1448
+            "qualificationRequirements": 1449
         },
         "ibCoverage": {
             "byCountry": [
@@ -95,6 +95,12 @@
                     "programs_with_published_totals": 0
                 },
                 {
+                    "country": "Namibia",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "New Zealand",
                     "institutions": 3,
                     "programs_with_reviewed_ib": 35,
@@ -143,12 +149,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1448,
+            "reviewedRecords": 1449,
             "programsWithReviewedIb": 1240,
-            "institutionWidePolicies": 17,
-            "institutionsWithReviewedIb": 50,
+            "institutionWidePolicies": 18,
+            "institutionsWithReviewedIb": 51,
             "programsWithPublishedTotals": 808,
-            "undergraduateCatalogEntries": 196404
+            "undergraduateCatalogEntries": 196417
         },
         "coreCoverage": {
             "phone": 4078,
@@ -177,13 +183,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4170,
+            "programs": 4171,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1948,
+            "admissions": 1949,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23981
+            "noStructuredApplicationFacts": 23980
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -195,31 +201,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4778,
-            "profiles": 1422,
-            "institutions": 95
+            "facts": 4809,
+            "profiles": 1426,
+            "institutions": 96
         }
     },
-    "generatedAt": "2026-11-22T01:09:56Z",
+    "generatedAt": "2026-11-22T01:16:02Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 5,
+        "inserted": 1,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 5,
-        "startedAt": "2026-11-22T01:09:54.255584+00:00",
-        "updatedAt": "2026-11-22T01:09:54.282+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-22T01:16:00.076655+00:00",
+        "updatedAt": "2026-11-22T01:16:00.089+00:00",
         "checkpoint": {
-            "rowIndex": 5,
-            "sourceRows": 5,
+            "rowIndex": 1,
+            "sourceRows": 1,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T01:09:54.282+00:00",
-        "artifactSha256": "16a16d889a2120cf4a588838038d239e4085b65636a17edafb43a89f40db1335",
-        "datasetVersion": "official-ib-rcsi-dublin-eu-school-leavers-2026-11-22-v1"
+        "finishedAt": "2026-11-22T01:16:00.089+00:00",
+        "artifactSha256": "70378759fe6f63d0b7671937904d7bf9bdeb49540bd48918e70d897bc65fe9a7",
+        "datasetVersion": "official-ib-ium-namibia-health-ict-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

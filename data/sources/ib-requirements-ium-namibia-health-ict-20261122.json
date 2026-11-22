@@ -1,0 +1,44 @@
+{
+  "datasetVersion": "official-ib-ium-namibia-health-ict-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ium-na",
+      "name": "International University of Management",
+      "provider": "ror",
+      "externalId": "011d6dm60",
+      "countryCode": "NA",
+      "officialDomains": ["ium.edu.na", "ws-be-1.ongwediva.app"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "ium-na",
+      "program": null,
+      "requirement": {
+        "recordKey": "ium-na-2027-five-subject-conversion",
+        "academicYear": "2027",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "University-wide evaluation for undergraduate routes that use school-leaving points. Check the named programme for subject grades and prior awards.",
+        "status": "conversion_required",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "On the published evaluation scale, IB HL grades 7, 6, 5, 4, 3, 2 and 1 earn 10, 9, 8, 7, 6, 5 and 4 Namibian points respectively. IB SL grades 7, 6, 5, 4, 3 and 2 earn 8, 7, 6, 5, 4 and 3 respectively. The table gives no value for SL grade 1.",
+        "conditions": "Calculate the admission points total using five subjects only. The number of Namibian evaluation points is distinct from the IB Diploma total out of 45. Named professional programmes specify their own subject and language requirements.",
+        "source": {
+          "url": "https://ium.edu.na/Files/MinimunStandardsAdmissionRequirement2027.pdf",
+          "title": "IUM · 2027 Admission Requirements · p. 6, Annexure A",
+          "checkedOn": "2026-11-22",
+          "evidence": "total admission points should be based on 5 subjects only"
+        }
+      }
+    }
+  ]
+}
