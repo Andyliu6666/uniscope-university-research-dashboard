@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282385,
+            "programs": 282417,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4249,
+            "admissionProfiles": 4265,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27267,
+            "admissionRequirements": 27382,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1526
         },
@@ -184,7 +184,7 @@
             "institutionWidePolicies": 20,
             "institutionsWithReviewedIb": 58,
             "programsWithPublishedTotals": 849,
-            "undergraduateCatalogEntries": 196597
+            "undergraduateCatalogEntries": 196629
         },
         "coreCoverage": {
             "phone": 4078,
@@ -213,13 +213,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4179,
+            "programs": 4187,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1956,
+            "admissions": 1964,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23973
+            "noStructuredApplicationFacts": 23965
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -231,31 +231,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5247,
-            "profiles": 1466,
-            "institutions": 104
+            "facts": 5362,
+            "profiles": 1482,
+            "institutions": 112
         }
     },
-    "generatedAt": "2026-11-22T05:16:37Z",
+    "generatedAt": "2026-11-22T05:24:49Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
-        "provider": "official_ib",
+        "inserted": 115,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-22T05:16:35.021+00:00",
-        "updatedAt": "2026-11-22T05:16:35.039+00:00",
+        "processed": 115,
+        "startedAt": "2026-11-22T05:24:47.744084+00:00",
+        "updatedAt": "2026-11-22T05:24:47.744084+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 16,
+            "admissionFacts": 115,
+            "programsReused": 0,
+            "programsCreated": 32
         },
-        "finishedAt": "2026-11-22T05:16:35.039+00:00",
-        "artifactSha256": "d0999a6e6b9fdc63edbd7dc942b63fada582bb227115aad2476ef3d2df8139e3",
-        "datasetVersion": "official-ib-requirements-hsuhk-admission-2026-11-22-v1"
+        "finishedAt": "2026-11-22T05:24:47.892+00:00",
+        "artifactSha256": "77372d9401f3f3ece9d85703320a808b453305ef5c8a7ecb63cfbe5567d3cb9e",
+        "datasetVersion": "official-admissions-facts-tanzania-tcu-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

@@ -1,0 +1,2411 @@
+{
+  "datasetVersion": "official-admissions-facts-tanzania-tcu-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ea",
+      "name": "Eastern Africa Statistical Training Centre",
+      "provider": "ror",
+      "externalId": "04nj43p05",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "ae",
+      "name": "Institute of Adult Education",
+      "provider": "ror",
+      "externalId": "01qbk3798",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "it",
+      "name": "Institute of Tax Administration",
+      "provider": "ror",
+      "externalId": "05twx8556",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "cd",
+      "name": "Tengeru Institute of Community Development",
+      "provider": "ror",
+      "externalId": "048qpr105",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "wm",
+      "name": "College of African Wildlife Management",
+      "provider": "ror",
+      "externalId": "05yfwg049",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "un",
+      "name": "United African University of Tanzania",
+      "provider": "ror",
+      "externalId": "04tehk585",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "cu",
+      "name": "Catholic University of Health and Allied Sciences",
+      "provider": "ror",
+      "externalId": "015qmyq14",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    },
+    {
+      "key": "sf",
+      "name": "St. Francis University College of Health and Allied Sciences",
+      "provider": "ror",
+      "externalId": "04zfvcz90",
+      "countryCode": "TZ",
+      "officialDomains": ["tcu.go.tz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ea001",
+      "institutionKey": "ea",
+      "name": "Bachelor Degree in Official Statistics",
+      "field": "Official Statistics",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76 · EA001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ea_s_ea001",
+        "tcu_ea_s_math_alt",
+        "tcu_ea_d_ea001",
+        "tcu_ea_s_points",
+        "tcu_ea_d_grade",
+        "tcu_ea_d_national",
+        "tcu_ea_d_out",
+        "tcu_ea_s_foreign",
+        "tcu_ea_s_places_300_3",
+        "tcu_ea_d_foreign",
+        "tcu_ea_d_places_300_3"
+      ]
+    },
+    {
+      "key": "ea002",
+      "institutionKey": "ea",
+      "name": "Bachelor Degree in Data Science",
+      "field": "Data Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76 · EA002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ea_s_ea001",
+        "tcu_ea_s_math_alt",
+        "tcu_ea_d_ea001",
+        "tcu_ea_s_points",
+        "tcu_ea_d_grade",
+        "tcu_ea_d_national",
+        "tcu_ea_d_out",
+        "tcu_ea_s_foreign",
+        "tcu_ea_s_places_300_3",
+        "tcu_ea_d_foreign",
+        "tcu_ea_d_places_300_3"
+      ]
+    },
+    {
+      "key": "ea003",
+      "institutionKey": "ea",
+      "name": "Bachelor Degree in Business Statistics and Economics",
+      "field": "Business Statistics and Economics",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76 · EA003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ea_s_ea001",
+        "tcu_ea_s_math_alt",
+        "tcu_ea_d_ea001",
+        "tcu_ea_s_points",
+        "tcu_ea_d_grade",
+        "tcu_ea_d_national",
+        "tcu_ea_d_out",
+        "tcu_ea_s_foreign",
+        "tcu_ea_s_places_300_3",
+        "tcu_ea_d_foreign",
+        "tcu_ea_d_places_300_3"
+      ]
+    },
+    {
+      "key": "ea004",
+      "institutionKey": "ea",
+      "name": "Bachelor Degree in Agricultural Statistics and Economics",
+      "field": "Agricultural Statistics and Economics",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 77 · EA004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ea_s_ea004",
+        "tcu_ea_s_math_alt",
+        "tcu_ea_d_ea004",
+        "tcu_ea_s_points",
+        "tcu_ea_d_grade",
+        "tcu_ea_d_national",
+        "tcu_ea_d_out",
+        "tcu_ea_s_foreign",
+        "tcu_ea_s_places_300_3",
+        "tcu_ea_d_foreign",
+        "tcu_ea_d_places_300_3"
+      ]
+    },
+    {
+      "key": "ea005",
+      "institutionKey": "ea",
+      "name": "Bachelor of Science in Actuarial Statistics",
+      "field": "Actuarial Statistics",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 77 · EA005",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ea_s_ea005",
+        "tcu_ea_d_ea005",
+        "tcu_ea_s_points",
+        "tcu_ea_d_grade",
+        "tcu_ea_d_national",
+        "tcu_ea_d_out",
+        "tcu_ea_s_foreign",
+        "tcu_ea_s_places_300_3",
+        "tcu_ea_d_foreign",
+        "tcu_ea_d_places_300_3"
+      ]
+    },
+    {
+      "key": "ae001",
+      "institutionKey": "ae",
+      "name": "Bachelor Degree in Adult and Continuing Education",
+      "field": "Adult and Continuing Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89 · AE001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ae_s_ae001",
+        "tcu_ae_d_ae001",
+        "tcu_ae_s_points",
+        "tcu_ae_d_grade",
+        "tcu_ae_d_national",
+        "tcu_ae_d_out",
+        "tcu_ae_s_foreign",
+        "tcu_ae_s_places_150_3",
+        "tcu_ae_d_foreign",
+        "tcu_ae_d_places_150_3"
+      ]
+    },
+    {
+      "key": "ae002",
+      "institutionKey": "ae",
+      "name": "Bachelor Degree in Adult Education and Community Development",
+      "field": "Adult Education and Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89 · AE002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ae_s_ae001",
+        "tcu_ae_d_ae001",
+        "tcu_ae_s_points",
+        "tcu_ae_d_grade",
+        "tcu_ae_d_national",
+        "tcu_ae_d_out",
+        "tcu_ae_s_foreign",
+        "tcu_ae_s_places_150_3",
+        "tcu_ae_d_foreign",
+        "tcu_ae_d_places_150_3"
+      ]
+    },
+    {
+      "key": "ae003",
+      "institutionKey": "ae",
+      "name": "Bachelor Degree in Adult Education and Community Development (Open and Distance Learning)",
+      "field": "Adult Education and Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89 · AE003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ae_s_ae001",
+        "tcu_ae_d_ae001",
+        "tcu_ae_s_points",
+        "tcu_ae_d_grade",
+        "tcu_ae_d_national",
+        "tcu_ae_d_out",
+        "tcu_ae_s_foreign",
+        "tcu_ae_s_places_150_3",
+        "tcu_ae_d_foreign",
+        "tcu_ae_d_places_150_3"
+      ]
+    },
+    {
+      "key": "ae004",
+      "institutionKey": "ae",
+      "name": "Bachelor Degree in Adult and Continuing Education (Open and Distance Learning)",
+      "field": "Adult and Continuing Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89 · AE004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_ae_s_ae001",
+        "tcu_ae_d_ae001",
+        "tcu_ae_s_points",
+        "tcu_ae_d_grade",
+        "tcu_ae_d_national",
+        "tcu_ae_d_out",
+        "tcu_ae_s_foreign",
+        "tcu_ae_s_places_100_3",
+        "tcu_ae_d_foreign",
+        "tcu_ae_d_places_150_3"
+      ]
+    },
+    {
+      "key": "it001",
+      "institutionKey": "it",
+      "name": "Bachelor Degree in Customs and Tax Management",
+      "field": "Customs and Tax Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 108 · IT001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_it_s_it001",
+        "tcu_it_s_o_level",
+        "tcu_it_d_o_level",
+        "tcu_it_d_it001",
+        "tcu_it_s_points",
+        "tcu_it_d_grade",
+        "tcu_it_d_national",
+        "tcu_it_d_out",
+        "tcu_it_s_foreign",
+        "tcu_it_s_places_150_3",
+        "tcu_it_d_foreign",
+        "tcu_it_d_places_150_3"
+      ]
+    },
+    {
+      "key": "cd001",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Community Development (Arusha)",
+      "field": "Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270 · CD001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_70_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_80_3"
+      ]
+    },
+    {
+      "key": "cd002",
+      "institutionKey": "cd",
+      "name": "Bachelor of Gender and Community Development",
+      "field": "Gender and Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270 · CD002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_100_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_100_3"
+      ]
+    },
+    {
+      "key": "cd003",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Project Management for Community Development",
+      "field": "Project Management for Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270 · CD003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_150_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_100_3"
+      ]
+    },
+    {
+      "key": "cd004",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Social Work",
+      "field": "Social Work",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270, 271 · CD004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_70_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_80_3"
+      ]
+    },
+    {
+      "key": "cd005",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Human Resource Management",
+      "field": "Human Resource Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 271 · CD005",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_70_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_80_3"
+      ]
+    },
+    {
+      "key": "cd006",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Accounting and Finance",
+      "field": "Accounting and Finance",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 271 · CD006",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_70_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_80_3"
+      ]
+    },
+    {
+      "key": "cd007",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Local Government Administration and Management",
+      "field": "Local Government Administration and Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 271 · CD007",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_70_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_80_3"
+      ]
+    },
+    {
+      "key": "cdb01",
+      "institutionKey": "cd",
+      "name": "Bachelor Degree in Community Development (Buhare Campus)",
+      "field": "Community Development",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 272 · CDB01",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cd_s_cd001",
+        "tcu_cd_d_cd001",
+        "tcu_cd_s_points",
+        "tcu_cd_d_grade",
+        "tcu_cd_d_national",
+        "tcu_cd_d_out",
+        "tcu_cd_s_foreign",
+        "tcu_cd_s_places_50_3",
+        "tcu_cd_d_foreign",
+        "tcu_cd_d_places_50_3"
+      ]
+    },
+    {
+      "key": "wm001",
+      "institutionKey": "wm",
+      "name": "Bachelor Degree in Wildlife Management",
+      "field": "Wildlife Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46 · WM001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_wm_s_wm001",
+        "tcu_wm_d_wm001",
+        "tcu_wm_s_points",
+        "tcu_wm_d_grade",
+        "tcu_wm_d_national",
+        "tcu_wm_d_out",
+        "tcu_wm_s_foreign",
+        "tcu_wm_s_places_100_3",
+        "tcu_wm_d_foreign",
+        "tcu_wm_d_places_50_3"
+      ]
+    },
+    {
+      "key": "wm002",
+      "institutionKey": "wm",
+      "name": "Bachelor Degree in Tourism Management",
+      "field": "Tourism Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46 · WM002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_wm_s_wm002",
+        "tcu_wm_d_wm002",
+        "tcu_wm_s_points",
+        "tcu_wm_d_grade",
+        "tcu_wm_d_national",
+        "tcu_wm_d_out",
+        "tcu_wm_s_foreign",
+        "tcu_wm_s_places_100_3",
+        "tcu_wm_d_foreign",
+        "tcu_wm_d_places_50_3"
+      ]
+    },
+    {
+      "key": "wm003",
+      "institutionKey": "wm",
+      "name": "Bachelor Degree in Environmental and Waste Management",
+      "field": "Environmental and Waste Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46 · WM003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_wm_s_wm003",
+        "tcu_wm_d_wm003",
+        "tcu_wm_s_points",
+        "tcu_wm_d_national",
+        "tcu_wm_s_foreign",
+        "tcu_wm_s_places_100_3",
+        "tcu_wm_d_foreign",
+        "tcu_wm_d_places_50_3"
+      ]
+    },
+    {
+      "key": "wm004",
+      "institutionKey": "wm",
+      "name": "Bachelor Degree in Natural Resources Management",
+      "field": "Natural Resources Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46 · WM004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_wm_s_wm004",
+        "tcu_wm_d_wm004",
+        "tcu_wm_s_points",
+        "tcu_wm_d_national",
+        "tcu_wm_s_foreign",
+        "tcu_wm_s_places_100_3",
+        "tcu_wm_d_foreign",
+        "tcu_wm_d_places_50_3"
+      ]
+    },
+    {
+      "key": "un001",
+      "institutionKey": "un",
+      "name": "Bachelor of Science in Computer Engineering and Information Technology",
+      "field": "Computer Engineering and Information Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279 · UN001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_un_s_un001",
+        "tcu_un_d_un001",
+        "tcu_un_s_points",
+        "tcu_un_d_grade",
+        "tcu_un_d_national",
+        "tcu_un_s_foreign",
+        "tcu_un_s_places_50_4",
+        "tcu_un_d_foreign",
+        "tcu_un_d_places_50_4"
+      ]
+    },
+    {
+      "key": "un002",
+      "institutionKey": "un",
+      "name": "Bachelor of Business Administration",
+      "field": "Business Administration",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279 · UN002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_un_s_un002",
+        "tcu_un_d_un002",
+        "tcu_un_s_points",
+        "tcu_un_d_grade",
+        "tcu_un_d_national",
+        "tcu_un_s_foreign",
+        "tcu_un_s_places_70_3",
+        "tcu_un_d_foreign",
+        "tcu_un_d_places_30_3"
+      ]
+    },
+    {
+      "key": "un003",
+      "institutionKey": "un",
+      "name": "Bachelor of Science in Business Information Technology",
+      "field": "Business Information Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279 · UN003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_un_s_un003",
+        "tcu_un_d_un003",
+        "tcu_un_s_points",
+        "tcu_un_d_national",
+        "tcu_un_s_foreign",
+        "tcu_un_s_places_70_3",
+        "tcu_un_d_foreign",
+        "tcu_un_d_places_30_3"
+      ]
+    },
+    {
+      "key": "cu001",
+      "institutionKey": "cu",
+      "name": "Bachelor of Medical Laboratory Sciences",
+      "field": "Medical Laboratory Sciences",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43 · CU001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_s_cu001",
+        "tcu_cu_d_cu001",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_s_foreign",
+        "tcu_cu_s_places_40_3",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_20_3"
+      ]
+    },
+    {
+      "key": "cu003",
+      "institutionKey": "cu",
+      "name": "Bachelor of Pharmacy",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43 · CU003",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_s_cu003",
+        "tcu_cu_d_cu003",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_s_foreign",
+        "tcu_cu_s_places_50_4",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_10_4"
+      ]
+    },
+    {
+      "key": "cu004",
+      "institutionKey": "cu",
+      "name": "Doctor of Medicine",
+      "field": "Doctor of Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43 · CU004",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_s_cu003",
+        "tcu_cu_d_cu004",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_s_foreign",
+        "tcu_cu_s_places_200_5",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_50_5"
+      ]
+    },
+    {
+      "key": "cu005",
+      "institutionKey": "cu",
+      "name": "Bachelor of Science in Nursing",
+      "field": "Nursing",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43 · CU005",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_s_cu005",
+        "tcu_cu_d_cu005",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_s_foreign",
+        "tcu_cu_s_places_50_4",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_35_4"
+      ]
+    },
+    {
+      "key": "cu006",
+      "institutionKey": "cu",
+      "name": "Bachelor of Science in Medical Imaging and Radiotherapy",
+      "field": "Medical Imaging and Radiotherapy",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43 · CU006",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_s_cu003",
+        "tcu_cu_d_cu006",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_s_foreign",
+        "tcu_cu_s_places_15_4",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_5_4"
+      ]
+    },
+    {
+      "key": "cu002",
+      "institutionKey": "cu",
+      "name": "Bachelor of Science in Nursing Education",
+      "field": "Nursing Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64 · CU002",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_cu_d_cu002",
+        "tcu_cu_d_olevel",
+        "tcu_cu_d_grade",
+        "tcu_cu_d_foreign",
+        "tcu_cu_d_places_15_3"
+      ]
+    },
+    {
+      "key": "sf001",
+      "institutionKey": "sf",
+      "name": "Doctor of Medicine",
+      "field": "Doctor of Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "TCU 2026/27 · secondary school qualifications · PDF p. 230 · SF001",
+        "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "tcu_sf_s_sf001",
+        "tcu_sf_d_sf001",
+        "tcu_sf_d_olevel",
+        "tcu_sf_d_grade",
+        "tcu_sf_s_foreign",
+        "tcu_sf_s_places_150_5",
+        "tcu_sf_d_foreign",
+        "tcu_sf_d_places_50_5"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ea",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_ea_s_ea001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, agriculture, biology, business studies, chemistry, commerce, computer science, computers, economics, education, food and nutrition, geography and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_s_ea004",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, agriculture, biology, business studies, chemistry, commerce, computer science, computers, economics, education, food and nutrition, geography nutrition and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 77",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_s_ea005",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn a principal pass in advanced mathematics and a second in accountancy, agriculture, biology, business studies, chemistry, commerce, computer science, economics, education, geography or physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 77",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_s_math_alt",
+          "label": "Mathematics when neither principal pass is advanced mathematics",
+          "details": "In this case, show a subsidiary pass in basic applied mathematics or at least D in O-level mathematics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76, 77",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ea_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 76, 77",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ea_s_places_300_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 300 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 76, 77",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "ae",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_ae_s_ae001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: English language, geography, history and Kiswahili.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ae_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 89",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ae_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ae_s_places_150_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 150 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_ae_s_places_100_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 100 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 89",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "it",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_it_s_it001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, biology, chemistry, commerce, economics, English, geography, history and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 108",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_s_o_level",
+          "label": "English and mathematics at O level",
+          "details": "The Form VI route requires grade D or higher in both English and mathematics at O level.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 108",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 108",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_it_s_places_150_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 150 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 108",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "it",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_it_d_o_level",
+          "label": "English and mathematics at O level · diploma applicants",
+          "details": "The diploma route requires grade D or higher in both English and mathematics at O level.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 217",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_d_it001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: accounts, business administration, clearing and freight forwarding, computer science, cooperative management, customs and tax management, law, logistics and supply chain, tax management or teacher education with business or science subjects.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 217",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 217",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_it_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_it_d_out",
+          "label": "Alternative · Open University of Tanzania foundation route",
+          "details": "The programme accepts the OUT foundation award. The national minimum is a 3.0 GPA across six core subjects with C or better in three subjects from the relevant arts, science or business cluster. In addition, present 1.5 ACSEE points in two subjects, a recognised ordinary diploma at GPA 2.0, or NTA Level 5 / Professional Technician Level II.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13, 217",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_it_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_it_d_places_150_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 150 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 217",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "cd",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_cd_s_cd001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, agriculture, Arabic, biology, chemistry, commerce, computer science, economics, English language, fine arts, French, geography, history, Kiswahili, nutrition and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270, 271, 272",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cd_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 270, 271, 272",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cd_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cd_s_places_70_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 70 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270, 271",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cd_s_places_100_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 100 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cd_s_places_150_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 150 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 270",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cd_s_places_50_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 50 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 272",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "wm",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_wm_s_wm001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: advanced mathematics, agriculture, biology, chemistry, computer science, English language, entrepreneurship education, food and human nutrition, geography, nutrition and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_s_wm002",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accounts, advanced mathematics, agriculture, Arabic, biology, chemistry, Chinese, commerce, computer science, economics, English, entrepreneurship education, food and human nutrition, French, geography, history, information and computer studies, nutrition, physical education and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_s_wm003",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: advanced mathematics, agriculture, biology, chemistry, computer science, food and human nutrition, geography and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_s_wm004",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: advanced mathematics, agriculture, biology, chemistry, computer science, English language, food and human nutrition, geography and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_wm_s_places_100_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 100 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 46",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "un",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_un_s_un001",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Advanced mathematics must be one principal pass. The other must be physics or computer science.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_s_un002",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, agriculture, Arabic, biology, business studies, chemistry, commerce, computer science, economics, English, fine arts, French, geography, history, Kiswahili, nutrition and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_s_un003",
+          "label": "Tanzanian A level · subject combination",
+          "details": "Earn principal passes in two of these Tanzanian A-level subjects: accountancy, advanced mathematics, agriculture, biology, business studies, chemistry, commerce, computer science, economics, geography, history, nutrition and physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_s_points",
+          "label": "Tanzanian A level · 4.0 points and cohort grading",
+          "details": "Reach 4.0 points across two qualifying principal passes. Before 2014 or from 2016 onward, each pass must be E or better (A=5, B=4, C=3, D=2, E=1, S=0.5). For 2014 and 2015 school leavers each must be C or better (A=5, B+=4, B=3, C=2, D=1, E=0.5).",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 13, 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_un_s_places_50_4",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 50 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_un_s_places_70_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 70 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 279",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "cu",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_cu_s_cu003",
+          "label": "Tanzanian A level · D in each science",
+          "details": "Earn three principal passes totalling at least 6.0 Tanzanian admission points. Biology, chemistry and physics must each be grade D or higher.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_s_cu001",
+          "label": "Tanzanian A level · laboratory sciences",
+          "details": "Earn three principal passes worth at least 6.0 Tanzanian admission points. The subject minima are C in chemistry, D in biology and E in physics.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_s_cu005",
+          "label": "Tanzanian A level · nursing",
+          "details": "Earn three principal passes worth at least 6.0 Tanzanian admission points. Chemistry requires C and biology D. The third subject requires E in physics, advanced mathematics or nutrition.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cu_s_places_40_3",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 40 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_s_places_50_4",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 50 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_s_places_200_5",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 200 for each linked programme and a duration of 5 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_s_places_15_4",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 15 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 43",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "sf",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Tanzanian Form VI / ACSEE or assessed equivalent.",
+      "requirements": [
+        {
+          "key": "tcu_sf_s_sf001",
+          "label": "Tanzanian A level · D in each science",
+          "details": "Earn three principal passes totalling at least 6.0 Tanzanian admission points. Biology, chemistry and physics must each be grade D or higher.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 230",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_sf_s_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign pre-university award the receiving institution assesses equivalence to Tanzania’s ACSEE. A Tanzanian applicant with overseas qualifications obtains NECTA/NACTVET equivalence, an index number and an AVN and applies through the domestic route.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_sf_s_places_150_5",
+          "label": "Published capacity · secondary-school guide",
+          "details": "The 2026/27 secondary-school guide lists a capacity of 150 for each linked programme and a duration of 5 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · secondary school qualifications · PDF p. 230",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admission%20Guidebook%20for%20Holders%20of%20Secondary%20School%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "ea",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_ea_d_ea001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma or Full Technician Certificate (FTC) must be in one of these areas: accounting, banking and finance, business administration, business information technology, business management, community development, computer science, computing and information technology, customs and tax administration, development planning, economics, education specialising in agriculture, biology, chemistry, geography, ICT, mathematics or physics, engineering, health-related fields, information technology, insurance and risk management, procurement, science and technology, statistics, taxation or transport finance.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 135, 136, 137",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_d_ea004",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma or Full Technician Certificate (FTC) must be in one of these areas: accountancy, agricultural production, agricultural statistics, agriculture, animal health and production, business administration, economics and development, economics and finance, education specialising in agriculture, biology, chemistry, geography, ICT, mathematics or physics, general agriculture, health and allied sciences, science and technology, statistics or veterinary laboratory and technology.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 137",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_d_ea005",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma or Full Technician Certificate (FTC) must be in one of these areas: agriculture, banking and finance, business administration, business information technology, computer engineering, computer science, computing IT, data science, economics and finance, education (accounts, biology, chemistry, commerce, economics, geography, ICT, mathematics or physics), electrical and electronic engineering, engineering sciences, health and allied sciences, ICT, insurance and risk management, mathematics, science and technology, statistics, taxation or telecommunications engineering.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 138",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 135, 136, 137, 138",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ea_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ea_d_out",
+          "label": "Alternative · Open University of Tanzania foundation route",
+          "details": "The programme accepts the OUT foundation award. The national minimum is a 3.0 GPA across six core subjects with C or better in three subjects from the relevant arts, science or business cluster. In addition, present 1.5 ACSEE points in two subjects, a recognised ordinary diploma at GPA 2.0, or NTA Level 5 / Professional Technician Level II.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13, 135, 136, 137, 138",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ea_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ea_d_places_300_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 300 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 135, 136, 137, 138",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "ae",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_ae_d_ae001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: community development, education, project planning and management or social work.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 154, 155",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ae_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 154, 155",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_ae_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ae_d_out",
+          "label": "Alternative · Open University of Tanzania foundation route",
+          "details": "The programme accepts the OUT foundation award. The national minimum is a 3.0 GPA across six core subjects with C or better in three subjects from the relevant arts, science or business cluster. In addition, present 1.5 ACSEE points in two subjects, a recognised ordinary diploma at GPA 2.0, or NTA Level 5 / Professional Technician Level II.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13, 154, 155",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ae_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_ae_d_places_150_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 150 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 154, 155",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "cd",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_cd_d_cd001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: accountancy, agricultural production, animal health production, banking and finance, beekeeping, business administration, community development, development economics, education, fishing, forestry, gender and development, human resource management, law, local government administration, procurement and supply, project planning, public administration, records management, social work or sociology.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 476, 477, 478, 479, 480",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cd_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 476, 477, 478, 479, 480",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cd_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cd_d_out",
+          "label": "Alternative · Open University of Tanzania foundation route",
+          "details": "The programme accepts the OUT foundation award. The national minimum is a 3.0 GPA across six core subjects with C or better in three subjects from the relevant arts, science or business cluster. In addition, present 1.5 ACSEE points in two subjects, a recognised ordinary diploma at GPA 2.0, or NTA Level 5 / Professional Technician Level II.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13, 476, 477, 478, 479, 480",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cd_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cd_d_places_80_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 80 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 476, 477, 478, 479",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cd_d_places_100_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 100 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 476, 477",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cd_d_places_50_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 50 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 480",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "un",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_un_d_un001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: computer and information communication technology, computer engineering, computer engineering and IT, computer science, electrical engineering, electronics engineering, information technology, mechanical engineering or telecommunications engineering.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 488",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_d_un002",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: accounting, accounting and finance, business administration, business and project management, commerce, customs and tax administration, economic development, economics, entrepreneurship, human resources management, insurance and risk management, marketing, marketing and public relations, material management, procurement and logistics management, procurement and supplies management or public sector finance management.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 488",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_d_un003",
+          "label": "Technical or medical diploma and O-level mathematics",
+          "details": "The technical route accepts a diploma or FTC in computer engineering, computer science, economics, electronics, IT, mathematics, statistics or telecommunications engineering. A separate medical-diploma route lists assistant medical officer and nursing officer as examples and specifies a B average or GPA of at least 3.0. O-level mathematics must be D or higher.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 489",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 488",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_un_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_un_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_un_d_places_50_4",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 50 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 488",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_un_d_places_30_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 30 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 488, 489",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "wm",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_wm_d_wm001",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: agricultural production, agriculture and natural resources management, animal health and production, aquaculture, aquaculture technology, beekeeping, community development, crop production, environmental and coastal resources management, environmental health sciences, environmental science and development, fisheries, fisheries management and technology, fisheries science and technology, food and human nutrition, food production, forest industries technology, forestry, general agriculture, geoinformatics for natural resources management, horticulture, land use planning, livestock, range management, science and laboratory technology, tour guiding and operations, veterinary laboratory technology, wildlife management or wildlife tourism.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 70",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_d_wm002",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: agriculture, agriculture and natural resources management, animal health and production, aquaculture, beekeeping, environmental and coastal resources management, environmental health sciences, environmental science and development, fisheries, fisheries management and technology, food production and human nutrition, forestry, heritage management and tourism, horticulture, land use planning, livestock, tour guiding and interpretation, tourism, wildlife management or wildlife tourism.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 70, 71",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_d_wm003",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: agriculture (including general agriculture), animal health, animal production, botany, civil engineering, crop production, development planning, education, energy resources, environment and sustainable development, environmental engineering, environmental health sciences, environmental studies, forest management and nature conservation, forestry, geology, geology and mineral exploration, hydrogeology and water drilling, hydrology and meteorology, irrigation, irrigation engineering, land use planning, mineral processing, mining engineering, natural resources management, range management and tsetse control, water laboratory technology, water resource engineering, water supply and sanitation engineering or wildlife management.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 71, 72",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_d_wm004",
+          "label": "Eligible diploma subjects",
+          "details": "A diploma must be in one of these areas: agriculture and natural resources management, animal health and production, aquaculture, beekeeping, community-based conservation, community development, crop production, environmental management, environmental science and development, fisheries, fisheries management and technology, food production, forestry, general agriculture, horticulture, land use management, livestock, range management, rural development, sociology, tour guiding operations, tourism management, wildlife management or wildlife tourism.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 72",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 70, 71",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_wm_d_national",
+          "label": "National eligibility for diploma or equivalent applicants",
+          "details": "The national baseline requires four O-level grades of D or above, an NVA Level III award with fewer than four passes, or a foreign equivalent assessed by NECTA or NACTVET. For NTA Level 6 the minimum GPA is 3.0. The general alternatives are an FTC with a C average (A=5, B=4, C=3, D=2), a B average for teacher education or health awards, distinction on an unclassified award, or upper second class for a classified non-NTA diploma. Each programme specifies which awards and subjects it accepts.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_wm_d_out",
+          "label": "Alternative · Open University of Tanzania foundation route",
+          "details": "The programme accepts the OUT foundation award. The national minimum is a 3.0 GPA across six core subjects with C or better in three subjects from the relevant arts, science or business cluster. In addition, present 1.5 ACSEE points in two subjects, a recognised ordinary diploma at GPA 2.0, or NTA Level 5 / Professional Technician Level II.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 13, 70, 71",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_wm_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_wm_d_places_50_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 50 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 70, 71, 72",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "cu",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_cu_d_cu001",
+          "label": "Qualifying award · Medical Laboratory Sciences",
+          "details": "Present a diploma in medical laboratory sciences.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_cu002",
+          "label": "Qualifying award · Nursing Education",
+          "details": "Present a nursing diploma or an advanced diploma in nursing education.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_cu003",
+          "label": "Qualifying award · Pharmacy",
+          "details": "Present a diploma in pharmaceutical sciences.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_cu004",
+          "label": "Qualifying award · Doctor of Medicine",
+          "details": "Present a diploma in clinical medicine.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_cu005",
+          "label": "Qualifying award · Nursing",
+          "details": "Present a nursing diploma.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_cu006",
+          "label": "Qualifying award · Medical Imaging and Radiotherapy",
+          "details": "Present a diploma in medical imaging or radiography.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_olevel",
+          "label": "Five O-level subject minima",
+          "details": "For the diploma route, earn D or higher in each of biology, chemistry, English, mathematics and physics at O level.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64, 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64, 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_cu_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_cu_d_places_20_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 20 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_d_places_10_4",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 10 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_d_places_50_5",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 50 for each linked programme and a duration of 5 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_d_places_35_4",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 35 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_d_places_5_4",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 5 for each linked programme and a duration of 4 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 65",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        },
+        {
+          "key": "tcu_cu_d_places_15_3",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 15 for each linked programme and a duration of 3 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 64",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    },
+    {
+      "institutionKey": "sf",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Academic year 2026/27. Diploma or equivalent qualification; programme tables identify eligible awards and any foundation alternative.",
+      "requirements": [
+        {
+          "key": "tcu_sf_d_sf001",
+          "label": "Eligible diploma subjects",
+          "details": "Present a diploma in clinical medicine or clinical dentistry.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 397",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_sf_d_olevel",
+          "label": "Five O-level subject minima",
+          "details": "For the diploma route, earn D or higher in each of biology, chemistry, English, mathematics and physics at O level.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 397",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_sf_d_grade",
+          "label": "Minimum grade on the qualifying diploma or equivalent award",
+          "details": "For the listed diploma or equivalent-award route, the programme requires a B average or a minimum GPA of 3.0.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 397",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "tcu_sf_d_foreign",
+          "label": "Recognition of overseas qualifications",
+          "details": "For a foreign national with an overseas university award, the receiving university obtains TCU recognition. A Tanzanian applicant with an overseas qualification obtains NECTA/NACTVET equivalence, an index number and an AVN. Where a foreign university award is used, the Tanzanian applicant obtains and submits TCU recognition.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 11",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "document",
+          "status": "conditional"
+        },
+        {
+          "key": "tcu_sf_d_places_50_5",
+          "label": "Published capacity · diploma or equivalent guide",
+          "details": "The 2026/27 diploma or equivalent guide lists a capacity of 50 for each linked programme and a duration of 5 years. Capacity is specific to this guide and academic year.",
+          "source": {
+            "title": "TCU 2026/27 · diploma or equivalent qualifications · PDF p. 397",
+            "url": "https://tcu.go.tz/sites/default/files/file_uploads/guide_books/2026-07/Admissions%20Guidebook%20for%20Holders%20of%20Diploma%20or%20Equivalent%20Qualifications_2026_2027.pdf",
+            "checkedOn": "2026-11-22"
+          },
+          "category": "application",
+          "status": "considered"
+        }
+      ]
+    }
+  ]
+}
