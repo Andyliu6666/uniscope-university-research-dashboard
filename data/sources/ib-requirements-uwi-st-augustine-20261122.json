@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-requirements-uwi-st-augustine-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "uwista",
+      "name": "University of the West Indies",
+      "provider": "ror",
+      "externalId": "003kgv736",
+      "countryCode": "TT",
+      "officialDomains": ["uwi.edu"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "uwista",
+      "program": {
+        "name": "Doctor of Dental Surgery (DDS)",
+        "field": "Dentistry",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf"
+      },
+      "requirement": {
+        "recordKey": "uwista-dds-ib-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "applicantContext": "Applicants presenting IB qualifications for Doctor of Dental Surgery (DDS) at St Augustine, 2026/27 entry.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Pass at least two appropriate Higher Level subjects from IB Groups 4 and 5. Listed subjects are Mathematics, Biology, Physics and Chemistry. Language A (Language A1 before 2013) at grade 4 or higher demonstrates English proficiency.",
+        "conditions": "The faculty assesses the stated subjects and English proficiency together with other academic and non-academic criteria. The degree regulations give no overall IB points threshold for this route.",
+        "source": {
+          "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59",
+          "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+          "checkedOn": "2026-11-22",
+          "evidence": "from group 4 and group 5 of the IB"
+        }
+      }
+    },
+    {
+      "institutionKey": "uwista",
+      "program": {
+        "name": "Doctor of Veterinary Medicine (DVM)",
+        "field": "Veterinary Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf"
+      },
+      "requirement": {
+        "recordKey": "uwista-dvm-ib-2026",
+        "academicYear": "2026",
+        "intakeTerm": "unspecified",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "applicantContext": "Applicants presenting IB qualifications for Doctor of Veterinary Medicine (DVM) at St Augustine, 2026/27 entry.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Pass at least two appropriate Higher Level subjects from IB Groups 4 and 5. Listed subjects are Mathematics, Biology, Physics and Chemistry. Language A (Language A1 before 2013) at grade 4 or higher demonstrates English proficiency.",
+        "conditions": "The faculty assesses the stated subjects and English proficiency together with other academic and non-academic criteria. The degree regulations give no overall IB points threshold for this route.",
+        "source": {
+          "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 74",
+          "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+          "checkedOn": "2026-11-22",
+          "evidence": "from group 4 and group 5 of the IB Programme"
+        }
+      }
+    }
+  ]
+}

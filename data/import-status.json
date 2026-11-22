@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282324,
+            "programs": 282337,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4216,
+            "admissionProfiles": 4222,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27071,
+            "admissionRequirements": 27133,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1514
+            "qualificationRequirements": 1516
         },
         "ibCoverage": {
             "byCountry": [
@@ -155,18 +155,24 @@
                     "programs_with_published_totals": 0
                 },
                 {
+                    "country": "Trinidad and Tobago",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 2,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "United Kingdom",
                     "institutions": 4,
                     "programs_with_reviewed_ib": 152,
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1514,
-            "programsWithReviewedIb": 1305,
+            "reviewedRecords": 1516,
+            "programsWithReviewedIb": 1307,
             "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 54,
+            "institutionsWithReviewedIb": 55,
             "programsWithPublishedTotals": 842,
-            "undergraduateCatalogEntries": 196536
+            "undergraduateCatalogEntries": 196549
         },
         "coreCoverage": {
             "phone": 4078,
@@ -195,13 +201,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4175,
+            "programs": 4176,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1952,
+            "admissions": 1953,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23977
+            "noStructuredApplicationFacts": 23976
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -213,31 +219,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5051,
-            "profiles": 1443,
-            "institutions": 100
+            "facts": 5113,
+            "profiles": 1447,
+            "institutions": 101
         }
     },
-    "generatedAt": "2026-11-22T03:31:22Z",
+    "generatedAt": "2026-11-22T04:15:25Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 44,
+        "inserted": 2,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 44,
-        "startedAt": "2026-11-22T03:31:19.361461+00:00",
-        "updatedAt": "2026-11-22T03:31:19.482+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-22T04:15:22.621445+00:00",
+        "updatedAt": "2026-11-22T04:15:22.64+00:00",
         "checkpoint": {
-            "rowIndex": 44,
-            "sourceRows": 44,
+            "rowIndex": 2,
+            "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T03:31:19.482+00:00",
-        "artifactSha256": "db772d62d5fed9d4bc4a4280ea293bce7921ae5e5b0aaa8566a5e249fc37b524",
-        "datasetVersion": "official-ib-requirements-ufro-special-ib-2026-11-22-v1"
+        "finishedAt": "2026-11-22T04:15:22.64+00:00",
+        "artifactSha256": "ec357ad62b9e00d34ab358af739df3b9555af7b6794d2f2ee3b6cec665e4a237",
+        "datasetVersion": "official-ib-requirements-uwi-st-augustine-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

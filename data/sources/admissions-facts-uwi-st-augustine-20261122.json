@@ -1,0 +1,1153 @@
+{
+  "datasetVersion": "official-admissions-facts-uwi-st-augustine-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "uwista",
+      "name": "University of the West Indies",
+      "provider": "ror",
+      "externalId": "003kgv736",
+      "countryCode": "TT",
+      "officialDomains": ["uwi.edu"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ch",
+      "institutionKey": "uwista",
+      "name": "BSc Chemical & Process Engineering",
+      "field": "Chemical & Process Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_points_cp",
+        "uwista_pre_35",
+        "uwista_chem_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "pet",
+      "institutionKey": "uwista",
+      "name": "BSc Petroleum Geoscience",
+      "field": "Petroleum Geoscience",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_points_pg",
+        "uwista_pet_dist",
+        "uwista_pre_35",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "civ",
+      "institutionKey": "uwista",
+      "name": "BSc Civil Engineering",
+      "field": "Civil Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_cv",
+        "uwista_pre_25",
+        "uwista_civil_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "env",
+      "institutionKey": "uwista",
+      "name": "BSc Civil with Environmental Engineering",
+      "field": "Civil with Environmental Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_cv",
+        "uwista_pre_25",
+        "uwista_civil_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "el",
+      "institutionKey": "uwista",
+      "name": "BSc Electrical and Computer Engineering",
+      "field": "Electrical and Computer Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_ee",
+        "uwista_pre_30",
+        "uwista_ee_discrepancy",
+        "uwista_elec_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "geo",
+      "institutionKey": "uwista",
+      "name": "BSc Geomatics Engineering",
+      "field": "Geomatics Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_points_ge",
+        "uwista_pre_20",
+        "uwista_geom_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "land",
+      "institutionKey": "uwista",
+      "name": "BSc Land Management (Valuation)",
+      "field": "Land Management (Valuation)",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_points_la",
+        "uwista_pre_20",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "ind",
+      "institutionKey": "uwista",
+      "name": "BSc Industrial Engineering",
+      "field": "Industrial Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_im",
+        "uwista_mech_pref",
+        "uwista_pre_25",
+        "uwista_mech_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "mech",
+      "institutionKey": "uwista",
+      "name": "BSc Mechanical Engineering",
+      "field": "Mechanical Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_im",
+        "uwista_mech_pref",
+        "uwista_pre_25",
+        "uwista_mech_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "bio",
+      "institutionKey": "uwista",
+      "name": "BSc Mechanical Engineering with a Minor in Biosystems",
+      "field": "Mechanical Engineering with a Minor in Biosystems",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21–24",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_matrix",
+        "uwista_gce",
+        "uwista_cape",
+        "uwista_presci",
+        "uwista_other",
+        "uwista_chem",
+        "uwista_points_im",
+        "uwista_mech_pref",
+        "uwista_pre_25",
+        "uwista_mech_ter",
+        "uwista_transfer",
+        "uwista_return"
+      ]
+    },
+    {
+      "key": "dvm",
+      "institutionKey": "uwista",
+      "name": "Doctor of Veterinary Medicine (DVM)",
+      "field": "Veterinary Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 72–75",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_school_v",
+        "uwista_a_med",
+        "uwista_equiv",
+        "uwista_phppgrad",
+        "uwista_transfer_eng",
+        "uwista_transfer_sci",
+        "uwista_mona",
+        "uwista_twoyr",
+        "uwista_case",
+        "uwista_assoc_v",
+        "uwista_uwidegree",
+        "uwista_external",
+        "uwista_non_sci",
+        "uwista_higher",
+        "uwista_activity",
+        "uwista_essay",
+        "uwista_interview",
+        "uwista_language_v",
+        "uwista_experience",
+        "uwista_age_v",
+        "uwista_toefl",
+        "uwista_gparef"
+      ]
+    },
+    {
+      "key": "dds",
+      "institutionKey": "uwista",
+      "name": "Doctor of Dental Surgery (DDS)",
+      "field": "Dentistry",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58–60",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_school_d",
+        "uwista_a_med",
+        "uwista_equiv",
+        "uwista_phppgrad",
+        "uwista_transfer_eng",
+        "uwista_transfer_d",
+        "uwista_campus",
+        "uwista_mona",
+        "uwista_case",
+        "uwista_assoc_d",
+        "uwista_uwidegree",
+        "uwista_external",
+        "uwista_non_sci",
+        "uwista_dds_equiv",
+        "uwista_dds_first",
+        "uwista_higher",
+        "uwista_dhdt",
+        "uwista_activity",
+        "uwista_essay",
+        "uwista_interview",
+        "uwista_age_d"
+      ]
+    },
+    {
+      "key": "phpp",
+      "institutionKey": "uwista",
+      "name": "Pre-Health Professions Programme (PHPP)",
+      "field": "Pre-Health Professions",
+      "level": "undergraduate",
+      "source": {
+        "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 116–117",
+        "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uwista_pre_high",
+        "uwista_pre_secondary",
+        "uwista_pre_transfer",
+        "uwista_pre_exit",
+        "uwista_pre_note"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uwista",
+      "programId": null,
+      "academicYear": "2026",
+      "entryType": "first_year",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "St Augustine campus. Consult each rule for the applicable qualification, programme and route. Year 2026 denotes entry in academic year 2026/27.",
+      "requirements": [
+        {
+          "key": "uwista_matrix",
+          "label": "Engineering faculty · qualification points",
+          "details": "Meet the university matriculation regulations and the departmental pathway for your programme. Add the qualification points for the required subjects. For CAPE, N1/N2 and PreScience 1/2, calculate each subject contribution by averaging the two unit scores. Admission also depends on places and faculty resources.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 21, 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_gce",
+          "label": "GCE A levels · engineering points per subject",
+          "details": "The faculty awards 5 points for A, 4 for B, 3 for C, 2 for D and 1 for E in a qualifying Cambridge or London GCE A-level subject. Use the named subjects and total for the chosen programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22, 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_cape",
+          "label": "CAPE · engineering points per unit",
+          "details": "CAPE grades I, II, III, IV and V carry 5, 4, 3, 2 and 1 faculty points respectively. Use both units for each subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_presci",
+          "label": "Preliminary and introductory science · grade conversion",
+          "details": "For N1/N2 subjects the table assigns A=5, B=4, C=3 and D=2. For PreScience 1/2 it assigns A+=5, A=4.5, A−=4, B+=3.5, B=3, B−=2.5, C+=2 and C=1.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22, 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_other",
+          "label": "Engineering · other qualifications",
+          "details": "The department assesses qualifications outside the listed pathways individually. The civil programmes also provide for equivalent qualifications and experience.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_chem",
+          "label": "Chemistry prerequisite and permitted remedy",
+          "details": "The examination pathway requires Chemistry at GCE O level or CSEC; the civil and electrical programmes also explicitly allow an equivalent. Otherwise qualified entrants who lack the required CSEC Chemistry must take and pass an equivalent course during their first year.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_cp",
+          "label": "Subject route · 13 engineering points",
+          "details": "Earn at least 13 faculty qualification points from Pure Mathematics, Physics and Chemistry. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_cv",
+          "label": "Subject route · 7 engineering points",
+          "details": "Earn at least 7 faculty qualification points from Pure or Applied Mathematics and Physics. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_ee",
+          "label": "Subject route · 9 engineering points",
+          "details": "Earn at least 9 faculty qualification points from Pure Mathematics and Physics. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_ge",
+          "label": "Subject route · 6 engineering points",
+          "details": "Earn at least 6 faculty qualification points from Pure or Applied Mathematics and one other science-related subject. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_im",
+          "label": "Subject route · 8 engineering points",
+          "details": "Earn at least 8 faculty qualification points from Pure Mathematics and Physics. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_la",
+          "label": "Subject route · 6 engineering points",
+          "details": "Earn at least 6 faculty qualification points from any two of Pure Mathematics, Applied Mathematics, Physics, Geography, Accounting, Economics and Management of Business. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_points_pg",
+          "label": "Subject route · 13 engineering points",
+          "details": "Earn at least 13 faculty qualification points from Pure or Applied Mathematics, either Physics or Chemistry, and one more science subject or Geography. Eligible combinations use GCE A level, CAPE or the UWI preliminary and introductory science levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pet_dist",
+          "label": "Petroleum Geoscience · second laboratory science",
+          "details": "For the Physics or Chemistry subject not taken at CAPE or A level, present a distinction at O level or CSEC.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_mech_pref",
+          "label": "Additional preparation · Applied Mathematics and Technical Drawing",
+          "details": "The department gives preference to an additional pass in Applied Mathematics and regards Technical Drawing as an asset.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_35",
+          "label": "St Augustine Pre-Engineering progression",
+          "details": "Through the UWI Pre-Engineering Programme (PreENG), the department requires a minimum GPA of 3.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_25",
+          "label": "St Augustine Pre-Engineering progression",
+          "details": "Through the UWI Pre-Engineering Programme (PreENG), the department requires a minimum GPA of 2.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_30",
+          "label": "St Augustine Pre-Engineering progression",
+          "details": "Through the UWI Pre-Engineering Programme (PreENG), the department requires a minimum GPA of 3.0.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_20",
+          "label": "St Augustine Pre-Engineering progression",
+          "details": "Through the UWI Pre-Engineering Programme (PreENG), the department requires a minimum GPA of 2.0.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_ee_discrepancy",
+          "label": "Electrical engineering · conflicting faculty figures",
+          "details": "For 2026/27, use the dated handbook’s 9 qualification points or PreENG GPA of 3.0. The undated faculty overview lists 8 and 2.5 respectively. Applicants relying on that difference should confirm the relevant intake with the department.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering admissions overview",
+            "url": "https://sta.uwi.edu/eng/admissions/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_chem_ter",
+          "label": "Chemical engineering · tertiary alternatives",
+          "details": "Merit routes include the UTT Chemical Engineering NETD, the BCC science associate degree in Chemistry, Mathematics and Physics, or the COSTAATT associate degree in Chemistry and Physics. Each route requires GPA 3.5 or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 22",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_civil_ter",
+          "label": "Civil engineering · technician diplomas",
+          "details": "The department considers the NEC Construction Engineering Technician diploma from Trinidad and Tobago with at least 65%, the BCC Ordinary Technician Diploma with GPA 3.0 or above, or a CAST/UTech technician diploma from Jamaica. Selection is on merit.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_elec_ter",
+          "label": "Electrical engineering · technician and associate qualifications",
+          "details": "NEC CET/EEET/MET applicants need final-year Mathematics B+ (65%). TTIT/UTT mechanical or electrical technician applicants need final-year Mathematics B+ and GPA 3.0. COSTAATT associate applicants need final-year Mathematics A and GPA 3.5. CAST/UTech mechanical or electrical technology requires final-year Mathematics B+; the BCC ordinary technician award in those subjects also requires GPA 3.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_geom_ter",
+          "label": "Geomatics · surveying or technician diploma",
+          "details": "The UTT Surveying or Civil Engineering Technician Diploma needs at least GPA 2.8. The BCC Surveying Technician Diploma needs at least GPA 3.0.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_mech_ter",
+          "label": "Mechanical and industrial · technician and associate routes",
+          "details": "Merit routes accept the NEC Mechanical Engineering Technician Diploma at 65% or above, a COSTAATT associate degree at GPA 3.5, a TTIT/UTT technician diploma at GPA 3.0, or the BCC Ordinary Mechanical Technician Diploma at GPA 3.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 23–24",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_school_v",
+          "label": "School-leaving subjects · five passes",
+          "details": "Present English Language, Mathematics, Biology, Chemistry and a fifth subject with post-1997 CSEC General Proficiency I–III or GCE O-level A–C. The school strongly recommends Physics as the fifth subject.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_school_d",
+          "label": "School-leaving subjects · five named passes",
+          "details": "Present English Language, Mathematics, Biology, Chemistry and Physics at CSEC General Proficiency I–III from 1998 onwards, GCE O-level A–C, or the permitted combination.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_a_med",
+          "label": "School-leaver CAPE or GCE A-level subjects",
+          "details": "Pass three two-unit CAPE subjects or three GCE A levels. Include Chemistry, Biology or Zoology, and a third subject. The first combination specifies Physics or Mathematics; the second allows another A-level subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58, 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_equiv",
+          "label": "CAPE-equivalent qualifications",
+          "details": "A recognised equivalent route needs three approved subject passes including Chemistry and Biology or Zoology. The third may be Physics, Mathematics or another approved subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58, 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_phppgrad",
+          "label": "Pre-health certificate · progression to DDS or DVM",
+          "details": "St Augustine Pre-Health Professions graduates may be considered with cumulative GPA 3.0 or higher and at least B in each relevant science. Faculty selection still applies.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58, 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_twoyr",
+          "label": "Applicants with two years of a four-year degree",
+          "details": "After two years at an acceptable university, applicants may be considered on cumulative GPA and their Chemistry and Biology results, with GPA strictly above 2.5. Prior ordinary-level Mathematics and Physics give priority.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_case",
+          "label": "Jamaican associate degree · General Agriculture",
+          "details": "The CASE Associate in Science in General Agriculture is eligible at GPA 3.0 or higher.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_assoc_v",
+          "label": "Triple-major science associate · veterinary medicine",
+          "details": "An approved community college science associate degree in Chemistry, Biology and one other subject requires a GPA strictly above 2.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_assoc_d",
+          "label": "Triple-major science associate · dentistry",
+          "details": "The approved community college triple-major science associate degree requires GPA strictly above 3.5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_uwidegree",
+          "label": "UWI science degree · honours classification",
+          "details": "For a first degree from UWI Science & Technology, lower second-class honours or higher can be considered. Assessment includes cumulative GPA and results in Chemistry, Biology and one other subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_external",
+          "label": "External science degree · institution and credits",
+          "details": "A science degree from an accepted competitive university or community college must include Biology and Chemistry credits.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_non_sci",
+          "label": "First degree in a different field",
+          "details": "A recognised competitive degree-awarding institution is required. Present two semesters of credits in Chemistry, Biology and a third subject, or the listed alternate science examinations (grades I or II in Chemistry and Biology at CAPE Units I and II, GCE A level or approved equivalent).",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_dds_equiv",
+          "label": "CAPE-equivalent route · lower-level subject",
+          "details": "For the recognised CAPE-equivalent route the faculty also specifies a pass in Physics or Mathematics at CSEC or GCE O level. The general dentistry matriculation requirements apply separately.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_dds_first",
+          "label": "First-degree entry · additional dentistry conditions",
+          "details": "For UWI Science & Technology graduates, if the third subject assessed is not Physics, show ordinary-level Physics. For external science degree or non-natural-science degree applicants, the minimum cumulative GPA is 3.0 or equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_higher",
+          "label": "Postgraduate qualifications for entry",
+          "details": "Applicants holding a basic science master’s or PhD may be considered subject to academic and non-academic criteria. A master’s in allied health or public health does not qualify under this route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_dhdt",
+          "label": "Dental Hygiene or Therapy graduate route",
+          "details": "Applicants with the BSc in Dental Hygiene/Dental Therapy need GPA 3.30 or above and at least B in every non-clinical DH/DT course. The faculty equates GPA 3.30 with 29 points on its internal academic selection scale.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 60",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_activity",
+          "label": "Certified co-curricular involvement",
+          "details": "Supply certified records showing the duration of activities and the applicant’s responsibilities. Volunteer community or social projects receive particular attention. Music, sport, debating and language abilities can also be considered.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 60, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_essay",
+          "label": "Autobiographical statement",
+          "details": "Submit a 250–300-word autobiographical statement explaining your choice of profession.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 60, 74",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_interview",
+          "label": "Interview and aptitude assessment",
+          "details": "An interview may be requested. The faculty describes using aptitude and psychometric assessments to assist selection.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 60, 74–75",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_language_v",
+          "label": "Foreign language before enrolment",
+          "details": "A CSEC or GCE O-level pass in a foreign language is recommended. Entrants without it must take the prescribed Spanish elective (SPAN 1013).",
+          "category": "language",
+          "status": "recommended",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 72",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_experience",
+          "label": "Experience before a veterinary application",
+          "details": "The school recommends exposure to veterinary practice or field work to understand the profession before applying. The guidance gives no minimum number of hours.",
+          "category": "experience",
+          "status": "recommended",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 86",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_age_d",
+          "label": "Age for entry to dentistry",
+          "details": "Reach age 17 by December of the year of entry.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_high",
+          "label": "Pre-health entry · Grade 12 certificate",
+          "details": "The dated regulations require a Grade 12 certificate with GPA at least 3.0 in Chemistry, Physics, Mathematics, Biology, English and a foreign language.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 116",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_secondary",
+          "label": "Pre-health entry · secondary examinations",
+          "details": "Alternatively, present at least five passes: CSEC General Proficiency I–II before 1998 or I–III from 1998, GCE O level or BSCSE A–C, or approved equivalents. The handbook names English Language, Mathematics, Chemistry, Biology, Physics and a foreign language; the applicant must account for all six named subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 116",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_exit",
+          "label": "Pre-health completion and degree selection",
+          "details": "The handbook describes three semesters, including summer. Complete Chemistry, English, Mathematics, Physics and Biology with overall GPA of at least 3.0 and at least B in each course. The handbook grade table puts B at 65–69% and B+ at 70–74%. The Faculty Entrance Committee then considers degree entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 116–117",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_note",
+          "label": "Pre-health overview · differences to confirm",
+          "details": "The undated faculty summary describes two semesters and calls 65% a B+. Its Grade 12 route omits the foreign language named in the 2026/27 handbook. Confirm the intended intake before relying on these differences.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Pre-Health Professions Programme overview",
+            "url": "https://sta.uwi.edu/fms/phpp",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uwista",
+      "programId": null,
+      "academicYear": "2026",
+      "entryType": "transfer",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "St Augustine campus. Consult each rule for the applicable qualification, programme and route. Year 2026 denotes entry in academic year 2026/27.",
+      "requirements": [
+        {
+          "key": "uwista_transfer",
+          "label": "Transfer and exemption · first two levels",
+          "details": "Approved prior courses may earn up to 36 Level 1 and 2 credits if the student pursues at least four full-time semesters at this faculty. The faculty board approves exemptions on departmental recommendation.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 25",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_transfer_eng",
+          "label": "Transfer from the Faculty of Engineering",
+          "details": "Complete the preliminary or introductory courses and hold A-level-equivalent Chemistry and Biology or Zoology. Submit the transfer form by the second Friday of January in the application year.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_transfer_sci",
+          "label": "Internal science or agriculture transfer",
+          "details": "Complete the preliminary or introductory courses and submit the transfer form by the second Friday of January. Selection reviews cumulative GPA and performance in Chemistry, Biology and one other subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_transfer_d",
+          "label": "Internal science or agriculture transfer",
+          "details": "Complete the preliminary or introductory courses, submit the transfer form by 28 June of the application year and earn cumulative GPA 3.5 or higher with grades of at least B in Chemistry, Biology and a third subject. If the third is not Physics, present Physics at ordinary level or an approved equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 58",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_campus",
+          "label": "Inter-campus transfer · dentistry",
+          "details": "Assessment uses GPA after the preliminary or introductory courses. Chemistry, Biology and a third subject each need at least B.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_mona",
+          "label": "Mona Basic Medical Sciences · transfer restriction",
+          "details": "Students in the three-year Mona Basic Medical Sciences programme may apply in a subsequent year after graduating. In-course transfer is unavailable. Selected course exemptions may be considered after entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 59, 73",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_pre_transfer",
+          "label": "Pre-health · applicants changing field",
+          "details": "Students transferring into health professions from another field can be considered.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Medical Sciences, 2026/27 handbook · pp. 116",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/FMSUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uwista",
+      "programId": null,
+      "academicYear": "2026",
+      "entryType": "readmission",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "St Augustine campus. Consult each rule for the applicable qualification, programme and route. Year 2026 denotes entry in academic year 2026/27.",
+      "requirements": [
+        {
+          "key": "uwista_return",
+          "label": "Readmission · prior engineering credits",
+          "details": "A student who withdrew voluntarily and reapplies within five years may receive credit for previously passed courses if they remain current and substantially unchanged. Credits over five years old normally do not count. Approved prior grades contribute to GPA.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · Faculty of Engineering, 2026/27 handbook · pp. 25",
+            "url": "https://sta.uwi.edu/resources/documents/facultybooklets/ENGUndergrad.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uwista",
+      "programId": null,
+      "academicYear": "unspecified",
+      "entryType": "first_year",
+      "intakeTerm": "unspecified",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "St Augustine campus. Consult each rule for the applicable qualification, programme and route. Year 2026 denotes entry in academic year 2026/27.",
+      "requirements": [
+        {
+          "key": "uwista_age_v",
+          "label": "Age for entry to veterinary medicine",
+          "details": "The school FAQ sets a minimum age of 17 at the start of the academic year of entry.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "UWI St Augustine · School of Veterinary Medicine FAQ",
+            "url": "https://sta.uwi.edu/fms/vet/node/286",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_toefl",
+          "label": "English proficiency · veterinary applicants",
+          "details": "The veterinary school asks applicants whose native language is not English to submit TOEFL results as evidence of English proficiency. Its admissions page gives no TOEFL cutoff here.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UWI St Augustine · School of Veterinary Medicine entry requirements",
+            "url": "https://sta.uwi.edu/fms/vet/admission-requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uwista_gparef",
+          "label": "Veterinary selection · typical GPA",
+          "details": "The school FAQ observes that most successful applicants tend to have GPA 3.0 or above across courses attempted. It describes a competitive reference point in addition to the minimum for each route.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UWI St Augustine · School of Veterinary Medicine FAQ",
+            "url": "https://sta.uwi.edu/fms/vet/node/286",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}
