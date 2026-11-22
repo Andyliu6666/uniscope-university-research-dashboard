@@ -2,25 +2,25 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282460,
+            "programs": 282487,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4291,
+            "admissionProfiles": 4325,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27506,
+            "admissionRequirements": 27644,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1548
+            "qualificationRequirements": 1575
         },
         "ibCoverage": {
             "byCountry": [
                 {
                     "country": "Australia",
-                    "institutions": 6,
-                    "programs_with_reviewed_ib": 434,
-                    "programs_with_published_totals": 379
+                    "institutions": 7,
+                    "programs_with_reviewed_ib": 461,
+                    "programs_with_published_totals": 406
                 },
                 {
                     "country": "Bahrain",
@@ -185,12 +185,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1548,
-            "programsWithReviewedIb": 1336,
+            "reviewedRecords": 1575,
+            "programsWithReviewedIb": 1363,
             "institutionWidePolicies": 21,
-            "institutionsWithReviewedIb": 59,
-            "programsWithPublishedTotals": 857,
-            "undergraduateCatalogEntries": 196672
+            "institutionsWithReviewedIb": 60,
+            "programsWithPublishedTotals": 884,
+            "undergraduateCatalogEntries": 196699
         },
         "coreCoverage": {
             "phone": 4078,
@@ -219,13 +219,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4188,
+            "programs": 4189,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1965,
+            "admissions": 1966,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23964
+            "noStructuredApplicationFacts": 23963
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -237,31 +237,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5486,
-            "profiles": 1487,
-            "institutions": 113
+            "facts": 5624,
+            "profiles": 1494,
+            "institutions": 114
         }
     },
-    "generatedAt": "2026-11-22T06:19:32Z",
+    "generatedAt": "2026-11-22T06:31:33Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 14,
+        "inserted": 27,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 14,
-        "startedAt": "2026-11-22T06:19:29.79819+00:00",
-        "updatedAt": "2026-11-22T06:19:29.844+00:00",
+        "processed": 27,
+        "startedAt": "2026-11-22T06:31:19.883683+00:00",
+        "updatedAt": "2026-11-22T06:31:19.96+00:00",
         "checkpoint": {
-            "rowIndex": 14,
-            "sourceRows": 14,
+            "rowIndex": 27,
+            "sourceRows": 27,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T06:19:29.844+00:00",
-        "artifactSha256": "9f5635de2ac676aaa0ad7aa9e4f549cf9b0b13f44dde72f8b8962aa05133be26",
-        "datasetVersion": "official-ib-requirements-auc-egypt-2026-11-22-v1"
+        "finishedAt": "2026-11-22T06:31:19.96+00:00",
+        "artifactSha256": "8bc94ee6f44c5cd60e09dbac3cd41195ca3400dfdeff2e78777fbd616149a20d",
+        "datasetVersion": "official-ib-requirements-wollongong-australia-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

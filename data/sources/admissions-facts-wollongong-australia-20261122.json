@@ -1,0 +1,3210 @@
+{
+  "datasetVersion": "official-admissions-facts-wollongong-australia-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "uow",
+      "provider": "ror",
+      "externalId": "00jtmb277",
+      "countryCode": "AU",
+      "name": "University of Wollongong",
+      "officialDomains": ["uow.edu.au"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_qual_0_g1",
+          "label": "International and UK GCE A levels · Group 1",
+          "details": "The three-subject total must reach 8 out of 18. UOW gives 6 points for A*, 5 for A, 4 for B, 3 for C, 2 for D and 1 for E.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · International A Levels",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_0_g2",
+          "label": "International and UK GCE A levels · Group 2",
+          "details": "The three-subject total must reach 11 out of 18. UOW gives 6 points for A*, 5 for A, 4 for B, 3 for C, 2 for D and 1 for E.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · International A Levels",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_0_g3",
+          "label": "International and UK GCE A levels · Group 3",
+          "details": "The three-subject total must reach 13 out of 18. UOW gives 6 points for A*, 5 for A, 4 for B, 3 for C, 2 for D and 1 for E.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · International A Levels",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_1_g1",
+          "label": "European Baccalaureate · Group 1",
+          "details": "The overall European Baccalaureate percentage is 60%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · European Baccalaureate",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_1_g2",
+          "label": "European Baccalaureate · Group 2",
+          "details": "The overall European Baccalaureate percentage is 71%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · European Baccalaureate",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_1_g3",
+          "label": "European Baccalaureate · Group 3",
+          "details": "The overall European Baccalaureate percentage is 79%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · European Baccalaureate",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_5_g1",
+          "label": "Kenya · KCSE · Group 1",
+          "details": "The best seven subjects must total 60. UOW converts grades from A (12 points) down one point per grade step to E (1).",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Kenya",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_5_g2",
+          "label": "Kenya · KCSE · Group 2",
+          "details": "The best seven subjects must total 67. UOW converts grades from A (12 points) down one point per grade step to E (1).",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Kenya",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_5_g3",
+          "label": "Kenya · KCSE · Group 3",
+          "details": "The best seven subjects must total 72. UOW converts grades from A (12 points) down one point per grade step to E (1).",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Kenya",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_7_g1",
+          "label": "South Africa · National Senior Certificate · Group 1",
+          "details": "The published benchmark for the overall reported NSC grade is 55.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Africa",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_7_g2",
+          "label": "South Africa · National Senior Certificate · Group 2",
+          "details": "The published benchmark for the overall reported NSC grade is 60.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Africa",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_7_g3",
+          "label": "South Africa · National Senior Certificate · Group 3",
+          "details": "The published benchmark for the overall reported NSC grade is 65.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Africa",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_9_g1",
+          "label": "Uganda · UACE · Group 1",
+          "details": "The grade combination is CCD across three principal subjects. Paper-level conversion depends on how many papers were taken for each subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Uganda",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_9_g2",
+          "label": "Uganda · UACE · Group 2",
+          "details": "The grade combination is BBC across three principal subjects. Paper-level conversion depends on how many papers were taken for each subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Uganda",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_9_g3",
+          "label": "Uganda · UACE · Group 3",
+          "details": "The grade combination is AAB across three principal subjects. Paper-level conversion depends on how many papers were taken for each subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Uganda",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_10_g1",
+          "label": "Zimbabwe · A levels · Group 1",
+          "details": "The three-subject aggregate is 8 out of 15. A, B, C, D and E are worth 5, 4, 3, 2 and 1 respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Zimbabwe",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_10_g2",
+          "label": "Zimbabwe · A levels · Group 2",
+          "details": "The three-subject aggregate is 12 out of 15. A, B, C, D and E are worth 5, 4, 3, 2 and 1 respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Zimbabwe",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_10_g3",
+          "label": "Zimbabwe · A levels · Group 3",
+          "details": "The three-subject aggregate is 14 out of 15. A, B, C, D and E are worth 5, 4, 3, 2 and 1 respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Zimbabwe",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_13_g1",
+          "label": "Fiji · Year 13 Certificate · Group 1",
+          "details": "Average 59% across all subjects and earn at least 50% in English.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Fiji",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_13_g2",
+          "label": "Fiji · Year 13 Certificate · Group 2",
+          "details": "Average 62% across all subjects and earn at least 50% in English.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Fiji",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_13_g3",
+          "label": "Fiji · Year 13 Certificate · Group 3",
+          "details": "Average 66% across all subjects and earn at least 50% in English.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Fiji",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_14_g1",
+          "label": "Hong Kong · HKDSE · Group 1",
+          "details": "The best five Category A or C subjects must total 14. UOW counts 5** as 6 points, 5* as 5.5 and levels 1–5 at face value.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Hong Kong",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_14_g2",
+          "label": "Hong Kong · HKDSE · Group 2",
+          "details": "The best five Category A or C subjects must total 16. UOW counts 5** as 6 points, 5* as 5.5 and levels 1–5 at face value.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Hong Kong",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_14_g3",
+          "label": "Hong Kong · HKDSE · Group 3",
+          "details": "The best five Category A or C subjects must total 18. UOW counts 5** as 6 points, 5* as 5.5 and levels 1–5 at face value.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Hong Kong",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_15_g1",
+          "label": "Indonesia · SMA 3 · Group 1",
+          "details": "The overall reported GPA is 7.5 out of 10.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Indonesia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_15_g2",
+          "label": "Indonesia · SMA 3 · Group 2",
+          "details": "The overall reported GPA is 8.0 out of 10.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Indonesia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_15_g3",
+          "label": "Indonesia · SMA 3 · Group 3",
+          "details": "The overall reported GPA is 8.5 out of 10.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Indonesia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_16_g1",
+          "label": "Japan · Upper Secondary School Graduation Diploma · Group 1",
+          "details": "The overall reported diploma GPA is 3.8 out of 5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Japan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_16_g2",
+          "label": "Japan · Upper Secondary School Graduation Diploma · Group 2",
+          "details": "The overall reported diploma GPA is 4.2 out of 5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Japan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_16_g3",
+          "label": "Japan · Upper Secondary School Graduation Diploma · Group 3",
+          "details": "The overall reported diploma GPA is 4.4 out of 5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Japan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_21_g1",
+          "label": "Philippines · Senior High School Diploma · Group 1",
+          "details": "The overall average is 85% for an academic-track diploma after 2018.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Philippines",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_21_g2",
+          "label": "Philippines · Senior High School Diploma · Group 2",
+          "details": "The overall average is 90% for an academic-track diploma after 2018.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Philippines",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_21_g3",
+          "label": "Philippines · Senior High School Diploma · Group 3",
+          "details": "The overall average is 95% for an academic-track diploma after 2018.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Philippines",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_22_g1",
+          "label": "Singapore-Cambridge A levels · Group 1",
+          "details": "The aggregate is 9.5 for the best three H2 content subjects plus one H1 or H2 content subject. H2 grades A–E earn 5 to 1 points. H1 earns half the corresponding H2 score.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Singapore",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_22_g2",
+          "label": "Singapore-Cambridge A levels · Group 2",
+          "details": "The aggregate is 13 for the best three H2 content subjects plus one H1 or H2 content subject. H2 grades A–E earn 5 to 1 points. H1 earns half the corresponding H2 score.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Singapore",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_22_g3",
+          "label": "Singapore-Cambridge A levels · Group 3",
+          "details": "The aggregate is 16 for the best three H2 content subjects plus one H1 or H2 content subject. H2 grades A–E earn 5 to 1 points. H1 earns half the corresponding H2 score.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Singapore",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_23_g1",
+          "label": "South Korea · CSAT · Group 1",
+          "details": "The aggregate standard score is 305 for Korean, mathematics and the best two science or social studies subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Korea",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_23_g2",
+          "label": "South Korea · CSAT · Group 2",
+          "details": "The aggregate standard score is 333 for Korean, mathematics and the best two science or social studies subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Korea",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_23_g3",
+          "label": "South Korea · CSAT · Group 3",
+          "details": "The aggregate standard score is 348 for Korean, mathematics and the best two science or social studies subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · South Korea",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_24_g1",
+          "label": "Taiwan · final senior high school year · Group 1",
+          "details": "The overall Year 3 average is 75%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Taiwan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_24_g2",
+          "label": "Taiwan · final senior high school year · Group 2",
+          "details": "The overall Year 3 average is 85%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Taiwan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_24_g3",
+          "label": "Taiwan · final senior high school year · Group 3",
+          "details": "The overall Year 3 average is 90%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Taiwan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_25_g1",
+          "label": "Thailand · Matayom 6 · Group 1",
+          "details": "The overall upper-secondary GPA is 2.0 out of 4.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Thailand",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_25_g2",
+          "label": "Thailand · Matayom 6 · Group 2",
+          "details": "The overall upper-secondary GPA is 2.6 out of 4.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Thailand",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_25_g3",
+          "label": "Thailand · Matayom 6 · Group 3",
+          "details": "The overall upper-secondary GPA is 3.2 out of 4.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Thailand",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_28_g1",
+          "label": "France · Baccalauréat · Group 1",
+          "details": "The overall Baccalauréat average is 12 out of 20.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · France",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_28_g2",
+          "label": "France · Baccalauréat · Group 2",
+          "details": "The overall Baccalauréat average is 14 out of 20.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · France",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_28_g3",
+          "label": "France · Baccalauréat · Group 3",
+          "details": "The overall Baccalauréat average is 17 out of 20.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · France",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_29_g1",
+          "label": "Germany · Abitur · Group 1",
+          "details": "The overall Abitur GPA is 3.3 on the scale where 1 is best and 6 lowest.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Germany",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_29_g2",
+          "label": "Germany · Abitur · Group 2",
+          "details": "The overall Abitur GPA is 2.6 on the scale where 1 is best and 6 lowest.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Germany",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_29_g3",
+          "label": "Germany · Abitur · Group 3",
+          "details": "The overall Abitur GPA is 2.2 on the scale where 1 is best and 6 lowest.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Germany",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_31_g1",
+          "label": "Sweden · upper-secondary leaving qualification · Group 1",
+          "details": "The average is 13 out of 20. UOW lists Högskoleförberedande Examen from 2014 and Slutbetyg från Gymnasieskolan through 2013.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sweden",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_31_g2",
+          "label": "Sweden · upper-secondary leaving qualification · Group 2",
+          "details": "The average is 16 out of 20. UOW lists Högskoleförberedande Examen from 2014 and Slutbetyg från Gymnasieskolan through 2013.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sweden",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_31_g3",
+          "label": "Sweden · upper-secondary leaving qualification · Group 3",
+          "details": "The average is 17 out of 20. UOW lists Högskoleförberedande Examen from 2014 and Slutbetyg från Gymnasieskolan through 2013.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sweden",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_32_g1",
+          "label": "United Kingdom · Cambridge Pre-U Diploma · Group 1",
+          "details": "The benchmark for the reported overall Pre-U Diploma score is 60.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United Kingdom (UK)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_32_g2",
+          "label": "United Kingdom · Cambridge Pre-U Diploma · Group 2",
+          "details": "The benchmark for the reported overall Pre-U Diploma score is 65.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United Kingdom (UK)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_32_g3",
+          "label": "United Kingdom · Cambridge Pre-U Diploma · Group 3",
+          "details": "The benchmark for the reported overall Pre-U Diploma score is 72.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United Kingdom (UK)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_34_g1",
+          "label": "Bangladesh · Higher Secondary Certificate · Group 1",
+          "details": "The overall HSC GPA is 5.0 out of 5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Bangladesh",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_35_g1",
+          "label": "Bhutan · BHSEC · Group 1",
+          "details": "The overall BHSEC average is 75%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Bhutan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_35_g2",
+          "label": "Bhutan · BHSEC · Group 2",
+          "details": "The overall BHSEC average is 85%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Bhutan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_35_g3",
+          "label": "Bhutan · BHSEC · Group 3",
+          "details": "The overall BHSEC average is 95%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Bhutan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_41_g1",
+          "label": "Pakistan · Higher Secondary School Certificate · Group 1",
+          "details": "The overall HSSC average is 88%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Pakistan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_41_g2",
+          "label": "Pakistan · Higher Secondary School Certificate · Group 2",
+          "details": "The overall HSSC average is 94%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Pakistan",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_45_g1",
+          "label": "Sri Lanka · A levels · Group 1",
+          "details": "The best three academic subjects must reach a reported aggregate of 5.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sri Lanka",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_45_g2",
+          "label": "Sri Lanka · A levels · Group 2",
+          "details": "The best three academic subjects must reach a reported aggregate of 8.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sri Lanka",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_45_g3",
+          "label": "Sri Lanka · A levels · Group 3",
+          "details": "The best three academic subjects must reach a reported aggregate of 11.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Sri Lanka",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_49_g1",
+          "label": "Brazil · ENEM · Group 1",
+          "details": "The ENEM average is 620/1000, using four subject areas and the essay. Supply the official school-leaving certificate confirming completion of secondary education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Brazil",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_49_g2",
+          "label": "Brazil · ENEM · Group 2",
+          "details": "The ENEM average is 700/1000, using four subject areas and the essay. Supply the official school-leaving certificate confirming completion of secondary education.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Brazil",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_51_g1",
+          "label": "United States · SAT or ACT · Group 1",
+          "details": "Present SAT 1090 out of 1600 (March 2016 onwards) or ACT 22 out of 36, together with evidence of senior secondary graduation.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United States of America (USA)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_26_g1",
+          "label": "Viet Nam · final upper-secondary year · Group 1",
+          "details": "The overall GPA on the 10-point scale is 8.0 at a standard high school or 7.5 at a gifted high school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Viet Nam",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_36_g1",
+          "label": "India · State Boards, CBSE and CISCE · Group 1",
+          "details": "HSC academic-subject average: 65% for Maharashtra, Andhra Pradesh, Karnataka, Telangana or Tamil Nadu, and 70% for other state boards. CBSE: 10.5 using the positional grades for English or Hindi and the best four other externally examined subjects. CISCE: 77% averaged across English and the best three other externally examined subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · India",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_12_g1",
+          "label": "China · national examination or senior high school · Group 1",
+          "details": "Gao Kao: 60%. Senior High School Year 3: 80% overall.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · China Mainland",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_18_g1",
+          "label": "Malaysia · STPM or senior UEC · Group 1",
+          "details": "STPM: 6 points across the best three subjects. Senior UEC: 18 points across the best five subjects. Use UOW’s conversion for the relevant certificate.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Malaysia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_39_g1",
+          "label": "Nepal · secondary qualifications · Group 1",
+          "details": "School Leaving Certificate: 3.0/4. Proficiency Certificate: 73%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Nepal",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_51_g2",
+          "label": "United States · SAT or ACT · Group 2",
+          "details": "Present SAT 1170 out of 1600 (March 2016 onwards) or ACT 25 out of 36, together with evidence of senior secondary graduation.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United States of America (USA)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_26_g2",
+          "label": "Viet Nam · final upper-secondary year · Group 2",
+          "details": "The overall GPA on the 10-point scale is 8.5 at a standard high school or 8.0 at a gifted high school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Viet Nam",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_36_g2",
+          "label": "India · State Boards, CBSE and CISCE · Group 2",
+          "details": "HSC academic-subject average: 75% for Maharashtra, Andhra Pradesh, Karnataka, Telangana or Tamil Nadu, and 80% for other state boards. CBSE: 14 using the positional grades for English or Hindi and the best four other externally examined subjects. CISCE: 84% averaged across English and the best three other externally examined subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · India",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_12_g2",
+          "label": "China · national examination or senior high school · Group 2",
+          "details": "Gao Kao: 70%. Senior High School Year 3: 85% overall.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · China Mainland",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_18_g2",
+          "label": "Malaysia · STPM or senior UEC · Group 2",
+          "details": "STPM: 10 points across the best three subjects. Senior UEC: 20 points across the best five subjects. Use UOW’s conversion for the relevant certificate.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Malaysia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_39_g2",
+          "label": "Nepal · secondary qualifications · Group 2",
+          "details": "School Leaving Certificate: 3.4/4. Proficiency Certificate: 80%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Nepal",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_51_g3",
+          "label": "United States · SAT or ACT · Group 3",
+          "details": "Present SAT 1220 out of 1600 (March 2016 onwards) or ACT 30 out of 36, together with evidence of senior secondary graduation.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · United States of America (USA)",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_26_g3",
+          "label": "Viet Nam · final upper-secondary year · Group 3",
+          "details": "The overall GPA on the 10-point scale is 9.0 at a standard high school or 8.5 at a gifted high school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Viet Nam",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_36_g3",
+          "label": "India · State Boards, CBSE and CISCE · Group 3",
+          "details": "HSC academic-subject average: 85% for Maharashtra, Andhra Pradesh, Karnataka, Telangana or Tamil Nadu, and 85% for other state boards. CBSE: 16 using the positional grades for English or Hindi and the best four other externally examined subjects. CISCE: 88% averaged across English and the best three other externally examined subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · India",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_12_g3",
+          "label": "China · national examination or senior high school · Group 3",
+          "details": "Gao Kao: 75%. Senior High School Year 3: 90% overall.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · China Mainland",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_18_g3",
+          "label": "Malaysia · STPM or senior UEC · Group 3",
+          "details": "STPM: 14 points across the best three subjects. Senior UEC: 23 points across the best five subjects. Use UOW’s conversion for the relevant certificate.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Malaysia",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_qual_39_g3",
+          "label": "Nepal · secondary qualifications · Group 3",
+          "details": "Proficiency Certificate: 85%.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements · Nepal",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_us_doc",
+          "label": "US test route · graduation evidence",
+          "details": "Provide a diploma or an official transcript with the graduation date, or a qualification representing the highest secondary level in its country. A US GED is ineligible as evidence of graduation.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_my_scale",
+          "label": "Malaysia · how UOW converts grades",
+          "details": "For STPM, A, A−, B+, B, B−, C+ and C earn 7 through 1 points. For UEC, A1, A2, B3, B4, B5, B6, C7 and C8 earn 8 through 1 points.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_cbse_scale",
+          "label": "India · CBSE positional grades",
+          "details": "For the five CBSE subjects used in the aggregate, grades A1, A2, B1, B2, C1, C2, D1 and D2 receive 4, 3.5, 3, 2.5, 2, 1.5, 1 and 0.5 points respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maple",
+          "label": "China · Maple Leaf World School Diploma",
+          "details": "Average at least 73% across the five strongest Grade 12 academic subjects and complete both required Grade 12 courses in personal and global leadership and in creative thinking and problem solving.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maple_it",
+          "label": "Maple Leaf Diploma · computing prerequisites",
+          "details": "For computing and information technology, earn at least 73% in Pre-Calculus 12.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maple_eng",
+          "label": "Maple Leaf Diploma · engineering prerequisites",
+          "details": "For engineering, earn at least 73% in Calculus 12 and at least 73% in the relevant Physics 12 and/or Chemistry 12 subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_timing",
+          "label": "International applications · recommended submission time",
+          "details": "UOW recommends submitting coursework applications at least four months before the intended intake to allow time for acceptance and the visa. Check the course listing for any fixed closing date.",
+          "category": "application",
+          "status": "recommended",
+          "source": {
+            "title": "UOW · International applications · when to apply",
+            "url": "https://www.uow.edu.au/study/international/apply/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "international",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_my_found",
+          "label": "Malaysia · recognised foundation programme",
+          "details": "For an aligned foundation programme registered on the Malaysian Qualifications Register, UOW lists 60–65 for eligible Group 1 degrees. Nursing and education are excluded.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ib_certificate",
+          "label": "IB Certificate · UOW College pathways",
+          "details": "For UOW College, the IB Certificate benchmark is 20 for its three-session diploma and 22 for its two-session diploma. Foundation entry uses Year 11 plus three completed SL subjects. Further degree admission depends on the chosen pathway and destination course.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · International entry requirements",
+            "url": "https://www.uow.edu.au/study/international/representatives/international-entry-requirements/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_ielts_0",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 6.5. Reading 6.0, writing 6.0, listening 6.0, speaking 6.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Arts · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_1",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 6.5. Reading 6.5, writing 6.5, listening 6.0, speaking 6.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Social Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_2",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 6.0. Reading 6.0, writing 6.0, listening 5.0, speaking 5.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Business · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-business/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_3",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 6.0. Reading 6.0, writing 6.0, listening 6.0, speaking 6.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Computer Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-computer-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_4",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 7.5. Reading 7.0, writing 7.0, listening 8.0, speaking 8.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Primary Education · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-primary-education/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_5",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 7.0. Reading 7.0, writing 6.5, listening 7.0, speaking 7.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Nursing · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-nursing/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_6",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 7.0. Reading 7.0, writing 7.0, listening 7.0, speaking 7.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Social Work · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-work/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_7",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 6.5. Reading 6.5, writing 6.5, listening 6.5, speaking 6.5. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Exercise Science & Rehabilitation · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-exercise-science-and-rehabilitation/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_ielts_8",
+          "label": "IELTS Academic · overall and component scores",
+          "details": "Overall 7.0. Reading 6.5, writing 7.0, listening 6.0, speaking 6.0. These are the scores for applicants using IELTS Academic to demonstrate English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Laws (Direct Entry) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-laws-direct-entry/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_college_english_0",
+          "label": "UOW College · English for Tertiary Studies",
+          "details": "The English for Tertiary Studies alternative requires a weighted average of 65 and at least 50 in Academic Reading and Writing.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Arts · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_college_english_1",
+          "label": "UOW College · English for Tertiary Studies",
+          "details": "The English for Tertiary Studies alternative requires a weighted average of 50 and at least 50 in Academic Reading and Writing.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Business · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-business/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_college_english_2",
+          "label": "UOW College · English for Tertiary Studies",
+          "details": "The English for Tertiary Studies alternative requires a weighted average of 75 and at least 75 in Academic Reading and Writing.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Primary Education · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-primary-education/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_college_english_3",
+          "label": "UOW College · English for Tertiary Studies",
+          "details": "The English for Tertiary Studies alternative requires a weighted average of 75 and at least 75 in Academic Reading and Writing and 75 in Academic Listening and Speaking.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Social Work · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-work/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_college_english_4",
+          "label": "UOW College · English for Tertiary Studies",
+          "details": "The English for Tertiary Studies alternative requires a weighted average of 75 and at least 50 in Academic Reading and Writing.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Laws (Direct Entry) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-laws-direct-entry/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_nursing_declaration",
+          "label": "Nursing · language declaration for eligibility",
+          "details": "Declare one of the accepted routes: six years of English-medium schooling in an approved English-speaking country including two or more secondary years, an accepted proficiency test within two years of starting the course, or current AHPRA registration as an enrolled nurse, registered nurse or midwife.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "title": "UOW · Bachelor of Nursing · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-nursing/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maths_band",
+          "label": "Mathematics · school mathematics prerequisite",
+          "details": "The ordinary mathematics degree requires the equivalent of NSW HSC Mathematics Standard 2 at Band 2 or above. Mathematics Extension 1 or equivalent is recommended.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "UOW · Bachelor of Mathematics · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maths_ext",
+          "label": "Advanced mathematics · school mathematics prerequisite",
+          "details": "Applicants must have studied the equivalent of NSW HSC Mathematics Extension 2.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "UOW · Bachelor of Mathematics Advanced · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics-advanced/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_maths_eng",
+          "label": "Mathematics · assumed English preparation",
+          "details": "The mathematics degree pages assume two units of NSW HSC English, or an equivalent background.",
+          "category": "academic",
+          "status": "recommended",
+          "source": {
+            "title": "UOW · Bachelor of Mathematics · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_medical_interview",
+          "label": "Progression from pre-medicine · Doctor of Medicine interview",
+          "details": "Eligible pre-medicine students who meet the separate selection criteria may receive a guaranteed interview through the rural or general pathway. UOW identifies the top 15 in both pathways, ranked by an external examination. A medical school place is decided separately.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Pre-Medicine, Science & Health · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-pre-medicine-science-and-health/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "2025",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_atar_0",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 99.30 and 99.95 at the highest, 72.28 and 78.28 at the median, and 60.65 and 65.20 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Arts · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_1",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 90.70 and 91.50 at the highest, 67.40 and 74.40 at the median, and 59.10 and 65.10 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Social Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_2",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 93.00 and 98.35 at the highest, 72.42 and 77.65 at the median, and 58.65 and 65.05 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Business · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-business/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_3",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 87.50 and 88.70 at the highest, 71.83 and 75.75 at the median, and 63.55 and 70.30 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Computer Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-computer-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_4",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 91.70 and 97.70 at the highest, 71.85 and 76.53 at the median, and 66.15 and 73.35 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Information Technology · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-information-technology/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_5",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 94.95 and 99.95 at the highest, 75.30 and 79.30 at the median, and 64.65 and 70.00 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Primary Education · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-primary-education/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_6",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 97.25 and 97.25 at the highest, 76.53 and 80.08 at the median, and 60.65 and 68.20 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Secondary Education · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-secondary-education/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_7",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 99.45 and 99.95 at the highest, 81.80 and 86.25 at the median, and 68.10 and 75.10 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Engineering (Honours) (Single Major) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-engineering-honours-single-major/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_8",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 91.95 and 91.95 at the highest, 76.80 and 78.75 at the median, and 65.40 and 70.30 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Exercise Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-exercise-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_9",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 95.60 and 95.60 at the highest, 83.60 and 89.45 at the median, and 65.75 and 70.35 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Mathematics · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_10",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 99.50 and 99.95 at the highest, 77.10 and 80.85 at the median, and 65.05 and 70.05 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Medical & Health Sciences · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-medical-and-health-sciences/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_11",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 99.85 and 99.85 at the highest, 67.40 and 70.35 at the median, and 52.60 and 60.00 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Nursing · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-nursing/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_12",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 88.25 and 88.25 at the highest, 74.75 and 76.90 at the median, and 66.70 and 70.65 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Nutrition Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-nutrition-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_13",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 92.30 and 93.45 at the highest, 76.95 and 79.95 at the median, and 66.00 and 70.05 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Psychological Science · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-psychological-science/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_14",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 93.40 and 99.95 at the highest, 79.80 and 85.75 at the median, and 69.45 and 75.45 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Economics & Finance · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-economics-and-finance/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_15",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 94.50 and 99.95 at the highest, 81.95 and 87.95 at the median, and 68.95 and 76.95 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Social Work · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-work/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_16",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 97.40 and 99.95 at the highest, 90.12 and 92.85 at the median, and 80.95 and 85.50 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Exercise Science & Rehabilitation · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-exercise-science-and-rehabilitation/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_17",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 95.65 and 99.95 at the highest, 87.20 and 92.15 at the median, and 77.45 and 85.10 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Laws (Direct Entry) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-laws-direct-entry/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_18",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 97.20 and 99.95 at the highest, 90.42 and 92.62 at the median, and 79.10 and 85.50 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Nutrition & Dietetics (Honours) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-nutrition-and-dietetics-honours/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_19",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 99.90 and 99.95 at the highest, 92.90 and 97.45 at the median, and 79.10 and 85.10 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Pre-Medicine, Science & Health · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-pre-medicine-science-and-health/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_atar_20",
+          "label": "2025 ATAR-based offers · raw and adjusted ranks",
+          "details": "Among 2025 ATAR-based offers, raw ATAR and adjusted selection rank were 97.95 and 99.95 at the highest, 90.22 and 93.00 at the median, and 80.85 and 85.60 at the lowest. These figures describe a previous cohort.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "UOW · Bachelor of Psychology (Honours) · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-psychology-honours/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "autumn",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_domestic_dates_0",
+          "label": "2027 autumn · domestic applications",
+          "details": "UAC Early Bird: 30 September 2026. direct: 31 December 2026. UAC final round: 28 January 2027.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Arts · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uow_domestic_dates_2",
+          "label": "2027 autumn · domestic applications",
+          "details": "UAC Early Bird: 30 September 2026. UAC final round: 28 January 2027. Domestic applicants must use UAC for this degree.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Primary Education · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-primary-education/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "uow",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "spring",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Apply the qualification, course group, applicant route and dates specified in each item. The international entry matrix gives indicative scores and UOW assesses applications individually.",
+      "requirements": [
+        {
+          "key": "uow_domestic_dates_1",
+          "label": "2027 spring · domestic applications",
+          "details": "direct: 31 May 2027. UAC final round: 1 July 2027.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UOW · Bachelor of Arts · admissions information",
+            "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "key": "arts",
+      "institutionKey": "uow",
+      "name": "Bachelor of Arts",
+      "field": "Arts & Humanities",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Arts",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-arts/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_0",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "social-science",
+      "institutionKey": "uow",
+      "name": "Bachelor of Social Science",
+      "field": "Social Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Social Science",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-science/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_1",
+        "uow_college_english_0",
+        "uow_atar_1",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "business",
+      "institutionKey": "uow",
+      "name": "Bachelor of Business",
+      "field": "Business",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Business",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-business/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_2",
+        "uow_college_english_1",
+        "uow_atar_2",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "computer-science",
+      "institutionKey": "uow",
+      "name": "Bachelor of Computer Science",
+      "field": "Information & Communication Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Computer Science",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-computer-science/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_maple_it",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_atar_3",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "information-technology",
+      "institutionKey": "uow",
+      "name": "Bachelor of Information Technology",
+      "field": "Information & Communication Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Information Technology",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-information-technology/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_maple_it",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_atar_4",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "primary-education",
+      "institutionKey": "uow",
+      "name": "Bachelor of Primary Education",
+      "field": "Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Primary Education",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-primary-education/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_4",
+        "uow_college_english_2",
+        "uow_atar_5",
+        "uow_domestic_dates_2"
+      ]
+    },
+    {
+      "key": "secondary-education",
+      "institutionKey": "uow",
+      "name": "Bachelor of Secondary Education",
+      "field": "Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Secondary Education",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-secondary-education/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_4",
+        "uow_college_english_2",
+        "uow_atar_6"
+      ]
+    },
+    {
+      "key": "engineering-honours-single-major",
+      "institutionKey": "uow",
+      "name": "Bachelor of Engineering (Honours) (Single Major)",
+      "field": "Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Engineering (Honours) (Single Major)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-engineering-honours-single-major/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_maple_eng",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_atar_7",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "engineering-honours-double-major",
+      "institutionKey": "uow",
+      "name": "Bachelor of Engineering (Honours) (Double Major)",
+      "field": "Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Engineering (Honours) (Double Major)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-engineering-honours-double-major/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_maple_eng",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_atar_7",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "exercise-science",
+      "institutionKey": "uow",
+      "name": "Bachelor of Exercise Science",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Exercise Science",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-exercise-science/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_8",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "mathematics",
+      "institutionKey": "uow",
+      "name": "Bachelor of Mathematics",
+      "field": "Mathematics & Statistics",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Mathematics",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_maths_band",
+        "uow_maths_eng",
+        "uow_atar_9",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "medical-and-health-sciences",
+      "institutionKey": "uow",
+      "name": "Bachelor of Medical & Health Sciences",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Medical & Health Sciences",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-medical-and-health-sciences/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_10",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "nursing",
+      "institutionKey": "uow",
+      "name": "Bachelor of Nursing",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Nursing",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-nursing/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_5",
+        "uow_nursing_declaration",
+        "uow_atar_11",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "nutrition-science",
+      "institutionKey": "uow",
+      "name": "Bachelor of Nutrition Science",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Nutrition Science",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-nutrition-science/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_12",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "psychological-science",
+      "institutionKey": "uow",
+      "name": "Bachelor of Psychological Science",
+      "field": "Psychology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Psychological Science",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-psychological-science/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g1",
+        "uow_qual_1_g1",
+        "uow_qual_5_g1",
+        "uow_qual_7_g1",
+        "uow_qual_9_g1",
+        "uow_qual_10_g1",
+        "uow_qual_13_g1",
+        "uow_qual_14_g1",
+        "uow_qual_15_g1",
+        "uow_qual_16_g1",
+        "uow_qual_21_g1",
+        "uow_qual_22_g1",
+        "uow_qual_23_g1",
+        "uow_qual_24_g1",
+        "uow_qual_25_g1",
+        "uow_qual_28_g1",
+        "uow_qual_29_g1",
+        "uow_qual_31_g1",
+        "uow_qual_32_g1",
+        "uow_qual_34_g1",
+        "uow_qual_35_g1",
+        "uow_qual_41_g1",
+        "uow_qual_45_g1",
+        "uow_qual_49_g1",
+        "uow_qual_51_g1",
+        "uow_qual_26_g1",
+        "uow_qual_36_g1",
+        "uow_qual_12_g1",
+        "uow_qual_18_g1",
+        "uow_qual_39_g1",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_maple",
+        "uow_my_found",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_13",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "economics-and-finance",
+      "institutionKey": "uow",
+      "name": "Bachelor of Economics & Finance",
+      "field": "Business",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Economics & Finance",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-economics-and-finance/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g2",
+        "uow_qual_1_g2",
+        "uow_qual_5_g2",
+        "uow_qual_7_g2",
+        "uow_qual_9_g2",
+        "uow_qual_10_g2",
+        "uow_qual_13_g2",
+        "uow_qual_14_g2",
+        "uow_qual_15_g2",
+        "uow_qual_16_g2",
+        "uow_qual_21_g2",
+        "uow_qual_22_g2",
+        "uow_qual_23_g2",
+        "uow_qual_24_g2",
+        "uow_qual_25_g2",
+        "uow_qual_28_g2",
+        "uow_qual_29_g2",
+        "uow_qual_31_g2",
+        "uow_qual_32_g2",
+        "uow_qual_35_g2",
+        "uow_qual_41_g2",
+        "uow_qual_45_g2",
+        "uow_qual_49_g2",
+        "uow_qual_51_g2",
+        "uow_qual_26_g2",
+        "uow_qual_36_g2",
+        "uow_qual_12_g2",
+        "uow_qual_18_g2",
+        "uow_qual_39_g2",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_2",
+        "uow_college_english_1",
+        "uow_atar_14",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "social-work",
+      "institutionKey": "uow",
+      "name": "Bachelor of Social Work",
+      "field": "Social Work",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Social Work",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-social-work/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g2",
+        "uow_qual_1_g2",
+        "uow_qual_5_g2",
+        "uow_qual_7_g2",
+        "uow_qual_9_g2",
+        "uow_qual_10_g2",
+        "uow_qual_13_g2",
+        "uow_qual_14_g2",
+        "uow_qual_15_g2",
+        "uow_qual_16_g2",
+        "uow_qual_21_g2",
+        "uow_qual_22_g2",
+        "uow_qual_23_g2",
+        "uow_qual_24_g2",
+        "uow_qual_25_g2",
+        "uow_qual_28_g2",
+        "uow_qual_29_g2",
+        "uow_qual_31_g2",
+        "uow_qual_32_g2",
+        "uow_qual_35_g2",
+        "uow_qual_41_g2",
+        "uow_qual_45_g2",
+        "uow_qual_49_g2",
+        "uow_qual_51_g2",
+        "uow_qual_26_g2",
+        "uow_qual_36_g2",
+        "uow_qual_12_g2",
+        "uow_qual_18_g2",
+        "uow_qual_39_g2",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_6",
+        "uow_college_english_3",
+        "uow_atar_15",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "exercise-science-and-rehabilitation",
+      "institutionKey": "uow",
+      "name": "Bachelor of Exercise Science & Rehabilitation",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Exercise Science & Rehabilitation",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-exercise-science-and-rehabilitation/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_7",
+        "uow_college_english_0",
+        "uow_atar_16",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "laws-direct-entry",
+      "institutionKey": "uow",
+      "name": "Bachelor of Laws (Direct Entry)",
+      "field": "Law",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Laws (Direct Entry)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-laws-direct-entry/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_8",
+        "uow_college_english_4",
+        "uow_atar_17",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "nutrition-and-dietetics-honours",
+      "institutionKey": "uow",
+      "name": "Bachelor of Nutrition & Dietetics (Honours)",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Nutrition & Dietetics (Honours)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-nutrition-and-dietetics-honours/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_6",
+        "uow_college_english_3",
+        "uow_atar_18",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "pre-medicine-science-and-health",
+      "institutionKey": "uow",
+      "name": "Bachelor of Pre-Medicine, Science & Health",
+      "field": "Health & Medicine",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Pre-Medicine, Science & Health",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-pre-medicine-science-and-health/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_7",
+        "uow_college_english_0",
+        "uow_medical_interview",
+        "uow_atar_19",
+        "uow_domestic_dates_2"
+      ]
+    },
+    {
+      "key": "psychology-honours",
+      "institutionKey": "uow",
+      "name": "Bachelor of Psychology (Honours)",
+      "field": "Psychology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Psychology (Honours)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-psychology-honours/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_0",
+        "uow_college_english_0",
+        "uow_atar_20",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "computer-science-deans-scholar",
+      "institutionKey": "uow",
+      "name": "Bachelor of Computer Science (Dean's Scholar)",
+      "field": "Information & Communication Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Computer Science (Dean's Scholar)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-computer-science-deans-scholar/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "information-technology-deans-scholar",
+      "institutionKey": "uow",
+      "name": "Bachelor of Information Technology (Dean's Scholar)",
+      "field": "Information & Communication Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Information Technology (Dean's Scholar)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-information-technology-deans-scholar/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_domestic_dates_0"
+      ]
+    },
+    {
+      "key": "mathematics-advanced",
+      "institutionKey": "uow",
+      "name": "Bachelor of Mathematics Advanced",
+      "field": "Mathematics & Statistics",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Mathematics Advanced",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-mathematics-advanced/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_maths_ext",
+        "uow_maths_eng",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "engineering-honours-scholar-single-major",
+      "institutionKey": "uow",
+      "name": "Bachelor of Engineering (Honours) (Scholar) (Single Major)",
+      "field": "Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Engineering (Honours) (Scholar) (Single Major)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-engineering-honours-scholar-single-major/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    },
+    {
+      "key": "engineering-honours-scholar-double-major",
+      "institutionKey": "uow",
+      "name": "Bachelor of Engineering (Honours) (Scholar) (Double Major)",
+      "field": "Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UOW · Bachelor of Engineering (Honours) (Scholar) (Double Major)",
+        "url": "https://www.uow.edu.au/study/courses/bachelor-of-engineering-honours-scholar-double-major/?students=international",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uow_qual_0_g3",
+        "uow_qual_1_g3",
+        "uow_qual_5_g3",
+        "uow_qual_7_g3",
+        "uow_qual_9_g3",
+        "uow_qual_10_g3",
+        "uow_qual_13_g3",
+        "uow_qual_14_g3",
+        "uow_qual_15_g3",
+        "uow_qual_16_g3",
+        "uow_qual_21_g3",
+        "uow_qual_22_g3",
+        "uow_qual_23_g3",
+        "uow_qual_24_g3",
+        "uow_qual_25_g3",
+        "uow_qual_28_g3",
+        "uow_qual_29_g3",
+        "uow_qual_31_g3",
+        "uow_qual_32_g3",
+        "uow_qual_35_g3",
+        "uow_qual_45_g3",
+        "uow_qual_51_g3",
+        "uow_qual_26_g3",
+        "uow_qual_36_g3",
+        "uow_qual_12_g3",
+        "uow_qual_18_g3",
+        "uow_qual_39_g3",
+        "uow_us_doc",
+        "uow_my_scale",
+        "uow_cbse_scale",
+        "uow_ib_certificate",
+        "uow_timing",
+        "uow_ielts_3",
+        "uow_college_english_1",
+        "uow_domestic_dates_0",
+        "uow_domestic_dates_1"
+      ]
+    }
+  ]
+}
