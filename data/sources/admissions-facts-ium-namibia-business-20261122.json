@@ -1,0 +1,1030 @@
+{
+  "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ium-na",
+      "name": "International University of Management",
+      "provider": "ror",
+      "externalId": "011d6dm60",
+      "countryCode": "NA",
+      "officialDomains": ["ium.edu.na", "ws-be-1.ongwediva.app"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "fin_cert",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Finance Management",
+      "field": "Finance Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 50",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_prior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ]
+    },
+    {
+      "key": "fin_dip",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Finance Management",
+      "field": "Finance Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 50",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_fin_dip"]
+    },
+    {
+      "key": "fin_b",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Finance Management",
+      "field": "Finance Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 50",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_biz_fin_b"]
+    },
+    {
+      "key": "fin_h",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Finance Management Honours",
+      "field": "Finance Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 51",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_fin_hon"]
+    },
+    {
+      "key": "ba_cert",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Business Administration",
+      "field": "Business Administration",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 51",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_prior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ]
+    },
+    {
+      "key": "ba_dip",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Business Administration",
+      "field": "Business Administration",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_ba_dip"]
+    },
+    {
+      "key": "ba_b",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Business Administration",
+      "field": "Business Administration",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_biz_ba_b"]
+    },
+    {
+      "key": "ba_h",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Business Administration Honours",
+      "field": "Business Administration",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_ba_hon"]
+    },
+    {
+      "key": "hr_cert",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Human Resource Management",
+      "field": "Human Resource Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 53",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_prior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ]
+    },
+    {
+      "key": "hr_dip",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Human Resources Management",
+      "field": "Human Resource Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 53",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_hr_dip"]
+    },
+    {
+      "key": "hr_b",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Human Resource Management",
+      "field": "Human Resource Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_biz_hr_b"]
+    },
+    {
+      "key": "hr_h",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Human Resource Management Honours",
+      "field": "Human Resource Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_hr_hon"]
+    },
+    {
+      "key": "mk_cert",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Marketing Management",
+      "field": "Marketing Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 53",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_prior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ]
+    },
+    {
+      "key": "mk_dip",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Marketing Management",
+      "field": "Marketing Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_mk_dip"]
+    },
+    {
+      "key": "mk_b",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Marketing Management",
+      "field": "Marketing Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_biz_mk_b"]
+    },
+    {
+      "key": "mk_h",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Marketing Management Honours",
+      "field": "Marketing Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_mk_hon"]
+    },
+    {
+      "key": "acct",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Accounting Honours",
+      "field": "Accounting",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 51",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_biz_fin_b"]
+    },
+    {
+      "key": "pg_pp",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Public Policy and Management",
+      "field": "Public Policy and Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_level7"]
+    },
+    {
+      "key": "pg_dis",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Alternative Labour Dispute Resolution",
+      "field": "Labour Dispute Resolution",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · pp. 8, 55",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_dis", "ium27_biz_dis_alt"]
+    },
+    {
+      "key": "m_pp",
+      "institutionKey": "ium-na",
+      "name": "Master in Public Policy and Management",
+      "field": "Public Policy and Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_mp", "ium27_biz_work"]
+    },
+    {
+      "key": "m_ir",
+      "institutionKey": "ium-na",
+      "name": "Master in International Relations, Diplomacy and Management",
+      "field": "International Relations and Diplomacy",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_ir", "ium27_biz_work"]
+    },
+    {
+      "key": "pg_kn",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Knowledge Management Sciences",
+      "field": "Knowledge Management Sciences",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_level7"]
+    },
+    {
+      "key": "m_kn",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Knowledge Management Sciences",
+      "field": "Knowledge Management Sciences",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · pp. 9, 56",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_km"]
+    },
+    {
+      "key": "ph_ir",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in International Relations and Diplomacy",
+      "field": "International Relations and Diplomacy",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 57",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_phir"]
+    },
+    {
+      "key": "pg_ba",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Business Administration",
+      "field": "Business Administration",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_gsba"]
+    },
+    {
+      "key": "pg_fi",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Finance Management",
+      "field": "Finance Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_gsfin"]
+    },
+    {
+      "key": "mba",
+      "institutionKey": "ium-na",
+      "name": "Master of Business Administration (MBA)",
+      "field": "Business Administration",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_mba_fin", "ium27_biz_mba_mgmt", "ium27_biz_mba_hr"]
+    },
+    {
+      "key": "mba_nr",
+      "institutionKey": "ium-na",
+      "name": "Master of Business Administration (MBA) in Integrated Natural Resources Management",
+      "field": "Natural Resources Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 59",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_nr"]
+    },
+    {
+      "key": "ph_ba",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Business Administration",
+      "field": "Business Administration",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 59",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_biz_phba"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes in the Faculty of Strategic Management and Business Administration and the Graduate School of Business.",
+      "requirements": [
+        {
+          "key": "ium27_biz_fin_dip",
+          "category": "academic",
+          "status": "required",
+          "label": "Diploma entry · prerequisite certificate",
+          "details": "Hold a Level 5 certificate in Finance Management, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 50",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_fin_hon",
+          "category": "academic",
+          "status": "required",
+          "label": "Honours entry · prerequisite degree",
+          "details": "Hold at least an NQF Level 7 bachelor’s degree in Finance, Accounting or both, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 51",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_ba_dip",
+          "category": "academic",
+          "status": "required",
+          "label": "Diploma entry · prerequisite certificate",
+          "details": "Hold a Level 5 certificate in Administration in Business Administration, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_ba_hon",
+          "category": "academic",
+          "status": "required",
+          "label": "Honours entry · prerequisite degree",
+          "details": "Hold at least an NQF Level 7 bachelor’s degree in Business Administration, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_hr_dip",
+          "category": "academic",
+          "status": "required",
+          "label": "Diploma entry · prerequisite certificate",
+          "details": "Hold a Level 5 certificate in Human Resource Management, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 53",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_hr_hon",
+          "category": "academic",
+          "status": "required",
+          "label": "Honours entry · prerequisite degree",
+          "details": "Hold at least an NQF Level 7 bachelor’s degree in Human Resources Management, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mk_dip",
+          "category": "academic",
+          "status": "required",
+          "label": "Diploma entry · prerequisite certificate",
+          "details": "Hold a Level 5 certificate in Marketing Management, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mk_hon",
+          "category": "academic",
+          "status": "required",
+          "label": "Honours entry · prerequisite degree",
+          "details": "Hold at least an NQF Level 7 bachelor’s degree in Marketing Management, or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes in the Faculty of Strategic Management and Business Administration and the Graduate School of Business.",
+      "requirements": [
+        {
+          "key": "ium27_biz_fin_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Prior qualification route · Finance Management or Accounting",
+          "details": "The prior-study route accepts a recognised NQF Level 6 qualification in Finance Management or Accounting or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 50–51",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_ba_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Prior qualification route · Business Administration",
+          "details": "The prior-study route accepts a recognised NQF Level 6 qualification in Business Administration or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 52",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_hr_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Prior qualification route · Human Resource Management",
+          "details": "The prior-study route accepts a recognised NQF Level 6 qualification in Human Resource Management or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mk_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Prior qualification route · Marketing Management",
+          "details": "The prior-study route accepts a recognised NQF Level 6 qualification in Marketing Management or an equivalent qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 54",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes in the Faculty of Strategic Management and Business Administration and the Graduate School of Business.",
+      "requirements": [
+        {
+          "key": "ium27_biz_level7",
+          "category": "academic",
+          "status": "required",
+          "label": "Postgraduate diploma · degree in any field",
+          "details": "An NQF Level 7 undergraduate degree in any field qualifies for entry.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 55–56",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_dis",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Dispute resolution · qualifying fields",
+          "details": "The standard route requires an NQF Level 7 or 8 qualification in human resource management or a related field from a recognised institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mp",
+          "category": "academic",
+          "status": "required",
+          "label": "Public policy master’s · postgraduate entry",
+          "details": "Hold the Level 8 Postgraduate Diploma in Public Policy and Management or a bachelor’s honours degree in any discipline.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_ir",
+          "category": "academic",
+          "status": "required",
+          "label": "International relations master’s · relevant Level 8 study",
+          "details": "Hold an NQF Level 8 qualification in a relevant field. Examples include political science, international relations, public administration, public policy, law, economics and management.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_work",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Master’s entry · relevant work experience",
+          "details": "The university may ask for work experience relevant to the chosen programme.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_km",
+          "category": "academic",
+          "status": "required",
+          "label": "Knowledge management master’s · two entry routes",
+          "details": "Enter with the Level 8 postgraduate diploma in Knowledge Management Sciences, or with an NQF Level 8 qualification in an unrelated discipline plus at least two years of relevant work experience.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 56",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_gsba",
+          "category": "academic",
+          "status": "required",
+          "label": "Business administration diploma · degree or equivalent",
+          "details": "Hold a Level 7 undergraduate degree or equivalent in any discipline from a recognised university or an accredited higher education institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_gsfin",
+          "category": "academic",
+          "status": "required",
+          "label": "Finance management diploma · degree or equivalent",
+          "details": "Hold an NQF Level 7 undergraduate degree in a relevant field or its equivalent from a recognised university or accredited higher education institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mba_fin",
+          "category": "academic",
+          "status": "conditional",
+          "label": "MBA · Finance specialisation",
+          "details": "For Finance, hold a Level 8 honours bachelor’s degree in Finance and Accounting or an equivalent qualification in a relevant field from a recognised university or accredited higher education institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mba_mgmt",
+          "category": "academic",
+          "status": "conditional",
+          "label": "MBA · Management and Entrepreneurship specialisations",
+          "details": "Both specialisations accept an NQF Level 8 bachelor’s honours degree or an equivalent qualification in a relevant field from a recognised university or accredited higher education institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_mba_hr",
+          "category": "academic",
+          "status": "conditional",
+          "label": "MBA · Human Resources specialisation",
+          "details": "For Human Resources, hold a Level 8 bachelor’s honours degree in Human Resources or an equivalent qualification in a relevant field from a recognised university or accredited higher education institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 58",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_nr",
+          "category": "academic",
+          "status": "required",
+          "label": "Natural resources MBA · admission qualifications",
+          "details": "The booklet lists a related NQF Level 8 bachelor’s degree or equivalent from a recognised higher education institution. It also lists a Level 8 Natural Resources qualification, or a BSc accompanied by a relevant postgraduate qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 59",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_biz_phba",
+          "category": "academic",
+          "status": "required",
+          "label": "Business doctorate · qualifying master’s",
+          "details": "Hold a Level 9 master’s in business administration or a related field.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 59",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes in the Faculty of Strategic Management and Business Administration and the Graduate School of Business.",
+      "requirements": [
+        {
+          "key": "ium27_biz_dis_alt",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Dispute resolution · equivalence and management experience",
+          "details": "Applicants with a qualification from a recognised higher education institution deemed equivalent to a bachelor’s degree may be considered if they also have at least three years of management-level work experience.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 55",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "hybrid",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes in the Faculty of Strategic Management and Business Administration and the Graduate School of Business.",
+      "requirements": [
+        {
+          "key": "ium27_biz_phir",
+          "category": "academic",
+          "status": "required",
+          "label": "Diplomacy doctorate · master’s and thesis result",
+          "details": "Applicants need the master’s in International Relations, Diplomacy and Management or a relevant master’s in a major discipline related to political science and international relations. The booklet specifies a thesis mark of at least 65% (B).",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 57",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

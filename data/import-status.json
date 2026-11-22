@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282163,
+            "programs": 282192,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4141,
+            "admissionProfiles": 4143,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26872,
+            "admissionRequirements": 26899,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1451
         },
@@ -160,7 +160,7 @@
             "institutionWidePolicies": 18,
             "institutionsWithReviewedIb": 52,
             "programsWithPublishedTotals": 810,
-            "undergraduateCatalogEntries": 196420
+            "undergraduateCatalogEntries": 196437
         },
         "coreCoverage": {
             "phone": 4078,
@@ -207,31 +207,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4852,
-            "profiles": 1430,
+            "facts": 4879,
+            "profiles": 1432,
             "institutions": 97
         }
     },
-    "generatedAt": "2026-11-22T02:10:54Z",
+    "generatedAt": "2026-11-22T02:21:38Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
-        "provider": "official_ib",
+        "inserted": 27,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-22T02:10:51.652602+00:00",
-        "updatedAt": "2026-11-22T02:10:51.671+00:00",
+        "processed": 27,
+        "startedAt": "2026-11-22T02:21:37.091453+00:00",
+        "updatedAt": "2026-11-22T02:21:37.091453+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 5,
+            "admissionFacts": 27,
+            "programsReused": 0,
+            "programsCreated": 29,
+            "priorSharedLinksAdded": 58
         },
-        "finishedAt": "2026-11-22T02:10:51.671+00:00",
-        "artifactSha256": "5c36590fa136e1356b471e3fa9b6e6d9dada4df67e89db2b659fda89cb03e001",
-        "datasetVersion": "official-ib-nicosia-health-2026-11-22-v1"
+        "finishedAt": "2026-11-22T02:21:37.189+00:00",
+        "artifactSha256": "53eb3d4a817585e6c1c277166186645881b96a87e89d1f67c1bb1445d38a4989",
+        "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

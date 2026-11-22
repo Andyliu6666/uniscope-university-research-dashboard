@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-22
 
+## International University of Management, Namibia · 2027 business and public policy
+
+1. Matched the Cyprus post-import fingerprint before adding the Namibian business faculty and Graduate School of Business. The existing 20 health and ICT programmes and their qualification policies provided the baseline.
+2. Re-downloaded the official 2027 booklet and matched its checksum to the reviewed copy. Checked all ten printed pages 50–59. The qualification inventory on page 8 supplies the full title of the Alternative Labour Dispute Resolution diploma, whose heading is shortened on page 55. [2027 university booklet](https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf) · [University admissions downloads](https://ium.edu.na/study-at-ium)
+3. Added 29 programmes and 27 distinct general requirements. The four business certificates publish an 18-point NSSCO route with English G; five bachelor’s routes publish 25 points with English D. For school-leaving conversions, all nine refer to the existing subject-grade scales. The Accounting honours degree permits direct school entry, while Finance Management honours requires a relevant Level 7 degree. Neither threshold is an IB Diploma total.
+4. Preserved prior-award routes, mature entry, the separate postgraduate experience conditions, the diplomacy doctorate’s 65% (B) thesis requirement and all four named MBA specialisations within one degree. Of 88 new programme associations, 58 reuse earlier facts. No new IB or AP threshold was established. Previews and repeat imports wrote zero data. The full archive passed a restore-stream check (SHA-256 `7a75700823f21fdf447f81e089423532f29246874587d02451c621c1e21803c4`).
+5. Verified all 49 IUM programme searches, all 155 old and new associations, source titles, applicant scope and the original institutional IB policy. Nine rendered searches covered school entry, graduate requirements, specialisations and an earlier nursing record. The packaged dataset matched its source, and the data quality and website checks passed.
+6. The catalogue contains 282,192 programmes, 4,143 admissions profiles and 26,899 general requirements across 28,171 institutions. Reviewed coverage is 4,879 general facts at 97 institutions, with 1,451 IB records and 810 programmes having numeric totals. Next, examine Waikato’s APID, GCE and programme-level prerequisites; retain its existing 24-point university IB policy once. The remaining Namibia booklet queue includes printed pages 23–41.
+
 ## University of Nicosia, Cyprus · medicine, veterinary medicine and postgraduate health
 
 1. The starting catalogue matched the preceding Namibia checkpoint. Nicosia (ROR `04v18t651`) had no programmes or published admissions profiles in the database.
