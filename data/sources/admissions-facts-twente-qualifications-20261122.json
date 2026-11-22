@@ -1,0 +1,1222 @@
+{
+  "datasetVersion": "official-admissions-twente-qualifications-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "twente",
+      "provider": "ror",
+      "externalId": "006hf6230",
+      "name": "University of Twente",
+      "countryCode": "NL",
+      "officialDomains": ["utwente.nl"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "advanced-technology",
+      "name": "Advanced Technology",
+      "institutionKey": "twente",
+      "field": "Advanced Technology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/advanced-technology/",
+        "title": "University of Twente · Advanced Technology",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "applied-mathematics",
+      "name": "Applied Mathematics",
+      "institutionKey": "twente",
+      "field": "Applied Mathematics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/applied-mathematics/",
+        "title": "University of Twente · Applied Mathematics",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "applied-physics",
+      "name": "Applied Physics",
+      "institutionKey": "twente",
+      "field": "Applied Physics",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/applied-physics/",
+        "title": "University of Twente · Applied Physics",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "biomedical-engineering",
+      "name": "Biomedical Technology (Biomedical Engineering)",
+      "institutionKey": "twente",
+      "field": "Biomedical Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_ap_chemistry",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_a2_chemistry",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_ib_nl",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/biomedical-technology/",
+        "title": "University of Twente · Biomedical Technology (Biomedical Engineering)",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "business-information-technology",
+      "name": "Business Information Technology",
+      "institutionKey": "twente",
+      "field": "Business Information Technology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/business-information-technology/",
+        "title": "University of Twente · Business Information Technology",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "chemical-science-engineering",
+      "name": "Chemical Science & Engineering",
+      "institutionKey": "twente",
+      "field": "Chemical Science & Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_ap_chemistry",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_a2_chemistry",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/chemical-science-engineering/",
+        "title": "University of Twente · Chemical Science & Engineering",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "civil-engineering",
+      "name": "Civil Engineering",
+      "institutionKey": "twente",
+      "field": "Civil Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/civil-engineering/",
+        "title": "University of Twente · Civil Engineering",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "communication-science",
+      "name": "Communication Science",
+      "institutionKey": "twente",
+      "field": "Communication Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_pre",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/communication-science/",
+        "title": "University of Twente · Communication Science",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "creative-technology",
+      "name": "Creative Technology",
+      "institutionKey": "twente",
+      "field": "Creative Technology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_pre",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/",
+        "title": "University of Twente · Creative Technology",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "institutionKey": "twente",
+      "field": "Electrical Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/electrical-engineering/",
+        "title": "University of Twente · Electrical Engineering",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "health-sciences",
+      "name": "Health Sciences",
+      "institutionKey": "twente",
+      "field": "Health Sciences",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_pre",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_ib_nl",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/health-sciences/",
+        "title": "University of Twente · Health Sciences",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "industrial-design-engineering",
+      "name": "Industrial Design Engineering",
+      "institutionKey": "twente",
+      "field": "Industrial Design Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/industrial-design-engineering/",
+        "title": "University of Twente · Industrial Design Engineering",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "industrial-engineering-management",
+      "name": "Industrial Engineering & Management",
+      "institutionKey": "twente",
+      "field": "Industrial Engineering & Management",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/industrial-engineering-and-management/",
+        "title": "University of Twente · Industrial Engineering & Management",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "international-business-administration",
+      "name": "International Business Administration",
+      "institutionKey": "twente",
+      "field": "International Business Administration",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_ab",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/international-business-administration/",
+        "title": "University of Twente · International Business Administration",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "institutionKey": "twente",
+      "field": "Mechanical Engineering",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/mechanical-engineering/",
+        "title": "University of Twente · Mechanical Engineering",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "psychology",
+      "name": "Psychology",
+      "institutionKey": "twente",
+      "field": "Psychology",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_pre",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_ib_psynl",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/psychology/",
+        "title": "University of Twente · Psychology",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "public-administration",
+      "name": "Public Administration",
+      "institutionKey": "twente",
+      "field": "Public Administration",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_pre",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/public-administration/",
+        "title": "University of Twente · Public Administration",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "technical-computer-science",
+      "name": "Technical Computer Science",
+      "institutionKey": "twente",
+      "field": "Technical Computer Science",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/",
+        "title": "University of Twente · Technical Computer Science",
+        "checkedOn": "2026-11-22"
+      }
+    },
+    {
+      "key": "technical-medicine",
+      "name": "Technical Medicine",
+      "institutionKey": "twente",
+      "field": "Technical Medicine",
+      "level": "undergraduate",
+      "sharedRequirementKeys": [
+        "ut27_ap",
+        "ut27_ap_exams",
+        "ut27_ap_docs",
+        "ut27_ap_en",
+        "ut27_ap_rem",
+        "ut27_ap_bc",
+        "ut27_ap_ph",
+        "ut27_ap_chemistry",
+        "ut27_ap_biology",
+        "ut27_gce",
+        "ut27_gce_boards",
+        "ut27_gce_other",
+        "ut27_gce_docs",
+        "ut27_gce_lang",
+        "ut27_gce_rem",
+        "ut27_a2_mathematics",
+        "ut27_a2_physics",
+        "ut27_a2_chemistry",
+        "ut27_a2_biology",
+        "ut27_ib_base",
+        "ut27_ib_fin",
+        "ut27_ib_pred",
+        "ut27_pred_priv",
+        "ut27_ib_english",
+        "ut27_ib_nl",
+        "ut27_remedy",
+        "ut27_us_dip",
+        "ut27_us_docs",
+        "ut27_us_extra",
+        "ut27_us_en",
+        "ut27_tr_dip",
+        "ut27_tr_docs"
+      ],
+      "source": {
+        "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-medicine/",
+        "title": "University of Twente · Technical Medicine",
+        "checkedOn": "2026-11-22"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "twente",
+      "programId": null,
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "notes": "September 2027 entry. Apply each rule to the qualification and national school system named. The IB panel gives each programme’s compulsory subjects and levels.",
+      "requirements": [
+        {
+          "key": "ut27_ap",
+          "label": "AP exams · four results and national diploma",
+          "details": "To be considered through the AP route, present at least four accepted College Board exam results, each graded 3, 4 or 5. The published route covers national diplomas from the United States and Türkiye. Other national diplomas with these results receive individual review with the Dutch qualifications centre and may require further tests. Programme subject rules also apply.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_exams",
+          "label": "AP subjects · accepted examinations",
+          "details": "Twente counts examined subjects from its published list. The following entries appear on the list: Art History, Calculus AB, Music Theory, Calculus BC, African American Studies, Calculus AB subscore, Comparative Government and Politics, Precalculus, European History, Physics 1: Algebra-Based, Human Geography, Physics 2: Algebra-Based, Macroeconomics, Physics C: Electricity and Magnetism, Microeconomics, Physics C: Mechanics, Psychology, English Language and Composition, United States Government and Politics, English Literature and Composition, United States History, Chinese Language and Culture, World History: Modern, French Language and Culture, Computer Science A, German Language and Culture, Computer Science Principles, Italian Language and Culture, Environmental Science, Japanese Language and Culture, Biology, Latin, Chemistry, Spanish Language and Culture, Statistics, Spanish Literature and Culture. Consult the chosen programme for compulsory subjects.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_docs",
+          "label": "AP applicant · score report and intended exams",
+          "details": "Upload the College Board score report for exams already taken in the secondary diploma or transcript section. Use the university form to identify planned exams or retakes. If none are planned, say so in the remarks. Without this information the university assumes no further exams are planned.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_en",
+          "label": "AP applicants · English evidence",
+          "details": "The English-language exemption depends on the national diploma accompanying the AP exams. Use the conditions for the national school system; the AP route alone gives no automatic English exemption.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_rem",
+          "label": "AP exam count and subject-deficiency tests",
+          "details": "Additional tests can address a missing compulsory subject only after the applicant has four qualifying AP exam results. A supplementary test cannot stand in for one of the four APs on this route.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_bc",
+          "label": "AP mathematics · Calculus BC",
+          "details": "AP Calculus BC is the required mathematics examination for this programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_pre",
+          "label": "AP mathematics · three accepted options",
+          "details": "The mathematics panel lists AP Precalculus, AP Calculus AB (subscore), or AP Calculus BC. The general four-exam count still applies.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_ab",
+          "label": "AP mathematics · calculus options",
+          "details": "This programme accepts AP Calculus AB (subscore) or AP Calculus BC for mathematics. The panel lists only those two options.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_ph",
+          "label": "AP physics · three routes",
+          "details": "Meet the physics requirement with both algebra-based exams, AP Physics 1 and AP Physics 2 together, or with one Physics C exam in Electricity and Magnetism or Mechanics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_chemistry",
+          "label": "AP science · Chemistry",
+          "details": "This programme requires the AP Chemistry examination.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ap_biology",
+          "label": "AP science · Biology",
+          "details": "This programme requires the AP Biology examination.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/AP-CollegeBoard/",
+            "title": "University of Twente · AP CollegeBoard exams",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce",
+          "label": "GCE entry · six different subjects",
+          "details": "For GCSE with full A levels, present three (I)GCSE or GCE O-level subjects graded A, B, C or 4–9, plus three full GCE A2 subjects graded A, B or C on the published table. The six counting subjects must be different across both levels. Complete the A2 qualifications before the academic year begins.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce_boards",
+          "label": "GCE · boards, electives and languages",
+          "details": "The subjects and awarding bodies normally need Ofqual recognition. International A levels from Pearson, Cambridge and OxfordAQA are the exceptions Twente lists. At most one language counts toward the three A2 subjects; the accepted academic subjects include ancient history, history, history of art, geography, geology, government and politics, politics, philosophy, psychology, religious studies, sociology, business, economics, biology, chemistry, physics, computer science, ICT, information technology, mathematics, further mathematics and statistics. Check the board and syllabus variants in the source.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce_other",
+          "label": "A levels with another national diploma",
+          "details": "A2 certificates combined with a diploma other than GCSE receive individual assessment. Include earlier and available final-year transcripts, a school statement identifying the diploma in both languages with final and examined subjects, the relevant GCE documents, and your explanation of qualifications completed and pending. A BTEC Level 3 National Extended Diploma alone does not qualify for direct entry.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce_docs",
+          "label": "GCE · official certificates and predicted grades",
+          "details": "Graduates submit the official final GCSE and applicable GCE O-, AS- or A2-level certificates. Provisional results do not qualify; Twente notes the November release for June exams. Before graduation, submit official final GCSE certificates and the school-completed A2 predicted-grades form.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce_lang",
+          "label": "GCE · English test exemption",
+          "details": "With the combined GCSE and A2 certificates, English at (I)GCSE or GCE O, AS or A2 level with an A, B or C qualifies for English-test exemption. Other certificate combinations receive individual review. A separate English test is available if this requirement is unmet.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_gce_rem",
+          "label": "GCE · supplementary subject tests",
+          "details": "At least three full qualifying A levels are necessary for this route. Once that count is met, the university may permit a supplementary test for a missing required subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_a2_mathematics",
+          "label": "GCE A2 · Mathematics",
+          "details": "Mathematics is one of the mandatory full A2 subjects for this programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_a2_physics",
+          "label": "GCE A2 · Physics",
+          "details": "Physics is one of the mandatory full A2 subjects for this programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_a2_chemistry",
+          "label": "GCE A2 · Chemistry",
+          "details": "Chemistry is one of the mandatory full A2 subjects for this programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_a2_biology",
+          "label": "GCE A2 · Biology",
+          "details": "Biology is one of the mandatory full A2 subjects for this programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/uk/",
+            "title": "University of Twente · GCSE and GCE A2 levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_base",
+          "label": "IB · full diploma and alternative qualifications",
+          "details": "Complete the full IB Diploma before the academic year starts. Twente generally adds no overall IB grade threshold to the diploma award. For individual IB certificates with another school diploma, any grade conditions appear in the conditional offer. The Career-related Certificate alone falls outside direct admission; an additional qualification may be assessed individually.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_fin",
+          "label": "IB graduates · diploma and results release",
+          "details": "Upload the official diploma and final transcript, one page each. Request release of the IB results to Twente using institution code 001638 so it can finalise admission and enrolment.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_pred",
+          "label": "IB applicants awaiting results · school predictions",
+          "details": "The school’s official or letterheaded statement must give each subject’s official name, predicted result and language of instruction, plus the school’s IB code. The university provides a form if the school’s own statement is incomplete.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_pred_priv",
+          "label": "Confidential school predictions · IB and GCE",
+          "details": "If school policy prevents sharing predictions with the student, the school can send them directly to Student Services. Include the applicant’s name and UT student number in the subject. The applicant must upload available records and an explanation that the school will send predictions, with the sender’s email if possible. IB applicants upload their latest transcript.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_english",
+          "label": "IB English · instruction and examination grades",
+          "details": "With two years of IB taught in English, supply proof of instruction and an English A Literature, A Language and Literature, or English B exam at SL or HL. For other instruction languages, English A in either listed course requires at least 4 at SL or HL; English B requires 6 at SL or 5 at HL. Otherwise take an accepted English test.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_nl",
+          "label": "Dutch requirement · IB subject option",
+          "details": "For these Dutch-taught programmes, a 4 or higher in Dutch A Literature or Dutch A Language and Literature, at SL or HL, satisfies the language condition under the IB route. Otherwise submit an accepted Dutch test.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_ib_psynl",
+          "label": "Psychology · Dutch-taught track",
+          "details": "Only the Dutch-taught Psychology track requires Dutch. For IB applicants, Dutch A Literature or Dutch A Language and Literature at SL or HL with at least 4 can satisfy it; otherwise the university specifies a Dutch test.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_remedy",
+          "label": "Supplementary subjects · approval and deadline",
+          "details": "Applicants already at Dutch VWO-equivalent level may be allowed to remedy a missing subject, grade or level. Apply before booking and pass before the deficiency deadline. Recognised mathematics, physics or chemistry providers include CCVX, James Boswell-Bèta and the Dutch state examination. Twente excludes OMPT and Korteweg-de Vries. The university assesses eligibility individually.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/diplomas/international-baccalaureate/",
+            "title": "University of Twente · International Baccalaureate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_us_dip",
+          "label": "US diploma · school accreditation and individual review",
+          "details": "The high school must have recognised regional or State Board accreditation. Home-school and online education are reviewed individually. A GED or high-school equivalency diploma alone is outside direct admission. An accredited US diploma without the usual AP results may receive a separate VWO-level assessment and require extra tests.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_us_docs",
+          "label": "US diploma · transcripts before and after graduation",
+          "details": "Graduates submit their diploma and a signed official Grades 9–12 transcript with the matching graduation date. Transfers include transcripts from prior schools. Before graduation, submit signed official records for Grades 9–11 and the latest Grade 12 results; add a school statement if final-year subjects are missing.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_us_extra",
+          "label": "US diploma · evidence when AP exams are missing",
+          "details": "For review without enough APs, upload mathematics and science or social-science course descriptions for Grades 9–12 and any SAT results already obtained. Graduates who took no AP exams must explain why in writing. The source gives no SAT cutoff.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_us_en",
+          "label": "US school-system English",
+          "details": "Show English as a subject in Grades 10, 11 and 12 under the US education system. Transfers from another system in those grades are assessed individually and may need an English test.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_tr_dip",
+          "label": "Türkiye · national and French school awards",
+          "details": "The Turkish Lise Diploması alone falls below the Dutch VWO level for direct entry. Holders can add eligible AP exams. For French schools in Türkiye, Twente checks French government recognition and requires the official French-government Baccalauréat Général for that pathway.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ut27_tr_docs",
+          "label": "Türkiye · records and language evidence",
+          "details": "Graduates submit the government-issued diploma and final four-year transcript in their original language. Before graduation, provide the government-issued transcript covering the preceding three years and an English school statement with final-year subjects, the diploma’s original name, and the school name in both languages and its website. The university grants no country-level English exemption for Türkiye.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.utwente.nl/en/education/bachelor/application-admission/admission/",
+            "title": "University of Twente · Country-specific diploma requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

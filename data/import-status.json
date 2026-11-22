@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282255,
+            "programs": 282274,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4150,
+            "admissionProfiles": 4170,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27016,
+            "admissionRequirements": 27051,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1451
+            "qualificationRequirements": 1470
         },
         "ibCoverage": {
             "byCountry": [
@@ -149,18 +149,24 @@
                     "programs_with_published_totals": 0
                 },
                 {
+                    "country": "The Netherlands",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 19,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "United Kingdom",
                     "institutions": 4,
                     "programs_with_reviewed_ib": 152,
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1451,
-            "programsWithReviewedIb": 1242,
+            "reviewedRecords": 1470,
+            "programsWithReviewedIb": 1261,
             "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 52,
+            "institutionsWithReviewedIb": 53,
             "programsWithPublishedTotals": 810,
-            "undergraduateCatalogEntries": 196473
+            "undergraduateCatalogEntries": 196492
         },
         "coreCoverage": {
             "phone": 4078,
@@ -189,13 +195,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4173,
+            "programs": 4174,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1950,
+            "admissions": 1951,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23979
+            "noStructuredApplicationFacts": 23978
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -207,32 +213,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4996,
-            "profiles": 1440,
-            "institutions": 98
+            "facts": 5031,
+            "profiles": 1441,
+            "institutions": 99
         }
     },
-    "generatedAt": "2026-11-22T03:13:29Z",
+    "generatedAt": "2026-11-22T03:20:38Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 28,
-        "provider": "official_admissions",
+        "inserted": 19,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 28,
-        "startedAt": "2026-11-22T03:13:26.779671+00:00",
-        "updatedAt": "2026-11-22T03:13:26.779671+00:00",
+        "processed": 19,
+        "startedAt": "2026-11-22T03:20:35.330202+00:00",
+        "updatedAt": "2026-11-22T03:20:35.391+00:00",
         "checkpoint": {
-            "profiles": 4,
-            "admissionFacts": 28,
-            "programsReused": 0,
-            "programsCreated": 45,
-            "priorSharedLinksAdded": 134
+            "rowIndex": 19,
+            "sourceRows": 19,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T03:13:26.911+00:00",
-        "artifactSha256": "c522f72367f37737294e4b1db8232e383dc3efd7e27c520f17ef2ba13232eb51",
-        "datasetVersion": "official-admissions-ium-namibia-environment-2026-11-22-v1"
+        "finishedAt": "2026-11-22T03:20:35.391+00:00",
+        "artifactSha256": "97fed232c77b5ef57f90ff462d9cf81aff4d6c854186f50969d06be597bf8b5d",
+        "datasetVersion": "official-ib-twente-qualifications-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
