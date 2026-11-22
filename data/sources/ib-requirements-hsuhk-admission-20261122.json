@@ -1,0 +1,77 @@
+{
+  "datasetVersion": "official-ib-requirements-hsuhk-admission-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "hsuhk",
+      "name": "Hang Seng University of Hong Kong",
+      "provider": "ror",
+      "externalId": "04fa64g55",
+      "countryCode": "HK",
+      "officialDomains": ["hsu.edu.hk"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "hsuhk",
+      "program": null,
+      "requirement": {
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "totalMax": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "hsuhk-sep2027-ib",
+        "applicantContext": "First-year entry with the full IB Diploma, for applicants with international qualifications regardless of local status.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "scoreScale": 45,
+        "subjectNotes": "Present three HL and three SL subjects. The HL subjects must contribute at least 12 points in total.",
+        "conditions": "Complete the full IB Diploma and satisfy the English language and applicable programme requirements. The actuarial programme also specifies a Mathematics grade.",
+        "source": {
+          "title": "HSUHK · International qualifications for Year 1",
+          "url": "https://admission.hsu.edu.hk/undergraduate-admissions/year-1-entry/international-qualification/entrance-requirements/",
+          "checkedOn": "2026-11-22",
+          "evidence": "12 points or above to be obtained from subjects at Higher Level"
+        }
+      }
+    },
+    {
+      "institutionKey": "hsuhk",
+      "program": {
+        "name": "Bachelor of Science (Honours) in Actuarial Studies and Insurance",
+        "field": "Actuarial Studies and Insurance",
+        "level": "undergraduate",
+        "url": "https://admission.hsu.edu.hk/programmes/by-schools/",
+        "courseCode": null
+      },
+      "requirement": {
+        "academicYear": "2027",
+        "intakeTerm": "september",
+        "applicantType": "all",
+        "entryType": "first_year",
+        "totalMax": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "hsuhk-ain-ib-maths-2027",
+        "applicantContext": "Additional IB subject condition for Year 1 Actuarial Studies and Insurance.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "scoreScale": null,
+        "subjectNotes": "Attain at least grade 5 in IB Mathematics at either SL or HL.",
+        "conditions": "The university-wide IB Diploma threshold also applies. The programme publishes a Mathematics grade and gives no separate programme total.",
+        "source": {
+          "title": "HSUHK · International qualifications for Year 1",
+          "url": "https://admission.hsu.edu.hk/undergraduate-admissions/year-1-entry/international-qualification/entrance-requirements/",
+          "checkedOn": "2026-11-22",
+          "evidence": "Grade 5 or above in Standard Level (SL) or Higher Level (HL) Mathematics"
+        }
+      }
+    }
+  ]
+}

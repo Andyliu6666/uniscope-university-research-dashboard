@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282359,
+            "programs": 282385,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4237,
+            "admissionProfiles": 4249,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27202,
+            "admissionRequirements": 27267,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1524
+            "qualificationRequirements": 1526
         },
         "ibCoverage": {
             "byCountry": [
@@ -72,8 +72,8 @@
                 },
                 {
                     "country": "Hong Kong",
-                    "institutions": 2,
-                    "programs_with_reviewed_ib": 132,
+                    "institutions": 3,
+                    "programs_with_reviewed_ib": 133,
                     "programs_with_published_totals": 131
                 },
                 {
@@ -179,12 +179,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1524,
-            "programsWithReviewedIb": 1314,
-            "institutionWidePolicies": 19,
-            "institutionsWithReviewedIb": 57,
+            "reviewedRecords": 1526,
+            "programsWithReviewedIb": 1315,
+            "institutionWidePolicies": 20,
+            "institutionsWithReviewedIb": 58,
             "programsWithPublishedTotals": 849,
-            "undergraduateCatalogEntries": 196571
+            "undergraduateCatalogEntries": 196597
         },
         "coreCoverage": {
             "phone": 4078,
@@ -213,13 +213,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4178,
+            "programs": 4179,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1955,
+            "admissions": 1956,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23974
+            "noStructuredApplicationFacts": 23973
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -231,31 +231,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5182,
-            "profiles": 1455,
-            "institutions": 103
+            "facts": 5247,
+            "profiles": 1466,
+            "institutions": 104
         }
     },
-    "generatedAt": "2026-11-22T04:28:42Z",
+    "generatedAt": "2026-11-22T05:16:37Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 1,
+        "inserted": 2,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 1,
-        "startedAt": "2026-11-22T04:28:39.699758+00:00",
-        "updatedAt": "2026-11-22T04:28:39.716+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-22T05:16:35.021+00:00",
+        "updatedAt": "2026-11-22T05:16:35.039+00:00",
         "checkpoint": {
-            "rowIndex": 1,
-            "sourceRows": 1,
+            "rowIndex": 2,
+            "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T04:28:39.716+00:00",
-        "artifactSha256": "4abe46a50dc361fecb857eac03554c5a2c246549a3a62839e76ef8c0c3492f41",
-        "datasetVersion": "official-ib-requirements-khalifa-fall-2026-11-22-v1"
+        "finishedAt": "2026-11-22T05:16:35.039+00:00",
+        "artifactSha256": "d0999a6e6b9fdc63edbd7dc942b63fada582bb227115aad2476ef3d2df8139e3",
+        "datasetVersion": "official-ib-requirements-hsuhk-admission-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
