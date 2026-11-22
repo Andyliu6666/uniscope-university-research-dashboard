@@ -1,0 +1,1596 @@
+{
+  "datasetVersion": "official-admissions-waikato-engineering-entry-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "waikato-nz",
+      "name": "University of Waikato",
+      "provider": "ror",
+      "externalId": "013fsnh78",
+      "countryCode": "NZ",
+      "officialDomains": ["waikato.ac.nz"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "civil",
+      "name": "Bachelor of Engineering with Honours in Civil Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Civil Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_phy",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgephy",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "elec",
+      "name": "Bachelor of Engineering with Honours in Electrical and Electronic Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Electrical and Electronic Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_phy",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgephy",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "mech",
+      "name": "Bachelor of Engineering with Honours in Mechanical Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Mechanical Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_phy",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgephy",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "mecha",
+      "name": "Bachelor of Engineering with Honours in Mechatronics Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Mechatronics Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_phy",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgephy",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "chem",
+      "name": "Bachelor of Engineering with Honours in Chemical and Process Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Chemical and Process Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_chem",
+        "wknz_disagree",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgechem",
+        "wknz_prepchem",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "env",
+      "name": "Bachelor of Engineering with Honours in Environmental Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Environmental Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_env",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgechem",
+        "wknz_prepchem",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "mat",
+      "name": "Bachelor of Engineering with Honours in Materials and Manufacturing Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Materials and Manufacturing Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_mat",
+        "wknz_disagree",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgechem",
+        "wknz_prepchem",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    },
+    {
+      "key": "soft",
+      "name": "Bachelor of Engineering with Honours in Software Engineering",
+      "institutionKey": "waikato-nz",
+      "field": "Software Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "wknz_apid",
+        "wknz_gce",
+        "wknz_gce_en",
+        "wknz_aice",
+        "wknz_lrn",
+        "wknz_pearson",
+        "wknz_au",
+        "wknz_bd",
+        "wknz_br",
+        "wknz_ca",
+        "wknz_cl",
+        "wknz_cn",
+        "wknz_co",
+        "wknz_fj",
+        "wknz_fr",
+        "wknz_de",
+        "wknz_ghng",
+        "wknz_ng",
+        "wknz_hk",
+        "wknz_in",
+        "wknz_id",
+        "wknz_jp",
+        "wknz_kr",
+        "wknz_kw",
+        "wknz_my",
+        "wknz_mx",
+        "wknz_np",
+        "wknz_no",
+        "wknz_ompk",
+        "wknz_ph",
+        "wknz_sa",
+        "wknz_ae",
+        "wknz_sg",
+        "wknz_za",
+        "wknz_sp",
+        "wknz_to",
+        "wknz_lk",
+        "wknz_tw",
+        "wknz_th",
+        "wknz_us",
+        "wknz_vn",
+        "wknz_calc",
+        "wknz_soft",
+        "wknz_case",
+        "wknz_postsec",
+        "wknz_credit",
+        "wknz_base",
+        "wknz_foundeng",
+        "wknz_bridgesoft",
+        "wknz_ncuk",
+        "wknz_english_proof",
+        "wknz_english_time",
+        "wknz_eng_ielts",
+        "wknz_eng_toefl",
+        "wknz_eng_pte",
+        "wknz_eng_det",
+        "wknz_eng_nz",
+        "wknz_eng_ox",
+        "wknz_eng_cam",
+        "wknz_eng_lc",
+        "wknz_eng_igcse",
+        "wknz_eng_ib",
+        "wknz_eng_gce",
+        "wknz_eng_sg",
+        "wknz_eng_us"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "waikato-nz",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Each requirement applies to the named qualification, applicant pathway and engineering specialisation. International general entry and programme prerequisites are assessed separately.",
+      "requirements": [
+        {
+          "key": "wknz_apid",
+          "label": "Advanced Placement International Diploma",
+          "details": "Qualify for the AP International Diploma and earn exam grades of 3 or higher in at least four subjects. The published route requires the diploma itself. Programme-specific prerequisites still apply.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_gce",
+          "label": "GCE A levels · three full subjects",
+          "details": "Waikato lists a six-point minimum across three full A levels, with at least one grade C. Grades A, B, C, D and E are worth five, four, three, two and one points respectively. AS grades do not count. This is the academic rule given for UK A levels and the separate GCE entry in the international qualifications table.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_gce_en",
+          "label": "GCE route · English-intensive subject",
+          "details": "For the GCE route labelled “Outside UK Cambridge”, the university specifies at least E in an approved English-intensive full A-level subject for English proficiency.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_aice",
+          "label": "Cambridge International / AICE · NZ entrance tariff",
+          "details": "Earn at least 120 NZ CAIE tariff points at A or AS level, with three or more subjects graded D or higher, excluding Thinking Skills. The university also requires entrance-level literacy and numeracy.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_lrn",
+          "label": "Learning Resource Network · international GCSE and A levels",
+          "details": "Present at least three A levels graded C or above. For literacy, AS or A-level English Language must be E or above. For numeracy, the minimum is GCSE Mathematics C, or AS or A-level Mathematics D.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_pearson",
+          "label": "Pearson Edexcel International A levels",
+          "details": "Accumulate 120 NZ tariff points from approved A or AS syllabuses, with at least three subjects at D or above. For literacy, earn E or above in AS English Language or Literature in English. For numeracy, present IGCSE Mathematics at D or above or a pass in AS Mathematics. An AS literacy or maths grade of D or above can count towards the three-subject requirement.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_au",
+          "label": "Australia · entry qualification",
+          "details": "An ATAR of 70 qualifies; Queensland OP 14 or better is accepted for tests taken before 2020. The Australian qualification can have been taken overseas.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_bd",
+          "label": "Bangladesh · entry qualification",
+          "details": "Complete the Higher Secondary Certificate or Alim examination with GPA 4.0/5.0 or above. University assessment determines Alim equivalence.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_br",
+          "label": "Brazil · entry qualification",
+          "details": "Complete the Ensino Médio or Segundo Grau certificate with at least 8.8/10 in the final year.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ca",
+          "label": "Canada · entry qualification",
+          "details": "Ontario requires a 65% overall secondary-diploma average. Quebec requires a 60% average in six Grade 12 subjects including English. In British Columbia, hold the graduation certificate with passes in at least five Grade 12 courses.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_cl",
+          "label": "Chile · entry qualification",
+          "details": "Complete one year at a recognised university-level institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_cn",
+          "label": "China · entry qualification",
+          "details": "A Gaokao score of at least 65% of the full score in the examination year qualifies. Alternatives are two years of academic study at a recognised junior college or one year at a recognised university-level institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_co",
+          "label": "Colombia · entry qualification",
+          "details": "Complete the academic Bachiller with an 85% final-year average or higher and earn at least 340 on ICFES Saber 11. Both results are required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_fj",
+          "label": "Fiji · entry qualification",
+          "details": "The Year 13 Certificate route requires at least 250/400 across four subjects with 50 or above in English. The USP Arts, Business or Science Foundation Certificate route requires a B average and at least C in each of its eight required courses.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_fr",
+          "label": "France · entry qualification",
+          "details": "Complete the Diplôme du Baccalauréat.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_de",
+          "label": "Germany · entry qualification",
+          "details": "Complete the Abitur or Zeugnis der Allgemeinen Hochschulreife.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ghng",
+          "label": "Ghana and Nigeria · university study · entry qualification",
+          "details": "Complete one year of bachelor’s-level study with good passing grades at a recognised university-level institution. Nigeria has an additional National Diploma route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ng",
+          "label": "Nigeria · diploma route · entry qualification",
+          "details": "Completion of the Nigerian National Diploma is also listed for Nigeria.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_hk",
+          "label": "Hong Kong · entry qualification",
+          "details": "For the HKDSE, total at least 15 across the best five subjects drawn from the core and Category A or C electives. Applied Learning (Category B) is excluded.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_in",
+          "label": "India · entry qualification",
+          "details": "For CBSE, CISCE, Maharashtra, Karnataka or West Bengal Year 12 awards, average at least 75% in the best four academic subjects and earn at least 60% in English. For other Indian state boards, those minima rise to 80% and 65%, respectively.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_id",
+          "label": "Indonesia · entry qualification",
+          "details": "For SMA, Waikato prints the overall threshold as “8.5/80%”; it does not explain the two scales. Other routes are one completed year at a recognised university-level institution or a Diploma II from a recognised tertiary institution.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_jp",
+          "label": "Japan · entry qualification",
+          "details": "Present a high-school diploma with a B average, complete one year at a Japanese university, or hold a two- or three-year junior college diploma.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_kr",
+          "label": "Korea · entry qualification",
+          "details": "Earn at least 250 in the national College Scholastic Aptitude Test.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_kw",
+          "label": "Kuwait · entry qualification",
+          "details": "Complete the General Secondary Education Certificate with an average of at least 80% across academic subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_my",
+          "label": "Malaysia · entry qualification",
+          "details": "Present Matrikulasi with a cumulative GPA of at least 2.5, or three STPM principal passes (C to A) in at least three subjects. Alternatives are a UEC score of 20 points or fewer over five academic subjects (A1 earns one point, A2 two, B3 three and so on), or KDU College Petaling Jaya Business Foundation Studies with a B average.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_mx",
+          "label": "Mexico · entry qualification",
+          "details": "Complete an academic Bachiller, Bachillerato General or Diploma de Bachiller with at least 9.1/10 in the final year.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_np",
+          "label": "Nepal · entry qualification",
+          "details": "The Higher Secondary Certificate requires an average of at least 75%. The Proficiency Certificate route requires at least 3.0/4.0.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_no",
+          "label": "Norway · entry qualification",
+          "details": "Complete the general or vocational upper-secondary leaving certificate (Vitnemål for videregående opplæring) or the Examen Artium.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ompk",
+          "label": "Oman, Pakistan, Saudi Arabia and United Arab Emirates · entry qualification",
+          "details": "Complete one year of bachelor’s-level study at a recognised university-level institution. Saudi Arabia and the United Arab Emirates also have diploma pathways.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ph",
+          "label": "Philippines · entry qualification",
+          "details": "Earn at least 85% in the Academic Track high-school diploma, or achieve Merit in the Learning Resource Network Level 3 Pre-U Foundation Studies diploma.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_sa",
+          "label": "Saudi Arabia · diploma route · entry qualification",
+          "details": "Complete a diploma at a recognised technical college or vocational institute.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_ae",
+          "label": "United Arab Emirates · diploma route · entry qualification",
+          "details": "Complete a diploma from a recognised Higher College of Technology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_sg",
+          "label": "Singapore · entry qualification",
+          "details": "For Singapore-Cambridge A levels, present at least three H2 passes at grade C or above.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_za",
+          "label": "South Africa · entry qualification",
+          "details": "Complete the National Senior Certificate with confirmation that it permits entry to a bachelor’s degree at a South African university.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_sp",
+          "label": "Tonga and other eligible South Pacific systems · entry qualification",
+          "details": "For the South Pacific Form Seven Certificate pathway, obtain at least three B grades. PSSC English must be grade 5 or better and PSSC Mathematics grade 6 or better. This regional entry applies to Tonga and to South Pacific systems for which Waikato gives no individual listing.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_to",
+          "label": "Tonga · national route · entry qualification",
+          "details": "The Tonga National Form Seven is also accepted on successful completion. The Tonga entry specifies PSSC English grade 5 or better and PSSC Mathematics grade 6 or better for all applicants on its listed routes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_lk",
+          "label": "Sri Lanka · entry qualification",
+          "details": "Achieve three grades of C or above at Sri Lankan GCE A level, or successfully complete at least one year of recognised tertiary study.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_tw",
+          "label": "Taiwan · entry qualification",
+          "details": "Complete one year of university, or combine senior high school with a two-year junior college diploma. Junior high school with a five-year junior college diploma is also listed.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_th",
+          "label": "Thailand · entry qualification",
+          "details": "Complete Mathayom 6 with a GPA of at least 3.2.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_us",
+          "label": "United States · entry qualification",
+          "details": "The high-school diploma route requires a Grade 12 GPA of at least 2.5. The GED alternative requires 660 overall and at least 145 in each subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_vn",
+          "label": "Vietnam · entry qualification",
+          "details": "Pass the national high-school graduation examination and achieve at least 8.0/10 in each of the four strongest mandatory or elective Grade 12 subjects on the school report. A temporary graduation certificate is acceptable for the July intake.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · International undergraduate entry requirements",
+            "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "waikato-nz",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement applies to the named qualification, applicant pathway and engineering specialisation. International general entry and programme prerequisites are assessed separately.",
+      "requirements": [
+        {
+          "key": "wknz_calc",
+          "label": "Guaranteed engineering entry · calculus",
+          "details": "For the NCEA guaranteed-entry route, meet University Entrance and earn at least 16 Level 3 Calculus credits. The chosen specialisation has its own additional subject conditions where specified.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_phy",
+          "label": "Civil, electrical, mechanical and mechatronics · physics",
+          "details": "These streams require at least 14 further NCEA Level 3 credits in Physics for guaranteed entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_env",
+          "label": "Environmental Engineering · science",
+          "details": "The science condition for guaranteed entry is at least 14 Level 3 NCEA credits in either Chemistry or Physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_chem",
+          "label": "Chemical and Process Engineering · calendar science prerequisites",
+          "details": "The academic calendar specifies at least 16 Level 3 Chemistry credits and 14 Level 3 Physics credits for guaranteed entry. The degree overview gives a different science condition. Confirm the applicable intake with the school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_mat",
+          "label": "Materials and Manufacturing Engineering · calendar science prerequisites",
+          "details": "The academic calendar specifies at least 14 Level 3 credits in Chemistry and Physics. Its wording names both subjects. The degree overview gives a different science condition. Confirm the applicable intake with the school.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_disagree",
+          "label": "Engineering overview · conflicting science condition",
+          "details": "The public degree overview lists 14 Level 3 credits in either Chemistry or Physics for these streams. The calendar lists both subjects for these two streams. Rely on confirmation from the university before treating the overview alone as a guarantee.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+            "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_soft",
+          "label": "Software Engineering · additional approved subjects",
+          "details": "Alongside Calculus, the academic calendar specifies at least 14 NCEA Level 3 credits in two other University Entrance approved subjects. The shorter degree overview lists the Calculus threshold alone.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_case",
+          "label": "Applicants outside the guaranteed route",
+          "details": "The engineering school reviews other applications individually. Applicants may be directed to first-year papers to address background gaps.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "University of Waikato · Bachelor of Engineering with Honours · entry requirements",
+            "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-engineering-with-honours/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_english_proof",
+          "label": "English proficiency · evidence and exemptions",
+          "details": "Applicants whose first language is neither English nor te reo Māori must demonstrate proficiency. University Entrance gained through NCEA, IB or Cambridge International in New Zealand satisfies the additional English-evidence requirement; language tests cannot substitute for the underlying literacy requirements.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_english_time",
+          "label": "English proficiency tests · validity",
+          "details": "The time from the test date to the intended start date must be no more than two years. Normally the required results must come from one sitting or one certificate unless an exception is specified.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_ielts",
+          "label": "IELTS Academic",
+          "details": "Earn 6.0 overall with every band at least 5.5. The university includes One Skill Retake. IELTS Indicator entrants undertake an additional language assessment; IELTS Online follows the programme’s usual standard.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3–4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_toefl",
+          "label": "TOEFL iBT · published 120-point scale",
+          "details": "The undergraduate table accepts internet-based and home results at 80 overall with writing at 21 on the published 120-point scale. The general engineering table gives no new-scale conversion.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_pte",
+          "label": "PTE Academic",
+          "details": "Achieve 50 overall with at least 42 in every communicative skill. The PTE Academic Online version is excluded.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_det",
+          "label": "Duolingo English Test",
+          "details": "Earn at least 105 overall with every band at 95 or above.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_nz",
+          "label": "New Zealand English certificates",
+          "details": "The listed options are the Level 4 Academic New Zealand Certificate in English Language or at least B at Level 7 in the Certificate of Attainment in Academic English.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 3",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_ox",
+          "label": "Oxford, Michigan and Trinity language tests",
+          "details": "Oxford Test of English requires 126 overall and at least 111 per module. The Michigan English Test threshold is 54. Trinity ISE II requires Distinction in each of its four components.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_cam",
+          "label": "Cambridge English tests",
+          "details": "The appendix lists an overall 169 with every band at 162 or higher for its B2 and C2 Proficiency entries. Applicants should check the precise exam name with Waikato because its B2 row also refers to CPE.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_lc",
+          "label": "LanguageCert · sources differ",
+          "details": "The dated appendix lists International ESOL C1 Expert with a pass overall and a pass in every skill. The international admissions web table instead lists B2 with scores from 33 to 37 per skill. Verify the accepted level with Waikato before using this route.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_igcse",
+          "label": "IGCSE English and Kings Foundation",
+          "details": "For the listed IGCSE first- or second-language English examinations, Waikato gives grade C. The alternative Kings Advanced Level Foundation Communication and Study Skills module requires 60%.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 4",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_ib",
+          "label": "IB English · subject grades for language proficiency",
+          "details": "The university recommends these subject grades as equivalent to IELTS 6.0: HL English A Literature or Language and Literature 4, HL English B 5, or SL English A Literature or Language and Literature 5. These scores assess English proficiency. The table gives no SL English B grade.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 8",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_gce",
+          "label": "AS and GCSE English · language equivalence",
+          "details": "For recognised courses taught and examined in English, GCE AS English Language or Literature at E, or GCSE English Language or Literature at C, corresponds to IELTS 6.0. Prior study in English must finish within two years before the programme starts.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 7–8",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_sg",
+          "label": "Singapore-Cambridge GCE · English equivalence",
+          "details": "The English table gives H2 E for English Language and Linguistics, Literature in English, Knowledge and Enquiry, History, Economics, Principles of Accounting, Management of Business, Geography or Biology. H1 C is listed for Literature in English or General Paper. These are alternatives for the IELTS 6.0 standard with bands of at least 5.5.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 8",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_eng_us",
+          "label": "US study · SAT and ACT language evidence",
+          "details": "The US English-evidence table lists SAT Evidence-Based Reading and Writing 550 and ACT ELA 25. They are section scores for language evidence. For this country-specific pathway, the study must have been completed within two years of the programme start.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Undergraduate English proficiency · 30 April 2026 · pp. 9–10",
+            "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "waikato-nz",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement applies to the named qualification, applicant pathway and engineering specialisation. International general entry and programme prerequisites are assessed separately.",
+      "requirements": [
+        {
+          "key": "wknz_postsec",
+          "label": "Engineering special admission · post-secondary study",
+          "details": "Evidence of successful post-secondary study normally supports special admission, including completion of an appropriate Waikato College bridging programme.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_base",
+          "label": "Waikato preparatory certificates · overall result",
+          "details": "For the engineering Certificate of Attainment in Foundation Studies and Certificate of University Preparation routes, complete the certificate with at least a B- overall average and at least C- in every remaining paper. Check the stream’s named papers. The calendar allows individual assessment below these conditions.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_foundeng",
+          "label": "Foundation Studies · two academic English papers",
+          "details": "The Foundation Studies certificate route also requires at least B- in both FOUND021 and FOUND022 for undergraduate English entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_bridgephy",
+          "label": "Civil, electrical, mechanical and mechatronics · preparatory papers",
+          "details": "Both Waikato preparatory certificate routes require B- or better in FOUND007 and FOUND011.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_bridgechem",
+          "label": "Foundation Studies · calculus, chemistry and physics",
+          "details": "For the Foundation Studies certificate pathway to these three streams, earn at least B- in each of FOUND007, FOUND010 and FOUND011.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_prepchem",
+          "label": "University Preparation · choice of science papers",
+          "details": "For the Certificate of University Preparation pathway, earn at least B- in two of FOUND007, FOUND010 and FOUND011.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "wknz_bridgesoft",
+          "label": "Software Engineering · preparatory mathematics",
+          "details": "For either Waikato preparatory certificate pathway, earn at least B- in FOUND007.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "waikato-nz",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each requirement applies to the named qualification, applicant pathway and engineering specialisation. International general entry and programme prerequisites are assessed separately.",
+      "requirements": [
+        {
+          "key": "wknz_credit",
+          "label": "Previous study · entry with credit",
+          "details": "Entry or credit based on earlier study is assessed individually, taking account of previous admissions practice and the qualification’s standing in New Zealand.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "title": "University of Waikato · Calendar · criteria for admission to particular qualifications",
+            "url": "https://www.waikato.ac.nz/about/calendar/admission/criteria/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "waikato-nz",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Each requirement applies to the named qualification, applicant pathway and engineering specialisation. International general entry and programme prerequisites are assessed separately.",
+      "requirements": [
+        {
+          "key": "wknz_ncuk",
+          "label": "NCUK International Foundation Year · engineering",
+          "details": "The NCUK progression page gives an engineering academic range from AAB to BBB for admission to Year 1. For English, the minimum average is C with no component below D. The page does not assign an individual grade combination to each engineering stream.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Waikato · NCUK pathways to Waikato · admissions by programme",
+            "url": "https://www.waikato.ac.nz/int/study/international/why-study-at-waikato/ncuk-pathways-to-waikato/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}
