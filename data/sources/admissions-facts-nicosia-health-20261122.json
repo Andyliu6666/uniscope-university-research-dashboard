@@ -1,0 +1,741 @@
+{
+  "datasetVersion": "official-admissions-nicosia-health-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "unic-cy",
+      "name": "University of Nicosia",
+      "provider": "ror",
+      "externalId": "04v18t651",
+      "countryCode": "CY",
+      "officialDomains": ["unic.ac.cy"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "md6",
+      "institutionKey": "unic-cy",
+      "name": "Doctor of Medicine (MD, six-year undergraduate entry)",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+        "title": "University of Nicosia · Doctor of Medicine (MD, six-year undergraduate entry)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_hs",
+        "uniccy_a",
+        "uniccy_sciences",
+        "uniccy_md6_degree",
+        "uniccy_clinical_english",
+        "uniccy_clinical_school_eng",
+        "uniccy_md_waiver",
+        "uniccy_md6_ca",
+        "uniccy_medical_interview",
+        "uniccy_medical_volunteer",
+        "uniccy_conditional_offer",
+        "uniccy_transfer"
+      ]
+    },
+    {
+      "key": "mdgrad",
+      "institutionKey": "unic-cy",
+      "name": "Doctor of Medicine (MD, five-year graduate entry)",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+        "title": "University of Nicosia · Doctor of Medicine (MD, five-year graduate entry)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_clinical_english",
+        "uniccy_clinical_school_eng",
+        "uniccy_md_waiver",
+        "uniccy_grad_ca",
+        "uniccy_grad_passport",
+        "uniccy_medical_interview",
+        "uniccy_medical_volunteer",
+        "uniccy_grad_degree",
+        "uniccy_mcat",
+        "uniccy_gamsat",
+        "uniccy_ucat",
+        "uniccy_yeda"
+      ]
+    },
+    {
+      "key": "vet",
+      "institutionKey": "unic-cy",
+      "name": "Doctor of Veterinary Medicine (DVM, five-year undergraduate entry)",
+      "field": "Veterinary Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+        "title": "University of Nicosia · Doctor of Veterinary Medicine (DVM, five-year undergraduate entry)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_hs",
+        "uniccy_a",
+        "uniccy_sciences",
+        "uniccy_vet_degree",
+        "uniccy_clinical_english",
+        "uniccy_clinical_school_eng",
+        "uniccy_vet_waiver",
+        "uniccy_vet_interview",
+        "uniccy_vet_volunteer"
+      ]
+    },
+    {
+      "key": "fm",
+      "institutionKey": "unic-cy",
+      "name": "Master of Science in Family Medicine (English-language programme)",
+      "field": "Family Medicine",
+      "level": "graduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/msc-family-medicine/",
+        "title": "University of Nicosia · Master of Science in Family Medicine (English-language programme)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_fm_degree",
+        "uniccy_fm_reg",
+        "uniccy_fm_practice",
+        "uniccy_fm_refs",
+        "uniccy_fm_interview",
+        "uniccy_fm_ielts",
+        "uniccy_online_eng",
+        "uniccy_online_waivers"
+      ]
+    },
+    {
+      "key": "joint",
+      "institutionKey": "unic-cy",
+      "name": "Joint Master of Science in Family Medicine (Greek-language programme)",
+      "field": "Family Medicine",
+      "level": "graduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/oikogeneiaki-iatriki/",
+        "title": "University of Nicosia · Joint Master of Science in Family Medicine (Greek-language programme)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_fm_degree",
+        "uniccy_fm_reg",
+        "uniccy_joint_context",
+        "uniccy_joint_refs",
+        "uniccy_joint_interview"
+      ]
+    },
+    {
+      "key": "mph",
+      "institutionKey": "unic-cy",
+      "name": "Master of Public Health (MPH)",
+      "field": "Public Health",
+      "level": "graduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/master-of-public-health-mph/",
+        "title": "University of Nicosia · Master of Public Health (MPH)",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_mph_degree",
+        "uniccy_mph_ref",
+        "uniccy_mph_essay",
+        "uniccy_mph_ielts",
+        "uniccy_online_eng",
+        "uniccy_online_waivers"
+      ]
+    },
+    {
+      "key": "phd",
+      "institutionKey": "unic-cy",
+      "name": "PhD in Medical Sciences",
+      "field": "Medical Sciences",
+      "level": "graduate",
+      "source": {
+        "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+        "title": "University of Nicosia · PhD in Medical Sciences",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "uniccy_phd_acad",
+        "uniccy_phd_copies",
+        "uniccy_phd_refs",
+        "uniccy_phd_english",
+        "uniccy_phd_proposal"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "unic-cy",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "campus",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Nicosia, Cyprus. Each requirement refers to the named degree, entry route and applicant background.",
+      "requirements": [
+        {
+          "key": "uniccy_hs",
+          "label": "School-leaving certificate · grades and subjects",
+          "details": "Present 90% overall, or 18/20 on the Greek or Cypriot school-leaving certificate. Present similar grades in biology and one of chemistry, physics or mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · School-leaving certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_a",
+          "label": "GCE A levels · ABB",
+          "details": "Present ABB across three A levels. Include biology and at least one of chemistry, physics or mathematics. The university does not assign the A to a particular subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · GCE A-level route",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_sciences",
+          "label": "Review of science preparation",
+          "details": "The school reviews the complete grade record, including chemistry, physics and mathematics, to assess readiness for the course. Other qualifications are assessed individually.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · Assessment of academic preparation",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_md6_degree",
+          "label": "Relevant degree · first-year consideration",
+          "details": "A bachelor’s degree in a field related to medicine may qualify an applicant for consideration for year one of the six-year MD.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · Degree-holder entry",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_vet_degree",
+          "label": "Relevant degree · first-year veterinary entry",
+          "details": "The veterinary school considers applicants holding a relevant bachelor’s degree for admission to year one.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+            "title": "University of Nicosia · DVM degree-holder entry",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_clinical_english",
+          "label": "English tests · clinical degree routes",
+          "details": "Present IELTS 6.5 overall, including 6.5 in writing and 6.0 in each remaining component, or an equivalent test. The stated TOEFL iBT options are 79 on the earlier scale or 4 on the scale applicable from 22 January 2026.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Clinical admissions · English tests",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_clinical_school_eng",
+          "label": "School English qualifications · clinical degree routes",
+          "details": "English at GCSE grade 5 (B on the earlier scale), IB Standard Level grade 5, or European Baccalaureate grade 8 satisfies the school-qualification English route.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Clinical admissions · school English qualifications",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_md_waiver",
+          "label": "MD English exemption · native speakers",
+          "details": "Native English speakers originating from Australia, Ireland, New Zealand, the United Kingdom or the United States qualify for the stated exemption.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · MD English exemption",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_md6_ca",
+          "label": "Canadian English-medium school · six-year MD",
+          "details": "Applicants from English-speaking Canadian provinces must provide an official high-school letter confirming English-medium teaching or provide the specified English proficiency evidence.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · English evidence for Canadian applicants",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_grad_ca",
+          "label": "Canadian English-medium education · graduate-entry MD",
+          "details": "Applicants from English-speaking Canadian provinces must provide official English-medium letters from both high school and university or meet a listed English proficiency requirement.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Graduate-entry MD · English documentation",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_grad_passport",
+          "label": "Graduate-entry MD · earlier English certificates",
+          "details": "EU/EEA passport holders graduating from an English-medium university in one of the six listed countries other than their country of origin may be able to use the certificate submitted for admission there. For this route the school requires third-country nationals to supply the specified English evidence for the student visa regardless of the language of their first degree.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Graduate-entry MD · language documentation",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_vet_waiver",
+          "label": "DVM · English-medium school exemption",
+          "details": "Applicants from Australia, Ireland, New Zealand, the UK, the US or English-speaking Canadian provinces qualify for exemption if they graduated from an English-medium high school.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+            "title": "University of Nicosia · DVM English exemption",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_medical_interview",
+          "label": "MD online selection interview",
+          "details": "Both MD routes require an online interview assessing readiness to complete medical training and practise professionally.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · MD interviews",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_medical_volunteer",
+          "label": "MD volunteering evidence",
+          "details": "Applicants must use volunteer experience to demonstrate understanding of the biological, psychological and social aspects of medicine.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · MD volunteer experience",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_vet_interview",
+          "label": "DVM interview",
+          "details": "Attend an interview online or in person to assess suitability for veterinary training and practice.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+            "title": "University of Nicosia · DVM interview",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_vet_volunteer",
+          "label": "Veterinary volunteering evidence",
+          "details": "Show through volunteer experience how you understand the biological, psychological and social aspects of veterinary practice.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+            "title": "University of Nicosia · DVM volunteer experience",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_conditional_offer",
+          "label": "Six-year MD · conditions before enrolment",
+          "details": "The committee reviews academic and non-academic conditions throughout selection. Applicants holding a conditional offer must meet the applicable conditions before enrolment.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+            "title": "University of Nicosia · Conditions of enrolment",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_grad_degree",
+          "label": "Graduate-entry MD · bachelor’s degree",
+          "details": "Hold a bachelor’s degree in any discipline at UK 2:2 honours or an equivalent GPA, and meet one of the entrance-exam routes. The UCAT route has its own degree-field restriction.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Graduate-entry MD · academic eligibility",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_mcat",
+          "label": "Graduate-entry MD · MCAT option",
+          "details": "The MCAT route requires a score of at least 498.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Entrance examinations · MCAT",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_gamsat",
+          "label": "Graduate-entry MD · GAMSAT option",
+          "details": "The GAMSAT route requires at least 55 overall and at least 50 in every section.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Entrance examinations · GAMSAT",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_ucat",
+          "label": "Graduate-entry MD · UCAT option",
+          "details": "Only applicants with a life sciences or biomedical sciences BSc at UK 2:2 honours or equivalent may use the UCAT. They need 1875 overall, at least 500 in each scored section and situational judgement Band 1, 2 or 3.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Entrance examinations · UCAT",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_yeda",
+          "label": "Graduate-entry MD · applicants from Israel",
+          "details": "Applicants from Israel may replace the listed entrance exam with a Tel Aviv University or Reichman University Yeda score of at least 300 overall.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/5-year-md-degree/",
+            "title": "University of Nicosia · Entrance examinations · Yeda",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unic-cy",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "campus",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Nicosia, Cyprus. Each requirement refers to the named degree, entry route and applicant background.",
+      "requirements": [
+        {
+          "key": "uniccy_transfer",
+          "label": "Six-year MD · transfer to years two or three",
+          "details": "An applicant in good standing at an accredited medical school may be considered for year two or three after an academic panel examines completed courses.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Nicosia six-year MD · transfer review",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unic-cy",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Distance-learning degrees offered by the University of Nicosia. The two family medicine programmes use different languages and recommendation criteria.",
+      "requirements": [
+        {
+          "key": "uniccy_fm_degree",
+          "label": "Family medicine · medical qualification",
+          "details": "Hold a medical degree from a recognised institution.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Family medicine master’s admission",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_fm_reg",
+          "label": "Family medicine · medical registration",
+          "details": "Provide evidence of current medical registration. For the joint Greek-language course, registration is with the medical association in the country of practice.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Family medicine master’s registration",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_fm_practice",
+          "label": "English-language family medicine · ongoing practice",
+          "details": "Remain in clinical practice throughout enrolment in the MSc.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/msc-family-medicine/",
+            "title": "University of Nicosia · Clinical practice",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_fm_refs",
+          "label": "English-language family medicine · professional referees",
+          "details": "Submit two professional recommendation letters.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/msc-family-medicine/",
+            "title": "University of Nicosia · Reference letters",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_fm_interview",
+          "label": "English-language family medicine · online interview",
+          "details": "The online interview assesses clinical professionalism and commitment, empathy, resilience, initiative, communication, teamwork, organisation and problem-solving.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/msc-family-medicine/",
+            "title": "University of Nicosia · Family medicine interview",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_joint_context",
+          "label": "Joint family medicine · language and clinical work",
+          "details": "Demonstrate Greek proficiency and be in clinical practice with access to patients. The universities give native Greek with Greek-medium secondary or medical education as an example of language evidence.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/oikogeneiaki-iatriki/",
+            "title": "University of Nicosia · Joint programme · Greek and clinical practice",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_joint_refs",
+          "label": "Joint family medicine · recommendation letters",
+          "details": "Submit two academic recommendations or one academic and one professional recommendation.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/oikogeneiaki-iatriki/",
+            "title": "University of Nicosia · Joint programme · references",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_joint_interview",
+          "label": "Joint family medicine · selection interview",
+          "details": "Eligible applicants are invited to a video interview. Submit the application to the University of Nicosia for this joint programme with the University of Patras.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/oikogeneiaki-iatriki/",
+            "title": "University of Nicosia · Joint programme · selection",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_mph_degree",
+          "label": "Public health · prior university degree",
+          "details": "Hold a bachelor’s degree from an institution recognised in its country of operation. Medicine, health sciences, biological sciences, social sciences and environmental sciences are advantageous backgrounds.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/master-of-public-health-mph/",
+            "title": "University of Nicosia · MPH academic requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_mph_ref",
+          "label": "Public health · referee",
+          "details": "Submit one academic or professional recommendation.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/master-of-public-health-mph/",
+            "title": "University of Nicosia · MPH reference",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_mph_essay",
+          "label": "Public health · personal statement",
+          "details": "In at most 800 words, describe relevant previous experience, the degree’s connection to your goals and your ability to work alone and in a team, set priorities and monitor your progress in distance learning.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/master-of-public-health-mph/",
+            "title": "University of Nicosia · MPH personal statement",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_fm_ielts",
+          "label": "Family medicine · IELTS",
+          "details": "The English-language MSc requires IELTS 6.5 overall with 6.5 in writing and at least 6.0 in the other components if using IELTS.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/msc-family-medicine/",
+            "title": "University of Nicosia · MSc English language · IELTS",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_mph_ielts",
+          "label": "Public health · IELTS",
+          "details": "For the IELTS route, the MPH specifies 6.5 overall and 6.0 in the other elements.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/master-of-public-health-mph/",
+            "title": "University of Nicosia · MPH English language · IELTS",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_online_eng",
+          "label": "Public health and English-language family medicine · alternative English qualifications",
+          "details": "The programmes list TOEFL iBT 79, GCSE English grade 5 or the older grade B, IB Standard Level English 5, or European Baccalaureate English 8.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Online degrees · English qualifications",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_online_waivers",
+          "label": "English-medium study · online MSc and MPH exemptions",
+          "details": "The school lists native English speakers from Australia, Canada, Ireland, New Zealand, the UK and the US whose earlier education was taught in English. Third-country nationals with an English-taught degree from one of those countries must provide the English certification used for entry to that degree to claim an exemption.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/admissions/",
+            "title": "University of Nicosia · Online degrees · English exemptions",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "unic-cy",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "campus",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Nicosia, Cyprus. Each requirement refers to the named degree, entry route and applicant background.",
+      "requirements": [
+        {
+          "key": "uniccy_phd_acad",
+          "label": "Medical sciences doctorate · prior degrees",
+          "details": "The school states that recognised bachelor’s and master’s degrees or equivalents should be held by registration, and specifically identifies a medical degree as the Medical School’s minimum qualification.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+            "title": "University of Nicosia · PhD · academic prerequisites",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_phd_copies",
+          "label": "Doctorate · transcripts and degree certificates",
+          "details": "Scanned degree certificates and transcripts are accepted for assessment. Certified true copies are required before enrolment.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+            "title": "University of Nicosia · PhD · supporting documents",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_phd_refs",
+          "label": "Doctorate · CV and references",
+          "details": "Submit a CV and two recommendation letters, including at least one academic reference.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+            "title": "University of Nicosia · PhD · references and CV",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_phd_english",
+          "label": "Doctorate · English and writing",
+          "details": "IELTS requires 7 overall and at least 7 in writing, or TOEFL iBT 94 overall and at least 27 in writing. Other internationally recognised qualifications may be reviewed. Native-English-speaking nationals of the UK, Ireland, US, Australia, New Zealand and English-speaking Canada are exempt from the test certificate.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+            "title": "University of Nicosia · PhD · English evidence",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "uniccy_phd_proposal",
+          "label": "Doctorate · proposal and research supervision",
+          "details": "Align the proposed project with a Medical School research priority. The proposed main supervisor reviews the original proposal for approval before application. Include the research question, existing literature, methods and budget. The school gives 5–8 pages and about 2,000–3,000 words. Applicants to a specific faculty scholarship or research project are exempt from submitting this proposal at the initial stage.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.unic.ac.cy/med/education/phd-in-medical-sciences/",
+            "title": "University of Nicosia · Developing the PhD proposal",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

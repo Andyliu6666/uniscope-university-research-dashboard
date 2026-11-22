@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-nicosia-health-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "unic-cy",
+      "name": "University of Nicosia",
+      "provider": "ror",
+      "externalId": "04v18t651",
+      "countryCode": "CY",
+      "officialDomains": ["unic.ac.cy"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "unic-cy",
+      "program": {
+        "name": "Doctor of Medicine (MD, six-year undergraduate entry)",
+        "field": "Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/"
+      },
+      "requirement": {
+        "recordKey": "unic-nicosia-md6-school-leaver-ib",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "School-leaving IB qualification for Doctor of Medicine (MD, six-year undergraduate entry) at the Nicosia campus in Cyprus.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 32,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Earn a combined 16 points at Higher Level. Include biology and at least one of chemistry, physics or mathematics. The university states the combined score without prescribing separate HL grades.",
+        "conditions": "The school also reviews science preparation, English proficiency and suitability at interview.",
+        "source": {
+          "url": "https://www.unic.ac.cy/med/education/6-year-md-degree/",
+          "title": "University of Nicosia · Doctor of Medicine (MD, six-year undergraduate entry) · International Baccalaureate",
+          "checkedOn": "2026-11-22",
+          "evidence": "32 overall and a combined score of 16 at Higher Level"
+        }
+      }
+    },
+    {
+      "institutionKey": "unic-cy",
+      "program": {
+        "name": "Doctor of Veterinary Medicine (DVM, five-year undergraduate entry)",
+        "field": "Veterinary Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.unic.ac.cy/vet/admission-requirements/"
+      },
+      "requirement": {
+        "recordKey": "unic-nicosia-vet-school-leaver-ib",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "School-leaving IB qualification for Doctor of Veterinary Medicine (DVM, five-year undergraduate entry) at the Nicosia campus in Cyprus.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 32,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Earn a combined 16 points at Higher Level. Include biology and at least one of chemistry, physics or mathematics. The university states the combined score without prescribing separate HL grades.",
+        "conditions": "The school also reviews science preparation, English proficiency and suitability at interview.",
+        "source": {
+          "url": "https://www.unic.ac.cy/vet/admission-requirements/",
+          "title": "University of Nicosia · Doctor of Veterinary Medicine (DVM, five-year undergraduate entry) · International Baccalaureate",
+          "checkedOn": "2026-11-22",
+          "evidence": "32 overall and a combined score of 16 at Higher Level"
+        }
+      }
+    }
+  ]
+}

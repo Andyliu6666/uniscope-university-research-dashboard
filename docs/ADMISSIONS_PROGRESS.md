@@ -1,5 +1,14 @@
 # Admissions checkpoint — 2026-11-22
 
+## University of Nicosia, Cyprus · medicine, veterinary medicine and postgraduate health
+
+1. The starting catalogue matched the preceding Namibia checkpoint. Nicosia (ROR `04v18t651`) had no programmes or published admissions profiles in the database.
+2. Reviewed the Cyprus medical and veterinary schools' admission pages alongside their programme pages. The six-year Medicine and five-year Veterinary Medicine routes each specify IB 32/45, including a combined 16 at Higher Level, and identify Biology plus Chemistry, Physics or Mathematics. Their A-level route specifies ABB with those subject conditions. The sources reviewed give no numeric AP admission threshold. [Medical admissions](https://www.unic.ac.cy/med/admissions/) · [Veterinary admissions](https://www.unic.ac.cy/vet/admission-requirements/)
+3. Preserved the separate five-year graduate-entry Medicine route, including the first-degree requirement and the distinct MCAT, GAMSAT, UCAT and Israeli Yeda conditions. Recorded the two family medicine master's routes, the MPH and the medical sciences doctorate separately. The MPH requests an 800-word statement. Transfer rules follow the Nicosia campus and the relevant programme. [Graduate-entry Medicine](https://www.unic.ac.cy/med/education/5-year-md-degree/) · [Public Health](https://www.unic.ac.cy/med/education/master-of-public-health-mph/)
+4. Created seven programmes, 43 distinct general facts, 57 programme associations and two numeric IB records. Both previews and repeat imports left the database fingerprints unchanged. The full database archive passed its restore-stream check (SHA-256 `77419abaa9369519091357c9916178347895703163c6bf771696c391fa458c7c`).
+5. Verified all seven programmes through the website API and rendered searches. Checked applicant, year and mode filters, the two school-leaver IB minima, source links and programme-specific graduate prerequisites. The packaged files matched the originals and the repository's data quality checks passed.
+6. Across 28,171 institutions the database contains 282,163 programmes, 4,141 admissions profiles and 26,872 general requirements. The reviewed subset has 4,852 general facts at 97 institutions. There are 1,451 IB records, with published numeric IB totals on 810 programmes. Resume Namibia's International University of Management at printed page 50 of its 2027 booklet for business and public policy.
+
 ## International University of Management, Namibia · 2027 health sciences and ICT
 
 1. Matched the Dublin checkpoint before importing. The Namibian institution (ROR `011d6dm60`) had zero programmes and zero admissions profiles. The previous database archive passed its checksum verification.

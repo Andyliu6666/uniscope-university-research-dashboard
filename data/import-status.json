@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282156,
+            "programs": 282163,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4135,
+            "admissionProfiles": 4141,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26829,
+            "admissionRequirements": 26872,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1449
+            "qualificationRequirements": 1451
         },
         "ibCoverage": {
             "byCountry": [
@@ -39,6 +39,12 @@
                     "institutions": 1,
                     "programs_with_reviewed_ib": 3,
                     "programs_with_published_totals": 3
+                },
+                {
+                    "country": "Cyprus",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 2,
+                    "programs_with_published_totals": 2
                 },
                 {
                     "country": "Fiji",
@@ -149,12 +155,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1449,
-            "programsWithReviewedIb": 1240,
+            "reviewedRecords": 1451,
+            "programsWithReviewedIb": 1242,
             "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 51,
-            "programsWithPublishedTotals": 808,
-            "undergraduateCatalogEntries": 196417
+            "institutionsWithReviewedIb": 52,
+            "programsWithPublishedTotals": 810,
+            "undergraduateCatalogEntries": 196420
         },
         "coreCoverage": {
             "phone": 4078,
@@ -183,13 +189,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4171,
+            "programs": 4172,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1949,
+            "admissions": 1950,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23980
+            "noStructuredApplicationFacts": 23979
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -201,31 +207,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4809,
-            "profiles": 1426,
-            "institutions": 96
+            "facts": 4852,
+            "profiles": 1430,
+            "institutions": 97
         }
     },
-    "generatedAt": "2026-11-22T01:16:02Z",
+    "generatedAt": "2026-11-22T02:10:54Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 1,
+        "inserted": 2,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 1,
-        "startedAt": "2026-11-22T01:16:00.076655+00:00",
-        "updatedAt": "2026-11-22T01:16:00.089+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-22T02:10:51.652602+00:00",
+        "updatedAt": "2026-11-22T02:10:51.671+00:00",
         "checkpoint": {
-            "rowIndex": 1,
-            "sourceRows": 1,
+            "rowIndex": 2,
+            "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T01:16:00.089+00:00",
-        "artifactSha256": "70378759fe6f63d0b7671937904d7bf9bdeb49540bd48918e70d897bc65fe9a7",
-        "datasetVersion": "official-ib-ium-namibia-health-ict-2026-11-22-v1"
+        "finishedAt": "2026-11-22T02:10:51.671+00:00",
+        "artifactSha256": "5c36590fa136e1356b471e3fa9b6e6d9dada4df67e89db2b659fda89cb03e001",
+        "datasetVersion": "official-ib-nicosia-health-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
