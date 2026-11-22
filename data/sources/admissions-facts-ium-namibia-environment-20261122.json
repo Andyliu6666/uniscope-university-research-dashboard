@@ -1,0 +1,1572 @@
+{
+  "datasetVersion": "official-admissions-ium-namibia-environment-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ium-na",
+      "name": "International University of Management",
+      "provider": "ror",
+      "externalId": "011d6dm60",
+      "countryCode": "NA",
+      "officialDomains": ["ium.edu.na", "ws-be-1.ongwediva.app"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "env",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Environmental Management and Sustainable Development Honours",
+      "field": "Environmental Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_env_prior", "ium27_ee_env_distance"]
+    },
+    {
+      "key": "clim",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Climate Change Mitigation and Adaptation Honours",
+      "field": "Climate Change",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_env_prior"]
+    },
+    {
+      "key": "ag",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Conservation Agriculture Management Honours",
+      "field": "Conservation Agriculture",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_env_prior"]
+    },
+    {
+      "key": "pgev",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Environmental Studies",
+      "field": "Environmental Studies",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1",
+          "key": "ium27_biz_level7"
+        }
+      ]
+    },
+    {
+      "key": "mclim",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Climate Change Mitigation and Adaptation",
+      "field": "Climate Change",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_degree_mclim"]
+    },
+    {
+      "key": "menv",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Integrated Environmental Management and Sustainable Development",
+      "field": "Environmental Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_degree_menv"]
+    },
+    {
+      "key": "mag",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Conservation Agricultural Management",
+      "field": "Conservation Agriculture",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_degree_mag"]
+    },
+    {
+      "key": "phns",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Natural Science",
+      "field": "Natural Science",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_phd"]
+    },
+    {
+      "key": "phnr",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Integrated Natural Resources Management",
+      "field": "Natural Resources Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 30",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_phd"]
+    },
+    {
+      "key": "phsd",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Sustainable Development",
+      "field": "Sustainable Development",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 30",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_phd"]
+    },
+    {
+      "key": "ctou",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Tourism, Hospitality and Events Management",
+      "field": "Tourism and Hospitality",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 30",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_prior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_tourism_mature"]
+    },
+    {
+      "key": "dhos",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Hospitality and Events Management",
+      "field": "Hospitality and Events Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 31",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_tou_prior"]
+    },
+    {
+      "key": "deco",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Ecotourism and Protected Areas Management",
+      "field": "Ecotourism",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 31",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_tou_prior"]
+    },
+    {
+      "key": "beco",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Ecotourism and Protected Areas Management Honours",
+      "field": "Ecotourism",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 31",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_eco_b"]
+    },
+    {
+      "key": "meco",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Ecotourism and Protected Areas Management",
+      "field": "Ecotourism",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_eco_m"]
+    },
+    {
+      "key": "pheco",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Ecotourism and Protected Areas Management",
+      "field": "Ecotourism",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_eco_ph"]
+    },
+    {
+      "key": "cohs",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Occupational Health and Safety",
+      "field": "Occupational Health and Safety",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ]
+    },
+    {
+      "key": "ctra",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Transport and Logistics Management",
+      "field": "Transport and Logistics",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ]
+    },
+    {
+      "key": "dtra",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Transport and Logistics Management",
+      "field": "Transport and Logistics",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_transport_d"]
+    },
+    {
+      "key": "dport",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Maritime and Port Management",
+      "field": "Maritime Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_transport_d"]
+    },
+    {
+      "key": "dohs",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Occupational Health and Safety",
+      "field": "Occupational Health and Safety",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_ohs_d"]
+    },
+    {
+      "key": "btra",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Transport and Logistics Management Honours",
+      "field": "Transport and Logistics",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_transport_b"]
+    },
+    {
+      "key": "bohs",
+      "institutionKey": "ium-na",
+      "name": "Bachelor in Occupational Health and Safety Honours",
+      "field": "Occupational Health and Safety",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · pp. 8, 34",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_ohs_b"]
+    },
+    {
+      "key": "pgtra",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Transport and Logistics Studies",
+      "field": "Transport and Logistics",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 34",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1",
+          "key": "ium27_biz_level7"
+        }
+      ]
+    },
+    {
+      "key": "mship",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Maritime and Shipping Management",
+      "field": "Maritime Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 34",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_trans_m"]
+    },
+    {
+      "key": "mtra",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Transport and Logistics Management",
+      "field": "Transport and Logistics",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 34",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_trans_m"]
+    },
+    {
+      "key": "mphohs",
+      "institutionKey": "ium-na",
+      "name": "Master of Philosophy in Occupational Health and Safety Management",
+      "field": "Occupational Health and Safety",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 35",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_ohs_m"]
+    },
+    {
+      "key": "phtra",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Transport and Logistics Management",
+      "field": "Transport and Logistics",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 35",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_trans_ph"]
+    },
+    {
+      "key": "coce",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Sustainable Ocean and Aquaculture Management",
+      "field": "Ocean and Aquaculture Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 35",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ]
+    },
+    {
+      "key": "doce",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Sustainable Ocean and Aquaculture Management",
+      "field": "Ocean and Aquaculture Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 36",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_ocean_c"]
+    },
+    {
+      "key": "boce",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Sustainable Ocean and Aquaculture Management Honours",
+      "field": "Ocean and Aquaculture Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 36",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_ow_b"]
+    },
+    {
+      "key": "moce",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Sustainable Ocean and Aquaculture Management",
+      "field": "Ocean and Aquaculture Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 36",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_degree_moce"]
+    },
+    {
+      "key": "phoce",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Sustainable Ocean and Aquaculture Management",
+      "field": "Ocean and Aquaculture Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 37",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_phd"]
+    },
+    {
+      "key": "cen",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Energy Management",
+      "field": "Energy Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 37",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ]
+    },
+    {
+      "key": "den",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Energy Systems and Climate Change",
+      "field": "Energy Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 37",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_energy_d"]
+    },
+    {
+      "key": "ben",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Science in Energy Development and Management Honours",
+      "field": "Energy Management",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 38",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_energy_b"]
+    },
+    {
+      "key": "pgen",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Energy Studies",
+      "field": "Energy Studies",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 38",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1",
+          "key": "ium27_biz_level7"
+        }
+      ]
+    },
+    {
+      "key": "pglaw",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Environmental Law and Policy",
+      "field": "Environmental Law",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 39",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-business-2026-11-22-v1",
+          "key": "ium27_biz_level7"
+        }
+      ]
+    },
+    {
+      "key": "mbaoil",
+      "institutionKey": "ium-na",
+      "name": "Master of Business Administration in Oil, Gas and Energy Management",
+      "field": "Energy Management",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 39",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_oil_m"]
+    },
+    {
+      "key": "pheng",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Energy Resources and Technologies",
+      "field": "Energy Resources",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 39",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_oil_ph"]
+    },
+    {
+      "key": "cwat",
+      "institutionKey": "ium-na",
+      "name": "Certificate in Water Resources Management",
+      "field": "Water Resources",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 40",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_cert_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ]
+    },
+    {
+      "key": "dwat",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Water Resources Management",
+      "field": "Water Resources",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 40",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_dip22", "ium27_ee_ocean_c", "ium27_ee_water_c"]
+    },
+    {
+      "key": "bwat",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Water Management for Development Honours",
+      "field": "Water Resources",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 40",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_mature"
+        }
+      ],
+      "sharedRequirementKeys": ["ium27_ee_ow_b"]
+    },
+    {
+      "key": "mwat",
+      "institutionKey": "ium-na",
+      "name": "Master of Science in Water, Sanitation and Health Engineering",
+      "field": "Water Engineering",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 41",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_degree_mwat"]
+    },
+    {
+      "key": "phwat",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Sustainable Water Resources Management",
+      "field": "Water Resources",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 41",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_phd"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_dip22",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Diploma entry · five NSSCO subjects",
+          "details": "On the school-leaving route, obtain at least 22 Namibian points across five different NSSCO subjects, including English at E or above.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 31, 33, 36–37, 40",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_tourism_mature",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Mature tourism applicants · relevant industry",
+          "details": "The required three years of mature-entry experience must be in tourism, hospitality or events.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 30",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_env_prior",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Environmental bachelor’s · diploma entry",
+          "details": "The prior-award route lists Level 6 diplomas in Sustainable Ocean and Aquaculture Management, Ecotourism and Protected Areas Management, or Water Resources Management. An equivalent Level 6 diploma is also accepted.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_tou_prior",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Tourism diploma · prerequisite certificate",
+          "details": "The prior-study route accepts the Level 5 IUM Certificate in Tourism, Hospitality and Events Management or a Level 5 equivalent from a recognised, accredited institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 31",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_eco_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Ecotourism honours · prerequisite diploma",
+          "details": "For prior-study entry, hold the Level 6 IUM Diploma in Ecotourism and Protected Areas Management or a Level 6 equivalent from a recognised, accredited institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 31",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_transport_d",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Transport and maritime diplomas · prerequisite certificate",
+          "details": "The prior-award route accepts a Level 5 Certificate in Transport and Logistics Management or a Level 5 certificate in a related field.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_ohs_d",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Occupational safety diploma · certificate alternative",
+          "details": "An NQF Level 5 Certificate in Occupational Health and Safety or equivalent is an alternative to the school-leaving points route.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_transport_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Transport honours · prerequisite diploma",
+          "details": "The prior-award route accepts a Level 6 Diploma in Transport and Logistics Management or in a related field.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 33",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_ohs_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Occupational safety honours · prerequisite diploma",
+          "details": "The prior-award route accepts a Level 6 Diploma in Occupational Health and Safety or in a related field.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 34",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_ocean_c",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Diploma progression · ocean and aquaculture certificate",
+          "details": "The prior-award route accepts a Level 5 Certificate in Sustainable Ocean and Aquaculture Management or an equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 36, 40",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_water_c",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Water diploma · water resources certificate",
+          "details": "The water diploma also accepts a Level 5 Certificate in Water Resources Management or equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 40",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_ow_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Ocean and water honours · eligible diplomas",
+          "details": "The prior-award route accepts a Level 6 diploma in Water Resources Management or Sustainable Ocean and Aquaculture Management, or an equivalent Level 6 diploma.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 36, 40",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_energy_d",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Energy systems diploma · prerequisite certificate",
+          "details": "The prior-award route accepts a Level 5 Certificate in Energy Management or equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 37",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_energy_b",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Energy development honours · prerequisite diploma",
+          "details": "The prior-award route accepts a Level 6 Diploma in Energy Systems and Climate Change or an equivalent Level 6 diploma.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 38",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_phd",
+          "category": "academic",
+          "status": "required",
+          "label": "Environmental doctorate · prior master’s",
+          "details": "Applicants need a master’s degree in a relevant discipline registered at NQF Level 9, or an equivalent Level 9 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 29–30, 37, 41",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_eco_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Ecotourism master’s · prerequisite honours degree",
+          "details": "Hold the Level 8 IUM BSc Honours in Ecotourism and Protected Areas Management or a Level 8 equivalent from a recognised, accredited institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_eco_ph",
+          "category": "academic",
+          "status": "required",
+          "label": "Ecotourism doctorate · prerequisite master’s",
+          "details": "Hold the Level 9 IUM MSc in Ecotourism and Protected Areas Management or a Level 9 equivalent from a recognised, accredited institution.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 32",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_trans_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Maritime or transport master’s · prerequisite degree",
+          "details": "Hold a Bachelor of Transport and Logistics Management Honours at NQF Level 8 or a related equivalent at the same level.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 34",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_ohs_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Occupational safety MPhil · prerequisite degree",
+          "details": "Hold a Level 8 BSc Honours in Occupational Health and Safety or an equivalent qualification in a related field from a recognised university.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 35",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_trans_ph",
+          "category": "academic",
+          "status": "required",
+          "label": "Transport doctorate · prerequisite master’s",
+          "details": "Hold a Level 9 master’s in transport and logistics management or a related equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 35",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_degree_mclim",
+          "category": "academic",
+          "status": "required",
+          "label": "Master’s entry · Climate Change Mitigation and Adaptation",
+          "details": "Hold the NQF Level 8 honours qualification in Climate Change Mitigation and Adaptation or an equivalent Level 8 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_degree_menv",
+          "category": "academic",
+          "status": "required",
+          "label": "Master’s entry · Environmental Management and Sustainable Development",
+          "details": "Hold the NQF Level 8 honours qualification in Environmental Management and Sustainable Development or an equivalent Level 8 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_degree_mag",
+          "category": "academic",
+          "status": "required",
+          "label": "Master’s entry · Conservation Agriculture Management",
+          "details": "Hold the NQF Level 8 honours qualification in Conservation Agriculture Management or an equivalent Level 8 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 29",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_degree_moce",
+          "category": "academic",
+          "status": "required",
+          "label": "Master’s entry · Sustainable Ocean and Aquaculture Management",
+          "details": "Hold the NQF Level 8 honours qualification in Sustainable Ocean and Aquaculture Management or an equivalent Level 8 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 36",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_degree_mwat",
+          "category": "academic",
+          "status": "required",
+          "label": "Master’s entry · Water Management for Development",
+          "details": "Hold the NQF Level 8 honours qualification in Water Management for Development or an equivalent Level 8 qualification.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 41",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_oil_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Energy MBA · honours or postgraduate diploma",
+          "details": "Hold a Level 8 honours degree related to oil, gas and energy management, or a Level 8 postgraduate diploma in energy studies or a related field. Either IUM awards or equivalent accredited qualifications from other higher education institutions can qualify.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 39",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_oil_ph",
+          "category": "academic",
+          "status": "required",
+          "label": "Energy doctorate · prerequisite master’s",
+          "details": "Hold a Level 9 master’s in oil, gas and energy management or a related equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 39",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_env_distance",
+          "category": "application",
+          "status": "optional",
+          "label": "Environmental Management and Sustainable Development · distance option",
+          "details": "Of the three environmental honours degrees on page 28, this is the one for which the university also offers distance study. The same page lists the shared entry requirements.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 28",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

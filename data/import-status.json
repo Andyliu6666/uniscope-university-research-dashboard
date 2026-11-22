@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282200,
+            "programs": 282255,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4147,
+            "admissionProfiles": 4150,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26972,
+            "admissionRequirements": 27016,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1451
         },
@@ -160,7 +160,7 @@
             "institutionWidePolicies": 18,
             "institutionsWithReviewedIb": 52,
             "programsWithPublishedTotals": 810,
-            "undergraduateCatalogEntries": 196445
+            "undergraduateCatalogEntries": 196473
         },
         "coreCoverage": {
             "phone": 4078,
@@ -207,31 +207,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4952,
-            "profiles": 1437,
+            "facts": 4996,
+            "profiles": 1440,
             "institutions": 98
         }
     },
-    "generatedAt": "2026-11-22T02:28:03Z",
+    "generatedAt": "2026-11-22T03:13:29Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 73,
+        "inserted": 28,
         "provider": "official_admissions",
         "rejected": 0,
-        "processed": 73,
-        "startedAt": "2026-11-22T02:28:01.857028+00:00",
-        "updatedAt": "2026-11-22T02:28:01.857028+00:00",
+        "processed": 28,
+        "startedAt": "2026-11-22T03:13:26.779671+00:00",
+        "updatedAt": "2026-11-22T03:13:26.779671+00:00",
         "checkpoint": {
-            "profiles": 5,
-            "admissionFacts": 73,
+            "profiles": 4,
+            "admissionFacts": 28,
             "programsReused": 0,
-            "programsCreated": 8
+            "programsCreated": 45,
+            "priorSharedLinksAdded": 134
         },
-        "finishedAt": "2026-11-22T02:28:01.95+00:00",
-        "artifactSha256": "35f840f076514d7f7db3a087d05514615bb16b9feabb80515ae2e7cfdadfaa01",
-        "datasetVersion": "official-admissions-waikato-engineering-entry-2026-11-22-v1"
+        "finishedAt": "2026-11-22T03:13:26.911+00:00",
+        "artifactSha256": "c522f72367f37737294e4b1db8232e383dc3efd7e27c520f17ef2ba13232eb51",
+        "datasetVersion": "official-admissions-ium-namibia-environment-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

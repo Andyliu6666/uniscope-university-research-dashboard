@@ -1,0 +1,522 @@
+{
+  "datasetVersion": "official-admissions-ium-namibia-education-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ium-na",
+      "name": "International University of Management",
+      "provider": "ror",
+      "externalId": "011d6dm60",
+      "countryCode": "NA",
+      "officialDomains": ["ium.edu.na", "ws-be-1.ongwediva.app"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "ejd",
+      "institutionKey": "ium-na",
+      "name": "Diploma in Junior Primary Education",
+      "field": "Primary Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "ium27_ee_junior_dip",
+        "ium27_ee_teacher_mature",
+        "ium27_ee_junior_ref",
+        "ium27_ee_junior3"
+      ]
+    },
+    {
+      "key": "ej",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Education in Junior Primary Education Honours",
+      "field": "Primary Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_prior"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "ium27_ee_teacher_mature",
+        "ium27_ee_junior_ref",
+        "ium27_ee_junior4",
+        "ium27_ee_credit"
+      ]
+    },
+    {
+      "key": "es",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Education in Senior Primary Education Honours",
+      "field": "Primary Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 24",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_prior"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "ium27_ee_teacher_mature",
+        "ium27_ee_senior3",
+        "ium27_ee_credit",
+        "ium27_ee_special"
+      ]
+    },
+    {
+      "key": "eh",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Education in Secondary Education Honours",
+      "field": "Secondary Education",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 25",
+        "checkedOn": "2026-11-22"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_school"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_gce"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_nssc"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_senior"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_abitur"
+        },
+        {
+          "datasetVersion": "official-admissions-ium-namibia-health-ict-2026-11-22-v1",
+          "key": "ium27_b_prior"
+        }
+      ],
+      "sharedRequirementKeys": [
+        "ium27_ee_teacher_mature",
+        "ium27_ee_senior3",
+        "ium27_ee_credit",
+        "ium27_ee_special",
+        "ium27_ee_science"
+      ]
+    },
+    {
+      "key": "el",
+      "institutionKey": "ium-na",
+      "name": "Bachelor of Education in Educational Leadership, Management and Policy Honours",
+      "field": "Educational Leadership",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_lead"]
+    },
+    {
+      "key": "pgte",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Education",
+      "field": "Education",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_te"]
+    },
+    {
+      "key": "pghe",
+      "institutionKey": "ium-na",
+      "name": "Postgraduate Diploma in Higher Education",
+      "field": "Higher Education",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_he"]
+    },
+    {
+      "key": "melead",
+      "institutionKey": "ium-na",
+      "name": "Master of Education in Educational Leadership, Management and Policy",
+      "field": "Educational Leadership",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_lead_m", "ium27_ee_masters_avg"]
+    },
+    {
+      "key": "memath",
+      "institutionKey": "ium-na",
+      "name": "Master of Education in Mathematics and Science Education",
+      "field": "Mathematics and Science Education",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_math_m", "ium27_ee_masters_avg"]
+    },
+    {
+      "key": "edph",
+      "institutionKey": "ium-na",
+      "name": "Doctor of Philosophy in Education",
+      "field": "Education",
+      "level": "graduate",
+      "source": {
+        "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+        "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["ium27_ee_edph"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_junior_dip",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Junior primary diploma · two academic routes",
+          "details": "The Level 7 diploma accepts either 25 Namibian points across five different NSSCO subjects including English at D or above, or a recognised NQF Level 6 qualification or equivalent.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_special",
+          "category": "academic",
+          "status": "conditional",
+          "label": "School-subject specialisation · subject grade",
+          "details": "The intended or related specialisation subject normally requires D or above. Specialisation in English, Mathematics or a Namibian language requires C or above in that subject.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 24–25",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_science",
+          "category": "academic",
+          "status": "conditional",
+          "label": "Secondary science · subject pairs and campuses",
+          "details": "For Mathematics paired with a science, earn at least C in Mathematics and D in the chosen science. Mathematics with Biology, Chemistry or Physics is offered at Eenhana only. Mathematics with Agricultural Science, Mathematics with Computer Science, and Agricultural Science with Computer Science are available at all campuses.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 25",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_lead",
+          "category": "academic",
+          "status": "required",
+          "label": "Educational leadership honours · qualification and experience",
+          "details": "With a Level 6 education qualification or equivalent, provide four years of teaching experience. The Level 7 education-qualification route requires at least two years of work experience, preferably with an education-related organisation in the public or private sector. The IUM Senate may give special consideration.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_teacher_mature",
+          "category": "application",
+          "status": "conditional",
+          "label": "Mature teacher applicants · schooling, age and test",
+          "details": "Be at least 25 in the admission year, hold a pass in the Namibian Grade 10 Certificate and pass the IUM aptitude placement test. The school also requires teaching experience at the same level and an appropriate reference for the chosen programme.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 23–25",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_junior_ref",
+          "category": "document",
+          "status": "conditional",
+          "label": "Junior primary · school reference",
+          "details": "Provide a suitable reference from a recognised primary school for the mature-entry application.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_junior3",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Junior primary diploma · teaching experience",
+          "details": "The mature route needs at least three years of teaching experience at the junior primary level.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_junior4",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Junior primary honours · teaching experience",
+          "details": "The mature route needs at least four years of teaching experience at the junior primary level.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 23",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_senior3",
+          "category": "experience",
+          "status": "conditional",
+          "label": "Senior primary or secondary · teaching experience and reference",
+          "details": "For mature entry, show at least three years of teaching experience at the level of the intended programme and give a suitable reference from a recognised public or private school or official.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 24–25",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_credit",
+          "category": "academic",
+          "status": "conditional",
+          "label": "NSSCAS · course exemptions",
+          "details": "NSSCAS holders with grades a through d can receive exemptions for NQF Level 4 modules related to their previous field of study. This is a credit rule.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · pp. 23–25",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_te",
+          "category": "academic",
+          "status": "required",
+          "label": "Teacher preparation · undergraduate degree and teaching subjects",
+          "details": "Hold a recognised Level 7 bachelor’s degree or equivalent. The undergraduate transcript must show study of two school subjects over three consecutive years in higher education.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_lead_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Leadership master’s · qualification or equivalent",
+          "details": "Hold a Level 8 Bachelor Honours in Education or a relevant Level 8 equivalent. The Senate may consider exceptional applications.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_math_m",
+          "category": "academic",
+          "status": "required",
+          "label": "Mathematics and science master’s · prior major",
+          "details": "Hold a relevant NQF Level 8 qualification from a recognised institution, with a major in mathematics and science.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_masters_avg",
+          "category": "academic",
+          "status": "required",
+          "label": "Education master’s · grades or teaching experience",
+          "details": "With the specified Level 8 qualification, meet either of two conditions: an average of at least 60%, or a minimum of two years of teaching experience.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "ium27_ee_edph",
+          "category": "academic",
+          "status": "required",
+          "label": "Education doctorate · relevant specialisation",
+          "details": "Hold a Level 9 Master of Education in the specialisation for which admission is sought.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 27",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "ium-na",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "distance",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "The 2027 booklet lists programme-specific school entry and progression routes for education, environment and sustainability programmes.",
+      "requirements": [
+        {
+          "key": "ium27_ee_he",
+          "category": "academic",
+          "status": "required",
+          "label": "Higher education diploma · qualification, employment and approval",
+          "details": "Hold a recognised qualification of at least NQF Level 8 and work as an educator in higher education, for example as a lecturer, trainer, tutor or instructor. Admission needs departmental postgraduate committee approval. Recognition of prior learning applies.",
+          "source": {
+            "url": "https://ws-be-1.ongwediva.app/content/uploads/files/study-at-ium-download-20261103175140-710f3c1e.pdf",
+            "title": "IUM · 2027 General Information for Prospective Students · p. 26",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}
