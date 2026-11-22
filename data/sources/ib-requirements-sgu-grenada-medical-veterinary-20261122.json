@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-sgu-grenada-medical-veterinary-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "sgu-grenada",
+      "name": "St. George's University",
+      "provider": "ror",
+      "externalId": "01m1s6313",
+      "countryCode": "GD",
+      "officialDomains": ["sgu.edu"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "sgu-grenada",
+      "program": {
+        "name": "Doctor of Medicine (MD)",
+        "field": "Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.sgu.edu/school-of-medicine/admissions/"
+      },
+      "requirement": {
+        "recordKey": "sgu-grenada-medicine-five-year-ib",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Full IB Diploma applicants entering year three of the preclinical phase on the five-year track only.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 32,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [5, 5],
+        "subjectNotes": "Earn at least 5 in each of HL chemistry and HL biology. SGU recommends taking three HL science subjects.",
+        "conditions": "The four-, six- and seven-year tracks have separate entry criteria.",
+        "source": {
+          "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+          "title": "SGU · Doctor of Medicine (MD) · Five-year track · Full IB Diploma",
+          "checkedOn": "2026-11-22",
+          "evidence": "Requires a minimum score of 32 points"
+        }
+      }
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "program": {
+        "name": "Doctor of Veterinary Medicine (DVM)",
+        "field": "Veterinary Medicine",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/"
+      },
+      "requirement": {
+        "recordKey": "sgu-grenada-veterinary-five-year-ib",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Full IB Diploma applicants entering year three of the preveterinary phase on the five-year track only.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 32,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [5, 5],
+        "subjectNotes": "Earn at least 5 in each of HL chemistry and HL biology. SGU recommends taking three HL science subjects.",
+        "conditions": "The four-, six- and seven-year tracks have separate entry criteria.",
+        "source": {
+          "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+          "title": "SGU · Doctor of Veterinary Medicine (DVM) · Five-year track · Full IB Diploma",
+          "checkedOn": "2026-11-22",
+          "evidence": "Requires a minimum score of 32 points"
+        }
+      }
+    }
+  ]
+}

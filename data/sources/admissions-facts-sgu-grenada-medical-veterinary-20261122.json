@@ -1,0 +1,547 @@
+{
+  "datasetVersion": "official-admissions-sgu-grenada-medical-veterinary-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "sgu-grenada",
+      "name": "St. George's University",
+      "provider": "ror",
+      "externalId": "01m1s6313",
+      "countryCode": "GD",
+      "officialDomains": ["sgu.edu"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "medicine",
+      "institutionKey": "sgu-grenada",
+      "name": "Doctor of Medicine (MD)",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+        "title": "SGU · Doctor of Medicine (MD) · Admissions and entry points",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["sgugd_a5", "sgugd_foundation", "sgugd_further"]
+    },
+    {
+      "key": "veterinary",
+      "institutionKey": "sgu-grenada",
+      "name": "Doctor of Veterinary Medicine (DVM)",
+      "field": "Veterinary Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+        "title": "SGU · Doctor of Veterinary Medicine (DVM) · Admissions and entry points",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["sgugd_a5", "sgugd_foundation", "sgugd_further"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each qualification is an alternative route. Check the track length and applicant background in the individual rule.",
+      "requirements": [
+        {
+          "key": "sgugd_a5",
+          "label": "Five-year track · GCE A levels",
+          "details": "Present three A levels at A or B: biology, chemistry and either mathematics or physics. SGU may accept a strong third A level in a non-science subject if the applicant also took mathematics or physics at AS level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_foundation",
+          "label": "Five-year track · approved foundation programmes",
+          "details": "An SGU-approved science or medical foundation programme is an alternative entry qualification for the five-year route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_further",
+          "label": "Six-year track · further education qualifications",
+          "details": "SGU lists AS levels, the Baccalaureate, South African Matric, the Higher School Exam and the Irish Leaving Certificate as routes to the second preclinical or preveterinary year.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each qualification is an alternative route. Check the track length and applicant background in the individual rule.",
+      "requirements": [
+        {
+          "key": "sgugd_md5_india",
+          "label": "Five-year MD · India 10+2",
+          "details": "The Indian Senior Secondary School Certificate route requires an average of at least 80% across biology, chemistry, mathematics, physics and English. Applicants who have not taken or passed mathematics may need pre-sessional mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md6_btec",
+          "label": "Six-year MD · BTEC science diploma",
+          "details": "A BTEC applicant must hold a diploma in the appropriate sciences with Distinction grades.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md6_secondary",
+          "label": "Six-year MD · secondary school diploma",
+          "details": "For a secondary or American high school diploma, SGU requires at least a 90% overall average with strong performance in science subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md7_igcse",
+          "label": "Seven-year MD · IGCSE in Grenada",
+          "details": "For entry to preclinical year one in Grenada, earn B or above in at least six IGCSE subjects, including biology, chemistry, mathematics, physics and English.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md7_school",
+          "label": "Seven-year MD · secondary school diploma",
+          "details": "The Grenada-only seven-year track lists a secondary or American high school diploma as an alternative to IGCSEs. The entry table gives no percentage for this route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md_apply",
+          "label": "MD application channels and fee",
+          "details": "Apply through SGU or use an existing AMCAS, AACOMAS or TMDSAS application. SGU charges no application fee.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Application process",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md_documents",
+          "label": "MD transcripts and recommendations",
+          "details": "Supply official transcripts from each college, university and professional school attended. Submit either two recommendation letters or one health committee letter.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Supporting documents",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md_interview",
+          "label": "MD selection interview",
+          "details": "After an initial review of the application and supporting documents, the committee selects applicants for an interview. It considers academic strengths alongside experience and personal attributes.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Selection and interview",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ],
+      "programKey": "medicine"
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Each qualification is an alternative route. Check the track length and applicant background in the individual rule.",
+      "requirements": [
+        {
+          "key": "sgugd_vet5_india",
+          "label": "Five-year DVM · India 10+2 or CBSE",
+          "details": "For preveterinary year three, earn at least an 80% average across biology, chemistry, mathematics, physics and English, with no individual grade below 80% in those subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet6_ap",
+          "label": "Six-year DVM · secondary diploma and Advanced Placement",
+          "details": "For entry to preveterinary year two, the secondary diploma route calls for exceptional science performance with APs. The table also lists SABIS High School. SGU gives no numerical AP score here.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet6_wassce",
+          "label": "Six-year DVM · West African Senior School Certificate Examination",
+          "details": "Earn B2 or better in at least six WASSCE subjects, including biology, chemistry, mathematics, physics and English, for entry to preveterinary year two.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet7_igcse",
+          "label": "Seven-year DVM · IGCSE",
+          "details": "For preveterinary year one, the table lists strong science performance and at least six grades of B or higher, including biology, chemistry, mathematics, physics and English. SGU notes regional variation.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Entry requirements by track",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet_apply",
+          "label": "DVM application channels",
+          "details": "Apply to the January or August term through SGU or VMCAS. Send VMCAS supporting materials directly to that service. SGU requires no supplemental application or fee for VMCAS applicants.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Application process",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet_documents",
+          "label": "DVM direct application · transcripts and recommendations",
+          "details": "Direct applicants must submit official transcripts from each college, university and professional school attended, plus two recommendation letters or one health committee letter. A veterinarian's letter is recommended.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Supporting documents",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet_interview",
+          "label": "DVM selection interview",
+          "details": "An initial review considers academic achievement, animal experience and other attributes. Selected applicants are invited to interview with an alumnus before final review.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Application review and interview",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ],
+      "programKey": "veterinary"
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Direct admission to the four-year professional degree after university study. Country-specific conditions are identified in each rule.",
+      "requirements": [
+        {
+          "key": "sgugd_md4_degree",
+          "label": "Four-year MD · prior degree",
+          "details": "US and Canadian applicants need a bachelor's degree from an accredited institution. Other applicants need a bachelor's degree with a strong science background.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_sci",
+          "label": "Four-year MD · US and Canadian science prerequisites",
+          "details": "Complete one year each of general biology or zoology, inorganic chemistry (general or physical), and organic chemistry, all with labs. Complete one semester of physics with lab. SGU also accepts equivalent coursework.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_math",
+          "label": "Four-year MD · US and Canadian mathematics and English prerequisites",
+          "details": "Complete one semester of college or university mathematics at the 100 level and one semester of English, or equivalent coursework.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_mcat",
+          "label": "Four-year MD · MCAT by applicant background",
+          "details": "US applicants must submit an MCAT score. Canadians must submit one if they have already taken or scheduled the MCAT. Applicants from outside North America are exempt.",
+          "category": "standardized_test",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_english",
+          "label": "Four-year MD · English-language evidence",
+          "details": "For non-US and non-Canadian applicants from countries outside UKVI's English-speaking list, SGU requires an English test. A degree from an English-speaking country can support a waiver request.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_ielts",
+          "label": "Four-year MD · IELTS or Password-Skills",
+          "details": "When English testing is required, IELTS Academic or UKVI requires 7.0 overall and in each band. SGU applies the same scoring criteria to Password-Skills.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_toefl",
+          "label": "Four-year MD · internet-based TOEFL",
+          "details": "On the scale printed by SGU, the required TOEFL overall score is 5, with listening 5, reading 5, speaking 4.5 and writing 5.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_md4_otherenglish",
+          "label": "Four-year MD · Cambridge, Duolingo or Kaplan English tests",
+          "details": "SGU lists three other choices. Cambridge C1 Advanced requires 185 overall and in each band, Duolingo requires 130 overall and in each band, and Kaplan requires 510 overall and in each band.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-medicine/admissions/",
+            "title": "SGU · Doctor of Medicine (MD) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ],
+      "programKey": "medicine"
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Direct admission to the four-year professional degree after university study. Country-specific conditions are identified in each rule.",
+      "requirements": [
+        {
+          "key": "sgugd_vet4_degree",
+          "label": "Four-year DVM · degree or exceptional credit route",
+          "details": "SGU normally expects a bachelor's degree from an accredited university. The selection committee may consider exceptional applicants with at least 60 undergraduate credits.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_science",
+          "label": "Four-year DVM · US and Canadian biology and chemistry prerequisites",
+          "details": "Complete one year of general biology or zoology with lab, one year of general chemistry with lab, and a semester each of organic chemistry with lab, genetics and biochemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_general",
+          "label": "Four-year DVM · US and Canadian physics, maths and English",
+          "details": "Complete one semester each of physics with lab, English and mathematics. SGU lists calculus, computer science and statistics as mathematics options.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_prereq",
+          "label": "Four-year DVM · prerequisite completion for US and Canadian applicants",
+          "details": "Apply with 70% of prerequisite courses complete. Prerequisites must be taken at an accredited institution within ten years of intended entry. Pass or Satisfactory must correspond to C− or higher. Survey courses are ineligible.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_delivery",
+          "label": "Four-year DVM · in-person coursework and laboratories",
+          "details": "For US and Canadian prerequisites, complete at least 60% in person, including all labs. The committee may consider exceptions for spring 2020 through fall 2021. Laboratory exceptions need committee approval.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_equiv",
+          "label": "Four-year DVM · prerequisite substitutions and quarter credits",
+          "details": "For US and Canadian applicants, submit the school's substitution form for unlisted equivalent courses. Divide quarter units by 1.5 to check the equivalent semester hours.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_animals",
+          "label": "Four-year DVM · animal experience",
+          "details": "For US and Canadian applicants, the committee considers animal experience without prescribing a minimum number of hours. It encourages work with both companion and large animals and also considers exotic or laboratory animal, research and regulatory experience.",
+          "category": "experience",
+          "status": "considered",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "sgugd_vet4_english",
+          "label": "Four-year DVM · English proficiency",
+          "details": "For applicants outside the US and Canada whose country is outside UKVI's English-speaking list, SGU lists IELTS 7.0 in each band or TOEFL 100 overall. An undergraduate degree from an English-speaking country can support a waiver request for committee review.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Four-year programme requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ],
+      "programKey": "veterinary"
+    },
+    {
+      "institutionKey": "sgu-grenada",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Exceptional transfer into the four-year veterinary programme.",
+      "requirements": [
+        {
+          "key": "sgugd_vet_transfer",
+          "label": "DVM transfer eligibility",
+          "details": "SGU considers transfers only in rare cases after at least two semesters at an AVMA-accredited veterinary school and no more than two years of study. Applicants must be in good standing with no warnings, probation or dismissal. Admitted applicants may need to repeat one or two terms.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.sgu.edu/school-of-veterinary-medicine/admissions/",
+            "title": "SGU · Doctor of Veterinary Medicine (DVM) · Transfer applications",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ],
+      "programKey": "veterinary"
+    }
+  ]
+}
