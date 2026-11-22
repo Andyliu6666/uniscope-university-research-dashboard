@@ -1,0 +1,929 @@
+{
+  "datasetVersion": "official-admissions-facts-utb-sasm-design-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "utb",
+      "name": "Universiti Teknologi Brunei",
+      "provider": "ror",
+      "externalId": "004y7f915",
+      "countryCode": "BN",
+      "officialDomains": ["utb.edu.bn"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "agro",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Agrotechnology (Minor in Business)",
+      "field": "Agrotechnology (Minor in Business)",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Agrotechnology (Minor in Business) · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/agrotechnology-programme-area/bachelor-of-science-honours-in-agrotechnology-minor-in-business/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_agro_three",
+        "utb_sasm_design_agro_two",
+        "utb_sasm_design_dip_prospectus",
+        "utb_sasm_design_dip_agro",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_agro",
+        "utb_sasm_design_bri_agro_variance"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "math",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Applied Mathematics and Economics",
+      "field": "Applied Mathematics and Economics",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Applied Mathematics and Economics · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/applied-mathematics-and-economics-programme-area/bachelor-of-science-honours-in-applied-mathematics-and-economics/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_math_three",
+        "utb_sasm_design_math_two",
+        "utb_sasm_design_dip_math",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_math"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "finance",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Mathematical Finance",
+      "field": "Mathematical Finance",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Mathematical Finance · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/applied-mathematics-and-economics-programme-area/bachelor-of-science-honours-in-mathematical-finance/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_math_three",
+        "utb_sasm_design_math_two",
+        "utb_sasm_design_dip_math",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_math"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "food",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Food Science and Technology",
+      "field": "Food Science and Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Food Science and Technology · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/food-science-and-technology-programme-area/bachelor-of-science-honours-in-food-science-and-technology/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_food_three",
+        "utb_sasm_design_food_two",
+        "utb_sasm_design_dip_prospectus",
+        "utb_sasm_design_dip_food",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_food"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "nutrition",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Food Science and Human Nutrition",
+      "field": "Food Science and Human Nutrition",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Food Science and Human Nutrition · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/food-science-and-technology-programme-area/bachelor-of-science-honours-in-food-science-and-human-nutrition/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_nut_three",
+        "utb_sasm_design_nut_two",
+        "utb_sasm_design_dip_prospectus",
+        "utb_sasm_design_dip_food",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_food"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "product",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Product Design",
+      "field": "Product Design",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Product Design · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/product-design/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_product_a3",
+        "utb_sasm_design_product_a2",
+        "utb_sasm_design_dip_product",
+        "utb_sasm_design_portfolio",
+        "utb_sasm_design_interview",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_product_al",
+        "utb_sasm_design_bri_design_assess",
+        "utb_sasm_design_bri_product_ib"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "fashion",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Fashion Design and Technology",
+      "field": "Fashion Design and Technology",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Fashion Design and Technology · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/fashion-design-and-technology/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_fashion_a3",
+        "utb_sasm_design_fashion_a2",
+        "utb_sasm_design_dip_fashion",
+        "utb_sasm_design_portfolio",
+        "utb_sasm_design_interview",
+        "utb_sasm_design_bri_application",
+        "utb_sasm_design_bri_fashion_al",
+        "utb_sasm_design_bri_design_assess",
+        "utb_sasm_design_bri_fashion_ib"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_bridge_exit"
+        }
+      ]
+    },
+    {
+      "key": "architecture",
+      "institutionKey": "utb",
+      "name": "Bachelor of Science (Honours) in Architecture",
+      "field": "Architecture",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB · Architecture · programme entry",
+        "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/architecture/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb_sasm_design_math_o",
+        "utb_sasm_design_alternative_review",
+        "utb_sasm_design_arch_a",
+        "utb_sasm_design_dip_arch",
+        "utb_sasm_design_portfolio",
+        "utb_sasm_design_interview"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_english"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_malay"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_tariff"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_local_application"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_service"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_acceptance"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_age"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+          "key": "utb26_mature_english"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Direct undergraduate entry and the BriTE preparatory route have separate conditions. Each qualification is an alternative where indicated.",
+      "requirements": [
+        {
+          "key": "utb_sasm_design_math_o",
+          "category": "academic",
+          "label": "GCE O-level mathematics",
+          "details": "Present mathematics at GCE Ordinary Level with grade C6 or higher, or an equivalent result.",
+          "status": "required",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 47–50, 55",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_agro_three",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain DDD or 180 UTB tariff points from three A-level passes. At least two must be drawn from biology, business, chemistry, economics, food studies, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 47",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_agro_two",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain CC or 160 UTB tariff points from two A-level passes. At least one must be drawn from biology, business, chemistry, economics, food studies, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 47",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_math_three",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain DDD or 180 UTB tariff points from three A-level passes. At least two must be drawn from accounting, business, chemistry, computer science, economics, further mathematics, information technology, mathematics, physics, sociology or thinking skills.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 48",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_math_two",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain CC or 160 UTB tariff points from two A-level passes. At least one must be drawn from accounting, business, chemistry, computer science, economics, further mathematics, information technology, mathematics, physics, sociology or thinking skills.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 48",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_food_three",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain CDD or 200 UTB tariff points from three A-level passes. At least two must be drawn from biology, chemistry, food studies, further mathematics, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 49",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_food_two",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain CC or 160 UTB tariff points from two A-level passes. At least one must be drawn from biology, chemistry, food studies, further mathematics, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 49",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_nut_three",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain CDD or 200 UTB tariff points from three A-level passes. Include biology and two of chemistry, food studies, further mathematics, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 50",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_nut_two",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain CC or 160 UTB tariff points from two A-level passes. Include biology and one of chemistry, food studies, further mathematics, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 50",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_product_a3",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain at least 200 UTB points from three relevant A-level passes. The published list includes art and design, computer science, design and technology, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Product Design · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/product-design/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_product_a2",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain at least 180 UTB points from two relevant A-level passes. The published list includes art and design, computer science, design and technology, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Product Design · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/product-design/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_fashion_a3",
+          "category": "academic",
+          "label": "Direct entry · three A levels",
+          "details": "Obtain at least 200 UTB points from three relevant A-level passes. The published list includes art, art and design, computer science or design and technology.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Fashion Design and Technology · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/fashion-design-and-technology/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_fashion_a2",
+          "category": "academic",
+          "label": "Direct entry · two A levels",
+          "details": "Obtain at least 180 UTB points from two relevant A-level passes. The published list includes art, art and design or computer science.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Fashion Design and Technology · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/fashion-design-and-technology/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_arch_a",
+          "category": "academic",
+          "label": "Architecture · three A levels",
+          "details": "At least 240 UTB tariff points from three A-level passes, with minimum grade C. Eligible subjects include art, art and design, computer science/studies, design and technology, mathematics and physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Architecture · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/architecture/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_math",
+          "category": "academic",
+          "label": "Level 5 diploma · mathematics module grades",
+          "details": "With a relevant Level 5 diploma or equivalent, achieve a CGPA of at least 1.6/3 and Merit or higher in at least 60% of modules, including mathematics. UTB also lists BTEC/BDTVEC Higher National Diplomas and Advanced Diplomas.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 48",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_prospectus",
+          "category": "academic",
+          "label": "Prospectus diploma criteria · science modules",
+          "details": "The 2026 prospectus lists a diploma, BTEC/BDTVEC Higher National Diploma, Advanced Diploma or equivalent, a minimum CGPA of 1.6/3 and at least Merit in two relevant science modules. Faculty pages give a different module threshold. Confirm which applies to your award.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 47, 49–50",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_agro",
+          "category": "academic",
+          "label": "Agrotechnology faculty diploma criteria",
+          "details": "For a relevant BDQF Level 5 diploma or equivalent, the programme page specifies CGPA 1.6/3 and Merit or higher in at least 60% of modules, including microbiology and one of biochemistry, business, chemistry or food chemistry.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Agrotechnology (Minor in Business) · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/agrotechnology-programme-area/bachelor-of-science-honours-in-agrotechnology-minor-in-business/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_food",
+          "category": "academic",
+          "label": "Food science faculty diploma criteria",
+          "details": "For a relevant BDQF Level 5 diploma or equivalent, the programme pages specify CGPA 1.6/3 and Merit or higher in at least 60% of modules, including microbiology and one of biochemistry, chemistry or food chemistry.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Food Science and Technology · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-applied-sciences-and-mathematics/undergraduate-programmes/food-science-and-technology-programme-area/bachelor-of-science-honours-in-food-science-and-technology/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_product",
+          "category": "academic",
+          "label": "Level 5 diploma · product design",
+          "details": "A relevant Level 5 diploma or equivalent is accepted. Examples include architecture, electrical and electronic engineering, interior design and mechanical engineering.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Product Design · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/product-design/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_fashion",
+          "category": "academic",
+          "label": "Level 5 diploma · fashion design",
+          "details": "A relevant diploma at Level 5 or equivalent is one route into this degree.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Fashion Design and Technology · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/fashion-design-and-technology/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_dip_arch",
+          "category": "academic",
+          "label": "Level 5 diploma · architecture",
+          "details": "Present a relevant Level 5 architecture diploma or equivalent. Interior design, civil engineering and mechanical engineering are listed as equivalents with Merit in at least 60% of relevant modules.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB · Architecture · programme entry",
+            "url": "https://www.utb.edu.bn/academics/school-of-design/undergraduate-programmes/architecture/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_portfolio",
+          "category": "portfolio",
+          "label": "Design portfolio · ten original pieces",
+          "details": "Submit at least ten original pieces showing how your ideas developed. Include drawings, sketches and examples of two- and three-dimensional work.",
+          "status": "required",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 53–55",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_interview",
+          "category": "interview",
+          "label": "Design admissions interview",
+          "details": "Applicants must pass the design interview in addition to meeting the academic route and portfolio requirements.",
+          "status": "required",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 53–55",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Direct undergraduate entry and the BriTE preparatory route have separate conditions. Each qualification is an alternative where indicated.",
+      "requirements": [
+        {
+          "key": "utb_sasm_design_alternative_review",
+          "category": "experience",
+          "label": "Equivalent qualifications or relevant experience",
+          "details": "The school reviews relevant work experience and other equivalent qualifications individually as an alternative entry route.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 47–50, 53–55",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_application",
+          "category": "application",
+          "label": "BriTE applications for applied science and design",
+          "details": "For the listed degree pathways, apply to Kemuda Institute, HECAS and Apply@UTB. The programme runs over 14 weeks from March to July.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_food",
+          "category": "academic",
+          "label": "BriTE · food science A-level eligibility",
+          "details": "For three A-level passes, earn DDD or 180 points with two relevant subjects. For two passes, earn CD or 140 points in two relevant subjects. The subject group is biology, chemistry, food studies, mathematics and physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_math",
+          "category": "academic",
+          "label": "BriTE · mathematics A-level eligibility",
+          "details": "Earn DDE or 160 points from three A-level passes, or CD or 140 points from two passes. Include at least one of accounting, business, chemistry, computer science, economics, further mathematics, information technology, mathematics, physics, sociology or thinking skills.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_agro",
+          "category": "academic",
+          "label": "BriTE · agrotechnology A-level eligibility",
+          "details": "Tri-CEd lists DDD or 180 points for three passes with two relevant subjects, or CD or 140 points for two relevant passes. Its subject group includes biology, business, chemistry, economics, food studies, further mathematics, mathematics and physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_agro_variance",
+          "category": "academic",
+          "label": "Agrotechnology bridging · prospectus discrepancy",
+          "details": "Page 61 pairs DDD with 160 points for three A levels and lists biology, chemistry, food studies, mathematics and physics. The university tariff gives DDD 180 points. Tri-CEd also lists 180 and includes additional subjects. Confirm eligibility with admissions if relying on the lower figure or the wider subject list.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB 2026 prospectus · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_product_al",
+          "category": "academic",
+          "label": "BriTE · design A-level eligibility",
+          "details": "For three relevant A levels, DDD or 180 points; subjects include art and design, computer science, design and technology, mathematics or physics. For two relevant A levels, CD or 140 points; subjects include art and design, computer science, design and technology, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_fashion_al",
+          "category": "academic",
+          "label": "BriTE · design A-level eligibility",
+          "details": "For three relevant A levels, DDD or 180 points; subjects include art, art and design, computer science or design and technology. For two relevant A levels, CD or 140 points; subjects include art, art and design or computer science.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_design_assess",
+          "category": "portfolio",
+          "label": "BriTE design portfolio and interview",
+          "details": "The preparatory design route requires an interview pass and a portfolio of at least ten original works documenting idea development through sketches and both 2D and 3D work.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_product_ib",
+          "category": "academic",
+          "label": "BriTE · product design IB eligibility",
+          "details": "An IB Diploma score of at least 24 is one preparatory entry route. Relevant SL subjects include art and design, computer science, design technology, mathematics or physics.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb_sasm_design_bri_fashion_ib",
+          "category": "academic",
+          "label": "BriTE · fashion design IB eligibility",
+          "details": "The IB Diploma route into the preparatory programme requires at least 24 points, with design technology, visual art or both at SL.",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Tri-CEd · BriTE preparation and progression",
+            "url": "https://www.utb.edu.bn/triced/UTB-SP-Bridging/BriTE.html",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282417,
+            "programs": 282425,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4265,
+            "admissionProfiles": 4273,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27382,
+            "admissionRequirements": 27416,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1526
+            "qualificationRequirements": 1534
         },
         "ibCoverage": {
             "byCountry": [
@@ -31,8 +31,8 @@
                 {
                     "country": "Brunei",
                     "institutions": 1,
-                    "programs_with_reviewed_ib": 7,
-                    "programs_with_published_totals": 7
+                    "programs_with_reviewed_ib": 15,
+                    "programs_with_published_totals": 15
                 },
                 {
                     "country": "Canada",
@@ -179,12 +179,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1526,
-            "programsWithReviewedIb": 1315,
+            "reviewedRecords": 1534,
+            "programsWithReviewedIb": 1323,
             "institutionWidePolicies": 20,
             "institutionsWithReviewedIb": 58,
-            "programsWithPublishedTotals": 849,
-            "undergraduateCatalogEntries": 196629
+            "programsWithPublishedTotals": 857,
+            "undergraduateCatalogEntries": 196637
         },
         "coreCoverage": {
             "phone": 4078,
@@ -231,31 +231,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5362,
+            "facts": 5396,
             "profiles": 1482,
             "institutions": 112
         }
     },
-    "generatedAt": "2026-11-22T05:24:49Z",
+    "generatedAt": "2026-11-22T05:30:23Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 115,
-        "provider": "official_admissions",
+        "inserted": 8,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 115,
-        "startedAt": "2026-11-22T05:24:47.744084+00:00",
-        "updatedAt": "2026-11-22T05:24:47.744084+00:00",
+        "processed": 8,
+        "startedAt": "2026-11-22T05:30:21.031687+00:00",
+        "updatedAt": "2026-11-22T05:30:21.065+00:00",
         "checkpoint": {
-            "profiles": 16,
-            "admissionFacts": 115,
-            "programsReused": 0,
-            "programsCreated": 32
+            "rowIndex": 8,
+            "sourceRows": 8,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T05:24:47.892+00:00",
-        "artifactSha256": "77372d9401f3f3ece9d85703320a808b453305ef5c8a7ecb63cfbe5567d3cb9e",
-        "datasetVersion": "official-admissions-facts-tanzania-tcu-2026-11-22-v1"
+        "finishedAt": "2026-11-22T05:30:21.065+00:00",
+        "artifactSha256": "882527a2b5f0f1d7ae87dd3c420aed3abbae4e752fc71eb765a5d19fe68a9c76",
+        "datasetVersion": "official-ib-requirements-utb-sasm-design-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
