@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282620,
+            "programs": 282622,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4414,
+            "admissionProfiles": 4421,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28020,
+            "admissionRequirements": 28050,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1647
+            "qualificationRequirements": 1649
         },
         "ibCoverage": {
             "byCountry": [
@@ -187,16 +187,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 4,
-                    "programs_with_reviewed_ib": 188,
-                    "programs_with_published_totals": 187
+                    "programs_with_reviewed_ib": 190,
+                    "programs_with_published_totals": 188
                 }
             ],
-            "reviewedRecords": 1647,
-            "programsWithReviewedIb": 1432,
+            "reviewedRecords": 1649,
+            "programsWithReviewedIb": 1434,
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 63,
-            "programsWithPublishedTotals": 920,
-            "undergraduateCatalogEntries": 196832
+            "programsWithPublishedTotals": 921,
+            "undergraduateCatalogEntries": 196834
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,31 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6000,
-            "profiles": 1514,
+            "facts": 6030,
+            "profiles": 1521,
             "institutions": 120
         }
     },
-    "generatedAt": "2026-11-22T08:33:45Z",
+    "generatedAt": "2026-11-22T14:29:52Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 36,
+        "inserted": 2,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 36,
-        "startedAt": "2026-11-22T08:33:42.929589+00:00",
-        "updatedAt": "2026-11-22T08:33:43.031+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-22T14:29:49.228114+00:00",
+        "updatedAt": "2026-11-22T14:29:49.256+00:00",
         "checkpoint": {
-            "rowIndex": 36,
-            "sourceRows": 36,
+            "rowIndex": 2,
+            "sourceRows": 2,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T08:33:43.031+00:00",
-        "artifactSha256": "1975452579e078fc17ed445e9b7728bcc458c3342d44a79ed233513856c67738",
-        "datasetVersion": "official-ib-requirements-aberystwyth-wales-life-sciences-2027-20261122-v1"
+        "finishedAt": "2026-11-22T14:29:49.256+00:00",
+        "artifactSha256": "4e4d9cb1f3a7c5b08e0089ebf744b4857764411813b7ee8fc99743a4bac6f243",
+        "datasetVersion": "official-ib-requirements-aberystwyth-veterinary-2027-20261122-v1"
     },
     "schemaVersion": 2
 }

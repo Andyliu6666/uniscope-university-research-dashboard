@@ -1,0 +1,493 @@
+{
+  "datasetVersion": "official-admissions-facts-aberystwyth-veterinary-2027-20261122-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "aber",
+      "name": "Aberystwyth University",
+      "provider": "ror",
+      "externalId": "015m2p889",
+      "countryCode": "GB",
+      "officialDomains": ["aber.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "aber-d105",
+      "institutionKey": "aber",
+      "name": "Veterinary Science (BVSc)",
+      "field": "Veterinary Science",
+      "source": {
+        "title": "Aberystwyth University · Veterinary Science · September 2027 catalogue",
+        "url": "https://courses.aber.ac.uk/undergraduate/vet-sci/",
+        "checkedOn": "2026-11-22"
+      },
+      "level": "undergraduate"
+    },
+    {
+      "key": "aber-d31f",
+      "institutionKey": "aber",
+      "name": "Veterinary Nursing (FdSc)",
+      "field": "Veterinary Nursing",
+      "source": {
+        "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+        "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+        "checkedOn": "2026-11-22"
+      },
+      "level": "undergraduate"
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d105",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Science (BVSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d105_alevel",
+          "label": "Standard A levels",
+          "details": "Achieve AAA, including A in biology and chemistry. Choose a third subject that does not overlap those sciences. Applicants taking the English curriculum must pass each applicable science practical.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_context",
+          "label": "Contextual A-level offer",
+          "details": "Applicants meeting the widening participation criteria may receive ABB, with an A in biology or chemistry. Care leavers must provide local authority evidence after applying. No separate contextual-offer application is required.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_welsh",
+          "label": "Welsh Baccalaureate",
+          "details": "Grade A in the Advanced Skills Challenge Certificate can accompany A-level biology and chemistry, both at A.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_scot",
+          "label": "Scottish Highers and Advanced Highers",
+          "details": "Take Advanced Higher biology and chemistry at AA and five Highers at AAAAB including those sciences. National 5 physics, English and mathematics require B, or the equivalent at Higher if National 5 was bypassed. Eligible widening-participation applicants can receive AB in the two Advanced Highers.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_irish",
+          "label": "Irish Leaving Certificate",
+          "details": "Present two H1s and four H2s including biology and chemistry, with H1 in either science. Obtain O3 in physics, English and mathematics. If Leaving Certificate physics was unavailable, the school considers a high Junior Certificate science grade.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_preu",
+          "label": "Cambridge Pre-U",
+          "details": "Achieve D3 or above in three Principal Subjects including biology and chemistry. Mixed Pre-U and A-level qualifications are assessed individually against the science requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_access",
+          "label": "Access to HE and Birkbeck routes",
+          "details": "A science Access diploma from England or Wales requires 15 Level 3 distinction credits each in biology and chemistry, plus merit in every other graded Level 3 credit. Online Access courses are excluded. For the Birkbeck Life Sciences CertHE, earn distinctions in both biology and chemistry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_pearson",
+          "label": "Pearson Applied Science extended diploma",
+          "details": "D*D*D* in Applied Science or Biomedical Science is required. The university specifies distinctions in both Principles and Applications of Science units, one investigation or contemporary issues unit, and two of organic chemistry, inorganic chemistry and practical chemical analysis. Applied Science requires three Group A distinctions. Biomedical Science requires four Group A units taken and three at distinction.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_animal",
+          "label": "Animal management technical diplomas",
+          "details": "The City & Guilds Animal Management (Science) and Pearson 1080-hour Animal Management routes each require D*D*D*. The university lists the particular distinctions by qualification, including the two synoptic assessments for City & Guilds and seven named units for Pearson.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_gcse",
+          "label": "GCSE science, language and mathematics",
+          "details": "Obtain at least five grade 7/A GCSEs, including the published paired sciences. Mathematics and separately examined physics require 6/B. Obtain 6/B in English Language or Welsh Language and 4/C in the other if both were taken. Welsh Mathematics-Numeracy cannot replace GCSE Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_without_gcse",
+          "label": "IB applicants without GCSEs or equivalents",
+          "details": "Meet SL Mathematics: Analysis and Approaches at 5, plus SL English A at 5 or English B at 6. Show physics competence, for example MYP Science at 6. Mathematics: Applications and Interpretation cannot replace Analysis and Approaches.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_application",
+          "label": "UCAS application and supplementary form",
+          "details": "Apply to the Royal Veterinary College using institution R84 and course D105. For September 2027, the application closed on 15 October 2026. The work-experience summary is a separate required form. The local catalogue uses the identifier YD105.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · BVSc applications for 2027 · dates, experience and selection",
+            "url": "https://www.aber.ac.uk/en/vet-sci/faqs-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_work",
+          "label": "Clinical and non-clinical experience",
+          "details": "Complete 70 hours in veterinary practice and a further 70 working with live animals outside clinical practice. At least 35 non-clinical hours must involve large animals. Both parts must fall within the 18 months before the application deadline. Home or family activities, owning pets and recreational horse riding do not qualify.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · BVSc applications for 2027 · dates, experience and selection",
+            "url": "https://www.aber.ac.uk/en/vet-sci/faqs-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_interview",
+          "label": "Interview and evidence",
+          "details": "Shortlisted applicants must attend an interview to be eligible for an offer. Bring photo identification, original school qualification certificates available by interview, and references documenting the required animal and clinical experience.",
+          "category": "interview",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · BVSc applications for 2027 · dates, experience and selection",
+            "url": "https://www.aber.ac.uk/en/vet-sci/faqs-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_ielts",
+          "label": "English proficiency tests",
+          "details": "IELTS requires 7.0 overall and 6.5 in each component. The course table also lists PTE at 69 overall with 62 per section, and C1 Advanced or C2 Proficiency at 185 overall with 176 per section.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_english",
+          "label": "IB and local English qualifications",
+          "details": "For the language requirement, IB English A requires HL 4 or SL 5, and English B requires HL 5 or SL 6. Other listed equivalents include Hong Kong HKDSE English grade 5, South African Matric English Home Language grade 6 and Malaysian STPM English grade B. Separate conditions apply to applicants without GCSEs.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d105",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Science (BVSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d105_grad",
+          "label": "Biological sciences graduates",
+          "details": "The school considers a relevant biological sciences honours degree equivalent to a UK 2:2 or an ordinary degree equivalent to 2:1. Secondary-school transcripts may still be assessed. Graduates in unrelated disciplines must meet the standard academic and experience requirements. This is the five-year D105 route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_timing",
+          "label": "Applicants currently studying for a degree",
+          "details": "Degree students may apply only in their final year. Current master’s students are considered only for deferred entry because proof of completion is required.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d105",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Science (BVSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d105_transfer",
+          "label": "Part-completed degree and transfer",
+          "details": "The joint BVSc does not accept transfers from a partially completed degree elsewhere or use that partial qualification for entry.",
+          "category": "academic",
+          "status": "not_considered",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d105",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "international",
+      "notes": "Programme-specific requirements for Veterinary Science (BVSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d105_qualvet",
+          "label": "Applicants already qualified overseas",
+          "details": "International applicants who already have a veterinary medicine degree and seek UK registration are ineligible for this course. The school directs them to the Royal College of Veterinary Surgeons.",
+          "category": "application",
+          "status": "not_considered",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+            "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d105",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Science (BVSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d105_written",
+          "label": "Written application and selection",
+          "details": "Supply a personal statement, reference and qualifications by the application deadline. Selectors consider completed and predicted grades, experience, supporting statements and references.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc admissions statement",
+            "url": "https://www.aber.ac.uk/en/media/pdfmedia/admissions/bvscadmissionsstatement/BVSc-Admissions-Policy-Statement.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_test",
+          "label": "Supplementary admission test",
+          "details": "The joint admissions statement requires no supplementary admissions test.",
+          "category": "standardized_test",
+          "status": "not_required",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc admissions statement",
+            "url": "https://www.aber.ac.uk/en/media/pdfmedia/admissions/bvscadmissionsstatement/BVSc-Admissions-Policy-Statement.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_resits",
+          "label": "Resitting qualifications",
+          "details": "The published policy normally permits one resit, subject to the first-sitting standard for the qualification.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc admissions statement",
+            "url": "https://www.aber.ac.uk/en/media/pdfmedia/admissions/bvscadmissionsstatement/BVSc-Admissions-Policy-Statement.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d105_health",
+          "label": "Occupational health clearance",
+          "details": "After firmly accepting an offer, complete the occupational health questionnaire. Clearance is a condition of enrolment.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · Joint BVSc admissions statement",
+            "url": "https://www.aber.ac.uk/en/media/pdfmedia/admissions/bvscadmissionsstatement/BVSc-Admissions-Policy-Statement.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d31f",
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Nursing (FdSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d31f_al",
+          "label": "A levels and UCAS Tariff",
+          "details": "The typical offer is CCC with a life science such as biology. The published tariff is 96 points.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+            "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d31f_alt",
+          "label": "Science diploma, Access or foundation year",
+          "details": "Alternative routes include a Level 3 extended diploma in science at Merit, an Access to HE Science diploma at Merit or the Aberystwyth University foundation year at Merit. The BTEC National Diploma table lists MMM in a specified subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+            "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d31f_gcse",
+          "label": "GCSE subjects",
+          "details": "Obtain five GCSEs at C/4 or above, including mathematics, science and either English or Welsh.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+            "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d31f_work",
+          "label": "Veterinary practice experience",
+          "details": "Complete a minimum of two weeks in a veterinary practice and provide a reference from that practice as evidence.",
+          "category": "experience",
+          "status": "required",
+          "source": {
+            "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+            "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "aber_vet_d31f_interview",
+          "label": "Selection interview",
+          "details": "The department may invite applicants to an interview.",
+          "category": "interview",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+            "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "programKey": "aber-d31f",
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific requirements for Veterinary Nursing (FdSc). Alternative qualifications and contextual offers apply only to applicants on the corresponding route.",
+      "requirements": [
+        {
+          "key": "aber_vet_d31f_rpl",
+          "label": "Recognition of prior learning",
+          "details": "For module credit, show that you passed assessments matching the relevant RCVS Day One Skills. Prior learning is mapped to the professional regulator’s requirements.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "title": "Aberystwyth University · FdSc Veterinary Nursing · academic regulations",
+            "url": "https://www.aber.ac.uk/en/academic-registry/handbook/regulations/regulations-fdsc-veterinary-nursing/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

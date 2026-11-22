@@ -1,0 +1,83 @@
+{
+  "datasetVersion": "official-ib-requirements-aberystwyth-veterinary-2027-20261122-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "aber",
+      "name": "Aberystwyth University",
+      "provider": "ror",
+      "externalId": "015m2p889",
+      "countryCode": "GB",
+      "officialDomains": ["aber.ac.uk"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "aber",
+      "program": {
+        "name": "Veterinary Science (BVSc)",
+        "field": "Veterinary Science",
+        "level": "undergraduate",
+        "courseCode": "D105",
+        "url": "https://courses.aber.ac.uk/undergraduate/vet-sci/"
+      },
+      "requirement": {
+        "recordKey": "aber27-d105",
+        "academicYear": "2027",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 IB Diploma entry for Veterinary Science (BVSc) (UCAS D105).",
+        "includesCorePoints": null,
+        "status": "no_fixed_minimum",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "hlGrades": [6, 6, 6],
+        "subjectNotes": "Obtain HL 6 in biology, chemistry and a third subject of your choice.",
+        "conditions": "Complete the IB Diploma. The school bases its standard offer on individual subject grades. Additional mathematics, English and physics conditions apply if you did not take GCSEs or equivalent qualifications.",
+        "source": {
+          "title": "Aberystwyth University · Joint BVSc academic and language requirements",
+          "url": "https://www.aber.ac.uk/en/vet-sci/bvsc-vet/",
+          "checkedOn": "2026-11-22",
+          "evidence": "666 at Higher Level including: Biology Chemistry A third subject of your choice"
+        }
+      }
+    },
+    {
+      "institutionKey": "aber",
+      "program": {
+        "name": "Veterinary Nursing (FdSc)",
+        "field": "Veterinary Nursing",
+        "level": "undergraduate",
+        "courseCode": "D31F",
+        "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/"
+      },
+      "requirement": {
+        "recordKey": "aber27-d31f",
+        "academicYear": "2027",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "September 2027 IB Diploma entry for Veterinary Nursing (FdSc) (UCAS D31F).",
+        "includesCorePoints": null,
+        "status": "published",
+        "scoreKind": "typical_offer",
+        "totalMin": 26,
+        "totalMax": null,
+        "scoreScale": 45,
+        "hlGrades": [5],
+        "subjectNotes": "Biology HL at 5.",
+        "conditions": "The university lists this score under typical entry requirements. Relevant practice experience and supporting evidence are also required.",
+        "source": {
+          "title": "Aberystwyth University · Veterinary Nursing · September 2027 typical entry",
+          "url": "https://courses.aber.ac.uk/undergraduate/veterinary-nursing/",
+          "checkedOn": "2026-11-22",
+          "evidence": "26 points with 5 points in Biology at Higher Level"
+        }
+      }
+    }
+  ]
+}
