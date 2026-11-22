@@ -1,0 +1,44 @@
+{
+  "datasetVersion": "official-ib-requirements-khalifa-fall-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "ku",
+      "name": "Khalifa University of Science and Technology",
+      "provider": "ror",
+      "externalId": "05hffr360",
+      "countryCode": "AE",
+      "officialDomains": ["ku.ac.ae"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "ku",
+      "program": null,
+      "requirement": {
+        "recordKey": "ku-fall2027-university-ib",
+        "academicYear": "2027",
+        "intakeTerm": "fall",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB Diploma applicants to undergraduate programmes for Fall 2027.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 24,
+        "totalMax": null,
+        "scoreScale": 45,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Complete the full IB Diploma with six approved HL or SL subjects at grade 4 or above in each. Exclude Islamic Education. Take Mathematics and a science accepted by the intended programme.",
+        "conditions": "This university-wide eligibility minimum applies alongside the high-school subject combination specified for the degree and KU’s English requirement. Selection is competitive.",
+        "source": {
+          "title": "Khalifa University · Fall 2027 undergraduate eligibility",
+          "url": "https://www.ku.ac.ae/undergraduate-admissions",
+          "checkedOn": "2026-11-22",
+          "evidence": "a total of 24 points"
+        }
+      }
+    }
+  ]
+}

@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282344,
+            "programs": 282359,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4233,
+            "admissionProfiles": 4237,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27170,
+            "admissionRequirements": 27202,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1523
+            "qualificationRequirements": 1524
         },
         "ibCoverage": {
             "byCountry": [
@@ -167,18 +167,24 @@
                     "programs_with_published_totals": 0
                 },
                 {
+                    "country": "United Arab Emirates",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 0,
+                    "programs_with_published_totals": 0
+                },
+                {
                     "country": "United Kingdom",
                     "institutions": 4,
                     "programs_with_reviewed_ib": 152,
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1523,
+            "reviewedRecords": 1524,
             "programsWithReviewedIb": 1314,
-            "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 56,
+            "institutionWidePolicies": 19,
+            "institutionsWithReviewedIb": 57,
             "programsWithPublishedTotals": 849,
-            "undergraduateCatalogEntries": 196556
+            "undergraduateCatalogEntries": 196571
         },
         "coreCoverage": {
             "phone": 4078,
@@ -207,13 +213,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4177,
+            "programs": 4178,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1954,
+            "admissions": 1955,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23975
+            "noStructuredApplicationFacts": 23974
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -225,31 +231,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5150,
-            "profiles": 1451,
-            "institutions": 102
+            "facts": 5182,
+            "profiles": 1455,
+            "institutions": 103
         }
     },
-    "generatedAt": "2026-11-22T04:23:46Z",
+    "generatedAt": "2026-11-22T04:28:42Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 7,
+        "inserted": 1,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 7,
-        "startedAt": "2026-11-22T04:23:42.438937+00:00",
-        "updatedAt": "2026-11-22T04:23:42.494+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-22T04:28:39.699758+00:00",
+        "updatedAt": "2026-11-22T04:28:39.716+00:00",
         "checkpoint": {
-            "rowIndex": 7,
-            "sourceRows": 7,
+            "rowIndex": 1,
+            "sourceRows": 1,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T04:23:42.494+00:00",
-        "artifactSha256": "fcd69ae3434cf29e634f2d12cc9654b5630e2f5d86cf76856da7f58f1c595bad",
-        "datasetVersion": "official-ib-requirements-utb-engineering-2026-11-22-v1"
+        "finishedAt": "2026-11-22T04:28:39.716+00:00",
+        "artifactSha256": "4abe46a50dc361fecb857eac03554c5a2c246549a3a62839e76ef8c0c3492f41",
+        "datasetVersion": "official-ib-requirements-khalifa-fall-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
