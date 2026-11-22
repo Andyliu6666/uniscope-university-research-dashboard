@@ -88,6 +88,20 @@ describe('reviewed IB requirements', () => {
     expect(formatIbTotal(missing)).toBe('IB total not stated in the reviewed source');
     expect(ibRequirementSchema.safeParse({ ...missing, totalMin: 24 }).success).toBe(false);
   });
+  it('displays zero route vacancies without turning them into an IB score', () => {
+    const value = ibRequirementSchema.parse({
+      ...requirement,
+      status: 'no_places',
+      totalMin: null,
+      totalMax: null,
+      scoreKind: null,
+      scoreScale: null,
+      hlGrades: [],
+      subjectNotes: '',
+    });
+    expect(formatIbTotal(value)).toBe('No places offered through this route for this intake');
+    expect(ibRequirementSchema.safeParse({ ...value, totalMin: 24 }).success).toBe(false);
+  });
   it('preserves subject requirements even when there is no published total', () => {
     const value = {
       ...requirement,

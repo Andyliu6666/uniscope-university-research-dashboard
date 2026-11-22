@@ -695,7 +695,7 @@ BEGIN
       OR q.source_flags #>> '{ib,applicantType}' IS DISTINCT FROM p.applicant_type::text
       OR q.source_flags #>> '{ib,source,url}' IS DISTINCT FROM s.url
       OR COALESCE(q.source_flags #>> '{ib,status}', '') NOT IN
-        ('published', 'not_stated_in_source', 'no_fixed_minimum', 'conversion_required', 'not_applicable', 'not_accepted')
+        ('published', 'not_stated_in_source', 'no_fixed_minimum', 'conversion_required', 'not_applicable', 'not_accepted', 'no_places')
       OR (q.source_flags #>> '{ib,status}' = 'published' AND (
         q.minimum_value IS NULL OR q.minimum_value < 1 OR q.minimum_value > 45
         OR COALESCE(q.scale, '') NOT IN ('42', '45')

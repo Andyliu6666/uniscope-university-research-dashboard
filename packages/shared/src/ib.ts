@@ -24,6 +24,7 @@ export const ibRequirementSchema = z
       'conversion_required',
       'not_applicable',
       'not_accepted',
+      'no_places',
     ]),
     scoreKind: z
       .enum([
@@ -224,6 +225,7 @@ export const ibStatusLabels: Record<IbRequirement['status'], string> = {
   conversion_required: 'Official qualification conversion required',
   not_applicable: 'IB is not the entry qualification',
   not_accepted: 'IB not accepted for this route',
+  no_places: 'No places offered through this route for this intake',
 };
 export const ibScoreKindLabels: Record<NonNullable<IbRequirement['scoreKind']>, string> = {
   minimum_entry: 'Minimum entry requirement',

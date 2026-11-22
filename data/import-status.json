@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282280,
+            "programs": 282324,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4171,
+            "admissionProfiles": 4216,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27059,
+            "admissionRequirements": 27071,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1470
+            "qualificationRequirements": 1514
         },
         "ibCoverage": {
             "byCountry": [
@@ -36,9 +36,9 @@
                 },
                 {
                     "country": "Chile",
-                    "institutions": 1,
-                    "programs_with_reviewed_ib": 3,
-                    "programs_with_published_totals": 3
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 47,
+                    "programs_with_published_totals": 35
                 },
                 {
                     "country": "Cyprus",
@@ -161,12 +161,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1470,
-            "programsWithReviewedIb": 1261,
+            "reviewedRecords": 1514,
+            "programsWithReviewedIb": 1305,
             "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 53,
-            "programsWithPublishedTotals": 810,
-            "undergraduateCatalogEntries": 196492
+            "institutionsWithReviewedIb": 54,
+            "programsWithPublishedTotals": 842,
+            "undergraduateCatalogEntries": 196536
         },
         "coreCoverage": {
             "phone": 4078,
@@ -195,13 +195,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4174,
+            "programs": 4175,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1951,
+            "admissions": 1952,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23978
+            "noStructuredApplicationFacts": 23977
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -213,31 +213,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5039,
-            "profiles": 1442,
-            "institutions": 99
+            "facts": 5051,
+            "profiles": 1443,
+            "institutions": 100
         }
     },
-    "generatedAt": "2026-11-22T03:26:19Z",
+    "generatedAt": "2026-11-22T03:31:22Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 8,
-        "provider": "official_admissions",
+        "inserted": 44,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 8,
-        "startedAt": "2026-11-22T03:26:18.145015+00:00",
-        "updatedAt": "2026-11-22T03:26:18.145015+00:00",
+        "processed": 44,
+        "startedAt": "2026-11-22T03:31:19.361461+00:00",
+        "updatedAt": "2026-11-22T03:31:19.482+00:00",
         "checkpoint": {
-            "profiles": 1,
-            "admissionFacts": 8,
-            "programsReused": 0,
-            "programsCreated": 6
+            "rowIndex": 44,
+            "sourceRows": 44,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T03:26:18.186+00:00",
-        "artifactSha256": "b68d96ce2f71e4cb5537285ba51442a47cbb22b04a1f965b291ab56858a04334",
-        "datasetVersion": "official-admissions-ium-namibia-joint-medicine-2026-11-22-v1"
+        "finishedAt": "2026-11-22T03:31:19.482+00:00",
+        "artifactSha256": "db772d62d5fed9d4bc4a4280ea293bce7921ae5e5b0aaa8566a5e249fc37b524",
+        "datasetVersion": "official-ib-requirements-ufro-special-ib-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
