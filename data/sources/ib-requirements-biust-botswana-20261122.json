@@ -1,0 +1,44 @@
+{
+  "datasetVersion": "official-ib-requirements-biust-botswana-20261122-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "biust",
+      "name": "Botswana International University of Science and Technology",
+      "provider": "ror",
+      "externalId": "04cr2sq58",
+      "countryCode": "BW",
+      "officialDomains": ["biust.ac.bw", "bqa.org.bw"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "biust",
+      "program": null,
+      "requirement": {
+        "recordKey": "biust-ib-subject-conversion",
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "Undergraduate applicants presenting IB subject results for equivalency assessment.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "BIUST points per IB subject (IB grade = local points). Higher Level: 7 = 12, 6 = 11, 5 = 10, 4 = 9, 3 = 8, 2 = 7. Standard Level: 7 = 10, 6 = 9, 5 = 8, 4 = 7, 3 = 6, 2 = 5.",
+        "conditions": "The published conversion assigns local admission points to individual subjects. BIUST assesses overseas qualifications individually and gives no IB Diploma total in this table.",
+        "source": {
+          "title": "BIUST · undergraduate entry and admission-point conversion",
+          "url": "https://www.biust.ac.bw/entry-requirements/",
+          "checkedOn": "2026-11-22",
+          "evidence": "Entry Requirements Point System"
+        }
+      }
+    }
+  ]
+}
