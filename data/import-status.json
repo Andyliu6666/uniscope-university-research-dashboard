@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282509,
+            "programs": 282530,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4343,
+            "admissionProfiles": 4348,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27740,
+            "admissionRequirements": 27828,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1589
         },
@@ -190,7 +190,7 @@
             "institutionWidePolicies": 22,
             "institutionsWithReviewedIb": 61,
             "programsWithPublishedTotals": 884,
-            "undergraduateCatalogEntries": 196721
+            "undergraduateCatalogEntries": 196742
         },
         "coreCoverage": {
             "phone": 4078,
@@ -219,13 +219,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4191,
+            "programs": 4192,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1968,
+            "admissions": 1969,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23961
+            "noStructuredApplicationFacts": 23960
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -237,31 +237,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5720,
-            "profiles": 1499,
-            "institutions": 116
+            "facts": 5808,
+            "profiles": 1504,
+            "institutions": 117
         }
     },
-    "generatedAt": "2026-11-22T06:48:42Z",
+    "generatedAt": "2026-11-22T07:18:20Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 14,
-        "provider": "official_ib",
+        "inserted": 88,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 14,
-        "startedAt": "2026-11-22T06:48:39.81314+00:00",
-        "updatedAt": "2026-11-22T06:48:39.861+00:00",
+        "processed": 88,
+        "startedAt": "2026-11-22T07:18:18.930906+00:00",
+        "updatedAt": "2026-11-22T07:18:18.930906+00:00",
         "checkpoint": {
-            "rowIndex": 14,
-            "sourceRows": 14,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 5,
+            "admissionFacts": 88,
+            "programsReused": 0,
+            "programsCreated": 21
         },
-        "finishedAt": "2026-11-22T06:48:39.861+00:00",
-        "artifactSha256": "7af2186e70e84a5b9460cbc183c446e667731075cd5005b31372d5a1a2017eed",
-        "datasetVersion": "official-ib-requirements-maastricht-netherlands-2027-2026-11-22-v1"
+        "finishedAt": "2026-11-22T07:18:19.035+00:00",
+        "artifactSha256": "d279ae12a8b274ff501ffb8d54a524776e81628906a1efa1dd8953308c61ca80",
+        "datasetVersion": "official-admissions-facts-irdp-tanzania-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
