@@ -1,0 +1,749 @@
+{
+  "datasetVersion": "official-admissions-facts-utb-engineering-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "utb",
+      "name": "Universiti Teknologi Brunei",
+      "provider": "ror",
+      "externalId": "004y7f915",
+      "countryCode": "BN",
+      "officialDomains": ["utb.edu.bn"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "civil",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Civil Engineering",
+      "field": "Civil Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Civil Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/civil-engineering-programme-area/bachelor-of-engineering-honours-in-civil-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_residence",
+        "utb26_civil_al",
+        "utb26_civil_electives",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_civil",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_al",
+        "utb26_bridge_ib"
+      ]
+    },
+    {
+      "key": "structural",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Civil Engineering with Structural Engineering",
+      "field": "Civil Engineering with Structural Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Civil Engineering with Structural Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/civil-engineering-programme-area/bachelor-of-engineering-honours-in-civil-engineering-with-structural-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_residence",
+        "utb26_structural_al",
+        "utb26_civil_electives",
+        "utb26_diplomas",
+        "utb26_diploma_str",
+        "utb26_modules_civil",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent"
+      ]
+    },
+    {
+      "key": "electrical",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Electrical and Electronic Engineering",
+      "field": "Electrical and Electronic Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Electrical and Electronic Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/electrical-and-electronic-engineering-programme-area/bachelor-of-engineering-honours-in-electrical-and-electronic-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_ee_three",
+        "utb26_ee_two",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_ee",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_ee_al",
+        "utb26_bridge_ee_ib"
+      ]
+    },
+    {
+      "key": "mechatronics",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Mechatronics Engineering",
+      "field": "Mechatronics Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Mechatronics Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/electrical-and-electronic-engineering-programme-area/bachelor-of-engineering-honours-in-mechatronics-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_ee_three",
+        "utb26_ee_two",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_mt",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_ee_al",
+        "utb26_bridge_ee_ib"
+      ]
+    },
+    {
+      "key": "mechanical",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Mechanical Engineering",
+      "field": "Mechanical Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Mechanical Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/mechanical-engineering-programme-area/bachelor-of-engineering-honours-in-mechanical-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_me_three",
+        "utb26_me_two",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_me",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_al",
+        "utb26_bridge_ib",
+        "utb26_mechanical_conflict"
+      ]
+    },
+    {
+      "key": "chemical",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Chemical Engineering",
+      "field": "Chemical Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Chemical Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/chemical-and-energy-engineering-programme-area/bachelor-of-engineering-honours-in-chemical-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_chem_three",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_ch",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_al",
+        "utb26_bridge_ib"
+      ]
+    },
+    {
+      "key": "energy",
+      "institutionKey": "utb",
+      "name": "Bachelor of Engineering (Honours) in Energy Engineering",
+      "field": "Energy Engineering",
+      "level": "undergraduate",
+      "source": {
+        "title": "UTB Faculty of Engineering · Energy Engineering",
+        "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/chemical-and-energy-engineering-programme-area/bachelor-of-engineering-honours-in-energy-engineering/",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "utb26_english",
+        "utb26_malay",
+        "utb26_tariff",
+        "utb26_local_application",
+        "utb26_service",
+        "utb26_acceptance",
+        "utb26_en_three",
+        "utb26_diplomas",
+        "utb26_diploma_most",
+        "utb26_modules_en",
+        "utb26_mature_age",
+        "utb26_mature_english",
+        "utb26_mature_general",
+        "utb26_mature_eng",
+        "utb26_equivalent",
+        "utb26_bridge_apply",
+        "utb26_bridge_exit",
+        "utb26_bridge_al",
+        "utb26_bridge_ib"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Each rule names the qualification or applicant group it covers. Degree entry and preparatory pathways are assessed separately.",
+      "requirements": [
+        {
+          "key": "utb26_english",
+          "label": "English proficiency for undergraduate entry",
+          "details": "Present GCE O-level English Language at C6 or higher, IELTS 6.0, TOEFL paper-based 550, TOEFL internet-based 80, or an equivalent qualification.",
+          "category": "language",
+          "status": "required",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_tariff",
+          "label": "How UTB counts GCE A-level points",
+          "details": "Use the UTB scale for the subjects specified by the degree. A* earns 140 points, A earns 120, B earns 100, C earns 80, D earns 60 and E earns 40.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_local_application",
+          "label": "Applicants based in Brunei · applications and paper documents",
+          "details": "If based in Brunei and applying outside the in-service route, apply through HECAS and Apply@UTB. Deliver the paper HECAS form, identity card copy and certified academic certificates with the other required documents to UTB within one week after HECAS closes.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 66",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_acceptance",
+          "label": "Accepting an offer · payment and receipt",
+          "details": "Students outside the government scholarship scheme pay a non-refundable BND 100 acceptance fee. On accepting an offer, pay applicable fees through the university Finance Office and present the official receipt at registration.",
+          "category": "financial",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 67",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_civil_al",
+          "label": "Three A levels · 240 UTB points",
+          "details": "Obtain at least 240 UTB points from three GCE A-level passes. These must include Mathematics at grade C or above and two eligible subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_structural_al",
+          "label": "Three A levels · 280 UTB points",
+          "details": "Obtain at least 280 UTB points from three GCE A-level passes. These must include Mathematics at grade C or above and two eligible subjects.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 19",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_civil_electives",
+          "label": "Civil engineering · eligible A-level subjects",
+          "details": "The two other subjects may be Physics, Chemistry, Biology, Further Mathematics, Design and Technology, Computer Science or Geography. Accounting, Economics, Information Technology and Psychology also qualify if you hold a credit in GCE O-level Physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18–19",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_ee_three",
+          "label": "Three A levels · 220 UTB points",
+          "details": "Obtain at least 220 UTB points from three passes. Earn at least C in Physics and in either Mathematics or Further Mathematics. The third subject can be Chemistry, Biology, Design and Technology, Computer Science, Thinking Skills, Accounting or Geography.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 21–22",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_ee_two",
+          "label": "Two A levels · 180 UTB points",
+          "details": "Alternatively, obtain at least 180 UTB points from Physics plus Mathematics or Further Mathematics, with grade C or higher in both.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 21–22",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_me_three",
+          "label": "Three A levels · 240 UTB points",
+          "details": "Obtain at least 240 points from three passes, including Physics and Mathematics or Further Mathematics at C or higher in each. The third subject can be Design and Technology, Chemistry, Biology or Computer Science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 24",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_me_two",
+          "label": "Two A levels · Chemistry prerequisite",
+          "details": "Alternatively, obtain at least 180 points in Mathematics and Physics with both at C or above. This route also requires a credit in O-level Chemistry or equivalent.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 24",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_chem_three",
+          "label": "Three A levels · 240 UTB points",
+          "details": "Obtain at least 240 points from three passes, including Chemistry and Mathematics or Further Mathematics at C or higher in each. For the third subject, choose Biology, Computer Science, Design and Technology, Geography or Physics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 26",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_en_three",
+          "label": "Three A levels · 240 UTB points and three C grades",
+          "details": "Obtain at least 240 points from three passes at C or above. Present Mathematics or Further Mathematics, Physics, and one of Biology, Chemistry, Computer Science, Design and Technology or Geography.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_diplomas",
+          "label": "Technical qualifications accepted for the diploma route",
+          "details": "UTB lists a Brunei Darussalam Qualifications Framework Level 5 diploma, a BTEC or BDTVEC Higher National Diploma, an Advanced Diploma or an equivalent qualification. The programme applies its own grades and analytical-module requirements.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18, 19, 21, 22, 24, 26, 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_diploma_most",
+          "label": "Diploma route · cumulative and module grades",
+          "details": "On the diploma route earn a CGPA of at least 1.6 on a 3-point scale, with Merit or above in at least 60% of analytical modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18, 21, 22, 24, 26, 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_diploma_str",
+          "label": "Diploma route · cumulative and module grades",
+          "details": "On the diploma route earn a CGPA of at least 1.7 on a 3-point scale, with Merit or above in at least 70% of analytical modules.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 19",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_civil",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include mathematics, soil mechanics, hydraulics and structures.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18–19",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_ee",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include mathematics and electrical and electronic principles.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 21",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_mt",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include mathematics, electrical and electronic principles, electrotechnology, mechanics and thermodynamics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 22",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_me",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include mathematics, mechanics, thermodynamics, engineering design and air conditioning.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 24",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_ch",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include engineering mathematics, mechanics, chemistry, chemical unit operations and chemical unit processes.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 26",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_modules_en",
+          "label": "Diploma subjects used in the assessment",
+          "details": "Examples of analytical modules used to assess the diploma include engineering mathematics, mechanics, physics and reservoir engineering.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_mechanical_conflict",
+          "label": "IB subject eligibility · confirm with Mechanical Engineering",
+          "details": "The faculty web page requires Physics, Mathematics and Chemistry at SL 5 or HL 4 each, with at least two relevant sciences or Mathematics at HL. The 2026 prospectus allows a choice of third HL subject. Both give a total of 28. Confirm with the programme if your selection satisfies only one version.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Faculty of Engineering · Mechanical Engineering",
+            "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/mechanical-engineering-programme-area/bachelor-of-engineering-honours-in-mechanical-engineering/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "domestic",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Each rule names the qualification or applicant group it covers. Degree entry and preparatory pathways are assessed separately.",
+      "requirements": [
+        {
+          "key": "utb26_malay",
+          "label": "Government scholarship for Bruneian applicants · Malay",
+          "details": "Bruneians applying for a government scholarship need GCE O-level Malay Language at C6 or higher.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "entryType": "other",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Each rule names the qualification or applicant group it covers. Degree entry and preparatory pathways are assessed separately.",
+      "requirements": [
+        {
+          "key": "utb26_service",
+          "label": "In-service applicants · employer documentation",
+          "details": "Apply through Apply@UTB. Send the hard-copy application, confidential report and service record through the head of department. Have the department head or employer certify supporting documents and arrange delivery to UTB by the Apply@UTB deadline.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 66",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_mature_age",
+          "label": "Mature entry · age, work experience and interview",
+          "details": "Be at least 21 on the date of admission, have at least three years of relevant work and complete a satisfactory interview.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_mature_english",
+          "label": "Mature entry · English and Mathematics",
+          "details": "Provide GCE O-level English C6, IGCSE English as a Second Language C, a valid IELTS score of 6.0 or TOEFL 550. O-level Mathematics C6 or equivalent is also required unless the programme grants an exemption.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_mature_general",
+          "label": "Mature entry · university academic eligibility",
+          "details": "The general mature route accepts a pass in one relevant GCE A-level subject or equivalent. An alternative is a relevant Level 4 diploma, Higher National Technical Education Certificate or equivalent recognised by the Senate. The engineering degree also sets its own conditions.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 15",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_mature_eng",
+          "label": "Mature entry · engineering qualification and experience",
+          "details": "The degree asks mature applicants for a relevant BDQF Level 5 diploma or equivalent and individually assesses engineering-related work experience.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18, 19, 21, 22, 24, 26, 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_equivalent",
+          "label": "Individual review of equivalent preparation",
+          "details": "UTB can assess other qualifications, work experience or a combination individually when the preparation is equivalent to a listed route. The degree pages allow consideration of BriTE applicants.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 18, 19, 21, 22, 24, 26, 27",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_apply",
+          "label": "BriTE preparation · where to apply",
+          "details": "Apply to Kemuda Institute, HECAS and Apply@UTB for the preparatory programme. The published engineering progression list names Civil, Electrical and Electronic, Mechatronics, Mechanical, Chemical and Energy Engineering.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_exit",
+          "label": "BriTE progression · passing the core modules",
+          "details": "Students take one to three core modules chosen for the subjects or grades they need, plus Introduction to Programming. Achieving at least 60% in each enrolled core module gives eligibility for first-year entry to a listed degree.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_al",
+          "label": "BriTE entry · three A levels for this pathway",
+          "details": "For the preparatory route, provide CDD or 200 UTB points from three passes including Mathematics and two subjects accepted by the destination degree.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_ib",
+          "label": "BriTE entry · IB Diploma and subjects",
+          "details": "The preparatory route requires 24 IB Diploma points with passes in Mathematics and two relevant science subjects specified by the destination programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_ee_al",
+          "label": "BriTE entry · two or three A levels",
+          "details": "Three passes can qualify with DDD or 180 points, including Physics, Mathematics or Further Mathematics and a third relevant subject. Alternatively, present CC or 160 points from two passes with at least C each in Physics and Mathematics or Further Mathematics.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "utb26_bridge_ee_ib",
+          "label": "BriTE entry · IB Mathematics and Physics",
+          "details": "For this preparatory route obtain 24 IB Diploma points, with passes in Mathematics, Physics and another science subject accepted by the destination programme.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Prospectus 2026 · pp. 61",
+            "url": "https://utb.edu.bn/prospectus.pdf",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utb",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Each rule names the qualification or applicant group it covers. Degree entry and preparatory pathways are assessed separately.",
+      "requirements": [
+        {
+          "key": "utb26_residence",
+          "label": "International government-scholarship application",
+          "details": "International applicants seeking a Brunei Government scholarship also apply to the Brunei Ministry of Foreign Affairs. The faculty describes the usual deadline as around mid-February. Check the call for the relevant intake.",
+          "category": "application",
+          "status": "conditional",
+          "source": {
+            "title": "UTB Faculty of Engineering · Civil Engineering with Structural Engineering",
+            "url": "https://www.utb.edu.bn/academics/faculty-of-engineering/undergraduate-programmes/civil-engineering-programme-area/bachelor-of-engineering-honours-in-civil-engineering-with-structural-engineering/",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

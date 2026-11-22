@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282337,
+            "programs": 282344,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4222,
+            "admissionProfiles": 4233,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27133,
+            "admissionRequirements": 27170,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1516
+            "qualificationRequirements": 1523
         },
         "ibCoverage": {
             "byCountry": [
@@ -27,6 +27,12 @@
                     "institutions": 1,
                     "programs_with_reviewed_ib": 4,
                     "programs_with_published_totals": 3
+                },
+                {
+                    "country": "Brunei",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 7,
+                    "programs_with_published_totals": 7
                 },
                 {
                     "country": "Canada",
@@ -167,12 +173,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1516,
-            "programsWithReviewedIb": 1307,
+            "reviewedRecords": 1523,
+            "programsWithReviewedIb": 1314,
             "institutionWidePolicies": 18,
-            "institutionsWithReviewedIb": 55,
-            "programsWithPublishedTotals": 842,
-            "undergraduateCatalogEntries": 196549
+            "institutionsWithReviewedIb": 56,
+            "programsWithPublishedTotals": 849,
+            "undergraduateCatalogEntries": 196556
         },
         "coreCoverage": {
             "phone": 4078,
@@ -201,13 +207,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4176,
+            "programs": 4177,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1953,
+            "admissions": 1954,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23976
+            "noStructuredApplicationFacts": 23975
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -219,31 +225,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5113,
-            "profiles": 1447,
-            "institutions": 101
+            "facts": 5150,
+            "profiles": 1451,
+            "institutions": 102
         }
     },
-    "generatedAt": "2026-11-22T04:15:25Z",
+    "generatedAt": "2026-11-22T04:23:46Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
+        "inserted": 7,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-22T04:15:22.621445+00:00",
-        "updatedAt": "2026-11-22T04:15:22.64+00:00",
+        "processed": 7,
+        "startedAt": "2026-11-22T04:23:42.438937+00:00",
+        "updatedAt": "2026-11-22T04:23:42.494+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
+            "rowIndex": 7,
+            "sourceRows": 7,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T04:15:22.64+00:00",
-        "artifactSha256": "ec357ad62b9e00d34ab358af739df3b9555af7b6794d2f2ee3b6cec665e4a237",
-        "datasetVersion": "official-ib-requirements-uwi-st-augustine-2026-11-22-v1"
+        "finishedAt": "2026-11-22T04:23:42.494+00:00",
+        "artifactSha256": "fcd69ae3434cf29e634f2d12cc9654b5630e2f5d86cf76856da7f58f1c595bad",
+        "datasetVersion": "official-ib-requirements-utb-engineering-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
