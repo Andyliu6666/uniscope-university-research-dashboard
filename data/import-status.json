@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282425,
+            "programs": 282460,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4273,
+            "admissionProfiles": 4291,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 27416,
+            "admissionRequirements": 27506,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1534
+            "qualificationRequirements": 1548
         },
         "ibCoverage": {
             "byCountry": [
@@ -51,6 +51,12 @@
                     "institutions": 1,
                     "programs_with_reviewed_ib": 2,
                     "programs_with_published_totals": 2
+                },
+                {
+                    "country": "Egypt",
+                    "institutions": 1,
+                    "programs_with_reviewed_ib": 13,
+                    "programs_with_published_totals": 0
                 },
                 {
                     "country": "Fiji",
@@ -179,12 +185,12 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1534,
-            "programsWithReviewedIb": 1323,
-            "institutionWidePolicies": 20,
-            "institutionsWithReviewedIb": 58,
+            "reviewedRecords": 1548,
+            "programsWithReviewedIb": 1336,
+            "institutionWidePolicies": 21,
+            "institutionsWithReviewedIb": 59,
             "programsWithPublishedTotals": 857,
-            "undergraduateCatalogEntries": 196637
+            "undergraduateCatalogEntries": 196672
         },
         "coreCoverage": {
             "phone": 4078,
@@ -213,13 +219,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4187,
+            "programs": 4188,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1964,
+            "admissions": 1965,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23965
+            "noStructuredApplicationFacts": 23964
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -231,31 +237,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 5396,
-            "profiles": 1482,
-            "institutions": 112
+            "facts": 5486,
+            "profiles": 1487,
+            "institutions": 113
         }
     },
-    "generatedAt": "2026-11-22T05:30:23Z",
+    "generatedAt": "2026-11-22T06:19:32Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 8,
+        "inserted": 14,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 8,
-        "startedAt": "2026-11-22T05:30:21.031687+00:00",
-        "updatedAt": "2026-11-22T05:30:21.065+00:00",
+        "processed": 14,
+        "startedAt": "2026-11-22T06:19:29.79819+00:00",
+        "updatedAt": "2026-11-22T06:19:29.844+00:00",
         "checkpoint": {
-            "rowIndex": 8,
-            "sourceRows": 8,
+            "rowIndex": 14,
+            "sourceRows": 14,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T05:30:21.065+00:00",
-        "artifactSha256": "882527a2b5f0f1d7ae87dd3c420aed3abbae4e752fc71eb765a5d19fe68a9c76",
-        "datasetVersion": "official-ib-requirements-utb-sasm-design-2026-11-22-v1"
+        "finishedAt": "2026-11-22T06:19:29.844+00:00",
+        "artifactSha256": "9f5635de2ac676aaa0ad7aa9e4f549cf9b0b13f44dde72f8b8962aa05133be26",
+        "datasetVersion": "official-ib-requirements-auc-egypt-2026-11-22-v1"
     },
     "schemaVersion": 2
 }

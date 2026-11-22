@@ -1,0 +1,473 @@
+{
+  "datasetVersion": "official-ib-requirements-auc-egypt-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "auc",
+      "name": "American University in Cairo",
+      "externalId": "0176yqn58",
+      "provider": "ror",
+      "countryCode": "EG",
+      "officialDomains": ["aucegypt.edu"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "auc",
+      "program": null,
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-institution-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking university admission.",
+        "subjectNotes": "",
+        "conditions": "Complete the IB Diploma and meet the admission score for the application semester. AUC says certificate cutoffs can change and gives no numeric Diploma total on this page.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/secondary-school-certificates",
+          "title": "AUC · secondary school certificates · IB Diploma",
+          "checkedOn": "2026-11-22",
+          "evidence": "meet the admissions scores for the semester"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Actuarial Science - BS",
+        "field": "Actuarial Science",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/actuarial-science"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-actuarial-science-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Actuarial Science major eligibility.",
+        "subjectNotes": "Mathematics at HL 4 or SL 5 plus another science completed in grades 10–12. Average at least 4 across mathematics and this science.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Actuarial Science",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average score of 4"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Mathematics - BS",
+        "field": "Mathematics",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/mathematics"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-mathematics-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Mathematics major eligibility.",
+        "subjectNotes": "Mathematics at HL 4 or SL 5 plus another science completed in grades 10–12. Average at least 4 across mathematics and this science.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Mathematics",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average score of 4"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Data Science - BSc",
+        "field": "Data Science",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/data-science"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-data-science-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Data Science major eligibility.",
+        "subjectNotes": "Mathematics at HL 4 or SL 5 plus another science completed in grades 10–12. Average at least 4 across mathematics and this science.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Data Science",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average score of 4"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Nancy Hopkins Biology Program - BSc",
+        "field": "Biology",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/biology"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-biology-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Biology major eligibility.",
+        "subjectNotes": "Complete a biology course. AUC specifies neither a level nor a grade in this major’s IB row.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Biology",
+          "checkedOn": "2026-11-22",
+          "evidence": "Completion of a biology course"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Chemistry - BS",
+        "field": "Chemistry",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/chemistry"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-chemistry-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Chemistry major eligibility.",
+        "subjectNotes": "Take HL chemistry and mathematics and physics at either level. The three-subject average must be at least 3.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Chemistry",
+          "checkedOn": "2026-11-22",
+          "evidence": "Chemistry must be at the higher level"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Computer Science - BS",
+        "field": "Computer Science",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/computer-science"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-computer-science-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Computer Science major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus another science in grades 10–12. Earn at least 4 in mathematics and average at least 4 in the three courses.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Computer Science",
+          "checkedOn": "2026-11-22",
+          "evidence": "a minimum grade of 4 in mathematics"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Architecture - BArch",
+        "field": "Architecture",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/architecture"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-architecture-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Architecture major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Computer Engineering - BS",
+        "field": "Computer Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/computer-engineering"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-computer-engineering-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Computer Engineering major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Construction Engineering - BS",
+        "field": "Construction Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/construction-engineering"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-construction-engineering-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Construction Engineering major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Electronics and Communications Engineering - BS",
+        "field": "Electronics and Communications Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/electronics-and-communications-engineering"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-electronics-and-communications-engineering-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Electronics and Communications Engineering major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Mechanical Engineering - BS",
+        "field": "Mechanical Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/mechanical-engineering"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-mechanical-engineering-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Mechanical Engineering major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Petroleum Engineering - BS",
+        "field": "Petroleum Engineering",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/petroleum-engineering"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-petroleum-engineering-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Petroleum Engineering major eligibility.",
+        "subjectNotes": "Take mathematics and physics in grades 11 and 12 at either IB level, plus chemistry in grades 10–12. Mathematics must reach grade 4, and the three subjects must average at least 4.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Engineering programs",
+          "checkedOn": "2026-11-22",
+          "evidence": "an average of 4 in the three courses"
+        }
+      }
+    },
+    {
+      "institutionKey": "auc",
+      "program": {
+        "name": "Physics - BS",
+        "field": "Physics",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.aucegypt.edu/academics/undergraduate-programs/physics"
+      },
+      "requirement": {
+        "academicYear": "unspecified",
+        "intakeTerm": "unspecified",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "recordKey": "auc-physics-ib",
+        "applicantContext": "Direct IB Diploma applicants seeking Physics major eligibility.",
+        "subjectNotes": "Complete mathematics and physics. AUC refers to its minimum grade requirements without stating IB subject levels or numeric grades for this major.",
+        "conditions": "AUC uses these subjects to assess eligibility for the intended major, subject to available places. The published matrix does not give a total Diploma score.",
+        "source": {
+          "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+          "title": "AUC · science and engineering major entry · Physics",
+          "checkedOn": "2026-11-22",
+          "evidence": "Completion of mathematics and physics courses"
+        }
+      }
+    }
+  ]
+}
