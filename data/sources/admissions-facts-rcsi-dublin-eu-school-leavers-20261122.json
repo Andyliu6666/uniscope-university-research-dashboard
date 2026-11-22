@@ -1,0 +1,506 @@
+{
+  "datasetVersion": "official-admissions-rcsi-dublin-eu-school-leavers-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "rcsi-dublin",
+      "name": "Royal College of Surgeons in Ireland",
+      "provider": "ror",
+      "externalId": "01hxy9878",
+      "countryCode": "IE",
+      "officialDomains": ["rcsi.com"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "medicine",
+      "institutionKey": "rcsi-dublin",
+      "name": "Medicine (MB, BCh, BAO Honours)",
+      "field": "Medicine",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+        "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "rcsieu_lc_best6",
+        "rcsieu_lc_grades",
+        "rcsieu_lc_sci_h4",
+        "rcsieu_lc_sci_h5",
+        "rcsieu_alevel_six",
+        "rcsieu_alevel_scigsce",
+        "rcsieu_alevel_lab",
+        "rcsieu_alevel_count",
+        "rcsieu_alevel_tariff",
+        "rcsieu_alevel_bonus",
+        "rcsieu_med_gcse_timing",
+        "rcsieu_ib_english",
+        "rcsieu_ib_bonus",
+        "rcsieu_md_points",
+        "rcsieu_md_hpat",
+        "rcsieu_md_newpoints",
+        "rcsieu_md_hist",
+        "rcsieu_md_histgce"
+      ]
+    },
+    {
+      "key": "dentistry",
+      "institutionKey": "rcsi-dublin",
+      "name": "Dentistry (BDS Honours)",
+      "field": "Dentistry",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+        "title": "RCSI Dublin · Dentistry · Irish/EU school leavers · Entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "rcsieu_lc_best6",
+        "rcsieu_lc_grades",
+        "rcsieu_lc_sci_h4",
+        "rcsieu_alevel_six",
+        "rcsieu_alevel_lab",
+        "rcsieu_gcse_dent",
+        "rcsieu_alevel_count",
+        "rcsieu_alevel_tariff",
+        "rcsieu_alevel_bonus",
+        "rcsieu_ib_english",
+        "rcsieu_ib_bonus",
+        "rcsieu_ranking",
+        "rcsieu_de_hist"
+      ]
+    },
+    {
+      "key": "pharmacy",
+      "institutionKey": "rcsi-dublin",
+      "name": "Pharmacy (BSc Honours and MPharm)",
+      "field": "Pharmacy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+        "title": "RCSI Dublin · Pharmacy · Irish/EU school leavers · Entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "rcsieu_lc_best6",
+        "rcsieu_lc_grades",
+        "rcsieu_lc_sci_h5",
+        "rcsieu_alevel_six",
+        "rcsieu_alevel_scigsce",
+        "rcsieu_alevel_count",
+        "rcsieu_alevel_tariff",
+        "rcsieu_alevel_bonus",
+        "rcsieu_ib_english",
+        "rcsieu_ib_bonus",
+        "rcsieu_ranking",
+        "rcsieu_ph_hist"
+      ]
+    },
+    {
+      "key": "physiotherapy",
+      "institutionKey": "rcsi-dublin",
+      "name": "Physiotherapy (BSc Honours)",
+      "field": "Physiotherapy",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+        "title": "RCSI Dublin · Physiotherapy · Irish/EU school leavers · Entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "rcsieu_lc_best6",
+        "rcsieu_lc_grades",
+        "rcsieu_lc_sci_h5",
+        "rcsieu_alevel_six",
+        "rcsieu_alevel_scigsce",
+        "rcsieu_alevel_count",
+        "rcsieu_alevel_tariff",
+        "rcsieu_alevel_bonus",
+        "rcsieu_ib_english",
+        "rcsieu_ib_bonus",
+        "rcsieu_ranking",
+        "rcsieu_pt_hist"
+      ]
+    },
+    {
+      "key": "advanced-therapeutic-technologies",
+      "institutionKey": "rcsi-dublin",
+      "name": "Advanced Therapeutic Technologies (BSc Honours)",
+      "field": "Advanced Therapeutic Technologies",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+        "title": "RCSI Dublin · Advanced Therapeutic Technologies · Irish/EU school leavers · Entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "rcsieu_lc_best6",
+        "rcsieu_lc_grades",
+        "rcsieu_lc_tech",
+        "rcsieu_alevel_six",
+        "rcsieu_alevel_tech",
+        "rcsieu_alevel_count",
+        "rcsieu_alevel_tariff",
+        "rcsieu_alevel_bonus",
+        "rcsieu_ib_english",
+        "rcsieu_ib_bonus",
+        "rcsieu_ranking",
+        "rcsieu_at_hist"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "rcsi-dublin",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Irish and EU school-leaver route under RCSI's nationality and residency classification. Apply the criteria for the qualification and track listed.",
+      "requirements": [
+        {
+          "key": "rcsieu_lc_best6",
+          "label": "Irish Leaving Certificate · six-subject scoring",
+          "details": "Count the six highest recognised subject results from one sitting. A grade of H6 or better in Higher Level Mathematics earns 25 bonus points if mathematics counts among those six.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Irish Leaving Certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_lc_grades",
+          "label": "Irish Leaving Certificate · grade-to-points scale",
+          "details": "For grades 1 through 7 on the post-2017 scale, Higher Level awards 100, 88, 77, 66, 56, 46 and 37 points respectively. Ordinary Level awards 56, 46, 37, 28, 20, 12 and 0.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Irish Leaving Certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_lc_sci_h4",
+          "label": "Leaving Certificate · chemistry and a second Higher Level science",
+          "details": "For five-year Medicine or Dentistry, present H4 in chemistry and H4 in either biology or physics. The four further subjects must include Irish (unless exempt), English, mathematics and a third language at O6/H7 or better.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Irish Leaving Certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_lc_sci_h5",
+          "label": "Leaving Certificate · two H5 grades and four O6/H7 grades",
+          "details": "For six-year Medicine, Pharmacy or Physiotherapy, present six subjects with at least two H5 grades and four O6/H7 grades. Include Irish unless exempt, English, mathematics, a third language, one other recognised subject and a laboratory science: chemistry, physics, biology, physics/chemistry or agricultural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Irish Leaving Certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_lc_tech",
+          "label": "Leaving Certificate · Higher Level mathematics",
+          "details": "Earn H4 in mathematics, H5 in another subject and at least O6/H7 in the other four. Include Irish unless exempt, English, mathematics, a third language, a laboratory science and one further recognised subject. The listed sciences include biology, chemistry, physics, physics/chemistry and agricultural science.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · Irish/EU school leavers · Irish Leaving Certificate",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_six",
+          "label": "GCE entry · six recognised subjects",
+          "details": "Present six subjects, including two A levels at C or above. The four additional passes may be GCSEs at 4/C or above or A levels at E or above. Course-specific subjects also apply.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_scigsce",
+          "label": "GCSEs · laboratory science and languages",
+          "details": "For six-year Medicine, Pharmacy or Physiotherapy, include GCSE English, mathematics, a second language and a laboratory science at 4/C or above. Medicine specifies chemistry, physics or biology for the science subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_lab",
+          "label": "A levels · chemistry with biology or physics",
+          "details": "For the five-year medical track or Dentistry, earn C or better in A-level chemistry and in either A-level physics or A-level biology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_gcse_dent",
+          "label": "Dentistry · additional GCSE subjects",
+          "details": "Alongside the two specified A-level sciences, achieve GCSE 4/C or above in English, mathematics, a second language and one other subject.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+            "title": "RCSI Dublin · Dentistry · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_tech",
+          "label": "Advanced Therapeutic Technologies · A-level mathematics",
+          "details": "Achieve C or higher in A-level mathematics and one other recognised A level. The four GCSEs must include English, a second language and two further recognised subjects, each at 4/C or better.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_count",
+          "label": "GCE points · sittings and fourth subject",
+          "details": "Count the best three A levels from one sitting plus either the fourth A level from that sitting or the best AS level or Extended Project Qualification (EPQ) from that or the previous sitting. Count at most four distinct recognised subjects. A subject cannot count at both AS and A level.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_tariff",
+          "label": "GCE grades · Irish Leaving Certificate equivalent points",
+          "details": "For each of the best three A levels, grades A*, A, B, C, D and E convert to 192, 165, 142, 120, 100 and 67 points respectively. For a fourth A level, AS or EPQ, the corresponding points are 24, 24, 20, 18, 16 and 14.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_alevel_bonus",
+          "label": "GCE points · mathematics bonus",
+          "details": "A grade of E or above in a counted A-level mathematics subject earns 25 additional Irish equivalent points. Only one of mathematics, further mathematics and pure mathematics earns the bonus. Mathematics and pure mathematics cannot both count towards the points total.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_med_gcse_timing",
+          "label": "Medicine · GCE subject timing",
+          "details": "Satisfy the minimum matriculation requirements within three consecutive years across GCSE, AS and A levels.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · GCE A levels",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_ib_english",
+          "label": "IB English · language and medium of instruction",
+          "details": "English A requires HL 3 or SL 4. English B requires grade 4 at either level if the Diploma is taken through English. Otherwise English B requires HL 4 or SL 6. RCSI also accepts English evidence under the published EU/EFTA/UK entry criteria.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · IB Diploma",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_ib_bonus",
+          "label": "IB · Higher Level mathematics bonus",
+          "details": "Grade 4 or above in HL mathematics adds 25 Irish Leaving Certificate equivalent points. Mathematics Studies is ineligible for this bonus. Both Mathematics: Analysis and Approaches and Mathematics: Applications and Interpretation are recognised for entry.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · IB Diploma",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_md_points",
+          "label": "Medicine · 480-point academic eligibility threshold",
+          "details": "Meet the required subjects and achieve at least 480 Irish Leaving Certificate points or the equivalent in the same sitting of the school-leaving examination. Selection then uses both academic points and HPAT-Ireland.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Medical selection",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_md_hpat",
+          "label": "Medicine · HPAT-Ireland in the year of entry",
+          "details": "Take HPAT-Ireland in the admission year. Its result is valid for one year.",
+          "category": "standardized_test",
+          "status": "required",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · Medical selection",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_ranking",
+          "label": "Irish/EU school-leaver ranking",
+          "details": "After applicants meet subject requirements, rank them by Irish Leaving Certificate points or the equivalent for the available EU places. The final points level depends on competing applicants.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+            "title": "RCSI Dublin · Dentistry · Irish/EU school leavers · Selection by academic points",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsi-dublin",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Irish/EU school-leaver admission to Medicine in Dublin. This CAO scoring method takes effect for September 2027 entry.",
+      "requirements": [
+        {
+          "key": "rcsieu_md_newpoints",
+          "label": "From September 2027 · CAO medical selection",
+          "details": "The combined score uses full, unmoderated school-leaving points. HPAT-Ireland contributes up to 150 weighted points. The previous intake used a different calculation.",
+          "category": "standardized_test",
+          "status": "required",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · CAO selection from September 2027",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "rcsi-dublin",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "domestic",
+      "notes": "Historical guide for Irish/EU school leavers admitted in 2026. The examples describe that selection round.",
+      "requirements": [
+        {
+          "key": "rcsieu_md_hist",
+          "label": "2026 Medicine · academic results and combined selection score",
+          "details": "In 2026, entrants had 554–625 school-leaving points and HPAT scores of 170–210. Under that year's moderated system, the combined cut-off was 734, with random selection at exactly 734. For IB applicants receiving the mathematics bonus, RCSI reports 41–45 Diploma points among entrants.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · 2026 medical points guide",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_md_histgce",
+          "label": "2026 Medicine · GCE examples",
+          "details": "With the mathematics bonus, RCSI illustrates the 2026 entrants' academic range from A*A*A plus E in the fourth A level, AS or EPQ to A*A*A* plus A* or A in the fourth subject. These examples describe academic scores alongside a separate HPAT result.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements",
+            "title": "RCSI Dublin · Medicine · Irish/EU school leavers · 2026 GCE guide",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_de_hist",
+          "label": "2026 Dentistry · points and qualification examples",
+          "details": "The 2026 threshold was 613 Irish equivalent points, with random selection at 613. With the mathematics bonus, RCSI gives approximate examples of 43 IB Diploma points or three A* grades at A level plus E in a fourth A level, AS or EPQ.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/dentistry/entry-requirements",
+            "title": "RCSI Dublin · Dentistry · Irish/EU school leavers · 2026 points guide",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_ph_hist",
+          "label": "2026 Pharmacy · points and qualification examples",
+          "details": "The 2026 threshold was 577 Irish equivalent points, with random selection at 577. The IB guide gives 42 without the mathematics bonus or 40 with it. The GCE guide gives three A* grades without the bonus or A*A*A with it, plus E in a fourth A level, AS or EPQ in both cases.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/pharmacy/entry-requirements",
+            "title": "RCSI Dublin · Pharmacy · Irish/EU school leavers · 2026 points guide",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_pt_hist",
+          "label": "2026 Physiotherapy · Irish points and IB examples",
+          "details": "The 2026 guide reports 555 Irish equivalent points. RCSI gives approximately 41 IB Diploma points without the mathematics bonus or 38 with it.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/physiotherapy/entry-requirements",
+            "title": "RCSI Dublin · Physiotherapy · Irish/EU school leavers · 2026 points guide",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "rcsieu_at_hist",
+          "label": "2026 Advanced Therapeutic Technologies · points and qualification examples",
+          "details": "The 2026 guide reports 489 Irish equivalent points. It illustrates 36 IB Diploma points without the mathematics bonus or 34 with it. At GCE it illustrates AAA without the bonus or AAB with it, plus E in a fourth A level, AS or EPQ in both cases.",
+          "category": "academic",
+          "status": "considered",
+          "source": {
+            "url": "https://www.rcsi.com/dublin/undergraduate/advanced-therapeutic-technologies/entry-requirements",
+            "title": "RCSI Dublin · Advanced Therapeutic Technologies · Irish/EU school leavers · 2026 points guide",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

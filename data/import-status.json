@@ -7,12 +7,12 @@
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4123,
+            "admissionProfiles": 4131,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 26772,
+            "admissionRequirements": 26798,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1443
+            "qualificationRequirements": 1448
         },
         "ibCoverage": {
             "byCountry": [
@@ -143,7 +143,7 @@
                     "programs_with_published_totals": 151
                 }
             ],
-            "reviewedRecords": 1443,
+            "reviewedRecords": 1448,
             "programsWithReviewedIb": 1240,
             "institutionWidePolicies": 17,
             "institutionsWithReviewedIb": 50,
@@ -195,31 +195,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 4752,
-            "profiles": 1419,
+            "facts": 4778,
+            "profiles": 1422,
             "institutions": 95
         }
     },
-    "generatedAt": "2026-11-22T00:10:50Z",
+    "generatedAt": "2026-11-22T01:09:56Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
+        "inserted": 5,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-22T00:10:47.796572+00:00",
-        "updatedAt": "2026-11-22T00:10:47.813+00:00",
+        "processed": 5,
+        "startedAt": "2026-11-22T01:09:54.255584+00:00",
+        "updatedAt": "2026-11-22T01:09:54.282+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
+            "rowIndex": 5,
+            "sourceRows": 5,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T00:10:47.813+00:00",
-        "artifactSha256": "fd674f36b2b80ae8f959e337b464a47c8ef9b3a08241d46eddf957ebe64cdf2d",
-        "datasetVersion": "official-ib-sgu-grenada-medical-veterinary-2026-11-22-v1"
+        "finishedAt": "2026-11-22T01:09:54.282+00:00",
+        "artifactSha256": "16a16d889a2120cf4a588838038d239e4085b65636a17edafb43a89f40db1335",
+        "datasetVersion": "official-ib-rcsi-dublin-eu-school-leavers-2026-11-22-v1"
     },
     "schemaVersion": 2
 }
