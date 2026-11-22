@@ -1,4 +1,13 @@
-# Admissions checkpoint — 2026-11-21
+# Admissions checkpoint — 2026-11-22
+
+## Fiji National University · engineering, science and technology awards
+
+1. Matched the database to the Dublin checkpoint and checked the original 2027 prospectus against its archived SHA-256. [FNU prospectus](https://www.fnu.ac.fj/study/2027-fnu-prospectus/)
+2. Reviewed pages 63–81. The tables identify 54 awards for 2027. The mathematics postgraduate diploma appears twice with different campus lists and is counted once. Page 76 truncates an engineering degree title. The separately published Electronics/Instrumentation and Control honours degree has an undated admissions record based on its own programme page. [FNU programme 161](https://www.fnu.ac.fj/study/program/?program=161)
+3. Added 55 programmes and 89 requirements. The 315 programme associations include 114 links to previously reviewed requirements. For 39 undergraduate awards, FNU expresses the IB route as an unweighted GPA of 2.29 and a weighted GPA of 2.86. These awards do not contribute to the count of numeric IB Diploma points. Planning applicants with an architecture or civil engineering diploma must also complete GIS I (URP502) for year-two entry.
+4. Import previews and repeat imports wrote zero records. Earlier records passed content fingerprint comparisons. The rebuilt API contains all three verified data files. The full database archive passed a restore-stream read (SHA-256 `6f9e669507433e9dcad3c0a179da3fd4e4e8fae2ce8bc0456ae42e8b2cc8caa0`).
+5. Local website queries checked 55 new and 126 previous courses, all 315 new associations and all 39 new IB records. Rendered searches verified drafting, planning, MSc biology and the separately sourced Samabula honours degree.
+6. The database contains 28,171 institutions, 282,134 programmes, 4,117 admissions profiles and 26,737 requirements. The reviewed collection contains 4,717 general facts across 94 institutions, alongside 1,441 IB records. There are 806 programmes with published numeric IB totals. The next regional rotation covers medical and veterinary admissions in Grenada. The Fiji humanities and health colleges remain queued.
 
 ## RCSI Dublin, Ireland · September 2027 non-EU entry routes
 

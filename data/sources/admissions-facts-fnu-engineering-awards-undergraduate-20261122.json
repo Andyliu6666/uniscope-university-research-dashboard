@@ -1,0 +1,2033 @@
+{
+  "datasetVersion": "official-admissions-fnu-engineering-awards-undergraduate-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "fnu",
+      "name": "Fiji National University",
+      "provider": "ror",
+      "externalId": "00qk2nf71",
+      "countryCode": "FJ",
+      "officialDomains": ["fnu.ac.fj"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "cetvet_34",
+      "institutionKey": "fnu",
+      "name": "Diploma in Information Technology (Level 5)",
+      "level": "undergraduate",
+      "field": "Information Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_it5", "fnu27cet_loc_0"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_35",
+      "institutionKey": "fnu",
+      "name": "Diploma in Occupational Health and Safety (Level 5)",
+      "level": "undergraduate",
+      "field": "Occupational Health and Safety",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_ohs5", "fnu27cet_ohs4", "fnu27cet_loc_0"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_36",
+      "institutionKey": "fnu",
+      "name": "Diploma in Architectural Drafting (Level 6)",
+      "level": "undergraduate",
+      "field": "Architectural Drafting",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_draft",
+        "fnu27cet_level4",
+        "fnu27cet_supervise",
+        "fnu27cet_green"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_37",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Automotive) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Automotive",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_auto_prev",
+        "fnu27cet_auto_yr",
+        "fnu27cet_auto_work",
+        "fnu27cet_auto_exit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_38",
+      "institutionKey": "fnu",
+      "name": "Diploma in Construction (Level 6)",
+      "level": "undergraduate",
+      "field": "Construction",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_level4",
+        "fnu27cet_supervise",
+        "fnu27cet_construct",
+        "fnu27cet_fiveyears"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_39",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Agricultural) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Agricultural",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_level4", "fnu27cet_agr", "fnu27cet_exception"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_40",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Electronics, Telecommunication and Control) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Electronics, Telecommunication and Control",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_e_school",
+        "fnu27cet_regional",
+        "fnu27cet_eprev",
+        "fnu27cet_age17review"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_age17"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_alt_school"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_41",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Electronics, Telecommunication and Networking) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Electronics, Telecommunication and Networking",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_e_school",
+        "fnu27cet_regional",
+        "fnu27cet_eprev",
+        "fnu27cet_age17review"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_age17"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_alt_school"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_42",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Renewable and Sustainable) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Renewable and Sustainable",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 66",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_level4", "fnu27cet_exception", "fnu27cet_renew"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_43",
+      "institutionKey": "fnu",
+      "name": "Diploma in Land Surveying (Level 6)",
+      "level": "undergraduate",
+      "field": "Land Surveying",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 66",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_level4",
+        "fnu27cet_supervise",
+        "fnu27cet_survey",
+        "fnu27cet_fiveyears"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_44",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Plant) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Plant",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 67",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_level4", "fnu27cet_exception", "fnu27cet_plant"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_45",
+      "institutionKey": "fnu",
+      "name": "Diploma in Transport Technology and Management (Roads) (Level 6)",
+      "level": "undergraduate",
+      "field": "Transport Technology and Management (Roads",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 67",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_auto_prev",
+        "fnu27cet_roads_yr",
+        "fnu27cet_auto_work",
+        "fnu27cet_auto_exit"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_46",
+      "institutionKey": "fnu",
+      "name": "Diploma in Quantity Surveying (Level 6)",
+      "level": "undergraduate",
+      "field": "Quantity Surveying",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_level4",
+        "fnu27cet_supervise",
+        "fnu27cet_survey",
+        "fnu27cet_fiveyears"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_47",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Civil) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Civil",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_level4", "fnu27cet_civil", "fnu27cet_civil_exp"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_48",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Electrical) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Electrical",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_regional",
+        "fnu27cet_age17review",
+        "fnu27cet_elec",
+        "fnu27cet_elecprev"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_age17"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_alt_school"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_49",
+      "institutionKey": "fnu",
+      "name": "Diploma in Engineering (Mechanical) (Level 6)",
+      "level": "undergraduate",
+      "field": "Engineering (Mechanical",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_level4", "fnu27cet_exception", "fnu27cet_renew"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_50",
+      "institutionKey": "fnu",
+      "name": "Diploma in Environmental Science (Level 6)",
+      "level": "undergraduate",
+      "field": "Environmental Science",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_env", "fnu27cet_found20", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_51",
+      "institutionKey": "fnu",
+      "name": "Diploma in Environmental Management (Level 6)",
+      "level": "undergraduate",
+      "field": "Environmental Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_env", "fnu27cet_found20", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_52",
+      "institutionKey": "fnu",
+      "name": "Diploma in Food Technology (Level 6)",
+      "level": "undergraduate",
+      "field": "Food Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_food", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_53",
+      "institutionKey": "fnu",
+      "name": "Diploma in Industrial Laboratory Technology (Level 6)",
+      "level": "undergraduate",
+      "field": "Industrial Laboratory Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bio", "fnu27cet_loc_2"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_54",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Information Systems",
+      "level": "undergraduate",
+      "field": "Information Systems",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_isc",
+        "fnu27cet_foundation30",
+        "fnu27cet_ap21",
+        "fnu27cet_loc_3"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_55",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Biology and Chemistry",
+      "level": "undergraduate",
+      "field": "Biology and Chemistry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 71",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bio", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_56",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Biology and Physics",
+      "level": "undergraduate",
+      "field": "Biology and Physics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 71",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bio", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_57",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Biology and Mathematics",
+      "level": "undergraduate",
+      "field": "Biology and Mathematics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 71",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bio", "fnu27cet_loc_3"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_58",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science (Chemistry and Mathematics)",
+      "level": "undergraduate",
+      "field": "Science (Chemistry and Mathematics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_found20",
+        "fnu27cet_chem",
+        "fnu27cet_chem_docs",
+        "fnu27cet_loc_1"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_59",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science (Computer Science and Information Systems)",
+      "level": "undergraduate",
+      "field": "Science (Computer Science and Information Systems",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_isc",
+        "fnu27cet_ap21",
+        "fnu27cet_foundation25",
+        "fnu27cet_loc_4"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_60",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science (Mathematics and Computer Science)",
+      "level": "undergraduate",
+      "field": "Science (Mathematics and Computer Science",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_isc",
+        "fnu27cet_ap21",
+        "fnu27cet_foundation25",
+        "fnu27cet_loc_4"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_61",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Environmental Management",
+      "level": "undergraduate",
+      "field": "Environmental Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 73",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_env", "fnu27cet_found20", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_62",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Environmental Science",
+      "level": "undergraduate",
+      "field": "Environmental Science",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 73",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_env", "fnu27cet_found20", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_63",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Food Technology",
+      "level": "undergraduate",
+      "field": "Food Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 73",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_food",
+        "fnu27cet_foodprev",
+        "fnu27cet_food_mature",
+        "fnu27cet_loc_1"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_64",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Food Technology and Biology",
+      "level": "undergraduate",
+      "field": "Food Technology and Biology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_food",
+        "fnu27cet_foodprev",
+        "fnu27cet_food_mature",
+        "fnu27cet_loc_1"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_65",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Food Technology and Chemistry",
+      "level": "undergraduate",
+      "field": "Food Technology and Chemistry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_food",
+        "fnu27cet_foodprev",
+        "fnu27cet_labprev",
+        "fnu27cet_food_mature",
+        "fnu27cet_loc_1"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_66",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science in Mathematics and Physics",
+      "level": "undergraduate",
+      "field": "Mathematics and Physics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_mathphys", "fnu27cet_loc_5"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_67",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Science (Chemistry and Physics)",
+      "level": "undergraduate",
+      "field": "Science (Chemistry and Physics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_food", "fnu27cet_labprev", "fnu27cet_loc_1"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_mature_relevant"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_68",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Urban and Regional Planning (Honours)",
+      "level": "undergraduate",
+      "field": "Urban and Regional Planning (Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_planning",
+        "fnu27cet_planning_bridge",
+        "fnu27cet_planning_mature"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_69",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Engineering (Civil) with Honours",
+      "level": "undergraduate",
+      "field": "Engineering (Civil) with Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_regional",
+        "fnu27cet_foundation30",
+        "fnu27cet_ap21",
+        "fnu27cet_eng13",
+        "fnu27cet_revision",
+        "fnu27cet_eng_tvet",
+        "fnu27cet_eng_age",
+        "fnu27cet_engdip_69",
+        "fnu27cet_engquota"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_70",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Engineering (Electrical) with Honours",
+      "level": "undergraduate",
+      "field": "Engineering (Electrical) with Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 76",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_regional",
+        "fnu27cet_foundation30",
+        "fnu27cet_ap21",
+        "fnu27cet_eng13",
+        "fnu27cet_revision",
+        "fnu27cet_eng_tvet",
+        "fnu27cet_eng_age",
+        "fnu27cet_engdip_70"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_71",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Engineering (Electronics/Instrumentation and Control) with Honours",
+      "level": "undergraduate",
+      "field": "Engineering (Electronics/Instrumentation and Control) with Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/program/?program=161",
+        "title": "FNU programme 161 · Electronics / Instrumentation and Control with Honours · entry requirements",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_inst13",
+        "fnu27cet_inst_transfer",
+        "fnu27cet_inst_alt",
+        "fnu27cet_inst_campus"
+      ]
+    },
+    {
+      "key": "cetvet_72",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Engineering (Electronics/Telecommunication and Networking) with Honours",
+      "level": "undergraduate",
+      "field": "Engineering (Electronics/Telecommunication and Networking) with Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 77",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_regional",
+        "fnu27cet_foundation30",
+        "fnu27cet_ap21",
+        "fnu27cet_eng13",
+        "fnu27cet_revision",
+        "fnu27cet_eng_tvet",
+        "fnu27cet_eng_age",
+        "fnu27cet_engdip_72"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    },
+    {
+      "key": "cetvet_73",
+      "institutionKey": "fnu",
+      "name": "Bachelor of Engineering (Mechanical) with Honours",
+      "level": "undergraduate",
+      "field": "Engineering (Mechanical) with Honours",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 77",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_regional",
+        "fnu27cet_foundation30",
+        "fnu27cet_ap21",
+        "fnu27cet_eng13",
+        "fnu27cet_revision",
+        "fnu27cet_eng_tvet",
+        "fnu27cet_eng_age",
+        "fnu27cet_engdip_73"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_atarc"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_act20"
+        },
+        {
+          "datasetVersion": "official-admissions-fnu-engineering-certificates-2027-2026-11-21-v1",
+          "key": "fnu27eng_location_2"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_it5",
+          "label": "Year 12 for the Level 5 IT diploma",
+          "details": "Pass Fiji Year 12 with an aggregate of 200/400.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_ohs5",
+          "label": "Year 12 or Form 6 for the safety diploma",
+          "details": "The Year 12 or Form 6 route requires 200/400, with 50% in English and three other subjects.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_draft",
+          "label": "Architectural drafting school entry",
+          "details": "Direct first-stage entry requires Fiji Year 12 or equivalent with at least 50% in English and in a science subject such as chemistry, technical drawing or computer studies.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_auto_yr",
+          "label": "Automotive engineering school subjects",
+          "details": "Achieve at least 200/400 in Fiji Year 12 or Year 13. The row requires at least 50% in four subjects and names English, mathematics and another science or technical subject. Confirm the fourth subject with the college.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_roads_yr",
+          "label": "Roads diploma school subjects",
+          "details": "Fiji Year 12 or Year 13 requires at least 200/400 and a minimum of 50% in each of four subjects. The row names English and a science or technical subject but does not identify the full combination.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 67",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_auto_exit",
+          "label": "Full-time sequence and exit award",
+          "details": "The programme spans six full-time semesters. Follow the prerequisite sequence from Year 1 to Year 3. The exit point is the end of Year 3 at Level 6.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64, 67",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_construct",
+          "label": "Construction school grades",
+          "details": "Pass the Fiji School Leaving Certificate after twelve years of continuous schooling or an equivalent qualification with 200/400. English and three science or technology subjects must each reach 50%.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_survey",
+          "label": "Surveying school grades",
+          "details": "Pass the Fiji School Leaving Certificate or equivalent at 200/400 after twelve years of schooling, with at least 50% in English, mathematics and two science or technology subjects.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 66, 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_agr",
+          "label": "Agricultural engineering school subjects",
+          "details": "Pass the Fiji School Leaving Certificate or equivalent with at least 50% in mathematics, English, physics and one of agriculture, chemistry, technical drawing, metal technology, introduction to technology or computer studies.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_e_school",
+          "label": "Electronics diploma school grades",
+          "details": "Pass Fiji Year 12 or an equivalent qualification with 200/400. Obtain at least 50% in English, mathematics, a subject from physics, technical drawing or applied technology, and one other related science or technology subject.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_regional",
+          "label": "Review of equivalent regional and international results",
+          "details": "Equivalent regional or international school results are reviewed individually.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65, 68, 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_renew",
+          "label": "Renewable or mechanical engineering school grades",
+          "details": "Pass the Fiji School Leaving Certificate or equivalent after twelve years of schooling. Obtain at least 50% in English, mathematics, physics or introduction to technology, and one of chemistry, technical drawing, metal technology or computer studies.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 66, 69",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_plant",
+          "label": "Plant engineering school subjects",
+          "details": "The Fiji School Leaving Certificate or equivalent requires at least 50% in mathematics, English and physics. The next printed line also lists introduction to technology and one of chemistry, technical drawing, metal technology or computer studies. Confirm the grouping with the college.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 67",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_civil",
+          "label": "School subjects for civil engineering",
+          "details": "For direct first-stage entry, pass Fiji Year 12 or its equivalent with at least 50% in mathematics, English, physics and a science subject such as chemistry, technical drawing or computer studies.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_elec",
+          "label": "Electrical diploma school grades",
+          "details": "Pass Fiji Year 12 or equivalent with 200/400. English and mathematics require at least 50%. For the other subjects FNU lists physics, technical drawing or applied technology and/or one other related science or technology subject.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_env",
+          "label": "Environmental programmes: science subjects",
+          "details": "Pass Fiji Year 13 at 200/400. English, mathematics and two from biology, agriculture, physics, chemistry or geography each require at least 50%.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69, 73",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_food",
+          "label": "Food and science subjects at Year 13",
+          "details": "Pass Fiji Year 13 with 200/400. Achieve 50% or higher in English and in three of food and nutrition, biology, chemistry, mathematics or physics.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 73, 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_bio",
+          "label": "Year 13 or Foundation Science for laboratory and science courses",
+          "details": "The listed routes are Fiji Year 13 at 200/400 or Foundation Science or its equivalent. The subject emphasis is mathematics, English and two of biology, chemistry or physics.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 71",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_isc",
+          "label": "Year 13 for information and computing degrees",
+          "details": "Pass Fiji Year 13 with 200/400, with 50% or better in English, mathematics and two other subjects.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 72",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_chem",
+          "label": "Chemistry and Mathematics school entry",
+          "details": "Fiji Year 13 requires an aggregate of 200 plus 50% in each of English, mathematics and chemistry.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_mathphys",
+          "label": "Mathematics and Physics school entry",
+          "details": "Pass Fiji Year 13 at 200/400, with emphasis on mathematics, English, physics and either biology or chemistry.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_planning",
+          "label": "School grades for planning",
+          "details": "Arts and science applicants need the Fiji Seventh Form examination (Year 13) or equivalent, with 250/400 from passes in English, mathematics and their two best other subjects.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_eng13",
+          "label": "Year 13 entrance to honours engineering",
+          "details": "Pass Fiji Year 13 with 250/400 overall and passes in English, mathematics, physics and one further science or technology subject, such as technical drawing, applied technology or chemistry.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_revision",
+          "label": "Engineering school results review",
+          "details": "The college and school can revise the entry rules with approval from the relevant academic boards.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_engquota",
+          "label": "Civil Engineering selection",
+          "details": "The civil honours engineering degree is listed as quota based. The table gives no number of places.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_0",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Ba, Namaka, Nasinu.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_1",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Lautoka, Nabua.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69, 70, 71, 72, 73, 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_2",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Nabua.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_3",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Ba, Labasa, Lautoka, Nadi, Nasinu.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 71",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_4",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Lautoka, Nasinu.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_5",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Lautoka, Nadi, Nasinu.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_ohs4",
+          "label": "Occupational health and safety certificate progression",
+          "details": "The Level 4 Certificate in Occupational Health and Safety is an alternative entry qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_level4",
+          "label": "Relevant Level IV certificate",
+          "details": "Applicants with a relevant Level IV certificate or equivalent may be admitted.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63, 64, 65, 66, 67, 68, 69",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_supervise",
+          "label": "First Line Supervision certificate",
+          "details": "A Certificate in First Line Supervision or an equivalent in the relevant discipline is an alternative entry qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63, 64, 66, 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_green",
+          "label": "Architectural drafting industry route",
+          "details": "Mature entrants need five years of relevant industry experience and Green Building Training, with approval from the head of department and dean.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 63",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_auto_prev",
+          "label": "Prior automotive award",
+          "details": "A trade certificate or a Level 4 certificate in Automotive Engineering with a major in an automotive stream is accepted.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64, 67",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_auto_work",
+          "label": "Industry responsibility for mature entry",
+          "details": "Mature applicants may qualify through extensive industrial experience in a responsible or key automotive industry role. Selection follows the university’s UASR guidelines.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64, 67",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_fiveyears",
+          "label": "Industry entry with dean approval",
+          "details": "Five years of relevant industrial experience can qualify a mature applicant, subject to the college dean’s approval.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 64, 66, 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_exception",
+          "label": "Exceptional industry entry",
+          "details": "The college may consider mature applicants with relevant industrial experience in exceptional circumstances.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65, 66, 67, 69",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_eprev",
+          "label": "Level 4 electronics entry",
+          "details": "Complete a Level 4 Certificate in Electronics Engineering. The table also uses the title Certificate IV in Electronics Engineering.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_age17review",
+          "label": "Individual review of the alternative entry route",
+          "details": "FNU reviews each age-17 application on its merits.",
+          "status": "conditional",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 65, 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_civil_exp",
+          "label": "Civil engineering experience route",
+          "details": "The college dean may approve mature applicants with relevant industrial experience.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_elecprev",
+          "label": "Level 4 electrical entry",
+          "details": "Complete the Certificate IV or Level 4 Certificate in Electrical Engineering.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 68",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_found20",
+          "label": "Foundation Science at GPA 2.00",
+          "details": "Foundation Science with GPA 2.00 or higher is an alternative to the school-leaver qualification.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 69, 72, 73",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_foundation30",
+          "label": "Foundation Science at GPA 3.00",
+          "details": "The Foundation Science route requires GPA 3.00 or above.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_ap21",
+          "label": "Nonstandard entry at age 21",
+          "details": "Applicants outside the usual continuous schooling route may demonstrate readiness through maturity, work experience or prior learning. The prospectus specifies age 21.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 70, 72, 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_chem_docs",
+          "label": "Documents for alternative entry",
+          "details": "Submit the items in UASR sections 1.3.1–1.3.7, available tertiary or other qualification results, an employer letter and a CV.",
+          "status": "conditional",
+          "category": "document",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_foundation25",
+          "label": "Foundation Science at GPA 2.50",
+          "details": "A Foundation Science GPA of at least 2.50 meets the separate foundation route.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 72",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_foodprev",
+          "label": "Previous food technology diploma",
+          "details": "Holders of the Higher Education Diploma in Food Technology may apply.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 73, 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_labprev",
+          "label": "Previous laboratory technology diploma",
+          "details": "The Higher Education Diploma in Industrial Laboratory Technology is a listed route.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_food_mature",
+          "label": "Year 13 conditions on the mature food technology route",
+          "details": "Applicants using relevant experience must also satisfy the course’s Year 13 aggregate and subject minima.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 73, 74",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_planning_mature",
+          "label": "Planning recognition of prior learning",
+          "details": "Mature applicants without the usual thirteen years of progression may be considered on relevant work experience and prior learning.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_eng_age",
+          "label": "Conditions on mature entry",
+          "details": "FNU requires acceptable secondary schooling and decides each age-21 application individually.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_planning_bridge",
+          "label": "Second-year planning entry from a diploma",
+          "details": "Relevant trade, standard or advanced diplomas in land surveying admit directly to the second year. For architecture or civil engineering diplomas, complete Geographic Information System I (URP502) as the bridging unit.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_eng_tvet",
+          "label": "Technical awards and prior learning",
+          "details": "TVET qualifications are reviewed through an articulation pathway. FQF Level 7 degree holders are considered through recognition of prior learning.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75, 76, 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_engdip_69",
+          "label": "Civil diploma progression",
+          "details": "Two entry options are the Level 6 Diploma in Engineering (Civil) under the articulation requirements and the Trade Diploma in Engineering (Civil).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 75",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_engdip_70",
+          "label": "Electrical diploma progression",
+          "details": "Two entry options are the Level 6 Diploma in Engineering (Electrical) under the articulation requirements and the Trade Diploma in Engineering (Electrical).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 76",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_engdip_72",
+          "label": "Electronics diploma progression",
+          "details": "Two entry options are the Level 6 Diploma in Engineering (Electronics) under the articulation requirements and the Trade Diploma in Engineering (Electronics).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 77",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_engdip_73",
+          "label": "Mechanical diploma progression",
+          "details": "Two entry options are the Level 6 Diploma in Engineering (Mechanical) under the articulation requirements and the Trade Diploma in Engineering (Mechanical).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 77",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_inst13",
+          "label": "School and foundation entry",
+          "details": "Pass Fiji Year 13 with 250/400 overall and passes in English, mathematics, physics and one further science or technology subject, such as technical drawing, applied technology or chemistry. Regional and international equivalents are assessed individually. Foundation Science with GPA at least 3.0 is an alternative.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/program/?program=161",
+            "title": "FNU programme 161 · Electronics / Instrumentation and Control with Honours · entry requirements",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_inst_campus",
+          "label": "Location and duration",
+          "details": "The named programme page lists Samabula and four years. It does not specify an application year.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/program/?program=161",
+            "title": "FNU programme 161 · Electronics / Instrumentation and Control with Honours · entry requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_inst_transfer",
+          "label": "Electrical diploma and technical qualification entry",
+          "details": "The named programme page accepts the Level 6 Diploma in Engineering (Electrical) under its articulation requirements or a Trade Diploma in Engineering (Electrical). TVET qualifications use the articulation process. FQF Level 7 degrees use recognition of prior learning.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/program/?program=161",
+            "title": "FNU programme 161 · Electronics / Instrumentation and Control with Honours · entry requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "undergraduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_inst_alt",
+          "label": "Alternative entry at age 21",
+          "details": "Applicants outside continuous schooling may be considered individually at age 21 with acceptable secondary education and evidence of readiness from maturity, work or prior learning.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/program/?program=161",
+            "title": "FNU programme 161 · Electronics / Instrumentation and Control with Honours · entry requirements",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}

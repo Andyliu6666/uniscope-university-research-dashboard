@@ -1,0 +1,597 @@
+{
+  "datasetVersion": "official-admissions-fnu-engineering-awards-graduate-2026-11-22-v1",
+  "reviewedOn": "2026-11-22",
+  "institutions": [
+    {
+      "key": "fnu",
+      "name": "Fiji National University",
+      "provider": "ror",
+      "externalId": "00qk2nf71",
+      "countryCode": "FJ",
+      "officialDomains": ["fnu.ac.fj"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "cetvet_74",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Biology",
+      "level": "graduate",
+      "field": "Biology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bsc35", "fnu27cet_grad_work", "fnu27cet_loc_6"]
+    },
+    {
+      "key": "cetvet_75",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Chemistry",
+      "level": "graduate",
+      "field": "Chemistry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_bsc35", "fnu27cet_grad_work", "fnu27cet_loc_6"]
+    },
+    {
+      "key": "cetvet_76",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Physics",
+      "level": "graduate",
+      "field": "Physics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_phys_bsc", "fnu27cet_grad_work", "fnu27cet_loc_7"]
+    },
+    {
+      "key": "cetvet_77",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Environmental Science and Management",
+      "level": "graduate",
+      "field": "Environmental Science and Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_env_bsc", "fnu27cet_grad_work", "fnu27cet_loc_8"]
+    },
+    {
+      "key": "cetvet_78",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Food Science and Technology",
+      "level": "graduate",
+      "field": "Food Science and Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_food_bsc", "fnu27cet_grad_work", "fnu27cet_loc_8"]
+    },
+    {
+      "key": "cetvet_79",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Science (Mathematics)",
+      "level": "graduate",
+      "field": "Science (Mathematics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_pgmath", "fnu27cet_pgmath_exp", "fnu27cet_pgmath_sites"]
+    },
+    {
+      "key": "cetvet_81",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Computer Science",
+      "level": "graduate",
+      "field": "Computer Science",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_grad_work", "fnu27cet_pgcs", "fnu27cet_loc_9"]
+    },
+    {
+      "key": "cetvet_82",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Cybersecurity",
+      "level": "graduate",
+      "field": "Cybersecurity",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_grad_work", "fnu27cet_pgis", "fnu27cet_loc_9"]
+    },
+    {
+      "key": "cetvet_83",
+      "institutionKey": "fnu",
+      "name": "Postgraduate Diploma in Information Systems",
+      "level": "graduate",
+      "field": "Information Systems",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_grad_work", "fnu27cet_pgis", "fnu27cet_loc_9"]
+    },
+    {
+      "key": "cetvet_84",
+      "institutionKey": "fnu",
+      "name": "Master of Science in Biology",
+      "level": "graduate",
+      "field": "Biology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_grad_work",
+        "fnu27cet_ms_bio",
+        "fnu27cet_year2_biology",
+        "fnu27cet_loc_6"
+      ]
+    },
+    {
+      "key": "cetvet_85",
+      "institutionKey": "fnu",
+      "name": "Master of Science in Chemistry",
+      "level": "graduate",
+      "field": "Chemistry",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_grad_work",
+        "fnu27cet_ms_chem",
+        "fnu27cet_year2_chemistry",
+        "fnu27cet_loc_6"
+      ]
+    },
+    {
+      "key": "cetvet_86",
+      "institutionKey": "fnu",
+      "name": "Master of Science in Physics",
+      "level": "graduate",
+      "field": "Physics",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_grad_work",
+        "fnu27cet_ms_phys",
+        "fnu27cet_year2_physics",
+        "fnu27cet_loc_7"
+      ]
+    },
+    {
+      "key": "cetvet_87",
+      "institutionKey": "fnu",
+      "name": "Master of Science in Environmental Science and Management",
+      "level": "graduate",
+      "field": "Environmental Science and Management",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": [
+        "fnu27cet_grad_work",
+        "fnu27cet_msenv1",
+        "fnu27cet_msenv2",
+        "fnu27cet_loc_8"
+      ]
+    },
+    {
+      "key": "cetvet_88",
+      "institutionKey": "fnu",
+      "name": "Master of Engineering, Science and Technology by Research",
+      "level": "graduate",
+      "field": "Engineering, Science and Technology by Research",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_res_m", "fnu27cet_res_prof", "fnu27cet_grad_sites"]
+    },
+    {
+      "key": "cetvet_89",
+      "institutionKey": "fnu",
+      "name": "Doctor of Philosophy (Engineering, Science and Technology)",
+      "level": "graduate",
+      "field": "Engineering, Science and Technology",
+      "source": {
+        "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+        "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+        "checkedOn": "2026-11-22"
+      },
+      "sharedRequirementKeys": ["fnu27cet_res_d", "fnu27cet_res_prof", "fnu27cet_grad_sites"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_bsc35",
+          "label": "Science degree for postgraduate entry",
+          "details": "A BSc or equivalent at GPA 3/5 or above (grade B or better) is the standard academic route.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_phys_bsc",
+          "label": "Physics postgraduate diploma entry",
+          "details": "Present a BSc with GPA of at least 3/5, corresponding to grade B or above.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_env_bsc",
+          "label": "Environmental postgraduate diploma entry",
+          "details": "Normally complete a BSc in environmental science or management, or equivalent, with GPA at least 3/5 (B or higher).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_food_bsc",
+          "label": "Food science postgraduate diploma entry",
+          "details": "A BSc or equivalent with GPA 3 or letter grade B or above is the published academic route. The row does not specify a GPA denominator.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_pgmath",
+          "label": "Mathematics postgraduate diploma entry",
+          "details": "Present a BSc with a mathematics major and GPA of at least 3.0 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_pgcs",
+          "label": "Degree backgrounds for postgraduate Computer Science",
+          "details": "The listed degrees are BSc in CS/IS, BEd in CS, BIS or BSc in Mathematics/CS. The entry GPA is at least 3/5 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_pgis",
+          "label": "Degrees accepted for Cybersecurity and Information Systems",
+          "details": "Accepted degrees are a BSc in CS/IS, BIS, BCom in Information Systems or BEd in Information Systems, with GPA at least 3/5 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_ms_bio",
+          "label": "Postgraduate diploma for the Biology master’s",
+          "details": "Present a postgraduate diploma or equivalent with GPA at least 3/5 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_ms_chem",
+          "label": "Chemistry master’s admission",
+          "details": "Present a postgraduate diploma in chemistry or equivalent with GPA at least 3/5 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_ms_phys",
+          "label": "Physics master’s admission",
+          "details": "The postgraduate diploma in physics requires GPA at least 3/5 (B or above).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_msenv1",
+          "label": "Year 1 environmental science pathway",
+          "details": "A BSc or equivalent with GPA of 3 or above can support enrolment in the Postgraduate Diploma in Environmental Science and Management as the first year of the MSc.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_res_m",
+          "label": "Academic routes to the research master’s",
+          "details": "The routes are a postgraduate diploma at GPA 3.00 or above or a recognised equivalent, a bachelor’s at GPA 3.5, an honours bachelor’s at GPA 3.00 from a recognised institution, or a coursework master’s.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_res_d",
+          "label": "Academic routes to the doctorate",
+          "details": "Present a research master’s, a coursework master’s at GPA 4.0 or higher plus a research methods course, or an honours bachelor’s at GPA 4.0 or higher or with first- or upper-second-class honours. Qualifications must be from a recognised institution.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_6",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Labasa, Nabua, Natabua.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78, 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_8",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Lautoka, Nabua.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78, 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_loc_9",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face and blended study at Lautoka, Nasinu.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_pgmath_sites",
+          "label": "Mathematics campus listings",
+          "details": "Two rows describe the same award and identical entry requirements. The first lists Lautoka and Nabua. The second lists Derrick, Labasa and Lautoka. Both list face-to-face and blended study. Confirm the preferred campus when applying.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_grad_sites",
+          "label": "Delivery of research degrees",
+          "details": "The prospectus lists face-to-face and blended study without identifying a campus in either research-degree row.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "other",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_grad_work",
+          "label": "Experience when the standard GPA is unmet",
+          "details": "At least two years in a relevant teaching, research or industry role may demonstrate sufficient knowledge and readiness for higher study when the academic GPA requirement is unmet.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78, 79, 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_pgmath_exp",
+          "label": "Post-degree preparation in mathematics",
+          "details": "Below the stated GPA, demonstrate adequate preparation since graduation through approved academic courses, professional training in employment or peer-reviewed publications.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 79",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_res_prof",
+          "label": "Professional evidence of research ability",
+          "details": "Professional work can demonstrate entry qualifications. The dean assesses research reports, dissertations, publications or other work showing knowledge of the field and the ability to conduct research and write a thesis.",
+          "status": "conditional",
+          "category": "experience",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 81",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "unspecified",
+      "entryType": "transfer",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_year2_biology",
+          "label": "Entry to Year 2 with a subject diploma",
+          "details": "The postgraduate diploma in biology provides lateral entry to Year 2 of the corresponding MSc.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_year2_chemistry",
+          "label": "Entry to Year 2 with a subject diploma",
+          "details": "The postgraduate diploma in chemistry provides lateral entry to Year 2 of the corresponding MSc.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_year2_physics",
+          "label": "Entry to Year 2 with a subject diploma",
+          "details": "The postgraduate diploma in physics provides lateral entry to Year 2 of the corresponding MSc.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        },
+        {
+          "key": "fnu27cet_msenv2",
+          "label": "Year 2 environmental science entry",
+          "details": "To enter Year 2, present the Postgraduate Diploma in Environmental Science and Management with GPA 3/5 (grade B).",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 80",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "fnu",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "deliveryMode": "campus",
+      "entryType": "first_year",
+      "level": "graduate",
+      "applicantType": "all",
+      "notes": "Programme-specific entry and progression routes at Fiji National University. See the cited qualification and intake.",
+      "requirements": [
+        {
+          "key": "fnu27cet_loc_7",
+          "label": "Listed campuses and delivery",
+          "details": "FNU lists face-to-face study at Labasa, Nabua, Natabua.",
+          "status": "considered",
+          "category": "application",
+          "source": {
+            "url": "https://www.fnu.ac.fj/study/2027-fnu-prospectus/",
+            "title": "FNU 2027 prospectus · Engineering and Technical Vocational Education and Training · pp. 78, 80",
+            "checkedOn": "2026-11-22"
+          }
+        }
+      ]
+    }
+  ]
+}
