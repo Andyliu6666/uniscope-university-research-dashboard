@@ -1,0 +1,1449 @@
+{
+  "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "venda",
+      "name": "University of Venda",
+      "provider": "ror",
+      "externalId": "0338xea48",
+      "countryCode": "ZA",
+      "officialDomains": ["univen.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "venda-hsbams",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts (Media Studies) (HSBAMS)",
+      "level": "undergraduate",
+      "field": "Media Studies",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts (Media Studies) · HSBAMS · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-media-studies-hsbams/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_media_lang",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbba",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts (HSBBA)",
+      "level": "undergraduate",
+      "field": "Arts",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts · HSBBA · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbads",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts in Development Studies (HSBADS)",
+      "level": "undergraduate",
+      "field": "Development Studies",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts in Development Studies · HSBADS · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-development-studies/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_history_econ",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbiks",
+      "institutionKey": "venda",
+      "name": "Bachelor of Indigenous Knowledge Systems (HSBIKS)",
+      "level": "undergraduate",
+      "field": "Indigenous Knowledge Systems",
+      "source": {
+        "title": "University of Venda · Bachelor of Indigenous Knowledge Systems · HSBIKS · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-indigenous-knowledge-systems/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbalp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts in Language Practice (HSBALP)",
+      "level": "undergraduate",
+      "field": "Language Practice",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts in Language Practice · HSBALP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-in-language-practice/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_lang_practice",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbael",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts (English Language and Literature) (HSBAEL)",
+      "level": "undergraduate",
+      "field": "English Language and Literature",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts (English Language and Literature) · HSBAEL · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-english-language-and-literature/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbair",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts in International Relations (HSBAIR)",
+      "level": "undergraduate",
+      "field": "International Relations",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts in International Relations · HSBAIR · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-in-international-relations/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_history_econ",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbayd",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts in Youth Development (HSBAYD)",
+      "level": "undergraduate",
+      "field": "Youth Development",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts in Youth Development · HSBAYD · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-in-youth-development/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbbah",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts (History) (HSBBAH)",
+      "level": "undergraduate",
+      "field": "History",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts (History) · HSBBAH · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-history/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_english50",
+        "venda_hh_history",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbbt",
+      "institutionKey": "venda",
+      "name": "Bachelor of Theology (HSBBT)",
+      "level": "undergraduate",
+      "field": "Theology",
+      "source": {
+        "title": "University of Venda · Bachelor of Theology · HSBBT · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-theology/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps30",
+        "venda_hh_theology_rpl",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-hschcm",
+      "institutionKey": "venda",
+      "name": "Higher Certificate in Music (HSCHCM)",
+      "level": "undergraduate",
+      "field": "Music",
+      "source": {
+        "title": "University of Venda · Higher Certificate in Music · HSCHCM · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/higher-certificate-in-music/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_music",
+        "venda_hh_music_audition",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        }
+      ]
+    },
+    {
+      "key": "venda-hsbbsw",
+      "institutionKey": "venda",
+      "name": "Bachelor of Social Work (HSBBSW)",
+      "level": "undergraduate",
+      "field": "Social Work",
+      "source": {
+        "title": "University of Venda · Bachelor of Social Work · HSBBSW · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-social-work/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_english50",
+        "venda_hh_bsw_selection",
+        "venda_hh_bsw_docs",
+        "venda_hh_bsw_transfer",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps35"
+        }
+      ]
+    },
+    {
+      "key": "venda-sebesp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Education in Senior Phase and Further Education and Training Teaching · Science (SEBESP)",
+      "level": "undergraduate",
+      "field": "Science",
+      "source": {
+        "title": "University of Venda · Bachelor of Education in Senior Phase and Further Education and Training Teaching · Science · SEBESP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-education-in-senior-phase-and-further-education-and-training/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps36",
+        "venda_hh_english50",
+        "venda_hh_subjects_sebesp",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-sebecp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Education in Senior Phase and Further Education and Training Teaching · Commerce (SEBECP)",
+      "level": "undergraduate",
+      "field": "Commerce",
+      "source": {
+        "title": "University of Venda · Bachelor of Education in Senior Phase and Further Education and Training Teaching · Commerce · SEBECP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-education-in-senior-phase-and-further-education-and-training-2/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps36",
+        "venda_hh_english50",
+        "venda_hh_subjects_sebecp",
+        "venda_hh_ecd_final",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-sebelp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Education in Senior Phase and Further Education and Training Teaching · Humanities, Languages and Social Sciences (SEBELP)",
+      "level": "undergraduate",
+      "field": "Humanities, Languages and Social Sciences",
+      "source": {
+        "title": "University of Venda · Bachelor of Education in Senior Phase and Further Education and Training Teaching · Humanities, Languages and Social Sciences · SEBELP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-education-in-senior-phase-and-further-education-and-training-3/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps36",
+        "venda_hh_english50",
+        "venda_hh_subjects_sebelp",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-sebefp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Education in Foundation Phase Teaching (SEBEFP)",
+      "level": "undergraduate",
+      "field": "Foundation Phase Teaching",
+      "source": {
+        "title": "University of Venda · Bachelor of Education in Foundation Phase Teaching · SEBEFP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-education-in-foundation-phase-teaching/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps36",
+        "venda_hh_english50",
+        "venda_hh_foundation_subjects",
+        "venda_hh_ecd_ncv",
+        "venda_hh_ecd_fal",
+        "venda_hh_ecd_credit",
+        "venda_hh_ecd_rpl",
+        "venda_hh_ecd_final",
+        "venda_hh_application_window",
+        "venda_hh_foreign_credential"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbbn",
+      "institutionKey": "venda",
+      "name": "Bachelor of Nursing (SHBBN)",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "title": "University of Venda · Bachelor of Nursing · SHBBN · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-nursing/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps38",
+        "venda_hh_nurse60",
+        "venda_hh_math50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbbsn",
+      "institutionKey": "venda",
+      "name": "Bachelor of Science in Nutrition (SHBBSN)",
+      "level": "undergraduate",
+      "field": "Nutrition",
+      "source": {
+        "title": "University of Venda · Bachelor of Science in Nutrition · SHBBSN · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bsc-in-nutrition/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps34",
+        "venda_hh_english50",
+        "venda_hh_math50",
+        "venda_hh_life50",
+        "venda_hh_nutrition",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbses",
+      "institutionKey": "venda",
+      "name": "Bachelor of Science in Sport and Exercise Science (SHBSES)",
+      "level": "undergraduate",
+      "field": "Sport and Exercise Science",
+      "source": {
+        "title": "University of Venda · Bachelor of Science in Sport and Exercise Science · SHBSES · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bsc-in-sports-and-exercise-science/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps34",
+        "venda_hh_english50",
+        "venda_hh_life50",
+        "venda_hh_physical50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbbsk",
+      "institutionKey": "venda",
+      "name": "BSc in Biokinetics (SHBBSK)",
+      "level": "undergraduate",
+      "field": "Biokinetics",
+      "source": {
+        "title": "University of Venda · BSc in Biokinetics · SHBBSK · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bsc-in-biokinetics/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps34",
+        "venda_hh_english50",
+        "venda_hh_math50",
+        "venda_hh_life50",
+        "venda_hh_physical50",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbrls",
+      "institutionKey": "venda",
+      "name": "Bachelor of Science in Recreation and Leisure Studies (SHBRLS)",
+      "level": "undergraduate",
+      "field": "Recreation and Leisure Studies",
+      "source": {
+        "title": "University of Venda · Bachelor of Science in Recreation and Leisure Studies · SHBRLS · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bsc-in-recreation-and-leisure-studies/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps34",
+        "venda_hh_english50",
+        "venda_hh_recreation_matric",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shbbp",
+      "institutionKey": "venda",
+      "name": "Bachelor of Psychology (SHBBP)",
+      "level": "undergraduate",
+      "field": "Psychology",
+      "source": {
+        "title": "University of Venda · Bachelor of Psychology · SHBBP · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-psychology/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps36",
+        "venda_hh_english50",
+        "venda_hh_psychology_test",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-shdpn",
+      "institutionKey": "venda",
+      "name": "Diploma in Nursing (SHDPN)",
+      "level": "undergraduate",
+      "field": "Nursing",
+      "source": {
+        "title": "University of Venda · Diploma in Nursing · SHDPN · 2027 programme",
+        "url": "https://www.univen.ac.za/programmes/diploma-in-nursing/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "venda_hh_aps28",
+        "venda_hh_english50",
+        "venda_hh_life50",
+        "venda_hh_physical50",
+        "venda_hh_diploma_math",
+        "venda_hh_application_window"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_aps30",
+          "label": "NSC admission point score of 30",
+          "details": "The NSC school-leaving route requires an Admission Point Score (APS) of at least 30.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_aps36",
+          "label": "NSC admission point score of 36",
+          "details": "The published NSC threshold for this programme is 36 APS. The course also specifies subjects or a selection procedure.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_aps34",
+          "label": "NSC admission point score of 34",
+          "details": "Applicants using the NSC route need at least 34 APS as well as the subjects listed for the course.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_aps38",
+          "label": "NSC admission point score of 38",
+          "details": "Bachelor of Nursing applicants following the NSC route need at least 38 APS.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_aps28",
+          "label": "NSC admission point score of 28",
+          "details": "The NSC entry threshold for the Diploma in Nursing is 28 APS.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_english50",
+          "label": "NSC English minimum",
+          "details": "Achieve at least 50% in English in the National Senior Certificate.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_media_lang",
+          "label": "Media Studies language alternatives",
+          "details": "Obtain at least 50% in English or in an African language. Either language route can satisfy this subject condition.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_history_econ",
+          "label": "History or Economics",
+          "details": "Alongside English, achieve at least 50% in either History or Economics.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_history",
+          "label": "History",
+          "details": "The History degree requires at least 50% in History as well as the English threshold.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_lang_practice",
+          "label": "African language for Language Practice",
+          "details": "The course page and prospectus set a 50% minimum in an African language. The Department of African Languages separately specifies an African home language at NSC level 5 and a pass in English as a home or first additional language. Confirm which subject standard applies for the intake.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of African Languages",
+            "url": "https://www.univen.ac.za/departments/department-of-african-languages/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_music",
+          "label": "Entry to the Higher Certificate in Music",
+          "details": "Present a National Senior Certificate with adequate achievement in English. The 2027 course entry does not publish a separate APS cutoff.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Higher Certificate in Music · HSCHCM · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/higher-certificate-in-music/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_subjects_sebesp",
+          "label": "Science teaching subjects",
+          "details": "For this teaching stream, earn at least 50% in two subjects selected from Mathematics, Physical Sciences and Life Sciences. English has its own 50% requirement.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_subjects_sebecp",
+          "label": "Commerce teaching subjects",
+          "details": "For this teaching stream, earn at least 50% in two subjects selected from Accounting, Business Studies and Economics. English has its own 50% requirement.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_subjects_sebelp",
+          "label": "Humanities, Languages and Social Sciences teaching subjects",
+          "details": "For this teaching stream, earn at least 50% in two subjects selected from History, Geography, Sepedi, Tshivenda and Xitsonga. English has its own 50% requirement.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_foundation_subjects",
+          "label": "Foundation Phase mathematics and languages",
+          "details": "The 2027 subject list gives 50% for Mathematical Literacy, 40% for Mathematics and 50% for languages, naming Tshivenda, Sepedi and Xitsonga. It does not say which combinations of mathematics and language subjects satisfy the rule. Confirm the applicable combination with the School of Education.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Bachelor of Education in Foundation Phase Teaching · SEBEFP · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-education-in-foundation-phase-teaching/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_nurse60",
+          "label": "Bachelor of Nursing subjects at 60%",
+          "details": "Earn at least 60% each in Life Sciences, English and Physical Sciences. The nursing bachelor and diploma have different entry grades.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Bachelor of Nursing · SHBBN · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-nursing/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_math50",
+          "label": "NSC Mathematics minimum",
+          "details": "Meet an NSC Mathematics grade of at least 50%.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_life50",
+          "label": "NSC Life Sciences minimum",
+          "details": "Achieve NSC level 4 or above in Life Sciences (at least 50%).",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_physical50",
+          "label": "NSC Physical Sciences minimum",
+          "details": "Achieve NSC level 4 or above in Physical Sciences (at least 50%).",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_nutrition",
+          "label": "Alternative fourth science for Nutrition",
+          "details": "For the remaining science subject, obtain at least 50% in either Physical Sciences or Agricultural Sciences.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Bachelor of Science in Nutrition · SHBBSN · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bsc-in-nutrition/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_diploma_math",
+          "label": "Diploma in Nursing Mathematics grade",
+          "details": "Mathematics requires a minimum of NSC level 3 (40%).",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Diploma in Nursing · SHDPN · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/diploma-in-nursing/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_psychology_test",
+          "label": "Psychology selection test",
+          "details": "Applicants must take the selection test in addition to meeting the NSC academic conditions. The course entry gives no test cutoff.",
+          "category": "standardized_test",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Bachelor of Psychology · SHBBP · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-psychology/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_recreation_matric",
+          "label": "Recreation and Leisure Studies matric exemption route",
+          "details": "The course accepts matric exemption with at least E in Standard Grade English as an alternative to the National Senior Certificate route.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Bachelor of Science in Recreation and Leisure Studies · SHBRLS · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bsc-in-recreation-and-leisure-studies/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_application_window",
+          "label": "Published online application window",
+          "details": "For 2027 undergraduate entry, the prospectus scheduled free online applications from 1 May to 30 September 2026. These dates describe the original application window. Any later opening would need a separate notice from the university.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_theology_rpl",
+          "label": "Recognition of prior learning for Theology",
+          "details": "A recognition-of-prior-learning application under university policy is an alternative to the published NSC route for Theology.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Bachelor of Theology · HSBBT · 2027 programme",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-theology/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_music_audition",
+          "label": "Music audition in the 2026 faculty calendar",
+          "details": "For the 2026 programme, registration followed a successful audition. The calendar also lists a National Higher Certificate, diploma or bachelor qualification. The 2027 entry does not specify whether an audition continues to apply.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2026 Faculty of Humanities, Social Sciences and Education calendar",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/09/FHSSE-2026-Faculty-Academic-Calendar_24-November-2025-updated-1.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_ecd_ncv",
+          "label": "Vocational certificate and matriculation routes",
+          "details": "The department accepts an NQF level 4 National Certificate (Vocational) endorsed for bachelor study with the relevant subjects and attainment. It also recognises Matriculation Board exemption or a certificate approved by the Senate.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Early Childhood Education",
+            "url": "https://www.univen.ac.za/departments/department-of-early-childhood-education/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_ecd_fal",
+          "label": "English for current and earlier school certificates",
+          "details": "The department specifies 50% in English First Additional Language. Applicants educated before 2008 may present E in Higher Grade English or D in Standard Grade English Second Language.",
+          "category": "language",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Early Childhood Education",
+            "url": "https://www.univen.ac.za/departments/department-of-early-childhood-education/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_bsw_selection",
+          "label": "Departmental selection for Social Work",
+          "details": "Social Work selects applicants by academic performance and available places after the university application. Applicants who completed matric before 2008 need matric exemption.",
+          "category": "application",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Department of Social Work",
+            "url": "https://www.univen.ac.za/departments/department-of-social-work/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_bsw_docs",
+          "label": "Social Work supporting documents",
+          "details": "The department asks for matric results, an identity document, an ID photograph and a testimonial with the application.",
+          "category": "document",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · Department of Social Work",
+            "url": "https://www.univen.ac.za/departments/department-of-social-work/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_foreign_credential",
+          "label": "Assessment of qualifications earned abroad",
+          "details": "The education department requires qualifications earned outside South Africa to be evaluated and approved by the South African Qualifications Authority (SAQA). This condition follows the country of the qualification.",
+          "category": "document",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Early Childhood Education",
+            "url": "https://www.univen.ac.za/departments/department-of-early-childhood-education/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "transfer",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_ecd_credit",
+          "label": "Admission with a teaching qualification and transfer of credit",
+          "details": "Teachers with a recognised certificate or diploma in education or a related field may apply and request credit for related previous study. Credit is subject to assessment.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Early Childhood Education",
+            "url": "https://www.univen.ac.za/departments/department-of-early-childhood-education/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "venda_hh_bsw_transfer",
+          "label": "Transfer from another Social Work programme",
+          "details": "Transfer applicants undergo departmental selection. Differences in module level, credit, content, sequence or practical work may require the student to take corresponding modules at Venda.",
+          "category": "academic",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Social Work",
+            "url": "https://www.univen.ac.za/departments/department-of-social-work/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_ecd_rpl",
+          "label": "Admission through experience and prior learning",
+          "details": "Relevant prior learning and work experience can be evaluated through a selection process approved by the Senate for entry to Foundation Phase Teaching.",
+          "category": "experience",
+          "status": "conditional",
+          "source": {
+            "title": "University of Venda · Department of Early Childhood Education",
+            "url": "https://www.univen.ac.za/departments/department-of-early-childhood-education/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "2026",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Programme codes identify the qualification or teaching stream. NSC grades and APS are South African school-leaving measures. Departmental routes without an intake year and the dated 2026 calendar are shown in their own scopes.",
+      "requirements": [
+        {
+          "key": "venda_hh_ecd_final",
+          "label": "Progression to fourth year under the 2026 calendar",
+          "details": "Students following the 2026 faculty calendar must pass all outstanding modules from the first three years before entering fourth year.",
+          "category": "academic",
+          "status": "required",
+          "source": {
+            "title": "University of Venda · 2026 Faculty of Humanities, Social Sciences and Education calendar",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/09/FHSSE-2026-Faculty-Academic-Calendar_24-November-2025-updated-1.pdf",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    }
+  ]
+}

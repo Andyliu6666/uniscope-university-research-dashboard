@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282762,
+            "programs": 282785,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4504,
+            "admissionProfiles": 4510,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28146,
+            "admissionRequirements": 28181,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1722
         },
@@ -196,7 +196,7 @@
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 64,
             "programsWithPublishedTotals": 963,
-            "undergraduateCatalogEntries": 196974
+            "undergraduateCatalogEntries": 196997
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,31 +243,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6126,
-            "profiles": 1531,
+            "facts": 6161,
+            "profiles": 1537,
             "institutions": 122
         }
     },
-    "generatedAt": "2026-11-23T08:35:32Z",
+    "generatedAt": "2026-11-23T10:42:10Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 28,
-        "provider": "official_ib",
+        "inserted": 35,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 28,
-        "startedAt": "2026-11-23T08:35:29.601126+00:00",
-        "updatedAt": "2026-11-23T08:35:29.689+00:00",
+        "processed": 35,
+        "startedAt": "2026-11-23T10:42:08.247024+00:00",
+        "updatedAt": "2026-11-23T10:42:08.247024+00:00",
         "checkpoint": {
-            "rowIndex": 28,
-            "sourceRows": 28,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 7,
+            "admissionFacts": 35,
+            "programsReused": 0,
+            "programsCreated": 23,
+            "priorSharedLinksAdded": 113
         },
-        "finishedAt": "2026-11-23T08:35:29.689+00:00",
-        "artifactSha256": "d0eba1ffaf0c76c7feef478313ffc4b40851e9c2a8248682b9f0cfe08a580383",
-        "datasetVersion": "official-ib-requirements-aberystwyth-business-20261123-v1"
+        "finishedAt": "2026-11-23T10:42:08.362+00:00",
+        "artifactSha256": "8e2d5342dfb13cc92b4652bb51e61fa8f0c926ce85c8338eea0d8e834cdf499a",
+        "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1"
     },
     "schemaVersion": 2
 }
