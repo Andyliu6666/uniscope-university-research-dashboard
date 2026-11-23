@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { maxProgramNameLength } from './program-name.ts';
 
 const httpsUrl = z
   .url()
@@ -79,7 +80,7 @@ export const ibRequirementSchema = z
   });
 
 export const ibProgramInputSchema = z.strictObject({
-  name: z.string().trim().min(2).max(160),
+  name: z.string().trim().min(2).max(maxProgramNameLength),
   level: z.enum(['undergraduate', 'graduate']),
   field: z.string().trim().min(2).max(100),
   courseCode: z.string().trim().min(1).max(120).nullable(),
@@ -187,7 +188,7 @@ export const ibQuerySchema = z.object({
   year: year.optional(),
   applicantType: z.enum(['domestic', 'international']).optional(),
   entryType: z.enum(['first_year', 'transfer', 'readmission', 'other']).default('first_year'),
-  q: z.string().trim().max(100).default(''),
+  q: z.string().trim().max(maxProgramNameLength).default(''),
   level: z.enum(['undergraduate', 'graduate']).default('undergraduate'),
   page: z.coerce.number().int().min(1).max(100000).default(1),
   pageSize: z.coerce.number().int().min(1).max(50).default(20),

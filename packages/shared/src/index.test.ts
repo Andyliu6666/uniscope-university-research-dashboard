@@ -1,7 +1,18 @@
 import { describe, expect, it } from 'vitest';
-import { admissionsQuerySchema, universityInputSchema, universityQuerySchema } from './index.js';
+import {
+  admissionsQuerySchema,
+  ibQuerySchema,
+  universityInputSchema,
+  universityQuerySchema,
+} from './index.js';
 
 describe('shared validation', () => {
+  it('accepts complete catalogue names in both programme search panels', () => {
+    const name = 'x'.repeat(160);
+    expect(admissionsQuerySchema.parse({ programme: name }).programme).toBe(name);
+    expect(ibQuerySchema.parse({ q: name }).q).toBe(name);
+    expect(admissionsQuerySchema.safeParse({ programme: name + 'x' }).success).toBe(false);
+  });
   it('accepts only explicit delivery modes without inventing a legacy default filter', () => {
     expect(admissionsQuerySchema.parse({})).not.toHaveProperty('deliveryMode');
     for (const deliveryMode of ['unspecified', 'campus', 'distance', 'hybrid'])

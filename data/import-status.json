@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282649,
+            "programs": 282692,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4428,
+            "admissionProfiles": 4472,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28074,
+            "admissionRequirements": 28103,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1650
+            "qualificationRequirements": 1694
         },
         "ibCoverage": {
             "byCountry": [
@@ -187,16 +187,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 4,
-                    "programs_with_reviewed_ib": 190,
-                    "programs_with_published_totals": 188
+                    "programs_with_reviewed_ib": 233,
+                    "programs_with_published_totals": 208
                 }
             ],
-            "reviewedRecords": 1650,
-            "programsWithReviewedIb": 1435,
+            "reviewedRecords": 1694,
+            "programsWithReviewedIb": 1478,
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 64,
-            "programsWithPublishedTotals": 921,
-            "undergraduateCatalogEntries": 196861
+            "programsWithPublishedTotals": 941,
+            "undergraduateCatalogEntries": 196904
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,31 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6054,
+            "facts": 6083,
             "profiles": 1527,
             "institutions": 121
         }
     },
-    "generatedAt": "2026-11-23T03:27:43Z",
+    "generatedAt": "2026-11-23T04:30:55Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 1,
+        "inserted": 44,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 1,
-        "startedAt": "2026-11-23T03:27:41.17089+00:00",
-        "updatedAt": "2026-11-23T03:27:41.186+00:00",
+        "processed": 44,
+        "startedAt": "2026-11-23T04:30:51.940473+00:00",
+        "updatedAt": "2026-11-23T04:30:52.06+00:00",
         "checkpoint": {
-            "rowIndex": 1,
-            "sourceRows": 1,
+            "rowIndex": 44,
+            "sourceRows": 44,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-23T03:27:41.186+00:00",
-        "artifactSha256": "4ed3df24e3f76dc4f5d64383d2526b1d31920820c903f4bd6543333f71bb6e2f",
-        "datasetVersion": "official-ib-requirements-utm-mauritius-20261123-v1"
+        "finishedAt": "2026-11-23T04:30:52.06+00:00",
+        "artifactSha256": "ca2dfecfba844c057fa08f82b16379838823eecd394e69a29f3d055a81f5c887",
+        "datasetVersion": "official-ib-requirements-aberystwyth-foundation-mathematics-20261123-v1"
     },
     "schemaVersion": 2
 }

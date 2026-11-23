@@ -1,9 +1,11 @@
 import { z } from 'zod';
+import { maxProgramNameLength } from './program-name.ts';
 
 export * from './ib.ts';
+export { maxProgramNameLength };
 
 export const programSchema = z.object({
-  name: z.string().min(2).max(160),
+  name: z.string().min(2).max(maxProgramNameLength),
   level: z.enum(['undergraduate', 'graduate']),
   field: z.string().min(2).max(100),
 });
@@ -170,7 +172,7 @@ export const admissionDeliveryModeSchema = z.enum(['unspecified', 'campus', 'dis
 export type AdmissionDeliveryMode = z.infer<typeof admissionDeliveryModeSchema>;
 
 export const admissionsQuerySchema = z.object({
-  programme: z.string().trim().max(100).optional(),
+  programme: z.string().trim().max(maxProgramNameLength).optional(),
   year: z
     .string()
     .regex(/^(?:[0-9]{4}(?:[/-][0-9]{2,4})?|unspecified)$/u)

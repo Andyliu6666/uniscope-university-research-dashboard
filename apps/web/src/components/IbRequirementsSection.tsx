@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { formatIbTotal, type IbQuery, type IbRequirement } from '@urd/shared';
+import { formatIbTotal, maxProgramNameLength, type IbQuery, type IbRequirement } from '@urd/shared';
 import { fetchUniversityIb } from '../api.js';
 
 export function IbRequirementCard({ requirement }: { requirement: IbRequirement }) {
@@ -76,7 +76,7 @@ export function IbRequirementsSection({ slug }: { slug: string }) {
             value={search}
             onChange={(event) => setSearch(event.target.value)}
             type="search"
-            maxLength={100}
+            maxLength={maxProgramNameLength}
             placeholder="Search this university’s programs"
           />
         </label>

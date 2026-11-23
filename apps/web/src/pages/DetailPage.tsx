@@ -1,3 +1,4 @@
+import { maxProgramNameLength } from '@urd/shared';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import {
@@ -443,7 +444,7 @@ export function AdmissionsSection({
         Find programme admissions
         <input
           type="search"
-          maxLength={100}
+          maxLength={maxProgramNameLength}
           value={search}
           onChange={(event) => setSearch(event.target.value)}
         />

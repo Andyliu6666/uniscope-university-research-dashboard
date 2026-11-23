@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { admissionDeliveryModeSchema } from '@urd/shared';
+import { admissionDeliveryModeSchema, maxProgramNameLength } from '@urd/shared';
 
 export const normalizeFactText = (text: string) =>
   text.normalize('NFKC').trim().replace(/\s+/gu, ' ').toLowerCase();
@@ -17,7 +17,7 @@ const requirementKey = z.string().regex(/^[a-z][a-z0-9_]{0,99}$/u);
 const programSchema = z.strictObject({
   key: text(80),
   institutionKey: text(80),
-  name: text(160),
+  name: text(maxProgramNameLength),
   level: z.enum(['undergraduate', 'graduate']),
   field: text(100),
   // Explicit references keep a shared rule in one university-wide profile.

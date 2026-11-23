@@ -187,7 +187,7 @@ describe('reviewed IB requirements', () => {
       level: 'undergraduate',
       entryType: 'first_year',
     });
-    for (const input of [{ page: 0 }, { pageSize: 51 }, { year: '202x' }, { q: 'a'.repeat(101) }])
+    for (const input of [{ page: 0 }, { pageSize: 51 }, { year: '202x' }, { q: 'a'.repeat(161) }])
       expect(ibQuerySchema.safeParse(input).success).toBe(false);
   });
 });

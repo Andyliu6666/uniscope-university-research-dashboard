@@ -1,0 +1,3440 @@
+{
+  "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "aber",
+      "name": "Aberystwyth University",
+      "provider": "ror",
+      "externalId": "015m2p889",
+      "countryCode": "GB",
+      "officialDomains": ["aber.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "aber-c3y1",
+      "name": "Zoology (with integrated year studying abroad) with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Zoology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Zoology (with integrated year studying abroad) · C3Y1 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/C3Y1-zoology/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-d3yf",
+      "name": "Equine and Veterinary Bioscience (with integrated year studying abroad) with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Equine and Veterinary Bioscience",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Equine and Veterinary Bioscience (with integrated year studying abroad) · D3YF · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/D3YF-equine-veterinary-bioscience/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c12f",
+      "name": "Animal Behaviour with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Animal Behaviour",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Animal Behaviour · C12F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/animal-behaviour-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-d30f",
+      "name": "Animal Science with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Animal Science",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Animal Science · D30F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/animal-science-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c70f",
+      "name": "Biochemistry with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Biochemistry",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Biochemistry · C70F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/biochemistry-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c101",
+      "name": "Biology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Biology · C101 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/biology-foundation-year/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c18f",
+      "name": "Ecology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Ecology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Ecology · C18F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/ecology-degree-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-d33f",
+      "name": "Equine and Veterinary Bioscience with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Equine and Veterinary Bioscience",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Equine and Veterinary Bioscience · D33F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/equine-veterinary-bioscience-integrated-foundation-Cym/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c40f",
+      "name": "Genetics with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Genetics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Genetics · C40F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/genetics-degree-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c16f",
+      "name": "Marine and Freshwater Biology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Marine and Freshwater Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Marine and Freshwater Biology · C16F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/marine-freshwater-biology-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c09f",
+      "name": "Biology with integrated foundation year (MBiol)",
+      "institutionKey": "aber",
+      "field": "Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MBiol Biology · C09F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mbiol-biology-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c06f",
+      "name": "Marine and Freshwater Biology with integrated foundation year (MBiol)",
+      "institutionKey": "aber",
+      "field": "Marine and Freshwater Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MBiol Marine and Freshwater Biology · C06F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c39f",
+      "name": "Zoology with integrated foundation year (MBiol)",
+      "institutionKey": "aber",
+      "field": "Zoology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MBiol Zoology · C39F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mbiol-zoology-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c79f",
+      "name": "Biochemistry with integrated foundation year (MBiol)",
+      "institutionKey": "aber",
+      "field": "Biochemistry",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MBiol Biochemistry · C79F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mbiolbiochem-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c59f",
+      "name": "Microbiology with integrated foundation year (MBiol)",
+      "institutionKey": "aber",
+      "field": "Microbiology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MBiol Microbiology · C59F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mbiolmicrobiology-degree-intergrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c501",
+      "name": "Microbiology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Microbiology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Microbiology · C501 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/microbiology-degree-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c20f",
+      "name": "Plant Biology (with integrated year in industry) with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Plant Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Plant Biology (with integrated year in industry) · C20F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/plant-biology-industry-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c201",
+      "name": "Plant Biology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Plant Biology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Plant Biology · C201 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/plant-biology-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-d90f",
+      "name": "Veterinary Biosciences with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Veterinary Biosciences",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Veterinary Biosciences · D90F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/veterinary-biosciences-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c08f",
+      "name": "Wildlife Conservation with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Wildlife Conservation",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Wildlife Conservation · C08F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/wildlife-conservation-integrated-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-c301",
+      "name": "Zoology with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Zoology",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Zoology · C301 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/zoology-foundation/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_bio_level3",
+        "aber27_fm_bio_mature",
+        "aber27_fm_bio_btec",
+        "aber27_fm_bio_euro",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_gcse_science"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-g130",
+      "name": "Applied Mathematics / Pure Mathematics (BSc)",
+      "institutionKey": "aber",
+      "field": "Applied Mathematics / Pure Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Applied Mathematics / Pure Mathematics · G130 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/applied-mathematics-and-pure-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-gg14",
+      "name": "Computer Science / Mathematics (BSc)",
+      "institutionKey": "aber",
+      "field": "Computer science",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Computer Science / Mathematics · GG14 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/computer-science-and-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-gw16",
+      "name": "Film and Television / Mathematics (BA)",
+      "institutionKey": "aber",
+      "field": "Film and Television / Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BA Film and Television / Mathematics · GW16 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/film-and-television-and-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-g1n3",
+      "name": "Financial Mathematics (BSc)",
+      "institutionKey": "aber",
+      "field": "Financial Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Financial Mathematics · G1N3 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/financial-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-g1nf",
+      "name": "Financial Mathematics with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Financial Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Financial Mathematics · G1NF · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/financial-mathematics-integrated-foundation-year/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_math_foundation",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        }
+      ]
+    },
+    {
+      "key": "aber-gv11",
+      "name": "History / Mathematics (BA)",
+      "institutionKey": "aber",
+      "field": "History / Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BA History / Mathematics · GV11 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/history-and-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-13gg",
+      "name": "Mathematical Modelling (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematical Modelling",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematical Modelling · 13GG · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematical-modelling/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_02abc4b5"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-f340",
+      "name": "Mathematical and Theoretical Physics (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematical and Theoretical Physics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematical and Theoretical Physics · F340 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematical-theoretical-physics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_tariff_82bf5032",
+        "aber27_fm_al_fa50d150",
+        "aber27_fm_btec_0810e81c",
+        "aber27_fm_eb_c8f84e64"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-gn94",
+      "name": "Mathematics / Accounting and Finance (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Accounting and Finance",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics / Accounting and Finance · GN94 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-accounting/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-gw14",
+      "name": "Mathematics / Drama and Theatre (BA)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Drama and Theatre",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BA Mathematics / Drama and Theatre · GW14 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-and-drama-and-theatre-studies-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-gx15",
+      "name": "Mathematics / Education (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics / Education · GX15 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-and-education/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-fg31",
+      "name": "Mathematics / Physics (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Physics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics / Physics · FG31 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-and-physics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_tariff_82bf5032",
+        "aber27_fm_btec_0810e81c",
+        "aber27_fm_eb_c8f84e64",
+        "aber27_fm_al_2ba2d1ac"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-gn11",
+      "name": "Mathematics / Business and Management (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Business and Management",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics / Business and Management · GN11 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-businessmanagement/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-g10f",
+      "name": "Mathematics with integrated foundation year (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics · G10F · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree-with-foundation-year/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_math_foundation",
+        "aber27_fm_foundation_lower",
+        "aber27_fm_math_progression",
+        "aber27_fm_tariff_98010bd9"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-g100",
+      "name": "Mathematics (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics · G100 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b",
+        "aber27_fm_al_7bf1134a"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_b01647ba"
+        }
+      ]
+    },
+    {
+      "key": "aber-gl91",
+      "name": "Mathematics / Economics (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics / Economics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics / Economics · GL91 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-economics/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-g10n",
+      "name": "Mathematics (with integrated year in industry) (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics (with integrated year in industry) · G10N · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-integrated-year-industry/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b",
+        "aber27_fm_al_7bf1134a"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_b01647ba"
+        }
+      ]
+    },
+    {
+      "key": "aber-gx14",
+      "name": "Mathematics with Education (BSc)",
+      "institutionKey": "aber",
+      "field": "Mathematics with Education",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Mathematics with Education · GX14 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mathematics-with-education/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-f341",
+      "name": "Mathematical and Theoretical Physics (MMath)",
+      "institutionKey": "aber",
+      "field": "Mathematical and Theoretical Physics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MMath Mathematical and Theoretical Physics · F341 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematical-theoretical-physics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_780cdb1c",
+        "aber27_fm_btec_f4b0b86a",
+        "aber27_fm_eb_d1379357"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_bad57207"
+        }
+      ]
+    },
+    {
+      "key": "aber-g103",
+      "name": "Mathematics (MMath)",
+      "institutionKey": "aber",
+      "field": "Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · MMath Mathematics · G103 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_tariff_5ec1a0c9",
+        "aber27_fm_al_350fdae2",
+        "aber27_fm_btec_0a9e6dcd",
+        "aber27_fm_eb_5665940c"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        }
+      ]
+    },
+    {
+      "key": "aber-rg90",
+      "name": "Modern Languages / Mathematics (BA)",
+      "institutionKey": "aber",
+      "field": "Modern Languages / Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BA Modern Languages / Mathematics · RG90 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/modern-languages-mathematics/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_modern_languages",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b",
+        "aber27_fm_al_f879ec13"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-fg81",
+      "name": "Physical Geography / Mathematics (BSc)",
+      "institutionKey": "aber",
+      "field": "Physical Geography / Mathematics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Physical Geography / Mathematics · FG81 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/physical-geography-and-mathematics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    },
+    {
+      "key": "aber-ggc3",
+      "name": "Pure Mathematics / Statistics (BSc)",
+      "institutionKey": "aber",
+      "field": "Pure Mathematics / Statistics",
+      "level": "undergraduate",
+      "source": {
+        "title": "Aberystwyth University · BSc Pure Mathematics / Statistics · GGC3 · September 2027",
+        "url": "https://courses.aber.ac.uk/undergraduate/pure-mathematics-and-statistics-degree/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_fm_gcse",
+        "aber27_fm_al_7421e8ad",
+        "aber27_fm_btec_75c285e1",
+        "aber27_fm_eb_4f286e2b"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ielts"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_toefl"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_pte"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_cambridge"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ellt"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "level": "undergraduate",
+      "notes": "September 2027 course conditions are keyed to their UCAS course and award. The undated US qualifications guide gives separate guidance for integrated foundation entry.",
+      "requirements": [
+        {
+          "key": "aber27_fm_gcse",
+          "label": "GCSE subjects",
+          "details": "Obtain C/4 or above in mathematics and in either English or Welsh.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical Modelling · 13GG · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-modelling/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "aber27_fm_bio_level3",
+          "label": "Foundation entry with Level 3 studies",
+          "details": "The biological science foundation route accepts applicants studying or holding Level 3 qualifications such as A levels in fields outside biological science.",
+          "source": {
+            "title": "Aberystwyth University · MBiol Marine and Freshwater Biology · C06F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_bio_mature",
+          "label": "Foundation entry for mature candidates",
+          "details": "Mature applicants can be considered on their required GCSE subjects or equivalents, relevant experience and motivation.",
+          "source": {
+            "title": "Aberystwyth University · MBiol Marine and Freshwater Biology · C06F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "experience",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_bio_btec",
+          "label": "BTEC qualifications for foundation entry",
+          "details": "A Level 3 Extended BTEC Diploma can be in an area outside biological science. The course also accepts a BTEC certificate or diploma in any subject.",
+          "source": {
+            "title": "Aberystwyth University · MBiol Marine and Freshwater Biology · C06F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_bio_euro",
+          "label": "European Baccalaureate subject pathway",
+          "details": "The integrated foundation route accepts applicants studying for or holding the European Baccalaureate in subjects outside four-period biological science.",
+          "source": {
+            "title": "Aberystwyth University · MBiol Marine and Freshwater Biology · C06F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mbiol-marine-freshwater-biology-foundation/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_math_foundation",
+          "label": "Mathematics foundation qualifications",
+          "details": "The admissions table considers students studying for or holding Level 3 qualifications such as A levels or BTEC. Mature candidates without formal qualifications may apply with appropriate prior education, experience and motivation.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematics · G10F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree-with-foundation-year/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_modern_languages",
+          "label": "Modern language entry levels",
+          "details": "The degree offers both beginner and advanced routes in French, German, Spanish and Italian. Beginners take intensive first-year language study.",
+          "source": {
+            "title": "Aberystwyth University · BA Modern Languages / Mathematics · RG90 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/modern-languages-mathematics/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_tariff_98010bd9",
+          "label": "Typical UCAS Tariff",
+          "details": "The course lists 48 UCAS Tariff points.",
+          "source": {
+            "title": "Aberystwyth University · BSc Zoology (with integrated year studying abroad) · C3Y1 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/C3Y1-zoology/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_7421e8ad",
+          "label": "Typical A-level offer",
+          "details": "The course lists BCC to BBB, including mathematics at B.",
+          "source": {
+            "title": "Aberystwyth University · BSc Applied Mathematics / Pure Mathematics · G130 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/applied-mathematics-and-pure-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_btec_75c285e1",
+          "label": "BTEC National Diploma",
+          "details": "The course lists DMM to DDM plus A-level mathematics at B.",
+          "source": {
+            "title": "Aberystwyth University · BSc Applied Mathematics / Pure Mathematics · G130 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/applied-mathematics-and-pure-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_eb_4f286e2b",
+          "label": "European Baccalaureate",
+          "details": "The published European Baccalaureate offer is 65–75% overall and 7 in mathematics.",
+          "source": {
+            "title": "Aberystwyth University · BSc Applied Mathematics / Pure Mathematics · G130 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/applied-mathematics-and-pure-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_eb_02abc4b5",
+          "label": "European Baccalaureate",
+          "details": "The published European Baccalaureate offer is 65–75% overall. The published entry ends mid-sentence, so confirm any subject conditions with Admissions.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical Modelling · 13GG · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-modelling/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_tariff_82bf5032",
+          "label": "Typical UCAS Tariff",
+          "details": "The course lists 112–120 UCAS Tariff points.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical and Theoretical Physics · F340 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_fa50d150",
+          "label": "Typical A-level offer",
+          "details": "The course lists BBC to BBB, including mathematics and physics at B each.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical and Theoretical Physics · F340 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_btec_0810e81c",
+          "label": "BTEC National Diploma",
+          "details": "The course lists DMM to DDM plus mathematics and physics at B as stated in the A-level conditions.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical and Theoretical Physics · F340 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_eb_c8f84e64",
+          "label": "European Baccalaureate",
+          "details": "The published European Baccalaureate offer is 65–75% overall and 7 in each of mathematics and physics.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematical and Theoretical Physics · F340 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_2ba2d1ac",
+          "label": "Typical A-level offer",
+          "details": "The course lists BBC to BBB, including mathematics at B and a B in the physics component.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematics / Physics · FG31 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematics-and-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_7bf1134a",
+          "label": "Typical A-level offer",
+          "details": "The course lists BBB to ABB, including mathematics at B.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematics · G100 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_780cdb1c",
+          "label": "Typical A-level offer",
+          "details": "The course lists BBB to AAA, including mathematics at A and physics at B.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematical and Theoretical Physics · F341 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_btec_f4b0b86a",
+          "label": "BTEC National Diploma",
+          "details": "The course lists DDM to DDD in the specified subject plus A-level mathematics at A and physics at B.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematical and Theoretical Physics · F341 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_eb_d1379357",
+          "label": "European Baccalaureate",
+          "details": "The published European Baccalaureate offer is 80% overall and 7 in each of mathematics and physics.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematical and Theoretical Physics · F341 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematical-theoretical-physics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_tariff_5ec1a0c9",
+          "label": "Typical UCAS Tariff",
+          "details": "The course lists 144 UCAS Tariff points.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematics · G103 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_350fdae2",
+          "label": "Typical A-level offer",
+          "details": "The course lists AAA, including mathematics at A.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematics · G103 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_btec_0a9e6dcd",
+          "label": "BTEC National Diploma",
+          "details": "The course lists DDM to DDD plus A-level mathematics at A.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematics · G103 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_eb_5665940c",
+          "label": "European Baccalaureate",
+          "details": "The published European Baccalaureate offer is 80% overall and 7 in mathematics.",
+          "source": {
+            "title": "Aberystwyth University · MMath Mathematics · G103 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mmath-mathematics-degree/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_al_f879ec13",
+          "label": "Typical A-level offer",
+          "details": "The course lists BBC to BBB, including mathematics at B.",
+          "source": {
+            "title": "Aberystwyth University · BA Modern Languages / Mathematics · RG90 · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/modern-languages-mathematics/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "level": "undergraduate",
+      "notes": "September 2027 course conditions are keyed to their UCAS course and award. The undated US qualifications guide gives separate guidance for integrated foundation entry.",
+      "requirements": [
+        {
+          "key": "aber27_fm_foundation_lower",
+          "label": "US qualifications for integrated foundation years",
+          "details": "The USA guide allows consideration for integrated foundation years when an applicant’s scores are below the standard undergraduate route. It gives no course-specific lower AP exam grade for these options.",
+          "source": {
+            "title": "Aberystwyth University · USA · undergraduate entry",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/countries/welcome-usa/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_fm_us_foundation_diploma",
+          "label": "US high school diploma for the Foundation route",
+          "details": "Under the separate Foundation heading, the USA guide lists a completed high school diploma with final GPA 2.5–2.7 depending on subject. It gives no exact GPA for an individual integrated foundation-year degree.",
+          "source": {
+            "title": "Aberystwyth University · USA · undergraduate entry",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/countries/welcome-usa/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "level": "undergraduate",
+      "notes": "September 2027 course conditions are keyed to their UCAS course and award. The undated US qualifications guide gives separate guidance for integrated foundation entry.",
+      "requirements": [
+        {
+          "key": "aber27_fm_math_progression",
+          "label": "Progression from the foundation year",
+          "details": "Progression to further mathematics study follows successful completion of the first year. The course description gives no percentage threshold.",
+          "source": {
+            "title": "Aberystwyth University · BSc Mathematics · G10F · September 2027",
+            "url": "https://courses.aber.ac.uk/undergraduate/mathematics-degree-with-foundation-year/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    }
+  ]
+}
