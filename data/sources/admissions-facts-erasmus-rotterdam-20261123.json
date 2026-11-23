@@ -1,0 +1,813 @@
+{
+  "datasetVersion": "official-admissions-facts-erasmus-rotterdam-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "eur",
+      "name": "Erasmus University Rotterdam",
+      "provider": "ror",
+      "externalId": "057w15z03",
+      "countryCode": "NL",
+      "officialDomains": ["eur.nl", "rsm.nl"]
+    }
+  ],
+  "programs": [
+    {
+      "institutionKey": "eur",
+      "key": "ibeb",
+      "name": "International Bachelor Economics and Business Economics (IBEB)",
+      "level": "undergraduate",
+      "field": "Economics and Business Economics",
+      "source": {
+        "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+        "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "eur_ibeb_qualification",
+        "eur_ibeb_ap",
+        "eur_ibeb_ap_subjects",
+        "eur_ibeb_alevel",
+        "eur_ibeb_alevel_combinations",
+        "eur_ibeb_alevel_english",
+        "eur_ibeb_eb",
+        "eur_ibeb_vwo",
+        "eur_ibeb_hbo",
+        "eur_ibeb_maths_test",
+        "eur_ibeb_english_test",
+        "eur_ibeb_selection",
+        "eur_ibeb_waec",
+        "eur_ibeb_kenya",
+        "eur_ibeb_morocco",
+        "eur_ibeb_south_africa",
+        "eur_ibeb_china",
+        "eur_ibeb_singapore",
+        "eur_ibeb_brazil",
+        "eur_ibeb_chile",
+        "eur_ibeb_colombia",
+        "eur_ibeb_ontario",
+        "eur_ibeb_australia",
+        "eur_ibeb_nz",
+        "eur_ibeb_application",
+        "eur_ibeb_offer",
+        "eur_ibeb_turkiye",
+        "eur_ibeb_scotland",
+        "eur_ibeb_ireland",
+        "eur_ibeb_france",
+        "eur_ibeb_germany",
+        "eur_ibeb_norway",
+        "eur_ibeb_denmark",
+        "eur_ibeb_hungary",
+        "eur_ibeb_greece",
+        "eur_ibeb_luxembourg",
+        "eur_ibeb_suriname",
+        "eur_ibeb_israel",
+        "eur_ibeb_canada",
+        "eur_ibeb_india"
+      ]
+    },
+    {
+      "institutionKey": "eur",
+      "key": "iba",
+      "name": "BSc International Business Administration (IBA)",
+      "level": "undergraduate",
+      "field": "International Business Administration",
+      "source": {
+        "title": "Rotterdam School of Management · IBA admission and application",
+        "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "eur_iba_selection",
+        "eur_iba_portals",
+        "eur_iba_acceptance",
+        "eur_iba_alevel",
+        "eur_iba_alevel_maths",
+        "eur_iba_alevel_selection",
+        "eur_iba_alevel_english",
+        "eur_iba_ap",
+        "eur_iba_ap_subjects",
+        "eur_iba_ap_points",
+        "eur_iba_ap_english",
+        "eur_iba_eb",
+        "eur_iba_ib_documents",
+        "eur_iba_diploma_statement",
+        "eur_iba_supplement",
+        "eur_iba_english_tests",
+        "eur_iba_toefl",
+        "eur_iba_references"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "eur",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "level": "undergraduate",
+      "deliveryMode": "unspecified",
+      "notes": "Rules apply only to the linked bachelor and, where named, the applicant’s diploma route. Erasmus School of Economics and Rotterdam School of Management run separate selection procedures.",
+      "requirements": [
+        {
+          "key": "eur_ibeb_qualification",
+          "label": "Prior education and mathematics",
+          "category": "academic",
+          "status": "required",
+          "details": "Submit the highest-level diploma earned, with general academic subjects and mathematics through the final school year. The admissions team assesses the awarded qualification itself. A recognition certificate, foundation year or vocational curriculum cannot replace it. SAT and ACT scores do not qualify an applicant.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_ap",
+          "label": "US high school diploma and AP exams",
+          "category": "academic",
+          "status": "conditional",
+          "details": "With an accredited US high school diploma, earn a GPA of at least 3.00 in both grades 11 and 12. Take four independent approved College Board AP exams. Calculus AB or BC requires 4/5 and each other qualifying exam requires 3/5. Applicants awaiting their Calculus result must provide a mathematics certificate when they apply.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_ap_subjects",
+          "label": "Counting independent AP subjects",
+          "category": "academic",
+          "status": "conditional",
+          "details": "US and World History count together, as do Microeconomics and Macroeconomics. A World Languages and Cultures AP can count only as a fifth exam. At most one language course is accepted. Two final school years taught entirely in English qualify a US diploma holder for the English-test exemption regardless of school location.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_alevel",
+          "label": "British and international A levels",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present three approved A levels and three GCSE or IGCSE results across six different subjects, each at C or above. Include A-level Mathematics at B or above. Applicants still studying use the penultimate AS year for the maths grade. Upload the GCSE results.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_alevel_combinations",
+          "label": "A-level overlap and languages",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Maths with Further Mathematics or Statistics counts as one subject. Further Mathematics and Statistics can serve as a fourth A level. Other languages beyond the listed English subjects also count only as a fourth A level. The English-language and literature variants cannot fill multiple places among the first three.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_alevel_english",
+          "label": "English evidence for A-level applicants",
+          "category": "language",
+          "status": "conditional",
+          "details": "English Language, English Literature or their combined course qualifies at GCSE or IGCSE B (5), or at AS or A level C. GCSE English as a Second Language does not qualify. Applicants short of the English or maths grade must provide the relevant proficiency certificate.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_eb",
+          "label": "European Baccalaureate",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Achieve 7/10 in English as Language 1 or 2. Maths requires 7/10 on the three-hour course or 6/10 on the five-hour course. Submit the corresponding proficiency certificate for any unmet condition.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_vwo",
+          "label": "Dutch and Caribbean VWO routes",
+          "category": "academic",
+          "status": "conditional",
+          "details": "All VWO profiles from the Netherlands, Aruba, Curaçao and Sint Maarten qualify with English 7/10 and either Wiskunde A at 7/10 or Wiskunde B at 6/10. A shortfall requires a certificate in the relevant subject.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_hbo",
+          "label": "Dutch HBO propaedeutic diploma",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Eligible awards are Accountancy (34406), Finance and Control (34401 or 35520) and Finance, Tax and Advice (35517). The weighted average must reach 7.5 both when applying and on the final award. Provide a maths certificate and HBO English at 7.0. If English was absent, take a language test unless the HBO programme taught in English.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_maths_test",
+          "label": "Mathematics deficiency certificates",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "Submit results by 15 January. The OMPT thresholds are A at 70% or B at 60%. OMPT-F is excluded. For the VWO state subject exam, Boswell-Bèta or CCVX, obtain 7.0 in Wiskunde A or 6.0 in Wiskunde B. Only the first attempt counts.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_english_test",
+          "label": "English test thresholds",
+          "category": "language",
+          "status": "conditional",
+          "details": "When the diploma does not establish proficiency, submit a result by 15 January from the preceding two years. Minimum overall scores are IELTS Academic 6.0, TOEFL iBT 4.5, PTE Academic 61, LanguageCert 65, Cambridge B2 First or C1 Advanced 170, or C2 Proficiency 180. No separate component minimum is specified. Applicants needing Dutch immigration clearance must test at an official centre.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_selection",
+          "label": "First 250 ranks and weighted lottery",
+          "category": "application",
+          "status": "required",
+          "details": "There are 500 places. Eligible applicants must pass every part of the online first-year curriculum activity by 15 March 2027. Among those who pass, the top 250 grade averages receive ranks 1–250. Later ranks use grades and a random score weighted equally. Current pupils use penultimate-year results. Graduates submit final grades and any applicable tertiary results.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_waec",
+          "label": "West African Senior School Certificate",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Applicants presenting the WAEC senior secondary certificate need six academic subjects at C6 or better and must pass both the English and mathematics proficiency tests.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_kenya",
+          "label": "Kenya Certificate of Secondary Education",
+          "category": "academic",
+          "status": "conditional",
+          "details": "At least six KCSE subjects must carry A, B or C. Both the English test and the supplementary mathematics exam are compulsory for this route.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_morocco",
+          "label": "Moroccan baccalaureate streams",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present the Attestation du Baccalauréat in a listed Lettres or Sciences stream. The diploma must be supplemented with passes in the English and mathematics exams.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_south_africa",
+          "label": "South African National Senior Certificate",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The NSC must endorse bachelor’s admission. Present at least seven approved subjects averaging 70% or more, with no subject below 55%. Take the maths deficiency exam. English as home language qualifies for the English-test exemption.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_china",
+          "label": "Chinese senior high school and Gaokao",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present the senior middle school diploma and a Gaokao score of at least 550/750. Shanghai uses 484/600. Both the English test and the separate maths exam are compulsory.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_singapore",
+          "label": "Singapore-Cambridge examinations",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Submit three O levels, three approved academic H2 subjects, one H1 and General Paper or Knowledge and Inquiry. Pass all four A levels at C or higher. H2 Mathematics requires B, using the penultimate year for current students. O-level English requires B. Supply proficiency certificates for unmet language or maths conditions.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_brazil",
+          "label": "Brazilian secondary diploma and ENEM",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Alongside the Certificado de Conclusão do Ensino Médio, present an overall ENEM result of at least 600 and pass the English and supplementary mathematics exams.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_chile",
+          "label": "Chilean secondary diploma and PAES",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The scientific-humanistic secondary-school leaving diploma must be accompanied by a PAES result of at least 600. Both English and maths proficiency exams are required.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_colombia",
+          "label": "Colombian Bachiller Académico and Saber 11",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Submit the academic Bachiller diploma plus a Saber 11 result of 200 or higher. Pass English and maths proficiency exams as additional requirements.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_ontario",
+          "label": "Ontario Secondary School Diploma",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Complete grades 11 and 12 under the OSSD and six grade 12 university-level 4U courses. Mixed M courses do not count. Graduates need at least 70 in each of Calculus and Vectors and Advanced Functions at 4U. Current pupils need a maths exam. OSSD study in Canada exempts English testing. Outside Canada, ENG4U requires 70.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_australia",
+          "label": "Australian secondary certificate and ATAR",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The Higher School Certificate or Certificate of Education requires an ATAR of at least 86. English testing is waived for this route. Applicants must still pass a mathematics deficiency exam.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_nz",
+          "label": "New Zealand NCEA Level 3",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present NCEA Level 3 with 60 credits or more at Level 3 and 20 at Level 2. This diploma gives an English-test exemption and requires a separate maths proficiency exam.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_application",
+          "label": "Application portals and handling fee",
+          "category": "application",
+          "status": "required",
+          "details": "Complete both Studielink registration and the EUR Admission Portal application by 15 January 2027 at 23:59 CET. Applicants with a non-Dutch diploma pay the non-refundable €100 processing fee in the EUR portal. A Studielink registration alone expires.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB application and enrolment",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/application",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_offer",
+          "label": "Offer and certified final documents",
+          "category": "document",
+          "status": "required",
+          "details": "Ranks are issued on 15 April. Accept an offer within two weeks in Studielink. Submit certified diploma and final grades, with sworn translations when needed, by 1 August. The deadline for Irish Leaving Certificate and (I)GCE A-level documents is 21 August.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB application and enrolment",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/application",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_selection",
+          "label": "Selection weights and available places",
+          "category": "application",
+          "status": "required",
+          "details": "RSM offers 650 places for September 2027. Grades supply 75% of the ranking. Two short motivation responses written in English in OLAF supply 25%. Rankings are released on 15 April. The first 650 receive offers and later ranks can receive a place from the waiting list.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA admission and application",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_portals",
+          "label": "Application and evidence deadlines",
+          "category": "application",
+          "status": "required",
+          "details": "Register in Studielink by 15 January 2027 at 23:59 CET, then submit the RSM Online Application Form (OLAF) and application documents by 31 January at 23:59 CET. Supplementary English and maths results are due on 15 March.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA admission and application",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_acceptance",
+          "label": "Accepting a place and certifying the diploma",
+          "category": "document",
+          "status": "required",
+          "details": "Respond to an offer through Studielink within 14 days, including an offer from the waiting list. Provide the diploma and final grades for verification by 1 August.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA admission and application",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_alevel",
+          "label": "UK GCE and international A levels",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present three approved academic A levels at AAB, including Mathematics, and three GCSE or IGCSE subjects at grades B–A* (5–9). Six different subjects are required. Maths with Further Maths or Statistics, and IT with Computer Science, each count once. A second language or overlapping subject can be a fourth A level.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_alevel_maths",
+          "label": "A-level Mathematics evidence",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Current students need B in AS Mathematics, or B on the penultimate-year progress report if no AS exam was taken, and must study A-level Maths. Graduates need B in the A-level exam. An applicant without the specified maths preparation must take RSM’s supplementary mathematics exam.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_alevel_selection",
+          "label": "A-level grades for ranking and documents",
+          "category": "document",
+          "status": "conditional",
+          "details": "Academic ranking points start at AAB. Applicants still in school submit official GCSE and available AS certificates, using penultimate-year reports if AS evidence is unavailable. Graduates are assessed on final A2 exams. Use board certificates and, where GCSEs were not taken, submit the preceding secondary school grades. Predicted grades are excluded.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_alevel_english",
+          "label": "English proficiency via A levels",
+          "category": "language",
+          "status": "conditional",
+          "details": "Two final school years taught wholly in English qualify an A-level applicant for exemption. For prior schooling in a non-English-speaking country, GCSE or IGCSE First Language English at B (5) also qualifies. Otherwise submit an English test.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_ap",
+          "label": "US diploma and external AP exam scores",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For an accredited US high school diploma, complete four approved College Board subject exams before entry. Two scores must be at least 4/5 and the others at least 3/5. Calculus AB or BC requires 4/5. If this result is outstanding when applying, or only Precalculus was taken, complete RSM’s maths exam. At least one AP exam with 3/5 must already be complete at application.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_ap_subjects",
+          "label": "AP subject combinations and exclusions",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Count at most one language exam. Count overlapping history, economics, computing, English or calculus subjects only once within each group. AP Capstone, Research, Seminar, and Art and Design are excluded. SAT and ACT cannot substitute for the required exams.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_ap_points",
+          "label": "US diploma ranking and verification",
+          "category": "document",
+          "status": "conditional",
+          "details": "Academic selection points require an unweighted GPA of at least 3.3 (B+) plus a qualifying AP result by application. Current applicants use penultimate-year grades and completed AP exams. Graduates use final-year grades and AP results. List completed and planned exams, submit a school-signed and stamped AP report, and authorise RSM verification using College Board code 6767.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_ap_english",
+          "label": "English proficiency via a US diploma or AP",
+          "category": "language",
+          "status": "conditional",
+          "details": "A US diploma taught entirely in English during the last two years qualifies for an English-test exemption wherever the school is located. Otherwise a score of at least 3 in AP English Language and Composition or AP English Literature and Composition also qualifies.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_eb",
+          "label": "European Baccalaureate for IBA",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Maths requires 7/10 for the five-hour course or 8/10 for the three-hour course. English as Language 1 or 2 requires 7/10. Supply the relevant test if short. Academic ranking points begin at an average of 8.0/10 (80%). Current applicants use the penultimate year and graduates use final grades. Report changes in maths hours and the exam being taken.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_ib_documents",
+          "label": "IB transcript and results verification",
+          "category": "document",
+          "status": "conditional",
+          "details": "November exam candidates submit the official January results by 31 January. The school statement should identify subject levels, language levels and whether teaching was entirely in English. Graduates can release their official IB results to RSM through IBIS using institution code 034892.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_diploma_statement",
+          "label": "Evidence for the listed international diploma routes",
+          "category": "document",
+          "status": "conditional",
+          "details": "Applicants still in school submit an RSM diploma statement completed by the school. Graduates can omit the statement. Grade lists require school authentication. For an unlisted qualification, submit a complete application for individual review with the diploma if available, transcript and grading-system explanation.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA international diploma requirements",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_supplement",
+          "label": "Supplementary mathematics tests",
+          "category": "standardized_test",
+          "status": "conditional",
+          "details": "Submit the result in OLAF by 15 March. OMPT-A requires 75%. Alternatively present VWO Maths A at 6.5 or Maths B at 6.0 from Boswell-Bèta, CCVX or the Korteweg-de Vries Institute. Results must be at most two years old. RSM accepts the first two attempts only.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA mathematics exam",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/iba-mathematics-exam/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_english_tests",
+          "label": "IELTS, Cambridge, PTE and LanguageCert scores",
+          "category": "language",
+          "status": "conditional",
+          "details": "IELTS Academic requires 6.5 overall and 6.0 in every skill. Cambridge B2 First, C1 Advanced, C2 Proficiency or C1 Business Higher requires 170 overall and in each of the four skills. PTE Academic and LanguageCert Academic require 70 overall and 65 per skill. Upload the score report to OLAF. Duolingo is excluded.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA English tests",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/iba-english-requirements-and-tests/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_toefl",
+          "label": "TOEFL iBT overall and section scores",
+          "category": "language",
+          "status": "conditional",
+          "details": "On the original iBT scale RSM lists an overall 80, with reading and listening at 18 each, speaking at 20 and writing at 21. The school lists 4.5 for each skill on the revised scale. An applicant needing Dutch immigration clearance should take the test at a centre.",
+          "source": {
+            "title": "Rotterdam School of Management · IBA English tests",
+            "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/iba-english-requirements-and-tests/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_iba_references",
+          "label": "Reference letters in selection",
+          "category": "document",
+          "status": "not_considered",
+          "details": "RSM excludes recommendation letters when evaluating IBA applications.",
+          "source": {
+            "title": "Rotterdam School of Management · Recommendation letters for IBA",
+            "url": "https://admissions-support.rsm.nl/en/support/solutions/articles/80000880355-should-i-add-recommendation-letters-to-my-application-",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_turkiye",
+          "label": "Turkish Lise Diploması and AP Calculus alternative",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For the Lise Diploması, including the Turkish part of Cyprus, take the English test. The College Board score report for AP Calculus AB or BC at 4/5 or above can replace the maths deficiency exam.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_scotland",
+          "label": "Scottish Highers and Advanced Highers",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Present four Highers and two Advanced Highers in academic subjects, all at A or B. Mathematics must be an Advanced Higher at B or above. English testing is waived.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_ireland",
+          "label": "Irish Leaving Certificate and CAO points",
+          "category": "academic",
+          "status": "conditional",
+          "details": "At least six approved academic subjects must yield 400 CAO points or more. Take at least two at Higher Level, including maths, and earn H1–H4 in the Higher Level subjects. English testing is waived.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_france",
+          "label": "French baccalauréat, OIB and BFI",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Take maths in both première and terminale. Achieve 14/20 in maths complémentaires or 13/20 in the spécialité. The general diploma requires an English test. OIB/BFI applicants with 14 or higher in the British or American section qualify for an exemption.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_germany",
+          "label": "German Abitur subject marks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "On the Allgemeine Hochschulreife route, continue English and mathematics to the final year and obtain at least 10/15 in each. Maths must be an Abitur examination subject.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_norway",
+          "label": "Norwegian General Studies subject levels",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The General Studies diploma must confer general university admission. Take English through the final year at grade 4 or above. Present S1 and S2 maths at grade 4 or above, or R1 maths at grade 3 or above.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_denmark",
+          "label": "Danish STX, HHX and HTX",
+          "category": "academic",
+          "status": "conditional",
+          "details": "For STX, HHX or HTX, sit English as a final examination subject at level A or B and achieve at least 7. Maths at level A or B requires at least 7.5.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_hungary",
+          "label": "Hungarian advanced Matura subjects",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The Gimnáziumi Érettségi Bizonyítvány must come from a gimnázium. Both advanced-level English and advanced-level mathematics require grade 4 or above.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_greece",
+          "label": "Greek leaving certificate and Panhellenic exams",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Both the general lyceum leaving certificate and the Panhellenic exam certificate require an average of at least 15/20. Applicants must pass the English and maths proficiency tests.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_luxembourg",
+          "label": "Luxembourg classical secondary diploma",
+          "category": "academic",
+          "status": "conditional",
+          "details": "English requires 42/60. For modern languages or humanities and social sciences, coefficient 3 or 4 maths requires 42/60. The maths/computing, natural sciences and economics/maths tracks qualify without the supplementary maths exam.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_suriname",
+          "label": "Surinamese VWO mathematics tracks",
+          "category": "academic",
+          "status": "conditional",
+          "details": "All VWO profiles qualify with English at 7/10 and the applicable maths result. Wiskunde Q requires 7, Wiskunde I requires 6.5 and Wiskunde II requires 6. Supply proficiency evidence for a missing subject threshold.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_israel",
+          "label": "Israeli Te’udat Bagrut",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Earn at least 21 Bagrut units including three academic subjects. For mathematics, earn at least 80/100 in the five-unit course or provide replacement maths evidence. The English test is required.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_canada",
+          "label": "British Columbia, Québec and Canadian diploma delivery",
+          "category": "academic",
+          "status": "conditional",
+          "details": "BC graduates need five academic Grade 12 subjects and a maths deficiency test. English testing is waived. Québec pre-university DEC applicants need both English and maths tests. Canadian routes exclude online diplomas and one-year Canadian curricula. For diplomas completed abroad, the school must have official provincial authorisation and a ministry agreement.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "eur_ibeb_india",
+          "label": "Indian Standard XII and school boards",
+          "category": "academic",
+          "status": "conditional",
+          "details": "Standard XII requires five independent academic subjects at a minimum of 80%. For CBSE, use the academic stream with no final result below B1. CISCE academic subjects must each reach 80%. The NIOS senior secondary route requires its Migration Cum Transfer Certificate with A, B or C in all five exam subjects. English and maths tests are required.",
+          "source": {
+            "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+            "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    }
+  ]
+}

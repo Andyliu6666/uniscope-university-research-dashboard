@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282785,
+            "programs": 282787,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4510,
+            "admissionProfiles": 4513,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28181,
+            "admissionRequirements": 28239,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1722
+            "qualificationRequirements": 1724
         },
         "ibCoverage": {
             "byCountry": [
@@ -168,9 +168,9 @@
                 },
                 {
                     "country": "The Netherlands",
-                    "institutions": 3,
-                    "programs_with_reviewed_ib": 52,
-                    "programs_with_published_totals": 0
+                    "institutions": 4,
+                    "programs_with_reviewed_ib": 54,
+                    "programs_with_published_totals": 1
                 },
                 {
                     "country": "Trinidad and Tobago",
@@ -191,12 +191,12 @@
                     "programs_with_published_totals": 230
                 }
             ],
-            "reviewedRecords": 1722,
-            "programsWithReviewedIb": 1506,
+            "reviewedRecords": 1724,
+            "programsWithReviewedIb": 1508,
             "institutionWidePolicies": 24,
-            "institutionsWithReviewedIb": 64,
-            "programsWithPublishedTotals": 963,
-            "undergraduateCatalogEntries": 196997
+            "institutionsWithReviewedIb": 65,
+            "programsWithPublishedTotals": 964,
+            "undergraduateCatalogEntries": 196999
         },
         "coreCoverage": {
             "phone": 4078,
@@ -225,13 +225,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4196,
+            "programs": 4197,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1973,
+            "admissions": 1974,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23956
+            "noStructuredApplicationFacts": 23955
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -243,32 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6161,
-            "profiles": 1537,
-            "institutions": 122
+            "facts": 6219,
+            "profiles": 1538,
+            "institutions": 123
         }
     },
-    "generatedAt": "2026-11-23T10:42:10Z",
+    "generatedAt": "2026-11-23T12:47:44Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 35,
-        "provider": "official_admissions",
+        "inserted": 2,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 35,
-        "startedAt": "2026-11-23T10:42:08.247024+00:00",
-        "updatedAt": "2026-11-23T10:42:08.247024+00:00",
+        "processed": 2,
+        "startedAt": "2026-11-23T12:47:38.981854+00:00",
+        "updatedAt": "2026-11-23T12:47:39.02+00:00",
         "checkpoint": {
-            "profiles": 7,
-            "admissionFacts": 35,
-            "programsReused": 0,
-            "programsCreated": 23,
-            "priorSharedLinksAdded": 113
+            "rowIndex": 2,
+            "sourceRows": 2,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-23T10:42:08.362+00:00",
-        "artifactSha256": "8e2d5342dfb13cc92b4652bb51e61fa8f0c926ce85c8338eea0d8e834cdf499a",
-        "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1"
+        "finishedAt": "2026-11-23T12:47:39.02+00:00",
+        "artifactSha256": "6b78196ee301bad5d13944f7e0e60df4ed628d0bd5f34db1fe1c5113d46e4356",
+        "datasetVersion": "official-ib-requirements-erasmus-rotterdam-20261123-v1"
     },
     "schemaVersion": 2
 }

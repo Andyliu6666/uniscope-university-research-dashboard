@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-requirements-erasmus-rotterdam-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "eur",
+      "name": "Erasmus University Rotterdam",
+      "provider": "ror",
+      "externalId": "057w15z03",
+      "countryCode": "NL",
+      "officialDomains": ["eur.nl", "rsm.nl"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "eur",
+      "program": {
+        "name": "International Bachelor Economics and Business Economics (IBEB)",
+        "field": "Economics and Business Economics",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission"
+      },
+      "requirement": {
+        "recordKey": "eur-ibeb-ib-2027",
+        "academicYear": "2027",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB applicants to International Bachelor Economics and Business Economics in the 2027–2028 selection cycle.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches requires 4 at HL or 5 at SL. Applications and Interpretation requires 5 at HL. Other results, including AI SL, require the programme’s supplementary mathematics test. English A requires HL 4 or SL 5, or English B requires HL 5. Submit the relevant proficiency certificate if short.",
+        "conditions": "The School of Economics lists subject grades and gives no overall IB points threshold. Applicants satisfying the subject requirements still participate in the selection procedure.",
+        "source": {
+          "title": "Erasmus School of Economics · IBEB admissions 2027–2028",
+          "url": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+          "checkedOn": "2026-11-23",
+          "evidence": "Analysis & Approaches HL minimum grade 4"
+        }
+      }
+    },
+    {
+      "institutionKey": "eur",
+      "program": {
+        "name": "BSc International Business Administration (IBA)",
+        "field": "International Business Administration",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/"
+      },
+      "requirement": {
+        "recordKey": "eur-iba-ib-2027",
+        "academicYear": "2027",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB Diploma applicants competing for academic ranking points for September 2027 entry to RSM International Business Administration.",
+        "status": "published",
+        "scoreKind": "competitive_reference",
+        "totalMin": 33,
+        "totalMax": null,
+        "scoreScale": 42,
+        "includesCorePoints": false,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches requires 4 at HL or 5 at SL. Applications and Interpretation requires 5 at HL. Other results, including AI SL, require the programme’s supplementary mathematics test. Two full years of English-medium instruction waive the English test. Otherwise present English A at SL 5 or HL 4, or English B at HL 5, or take RSM’s test.",
+        "conditions": "Only the full IB Diploma qualifies. A score of 33 across the six exam subjects starts earning academic ranking points. Below 33 an applicant earns no academic ranking points. TOK and Extended Essay points are excluded. RSM uses actual penultimate-year results for current students and final exam results for graduates, excluding predicted grades. This competitive reference does not guarantee a place.",
+        "source": {
+          "title": "Rotterdam School of Management · IBA international diploma requirements",
+          "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/faq-category/141-international/",
+          "checkedOn": "2026-11-23",
+          "evidence": "33 points based on the 6 exam subjects (excluding TOK and EE)"
+        }
+      }
+    }
+  ]
+}
