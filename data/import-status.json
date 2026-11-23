@@ -2,15 +2,15 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282692,
+            "programs": 282730,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4472,
+            "admissionProfiles": 4474,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28103,
+            "admissionRequirements": 28123,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1694
         },
@@ -196,7 +196,7 @@
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 64,
             "programsWithPublishedTotals": 941,
-            "undergraduateCatalogEntries": 196904
+            "undergraduateCatalogEntries": 196942
         },
         "coreCoverage": {
             "phone": 4078,
@@ -225,13 +225,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4195,
+            "programs": 4196,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1972,
+            "admissions": 1973,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23957
+            "noStructuredApplicationFacts": 23956
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -243,31 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6083,
-            "profiles": 1527,
-            "institutions": 121
+            "facts": 6103,
+            "profiles": 1529,
+            "institutions": 122
         }
     },
-    "generatedAt": "2026-11-23T04:30:55Z",
+    "generatedAt": "2026-11-23T07:27:32Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 44,
-        "provider": "official_ib",
+        "inserted": 20,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 44,
-        "startedAt": "2026-11-23T04:30:51.940473+00:00",
-        "updatedAt": "2026-11-23T04:30:52.06+00:00",
+        "processed": 20,
+        "startedAt": "2026-11-23T07:27:30.477202+00:00",
+        "updatedAt": "2026-11-23T07:27:30.477202+00:00",
         "checkpoint": {
-            "rowIndex": 44,
-            "sourceRows": 44,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 2,
+            "admissionFacts": 20,
+            "programsReused": 0,
+            "programsCreated": 38
         },
-        "finishedAt": "2026-11-23T04:30:52.06+00:00",
-        "artifactSha256": "ca2dfecfba844c057fa08f82b16379838823eecd394e69a29f3d055a81f5c887",
-        "datasetVersion": "official-ib-requirements-aberystwyth-foundation-mathematics-20261123-v1"
+        "finishedAt": "2026-11-23T07:27:30.6+00:00",
+        "artifactSha256": "c88c0c7c929e069db13214595fceaba7263e139d02a14b79744954cd6b76030f",
+        "datasetVersion": "official-admissions-facts-venda-science-20261123-v1"
     },
     "schemaVersion": 2
 }
