@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282730,
+            "programs": 282762,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4474,
+            "admissionProfiles": 4504,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28123,
+            "admissionRequirements": 28146,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1694
+            "qualificationRequirements": 1722
         },
         "ibCoverage": {
             "byCountry": [
@@ -187,16 +187,16 @@
                 {
                     "country": "United Kingdom",
                     "institutions": 4,
-                    "programs_with_reviewed_ib": 233,
-                    "programs_with_published_totals": 208
+                    "programs_with_reviewed_ib": 261,
+                    "programs_with_published_totals": 230
                 }
             ],
-            "reviewedRecords": 1694,
-            "programsWithReviewedIb": 1478,
+            "reviewedRecords": 1722,
+            "programsWithReviewedIb": 1506,
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 64,
-            "programsWithPublishedTotals": 941,
-            "undergraduateCatalogEntries": 196942
+            "programsWithPublishedTotals": 963,
+            "undergraduateCatalogEntries": 196974
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,31 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6103,
-            "profiles": 1529,
+            "facts": 6126,
+            "profiles": 1531,
             "institutions": 122
         }
     },
-    "generatedAt": "2026-11-23T07:27:32Z",
+    "generatedAt": "2026-11-23T08:35:32Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 20,
-        "provider": "official_admissions",
+        "inserted": 28,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 20,
-        "startedAt": "2026-11-23T07:27:30.477202+00:00",
-        "updatedAt": "2026-11-23T07:27:30.477202+00:00",
+        "processed": 28,
+        "startedAt": "2026-11-23T08:35:29.601126+00:00",
+        "updatedAt": "2026-11-23T08:35:29.689+00:00",
         "checkpoint": {
-            "profiles": 2,
-            "admissionFacts": 20,
-            "programsReused": 0,
-            "programsCreated": 38
+            "rowIndex": 28,
+            "sourceRows": 28,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-23T07:27:30.6+00:00",
-        "artifactSha256": "c88c0c7c929e069db13214595fceaba7263e139d02a14b79744954cd6b76030f",
-        "datasetVersion": "official-admissions-facts-venda-science-20261123-v1"
+        "finishedAt": "2026-11-23T08:35:29.689+00:00",
+        "artifactSha256": "d0eba1ffaf0c76c7feef478313ffc4b40851e9c2a8248682b9f0cfe08a580383",
+        "datasetVersion": "official-ib-requirements-aberystwyth-business-20261123-v1"
     },
     "schemaVersion": 2
 }

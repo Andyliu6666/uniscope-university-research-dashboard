@@ -1,0 +1,2489 @@
+{
+  "datasetVersion": "official-admissions-facts-aberystwyth-business-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "aber",
+      "name": "Aberystwyth University",
+      "provider": "ror",
+      "externalId": "015m2p889",
+      "countryCode": "GB",
+      "officialDomains": ["aber.ac.uk"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "aber-n12t",
+      "name": "Business and Management (Top-up) (BSc)",
+      "field": "Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup/",
+        "title": "Aberystwyth University · BSc Business and Management (Top-up) · N12T · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_topup_entry",
+        "aber27_biz_topup_match",
+        "aber27_biz_topup_english"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        }
+      ]
+    },
+    {
+      "key": "aber-n400",
+      "name": "Accounting and Finance (BSc)",
+      "field": "Accounting and Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/",
+        "title": "Aberystwyth University · BSc Accounting and Finance · N400 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n40f",
+      "name": "Accounting and Finance with integrated foundation year (BSc)",
+      "field": "Accounting and Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-foundation/",
+        "title": "Aberystwyth University · BSc Accounting and Finance · N40F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_progress_n40f",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-ng34",
+      "name": "Accounting and Finance and Computing (BSc)",
+      "field": "Accounting and Finance and Computing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-computing/",
+        "title": "Aberystwyth University · BSc Accounting and Finance and Computing · NG34 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n4l1",
+      "name": "Accounting and Finance / Economics (BSc)",
+      "field": "Accounting and Finance / Economics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-economics/",
+        "title": "Aberystwyth University · BSc Accounting and Finance / Economics · N4L1 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_euro_unclear",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        }
+      ]
+    },
+    {
+      "key": "aber-n4t0",
+      "name": "Accounting and International Finance (Top-up) (BSc)",
+      "field": "Accounting and International Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-international-finance/",
+        "title": "Aberystwyth University · BSc Accounting and International Finance (Top-up) · N4T0 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_topup_entry",
+        "aber27_biz_topup_match",
+        "aber27_biz_topup_english"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        }
+      ]
+    },
+    {
+      "key": "aber-n4n1",
+      "name": "Accounting and Finance / Business and Management (BSc)",
+      "field": "Accounting and Finance / Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/accounting-management/",
+        "title": "Aberystwyth University · BSc Accounting and Finance / Business and Management · N4N1 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-fn71",
+      "name": "Business and Climate Change (BSc)",
+      "field": "Business and Climate Change",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-and-climate-change/",
+        "title": "Aberystwyth University · BSc Business and Climate Change · FN71 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n12f",
+      "name": "Business and Management with integrated foundation year (BSc)",
+      "field": "Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-and-management-foundation/",
+        "title": "Aberystwyth University · BSc Business and Management · N12F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_progress_n12f",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-ng14",
+      "name": "Business and Management and Computing (BSc)",
+      "field": "Business and Management and Computing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-computing/",
+        "title": "Aberystwyth University · BSc Business and Management and Computing · NG14 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_computing_tariff",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        }
+      ]
+    },
+    {
+      "key": "aber-l113",
+      "name": "Business Economics (BSc)",
+      "field": "Business Economics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-economics-degree/",
+        "title": "Aberystwyth University · BSc Business Economics · L113 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-l11f",
+      "name": "Business Economics with integrated foundation year (BSc)",
+      "field": "Business Economics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-economics-foundation/",
+        "title": "Aberystwyth University · BSc Business Economics · L11F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-n310",
+      "name": "Business Finance (BSc)",
+      "field": "Business Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-finance-degree/",
+        "title": "Aberystwyth University · BSc Business Finance · N310 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n31f",
+      "name": "Business Finance with integrated foundation year (BSc)",
+      "field": "Business Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-finance-foundation/",
+        "title": "Aberystwyth University · BSc Business Finance · N31F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_progress_n31f",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-n122",
+      "name": "Business and Management (BSc)",
+      "field": "Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-management-degree/",
+        "title": "Aberystwyth University · BSc Business and Management · N122 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-nr90",
+      "name": "Business and Management / Modern Languages (BSc)",
+      "field": "Business and Management / Modern Languages",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/business-modern-languages/",
+        "title": "Aberystwyth University · BSc Business and Management / Modern Languages · NR90 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_al_lang",
+        "aber27_biz_gcse_lang",
+        "aber27_biz_btec_dmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_modern_languages"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n590",
+      "name": "Digital Marketing (BSc)",
+      "field": "Digital Marketing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/digital-marketing/",
+        "title": "Aberystwyth University · BSc Digital Marketing · N590 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-fl71",
+      "name": "Economics and Climate Change (BSc)",
+      "field": "Economics and Climate Change",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/economics-and-climate-change/",
+        "title": "Aberystwyth University · BSc Economics and Climate Change · FL71 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-l1n1",
+      "name": "Economics / Business and Management (BSc)",
+      "field": "Economics / Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/economics-business/",
+        "title": "Aberystwyth University · BSc Economics / Business and Management · L1N1 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-l100",
+      "name": "Economics (BSc)",
+      "field": "Economics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/economics-degree/",
+        "title": "Aberystwyth University · BSc Economics · L100 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-l10f",
+      "name": "Economics with integrated foundation year (BSc)",
+      "field": "Economics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/economics-foundation/",
+        "title": "Aberystwyth University · BSc Economics · L10F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-ll13",
+      "name": "Economics and Politics (BSc)",
+      "field": "Economics and Politics",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/economics-politics/",
+        "title": "Aberystwyth University · BSc Economics and Politics · LL13 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n31t",
+      "name": "International Business Finance (Top-Up) (BSc)",
+      "field": "International Business Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/international-business-finance/",
+        "title": "Aberystwyth University · BSc International Business Finance (Top-Up) · N31T · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_topup_entry",
+        "aber27_biz_topup_match",
+        "aber27_biz_topup_english"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        }
+      ]
+    },
+    {
+      "key": "aber-n51t",
+      "name": "International Marketing (Top-up) (BSc)",
+      "field": "International Marketing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/international-marketing-topup/",
+        "title": "Aberystwyth University · BSc International Marketing (Top-up) · N51T · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_topup_entry",
+        "aber27_biz_topup_match",
+        "aber27_biz_topup_english"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        }
+      ]
+    },
+    {
+      "key": "aber-mn11",
+      "name": "Law and Business & Management (LLB)",
+      "field": "Law and Business & Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/law-business/",
+        "title": "Aberystwyth University · LLB Law and Business & Management · MN11 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_al_law",
+        "aber27_biz_btec_dmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_d4c562bb"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-mn14",
+      "name": "Law and Accounting & Finance (LLB)",
+      "field": "Law and Accounting & Finance",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/llb-law-accounting-finance/",
+        "title": "Aberystwyth University · LLB Law and Accounting & Finance · MN14 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_al_law",
+        "aber27_biz_btec_dmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_d4c562bb"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n5n1",
+      "name": "Marketing / Business and Management (BSc)",
+      "field": "Marketing / Business and Management",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/marketing-businessmanagement/",
+        "title": "Aberystwyth University · BSc Marketing / Business and Management · N5N1 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n500",
+      "name": "Marketing (BSc)",
+      "field": "Marketing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/marketing-degree/",
+        "title": "Aberystwyth University · BSc Marketing · N500 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-n50f",
+      "name": "Marketing with integrated foundation year (BSc)",
+      "field": "Marketing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/marketing-foundation/",
+        "title": "Aberystwyth University · BSc Marketing · N50F · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_language_ielts",
+        "aber27_biz_language_toefl",
+        "aber27_biz_language_trinity",
+        "aber27_biz_language_oxford",
+        "aber27_biz_language_iec",
+        "aber27_biz_language_cambridge_b2",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_tariff_98010bd9"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_math_foundation"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_foundation_lower"
+        }
+      ]
+    },
+    {
+      "key": "aber-nr91",
+      "name": "Marketing / Modern Languages (BSc)",
+      "field": "Marketing / Modern Languages",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/marketing-modern-languages/",
+        "title": "Aberystwyth University · BSc Marketing / Modern Languages · NR91 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_al_lang",
+        "aber27_biz_gcse_lang",
+        "aber27_biz_btec_dmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_modern_languages"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_665a4499"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-nc58",
+      "name": "Psychology and Marketing (BSc)",
+      "field": "Psychology and Marketing",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/marketing-psychology/",
+        "title": "Aberystwyth University · BSc Psychology and Marketing · NC58 · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    },
+    {
+      "key": "aber-21ll",
+      "name": "Economics and International Relations (BSc)",
+      "field": "Economics and International Relations",
+      "institutionKey": "aber",
+      "level": "undergraduate",
+      "source": {
+        "url": "https://courses.aber.ac.uk/undergraduate/relations-economics/",
+        "title": "Aberystwyth University · BSc Economics and International Relations · 21LL · September 2027",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "aber27_biz_btec_mmm",
+        "aber27_biz_language_cambridge_c",
+        "aber27_biz_language_pte",
+        "aber27_biz_language_school",
+        "aber27_biz_language_ap"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_access"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_uk_context"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_intl_docs"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_prior_learning"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_english_ib"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-foundation-mathematics-20261123-v1",
+          "key": "aber27_fm_gcse"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_ucas_f222e976"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_gpa"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_ap"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_other"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_us_mature"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_al_492cee1e"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-aberystwyth-wales-life-sciences-2027-20261122-v1",
+          "key": "aber27_eb_abb0d9aa"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "The shared conditions apply to the linked awards. Direct entry, integrated foundation study and advanced-entry top-ups are distinguished in the catalogue and requirements.",
+      "requirements": [
+        {
+          "key": "aber27_biz_al_lang",
+          "label": "Typical A-level offer",
+          "details": "The course gives a typical A-level range from BCC to BBB.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-modern-languages/",
+            "title": "Aberystwyth University · BSc Business and Management / Modern Languages · NR90 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_al_law",
+          "label": "Typical A-level offer",
+          "details": "The standard A-level range stated for this joint LLB is BCC to ABB.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/law-business/",
+            "title": "Aberystwyth University · LLB Law and Business & Management · MN11 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_gcse_lang",
+          "label": "GCSE in English or Welsh",
+          "details": "The GCSE entry row specifies English or Welsh at C/4 or above.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-modern-languages/",
+            "title": "Aberystwyth University · BSc Business and Management / Modern Languages · NR90 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "required"
+        },
+        {
+          "key": "aber27_biz_btec_mmm",
+          "label": "Typical BTEC National Diploma offer",
+          "details": "The typical BTEC National Diploma range is MMM to DDM.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-degree/",
+            "title": "Aberystwyth University · BSc Accounting and Finance · N400 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_btec_dmm",
+          "label": "Typical BTEC National Diploma offer",
+          "details": "The typical BTEC National Diploma range is DMM to DDM.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-modern-languages/",
+            "title": "Aberystwyth University · BSc Business and Management / Modern Languages · NR90 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_computing_tariff",
+          "label": "How the A-level route is expressed",
+          "details": "For A-level applicants the university gives the UCAS Tariff range shown for this course. It does not list a letter-grade combination.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-computing/",
+            "title": "Aberystwyth University · BSc Business and Management and Computing · NG14 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_euro_unclear",
+          "label": "European Baccalaureate entry needs clarification",
+          "details": "The course page prints 30–26 in its European Baccalaureate row without specifying a unit. Confirm the European Baccalaureate offer with Admissions before relying on this entry.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/accounting-economics/",
+            "title": "Aberystwyth University · BSc Accounting and Finance / Economics · N4L1 · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "September",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "The shared conditions apply to the linked awards. Direct entry, integrated foundation study and advanced-entry top-ups are distinguished in the catalogue and requirements.",
+      "requirements": [
+        {
+          "key": "aber27_biz_topup_entry",
+          "label": "Qualifications for entry to the one-year top-up",
+          "details": "Applicants normally present a DipHE or a relevant Level 5 qualification. Accepted Level 5 qualifications include a foundation degree, HND, award, certificate, diploma or NVQ. International alternatives include an advanced or higher diploma or an associate degree. Two completed years of a relevant BA (Hons) at a recognised institution are another route.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup/",
+            "title": "Aberystwyth University · BSc Business and Management (Top-up) · N12T · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_topup_match",
+          "label": "How previous study is assessed",
+          "details": "Admissions assesses each top-up application individually, taking account of the qualification system in the applicant’s country and the match between previously studied modules and the degree.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/N12T-business-topup/",
+            "title": "Aberystwyth University · BSc Business and Management (Top-up) · N12T · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "application",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_progress_n40f",
+          "label": "Study after the integrated foundation year",
+          "details": "After the foundation year, the course follows the syllabus of Accounting and Finance (N400). The course page gives no numerical progression mark.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/accounting-and-finance-foundation/",
+            "title": "Aberystwyth University · BSc Accounting and Finance · N40F · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_progress_n12f",
+          "label": "Study after the integrated foundation year",
+          "details": "After the foundation year, the course follows the syllabus of Business and Management (N122). The course page gives no numerical progression mark.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-and-management-foundation/",
+            "title": "Aberystwyth University · BSc Business and Management · N12F · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_progress_n31f",
+          "label": "Study after the integrated foundation year",
+          "details": "After the foundation year, the course follows the syllabus of Business Finance (N310). The course page gives no numerical progression mark.",
+          "source": {
+            "url": "https://courses.aber.ac.uk/undergraduate/business-finance-foundation/",
+            "title": "Aberystwyth University · BSc Business Finance · N31F · September 2027",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "academic",
+          "status": "conditional"
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "international",
+      "deliveryMode": "unspecified",
+      "notes": "The shared conditions apply to the linked awards. Direct entry, integrated foundation study and advanced-entry top-ups are distinguished in the catalogue and requirements.",
+      "requirements": [
+        {
+          "key": "aber27_biz_topup_english",
+          "label": "English-language evidence for advanced entry",
+          "details": "The four top-up course pages refer applicants to the undergraduate English-language requirements. Use the Business courses column when checking the accepted tests and component scores.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        }
+      ]
+    },
+    {
+      "institutionKey": "aber",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "deliveryMode": "unspecified",
+      "notes": "The shared conditions apply to the linked awards. Direct entry, integrated foundation study and advanced-entry top-ups are distinguished in the catalogue and requirements.",
+      "requirements": [
+        {
+          "key": "aber27_biz_language_ielts",
+          "label": "IELTS for Business and BSc Computer Science",
+          "details": "IELTS requires 6.0 overall and at least 5.5 in every component.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_toefl",
+          "label": "TOEFL iBT taken at a test centre",
+          "details": "The older scale requires 88 overall with reading 18, listening 17, speaking 20 and writing 17. The newer scale requires 4.0 overall and at least 4.0 per component. The table labels tests before 20 January 2026 and after 21 January 2026. Confirm the applicable scale for a test on a boundary date.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_trinity",
+          "label": "Trinity ISE",
+          "details": "A Trinity ISE score of 90 overall is required, including at least 80 in each skill.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_oxford",
+          "label": "Oxford ELLT",
+          "details": "The Digital and Global versions require 6 overall and at least 5 in every component.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_iec",
+          "label": "Aberystwyth International English Centre",
+          "details": "A pre-sessional course report requires a pass at 50% overall, with at least 40% per component. The International Foundation Certificate alternative requires an overall pass, 50–59% in English and at least 50% in each module.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_cambridge_b2",
+          "label": "Cambridge B2 English tests",
+          "details": "B2 First requires B. B2 Business Vantage requires C. For either qualification the minimum component score is 162.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_cambridge_c",
+          "label": "Cambridge advanced English tests",
+          "details": "C1 Advanced, C2 Proficiency and C1 Business Higher each require grade C with at least 162 per component.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_pte",
+          "label": "Pearson PTE Academic",
+          "details": "PTE Academic requires 59 overall and at least 59 in every component.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_school",
+          "label": "School qualifications for English-language evidence",
+          "details": "The table accepts IGCSE C/4, grade E in UK AS-level English Language, grade C or higher in Cambridge O Level, or C/4 in UK GCSE or O-level English Language.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        },
+        {
+          "key": "aber27_biz_language_ap",
+          "label": "US-curriculum AP evidence for English",
+          "details": "In its alternative English qualifications for non-EEA applicants, the university lists a US-curriculum AP score of at least 3. Supply evidence of the qualification. The table does not name an AP subject for this use.",
+          "source": {
+            "title": "Aberystwyth University · Undergraduate English Requirements",
+            "url": "https://www.aber.ac.uk/en/study-with-us/international/english-requirements/ug-english-requirements/",
+            "checkedOn": "2026-11-23"
+          },
+          "category": "language",
+          "status": "conditional"
+        }
+      ]
+    }
+  ]
+}
