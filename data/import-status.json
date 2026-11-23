@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282622,
+            "programs": 282649,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4421,
+            "admissionProfiles": 4428,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28050,
+            "admissionRequirements": 28074,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1649
+            "qualificationRequirements": 1650
         },
         "ibCoverage": {
             "byCountry": [
@@ -114,8 +114,8 @@
                 },
                 {
                     "country": "Mauritius",
-                    "institutions": 1,
-                    "programs_with_reviewed_ib": 0,
+                    "institutions": 2,
+                    "programs_with_reviewed_ib": 1,
                     "programs_with_published_totals": 0
                 },
                 {
@@ -191,12 +191,12 @@
                     "programs_with_published_totals": 188
                 }
             ],
-            "reviewedRecords": 1649,
-            "programsWithReviewedIb": 1434,
+            "reviewedRecords": 1650,
+            "programsWithReviewedIb": 1435,
             "institutionWidePolicies": 24,
-            "institutionsWithReviewedIb": 63,
+            "institutionsWithReviewedIb": 64,
             "programsWithPublishedTotals": 921,
-            "undergraduateCatalogEntries": 196834
+            "undergraduateCatalogEntries": 196861
         },
         "coreCoverage": {
             "phone": 4078,
@@ -225,13 +225,13 @@
         "aliasedProfiles": 23827,
         "profileCoverage": {
             "costs": 3865,
-            "programs": 4194,
+            "programs": 4195,
             "research": 27018,
             "deadlines": 1,
-            "admissions": 1971,
+            "admissions": 1972,
             "enrollment": 4068,
             "financialAid": 0,
-            "noStructuredApplicationFacts": 23958
+            "noStructuredApplicationFacts": 23957
         },
         "sourcedProfiles": 28171,
         "identifierCounts": {
@@ -243,31 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6030,
-            "profiles": 1521,
-            "institutions": 120
+            "facts": 6054,
+            "profiles": 1527,
+            "institutions": 121
         }
     },
-    "generatedAt": "2026-11-22T14:29:52Z",
+    "generatedAt": "2026-11-23T03:27:43Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
+        "inserted": 1,
         "provider": "official_ib",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-22T14:29:49.228114+00:00",
-        "updatedAt": "2026-11-22T14:29:49.256+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-23T03:27:41.17089+00:00",
+        "updatedAt": "2026-11-23T03:27:41.186+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
+            "rowIndex": 1,
+            "sourceRows": 1,
             "schemaVersion": 1,
             "createdPrograms": 0
         },
-        "finishedAt": "2026-11-22T14:29:49.256+00:00",
-        "artifactSha256": "4e4d9cb1f3a7c5b08e0089ebf744b4857764411813b7ee8fc99743a4bac6f243",
-        "datasetVersion": "official-ib-requirements-aberystwyth-veterinary-2027-20261122-v1"
+        "finishedAt": "2026-11-23T03:27:41.186+00:00",
+        "artifactSha256": "4ed3df24e3f76dc4f5d64383d2526b1d31920820c903f4bd6543333f71bb6e2f",
+        "datasetVersion": "official-ib-requirements-utm-mauritius-20261123-v1"
     },
     "schemaVersion": 2
 }

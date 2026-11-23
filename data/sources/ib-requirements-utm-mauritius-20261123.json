@@ -1,0 +1,50 @@
+{
+  "datasetVersion": "official-ib-requirements-utm-mauritius-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "utm",
+      "name": "University of Technology, Mauritius",
+      "provider": "ror",
+      "externalId": "030111688",
+      "countryCode": "MU",
+      "officialDomains": ["utm.ac.mu", "adi.ac.mu"]
+    }
+  ],
+  "schemaVersion": 1,
+  "records": [
+    {
+      "institutionKey": "utm",
+      "program": {
+        "name": "BA (Hons) Interior Design · Academy of Design and Innovation",
+        "level": "undergraduate",
+        "field": "Interior Design",
+        "courseCode": null,
+        "url": "https://www.adi.ac.mu/courses-BA-interior.html"
+      },
+      "requirement": {
+        "recordKey": "utm-adi-interior-ib",
+        "academicYear": "unspecified",
+        "intakeTerm": "March or October",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB applicants to the UTM-awarded BA (Hons) Interior Design taught by the Academy of Design and Innovation in Ebene, Reduit.",
+        "status": "not_stated_in_source",
+        "scoreKind": null,
+        "totalMin": null,
+        "totalMax": null,
+        "scoreScale": null,
+        "includesCorePoints": null,
+        "hlGrades": [],
+        "subjectNotes": "The course lists the IB as a qualifying route without specifying subject grades.",
+        "conditions": "Selection includes academic qualifications and a portfolio. The partner lists March and October intakes without specifying an academic year.",
+        "source": {
+          "title": "Academy of Design and Innovation · Interior Design · UTM award",
+          "url": "https://www.adi.ac.mu/courses-BA-interior.html",
+          "checkedOn": "2026-11-23",
+          "evidence": "The International Baccalaureate"
+        }
+      }
+    }
+  ]
+}

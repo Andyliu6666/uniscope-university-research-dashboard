@@ -1,0 +1,740 @@
+{
+  "datasetVersion": "official-admissions-facts-utm-mauritius-20261123-v1",
+  "reviewedOn": "2026-11-23",
+  "institutions": [
+    {
+      "key": "utm",
+      "name": "University of Technology, Mauritius",
+      "provider": "ror",
+      "externalId": "030111688",
+      "countryCode": "MU",
+      "officialDomains": ["utm.ac.mu", "adi.ac.mu"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "utm-bsc-hons-software-engineering",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Software Engineering",
+      "level": "undergraduate",
+      "field": "Software Engineering",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Software Engineering",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-software-engineering-2/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_software"]
+    },
+    {
+      "key": "utm-bsc-hons-cyber-security",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Cyber Security",
+      "level": "undergraduate",
+      "field": "Cyber Security",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Cyber Security",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-cyber-security/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_maths", "utm_regulations", "utm_prior_learning"]
+    },
+    {
+      "key": "utm-bsc-hons-computing-and-information-systems-top-up",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Computing and Information Systems (Top Up)",
+      "level": "undergraduate",
+      "field": "Computing and Information Systems",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Computing and Information Systems (Top Up)",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-computing-information-systems-v3-1-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_it_topup"]
+    },
+    {
+      "key": "utm-bsc-hons-business-information-systems",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Business Information Systems",
+      "level": "undergraduate",
+      "field": "Business Information Systems",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Business Information Systems",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-information-systems-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations"]
+    },
+    {
+      "key": "utm-bsc-hons-web-technologies",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Web Technologies",
+      "level": "undergraduate",
+      "field": "Web Technologies",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Web Technologies",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-web-technology-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations", "utm_prior_learning"]
+    },
+    {
+      "key": "utm-ba-hons-graphics-design",
+      "institutionKey": "utm",
+      "name": "BA (Hons) Graphics Design",
+      "level": "undergraduate",
+      "field": "Graphics Design",
+      "source": {
+        "title": "University of Technology, Mauritius · BA (Hons) Graphics Design",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-graphic-design-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations", "utm_prior_learning"]
+    },
+    {
+      "key": "utm-bsc-hons-network-and-telecommunication-technologies",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Network and Telecommunication Technologies",
+      "level": "undergraduate",
+      "field": "Network and Telecommunication Technologies",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Network and Telecommunication Technologies",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-network-telecomunication-technologies-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_network"]
+    },
+    {
+      "key": "utm-bsc-hons-mathematics",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Mathematics",
+      "level": "undergraduate",
+      "field": "Mathematics",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Mathematics",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-mathematics-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_maths"]
+    },
+    {
+      "key": "utm-foundation-course-in-computing-engineering-and-health-sciences",
+      "institutionKey": "utm",
+      "name": "Foundation Course in Computing, Engineering and Health Sciences",
+      "level": "undergraduate",
+      "field": "Computing, Engineering and Health Sciences",
+      "source": {
+        "title": "University of Technology, Mauritius · Foundation Course in Computing, Engineering and Health Sciences",
+        "url": "https://www.utm.ac.mu/courses/foundation-course-in-computing-engineering-and-health-sciences/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_prep"]
+    },
+    {
+      "key": "utm-bsc-hons-financial-engineering",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Financial Engineering",
+      "level": "undergraduate",
+      "field": "Financial Engineering",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Financial Engineering",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-financial-engineering-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_maths", "utm_regulations"]
+    },
+    {
+      "key": "utm-bsc-hons-financial-services",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Financial Services",
+      "level": "undergraduate",
+      "field": "Financial Services",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Financial Services",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-financial-service-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_fin_cert", "utm_fin_work"]
+    },
+    {
+      "key": "utm-bsc-hons-accounting-with-finance",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Accounting with Finance",
+      "level": "undergraduate",
+      "field": "Accounting with Finance",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Accounting with Finance (ACCA and ICAEW Accredited)",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-accounting-with-finance-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations", "utm_accounts"]
+    },
+    {
+      "key": "utm-bsc-hons-occupational-safety-and-health-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Occupational Safety and Health Management",
+      "level": "undergraduate",
+      "field": "Occupational Safety and Health Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Occupational Safety and Health Management(accredited by IOSH-UK)",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-occupational-safety-health-management-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations"]
+    },
+    {
+      "key": "utm-bsc-hons-services-management-innovation-and-digital-marketing",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Services Management, Innovation and Digital Marketing",
+      "level": "undergraduate",
+      "field": "Services Management, Innovation and Digital Marketing",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Services Management, Innovation and Digital Marketing",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-services-management-innovation-and-digital-marketing/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations"]
+    },
+    {
+      "key": "utm-ba-hons-communication-and-digital-media",
+      "institutionKey": "utm",
+      "name": "BA (Hons) Communication and Digital Media",
+      "level": "undergraduate",
+      "field": "Communication and Digital Media",
+      "source": {
+        "title": "University of Technology, Mauritius · BA (Hons) Communication and Digital Media",
+        "url": "https://www.utm.ac.mu/courses/ba-communication-and-digital-media-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_hsc_routes", "utm_alternatives"]
+    },
+    {
+      "key": "utm-bsc-hons-services-marketing-and-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Services Marketing and Management",
+      "level": "undergraduate",
+      "field": "Services Marketing and Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Services Marketing and Management",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-services-management-marketing-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations"]
+    },
+    {
+      "key": "utm-bsc-hons-in-management-with-marketing",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) in Management (with Marketing)",
+      "level": "undergraduate",
+      "field": "Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) in Management (with MARKETING)",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-managament-with-marketing-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_ict"]
+    },
+    {
+      "key": "utm-bsc-hons-travel-and-tourism-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Travel and Tourism Management",
+      "level": "undergraduate",
+      "field": "Travel and Tourism Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Travel and Tourism Management",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-travel-and-tourism-management/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations"]
+    },
+    {
+      "key": "utm-bsc-hons-tourism-and-hospitality-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Tourism and Hospitality Management",
+      "level": "undergraduate",
+      "field": "Tourism and Hospitality Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Tourism and Hospitality Management",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-tourism-and-hospitality-management-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_hsc_routes", "utm_alternatives"]
+    },
+    {
+      "key": "utm-bsc-hons-human-resource-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Human Resource Management",
+      "level": "undergraduate",
+      "field": "Human Resource Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons.) Human Resource Management",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-human-resource-management-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations", "utm_prior_learning", "utm_exemptions"]
+    },
+    {
+      "key": "utm-bsc-hons-in-management-general",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) in Management (General)",
+      "level": "undergraduate",
+      "field": "Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) in Management (General)",
+        "url": "https://www.utm.ac.mu/courses/bsc-hons-managament-general-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_regulations", "utm_prior_learning", "utm_exemptions"]
+    },
+    {
+      "key": "utm-bsc-hons-sustainable-environmental-planning-and-management",
+      "institutionKey": "utm",
+      "name": "BSc (Hons) Sustainable Environmental Planning and Management",
+      "level": "undergraduate",
+      "field": "Sustainable Environmental Planning and Management",
+      "source": {
+        "title": "University of Technology, Mauritius · BSc (Hons) Sustainable Environmental Planning and Management",
+        "url": "https://www.utm.ac.mu/courses/ba-hons-sustainable-environmental-planning-management-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_environment"]
+    },
+    {
+      "key": "utm-beng-hons-telecommunication-engineering",
+      "institutionKey": "utm",
+      "name": "BEng (Hons) Telecommunication Engineering",
+      "level": "undergraduate",
+      "field": "Telecommunication Engineering",
+      "source": {
+        "title": "University of Technology, Mauritius · BEng (HONS) Telecommunication Engineering",
+        "url": "https://www.utm.ac.mu/courses/beng-hons-telecommunication-engineering-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_telecom", "utm_technicien"]
+    },
+    {
+      "key": "utm-diploma-in-pharmacy-technician-studies",
+      "institutionKey": "utm",
+      "name": "Diploma in Pharmacy Technician Studies",
+      "level": "undergraduate",
+      "field": "Pharmacy Technician Studies",
+      "source": {
+        "title": "University of Technology, Mauritius · Diploma in Pharmacy Technician Studies",
+        "url": "https://www.utm.ac.mu/courses/diploma-pharmacy-technician-studies-mauritius/",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_pharmacy"]
+    },
+    {
+      "key": "utm-adi-interior",
+      "institutionKey": "utm",
+      "name": "BA (Hons) Interior Design · Academy of Design and Innovation",
+      "field": "Interior Design",
+      "level": "undergraduate",
+      "source": {
+        "title": "Academy of Design and Innovation · Interior Design · UTM award",
+        "url": "https://www.adi.ac.mu/courses-BA-interior.html",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": [
+        "utm_hsc_routes",
+        "utm_partner_entry",
+        "utm_portfolio",
+        "utm_partner_english"
+      ]
+    },
+    {
+      "key": "utm-adi-fashion",
+      "institutionKey": "utm",
+      "name": "BA (Hons) Fashion & Textiles Design (Top Up) · Academy of Design and Innovation",
+      "field": "Fashion & Textiles Design",
+      "level": "undergraduate",
+      "source": {
+        "title": "Academy of Design and Innovation · Fashion & Textiles Design (Top Up) · UTM award",
+        "url": "https://www.adi.ac.mu/courses-BA-fashion.html",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_adi_topup", "utm_adi_review"]
+    },
+    {
+      "key": "utm-adi-graphic",
+      "institutionKey": "utm",
+      "name": "BA (Hons) Graphic Design with Animation (Top Up) · Academy of Design and Innovation",
+      "field": "Graphic Design with Animation",
+      "level": "undergraduate",
+      "source": {
+        "title": "Academy of Design and Innovation · Graphic Design with Animation (Top Up) · UTM award",
+        "url": "https://www.adi.ac.mu/courses-BA-graphic.html",
+        "checkedOn": "2026-11-23"
+      },
+      "sharedRequirementKeys": ["utm_adi_topup", "utm_adi_review"]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_software",
+          "label": "Software engineering subject options",
+          "category": "academic",
+          "status": "required",
+          "details": "Present mathematics or computer science at A level, or Cambridge Advanced Professional in IT. The department also accepts mathematics or computer science at subsidiary level in place of the A level.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Software Engineering",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-software-engineering-2/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_maths",
+          "label": "Mathematics at A level",
+          "category": "academic",
+          "status": "required",
+          "details": "The programme requires mathematics at A level. The published subject rule gives no letter grade.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Cyber Security",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-cyber-security/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_regulations",
+          "label": "General degree entry",
+          "category": "academic",
+          "status": "required",
+          "details": "Meet UTM’s general degree admission regulations. The programme page directs applicants to these regulations.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Cyber Security",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-cyber-security/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_network",
+          "label": "Ordinary-level subject credit",
+          "category": "academic",
+          "status": "required",
+          "details": "A School Certificate Ordinary-level credit in mathematics, a science, or a technology subject is required. The prior-learning committee may accept an alternative qualification.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Network and Telecommunication Technologies",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-network-telecomunication-technologies-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_prep",
+          "label": "Entry to the foundation course",
+          "category": "academic",
+          "status": "required",
+          "details": "In one SC or GCE O-level sitting, obtain at least three credits and pass English language. Also pass at least one HSC principal-level or GCE A-level subject. The Academic Council may approve equivalent qualifications.",
+          "source": {
+            "title": "University of Technology, Mauritius · Foundation Course in Computing, Engineering and Health Sciences",
+            "url": "https://www.utm.ac.mu/courses/foundation-course-in-computing-engineering-and-health-sciences/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_fin_cert",
+          "label": "Financial services school-leaver route",
+          "category": "academic",
+          "status": "required",
+          "details": "The Cambridge route combines a School Certificate including mathematics with a Higher School Certificate containing at least two A-level subjects.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Financial Services",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-financial-service-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_accounts",
+          "label": "Accounting preparation",
+          "category": "academic",
+          "status": "recommended",
+          "details": "A School Certificate or GCE O-level credit, or equivalent, in mathematics or principles of accounts is desirable for Accounting with Finance.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Accounting with Finance (ACCA and ICAEW Accredited)",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-accounting-with-finance-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_hsc_routes",
+          "label": "HSC and London GCE routes",
+          "category": "academic",
+          "status": "required",
+          "details": "The published alternatives are passes in three HSC A levels plus one subsidiary subject, or two HSC A levels plus two subsidiaries, or three London GCE A levels.",
+          "source": {
+            "title": "University of Technology, Mauritius · BA (Hons) Communication and Digital Media",
+            "url": "https://www.utm.ac.mu/courses/ba-communication-and-digital-media-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_alternatives",
+          "label": "Other equivalent qualifications",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The programme permits alternative qualifications in place of the listed HSC or London GCE combinations.",
+          "source": {
+            "title": "University of Technology, Mauritius · BA (Hons) Communication and Digital Media",
+            "url": "https://www.utm.ac.mu/courses/ba-communication-and-digital-media-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_ict",
+          "label": "ICT preparation or self-study",
+          "category": "academic",
+          "status": "required",
+          "details": "Demonstrate ICT knowledge from O level, HSC A level or IC3 certification. Applicants without this preparation may take Introduction to Computing by self-study without earning credits.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) in Management (with MARKETING)",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-managament-with-marketing-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_environment",
+          "label": "Environmental planning prerequisites",
+          "category": "academic",
+          "status": "required",
+          "details": "Obtain O-level credits in mathematics and at least one science.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Sustainable Environmental Planning and Management",
+            "url": "https://www.utm.ac.mu/courses/ba-hons-sustainable-environmental-planning-management-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_telecom",
+          "label": "Telecommunication engineering subjects",
+          "category": "academic",
+          "status": "required",
+          "details": "The BEng requires passes in mathematics and physics at HSC principal or GCE A level, or equivalent or Baccalaureate level. The page names no Baccalaureate system or score.",
+          "source": {
+            "title": "University of Technology, Mauritius · BEng (HONS) Telecommunication Engineering",
+            "url": "https://www.utm.ac.mu/courses/beng-hons-telecommunication-engineering-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_technicien",
+          "label": "Engineering qualification restrictions",
+          "category": "academic",
+          "status": "not_considered",
+          "details": "The programme excludes the scientific Brevet de Technicien and other higher technical qualifications as substitutes for the named entry subjects.",
+          "source": {
+            "title": "University of Technology, Mauritius · BEng (HONS) Telecommunication Engineering",
+            "url": "https://www.utm.ac.mu/courses/beng-hons-telecommunication-engineering-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_pharmacy",
+          "label": "Pharmacy technician preparation",
+          "category": "academic",
+          "status": "recommended",
+          "details": "Alongside general entry, School Certificate or GCE O-level credits or equivalents in both mathematics and chemistry are desirable.",
+          "source": {
+            "title": "University of Technology, Mauritius · Diploma in Pharmacy Technician Studies",
+            "url": "https://www.utm.ac.mu/courses/diploma-pharmacy-technician-studies-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_it_topup",
+          "label": "Prior IT diploma for top-up entry",
+          "category": "academic",
+          "status": "required",
+          "details": "Present an information technology or related IT diploma at Level 6 on the Mauritius National Qualifications Framework. The institution must be recognised and the selection committee must approve the award.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Computing and Information Systems (Top Up)",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-computing-information-systems-v3-1-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_prior_learning",
+          "label": "Prior learning as an alternative route",
+          "category": "academic",
+          "status": "conditional",
+          "details": "The department also accepts applications under UTM’s assessment of prior learning or prior experiential learning policy.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Cyber Security",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-cyber-security/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_fin_work",
+          "label": "Financial services experience route",
+          "category": "experience",
+          "status": "conditional",
+          "details": "An alternative route requires five School Certificate credits including English and mathematics, together with at least three years of relevant work experience.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons) Financial Services",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-financial-service-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_exemptions",
+          "label": "Module exemptions",
+          "category": "application",
+          "status": "conditional",
+          "details": "Module exemptions are subject to the university’s exemptions regulations.",
+          "source": {
+            "title": "University of Technology, Mauritius · BSc (Hons.) Human Resource Management",
+            "url": "https://www.utm.ac.mu/courses/bsc-hons-human-resource-management-mauritius/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "March or October",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_partner_entry",
+          "label": "Other recognised school qualifications",
+          "category": "academic",
+          "status": "conditional",
+          "details": "ADI also lists the French Baccalaureate and equivalent qualifications from recognised institutions accepted by the Academic Council for Interior Design.",
+          "source": {
+            "title": "Academy of Design and Innovation · Interior Design · UTM award",
+            "url": "https://www.adi.ac.mu/courses-BA-interior.html",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_portfolio",
+          "label": "Interior design portfolio",
+          "category": "portfolio",
+          "status": "required",
+          "details": "Eligible applicants present a portfolio. A digital portfolio is preferred. ADI assesses it alongside academic qualifications.",
+          "source": {
+            "title": "Academy of Design and Innovation · Interior Design · UTM award",
+            "url": "https://www.adi.ac.mu/courses-BA-interior.html",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "March or October",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_partner_english",
+          "label": "English proficiency for international applicants",
+          "category": "language",
+          "status": "conditional",
+          "details": "ADI specifies IELTS 7, TOEFL paper-based 550 or TOEFL iBT 79 for international applicants who do not meet the preceding criteria. The published note does not say that language proficiency alone guarantees admission.",
+          "source": {
+            "title": "Academy of Design and Innovation · Interior Design · UTM award",
+            "url": "https://www.adi.ac.mu/courses-BA-interior.html",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "unspecified",
+      "intakeTerm": "March or October",
+      "level": "undergraduate",
+      "entryType": "other",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_adi_topup",
+          "label": "Design top-up entry",
+          "category": "academic",
+          "status": "required",
+          "details": "Hold at least one HSC A level and a relevant Pearson BTEC Level 5 Higher National Diploma in design, or the same A-level qualification plus a relevant, recognised design diploma at Mauritian NQF Level 6 approved by the awarding body.",
+          "source": {
+            "title": "Academy of Design and Innovation · Fashion & Textiles Design (Top Up) · UTM award",
+            "url": "https://www.adi.ac.mu/courses-BA-fashion.html",
+            "checkedOn": "2026-11-23"
+          }
+        },
+        {
+          "key": "utm_adi_review",
+          "label": "Confirmation by the awarding body",
+          "category": "application",
+          "status": "required",
+          "details": "ADI sends design top-up applications to the awarding university’s committee before confirming admission.",
+          "source": {
+            "title": "Academy of Design and Innovation · Fashion & Textiles Design (Top Up) · UTM award",
+            "url": "https://www.adi.ac.mu/courses-BA-fashion.html",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    },
+    {
+      "institutionKey": "utm",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "April",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "international",
+      "deliveryMode": "unspecified",
+      "notes": "Course entries identify the award and teaching provider. Dated application notices and undated academic requirements have separate scopes.",
+      "requirements": [
+        {
+          "key": "utm_intl_intake",
+          "label": "April 2027 international application materials",
+          "category": "application",
+          "status": "considered",
+          "details": "UTM’s notice provides the international intake advert, visa instructions, supplementary information sheet, application form and online application guide. Read the intake advert to check which programme is offered.",
+          "source": {
+            "title": "University of Technology, Mauritius · international enrolment for April 2027",
+            "url": "https://www.utm.ac.mu/international-enrolment-for-april-intake-2027/",
+            "checkedOn": "2026-11-23"
+          }
+        }
+      ]
+    }
+  ]
+}
