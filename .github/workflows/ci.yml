@@ -19,9 +19,14 @@ jobs:
         run: |
           scripts/install-node.sh
           echo "$PWD/.tools/node/bin" >> "$GITHUB_PATH"
+      - name: Read Python release tag
+        id: python-pin
+        run: |
+          version=$(sed -E 's/([0-9])a([0-9]+)$/\1-alpha.\2/; s/([0-9])b([0-9]+)$/\1-beta.\2/; s/([0-9])rc([0-9]+)$/\1-rc.\2/' .python-version)
+          echo "version=$version" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v7
         with:
-          python-version-file: .python-version
+          python-version: ${{ steps.python-pin.outputs.version }}
           allow-prereleases: true
       - name: Verify Python interpreter
         run: python -c "import pathlib, platform; assert platform.python_version() == pathlib.Path('.python-version').read_text().strip()"
