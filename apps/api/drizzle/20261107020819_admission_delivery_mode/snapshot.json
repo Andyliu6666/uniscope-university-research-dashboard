@@ -1,0 +1,257 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "220b5f9b-5fd4-4b94-81a8-49d00bc91959",
+  "prevIds": [
+    "578b0647-533c-434c-8868-261b5fa22d4f"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "admission_delivery_mode"
+      ],
+      "writes": [
+        "s|enum|public.admission_delivery_mode",
+        "n|enum|public.admission_delivery_mode",
+        "e|enum|public.admission_delivery_mode",
+        "n|type|public.admission_delivery_mode"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_profiles",
+        "delivery_mode"
+      ],
+      "writes": [
+        "s|col|public.admission_profiles.delivery_mode",
+        "n|col|public.admission_profiles.delivery_mode",
+        "e|col|public.admission_profiles.delivery_mode"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|enum|public.admission_delivery_mode"
+      ]
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_institution_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_institution_scope_unique",
+        "n|idx|public.admission_profiles_institution_scope_unique",
+        "e|idx|public.admission_profiles_institution_scope_unique",
+        "n|rel|public.admission_profiles_institution_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.delivery_mode",
+        "n|col|public.admission_profiles.entry_type",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "5fa8d4da2e949dd2"
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_program_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_program_scope_unique",
+        "n|idx|public.admission_profiles_program_scope_unique",
+        "e|idx|public.admission_profiles_program_scope_unique",
+        "n|rel|public.admission_profiles_program_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.program_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.delivery_mode",
+        "n|col|public.admission_profiles.entry_type",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "728d9a483873ca08"
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_delivery_mode",
+        "values": [
+          "unspecified",
+          "campus",
+          "distance",
+          "hybrid"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "delivery_mode",
+        "type": "admission_delivery_mode",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'unspecified'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"admission_profiles_institution_scope_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "delivery_mode",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "entry_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"admission_profiles_program_scope_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "delivery_mode",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "entry_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    }
+  ]
+}

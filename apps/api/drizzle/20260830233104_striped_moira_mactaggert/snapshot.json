@@ -1,0 +1,6376 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "3cd0c7b6-94ca-453a-a8eb-0c8ee349ac1c",
+  "prevIds": [
+    "0c109476-50e3-4c30-a307-1e8eb48a33c8"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "admission_count_metric"
+      ],
+      "writes": [
+        "s|enum|public.admission_count_metric",
+        "n|enum|public.admission_count_metric",
+        "e|enum|public.admission_count_metric",
+        "n|type|public.admission_count_metric"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "attendance_status"
+      ],
+      "writes": [
+        "s|enum|public.attendance_status",
+        "n|enum|public.attendance_status",
+        "e|enum|public.attendance_status",
+        "n|type|public.attendance_status"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "cost_category"
+      ],
+      "writes": [
+        "s|enum|public.cost_category",
+        "n|enum|public.cost_category",
+        "e|enum|public.cost_category",
+        "n|type|public.cost_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "cost_period"
+      ],
+      "writes": [
+        "s|enum|public.cost_period",
+        "n|enum|public.cost_period",
+        "e|enum|public.cost_period",
+        "n|type|public.cost_period"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "financial_aid_category"
+      ],
+      "writes": [
+        "s|enum|public.financial_aid_category",
+        "n|enum|public.financial_aid_category",
+        "e|enum|public.financial_aid_category",
+        "n|type|public.financial_aid_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "operating_status"
+      ],
+      "writes": [
+        "s|enum|public.operating_status",
+        "n|enum|public.operating_status",
+        "e|enum|public.operating_status",
+        "n|type|public.operating_status"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "qualification_requirement_kind"
+      ],
+      "writes": [
+        "s|enum|public.qualification_requirement_kind",
+        "n|enum|public.qualification_requirement_kind",
+        "e|enum|public.qualification_requirement_kind",
+        "n|type|public.qualification_requirement_kind"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "requirement_category"
+      ],
+      "writes": [
+        "s|enum|public.requirement_category",
+        "n|enum|public.requirement_category",
+        "e|enum|public.requirement_category",
+        "n|type|public.requirement_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "requirement_operator"
+      ],
+      "writes": [
+        "s|enum|public.requirement_operator",
+        "n|enum|public.requirement_operator",
+        "e|enum|public.requirement_operator",
+        "n|type|public.requirement_operator"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "requirement_status"
+      ],
+      "writes": [
+        "s|enum|public.requirement_status",
+        "n|enum|public.requirement_status",
+        "e|enum|public.requirement_status",
+        "n|type|public.requirement_status"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "residency_category"
+      ],
+      "writes": [
+        "s|enum|public.residency_category",
+        "n|enum|public.residency_category",
+        "e|enum|public.residency_category",
+        "n|type|public.residency_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "study_level"
+      ],
+      "writes": [
+        "s|enum|public.study_level",
+        "n|enum|public.study_level",
+        "e|enum|public.study_level",
+        "n|type|public.study_level"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "test_score_context"
+      ],
+      "writes": [
+        "s|enum|public.test_score_context",
+        "n|enum|public.test_score_context",
+        "e|enum|public.test_score_context",
+        "n|type|public.test_score_context"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "university_ownership"
+      ],
+      "writes": [
+        "s|enum|public.university_ownership",
+        "n|enum|public.university_ownership",
+        "e|enum|public.university_ownership",
+        "n|type|public.university_ownership"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_counts"
+      ],
+      "writes": [
+        "s|tbl|public.admission_counts",
+        "n|tbl|public.admission_counts",
+        "e|tbl|public.admission_counts",
+        "n|rel|public.admission_counts",
+        "n|type|public.admission_counts",
+        "n|rel|public.admission_counts_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.admission_count_metric"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_profiles"
+      ],
+      "writes": [
+        "s|tbl|public.admission_profiles",
+        "n|tbl|public.admission_profiles",
+        "e|tbl|public.admission_profiles",
+        "n|rel|public.admission_profiles",
+        "n|type|public.admission_profiles",
+        "n|rel|public.admission_profiles_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.study_level",
+        "n|enum|public.applicant_type"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_requirements"
+      ],
+      "writes": [
+        "s|tbl|public.admission_requirements",
+        "n|tbl|public.admission_requirements",
+        "e|tbl|public.admission_requirements",
+        "n|rel|public.admission_requirements",
+        "n|type|public.admission_requirements",
+        "n|rel|public.admission_requirements_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.requirement_category",
+        "n|enum|public.requirement_status"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|tbl|public.admission_test_scores",
+        "n|tbl|public.admission_test_scores",
+        "e|tbl|public.admission_test_scores",
+        "n|rel|public.admission_test_scores",
+        "n|type|public.admission_test_scores",
+        "n|rel|public.admission_test_scores_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.test_score_context"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "cost_snapshots"
+      ],
+      "writes": [
+        "s|tbl|public.cost_snapshots",
+        "n|tbl|public.cost_snapshots",
+        "e|tbl|public.cost_snapshots",
+        "n|rel|public.cost_snapshots",
+        "n|type|public.cost_snapshots",
+        "n|rel|public.cost_snapshots_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.study_level",
+        "n|enum|public.applicant_type",
+        "n|enum|public.residency_category",
+        "n|enum|public.cost_category",
+        "n|enum|public.cost_period"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "enrollment_snapshots"
+      ],
+      "writes": [
+        "s|tbl|public.enrollment_snapshots",
+        "n|tbl|public.enrollment_snapshots",
+        "e|tbl|public.enrollment_snapshots",
+        "n|rel|public.enrollment_snapshots",
+        "n|type|public.enrollment_snapshots",
+        "n|rel|public.enrollment_snapshots_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.study_level",
+        "n|enum|public.attendance_status",
+        "n|enum|public.applicant_type"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "financial_aid_snapshots"
+      ],
+      "writes": [
+        "s|tbl|public.financial_aid_snapshots",
+        "n|tbl|public.financial_aid_snapshots",
+        "e|tbl|public.financial_aid_snapshots",
+        "n|rel|public.financial_aid_snapshots",
+        "n|type|public.financial_aid_snapshots",
+        "n|rel|public.financial_aid_snapshots_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.study_level",
+        "n|enum|public.applicant_type",
+        "n|enum|public.financial_aid_category"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "qualification_requirements"
+      ],
+      "writes": [
+        "s|tbl|public.qualification_requirements",
+        "n|tbl|public.qualification_requirements",
+        "e|tbl|public.qualification_requirements",
+        "n|rel|public.qualification_requirements",
+        "n|type|public.qualification_requirements",
+        "n|rel|public.qualification_requirements_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.qualification_requirement_kind",
+        "n|enum|public.requirement_operator"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "sources",
+        "publisher"
+      ],
+      "writes": [
+        "s|col|public.sources.publisher",
+        "n|col|public.sources.publisher",
+        "e|col|public.sources.publisher"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "sources",
+        "dataset_version"
+      ],
+      "writes": [
+        "s|col|public.sources.dataset_version",
+        "n|col|public.sources.dataset_version",
+        "e|col|public.sources.dataset_version"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "sources",
+        "published_at"
+      ],
+      "writes": [
+        "s|col|public.sources.published_at",
+        "n|col|public.sources.published_at",
+        "e|col|public.sources.published_at"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "sources",
+        "import_run_id"
+      ],
+      "writes": [
+        "s|col|public.sources.import_run_id",
+        "n|col|public.sources.import_run_id",
+        "e|col|public.sources.import_run_id"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "country_code"
+      ],
+      "writes": [
+        "s|col|public.universities.country_code",
+        "n|col|public.universities.country_code",
+        "e|col|public.universities.country_code"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "region"
+      ],
+      "writes": [
+        "s|col|public.universities.region",
+        "n|col|public.universities.region",
+        "e|col|public.universities.region"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "address_line"
+      ],
+      "writes": [
+        "s|col|public.universities.address_line",
+        "n|col|public.universities.address_line",
+        "e|col|public.universities.address_line"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "postal_code"
+      ],
+      "writes": [
+        "s|col|public.universities.postal_code",
+        "n|col|public.universities.postal_code",
+        "e|col|public.universities.postal_code"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "phone"
+      ],
+      "writes": [
+        "s|col|public.universities.phone",
+        "n|col|public.universities.phone",
+        "e|col|public.universities.phone"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "latitude"
+      ],
+      "writes": [
+        "s|col|public.universities.latitude",
+        "n|col|public.universities.latitude",
+        "e|col|public.universities.latitude"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "longitude"
+      ],
+      "writes": [
+        "s|col|public.universities.longitude",
+        "n|col|public.universities.longitude",
+        "e|col|public.universities.longitude"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "official_website"
+      ],
+      "writes": [
+        "s|col|public.universities.official_website",
+        "n|col|public.universities.official_website",
+        "e|col|public.universities.official_website"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "admissions_url"
+      ],
+      "writes": [
+        "s|col|public.universities.admissions_url",
+        "n|col|public.universities.admissions_url",
+        "e|col|public.universities.admissions_url"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "financial_aid_url"
+      ],
+      "writes": [
+        "s|col|public.universities.financial_aid_url",
+        "n|col|public.universities.financial_aid_url",
+        "e|col|public.universities.financial_aid_url"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "net_price_url"
+      ],
+      "writes": [
+        "s|col|public.universities.net_price_url",
+        "n|col|public.universities.net_price_url",
+        "e|col|public.universities.net_price_url"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "ownership"
+      ],
+      "writes": [
+        "s|col|public.universities.ownership",
+        "n|col|public.universities.ownership",
+        "e|col|public.universities.ownership"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|enum|public.university_ownership"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "operating_status"
+      ],
+      "writes": [
+        "s|col|public.universities.operating_status",
+        "n|col|public.universities.operating_status",
+        "e|col|public.universities.operating_status"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|enum|public.operating_status"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "highest_award_level"
+      ],
+      "writes": [
+        "s|col|public.universities.highest_award_level",
+        "n|col|public.universities.highest_award_level",
+        "e|col|public.universities.highest_award_level"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "offers_undergraduate"
+      ],
+      "writes": [
+        "s|col|public.universities.offers_undergraduate",
+        "n|col|public.universities.offers_undergraduate",
+        "e|col|public.universities.offers_undergraduate"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "offers_graduate"
+      ],
+      "writes": [
+        "s|col|public.universities.offers_graduate",
+        "n|col|public.universities.offers_graduate",
+        "e|col|public.universities.offers_graduate"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "academic_calendar"
+      ],
+      "writes": [
+        "s|col|public.universities.academic_calendar",
+        "n|col|public.universities.academic_calendar",
+        "e|col|public.universities.academic_calendar"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "established_year"
+      ],
+      "writes": [
+        "s|col|public.universities.established_year",
+        "n|col|public.universities.established_year",
+        "e|col|public.universities.established_year"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_counts",
+        "admission_counts_profile_metric_population_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_counts_profile_metric_population_source_unique",
+        "n|idx|public.admission_counts_profile_metric_population_source_unique",
+        "e|idx|public.admission_counts_profile_metric_population_source_unique",
+        "n|rel|public.admission_counts_profile_metric_population_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_counts",
+        "n|sch|public",
+        "n|col|public.admission_counts.admission_profile_id",
+        "n|col|public.admission_counts.metric",
+        "n|col|public.admission_counts.population",
+        "n|col|public.admission_counts.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_counts",
+        "admission_counts_profile_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_counts_profile_id_idx",
+        "n|idx|public.admission_counts_profile_id_idx",
+        "e|idx|public.admission_counts_profile_id_idx",
+        "n|rel|public.admission_counts_profile_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_counts",
+        "n|sch|public",
+        "n|col|public.admission_counts.admission_profile_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_counts",
+        "admission_counts_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_counts_source_id_idx",
+        "n|idx|public.admission_counts_source_id_idx",
+        "e|idx|public.admission_counts_source_id_idx",
+        "n|rel|public.admission_counts_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_counts",
+        "n|sch|public",
+        "n|col|public.admission_counts.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_institution_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_institution_scope_unique",
+        "n|idx|public.admission_profiles_institution_scope_unique",
+        "e|idx|public.admission_profiles_institution_scope_unique",
+        "n|rel|public.admission_profiles_institution_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_program_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_program_scope_unique",
+        "n|idx|public.admission_profiles_program_scope_unique",
+        "e|idx|public.admission_profiles_program_scope_unique",
+        "n|rel|public.admission_profiles_program_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.program_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_university_id_idx",
+        "n|idx|public.admission_profiles_university_id_idx",
+        "e|idx|public.admission_profiles_university_id_idx",
+        "n|rel|public.admission_profiles_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_program_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_program_id_idx",
+        "n|idx|public.admission_profiles_program_id_idx",
+        "e|idx|public.admission_profiles_program_id_idx",
+        "n|rel|public.admission_profiles_program_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.program_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_source_id_idx",
+        "n|idx|public.admission_profiles_source_id_idx",
+        "e|idx|public.admission_profiles_source_id_idx",
+        "n|rel|public.admission_profiles_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_requirements",
+        "admission_requirements_profile_key_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_requirements_profile_key_source_unique",
+        "n|idx|public.admission_requirements_profile_key_source_unique",
+        "e|idx|public.admission_requirements_profile_key_source_unique",
+        "n|rel|public.admission_requirements_profile_key_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public",
+        "n|col|public.admission_requirements.admission_profile_id",
+        "n|col|public.admission_requirements.category",
+        "n|col|public.admission_requirements.requirement_key",
+        "n|col|public.admission_requirements.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_requirements",
+        "admission_requirements_profile_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_requirements_profile_id_idx",
+        "n|idx|public.admission_requirements_profile_id_idx",
+        "e|idx|public.admission_requirements_profile_id_idx",
+        "n|rel|public.admission_requirements_profile_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public",
+        "n|col|public.admission_requirements.admission_profile_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_requirements",
+        "admission_requirements_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_requirements_source_id_idx",
+        "n|idx|public.admission_requirements_source_id_idx",
+        "e|idx|public.admission_requirements_source_id_idx",
+        "n|rel|public.admission_requirements_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public",
+        "n|col|public.admission_requirements.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_test_scores",
+        "admission_test_scores_profile_test_section_context_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_test_scores_profile_test_section_context_source_unique",
+        "n|idx|public.admission_test_scores_profile_test_section_context_source_unique",
+        "e|idx|public.admission_test_scores_profile_test_section_context_source_unique",
+        "n|rel|public.admission_test_scores_profile_test_section_context_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.admission_profile_id",
+        "n|col|public.admission_test_scores.test_name",
+        "n|col|public.admission_test_scores.section",
+        "n|col|public.admission_test_scores.context",
+        "n|col|public.admission_test_scores.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_test_scores",
+        "admission_test_scores_profile_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_test_scores_profile_id_idx",
+        "n|idx|public.admission_test_scores_profile_id_idx",
+        "e|idx|public.admission_test_scores_profile_id_idx",
+        "n|rel|public.admission_test_scores_profile_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.admission_profile_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_test_scores",
+        "admission_test_scores_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.admission_test_scores_source_id_idx",
+        "n|idx|public.admission_test_scores_source_id_idx",
+        "e|idx|public.admission_test_scores_source_id_idx",
+        "n|rel|public.admission_test_scores_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_institution_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_institution_scope_source_unique",
+        "n|idx|public.cost_snapshots_institution_scope_source_unique",
+        "e|idx|public.cost_snapshots_institution_scope_source_unique",
+        "n|rel|public.cost_snapshots_institution_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id",
+        "n|col|public.cost_snapshots.academic_year",
+        "n|col|public.cost_snapshots.level",
+        "n|col|public.cost_snapshots.applicant_type",
+        "n|col|public.cost_snapshots.residency",
+        "n|col|public.cost_snapshots.category",
+        "n|col|public.cost_snapshots.period",
+        "n|col|public.cost_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_program_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_program_scope_source_unique",
+        "n|idx|public.cost_snapshots_program_scope_source_unique",
+        "e|idx|public.cost_snapshots_program_scope_source_unique",
+        "n|rel|public.cost_snapshots_program_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id",
+        "n|col|public.cost_snapshots.program_id",
+        "n|col|public.cost_snapshots.academic_year",
+        "n|col|public.cost_snapshots.level",
+        "n|col|public.cost_snapshots.applicant_type",
+        "n|col|public.cost_snapshots.residency",
+        "n|col|public.cost_snapshots.category",
+        "n|col|public.cost_snapshots.period",
+        "n|col|public.cost_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_university_id_idx",
+        "n|idx|public.cost_snapshots_university_id_idx",
+        "e|idx|public.cost_snapshots_university_id_idx",
+        "n|rel|public.cost_snapshots_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_program_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_program_id_idx",
+        "n|idx|public.cost_snapshots_program_id_idx",
+        "e|idx|public.cost_snapshots_program_id_idx",
+        "n|rel|public.cost_snapshots_program_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.program_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_source_id_idx",
+        "n|idx|public.cost_snapshots_source_id_idx",
+        "e|idx|public.cost_snapshots_source_id_idx",
+        "n|rel|public.cost_snapshots_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "enrollment_snapshots",
+        "enrollment_snapshots_institution_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.enrollment_snapshots_institution_scope_source_unique",
+        "n|idx|public.enrollment_snapshots_institution_scope_source_unique",
+        "e|idx|public.enrollment_snapshots_institution_scope_source_unique",
+        "n|rel|public.enrollment_snapshots_institution_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.university_id",
+        "n|col|public.enrollment_snapshots.academic_year",
+        "n|col|public.enrollment_snapshots.level",
+        "n|col|public.enrollment_snapshots.attendance_status",
+        "n|col|public.enrollment_snapshots.applicant_type",
+        "n|col|public.enrollment_snapshots.population",
+        "n|col|public.enrollment_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "enrollment_snapshots",
+        "enrollment_snapshots_program_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.enrollment_snapshots_program_scope_source_unique",
+        "n|idx|public.enrollment_snapshots_program_scope_source_unique",
+        "e|idx|public.enrollment_snapshots_program_scope_source_unique",
+        "n|rel|public.enrollment_snapshots_program_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.university_id",
+        "n|col|public.enrollment_snapshots.program_id",
+        "n|col|public.enrollment_snapshots.academic_year",
+        "n|col|public.enrollment_snapshots.level",
+        "n|col|public.enrollment_snapshots.attendance_status",
+        "n|col|public.enrollment_snapshots.applicant_type",
+        "n|col|public.enrollment_snapshots.population",
+        "n|col|public.enrollment_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "enrollment_snapshots",
+        "enrollment_snapshots_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.enrollment_snapshots_university_id_idx",
+        "n|idx|public.enrollment_snapshots_university_id_idx",
+        "e|idx|public.enrollment_snapshots_university_id_idx",
+        "n|rel|public.enrollment_snapshots_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "enrollment_snapshots",
+        "enrollment_snapshots_program_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.enrollment_snapshots_program_id_idx",
+        "n|idx|public.enrollment_snapshots_program_id_idx",
+        "e|idx|public.enrollment_snapshots_program_id_idx",
+        "n|rel|public.enrollment_snapshots_program_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.program_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "enrollment_snapshots",
+        "enrollment_snapshots_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.enrollment_snapshots_source_id_idx",
+        "n|idx|public.enrollment_snapshots_source_id_idx",
+        "e|idx|public.enrollment_snapshots_source_id_idx",
+        "n|rel|public.enrollment_snapshots_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "financial_aid_snapshots",
+        "financial_aid_snapshots_institution_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.financial_aid_snapshots_institution_scope_source_unique",
+        "n|idx|public.financial_aid_snapshots_institution_scope_source_unique",
+        "e|idx|public.financial_aid_snapshots_institution_scope_source_unique",
+        "n|rel|public.financial_aid_snapshots_institution_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.university_id",
+        "n|col|public.financial_aid_snapshots.academic_year",
+        "n|col|public.financial_aid_snapshots.level",
+        "n|col|public.financial_aid_snapshots.applicant_type",
+        "n|col|public.financial_aid_snapshots.population",
+        "n|col|public.financial_aid_snapshots.category",
+        "n|col|public.financial_aid_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "financial_aid_snapshots",
+        "financial_aid_snapshots_program_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.financial_aid_snapshots_program_scope_source_unique",
+        "n|idx|public.financial_aid_snapshots_program_scope_source_unique",
+        "e|idx|public.financial_aid_snapshots_program_scope_source_unique",
+        "n|rel|public.financial_aid_snapshots_program_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.university_id",
+        "n|col|public.financial_aid_snapshots.program_id",
+        "n|col|public.financial_aid_snapshots.academic_year",
+        "n|col|public.financial_aid_snapshots.level",
+        "n|col|public.financial_aid_snapshots.applicant_type",
+        "n|col|public.financial_aid_snapshots.population",
+        "n|col|public.financial_aid_snapshots.category",
+        "n|col|public.financial_aid_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "financial_aid_snapshots",
+        "financial_aid_snapshots_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.financial_aid_snapshots_university_id_idx",
+        "n|idx|public.financial_aid_snapshots_university_id_idx",
+        "e|idx|public.financial_aid_snapshots_university_id_idx",
+        "n|rel|public.financial_aid_snapshots_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "financial_aid_snapshots",
+        "financial_aid_snapshots_program_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.financial_aid_snapshots_program_id_idx",
+        "n|idx|public.financial_aid_snapshots_program_id_idx",
+        "e|idx|public.financial_aid_snapshots_program_id_idx",
+        "n|rel|public.financial_aid_snapshots_program_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.program_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "financial_aid_snapshots",
+        "financial_aid_snapshots_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.financial_aid_snapshots_source_id_idx",
+        "n|idx|public.financial_aid_snapshots_source_id_idx",
+        "e|idx|public.financial_aid_snapshots_source_id_idx",
+        "n|rel|public.financial_aid_snapshots_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "qualification_requirements",
+        "qualification_requirements_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.qualification_requirements_scope_source_unique",
+        "n|idx|public.qualification_requirements_scope_source_unique",
+        "e|idx|public.qualification_requirements_scope_source_unique",
+        "n|rel|public.qualification_requirements_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.qualification_requirements",
+        "n|sch|public",
+        "n|col|public.qualification_requirements.admission_profile_id",
+        "n|col|public.qualification_requirements.qualification_system",
+        "n|col|public.qualification_requirements.qualification_name",
+        "n|col|public.qualification_requirements.kind",
+        "n|col|public.qualification_requirements.subject",
+        "n|col|public.qualification_requirements.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "qualification_requirements",
+        "qualification_requirements_profile_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.qualification_requirements_profile_id_idx",
+        "n|idx|public.qualification_requirements_profile_id_idx",
+        "e|idx|public.qualification_requirements_profile_id_idx",
+        "n|rel|public.qualification_requirements_profile_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.qualification_requirements",
+        "n|sch|public",
+        "n|col|public.qualification_requirements.admission_profile_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "qualification_requirements",
+        "qualification_requirements_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.qualification_requirements_source_id_idx",
+        "n|idx|public.qualification_requirements_source_id_idx",
+        "e|idx|public.qualification_requirements_source_id_idx",
+        "n|rel|public.qualification_requirements_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.qualification_requirements",
+        "n|sch|public",
+        "n|col|public.qualification_requirements.source_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "sources",
+        "sources_import_run_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.sources_import_run_id_idx",
+        "n|idx|public.sources_import_run_id_idx",
+        "e|idx|public.sources_import_run_id_idx",
+        "n|rel|public.sources_import_run_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.sources.import_run_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_country_code_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_country_code_idx",
+        "n|idx|public.universities_country_code_idx",
+        "e|idx|public.universities_country_code_idx",
+        "n|rel|public.universities_country_code_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.country_code"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_ownership_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_ownership_idx",
+        "n|idx|public.universities_ownership_idx",
+        "e|idx|public.universities_ownership_idx",
+        "n|rel|public.universities_ownership_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.ownership"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_operating_status_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_operating_status_idx",
+        "n|idx|public.universities_operating_status_idx",
+        "e|idx|public.universities_operating_status_idx",
+        "n|rel|public.universities_operating_status_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.operating_status"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_counts"
+      ],
+      "writes": [
+        "s|fk|public.admission_counts.admission_counts_admission_profile_id_admission_profiles_id_fk",
+        "n|fk|public.admission_counts.admission_counts_admission_profile_id_admission_profiles_id_fk",
+        "e|fk|public.admission_counts.admission_counts_admission_profile_id_admission_profiles_id_fk",
+        "n|con|public.admission_counts.admission_counts_admission_profile_id_admission_profiles_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_counts",
+        "n|sch|public",
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_counts.admission_profile_id",
+        "n|col|public.admission_profiles.id",
+        "e|uniqueness|public.admission_profiles.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_counts"
+      ],
+      "writes": [
+        "s|fk|public.admission_counts.admission_counts_source_id_sources_id_fk",
+        "n|fk|public.admission_counts.admission_counts_source_id_sources_id_fk",
+        "e|fk|public.admission_counts.admission_counts_source_id_sources_id_fk",
+        "n|con|public.admission_counts.admission_counts_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_counts",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.admission_counts.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_profiles"
+      ],
+      "writes": [
+        "s|fk|public.admission_profiles.admission_profiles_university_id_universities_id_fk",
+        "n|fk|public.admission_profiles.admission_profiles_university_id_universities_id_fk",
+        "e|fk|public.admission_profiles.admission_profiles_university_id_universities_id_fk",
+        "n|con|public.admission_profiles.admission_profiles_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_profiles"
+      ],
+      "writes": [
+        "s|fk|public.admission_profiles.admission_profiles_program_id_programs_id_fk",
+        "n|fk|public.admission_profiles.admission_profiles_program_id_programs_id_fk",
+        "e|fk|public.admission_profiles.admission_profiles_program_id_programs_id_fk",
+        "n|con|public.admission_profiles.admission_profiles_program_id_programs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|col|public.admission_profiles.program_id",
+        "n|col|public.programs.id",
+        "e|uniqueness|public.programs.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_profiles"
+      ],
+      "writes": [
+        "s|fk|public.admission_profiles.admission_profiles_source_id_sources_id_fk",
+        "n|fk|public.admission_profiles.admission_profiles_source_id_sources_id_fk",
+        "e|fk|public.admission_profiles.admission_profiles_source_id_sources_id_fk",
+        "n|con|public.admission_profiles.admission_profiles_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.admission_profiles.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_requirements"
+      ],
+      "writes": [
+        "s|fk|public.admission_requirements.admission_requirements_admission_profile_id_admission_profiles_",
+        "n|fk|public.admission_requirements.admission_requirements_admission_profile_id_admission_profiles_",
+        "e|fk|public.admission_requirements.admission_requirements_admission_profile_id_admission_profiles_",
+        "n|con|public.admission_requirements.admission_requirements_admission_profile_id_admission_profiles_"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public",
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_requirements.admission_profile_id",
+        "n|col|public.admission_profiles.id",
+        "e|uniqueness|public.admission_profiles.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_requirements"
+      ],
+      "writes": [
+        "s|fk|public.admission_requirements.admission_requirements_source_id_sources_id_fk",
+        "n|fk|public.admission_requirements.admission_requirements_source_id_sources_id_fk",
+        "e|fk|public.admission_requirements.admission_requirements_source_id_sources_id_fk",
+        "n|con|public.admission_requirements.admission_requirements_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.admission_requirements.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|fk|public.admission_test_scores.admission_test_scores_admission_profile_id_admission_profiles_i",
+        "n|fk|public.admission_test_scores.admission_test_scores_admission_profile_id_admission_profiles_i",
+        "e|fk|public.admission_test_scores.admission_test_scores_admission_profile_id_admission_profiles_i",
+        "n|con|public.admission_test_scores.admission_test_scores_admission_profile_id_admission_profiles_i"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.admission_profile_id",
+        "n|col|public.admission_profiles.id",
+        "e|uniqueness|public.admission_profiles.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|fk|public.admission_test_scores.admission_test_scores_source_id_sources_id_fk",
+        "n|fk|public.admission_test_scores.admission_test_scores_source_id_sources_id_fk",
+        "e|fk|public.admission_test_scores.admission_test_scores_source_id_sources_id_fk",
+        "n|con|public.admission_test_scores.admission_test_scores_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "cost_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.cost_snapshots.cost_snapshots_university_id_universities_id_fk",
+        "n|fk|public.cost_snapshots.cost_snapshots_university_id_universities_id_fk",
+        "e|fk|public.cost_snapshots.cost_snapshots_university_id_universities_id_fk",
+        "n|con|public.cost_snapshots.cost_snapshots_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "cost_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.cost_snapshots.cost_snapshots_program_id_programs_id_fk",
+        "n|fk|public.cost_snapshots.cost_snapshots_program_id_programs_id_fk",
+        "e|fk|public.cost_snapshots.cost_snapshots_program_id_programs_id_fk",
+        "n|con|public.cost_snapshots.cost_snapshots_program_id_programs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.program_id",
+        "n|col|public.programs.id",
+        "e|uniqueness|public.programs.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "cost_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.cost_snapshots.cost_snapshots_source_id_sources_id_fk",
+        "n|fk|public.cost_snapshots.cost_snapshots_source_id_sources_id_fk",
+        "e|fk|public.cost_snapshots.cost_snapshots_source_id_sources_id_fk",
+        "n|con|public.cost_snapshots.cost_snapshots_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "enrollment_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.enrollment_snapshots.enrollment_snapshots_university_id_universities_id_fk",
+        "n|fk|public.enrollment_snapshots.enrollment_snapshots_university_id_universities_id_fk",
+        "e|fk|public.enrollment_snapshots.enrollment_snapshots_university_id_universities_id_fk",
+        "n|con|public.enrollment_snapshots.enrollment_snapshots_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "enrollment_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.enrollment_snapshots.enrollment_snapshots_program_id_programs_id_fk",
+        "n|fk|public.enrollment_snapshots.enrollment_snapshots_program_id_programs_id_fk",
+        "e|fk|public.enrollment_snapshots.enrollment_snapshots_program_id_programs_id_fk",
+        "n|con|public.enrollment_snapshots.enrollment_snapshots_program_id_programs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.program_id",
+        "n|col|public.programs.id",
+        "e|uniqueness|public.programs.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "enrollment_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.enrollment_snapshots.enrollment_snapshots_source_id_sources_id_fk",
+        "n|fk|public.enrollment_snapshots.enrollment_snapshots_source_id_sources_id_fk",
+        "e|fk|public.enrollment_snapshots.enrollment_snapshots_source_id_sources_id_fk",
+        "n|con|public.enrollment_snapshots.enrollment_snapshots_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.enrollment_snapshots",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.enrollment_snapshots.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "financial_aid_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.financial_aid_snapshots.financial_aid_snapshots_university_id_universities_id_fk",
+        "n|fk|public.financial_aid_snapshots.financial_aid_snapshots_university_id_universities_id_fk",
+        "e|fk|public.financial_aid_snapshots.financial_aid_snapshots_university_id_universities_id_fk",
+        "n|con|public.financial_aid_snapshots.financial_aid_snapshots_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "financial_aid_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.financial_aid_snapshots.financial_aid_snapshots_program_id_programs_id_fk",
+        "n|fk|public.financial_aid_snapshots.financial_aid_snapshots_program_id_programs_id_fk",
+        "e|fk|public.financial_aid_snapshots.financial_aid_snapshots_program_id_programs_id_fk",
+        "n|con|public.financial_aid_snapshots.financial_aid_snapshots_program_id_programs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.program_id",
+        "n|col|public.programs.id",
+        "e|uniqueness|public.programs.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "financial_aid_snapshots"
+      ],
+      "writes": [
+        "s|fk|public.financial_aid_snapshots.financial_aid_snapshots_source_id_sources_id_fk",
+        "n|fk|public.financial_aid_snapshots.financial_aid_snapshots_source_id_sources_id_fk",
+        "e|fk|public.financial_aid_snapshots.financial_aid_snapshots_source_id_sources_id_fk",
+        "n|con|public.financial_aid_snapshots.financial_aid_snapshots_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.financial_aid_snapshots",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.financial_aid_snapshots.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "qualification_requirements"
+      ],
+      "writes": [
+        "s|fk|public.qualification_requirements.qualification_requirements_admission_profile_id_admission_profi",
+        "n|fk|public.qualification_requirements.qualification_requirements_admission_profile_id_admission_profi",
+        "e|fk|public.qualification_requirements.qualification_requirements_admission_profile_id_admission_profi",
+        "n|con|public.qualification_requirements.qualification_requirements_admission_profile_id_admission_profi"
+      ],
+      "reads": [
+        "n|tbl|public.qualification_requirements",
+        "n|sch|public",
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.qualification_requirements.admission_profile_id",
+        "n|col|public.admission_profiles.id",
+        "e|uniqueness|public.admission_profiles.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "qualification_requirements"
+      ],
+      "writes": [
+        "s|fk|public.qualification_requirements.qualification_requirements_source_id_sources_id_fk",
+        "n|fk|public.qualification_requirements.qualification_requirements_source_id_sources_id_fk",
+        "e|fk|public.qualification_requirements.qualification_requirements_source_id_sources_id_fk",
+        "n|con|public.qualification_requirements.qualification_requirements_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.qualification_requirements",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.qualification_requirements.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "sources"
+      ],
+      "writes": [
+        "s|fk|public.sources.sources_import_run_id_import_runs_id_fk",
+        "n|fk|public.sources.sources_import_run_id_import_runs_id_fk",
+        "e|fk|public.sources.sources_import_run_id_import_runs_id_fk",
+        "n|con|public.sources.sources_import_run_id_import_runs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|tbl|public.import_runs",
+        "n|sch|public",
+        "n|col|public.sources.import_run_id",
+        "n|col|public.import_runs.id",
+        "e|uniqueness|public.import_runs.id"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_country_code_iso_check",
+        "n|ck|public.universities.universities_country_code_iso_check",
+        "e|ck|public.universities.universities_country_code_iso_check",
+        "n|con|public.universities.universities_country_code_iso_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.country_code"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_latitude_range_check",
+        "n|ck|public.universities.universities_latitude_range_check",
+        "e|ck|public.universities.universities_latitude_range_check",
+        "n|con|public.universities.universities_latitude_range_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.latitude"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_longitude_range_check",
+        "n|ck|public.universities.universities_longitude_range_check",
+        "e|ck|public.universities.universities_longitude_range_check",
+        "n|con|public.universities.universities_longitude_range_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.longitude"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_established_year_range_check",
+        "n|ck|public.universities.universities_established_year_range_check",
+        "e|ck|public.universities.universities_established_year_range_check",
+        "n|con|public.universities.universities_established_year_range_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.established_year"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_counts",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_profiles",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_requirements",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_test_scores",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "cost_snapshots",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "enrollment_snapshots",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "financial_aid_snapshots",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "qualification_requirements",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_count_metric",
+        "values": [
+          "applicants",
+          "admitted",
+          "enrolled",
+          "waitlisted",
+          "waitlist_admitted",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "attendance_status",
+        "values": [
+          "all",
+          "full_time",
+          "part_time"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "cost_category",
+        "values": [
+          "tuition",
+          "fees",
+          "tuition_and_fees",
+          "housing",
+          "meals",
+          "books_and_supplies",
+          "transportation",
+          "personal",
+          "total_cost_of_attendance",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "cost_period",
+        "values": [
+          "academic_year",
+          "semester",
+          "term",
+          "month",
+          "one_time",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "financial_aid_category",
+        "values": [
+          "any_aid",
+          "grant_or_scholarship",
+          "institutional_grant",
+          "government_grant",
+          "loan",
+          "work_study",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "operating_status",
+        "values": [
+          "active",
+          "inactive",
+          "unknown"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "qualification_requirement_kind",
+        "values": [
+          "credential",
+          "overall_score",
+          "subject_score",
+          "grade",
+          "coursework",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "requirement_category",
+        "values": [
+          "academic",
+          "application",
+          "language",
+          "standardized_test",
+          "document",
+          "experience",
+          "portfolio",
+          "interview",
+          "financial",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "requirement_operator",
+        "values": [
+          "minimum",
+          "maximum",
+          "exact",
+          "range",
+          "equivalent",
+          "descriptive"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "requirement_status",
+        "values": [
+          "required",
+          "conditional",
+          "recommended",
+          "optional",
+          "not_required",
+          "not_considered",
+          "unknown"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "residency_category",
+        "values": [
+          "all",
+          "in_state",
+          "out_of_state",
+          "domestic",
+          "international",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "study_level",
+        "values": [
+          "all",
+          "undergraduate",
+          "graduate",
+          "doctoral",
+          "non_degree",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "test_score_context",
+        "values": [
+          "requirement",
+          "admitted_students",
+          "enrolled_students"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "university_ownership",
+        "values": [
+          "public",
+          "private_nonprofit",
+          "private_forprofit",
+          "unknown"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_profile_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "metric",
+        "type": "admission_count_metric",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "population",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "value",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "program_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "academic_year",
+        "type": "varchar(20)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "intake_term",
+        "type": "varchar(80)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'unspecified'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "level",
+        "type": "study_level",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "applicant_type",
+        "type": "applicant_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "application_url",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "notes",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "updated_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_profile_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "category",
+        "type": "requirement_category",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "requirement_key",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "status",
+        "type": "requirement_status",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'unknown'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "details",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_profile_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "test_name",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "section",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'overall'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "context",
+        "type": "test_score_context",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "minimum_score",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "maximum_score",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "average_score",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "percentile_25",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "percentile_75",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "score_scale",
+        "type": "varchar(80)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "program_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "academic_year",
+        "type": "varchar(20)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "level",
+        "type": "study_level",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "applicant_type",
+        "type": "applicant_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "residency",
+        "type": "residency_category",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "category",
+        "type": "cost_category",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "period",
+        "type": "cost_period",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "amount",
+        "type": "numeric(14,2)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "currency",
+        "type": "varchar(3)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "program_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "academic_year",
+        "type": "varchar(20)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "level",
+        "type": "study_level",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "attendance_status",
+        "type": "attendance_status",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "applicant_type",
+        "type": "applicant_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "population",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "student_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "program_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "academic_year",
+        "type": "varchar(20)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "level",
+        "type": "study_level",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "applicant_type",
+        "type": "applicant_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "population",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'all'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "category",
+        "type": "financial_aid_category",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "recipient_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "recipient_percent",
+        "type": "numeric(5,2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "average_amount",
+        "type": "numeric(14,2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "total_amount",
+        "type": "numeric(16,2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "currency",
+        "type": "varchar(3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "admission_profile_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_system",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_name",
+        "type": "varchar(160)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "kind",
+        "type": "qualification_requirement_kind",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "subject",
+        "type": "varchar(160)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'overall'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "operator",
+        "type": "requirement_operator",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "minimum_value",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "maximum_value",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "value_text",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "scale",
+        "type": "varchar(80)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "notes",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "publisher",
+        "type": "varchar(200)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "dataset_version",
+        "type": "varchar(120)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "published_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "import_run_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "country_code",
+        "type": "varchar(2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "region",
+        "type": "varchar(120)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "address_line",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "postal_code",
+        "type": "varchar(32)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "phone",
+        "type": "varchar(40)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "latitude",
+        "type": "numeric(9,6)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "longitude",
+        "type": "numeric(9,6)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "official_website",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "admissions_url",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "financial_aid_url",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "net_price_url",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "ownership",
+        "type": "university_ownership",
+        "typeSchema": "public",
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "operating_status",
+        "type": "operating_status",
+        "typeSchema": "public",
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "highest_award_level",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "offers_undergraduate",
+        "type": "boolean",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "offers_graduate",
+        "type": "boolean",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "academic_calendar",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "established_year",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_profile_metric_population_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "metric",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "population",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_profile_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_institution_scope_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_program_scope_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is not null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_program_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_profile_key_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "requirement_key",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_profile_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_profile_test_section_context_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "test_name",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "section",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "context",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_profile_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_institution_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "residency",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "period",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_program_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "residency",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "period",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is not null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_program_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_institution_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "attendance_status",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "population",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_program_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "attendance_status",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "population",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is not null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_program_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_institution_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "population",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_program_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "population",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"program_id\" is not null",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_program_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_scope_source_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "qualification_system",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "qualification_name",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "kind",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "subject",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_profile_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "admission_profile_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "sources_import_run_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "import_run_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_country_code_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "country_code",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_ownership_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "ownership",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_operating_status_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "operating_status",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_admission_profile_id_admission_profiles_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "admission_profile_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "admission_profiles",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_program_id_programs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "program_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "programs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_admission_profile_id_admission_profiles_",
+        "nameExplicit": false,
+        "columns": [
+          "admission_profile_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "admission_profiles",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_admission_profile_id_admission_profiles_i",
+        "nameExplicit": false,
+        "columns": [
+          "admission_profile_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "admission_profiles",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_program_id_programs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "program_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "programs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_program_id_programs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "program_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "programs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_program_id_programs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "program_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "programs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_admission_profile_id_admission_profi",
+        "nameExplicit": false,
+        "columns": [
+          "admission_profile_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "admission_profiles",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "sources_import_run_id_import_runs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "import_run_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "import_runs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "SET NULL",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_value_nonnegative_check",
+        "value": "\"value\" >= 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_counts",
+        "name": "admission_counts_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "admission_requirements_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_value_present_check",
+        "value": "\"minimum_score\" is not null or \"maximum_score\" is not null or \"average_score\" is not null or \"percentile_25\" is not null or \"percentile_75\" is not null",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_range_order_check",
+        "value": "\"minimum_score\" is null or \"maximum_score\" is null or \"minimum_score\" <= \"maximum_score\"",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_percentile_order_check",
+        "value": "\"percentile_25\" is null or \"percentile_75\" is null or \"percentile_25\" <= \"percentile_75\"",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_values_nonnegative_check",
+        "value": "coalesce(\"minimum_score\", 0) >= 0 and coalesce(\"maximum_score\", 0) >= 0 and coalesce(\"average_score\", 0) >= 0 and coalesce(\"percentile_25\", 0) >= 0 and coalesce(\"percentile_75\", 0) >= 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_amount_nonnegative_check",
+        "value": "\"amount\" >= 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_currency_iso_check",
+        "value": "\"currency\" ~ '^[A-Z]{3}$'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "cost_snapshots_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_count_nonnegative_check",
+        "value": "\"student_count\" >= 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "enrollment_snapshots",
+        "name": "enrollment_snapshots_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_value_present_check",
+        "value": "\"recipient_count\" is not null or \"recipient_percent\" is not null or \"average_amount\" is not null or \"total_amount\" is not null",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_values_nonnegative_check",
+        "value": "coalesce(\"recipient_count\", 0) >= 0 and coalesce(\"recipient_percent\", 0) >= 0 and coalesce(\"average_amount\", 0) >= 0 and coalesce(\"total_amount\", 0) >= 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_percent_range_check",
+        "value": "\"recipient_percent\" is null or \"recipient_percent\" <= 100",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_currency_dependency_check",
+        "value": "(\"average_amount\" is null and \"total_amount\" is null) or \"currency\" is not null",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_currency_iso_check",
+        "value": "\"currency\" is null or \"currency\" ~ '^[A-Z]{3}$'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "financial_aid_snapshots",
+        "name": "financial_aid_snapshots_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_value_present_check",
+        "value": "\"minimum_value\" is not null or \"maximum_value\" is not null or \"value_text\" is not null",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_range_order_check",
+        "value": "\"minimum_value\" is null or \"maximum_value\" is null or \"minimum_value\" <= \"maximum_value\"",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "qualification_requirements",
+        "name": "qualification_requirements_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_country_code_iso_check",
+        "value": "\"country_code\" is null or \"country_code\" ~ '^[A-Z]{2}$'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_latitude_range_check",
+        "value": "\"latitude\" is null or \"latitude\" between -90 and 90",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_longitude_range_check",
+        "value": "\"longitude\" is null or \"longitude\" between -180 and 180",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_established_year_range_check",
+        "value": "\"established_year\" is null or \"established_year\" between 1000 and 2100",
+        "entityType": "checks"
+      }
+    }
+  ]
+}

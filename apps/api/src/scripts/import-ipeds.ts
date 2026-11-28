@@ -140,7 +140,9 @@ type IdentityIndexes = {
 };
 
 type IdentityResolution =
-  { kind: 'match'; universityId: string } | { kind: 'new' } | { kind: 'conflict'; reason: string };
+  | { kind: 'match'; universityId: string }
+  | { kind: 'new' }
+  | { kind: 'conflict'; reason: string };
 
 type CheckpointMetadata = {
   sourceDownloadUrl: string;

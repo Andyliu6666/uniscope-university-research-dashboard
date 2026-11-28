@@ -1,0 +1,38 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "c1d8b8bc-a11d-420f-8ddc-26bc9f6b276f",
+  "prevIds": [
+    "7c35bb8e-0ad7-4a02-9625-4cc6ca6149c4"
+  ],
+  "footprints": [
+    {
+      "statementType": "alter_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "institution_type"
+      ],
+      "writes": [
+        "s|enum|public.institution_type"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "alter",
+      "key": "enums\u0000[\"public\",\"institution_type\"]",
+      "set": {
+        "values": [
+          "public",
+          "private",
+          "unknown"
+        ]
+      }
+    }
+  ]
+}

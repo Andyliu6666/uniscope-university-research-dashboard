@@ -48,11 +48,11 @@ The project deliberately uses one web app, one API, and one database. Adding a u
 
 ## Start with Docker (recommended)
 
-Requirements: Docker Desktop with Docker Compose.
+Use Docker Desktop with Docker Compose. This checkout builds PostgreSQL 20devel from a pinned upstream revision. **If you already have data from an earlier PostgreSQL build, follow the [database upgrade procedure](docs/DATABASE_UPGRADE.md) before starting Compose.** Each development snapshot has its own volume.
 
 ```bash
 cd /path/to/uniscope-university-research-dashboard
-cp .env.example .env
+test -f .env || cp .env.example .env
 docker compose up --build -d
 docker compose cp data/myuniversity.json api:/tmp/myuniversity.json
 docker compose exec api pnpm --filter @urd/api run import /tmp/myuniversity.json
@@ -70,11 +70,16 @@ Create a database backup at any time with `./scripts/backup-db.sh`. Backups are 
 
 ## Start locally
 
-Requirements: Node.js 26, pnpm 11.24+, and PostgreSQL 18+.
+Run the following from the project root on Apple Silicon macOS or Linux. The installer verifies and installs Node.js, npm and pnpm under `.tools/node`. The Node nightly for Apple Silicon and Linux ARM64 is recorded in `.node-version`. Linux x64 uses the most recent published glibc binary in `scripts/node-SHA256.txt`. Open this folder in VS Code Insiders and start a new terminal to use these binaries. The optional Python research environment uses the version in `.python-version`.
 
 ```bash
-cp .env.example .env
-pnpm install
+test -f .env || cp .env.example .env
+./scripts/install-node.sh
+export PATH="$PWD/.tools/node/bin:$PATH"
+pnpm install --frozen-lockfile
+# For Python research scripts, with the pinned Python interpreter installed:
+python3.16 -m venv .venv
+docker compose up --build -d --wait db
 pnpm db:migrate
 pnpm --filter @urd/api run import ../../data/myuniversity.json
 pnpm dev

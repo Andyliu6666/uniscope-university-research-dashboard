@@ -1,0 +1,785 @@
+{
+  "type": "base",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "7c35bb8e-0ad7-4a02-9625-4cc6ca6149c4",
+  "prevIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "applicant_type"
+      ],
+      "writes": [
+        "s|enum|public.applicant_type",
+        "n|enum|public.applicant_type",
+        "e|enum|public.applicant_type",
+        "n|type|public.applicant_type"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "institution_type"
+      ],
+      "writes": [
+        "s|enum|public.institution_type",
+        "n|enum|public.institution_type",
+        "e|enum|public.institution_type",
+        "n|type|public.institution_type"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "program_level"
+      ],
+      "writes": [
+        "s|enum|public.program_level",
+        "n|enum|public.program_level",
+        "e|enum|public.program_level",
+        "n|type|public.program_level"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "source_category"
+      ],
+      "writes": [
+        "s|enum|public.source_category",
+        "n|enum|public.source_category",
+        "e|enum|public.source_category",
+        "n|type|public.source_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "deadlines"
+      ],
+      "writes": [
+        "s|tbl|public.deadlines",
+        "n|tbl|public.deadlines",
+        "e|tbl|public.deadlines",
+        "n|rel|public.deadlines",
+        "n|type|public.deadlines",
+        "n|rel|public.deadlines_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.applicant_type"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "programs"
+      ],
+      "writes": [
+        "s|tbl|public.programs",
+        "n|tbl|public.programs",
+        "e|tbl|public.programs",
+        "n|rel|public.programs",
+        "n|type|public.programs",
+        "n|rel|public.programs_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.program_level"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "sources"
+      ],
+      "writes": [
+        "s|tbl|public.sources",
+        "n|tbl|public.sources",
+        "e|tbl|public.sources",
+        "n|rel|public.sources",
+        "n|type|public.sources",
+        "n|rel|public.sources_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.source_category"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|tbl|public.universities",
+        "n|tbl|public.universities",
+        "e|tbl|public.universities",
+        "n|rel|public.universities",
+        "n|type|public.universities",
+        "n|rel|public.universities_pkey",
+        "n|rel|public.universities_slug_unique"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.institution_type"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "deadlines"
+      ],
+      "writes": [
+        "s|fk|public.deadlines.deadlines_university_id_universities_id_fk",
+        "n|fk|public.deadlines.deadlines_university_id_universities_id_fk",
+        "e|fk|public.deadlines.deadlines_university_id_universities_id_fk",
+        "n|con|public.deadlines.deadlines_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.deadlines.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "programs"
+      ],
+      "writes": [
+        "s|fk|public.programs.programs_university_id_universities_id_fk",
+        "n|fk|public.programs.programs_university_id_universities_id_fk",
+        "e|fk|public.programs.programs_university_id_universities_id_fk",
+        "n|con|public.programs.programs_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.programs.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "sources"
+      ],
+      "writes": [
+        "s|fk|public.sources.sources_university_id_universities_id_fk",
+        "n|fk|public.sources.sources_university_id_universities_id_fk",
+        "e|fk|public.sources.sources_university_id_universities_id_fk",
+        "n|con|public.sources.sources_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.sources.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    }
+  ],
+  "ddl": [
+    {
+      "schema": "public",
+      "name": "deadlines",
+      "isRlsEnabled": false,
+      "entityType": "tables"
+    },
+    {
+      "schema": "public",
+      "name": "programs",
+      "isRlsEnabled": false,
+      "entityType": "tables"
+    },
+    {
+      "schema": "public",
+      "name": "sources",
+      "isRlsEnabled": false,
+      "entityType": "tables"
+    },
+    {
+      "schema": "public",
+      "name": "universities",
+      "isRlsEnabled": false,
+      "entityType": "tables"
+    },
+    {
+      "schema": "public",
+      "name": "applicant_type",
+      "values": [
+        "domestic",
+        "international",
+        "all"
+      ],
+      "entityType": "enums"
+    },
+    {
+      "schema": "public",
+      "name": "institution_type",
+      "values": [
+        "public",
+        "private"
+      ],
+      "entityType": "enums"
+    },
+    {
+      "schema": "public",
+      "name": "program_level",
+      "values": [
+        "undergraduate",
+        "graduate"
+      ],
+      "entityType": "enums"
+    },
+    {
+      "schema": "public",
+      "name": "source_category",
+      "values": [
+        "official",
+        "government",
+        "independent"
+      ],
+      "entityType": "enums"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "gen_random_uuid()",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "university_id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "label",
+      "type": "varchar(100)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "date",
+      "type": "date",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "applicant_type",
+      "type": "applicant_type",
+      "typeSchema": "public",
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "gen_random_uuid()",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "university_id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "name",
+      "type": "varchar(160)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "level",
+      "type": "program_level",
+      "typeSchema": "public",
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "field",
+      "type": "varchar(100)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "gen_random_uuid()",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "university_id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "title",
+      "type": "varchar(200)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "url",
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "category",
+      "type": "source_category",
+      "typeSchema": "public",
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "verified_at",
+      "type": "timestamp with time zone",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "id",
+      "type": "uuid",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "gen_random_uuid()",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "name",
+      "type": "varchar(160)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "slug",
+      "type": "varchar(180)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "country",
+      "type": "varchar(80)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "city",
+      "type": "varchar(80)",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "website",
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "summary",
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "institution_type",
+      "type": "institution_type",
+      "typeSchema": "public",
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "student_count",
+      "type": "integer",
+      "typeSchema": null,
+      "notNull": false,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "acceptance_rate",
+      "type": "numeric(5,2)",
+      "typeSchema": null,
+      "notNull": false,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "annual_tuition_usd",
+      "type": "integer",
+      "typeSchema": null,
+      "notNull": false,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "ib_typical_min",
+      "type": "integer",
+      "typeSchema": null,
+      "notNull": false,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "featured",
+      "type": "boolean",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "false",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "updated_at",
+      "type": "timestamp with time zone",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": "now()",
+      "generated": null,
+      "identity": null,
+      "entityType": "columns"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "deadlines_university_id_universities_id_fk",
+      "nameExplicit": false,
+      "columns": [
+        "university_id"
+      ],
+      "schemaTo": "public",
+      "tableTo": "universities",
+      "columnsTo": [
+        "id"
+      ],
+      "onUpdate": "NO ACTION",
+      "onDelete": "CASCADE",
+      "entityType": "fks"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "programs_university_id_universities_id_fk",
+      "nameExplicit": false,
+      "columns": [
+        "university_id"
+      ],
+      "schemaTo": "public",
+      "tableTo": "universities",
+      "columnsTo": [
+        "id"
+      ],
+      "onUpdate": "NO ACTION",
+      "onDelete": "CASCADE",
+      "entityType": "fks"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "sources_university_id_universities_id_fk",
+      "nameExplicit": false,
+      "columns": [
+        "university_id"
+      ],
+      "schemaTo": "public",
+      "tableTo": "universities",
+      "columnsTo": [
+        "id"
+      ],
+      "onUpdate": "NO ACTION",
+      "onDelete": "CASCADE",
+      "entityType": "fks"
+    },
+    {
+      "schema": "public",
+      "table": "deadlines",
+      "name": "deadlines_pkey",
+      "columns": [
+        "id"
+      ],
+      "nameExplicit": false,
+      "entityType": "pks"
+    },
+    {
+      "schema": "public",
+      "table": "programs",
+      "name": "programs_pkey",
+      "columns": [
+        "id"
+      ],
+      "nameExplicit": false,
+      "entityType": "pks"
+    },
+    {
+      "schema": "public",
+      "table": "sources",
+      "name": "sources_pkey",
+      "columns": [
+        "id"
+      ],
+      "nameExplicit": false,
+      "entityType": "pks"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "universities_pkey",
+      "columns": [
+        "id"
+      ],
+      "nameExplicit": false,
+      "entityType": "pks"
+    },
+    {
+      "schema": "public",
+      "table": "universities",
+      "name": "universities_slug_unique",
+      "nameExplicit": false,
+      "columns": [
+        "slug"
+      ],
+      "nullsNotDistinct": false,
+      "entityType": "uniques"
+    }
+  ]
+}

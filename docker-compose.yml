@@ -1,6 +1,7 @@
 services:
   db:
-    image: postgres:18-alpine
+    image: uniscope-postgres:20devel-cf9d92d
+    build: ./docker/postgres
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-university_dashboard}
       POSTGRES_USER: ${POSTGRES_USER:-urd}
@@ -8,7 +9,7 @@ services:
     ports:
       - '${COMPOSE_BIND_ADDRESS:-127.0.0.1}:${POSTGRES_PORT:-5432}:5432'
     volumes:
-      - postgres_data_v18:/var/lib/postgresql
+      - postgres_data_v20_cf9d92d:/var/lib/postgresql
     healthcheck:
       test:
         ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-urd} -d ${POSTGRES_DB:-university_dashboard}']
@@ -74,4 +75,4 @@ services:
         max-file: '3'
 
 volumes:
-  postgres_data_v18:
+  postgres_data_v20_cf9d92d:

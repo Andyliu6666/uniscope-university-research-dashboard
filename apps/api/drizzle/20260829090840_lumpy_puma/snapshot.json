@@ -1,0 +1,237 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "ce3993fa-6390-4460-bfbd-eb342f0554c1",
+  "prevIds": [
+    "c1d8b8bc-a11d-420f-8ddc-26bc9f6b276f"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_country_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_country_idx",
+        "n|idx|public.universities_country_idx",
+        "e|idx|public.universities_country_idx",
+        "n|rel|public.universities_country_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.country"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_type_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_type_idx",
+        "n|idx|public.universities_type_idx",
+        "e|idx|public.universities_type_idx",
+        "n|rel|public.universities_type_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.institution_type"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_name_trgm_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_name_trgm_idx",
+        "n|idx|public.universities_name_trgm_idx",
+        "e|idx|public.universities_name_trgm_idx",
+        "n|rel|public.universities_name_trgm_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.name"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_city_trgm_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_city_trgm_idx",
+        "n|idx|public.universities_city_trgm_idx",
+        "e|idx|public.universities_city_trgm_idx",
+        "n|rel|public.universities_city_trgm_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.city"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_country_trgm_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_country_trgm_idx",
+        "n|idx|public.universities_country_trgm_idx",
+        "e|idx|public.universities_country_trgm_idx",
+        "n|rel|public.universities_country_trgm_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.country"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_country_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "country",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_type_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "institution_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_name_trgm_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "name",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": {
+              "name": "gin_trgm_ops",
+              "default": false
+            }
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "gin",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_city_trgm_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "city",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": {
+              "name": "gin_trgm_ops",
+              "default": false
+            }
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "gin",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_country_trgm_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "country",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": {
+              "name": "gin_trgm_ops",
+              "default": false
+            }
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "gin",
+        "entityType": "indexes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "f80a466a-c5cf-49e4-949f-b476c51ac4d1",
+  "prevIds": [
+    "73915f4f-da9b-4f25-a6ac-dbde96e808dd"
+  ],
+  "footprints": [
+    {
+      "statementType": "alter_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "requirement_status"
+      ],
+      "writes": [
+        "s|enum|public.requirement_status"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_test_scores",
+        "submitters_count"
+      ],
+      "writes": [
+        "s|col|public.admission_test_scores.submitters_count",
+        "n|col|public.admission_test_scores.submitters_count",
+        "e|col|public.admission_test_scores.submitters_count"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_test_scores",
+        "submitters_percent"
+      ],
+      "writes": [
+        "s|col|public.admission_test_scores.submitters_percent",
+        "n|col|public.admission_test_scores.submitters_percent",
+        "e|col|public.admission_test_scores.submitters_percent"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "alter_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|ck|public.admission_test_scores.admission_test_scores_values_nonnegative_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.submitters_count",
+        "n|col|public.admission_test_scores.submitters_percent",
+        "n|col|public.admission_test_scores.minimum_score",
+        "n|col|public.admission_test_scores.maximum_score",
+        "n|col|public.admission_test_scores.average_score",
+        "n|col|public.admission_test_scores.percentile_25",
+        "n|col|public.admission_test_scores.percentile_50",
+        "n|col|public.admission_test_scores.percentile_75",
+        "e|col|public.admission_test_scores.minimum_score",
+        "e|col|public.admission_test_scores.maximum_score",
+        "e|col|public.admission_test_scores.average_score",
+        "e|col|public.admission_test_scores.percentile_25",
+        "e|col|public.admission_test_scores.percentile_50",
+        "e|col|public.admission_test_scores.percentile_75"
+      ],
+      "sqlHash": "a0f5fa1f2ed86464"
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "submitters_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "submitters_percent",
+        "type": "numeric(5,2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "enums\u0000[\"public\",\"requirement_status\"]",
+      "set": {
+        "values": [
+          "required",
+          "conditional",
+          "considered",
+          "recommended",
+          "optional",
+          "not_required",
+          "not_considered",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "checks\u0000[\"public\",\"admission_test_scores\",\"admission_test_scores_values_nonnegative_check\"]",
+      "set": {
+        "value": "coalesce(\"submitters_count\", 0) >= 0 and coalesce(\"submitters_percent\", 0) >= 0 and coalesce(\"submitters_percent\", 0) <= 100 and coalesce(\"minimum_score\", 0) >= 0 and coalesce(\"maximum_score\", 0) >= 0 and coalesce(\"average_score\", 0) >= 0 and coalesce(\"percentile_25\", 0) >= 0 and coalesce(\"percentile_50\", 0) >= 0 and coalesce(\"percentile_75\", 0) >= 0"
+      }
+    }
+  ]
+}

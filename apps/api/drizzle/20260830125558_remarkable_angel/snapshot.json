@@ -1,0 +1,47 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "0c109476-50e3-4c30-a307-1e8eb48a33c8",
+  "prevIds": [
+    "2e51c155-45ff-4114-a306-c18f97bb654f"
+  ],
+  "footprints": [
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "import_rejections",
+        "source_row"
+      ],
+      "writes": [
+        "s|col|public.import_rejections.source_row",
+        "n|col|public.import_rejections.source_row",
+        "e|col|public.import_rejections.source_row"
+      ],
+      "reads": [
+        "n|tbl|public.import_rejections",
+        "n|sch|public"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "source_row",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    }
+  ]
+}

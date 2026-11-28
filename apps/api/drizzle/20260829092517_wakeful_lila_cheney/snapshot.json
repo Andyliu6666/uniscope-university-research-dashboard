@@ -1,0 +1,1173 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "2e51c155-45ff-4114-a306-c18f97bb654f",
+  "prevIds": [
+    "ce3993fa-6390-4460-bfbd-eb342f0554c1"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "import_run_status"
+      ],
+      "writes": [
+        "s|enum|public.import_run_status",
+        "n|enum|public.import_run_status",
+        "e|enum|public.import_run_status",
+        "n|type|public.import_run_status"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "import_rejections"
+      ],
+      "writes": [
+        "s|tbl|public.import_rejections",
+        "n|tbl|public.import_rejections",
+        "e|tbl|public.import_rejections",
+        "n|rel|public.import_rejections",
+        "n|type|public.import_rejections",
+        "n|rel|public.import_rejections_pkey"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "import_runs"
+      ],
+      "writes": [
+        "s|tbl|public.import_runs",
+        "n|tbl|public.import_runs",
+        "e|tbl|public.import_runs",
+        "n|rel|public.import_runs",
+        "n|type|public.import_runs",
+        "n|rel|public.import_runs_pkey"
+      ],
+      "reads": [
+        "n|sch|public",
+        "n|enum|public.import_run_status"
+      ]
+    },
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "institution_identifiers"
+      ],
+      "writes": [
+        "s|tbl|public.institution_identifiers",
+        "n|tbl|public.institution_identifiers",
+        "e|tbl|public.institution_identifiers",
+        "n|rel|public.institution_identifiers",
+        "n|type|public.institution_identifiers",
+        "n|rel|public.institution_identifiers_pkey"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "deadlines",
+        "deadlines_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.deadlines_university_id_idx",
+        "n|idx|public.deadlines_university_id_idx",
+        "e|idx|public.deadlines_university_id_idx",
+        "n|rel|public.deadlines_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|col|public.deadlines.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "import_rejections",
+        "import_rejections_run_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.import_rejections_run_id_idx",
+        "n|idx|public.import_rejections_run_id_idx",
+        "e|idx|public.import_rejections_run_id_idx",
+        "n|rel|public.import_rejections_run_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.import_rejections",
+        "n|sch|public",
+        "n|col|public.import_rejections.run_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "import_runs",
+        "import_runs_provider_dataset_artifact_unique"
+      ],
+      "writes": [
+        "s|idx|public.import_runs_provider_dataset_artifact_unique",
+        "n|idx|public.import_runs_provider_dataset_artifact_unique",
+        "e|idx|public.import_runs_provider_dataset_artifact_unique",
+        "n|rel|public.import_runs_provider_dataset_artifact_unique"
+      ],
+      "reads": [
+        "n|tbl|public.import_runs",
+        "n|sch|public",
+        "n|col|public.import_runs.provider",
+        "n|col|public.import_runs.dataset_version",
+        "n|col|public.import_runs.artifact_hash"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "import_runs",
+        "import_runs_provider_started_at_idx"
+      ],
+      "writes": [
+        "s|idx|public.import_runs_provider_started_at_idx",
+        "n|idx|public.import_runs_provider_started_at_idx",
+        "e|idx|public.import_runs_provider_started_at_idx",
+        "n|rel|public.import_runs_provider_started_at_idx"
+      ],
+      "reads": [
+        "n|tbl|public.import_runs",
+        "n|sch|public",
+        "n|col|public.import_runs.provider",
+        "n|col|public.import_runs.started_at"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "import_runs",
+        "import_runs_status_idx"
+      ],
+      "writes": [
+        "s|idx|public.import_runs_status_idx",
+        "n|idx|public.import_runs_status_idx",
+        "e|idx|public.import_runs_status_idx",
+        "n|rel|public.import_runs_status_idx"
+      ],
+      "reads": [
+        "n|tbl|public.import_runs",
+        "n|sch|public",
+        "n|col|public.import_runs.status"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_identifiers",
+        "institution_identifiers_provider_external_id_unique"
+      ],
+      "writes": [
+        "s|idx|public.institution_identifiers_provider_external_id_unique",
+        "n|idx|public.institution_identifiers_provider_external_id_unique",
+        "e|idx|public.institution_identifiers_provider_external_id_unique",
+        "n|rel|public.institution_identifiers_provider_external_id_unique"
+      ],
+      "reads": [
+        "n|tbl|public.institution_identifiers",
+        "n|sch|public",
+        "n|col|public.institution_identifiers.provider",
+        "n|col|public.institution_identifiers.external_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_identifiers",
+        "institution_identifiers_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.institution_identifiers_university_id_idx",
+        "n|idx|public.institution_identifiers_university_id_idx",
+        "e|idx|public.institution_identifiers_university_id_idx",
+        "n|rel|public.institution_identifiers_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.institution_identifiers",
+        "n|sch|public",
+        "n|col|public.institution_identifiers.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "programs",
+        "programs_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.programs_university_id_idx",
+        "n|idx|public.programs_university_id_idx",
+        "e|idx|public.programs_university_id_idx",
+        "n|rel|public.programs_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.programs",
+        "n|sch|public",
+        "n|col|public.programs.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "sources",
+        "sources_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.sources_university_id_idx",
+        "n|idx|public.sources_university_id_idx",
+        "e|idx|public.sources_university_id_idx",
+        "n|rel|public.sources_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.sources.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "sources",
+        "sources_university_id_url_unique"
+      ],
+      "writes": [
+        "s|idx|public.sources_university_id_url_unique",
+        "n|idx|public.sources_university_id_url_unique",
+        "e|idx|public.sources_university_id_url_unique",
+        "n|rel|public.sources_university_id_url_unique"
+      ],
+      "reads": [
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.sources.university_id",
+        "n|col|public.sources.url"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "import_rejections"
+      ],
+      "writes": [
+        "s|fk|public.import_rejections.import_rejections_run_id_import_runs_id_fk",
+        "n|fk|public.import_rejections.import_rejections_run_id_import_runs_id_fk",
+        "e|fk|public.import_rejections.import_rejections_run_id_import_runs_id_fk",
+        "n|con|public.import_rejections.import_rejections_run_id_import_runs_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.import_rejections",
+        "n|sch|public",
+        "n|tbl|public.import_runs",
+        "n|sch|public",
+        "n|col|public.import_rejections.run_id",
+        "n|col|public.import_runs.id",
+        "e|uniqueness|public.import_runs.id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "institution_identifiers"
+      ],
+      "writes": [
+        "s|fk|public.institution_identifiers.institution_identifiers_university_id_universities_id_fk",
+        "n|fk|public.institution_identifiers.institution_identifiers_university_id_universities_id_fk",
+        "e|fk|public.institution_identifiers.institution_identifiers_university_id_universities_id_fk",
+        "n|con|public.institution_identifiers.institution_identifiers_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.institution_identifiers",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.institution_identifiers.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "import_rejections",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "import_runs",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "institution_identifiers",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "import_run_status",
+        "values": [
+          "running",
+          "paused",
+          "completed",
+          "failed",
+          "cancelled"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "run_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "external_id",
+        "type": "varchar(255)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "reason",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "payload_hash",
+        "type": "varchar(64)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "payload",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "created_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "provider",
+        "type": "varchar(40)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "dataset_version",
+        "type": "varchar(120)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "artifact_hash",
+        "type": "varchar(64)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "status",
+        "type": "import_run_status",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'running'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "checkpoint",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "processed_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "0",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "inserted_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "0",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "updated_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "0",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "skipped_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "0",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "rejected_count",
+        "type": "integer",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "0",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "started_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "finished_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "updated_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "provider",
+        "type": "varchar(40)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "external_id",
+        "type": "varchar(255)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "source_modified_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "first_seen_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "last_seen_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "deadlines_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "import_rejections_run_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "run_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "import_runs_provider_dataset_artifact_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "provider",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "dataset_version",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "artifact_hash",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "import_runs_provider_started_at_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "provider",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "started_at",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "import_runs_status_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "status",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "institution_identifiers_provider_external_id_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "provider",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "external_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "institution_identifiers_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "programs",
+        "name": "programs_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "sources_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "sources",
+        "name": "sources_university_id_url_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "url",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "import_rejections_run_id_import_runs_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "run_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "import_runs",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "institution_identifiers_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_rejections",
+        "name": "import_rejections_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "import_runs",
+        "name": "import_runs_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "institution_identifiers_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    }
+  ]
+}

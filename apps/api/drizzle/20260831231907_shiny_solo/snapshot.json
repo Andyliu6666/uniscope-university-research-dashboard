@@ -1,0 +1,59 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "ee2e1d08-7dff-4056-8bf4-26d5988b75da",
+  "prevIds": [
+    "58df6af8-e575-4d0d-a3d3-0a397754eda4"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_aliases",
+        "institution_aliases_name_trgm_idx"
+      ],
+      "writes": [
+        "s|idx|public.institution_aliases_name_trgm_idx",
+        "n|idx|public.institution_aliases_name_trgm_idx",
+        "e|idx|public.institution_aliases_name_trgm_idx",
+        "n|rel|public.institution_aliases_name_trgm_idx"
+      ],
+      "reads": [
+        "n|tbl|public.institution_aliases",
+        "n|sch|public",
+        "n|col|public.institution_aliases.name"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_name_trgm_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "name",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": {
+              "name": "gin_trgm_ops",
+              "default": false
+            }
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "gin",
+        "entityType": "indexes"
+      }
+    }
+  ]
+}

@@ -454,7 +454,9 @@ export const classifyDepartmentRecord = (
 };
 
 export type TuitionCell =
-  { kind: 'amount'; amountTwd: number } | { kind: 'reported_zero' } | { kind: 'blank' };
+  | { kind: 'amount'; amountTwd: number }
+  | { kind: 'reported_zero' }
+  | { kind: 'blank' };
 
 export const parseTuitionCell = (value: string, field: string, sourceRow: number): TuitionCell => {
   const text = value.trim();

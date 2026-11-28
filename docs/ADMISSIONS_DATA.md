@@ -51,7 +51,7 @@ Profiles may supply `deliveryMode: "distance"`, `"campus"`, `"hybrid"` or `"unsp
 
 The admissions API accepts an exact optional `deliveryMode` filter and returns the mode on each profile. The website appends an explicit mode label to the scope selector when specified. Legacy IB and IPEDS imports continue to resolve only unspecified-mode profiles; the present structured IB artifact format does not support mode-specific imports. General admission conditions for distance routes can be recorded without inventing an IB minimum.
 
-Apply checked-in migration `0014_admission_delivery_mode.sql` before starting the updated API. Docker does this through its existing startup migration command. After migration, `pnpm db:test` exercises both institution and programme scopes against PostgreSQL with all fixtures rolled back.
+Apply checked-in migration `apps/api/drizzle/20261107020819_admission_delivery_mode/migration.sql` before starting the updated API. Docker does this through its existing startup migration command. After migration, `pnpm db:test` exercises both institution and programme scopes against PostgreSQL with all fixtures rolled back.
 
 ## Validate, preview, back up, import
 

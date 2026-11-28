@@ -1,0 +1,496 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "6b202723-d66c-420d-8225-746aed9cb6a0",
+  "prevIds": [
+    "9ecba5dc-02ee-40ae-866f-b3dfb9ce867f"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_table",
+      "statementTarget": [
+        "table",
+        "public",
+        "institution_aliases"
+      ],
+      "writes": [
+        "s|tbl|public.institution_aliases",
+        "n|tbl|public.institution_aliases",
+        "e|tbl|public.institution_aliases",
+        "n|rel|public.institution_aliases",
+        "n|type|public.institution_aliases",
+        "n|rel|public.institution_aliases_pkey"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "continent_code"
+      ],
+      "writes": [
+        "s|col|public.universities.continent_code",
+        "n|col|public.universities.continent_code",
+        "e|col|public.universities.continent_code"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "universities",
+        "wikipedia_url"
+      ],
+      "writes": [
+        "s|col|public.universities.wikipedia_url",
+        "n|col|public.universities.wikipedia_url",
+        "e|col|public.universities.wikipedia_url"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_aliases",
+        "institution_aliases_identity_unique"
+      ],
+      "writes": [
+        "s|idx|public.institution_aliases_identity_unique",
+        "n|idx|public.institution_aliases_identity_unique",
+        "e|idx|public.institution_aliases_identity_unique",
+        "n|rel|public.institution_aliases_identity_unique"
+      ],
+      "reads": [
+        "n|tbl|public.institution_aliases",
+        "n|sch|public",
+        "n|col|public.institution_aliases.university_id",
+        "n|col|public.institution_aliases.provider",
+        "n|col|public.institution_aliases.kind",
+        "n|col|public.institution_aliases.language_code",
+        "n|col|public.institution_aliases.name"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_aliases",
+        "institution_aliases_university_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.institution_aliases_university_id_idx",
+        "n|idx|public.institution_aliases_university_id_idx",
+        "e|idx|public.institution_aliases_university_id_idx",
+        "n|rel|public.institution_aliases_university_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.institution_aliases",
+        "n|sch|public",
+        "n|col|public.institution_aliases.university_id"
+      ]
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "universities",
+        "universities_continent_code_idx"
+      ],
+      "writes": [
+        "s|idx|public.universities_continent_code_idx",
+        "n|idx|public.universities_continent_code_idx",
+        "e|idx|public.universities_continent_code_idx",
+        "n|rel|public.universities_continent_code_idx"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.continent_code"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "institution_aliases"
+      ],
+      "writes": [
+        "s|fk|public.institution_aliases.institution_aliases_university_id_universities_id_fk",
+        "n|fk|public.institution_aliases.institution_aliases_university_id_universities_id_fk",
+        "e|fk|public.institution_aliases.institution_aliases_university_id_universities_id_fk",
+        "n|con|public.institution_aliases.institution_aliases_university_id_universities_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.institution_aliases",
+        "n|sch|public",
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.institution_aliases.university_id",
+        "n|col|public.universities.id",
+        "e|uniqueness|public.universities.id"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_continent_code_check",
+        "n|ck|public.universities.universities_continent_code_check",
+        "e|ck|public.universities.universities_continent_code_check",
+        "n|con|public.universities.universities_continent_code_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.continent_code"
+      ]
+    },
+    {
+      "statementType": "alter_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "universities"
+      ],
+      "writes": [
+        "s|ck|public.universities.universities_established_year_range_check"
+      ],
+      "reads": [
+        "n|tbl|public.universities",
+        "n|sch|public",
+        "n|col|public.universities.established_year",
+        "e|col|public.universities.established_year"
+      ],
+      "sqlHash": "6f50dc6d1a4a2862"
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "institution_aliases",
+        "isRlsEnabled": false,
+        "entityType": "tables"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "gen_random_uuid()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "university_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "name",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "kind",
+        "type": "varchar(16)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "language_code",
+        "type": "varchar(24)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'und'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "provider",
+        "type": "varchar(40)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "continent_code",
+        "type": "varchar(2)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "wikipedia_url",
+        "type": "text",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_identity_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "provider",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "kind",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "language_code",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "name",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_university_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_continent_code_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "continent_code",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_university_id_universities_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "university_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "universities",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "CASCADE",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_pkey",
+        "columns": [
+          "id"
+        ],
+        "nameExplicit": false,
+        "entityType": "pks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_kind_check",
+        "value": "\"kind\" in ('acronym', 'alias', 'label')",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_aliases",
+        "name": "institution_aliases_name_not_blank_check",
+        "value": "length(btrim(\"name\")) > 0",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "universities",
+        "name": "universities_continent_code_check",
+        "value": "\"continent_code\" is null or \"continent_code\" in ('AF', 'AN', 'AS', 'EU', 'NA', 'OC', 'SA')",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "checks\u0000[\"public\",\"universities\",\"universities_established_year_range_check\"]",
+      "set": {
+        "value": "\"established_year\" is null or \"established_year\" between 1 and 2100"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "578b0647-533c-434c-8868-261b5fa22d4f",
+  "prevIds": [
+    "6ae3bcdc-1bb1-4f6e-bc57-20179516a7fc"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "institution_identifiers",
+        "institution_identifiers_university_provider_ror_openalex_unique"
+      ],
+      "writes": [
+        "s|idx|public.institution_identifiers_university_provider_ror_openalex_unique",
+        "n|idx|public.institution_identifiers_university_provider_ror_openalex_unique",
+        "e|idx|public.institution_identifiers_university_provider_ror_openalex_unique",
+        "n|rel|public.institution_identifiers_university_provider_ror_openalex_unique"
+      ],
+      "reads": [
+        "n|tbl|public.institution_identifiers",
+        "n|sch|public",
+        "n|col|public.institution_identifiers.university_id",
+        "n|col|public.institution_identifiers.provider"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "institution_identifiers",
+        "name": "institution_identifiers_university_provider_ror_openalex_unique",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "provider",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": true,
+        "where": "\"provider\" in ('ror', 'openalex')",
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    }
+  ]
+}

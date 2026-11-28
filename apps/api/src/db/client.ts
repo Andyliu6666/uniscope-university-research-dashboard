@@ -4,7 +4,7 @@ import type { Config } from '../config.js';
 
 export const createDb = (config: Config, options: { max?: number } = {}) => {
   const client = postgres(config.DATABASE_URL, { max: options.max ?? 10 });
-  return { db: drizzle(client), close: () => client.end() };
+  return { db: drizzle({ client }), close: () => client.end() };
 };
 
 export type Database = ReturnType<typeof createDb>['db'];

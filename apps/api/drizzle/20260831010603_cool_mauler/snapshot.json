@@ -1,0 +1,786 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "73915f4f-da9b-4f25-a6ac-dbde96e808dd",
+  "prevIds": [
+    "3cd0c7b6-94ca-453a-a8eb-0c8ee349ac1c"
+  ],
+  "footprints": [
+    {
+      "statementType": "create_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "admission_entry_type"
+      ],
+      "writes": [
+        "s|enum|public.admission_entry_type",
+        "n|enum|public.admission_entry_type",
+        "e|enum|public.admission_entry_type",
+        "n|type|public.admission_entry_type"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_profiles",
+        "entry_type"
+      ],
+      "writes": [
+        "s|col|public.admission_profiles.entry_type",
+        "n|col|public.admission_profiles.entry_type",
+        "e|col|public.admission_profiles.entry_type"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|enum|public.admission_entry_type"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_profiles",
+        "open_admission"
+      ],
+      "writes": [
+        "s|col|public.admission_profiles.open_admission",
+        "n|col|public.admission_profiles.open_admission",
+        "e|col|public.admission_profiles.open_admission"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_requirements",
+        "label"
+      ],
+      "writes": [
+        "s|col|public.admission_requirements.label",
+        "n|col|public.admission_requirements.label",
+        "e|col|public.admission_requirements.label"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_requirements",
+        "verified_at"
+      ],
+      "writes": [
+        "s|col|public.admission_requirements.verified_at",
+        "n|col|public.admission_requirements.verified_at",
+        "e|col|public.admission_requirements.verified_at"
+      ],
+      "reads": [
+        "n|tbl|public.admission_requirements",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "admission_test_scores",
+        "percentile_50"
+      ],
+      "writes": [
+        "s|col|public.admission_test_scores.percentile_50",
+        "n|col|public.admission_test_scores.percentile_50",
+        "e|col|public.admission_test_scores.percentile_50"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "deadlines",
+        "entry_type"
+      ],
+      "writes": [
+        "s|col|public.deadlines.entry_type",
+        "n|col|public.deadlines.entry_type",
+        "e|col|public.deadlines.entry_type"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|enum|public.admission_entry_type"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "deadlines",
+        "academic_year"
+      ],
+      "writes": [
+        "s|col|public.deadlines.academic_year",
+        "n|col|public.deadlines.academic_year",
+        "e|col|public.deadlines.academic_year"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "deadlines",
+        "source_id"
+      ],
+      "writes": [
+        "s|col|public.deadlines.source_id",
+        "n|col|public.deadlines.source_id",
+        "e|col|public.deadlines.source_id"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "deadlines",
+        "source_flags"
+      ],
+      "writes": [
+        "s|col|public.deadlines.source_flags",
+        "n|col|public.deadlines.source_flags",
+        "e|col|public.deadlines.source_flags"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_institution_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_institution_scope_unique",
+        "n|idx|public.admission_profiles_institution_scope_unique",
+        "e|idx|public.admission_profiles_institution_scope_unique",
+        "n|rel|public.admission_profiles_institution_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.entry_type",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "8fb646cf46956905"
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "admission_profiles",
+        "admission_profiles_program_scope_unique"
+      ],
+      "writes": [
+        "s|idx|public.admission_profiles_program_scope_unique",
+        "n|idx|public.admission_profiles_program_scope_unique",
+        "e|idx|public.admission_profiles_program_scope_unique",
+        "n|rel|public.admission_profiles_program_scope_unique"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.university_id",
+        "n|col|public.admission_profiles.program_id",
+        "n|col|public.admission_profiles.academic_year",
+        "n|col|public.admission_profiles.intake_term",
+        "n|col|public.admission_profiles.entry_type",
+        "n|col|public.admission_profiles.level",
+        "n|col|public.admission_profiles.applicant_type"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "d53dfeb615d1b30a"
+    },
+    {
+      "statementType": "create_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "deadlines",
+        "deadlines_source_id_idx"
+      ],
+      "writes": [
+        "s|idx|public.deadlines_source_id_idx",
+        "n|idx|public.deadlines_source_id_idx",
+        "e|idx|public.deadlines_source_id_idx",
+        "n|rel|public.deadlines_source_id_idx"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|col|public.deadlines.source_id"
+      ]
+    },
+    {
+      "statementType": "create_fk",
+      "statementTarget": [
+        "table",
+        "public",
+        "deadlines"
+      ],
+      "writes": [
+        "s|fk|public.deadlines.deadlines_source_id_sources_id_fk",
+        "n|fk|public.deadlines.deadlines_source_id_sources_id_fk",
+        "e|fk|public.deadlines.deadlines_source_id_sources_id_fk",
+        "n|con|public.deadlines.deadlines_source_id_sources_id_fk"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|tbl|public.sources",
+        "n|sch|public",
+        "n|col|public.deadlines.source_id",
+        "n|col|public.sources.id",
+        "e|uniqueness|public.sources.id"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_profiles"
+      ],
+      "writes": [
+        "s|ck|public.admission_profiles.admission_profiles_academic_year_format_check",
+        "n|ck|public.admission_profiles.admission_profiles_academic_year_format_check",
+        "e|ck|public.admission_profiles.admission_profiles_academic_year_format_check",
+        "n|con|public.admission_profiles.admission_profiles_academic_year_format_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_profiles",
+        "n|sch|public",
+        "n|col|public.admission_profiles.academic_year"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|ck|public.admission_test_scores.admission_test_scores_percentile_median_order_check",
+        "n|ck|public.admission_test_scores.admission_test_scores_percentile_median_order_check",
+        "e|ck|public.admission_test_scores.admission_test_scores_percentile_median_order_check",
+        "n|con|public.admission_test_scores.admission_test_scores_percentile_median_order_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.percentile_25",
+        "n|col|public.admission_test_scores.percentile_50"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|ck|public.admission_test_scores.admission_test_scores_median_percentile_order_check",
+        "n|ck|public.admission_test_scores.admission_test_scores_median_percentile_order_check",
+        "e|ck|public.admission_test_scores.admission_test_scores_median_percentile_order_check",
+        "n|con|public.admission_test_scores.admission_test_scores_median_percentile_order_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.percentile_50",
+        "n|col|public.admission_test_scores.percentile_75"
+      ]
+    },
+    {
+      "statementType": "add_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "deadlines"
+      ],
+      "writes": [
+        "s|ck|public.deadlines.deadlines_source_flags_object_check",
+        "n|ck|public.deadlines.deadlines_source_flags_object_check",
+        "e|ck|public.deadlines.deadlines_source_flags_object_check",
+        "n|con|public.deadlines.deadlines_source_flags_object_check"
+      ],
+      "reads": [
+        "n|tbl|public.deadlines",
+        "n|sch|public",
+        "n|col|public.deadlines.source_flags"
+      ]
+    },
+    {
+      "statementType": "alter_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|ck|public.admission_test_scores.admission_test_scores_value_present_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.minimum_score",
+        "n|col|public.admission_test_scores.maximum_score",
+        "n|col|public.admission_test_scores.average_score",
+        "n|col|public.admission_test_scores.percentile_25",
+        "n|col|public.admission_test_scores.percentile_50",
+        "n|col|public.admission_test_scores.percentile_75",
+        "e|col|public.admission_test_scores.minimum_score",
+        "e|col|public.admission_test_scores.maximum_score",
+        "e|col|public.admission_test_scores.average_score",
+        "e|col|public.admission_test_scores.percentile_25",
+        "e|col|public.admission_test_scores.percentile_75"
+      ],
+      "sqlHash": "b83ede1c44a60e95"
+    },
+    {
+      "statementType": "alter_check",
+      "statementTarget": [
+        "table",
+        "public",
+        "admission_test_scores"
+      ],
+      "writes": [
+        "s|ck|public.admission_test_scores.admission_test_scores_values_nonnegative_check"
+      ],
+      "reads": [
+        "n|tbl|public.admission_test_scores",
+        "n|sch|public",
+        "n|col|public.admission_test_scores.minimum_score",
+        "n|col|public.admission_test_scores.maximum_score",
+        "n|col|public.admission_test_scores.average_score",
+        "n|col|public.admission_test_scores.percentile_25",
+        "n|col|public.admission_test_scores.percentile_50",
+        "n|col|public.admission_test_scores.percentile_75",
+        "e|col|public.admission_test_scores.minimum_score",
+        "e|col|public.admission_test_scores.maximum_score",
+        "e|col|public.admission_test_scores.average_score",
+        "e|col|public.admission_test_scores.percentile_25",
+        "e|col|public.admission_test_scores.percentile_75"
+      ],
+      "sqlHash": "e60c60d258ed0bd3"
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "name": "admission_entry_type",
+        "values": [
+          "first_year",
+          "transfer",
+          "readmission",
+          "other"
+        ],
+        "entityType": "enums"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "entry_type",
+        "type": "admission_entry_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'first_year'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "open_admission",
+        "type": "boolean",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "label",
+        "type": "varchar(200)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_requirements",
+        "name": "verified_at",
+        "type": "timestamp with time zone",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "percentile_50",
+        "type": "numeric(10,3)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "entry_type",
+        "type": "admission_entry_type",
+        "typeSchema": "public",
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'first_year'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "academic_year",
+        "type": "varchar(20)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'unspecified'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "source_id",
+        "type": "uuid",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "source_flags",
+        "type": "jsonb",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'{}'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "deadlines_source_id_idx",
+        "nameExplicit": true,
+        "columns": [
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ],
+        "isUnique": false,
+        "where": null,
+        "with": "",
+        "method": "btree",
+        "entityType": "indexes"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "deadlines_source_id_sources_id_fk",
+        "nameExplicit": false,
+        "columns": [
+          "source_id"
+        ],
+        "schemaTo": "public",
+        "tableTo": "sources",
+        "columnsTo": [
+          "id"
+        ],
+        "onUpdate": "NO ACTION",
+        "onDelete": "SET NULL",
+        "entityType": "fks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_profiles",
+        "name": "admission_profiles_academic_year_format_check",
+        "value": "\"academic_year\" ~ '^[0-9]{4}([/-][0-9]{2,4})?$' or \"academic_year\" = 'unspecified'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_percentile_median_order_check",
+        "value": "\"percentile_25\" is null or \"percentile_50\" is null or \"percentile_25\" <= \"percentile_50\"",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "admission_test_scores",
+        "name": "admission_test_scores_median_percentile_order_check",
+        "value": "\"percentile_50\" is null or \"percentile_75\" is null or \"percentile_50\" <= \"percentile_75\"",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "deadlines",
+        "name": "deadlines_source_flags_object_check",
+        "value": "jsonb_typeof(\"source_flags\") = 'object'",
+        "entityType": "checks"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"admission_profiles_institution_scope_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "entry_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"admission_profiles_program_scope_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "intake_term",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "entry_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "checks\u0000[\"public\",\"admission_test_scores\",\"admission_test_scores_value_present_check\"]",
+      "set": {
+        "value": "\"minimum_score\" is not null or \"maximum_score\" is not null or \"average_score\" is not null or \"percentile_25\" is not null or \"percentile_50\" is not null or \"percentile_75\" is not null"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "checks\u0000[\"public\",\"admission_test_scores\",\"admission_test_scores_values_nonnegative_check\"]",
+      "set": {
+        "value": "coalesce(\"minimum_score\", 0) >= 0 and coalesce(\"maximum_score\", 0) >= 0 and coalesce(\"average_score\", 0) >= 0 and coalesce(\"percentile_25\", 0) >= 0 and coalesce(\"percentile_50\", 0) >= 0 and coalesce(\"percentile_75\", 0) >= 0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  "terminal.integrated.env.osx": {
+    "PATH": "${workspaceFolder}/.tools/node/bin:${workspaceFolder}/.venv/bin:${env:PATH}",
+    "SSL_CERT_FILE": "/etc/ssl/cert.pem"
+  },
+  "terminal.integrated.env.linux": {
+    "PATH": "${workspaceFolder}/.tools/node/bin:${workspaceFolder}/.venv/bin:${env:PATH}"
+  }
+}

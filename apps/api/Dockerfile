@@ -1,7 +1,14 @@
-FROM node:26-alpine AS build
-RUN npm install --global npm@12.0.2 pnpm@11.25.0
+FROM debian:trixie-slim@sha256:8aa5a7bf5a1955bddbe7d74fcdd0b91ab30e74362a8b73af672b0481b35b44a0 AS toolchain
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl libstdc++6 libatomic1 wget \
+  && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
-COPY package.json pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
+COPY package.json .node-version ./
+COPY scripts/install-node.sh scripts/node-SHA256.txt scripts/npm-SHA512.txt ./scripts/
+RUN sh scripts/install-node.sh /opt/node
+ENV PATH="/opt/node/bin:${PATH}"
+
+FROM toolchain AS build
+COPY pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
 COPY apps/api/package.json apps/api/package.json
 COPY packages/shared/package.json packages/shared/package.json
 RUN pnpm install --frozen-lockfile
@@ -11,13 +18,9 @@ COPY data/sources data/sources
 COPY data/corrections data/corrections
 RUN pnpm --filter @urd/api build
 
-FROM node:26-alpine
-RUN npm install --global npm@12.0.2 pnpm@11.25.0 \
-  && addgroup -S app \
-  && adduser -S app -G app
-WORKDIR /app
-COPY --from=build /app /app
-RUN chown -R app:app /app
+FROM toolchain
+RUN groupadd --system app && useradd --system --gid app --create-home app
+COPY --from=build --chown=app:app /app /app
 USER app
 ENV NODE_ENV=production
 EXPOSE 3001

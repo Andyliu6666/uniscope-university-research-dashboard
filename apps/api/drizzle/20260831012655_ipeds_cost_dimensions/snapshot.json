@@ -1,0 +1,349 @@
+{
+  "type": "diff",
+  "version": "10",
+  "dialect": "postgres",
+  "id": "9ecba5dc-02ee-40ae-866f-b3dfb9ce867f",
+  "prevIds": [
+    "f80a466a-c5cf-49e4-949f-b476c51ac4d1"
+  ],
+  "footprints": [
+    {
+      "statementType": "alter_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "cost_category"
+      ],
+      "writes": [
+        "s|enum|public.cost_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "alter_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "cost_period"
+      ],
+      "writes": [
+        "s|enum|public.cost_period"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "alter_enum",
+      "statementTarget": [
+        "enum",
+        "public",
+        "residency_category"
+      ],
+      "writes": [
+        "s|enum|public.residency_category"
+      ],
+      "reads": [
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "cost_snapshots",
+        "scenario"
+      ],
+      "writes": [
+        "s|col|public.cost_snapshots.scenario",
+        "n|col|public.cost_snapshots.scenario",
+        "e|col|public.cost_snapshots.scenario"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_institution_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_institution_scope_source_unique",
+        "n|idx|public.cost_snapshots_institution_scope_source_unique",
+        "e|idx|public.cost_snapshots_institution_scope_source_unique",
+        "n|rel|public.cost_snapshots_institution_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id",
+        "n|col|public.cost_snapshots.academic_year",
+        "n|col|public.cost_snapshots.level",
+        "n|col|public.cost_snapshots.applicant_type",
+        "n|col|public.cost_snapshots.residency",
+        "n|col|public.cost_snapshots.category",
+        "n|col|public.cost_snapshots.period",
+        "n|col|public.cost_snapshots.scenario",
+        "n|col|public.cost_snapshots.source_id"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "9157f67479bd6753"
+    },
+    {
+      "statementType": "recreate_index",
+      "statementTarget": [
+        "index",
+        "public",
+        "cost_snapshots",
+        "cost_snapshots_program_scope_source_unique"
+      ],
+      "writes": [
+        "s|idx|public.cost_snapshots_program_scope_source_unique",
+        "n|idx|public.cost_snapshots_program_scope_source_unique",
+        "e|idx|public.cost_snapshots_program_scope_source_unique",
+        "n|rel|public.cost_snapshots_program_scope_source_unique"
+      ],
+      "reads": [
+        "n|tbl|public.cost_snapshots",
+        "n|sch|public",
+        "n|col|public.cost_snapshots.university_id",
+        "n|col|public.cost_snapshots.program_id",
+        "n|col|public.cost_snapshots.academic_year",
+        "n|col|public.cost_snapshots.level",
+        "n|col|public.cost_snapshots.applicant_type",
+        "n|col|public.cost_snapshots.residency",
+        "n|col|public.cost_snapshots.category",
+        "n|col|public.cost_snapshots.period",
+        "n|col|public.cost_snapshots.scenario",
+        "n|col|public.cost_snapshots.source_id"
+      ],
+      "sharedWrites": [],
+      "sqlHash": "a37b44984aec7da1"
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "cost_snapshots",
+        "name": "scenario",
+        "type": "varchar(80)",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "'standard'",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "enums\u0000[\"public\",\"cost_category\"]",
+      "set": {
+        "values": [
+          "tuition",
+          "fees",
+          "tuition_and_fees",
+          "application_fee",
+          "housing",
+          "meals",
+          "housing_and_meals",
+          "books_and_supplies",
+          "transportation",
+          "personal",
+          "total_cost_of_attendance",
+          "other"
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "enums\u0000[\"public\",\"cost_period\"]",
+      "set": {
+        "values": [
+          "academic_year",
+          "per_credit_hour",
+          "semester",
+          "term",
+          "month",
+          "one_time",
+          "other"
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "enums\u0000[\"public\",\"residency_category\"]",
+      "set": {
+        "values": [
+          "all",
+          "in_district",
+          "in_state",
+          "out_of_state",
+          "domestic",
+          "international",
+          "other"
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"cost_snapshots_institution_scope_source_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "residency",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "period",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "scenario",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    },
+    {
+      "op": "alter",
+      "key": "indexes\u0000[\"public\",\"cost_snapshots_program_scope_source_unique\"]",
+      "set": {
+        "columns": [
+          {
+            "value": "university_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "program_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "academic_year",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "level",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "applicant_type",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "residency",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "category",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "period",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "scenario",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          },
+          {
+            "value": "source_id",
+            "isExpression": false,
+            "asc": true,
+            "nullsFirst": false,
+            "opclass": null
+          }
+        ]
+      }
+    }
+  ]
+}
