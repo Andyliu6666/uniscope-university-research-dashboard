@@ -2,17 +2,17 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282806,
+            "programs": 282807,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
             "researchProfiles": 27018,
-            "admissionProfiles": 4513,
+            "admissionProfiles": 4514,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28257,
+            "admissionRequirements": 28278,
             "financialAidSnapshots": 0,
-            "qualificationRequirements": 1724
+            "qualificationRequirements": 1725
         },
         "ibCoverage": {
             "byCountry": [
@@ -169,8 +169,8 @@
                 {
                     "country": "The Netherlands",
                     "institutions": 4,
-                    "programs_with_reviewed_ib": 54,
-                    "programs_with_published_totals": 1
+                    "programs_with_reviewed_ib": 55,
+                    "programs_with_published_totals": 2
                 },
                 {
                     "country": "Trinidad and Tobago",
@@ -191,12 +191,12 @@
                     "programs_with_published_totals": 230
                 }
             ],
-            "reviewedRecords": 1724,
-            "programsWithReviewedIb": 1508,
+            "reviewedRecords": 1725,
+            "programsWithReviewedIb": 1509,
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 65,
-            "programsWithPublishedTotals": 964,
-            "undergraduateCatalogEntries": 197018
+            "programsWithPublishedTotals": 965,
+            "undergraduateCatalogEntries": 197019
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,32 +243,31 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6237,
+            "facts": 6258,
             "profiles": 1538,
             "institutions": 123
         }
     },
-    "generatedAt": "2026-11-28T01:27:15Z",
+    "generatedAt": "2026-11-28T01:31:42Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 18,
-        "provider": "official_admissions",
+        "inserted": 1,
+        "provider": "official_ib",
         "rejected": 0,
-        "processed": 18,
-        "startedAt": "2026-11-28T01:27:14.361373+00:00",
-        "updatedAt": "2026-11-28T01:27:14.361373+00:00",
+        "processed": 1,
+        "startedAt": "2026-11-28T01:31:41.199997+00:00",
+        "updatedAt": "2026-11-28T01:31:41.217+00:00",
         "checkpoint": {
-            "profiles": 1,
-            "admissionFacts": 18,
-            "programsReused": 0,
-            "programsCreated": 19,
-            "priorSharedLinksAdded": 121
+            "rowIndex": 1,
+            "sourceRows": 1,
+            "schemaVersion": 1,
+            "createdPrograms": 0
         },
-        "finishedAt": "2026-11-28T01:27:14.431+00:00",
-        "artifactSha256": "7ecefd39102ef0b130f884343d72854461b7efa4c5cb2da5e3bd89ab1cbfa549",
-        "datasetVersion": "official-admissions-facts-venda-commerce-20261128-v1"
+        "finishedAt": "2026-11-28T01:31:41.217+00:00",
+        "artifactSha256": "8c9ea608c44dcfe7f2788e4cdd822abfdd260feb9aa4804003cf35f1e30c5410",
+        "datasetVersion": "official-ib-requirements-erasmus-econometrics-20261128-v1"
     },
     "schemaVersion": 2
 }

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "official-ib-requirements-erasmus-econometrics-20261128-v1",
+  "reviewedOn": "2026-11-28",
+  "institutions": [
+    {
+      "key": "eur",
+      "name": "Erasmus University Rotterdam",
+      "provider": "ror",
+      "externalId": "057w15z03",
+      "countryCode": "NL",
+      "officialDomains": ["eur.nl", "rsm.nl"]
+    }
+  ],
+  "records": [
+    {
+      "institutionKey": "eur",
+      "program": {
+        "name": "International Bachelor Econometrics and Operations Research",
+        "field": "Econometrics and Operations Research",
+        "level": "undergraduate",
+        "courseCode": null,
+        "url": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission"
+      },
+      "requirement": {
+        "recordKey": "eur-econometrics-ib-2027",
+        "academicYear": "2027",
+        "intakeTerm": "September",
+        "entryType": "first_year",
+        "applicantType": "all",
+        "applicantContext": "IB Diploma applicants to the International Bachelor Econometrics and Operations Research for 2027–2028.",
+        "status": "published",
+        "scoreKind": "minimum_entry",
+        "totalMin": 30,
+        "totalMax": null,
+        "scoreScale": 42,
+        "includesCorePoints": false,
+        "hlGrades": [],
+        "subjectNotes": "Mathematics: Analysis and Approaches HL requires 5. Analysis and Approaches SL at 6 or higher allows the student to take the maths entrance exam. Applications and Interpretation provides insufficient mathematical preparation. English A requires HL 4 or SL 5, or English B requires HL 5.",
+        "conditions": "Count the six subject grades only. The listed 30 points are the eligibility minimum before individual selection; TOK, Extended Essay and CAS are excluded.",
+        "source": {
+          "title": "Erasmus School of Economics · Econometrics admission 2027–2028",
+          "url": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+          "checkedOn": "2026-11-28",
+          "evidence": "Minimum requirement of 30 points (TOK, EE and CAS excluded)"
+        }
+      }
+    }
+  ]
+}
