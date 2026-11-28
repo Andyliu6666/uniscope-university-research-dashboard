@@ -1,6 +1,6 @@
 import { BookOpen, GitBranch, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router';
 
 export function Layout() {
   const [open, setOpen] = useState(false);

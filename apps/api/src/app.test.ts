@@ -49,6 +49,52 @@ describe('admin write route', () => {
   });
 });
 
+describe('HTTP plugins', () => {
+  it('handles allowed and unlisted origins and sends security headers', async () => {
+    const app = await buildApp(config(), {} as Database);
+    try {
+      const url = '/api/universities';
+      const origin = 'http://localhost:5173';
+      const preflight = await app.inject({
+        method: 'OPTIONS',
+        url,
+        headers: { origin, 'access-control-request-method': 'GET' },
+      });
+      expect(preflight.statusCode).toBe(204);
+      expect(preflight.headers['access-control-allow-origin']).toBe(origin);
+      expect(preflight.headers['access-control-allow-methods']).toContain('GET');
+      const response = await app.inject({
+        url: '/api/universities/missing/admissions?pageSize=0',
+        headers: { origin: 'https://example.org' },
+      });
+      expect(response.statusCode).toBe(400);
+      expect(response.headers['access-control-allow-origin']).toBeUndefined();
+      expect(response.headers['x-content-type-options']).toBe('nosniff');
+      expect(response.headers['content-security-policy']).toBeTruthy();
+    } finally {
+      await app.close();
+    }
+  });
+
+  it('applies the separate 20-request limit to the admin route', async () => {
+    const app = await buildApp(
+      config({ ADMIN_WRITES_ENABLED: true, ADMIN_KEY: 'a-secure-enough-test-key' }),
+      {} as Database,
+    );
+    try {
+      const request = { method: 'PUT' as const, url: '/api/admin/universities', payload: {} };
+      for (let i = 0; i < 20; i++) {
+        expect((await app.inject(request)).statusCode).toBe(401);
+      }
+      const limited = await app.inject(request);
+      expect(limited.statusCode).toBe(429);
+      expect(Number(limited.headers['retry-after'])).toBeGreaterThan(0);
+    } finally {
+      await app.close();
+    }
+  });
+});
+
 describe('HTTP error responses', () => {
   it('returns 429 and retry headers when the configured request limit is reached', async () => {
     const app = await buildApp(config(), {} as Database);

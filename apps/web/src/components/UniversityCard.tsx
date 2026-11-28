@@ -1,6 +1,6 @@
 import { ArrowUpRight, MapPin, Scale } from 'lucide-react';
 import type { University } from '@urd/shared';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
 import { coverageLevelCopy } from '../coverage.js';
 

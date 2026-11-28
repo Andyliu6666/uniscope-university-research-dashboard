@@ -9,7 +9,7 @@ import {
   ExternalLink,
   MapPin,
 } from 'lucide-react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
 import { IbRequirementsSection } from '../components/IbRequirementsSection.js';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';

@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a # main development snapshot
       - name: Install pinned Node.js, npm and pnpm
         run: |
           scripts/install-node.sh
@@ -24,7 +24,7 @@ jobs:
         run: |
           version=$(sed -E 's/([0-9])a([0-9]+)$/\1-alpha.\2/; s/([0-9])b([0-9]+)$/\1-beta.\2/; s/([0-9])rc([0-9]+)$/\1-rc.\2/' .python-version)
           echo "version=$version" >> "$GITHUB_OUTPUT"
-      - uses: actions/setup-python@v7
+      - uses: actions/setup-python@5043d30437de73e5e7500b5c41676e0c30aa54f2 # main development snapshot
         with:
           python-version: ${{ steps.python-pin.outputs.version }}
           allow-prereleases: true
@@ -56,7 +56,7 @@ jobs:
       POSTGRES_USER: urd
       POSTGRES_PASSWORD: ci-only-password
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a # main development snapshot
         with:
           path: project with spaces
       - name: Install pinned Node.js, npm and pnpm

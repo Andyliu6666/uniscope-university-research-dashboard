@@ -72,6 +72,8 @@ Create a database backup at any time with `./scripts/backup-db.sh`. Backups are 
 
 Run the following from the project root on Apple Silicon macOS or Linux. The installer verifies and installs Node.js, npm and pnpm under `.tools/node`. The Node nightly for Apple Silicon and Linux ARM64 is recorded in `.node-version`. Linux x64 uses the most recent published glibc binary in `scripts/node-SHA256.txt`. Open this folder in VS Code Insiders and start a new terminal to use these binaries. On macOS, the workspace opens an interactive zsh profile that preserves the project path when your login profile also configures Homebrew. Use `node --version`, `pnpm --version` and `python --version` in the new terminal to check the active tools. The optional Python research environment uses the version in `.python-version`.
 
+The frontend runs React Canary and the API runs Fastify 6 Alpha. The [preview archives](vendor/previews/README.md) pin the router, build and test tools. `pnpm lint` uses the official Biome CLI preview pinned in `packages/biome-preview`. Its first run verifies and caches the native binary in `.tools/biome`. If the upstream archive has expired, Docker can build the same revision from source. Subsequent runs reuse the cached binary or image.
+
 ```bash
 test -f .env || cp .env.example .env
 ./scripts/install-node.sh

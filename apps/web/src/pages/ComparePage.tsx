@@ -1,5 +1,5 @@
 import { useQueries } from '@tanstack/react-query';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { fetchUniversity, fetchUniversityAdmissions } from '../api.js';
 import { formatCostAmount, formatCostContext, primaryCost } from '../costs.js';
 import { coverageLevelCopy } from '../coverage.js';

@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router';
 import { Layout } from './components/Layout.js';
 import { ComparePage } from './pages/ComparePage.js';
 import { ContributePage } from './pages/ContributePage.js';

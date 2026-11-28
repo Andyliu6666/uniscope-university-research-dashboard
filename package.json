@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@12.23.0",
+  "packageManager": "pnpm@12.24.0",
   "engines": {
     "node": "28.0.0-nightly202611270089699ae3 || 28.0.0-nightly20261126fa49b1361b",
     "npm": "12.2.3",
-    "pnpm": "12.23.0"
+    "pnpm": "12.24.0"
   },
   "scripts": {
     "dev": "pnpm --parallel --filter @urd/api --filter @urd/web dev",
@@ -26,7 +26,7 @@
     "data:status": "./scripts/export-data-status.sh"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.9",
+    "@urd/biome-preview": "workspace:*",
     "prettier": "4.0.0-alpha.13",
     "typescript": "7.1.0-dev.20261127.1"
   }

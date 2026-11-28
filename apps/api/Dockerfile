@@ -1,4 +1,4 @@
-FROM debian:trixie-slim@sha256:8aa5a7bf5a1955bddbe7d74fcdd0b91ab30e74362a8b73af672b0481b35b44a0 AS toolchain
+FROM debian:testing-slim@sha256:501494a9e260de3e9e8989acab51064bbf4235f10cca22957df12d89f3023e12 AS toolchain
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl libstdc++6 libatomic1 wget \
   && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
@@ -9,6 +9,8 @@ ENV PATH="/opt/node/bin:${PATH}"
 
 FROM toolchain AS build
 COPY pnpm-lock.yaml pnpm-workspace.yaml tsconfig.base.json ./
+COPY vendor/previews/ vendor/previews/
+COPY packages/biome-preview packages/biome-preview
 COPY apps/api/package.json apps/api/package.json
 COPY packages/shared/package.json packages/shared/package.json
 RUN pnpm install --frozen-lockfile

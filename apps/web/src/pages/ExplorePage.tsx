@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { Search, SlidersHorizontal, Sparkles } from 'lucide-react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { fetchUniversities } from '../api.js';
 import { UniversityCard } from '../components/UniversityCard.js';
 import { useComparison } from '../store.js';

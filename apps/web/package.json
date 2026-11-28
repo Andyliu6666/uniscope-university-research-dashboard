@@ -14,9 +14,9 @@
     "@tanstack/react-query": "5.108.4",
     "@urd/shared": "workspace:*",
     "lucide-react": "1.82.0",
-    "react": "19.3.1",
-    "react-dom": "19.3.1",
-    "react-router-dom": "7.18.7"
+    "react": "19.3.0-canary-edae846a-20261125",
+    "react-dom": "19.3.0-canary-edae846a-20261125",
+    "react-router": "file:../../vendor/previews/react-router-12057c9fd.tgz"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "8.0.0",
@@ -24,9 +24,9 @@
     "@types/node": "26.6.11",
     "@types/react": "19.3.3",
     "@types/react-dom": "19.3.0",
-    "@vitejs/plugin-react": "6.3.0",
+    "@vitejs/plugin-react": "file:../../vendor/previews/vitejs-plugin-react-80cbf1da2.tgz",
     "jsdom": "31.0.1",
-    "vite": "8.4.0-beta.2",
-    "vitest": "5.1.2"
+    "vite": "file:../../vendor/previews/vite-7d0c054f4.tgz",
+    "vitest": "file:../../vendor/previews/vitest-c08e4db58.tgz"
   }
 }

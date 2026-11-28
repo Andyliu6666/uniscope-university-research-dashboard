@@ -6,30 +6,19 @@ allowBuilds:
   esbuild: true
 
 minimumReleaseAgeExclude:
-  - '@biomejs/biome@2.6.9'
-  - '@biomejs/cli-android-arm64@2.6.9'
-  - '@biomejs/cli-android-x64@2.6.9'
-  - '@biomejs/cli-darwin-arm64@2.6.9'
-  - '@biomejs/cli-darwin-x64@2.6.9'
-  - '@biomejs/cli-linux-arm64-musl@2.6.9'
-  - '@biomejs/cli-linux-arm64@2.6.9'
-  - '@biomejs/cli-linux-x64-musl@2.6.9'
-  - '@biomejs/cli-linux-x64@2.6.9'
-  - '@biomejs/cli-win32-arm64@2.6.9'
-  - '@biomejs/cli-win32-x64@2.6.9'
-  - '@types/node@26.6.7'
-  - '@types/react@19.3.1'
-  - '@typescript/typescript-darwin-arm64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-darwin-x64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-linux-arm64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-linux-arm@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-linux-x64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-win32-arm64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - '@typescript/typescript-win32-x64@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1'
-  - lucide-react@1.79.0 || 1.82.0
-  - react-router-dom@7.18.7
-  - react-router@7.18.7
-  - typescript@7.1.0-dev.20261124.1 || 7.1.0-dev.20261127.1
+  - '@typescript/typescript-darwin-arm64@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-darwin-x64@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-linux-arm64@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-linux-arm@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-linux-x64@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-win32-arm64@7.1.0-dev.20261127.1'
+  - '@typescript/typescript-win32-x64@7.1.0-dev.20261127.1'
+  - lucide-react@1.82.0
+  - typescript@7.1.0-dev.20261127.1
 
 overrides:
   esbuild@<=0.24.2: ^0.25.0
+  '@vitest/mocker': file:vendor/previews/vitest-mocker-c08e4db58.tgz
+  '@vitest/spy': file:vendor/previews/vitest-spy-c08e4db58.tgz
+  'vite': file:vendor/previews/vite-7d0c054f4.tgz
+  'vitest': file:vendor/previews/vitest-c08e4db58.tgz
