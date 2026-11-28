@@ -2,7 +2,7 @@
     "database": {
         "countries": 225,
         "factCounts": {
-            "programs": 282787,
+            "programs": 282806,
             "deadlines": 1,
             "costSnapshots": 98718,
             "admissionCounts": 32941,
@@ -10,7 +10,7 @@
             "admissionProfiles": 4513,
             "admissionTestScores": 4552,
             "enrollmentSnapshots": 86194,
-            "admissionRequirements": 28239,
+            "admissionRequirements": 28257,
             "financialAidSnapshots": 0,
             "qualificationRequirements": 1724
         },
@@ -196,7 +196,7 @@
             "institutionWidePolicies": 24,
             "institutionsWithReviewedIb": 65,
             "programsWithPublishedTotals": 964,
-            "undergraduateCatalogEntries": 196999
+            "undergraduateCatalogEntries": 197018
         },
         "coreCoverage": {
             "phone": 4078,
@@ -243,31 +243,32 @@
         },
         "institutionAliases": 52955,
         "reviewedAdmissionsCoverage": {
-            "facts": 6219,
+            "facts": 6237,
             "profiles": 1538,
             "institutions": 123
         }
     },
-    "generatedAt": "2026-11-23T12:47:44Z",
+    "generatedAt": "2026-11-28T01:27:15Z",
     "latestImport": {
         "status": "completed",
         "skipped": 0,
         "updated": 0,
-        "inserted": 2,
-        "provider": "official_ib",
+        "inserted": 18,
+        "provider": "official_admissions",
         "rejected": 0,
-        "processed": 2,
-        "startedAt": "2026-11-23T12:47:38.981854+00:00",
-        "updatedAt": "2026-11-23T12:47:39.02+00:00",
+        "processed": 18,
+        "startedAt": "2026-11-28T01:27:14.361373+00:00",
+        "updatedAt": "2026-11-28T01:27:14.361373+00:00",
         "checkpoint": {
-            "rowIndex": 2,
-            "sourceRows": 2,
-            "schemaVersion": 1,
-            "createdPrograms": 0
+            "profiles": 1,
+            "admissionFacts": 18,
+            "programsReused": 0,
+            "programsCreated": 19,
+            "priorSharedLinksAdded": 121
         },
-        "finishedAt": "2026-11-23T12:47:39.02+00:00",
-        "artifactSha256": "6b78196ee301bad5d13944f7e0e60df4ed628d0bd5f34db1fe1c5113d46e4356",
-        "datasetVersion": "official-ib-requirements-erasmus-rotterdam-20261123-v1"
+        "finishedAt": "2026-11-28T01:27:14.431+00:00",
+        "artifactSha256": "7ecefd39102ef0b130f884343d72854461b7efa4c5cb2da5e3bd89ab1cbfa549",
+        "datasetVersion": "official-admissions-facts-venda-commerce-20261128-v1"
     },
     "schemaVersion": 2
 }

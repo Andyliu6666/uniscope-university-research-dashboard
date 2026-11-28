@@ -1,0 +1,1036 @@
+{
+  "datasetVersion": "official-admissions-facts-venda-commerce-20261128-v1",
+  "reviewedOn": "2026-11-28",
+  "institutions": [
+    {
+      "key": "venda",
+      "name": "University of Venda",
+      "provider": "ror",
+      "externalId": "0338xea48",
+      "countryCode": "ZA",
+      "officialDomains": ["univen.ac.za"]
+    }
+  ],
+  "programs": [
+    {
+      "key": "venda-msbbad",
+      "institutionKey": "venda",
+      "name": "Bachelor of Administration in Public Administration (MSBBAD)",
+      "level": "undergraduate",
+      "field": "Public Administration",
+      "source": {
+        "title": "University of Venda · Bachelor of Administration in Public Administration · MSBBAD",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-admin-in-public-administration/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_aps32", "venda_mc_public_subjects"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbcas",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Accounting Sciences (MSBCAS)",
+      "level": "undergraduate",
+      "field": "Accounting Sciences",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Accounting Sciences · MSBCAS",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-accounting-sciences/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_accountancy_credits", "venda_mc_accounting_sciences"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps35"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_math50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbtrm",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Tourism Management (MSBTRM)",
+      "level": "undergraduate",
+      "field": "Tourism Management",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Tourism Management · MSBTRM",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-tourism-management/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": [
+        "venda_mc_aps32",
+        "venda_mc_tourism_math",
+        "venda_mc_tourism_subjects"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbbca",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Accounting (MSBBCA)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Accounting · MSBBCA",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-accounting/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": [
+        "venda_mc_aps32",
+        "venda_mc_accountancy_credits",
+        "venda_mc_accounting_or_math",
+        "venda_mc_bcom_accounting"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbis",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Business Information Systems (MSBIS)",
+      "level": "undergraduate",
+      "field": "Business Information Systems",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Business Information Systems · MSBIS",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-business-information-systems/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": [
+        "venda_mc_aps32",
+        "venda_mc_bis_prospectus",
+        "venda_mc_bis_department"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbcbm",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Business Management (MSBCBM)",
+      "level": "undergraduate",
+      "field": "Business Management",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Business Management · MSBCBM",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-business-management/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_aps32", "venda_mc_management"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbcma",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Cost and Management Accounting (MSBCMA)",
+      "level": "undergraduate",
+      "field": "Cost and Management Accounting",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Cost and Management Accounting · MSBCMA",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-cost-and-management-accounting/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": [
+        "venda_mc_aps32",
+        "venda_mc_accountancy_credits",
+        "venda_mc_accounting_or_math"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbbce",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Economics (MSBBCE)",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Economics · MSBBCE",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-economics/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_aps32", "venda_mc_economics"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbhr",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Human Resource Management (MSBHR)",
+      "level": "undergraduate",
+      "field": "Human Resource Management",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Human Resource Management · MSBHR",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-human-resource-management/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_aps32", "venda_mc_people_subjects", "venda_mc_hr_course"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-msbip",
+      "institutionKey": "venda",
+      "name": "Bachelor of Commerce in Industrial Psychology (MSBIP)",
+      "level": "undergraduate",
+      "field": "Industrial Psychology",
+      "source": {
+        "title": "University of Venda · Bachelor of Commerce in Industrial Psychology · MSBIP",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-industrial-psychology/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": [
+        "venda_mc_aps32",
+        "venda_mc_people_subjects",
+        "venda_mc_industrial_credits"
+      ],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        }
+      ]
+    },
+    {
+      "key": "venda-lwbbl",
+      "institutionKey": "venda",
+      "name": "Bachelor of Laws (LWBBL)",
+      "level": "undergraduate",
+      "field": "Law",
+      "source": {
+        "title": "University of Venda · 2027 undergraduate prospectus",
+        "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_law"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        }
+      ]
+    },
+    {
+      "key": "venda-lwbacj",
+      "institutionKey": "venda",
+      "name": "Bachelor of Arts in Criminal Justice (LWBACJ)",
+      "level": "undergraduate",
+      "field": "Criminal Justice",
+      "source": {
+        "title": "University of Venda · Bachelor of Arts in Criminal Justice · LWBACJ",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-arts-in-criminal-justice/",
+        "checkedOn": "2026-11-28"
+      },
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_degree_pass"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_english50"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_aps34"
+        }
+      ]
+    },
+    {
+      "key": "venda-msebad",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Administration (MSEBAD)",
+      "level": "undergraduate",
+      "field": "Public Administration",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Administration · MSEBAD",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-administration/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-msebca",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Accounting) (MSEBCA)",
+      "level": "undergraduate",
+      "field": "Accounting",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Accounting) · MSEBCA",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-accounting/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-mseis",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Business Information Systems) (MSEIS)",
+      "level": "undergraduate",
+      "field": "Business Information Systems",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Business Information Systems) · MSEIS",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-business-information-systems/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended", "venda_mc_extended_bis"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-msecbm",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Business Management) (MSECBM)",
+      "level": "undergraduate",
+      "field": "Business Management",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Business Management) · MSECBM",
+        "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-business-management/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-msecma",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Cost and Management Accounting) (MSECMA)",
+      "level": "undergraduate",
+      "field": "Cost and Management Accounting",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Cost and Management Accounting) · MSECMA",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-cost-and-management-accounting/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-msebce",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Economics) (MSEBCE)",
+      "level": "undergraduate",
+      "field": "Economics",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Economics) · MSEBCE",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-economics/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    },
+    {
+      "key": "venda-msehr",
+      "institutionKey": "venda",
+      "name": "Extended Bachelor of Commerce (Human Resources Management) (MSEHR)",
+      "level": "undergraduate",
+      "field": "Human Resources Management",
+      "source": {
+        "title": "University of Venda · Extended Bachelor of Commerce (Human Resources Management) · MSEHR",
+        "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-human-resources-management/",
+        "checkedOn": "2026-11-28"
+      },
+      "sharedRequirementKeys": ["venda_mc_extended"],
+      "priorSharedRequirements": [
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_international"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_grade12"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_prior_study"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-science-20261123-v1",
+          "key": "venda27_aps_method"
+        },
+        {
+          "datasetVersion": "official-admissions-facts-venda-humanities-health-20261123-v1",
+          "key": "venda_hh_application_window"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "institutionKey": "venda",
+      "programId": null,
+      "academicYear": "2027",
+      "intakeTerm": "unspecified",
+      "level": "undergraduate",
+      "entryType": "first_year",
+      "applicantType": "all",
+      "deliveryMode": "unspecified",
+      "notes": "South African first-year requirements for the 2027 intake. Programme codes distinguish standard and extended degrees. Where official sources give different subject conditions, both are identified.",
+      "requirements": [
+        {
+          "key": "venda_mc_aps32",
+          "label": "Minimum NSC admission score",
+          "details": "Applicants on the National Senior Certificate route need at least 32 APS in addition to the programme’s subject requirements.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_public_subjects",
+          "label": "Public Administration subject grades",
+          "details": "Achieve NSC level 3 or above (at least 40%) in any three subjects in addition to the English requirement.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_accountancy_credits",
+          "label": "Four recognised NSC subjects for Accountancy",
+          "details": "The Department of Accountancy requires level 4 or higher (at least 50%) in four recognised 20-credit NSC subjects for entry to its undergraduate degrees.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Accounting Sciences · MSBCAS",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-accounting-sciences/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_accounting_sciences",
+          "label": "Accounting Sciences mathematics by school subject history",
+          "details": "The 2027 prospectus lists Mathematics at 50%. The course page specifies 55% in Mathematics without matric Accounting, or 50% in Mathematics with at least 60% in matric Accounting. It does not specify the route for an Accounting result below 60%. Confirm the applicable threshold with the department.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Accounting Sciences · MSBCAS",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-accounting-sciences/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_tourism_math",
+          "label": "Tourism Management mathematics options",
+          "details": "Obtain at least 50% in Mathematical Literacy or at least 40% in Mathematics.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_tourism_subjects",
+          "label": "Tourism Management subject choices",
+          "details": "Achieve at least 40% in two of Accounting, Business Studies, Economics, Information Technology, Geography and Tourism.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_accounting_or_math",
+          "label": "Accounting or Mathematics in the prospectus",
+          "details": "The prospectus lists Accounting or Mathematics at NSC level 4 (at least 50%). See any additional mathematics condition on the individual course page.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_bcom_accounting",
+          "label": "Mathematics among the four admission subjects",
+          "details": "The Accounting course page specifically requires Mathematics at level 4 (at least 50%) among the four admission subjects, even though the prospectus lists Accounting or Mathematics. Applicants relying on Accounting should confirm eligibility with the department.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Accounting · MSBBCA",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-accounting/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_bis_prospectus",
+          "label": "Business Information Systems mathematics options in the prospectus",
+          "details": "The 2027 prospectus lists at least 40% in Mathematics or 75% in Mathematical Literacy. The programme page publishes a higher Mathematical Literacy threshold.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_bis_department",
+          "label": "Business Information Systems programme-page thresholds",
+          "details": "The 2027 course page specifies level 7 (at least 80%) for Mathematical Literacy. It also requires level 3 (at least 40%) in each of two 20-credit subjects from Accounting, Business Studies, Economics, Computer Studies and Information Technology. Applicants using Mathematical Literacy should confirm which threshold applies.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Business Information Systems · MSBIS",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-business-information-systems/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_management",
+          "label": "Business Management school subjects",
+          "details": "Achieve at least 50% in Business Studies and at least 40% in each of two subjects from Accounting, Economics, Information Technology and Mathematics.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_economics",
+          "label": "Economics school subjects",
+          "details": "Earn at least 50% in Economics or Mathematics and at least 40% in two of Accounting, Business Studies and Information Technology.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_people_subjects",
+          "label": "Two subjects for the commerce people-management degrees",
+          "details": "The prospectus requires at least 40% in two of Accounting, Business Studies, Economics, Information Technology and Mathematics.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_hr_course",
+          "label": "Human Resource Management’s narrower subject list",
+          "details": "The course page calls for two of Accounting, Economics and Mathematics at 40% or higher among the four 20-credit admission subjects. The prospectus also lists Business Studies and Information Technology. Applicants relying on either should check with the faculty.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Human Resource Management · MSBHR",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-human-resource-management/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_industrial_credits",
+          "label": "Industrial Psychology credit-bearing subjects",
+          "details": "The two qualifying school subjects must be among the four 20-credit subjects used for admission.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · Bachelor of Commerce in Industrial Psychology · MSBIP",
+            "url": "https://www.univen.ac.za/programmes/bachelor-of-commerce-in-industrial-psychology/",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_law",
+          "label": "Bachelor of Laws APS and English",
+          "details": "The four-year LLB requires at least 38 APS and a minimum of 60% in English under the NSC route.",
+          "status": "required",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_extended",
+          "label": "Consideration for a four-year extended degree",
+          "details": "Applicants who miss standard entry to their chosen degree may be considered with Grade 12 bachelor’s admission or earlier matriculation with university exemption, and an APS of 28–31 excluding Life Orientation.",
+          "status": "conditional",
+          "category": "academic",
+          "source": {
+            "title": "University of Venda · 2027 undergraduate prospectus",
+            "url": "https://www.univen.ac.za/wp-content/uploads/2026/03/2027-Univen-Undergraduate-Prospectus.pdf",
+            "checkedOn": "2026-11-28"
+          }
+        },
+        {
+          "key": "venda_mc_extended_bis",
+          "label": "Selection priority for extended Business Information Systems",
+          "details": "Places are limited and awarded on performance. Applicants with 30–31 APS have priority within the published consideration range.",
+          "status": "conditional",
+          "category": "application",
+          "source": {
+            "title": "University of Venda · Extended Bachelor of Commerce (Business Information Systems) · MSEIS",
+            "url": "https://www.univen.ac.za/programmes/extended-bachelor-of-commerce-business-information-systems/",
+            "checkedOn": "2026-11-28"
+          }
+        }
+      ]
+    }
+  ]
+}
