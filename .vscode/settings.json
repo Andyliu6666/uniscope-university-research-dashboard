@@ -6,5 +6,12 @@
   },
   "terminal.integrated.env.linux": {
     "PATH": "${workspaceFolder}/.tools/node/bin:${workspaceFolder}/.venv/bin:${env:PATH}"
-  }
+  },
+  "terminal.integrated.profiles.osx": {
+    "UniScope (zsh)": {
+      "path": "/bin/zsh",
+      "args": ["-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "UniScope (zsh)"
 }
